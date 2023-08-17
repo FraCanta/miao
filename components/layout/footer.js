@@ -16,7 +16,7 @@ const Footer = ({ translation }) => {
           <div className="text-right text-main text-base lg:text-[0.9rem] xl:text-base fxl:text-xl 3xl:text-2xl font-light capitalize">
             {translation?.[locale]?.col1?.row1?.title}
           </div>
-          <div className="text-main text-[32px] lg:text-[18px] xl:text-[32px] fxl:text-4xl 3xl:text-5xl font-extrabold capitalize h-[39px] lg:h-[29px] xl:h-[39px]">
+          <div className="text-red text-[32px] lg:text-[18px] xl:text-[32px] fxl:text-4xl 3xl:text-5xl font-extrabold capitalize h-[39px] lg:h-[29px] xl:h-[39px]">
             <Link
               href="https://calendly.com/thalliondev/parliamo-del-tuo-progetto"
               target="_blank"
@@ -29,7 +29,7 @@ const Footer = ({ translation }) => {
           <div className="text-right text-main text-base lg:text-[0.9rem] xl:text-base fxl:text-xl 3xl:text-2xl font-light capitalize">
             {translation?.[locale]?.col2?.row1?.title}
           </div>
-          <div className="text-main text-[32px] lg:text-[18px] xl:text-[32px] fxl:text-4xl 3xl:text-5xl font-extrabold capitalize h-[39px] lg:h-[29px] xl:h-[39px]">
+          <div className="text-red text-[32px] lg:text-[18px] xl:text-[32px] fxl:text-4xl 3xl:text-5xl font-extrabold capitalize h-[39px] lg:h-[29px] xl:h-[39px]">
             <Link href="/contact" target="_blank">
               {" "}
               {translation?.[locale]?.col2?.row1?.cta}
@@ -43,7 +43,7 @@ const Footer = ({ translation }) => {
           <div className="text-main text-xs fxl:text-xl 3xl:text-2xl font-light capitalize">
             Via Jacopo della Quercia , 2 - 20096 Pioltello (MI)
           </div>
-          <div className="text-main text-xs fxl:text-xl 3xl:text-2xl font-extrabold lowercase">
+          <div className="text-main text-xs  fxl:text-xl 3xl:text-2xl font-extrabold lowercase">
             +39 340 853 9159 - miaographics@gmail.com
           </div>
         </div>
