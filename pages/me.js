@@ -13,15 +13,15 @@ const Me = () => {
           <Image
             src={Graffa}
             alt="lampadina"
-            className="object-contain w-[250px] lg:w-[420px] xl:w-[420px] fxl:w-[500px] 3xl:w-[750px] h-full"
-            width={420}
+            className="object-contain w-[230px] lg:w-[420px] xl:w-[420px] fxl:w-[500px] 3xl:w-[750px] h-full"
+            // width={420}
           />
         </div>
         <Image
           src={Lampadina}
           alt="lampadina"
-          className="object-contain lg:w-[500px] xl:w-[680px] fxl:w-[1000px] 3xl:w-[1200px] h-full"
-          width={680}
+          className="object-contain w-full lg:w-[500px] xl:w-[680px] fxl:w-[1000px] 3xl:w-[1200px] h-full"
+          //   width={680}
         />
       </div>
     </div>
