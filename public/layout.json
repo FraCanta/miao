@@ -8,14 +8,14 @@
       "contatti": "contatti",
       "col1": {
         "row1": {
-          "title": "Vuoi una consulenza?",
-          "cta": "Prenota una call"
+          "title": "Vuoi collaborare con me?",
+          "cta": "Cominciamo."
         }
       },
       "col2": {
         "row1": {
-          "title": "Hai Bisogno Di Aiuto?",
-          "cta": "Contattami"
+          "title": "Vuoi saperne di più?",
+          "cta": "Contattami."
         }
       }
     },
@@ -23,7 +23,19 @@
       "me": "who i am",
       "servizi": "services",
       "portfolio": "portfolio",
-      "contatti": "contacts"
+      "contatti": "contacts",
+      "col1": {
+        "row1": {
+          "title": "Do you want to collaborate with me?",
+          "cta": "Let's get started"
+        }
+      },
+      "col2": {
+        "row1": {
+          "title": "Do you want to know more?",
+          "cta": "Contact Me."
+        }
+      }
     }
   },
   "footer": {
