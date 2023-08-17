@@ -210,7 +210,7 @@ const Menu = ({ translation }) => {
                 <li onClick={handleOpen}>
                   <Link
                     href="/"
-                    className="text-[22px] md:text-[38px] lg:text-4xl  font-regular text-main "
+                    className="text-[25px] md:text-[38px] lg:text-4xl  font-regular text-main "
                   >
                     {translation?.[locale]?.contatti}
                   </Link>
