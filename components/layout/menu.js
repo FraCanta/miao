@@ -5,9 +5,15 @@ import Logo from "../../public/assets/logo.png";
 import { useRouter } from "next/router";
 import { Icon } from "@iconify/react";
 import socials from "../../utils/socials.json";
+import { useState } from "react";
 const Menu = ({ translation }) => {
   const { locale } = useRouter();
-  console.log(translation);
+
+  const [open, setOpen] = useState(false);
+  const handleOpen = () => {
+    setOpen(!open);
+  };
+
   return (
     <header>
       <nav
@@ -103,11 +109,12 @@ const Menu = ({ translation }) => {
             <Icon
               icon="jam:menu"
               className="w-[35px] h-[35px] md:w-[50px] md:h-[50px]"
+              onClick={handleOpen}
             />
           </div>
         </div>
 
-        {/* <div
+        <div
           className="h-screen w-screen fixed top-0 left-0  transition-transform duration-500 ease-in-out transform"
           style={{
             transform: open ? "translateX(0)" : "translateX(-100%) ",
@@ -116,7 +123,7 @@ const Menu = ({ translation }) => {
         >
           <div className="w-1/2 contacts hidden lg:block" id="contact1"></div>
           <div
-            className={`w-11/12 h-screen md:w-[70%] lg:w-[60%] xl:w-[40%] flex flex-col p-4 md:p-6 lg:p-8 contact lg:bg-none  ${
+            className={`w-11/12 h-screen md:w-[70%] lg:w-[60%] xl:w-[40%] flex flex-col p-4 md:p-6 lg:p-8 contact bg-white  ${
               open ? "block" : "hidden"
             }`}
             id="contact2"
@@ -124,7 +131,7 @@ const Menu = ({ translation }) => {
             <div className="text-main w-full flex items-center justify-end py-1 ">
               <div className="flex items-center" id="close">
                 <Icon
-                  icon="teenyicons:eye-closed-outline"
+                  icon="ep:close"
                   className="w-[20px] h-[20px] md:w-[35px] md:h-[40px] lg:w-[30px] lg:h-[30px] cursor-pointer mr-4"
                   onClick={handleOpen}
                 />
@@ -133,7 +140,7 @@ const Menu = ({ translation }) => {
 
             <div className="flex flex-col justify-between  " id="details">
               <ul
-                className="xl:leading-9 mt-4 lg:mt-2 xl:mt-10 text-main flex flex-col gap-6 md:gap-12"
+                className="xl:leading-9 mt-4 text-main flex flex-col gap-6 md:gap-12 capitalize"
                 onClick={handleOpen}
               >
                 <li onClick={handleOpen}>
@@ -151,7 +158,7 @@ const Menu = ({ translation }) => {
                   >
                     {translation?.[locale]?.servizi}
                   </Link>
-                  <div className="collapse collapse-arrow">
+                  {/* <div className="collapse collapse-arrow">
                     <input type="checkbox" />
                     <div className="collapse-title  text-[25px] md:text-[38px] lg:text-4xl text-main font-regula !p-0 flex items-center">
                       {translation?.[locale]?.servizi}
@@ -182,11 +189,11 @@ const Menu = ({ translation }) => {
                         )}
                       </ul>
                     </div>
-                  </div>
+                  </div> */}
                 </li>
                 <li onClick={handleOpen}>
                   <Link
-                    href="/portfolio"
+                    href="/"
                     className="mr-8 text-[25px] md:text-[38px] lg:text-4xl text-main font-regular"
                   >
                     {translation?.[locale]?.portfolio}
@@ -196,29 +203,23 @@ const Menu = ({ translation }) => {
                   className="text-[25px] md:text-[38px] lg:text-4xl  flex items-center"
                   onClick={handleOpen}
                 >
-                  <div className="relative ">
-                    <Link href="/blog" className="text-main font-regular">
-                      D<span className="text-second">c</span>B
-                    </Link>
-
-                 
-                  </div>
+                  <Link href="/" className="text-main font-regular">
+                    {translation?.[locale]?.blog}
+                  </Link>
                 </li>
-                <li onClick={handleOpen} className="mt-6">
+                <li onClick={handleOpen}>
                   <Link
-                    href="/contact"
-                    className="flex items-center mr-14 md:mr-24 text-[22px] md:text-[35px] lg:text-4xl  font-bold py-2.5 pl-3.5 md:py-3.5 border rounded-xl shadow bg-second text-first "
+                    href="/"
+                    className="text-[22px] md:text-[38px] lg:text-4xl  font-regular text-main "
                   >
-                    {translation?.[locale]?.contact}
-                    <Icon icon="majesticons:chevron-right-line" />
+                    {translation?.[locale]?.contatti}
                   </Link>
                 </li>
               </ul>
               <div className="flex items-center  w-full h-full mt-10 md:mt-14">
                 <div className="flex flex-col w-full">
-               
                   <div className="flex">
-                    {socials?.Francesca?.map((el, i) => (
+                    {socials?.Elisa?.map((el, i) => (
                       <Link
                         href={el?.url}
                         target="_blank"
@@ -240,7 +241,7 @@ const Menu = ({ translation }) => {
                         href="https://calendly.com/thalliondev/parliamo-del-tuo-progetto"
                         target="_blank"
                       >
-                        <h4 className="text-2xl md:text-4xl ">
+                        <h4 className="text-2xl md:text-4xl text-red font-bold">
                           {" "}
                           {translation?.[locale]?.col1?.row1?.cta}
                         </h4>
@@ -249,7 +250,7 @@ const Menu = ({ translation }) => {
                     <div className="flex flex-col text-main capitalize md:text-xl">
                       <p> {translation?.[locale]?.col2?.row1?.title}</p>
                       <Link href="/contact" target="_blank">
-                        <h4 className="text-2xl md:text-4xl">
+                        <h4 className="text-2xl md:text-4xl text-red font-bold">
                           {" "}
                           {translation?.[locale]?.col2?.row1?.cta}
                         </h4>
@@ -260,7 +261,7 @@ const Menu = ({ translation }) => {
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
       </nav>
     </header>
   );
