@@ -1,0 +1,77 @@
+{
+  "menu": {
+    "it": {
+      "me": "chi sono",
+      "servizi": "cosa offro",
+      "portfolio": "portfolio",
+      "blog": "blog",
+      "contatti": "contatti",
+      "col1": {
+        "row1": {
+          "title": "Vuoi una consulenza?",
+          "cta": "Prenota una call"
+        }
+      },
+      "col2": {
+        "row1": {
+          "title": "Hai Bisogno Di Aiuto?",
+          "cta": "Contattami"
+        }
+      }
+    },
+    "en": {
+      "me": "who i am",
+      "servizi": "services",
+      "portfolio": "portfolio",
+      "contatti": "contacts"
+    }
+  },
+  "footer": {
+    "it": {
+      "col1": {
+        "row1": {
+          "title": "Vuoi collaborare con me?",
+          "cta": "Cominciamo."
+        }
+      },
+      "col2": {
+        "row1": {
+          "title": "Vuoi saperne di più?",
+          "cta": "Contattami."
+        }
+      }
+    },
+    "en": {
+      "col1": {
+        "row1": {
+          "title": "Do you want to collaborate with me?",
+          "cta": "Let's get started"
+        }
+      },
+      "col2": {
+        "row1": {
+          "title": "Do you want to know more?",
+          "cta": "Contact Me."
+        }
+      }
+    }
+  },
+  "socials": [
+    {
+      "name": "facebook",
+      "url": "https://www.facebook.com/thalliondev",
+      "icon": "entypo-social:facebook"
+    },
+
+    {
+      "name": "instagram",
+      "url": "https://www.instagram.com/thallion.dev/",
+      "icon": "ph:instagram-logo-fill"
+    },
+    {
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/in/francesca-cantale-30730b182/",
+      "icon": "devicon-plain:linkedin"
+    }
+  ]
+}

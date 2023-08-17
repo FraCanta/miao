@@ -1,0 +1,20 @@
+{
+  "Elisa": [
+    {
+      "name": "facebook",
+      "url": "https://www.facebook.com/thalliondev",
+      "icon": "entypo-social:facebook"
+    },
+
+    {
+      "name": "instagram",
+      "url": "https://www.instagram.com/thallion.dev/",
+      "icon": "ph:instagram-logo-fill"
+    },
+    {
+      "name": "behance",
+      "url": "https://www.linkedin.com/in/francesca-cantale-30730b182/",
+      "icon": "fa6-brands:square-behance"
+    }
+  ]
+}

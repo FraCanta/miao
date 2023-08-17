@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --main: #39373c;
+  --paragraph: #606060;
+  --red: #de4928;
+  --white: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+}
