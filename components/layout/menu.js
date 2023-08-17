@@ -36,7 +36,7 @@ const Menu = ({ translation }) => {
           <div className="lg:flex items-center  hidden capitalize">
             <div className="w-full flex items-center justify-end">
               <Link
-                href="/"
+                href="/me"
                 className="mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] fxl:text-[25px] 3xl:text-[35px] 4xl:text-[55px]  text-main font-regular"
               >
                 {translation?.[locale]?.me}
@@ -55,7 +55,7 @@ const Menu = ({ translation }) => {
                   /> */}
               </Link>
               <Link
-                href="/portfolio"
+                href="/"
                 className="mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] fxl:text-[25px] 3xl:text-[35px] 4xl:text-[55px] text-main font-regular"
               >
                 {translation?.[locale]?.portfolio}
@@ -81,7 +81,7 @@ const Menu = ({ translation }) => {
                 /> */}
               </div>
               <Link
-                href="/contact"
+                href="/"
                 className="flex items-center text-[16px] md:text-[1.1rem] fxl:text-[25px] 3xl:text-[35px] 4xl:text-[55px]  font-regular fxl:text-2xl 3xl:text-3xl text-main  "
               >
                 {translation?.[locale]?.contatti}
