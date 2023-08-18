@@ -16,7 +16,7 @@ const HeroHome = ({ translation }) => {
           priority
         />
       </div>
-      <div className="block lg:hidden">
+      <div className="block lg:hidden pr-4">
         <Image
           className="object-contain  "
           src={MobileRet}
