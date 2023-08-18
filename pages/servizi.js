@@ -43,7 +43,7 @@ export async function getStaticProps(locale, context) {
 
   return {
     props: {
-      translation: obj?.me,
+      translation: obj?.servizi,
     },
     revalidate: 60,
   };

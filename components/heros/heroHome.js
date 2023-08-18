@@ -4,7 +4,7 @@ import Tigre from "../../public/pageImg/tigre.png";
 import Rettangolo from "../../public/pageImg/disegno.png";
 import MobileRet from "../../public/pageImg/rettangolo_mobile.png";
 
-const HeroHome = () => {
+const HeroHome = ({ translation }) => {
   return (
     <>
       <div className="h-full overflow-hidden hidden lg:block">
@@ -13,16 +13,23 @@ const HeroHome = () => {
           src={Rettangolo}
           alt="home image"
           width={550}
+          priority
         />
       </div>
       <div className="block lg:hidden">
-        <Image className="object-contain  " src={MobileRet} alt="home image" />
+        <Image
+          className="object-contain  "
+          src={MobileRet}
+          alt="home image"
+          priority
+        />
       </div>
 
       <div className="text-main text-[75px] md:text-[150px] md:leading-[130px] lg:text-[80px] lg:leading-[65px] xl:text-[95px] xl:leading-[85px] 2xl:text-[110px] fxl:text-[150px] fxl:leading-[120px] 3xl:text-[180px] 3xl:leading-[160px] font-normal leading-[77.88px] mt-10 mb-8 md:mt-20 2xl:leading-[94.50px] lg:absolute top-[40%] fxl:top-1/2 lg:left-[25%] xl:left-[24%] 2xl:left-[20%] fxl:left-[24%]">
         <h1>
-          Soluzioni <br />
-          creative{" "}
+          {translation?.title?.uno}
+          <br />
+          {translation?.title?.due}
         </h1>
       </div>
       <Image
@@ -30,6 +37,7 @@ const HeroHome = () => {
         src={Tigre}
         alt="home image"
         width={650}
+        priority
       />
     </>
   );

@@ -43,49 +43,29 @@ const Menu = ({ translation }) => {
               </Link>
 
               <Link
-                href="/"
+                href="/servizi"
                 className="mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  !text-main font-regular capitalize flex items-center"
               >
                 {translation?.[locale]?.servizi}
-                {/* <Icon
-                    icon="bxs:down-arrow"
-                    color="#fffff"
-                    // width="10"
-                    className="ml-2 w-[8px] 3xl:w-[18px]"
-                  /> */}
               </Link>
               <Link
-                href="/"
+                href="/portfolio"
                 className="mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] fxl:text-[25px] 3xl:text-[35px] 4xl:text-[55px] text-main font-regular"
               >
                 {translation?.[locale]?.portfolio}
               </Link>
-              <div className="relative ">
-                <Link
-                  href="/blog"
-                  className="mr-[2.35rem] 3xl:mr-12 text-[16px] 4xl:mr-16 md:text-[1.2rem] fxl:text-[25px] 3xl:text-[40px] 4xl:text-[55px] text-main font-regular"
-                >
-                  {translation?.[locale]?.blog}
-                </Link>
-
-                {/* <DynamicLottie
-                  options={defaultOptions}
-                  style={{
-                    position: "absolute",
-                    width: "60%",
-                    height: "20%",
-                    top: "80%",
-                    left: "0",
-                    fill: "red !important",
-                  }}
-                /> */}
-              </div>
               <Link
-                href="/"
+                href="/blog"
+                className="mr-[2.35rem] 3xl:mr-12 text-[16px] 4xl:mr-16 md:text-[1.2rem] fxl:text-[25px] 3xl:text-[40px] 4xl:text-[55px] text-main font-regular"
+              >
+                {translation?.[locale]?.blog}
+              </Link>
+
+              <Link
+                href="/contatti"
                 className="flex items-center text-[16px] md:text-[1.1rem] fxl:text-[25px] 3xl:text-[35px] 4xl:text-[55px]  font-regular fxl:text-2xl 3xl:text-3xl text-main  "
               >
                 {translation?.[locale]?.contatti}
-                {/* <Icon icon="majesticons:chevron-right-line" /> */}
               </Link>
             </div>
           </div>

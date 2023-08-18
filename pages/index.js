@@ -1,7 +1,11 @@
 import Head from "next/head";
 import HeroHome from "../components/heros/heroHome";
 import SlideAnimation from "@/components/slideAnimation/slideAnimation";
-export default function Home() {
+import translationIT from "../public/locales/it/it.json";
+import translationEN from "../public/locales/en/en.json";
+
+export default function Home({ translation }) {
+  // console.log(translation);
   return (
     <>
       <Head>
@@ -30,9 +34,32 @@ export default function Home() {
       </Head>
       {/* <SlideAnimation direction="forward"> */}
       <div className="w-full min-h-[calc(40vh_-_80px)] lg:h-[calc(100vh_-_70px)]  2xl:h-[calc(100vh_-_100px)] fxl:h-[calc(100vh_-_150px)]  4xl:h-[calc(100vh_-_250px)] mx-auto flex flex-col lg:flex-row items-center justify-between">
-        <HeroHome />
+        <HeroHome translation={translation?.hero} />
       </div>
       {/* </SlideAnimation> */}
     </>
   );
+}
+
+export async function getStaticProps(locale, context) {
+  let obj;
+  switch (locale.locale) {
+    case "it":
+      obj = translationIT;
+      break;
+
+    case "en":
+      obj = translationEN;
+      break;
+    default:
+      obj = translationIT;
+      break;
+  }
+
+  return {
+    props: {
+      translation: obj?.home,
+    },
+    revalidate: 60,
+  };
 }
