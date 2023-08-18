@@ -28,7 +28,7 @@ const SectionDue = ({ translation }) => {
         />
         <div className="2xl:w-1/2 h-full flex-col justify-start items-start gap-[31px] inline-flex">
           <div className="w-full h-full justify-start items-end flex">
-            <h3 className="text-main text-[40px] md:text-6xl  font-extrabold capitalize leading-normal">
+            <h3 className="text-main text-[40px] fxl:text-6xl  font-extrabold capitalize leading-normal">
               <span>{translation?.titoloP}</span>
 
               <span className="text-red text-[40px] md:text-6xl  font-extrabold capitalize ">
@@ -36,13 +36,13 @@ const SectionDue = ({ translation }) => {
               </span>
             </h3>
           </div>
-          <p className="text-second text-[1.125rem] md:text-[1.4rem] 3xl:text-[1.8rem] font-normal leading-normal">
+          <p className="text-second text-[1.125rem] fxl:text-[1.4rem] 3xl:text-[1.8rem] font-normal leading-normal">
             {translation?.descrizione}
           </p>
           <div className="w-full 2xl:justify-end items-center inline-flex">
             <Link
               href="/servizi"
-              className="text-main text-2xl md:text-3xl 3xl:text-4xl font-extrabold underline capitalize leading-normal "
+              className="text-main text-2xl fxl:text-3xl 3xl:text-4xl font-extrabold underline capitalize leading-normal "
             >
               {translation?.cta}
             </Link>

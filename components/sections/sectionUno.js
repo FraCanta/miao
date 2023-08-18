@@ -21,7 +21,7 @@ const SectionUno = ({ translation }) => {
               return (
                 <p
                   key={i}
-                  className="text-second text-[1.125rem] md:text-[1.4rem] 3xl:text-[1.8rem] font-normal leading-normal"
+                  className="text-second text-[1.125rem] fxl:text-[1.4rem] 3xl:text-[1.8rem] font-normal leading-normal"
                 >
                   {p}
                 </p>
@@ -32,7 +32,7 @@ const SectionUno = ({ translation }) => {
         <div className="w-full h-full justify-start items-center inline-flex mt-6">
           <Link
             href="/me"
-            className="text-main text-2xl md:text-3xl 3xl:text-4xl font-extrabold underline capitalize leading-normal"
+            className="text-main text-2xl fxl:text-3xl 3xl:text-4xl font-extrabold underline capitalize leading-normal"
           >
             {translation?.cta}{" "}
           </Link>

@@ -10,6 +10,7 @@ import Image from "next/image";
 import Link from "next/link";
 import SectionDue from "@/components/sections/sectionDue";
 import SectionTre from "@/components/sections/sectionTre";
+import SectionsQuattro from "@/components/sections/sectionsQuattro";
 
 export default function Home({ translation }) {
   console.log(translation);
@@ -46,6 +47,7 @@ export default function Home({ translation }) {
       <SectionUno translation={translation?.sezioneUno} />
       <SectionDue translation={translation?.sezioneDue} />
       <SectionTre translation={translation?.sezioneTre} />
+      <SectionsQuattro translation={translation?.sezioneQuattro} />
 
       {/* </SlideAnimation> */}
     </>
