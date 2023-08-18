@@ -38,6 +38,25 @@
           "cta": "Contact Me."
         }
       }
+    },
+    "fr": {
+      "me": "Qui suis-je",
+      "servizi": "services",
+      "portfolio": "portfolio",
+      "blog": "blog",
+      "contatti": "contacts",
+      "col1": {
+        "row1": {
+          "title": "Voulez-vous collaborer avec moi ?",
+          "cta": "Commençons."
+        }
+      },
+      "col2": {
+        "row1": {
+          "title": "Vous voulez en savoir plus ?",
+          "cta": "Contactez-moi."
+        }
+      }
     }
   },
   "footer": {
@@ -66,6 +85,20 @@
         "row1": {
           "title": "Do you want to know more?",
           "cta": "Contact Me."
+        }
+      }
+    },
+    "fr": {
+      "col1": {
+        "row1": {
+          "title": "Voulez-vous collaborer avec moi ?",
+          "cta": "Commençons."
+        }
+      },
+      "col2": {
+        "row1": {
+          "title": "Vous voulez en savoir plus ?",
+          "cta": "Contactez-moi."
         }
       }
     }

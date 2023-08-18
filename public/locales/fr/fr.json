@@ -2,8 +2,8 @@
   "home": {
     "hero": {
       "title": {
-        "uno": "Creative",
-        "due": "Solutions"
+        "uno": "Solutions",
+        "due": "créatives"
       }
     },
     "sezioneUno": {
@@ -11,13 +11,13 @@
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       ],
-      "cta": "let's meet",
-      "title": "/sectionsTitle/sezioneUno.png"
+      "cta": "Découvrir",
+      "title": "/sectionsTitle/welcomeTitle.png"
     }
   },
   "me": {
     "hero": {
-      "title": "/pageImg/meTitle_en.png",
+      "title": "/pageImg/meTitle_fr.png",
       "img": "/pageImg/lampadina.png"
     }
   },
@@ -35,7 +35,7 @@
   },
   "blog": {
     "hero": {
-      "title": "/pageImg/blogTitle_en.png",
+      "title": "/pageImg/blogTitle_fr.png",
       "img": "/pageImg/gattina.png"
     }
   },
