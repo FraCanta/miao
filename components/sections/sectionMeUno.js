@@ -30,7 +30,7 @@ const SectionMeUno = ({ translation }) => {
         </div>
       </div>
       <Image
-        className="2xl:w-[550px] 2xl:h-[550px] object-contain"
+        className="2xl:w-[550px] 2xl:h-[550px] object-contain mt-6 2xl:mt-0"
         src={translation?.img}
         alt=""
         width={450}
