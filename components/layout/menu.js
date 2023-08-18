@@ -133,47 +133,15 @@ const Menu = ({ translation }) => {
                 </li>
                 <li>
                   <Link
-                    href="/"
+                    href="/servizi"
                     className="mr-8 text-[25px] md:text-5xl lg:text-4xl text-main font-regular"
                   >
                     {translation?.[locale]?.servizi}
                   </Link>
-                  {/* <div className="collapse collapse-arrow">
-                    <input type="checkbox" />
-                    <div className="collapse-title  text-[25px] md:text-[38px] lg:text-4xl text-main font-regula !p-0 flex items-center">
-                      {translation?.[locale]?.servizi}
-                    </div>
-                    <div className="collapse-content !pr-0 !pl-0 ">
-                      <ul className="list-disc">
-                        {translation?.[locale]?.singleService?.map(
-                          (service, i) => (
-                            <li
-                              key={i}
-                              className="my-3 md:my-4 pr-4"
-                              onClick={handleOpen}
-                            >
-                              <Link
-                                className=" text-md md:text-[1.5rem] l text-main capitalize  flex items-center justify-between w-full bg-first/30 p-2 rounded"
-                                href={`/service/${service?.link}`}
-                              >
-                                <p>{service?.name}</p>
-                                <span>
-                                  <Icon
-                                    icon="cil:arrow-right"
-                                    className="w-3 h-3 md:w-4 md:h-4"
-                                  />
-                                </span>
-                              </Link>
-                            </li>
-                          )
-                        )}
-                      </ul>
-                    </div>
-                  </div> */}
                 </li>
                 <li onClick={handleOpen}>
                   <Link
-                    href="/"
+                    href="/portfolio"
                     className="mr-8 text-[25px] md:text-[38px] lg:text-4xl text-main font-regular"
                   >
                     {translation?.[locale]?.portfolio}
@@ -183,13 +151,13 @@ const Menu = ({ translation }) => {
                   className="text-[25px] md:text-[38px] lg:text-4xl  flex items-center"
                   onClick={handleOpen}
                 >
-                  <Link href="/" className="text-main font-regular">
+                  <Link href="/blog" className="text-main font-regular">
                     {translation?.[locale]?.blog}
                   </Link>
                 </li>
                 <li onClick={handleOpen}>
                   <Link
-                    href="/"
+                    href="/contatti"
                     className="text-[25px] md:text-[38px] lg:text-4xl  font-regular text-main "
                   >
                     {translation?.[locale]?.contatti}
