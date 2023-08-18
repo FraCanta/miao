@@ -6,6 +6,9 @@ import translationEN from "../public/locales/en/en.json";
 import translationFR from "../public/locales/fr/fr.json";
 
 import SectionUno from "@/components/sections/sectionUno";
+import Image from "next/image";
+import Link from "next/link";
+import SectionDue from "@/components/sections/sectionDue";
 
 export default function Home({ translation }) {
   console.log(translation);
@@ -40,6 +43,7 @@ export default function Home({ translation }) {
         <HeroHome translation={translation?.hero} />
       </div>
       <SectionUno translation={translation?.sezioneUno} />
+      <SectionDue translation={translation?.sezioneDue} />
       {/* </SlideAnimation> */}
     </>
   );
