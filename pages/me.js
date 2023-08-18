@@ -8,6 +8,9 @@ import HeroPage from "@/components/heros/heroPage";
 import Lampadina from "@/public/pageImg/lampadina.png";
 import Graffa from "@/public/pageImg/meTitle.png";
 import Head from "next/head";
+import Image from "next/image";
+import SectionMeUno from "@/components/sections/sectionMeUno";
+import SectionMeDue from "@/components/sections/sectionMeDue";
 
 const Me = ({ translation }) => {
   // console.log(translation);
@@ -22,6 +25,8 @@ const Me = ({ translation }) => {
           img={translation?.hero?.img}
         />
       </div>
+      <SectionMeUno translation={translation?.sezioneUno} />
+      <SectionMeDue translation={translation?.sezioneUno} />
     </>
   );
 };
