@@ -8,7 +8,7 @@ const SectionUno = ({ translation }) => {
     <div className="w-[90%] mx-auto min-h-[40vh] mt-[150px]">
       <div className="w-full h-full  flex-col justify-start items-start gap-[30px] inline-flex mx-auto">
         <Image
-          className="object-cover w-[250px] 2xl:w-[300px] fxl:w-[350px] 3xl:w-[400px]"
+          className="object-cover w-[200px] 2xl:w-[300px] fxl:w-[350px] 3xl:w-[400px]"
           src={translation?.title}
           alt="welcome title"
           width={300}
