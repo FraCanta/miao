@@ -127,68 +127,6 @@ section {
   }
 }
 
-@media screen and (min-width: 2500px) {
-  .marquee__content .logo {
-    width: 180px;
-  }
-
-  .marquee {
-    --gap: 15rem;
-  }
-
-  .eMlkQV {
-    width: 20px;
-    height: 20px;
-  }
-
-  .fNqGxJ {
-    font-size: 28px !important;
-    line-height: 25px !important;
-  }
-
-  .bNlWwC > div > div {
-    font-size: 30px;
-  }
-
-  .fRYNlR {
-    width: 60px !important;
-    height: 60px !important;
-  }
-
-  .jmhlpF {
-    margin-bottom: 30px !important;
-  }
-  .hCDqLO {
-    margin-right: 35px !important;
-  }
-
-  .gBcYjk {
-    font-size: 18px;
-  }
-
-  .fIkVWg {
-    font-size: 18px !important;
-  }
-
-  .kzANES {
-    margin: 0 !important;
-  }
-
-  .swiper-slide .swiper-slide-visible .swiper-slide-active {
-    width: 580px !important;
-  }
-
-  .eMlkQV {
-    width: 25px !important;
-    height: 25px !important;
-  }
-
-  .fRCAcw {
-    font-size: 20px !important;
-    margin-top: 10px;
-  }
-}
-
 @media screen and (min-width: 1900px) {
   .marquee__content .logo {
     width: 180px;
@@ -248,5 +186,78 @@ section {
   .fRCAcw {
     font-size: 20px !important;
     margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  .marquee__content .logo {
+    width: 180px;
+  }
+
+  .marquee {
+    --gap: 15rem;
+  }
+
+  .eMlkQV {
+    width: 20px;
+    height: 20px;
+  }
+
+  .fNqGxJ {
+    font-size: 32px !important;
+    line-height: 40px !important;
+    margin-bottom: 10px;
+  }
+
+  .bNlWwC > div > div {
+    font-size: 33px;
+  }
+
+  .fRYNlR {
+    width: 70px !important;
+    height: 70px !important;
+  }
+
+  .jmhlpF {
+    margin-bottom: 30px !important;
+  }
+
+  .cEynvZ {
+    width: 30px !important;
+    height: 30px !important;
+    margin-bottom: 20px;
+  }
+  .hCDqLO {
+    margin-right: 45px !important;
+  }
+
+  .gBcYjk {
+    font-size: 25px;
+  }
+
+  .fIkVWg {
+    font-size: 25px !important;
+  }
+
+  .kzANES {
+    margin: 0 !important;
+  }
+
+  .swiper-slide .swiper-slide-visible .swiper-slide-active {
+    width: 580px !important;
+  }
+
+  .eMlkQV {
+    width: 25px !important;
+    height: 25px !important;
+  }
+
+  .fRCAcw {
+    font-size: 30px !important;
+    margin-top: 10px;
+  }
+
+  .eDfoHK {
+    width: 2560px !important;
   }
 }

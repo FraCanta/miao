@@ -5,8 +5,8 @@ import React from "react";
 const SectionMeUno = ({ translation }) => {
   return (
     <div className="w-[90%] min-h-[40vh] justify-between items-center mt-[150px] flex flex-col 2xl:flex-row mx-auto">
-      <div className="flex-col justify-between items-center flex 2xl:w-1/2 h-full gap-10">
-        <p className="w-full h-full text-second text-xl fxl:text-2xl 3xl:text-3xl font-normal leading-normal">
+      <div className="flex-col justify-between items-center flex 2xl:w-1/2 h-full gap-10 3xl:gap-14">
+        <p className="w-full h-full text-second text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-[46px] font-normal leading-normal">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -14,7 +14,7 @@ const SectionMeUno = ({ translation }) => {
           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
           pariatur.{" "}
         </p>
-        <p className="w-full h-full text-second text-xl fxl:text-2xl 3xl:text-3xl font-normal leading-normal">
+        <p className="w-full h-full text-second text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-[46px] font-normal leading-normal">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -30,7 +30,7 @@ const SectionMeUno = ({ translation }) => {
         </div>
       </div>
       <Image
-        className="2xl:w-[550px] 2xl:h-[550px] object-contain mt-6 2xl:mt-0"
+        className="2xl:w-[550px] 2xl:h-[550px] 3xl:w-[40%] 3xl:h-auto object-contain mt-6 2xl:mt-0"
         src={translation?.img}
         alt=""
         width={450}
