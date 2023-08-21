@@ -27,7 +27,7 @@ const Me = ({ translation }) => {
       </div>
       <SectionMeUno translation={translation?.sezioneUno} />
       <SectionMeDue translation={translation?.sezioneDue} />
-      <div className="w-[90%] mx-auto min-h-[40vh]  mt-[80px] 2xl:mt-[150px]">
+      <div className="w-[90%] mx-auto min-h-[40vh]  mt-[100px] 2xl:mt-[150px]">
         <Image
           className="object-cover w-full 2xl:w-[550px] fxl:w-[650px] 3xl:w-[800px] pb-14 2xl:py-14 3xl:py-24"
           src={translation?.sezioneTre?.title}

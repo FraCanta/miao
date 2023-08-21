@@ -4,7 +4,7 @@ import React from "react";
 
 const SectionDue = ({ translation }) => {
   return (
-    <div className="w-[90%] min-h-[30vh] flex-col justify-center items-start mt-[80px] 2xl:mt-[150px] flex mx-auto">
+    <div className="w-[90%] min-h-[30vh] flex-col justify-center items-start mt-[100px] 2xl:mt-[150px] flex mx-auto">
       <div className="w-full justify-start items-end gap-[354px] inline-flex">
         <div className="justify-start items-center flex w-full">
           <Image
