@@ -57,6 +57,13 @@
     },
     "sezioneTre": {
       "title": "/sectionsTitle/testimonials.png"
+    },
+    "sezioneQuattro": {
+      "title": "/sectionsTitle/mitha_title.png",
+      "img": "/assets/mitha_animation.gif"
+    },
+    "sezioneForm": {
+      "title": "/sectionsTitle/contact_form.png"
     }
   },
   "servizi": {

@@ -11,6 +11,8 @@ import Head from "next/head";
 import Image from "next/image";
 import SectionMeUno from "@/components/sections/sectionMeUno";
 import SectionMeDue from "@/components/sections/sectionMeDue";
+import SectionMeTre from "@/components/sections/sectionMeTre";
+import ContactForm from "@/components/contactForm/contactForm";
 
 const Me = ({ translation }) => {
   console.log(translation);
@@ -37,6 +39,31 @@ const Me = ({ translation }) => {
           priority
         />
         <div class="elfsight-app-e5f28877-c53f-4c54-8037-22c0d90781f9"></div>{" "}
+      </div>
+      <SectionMeTre translation={translation?.sezioneQuattro} />
+      <div className="w-[90%] min-h-[40vh] justify-between items-center gap-[39px] flex flex-col mx-auto mt-[150px]">
+        <div className="flex-col justify-start items-start gap-[50px] inline-flex">
+          <Image
+            className="object-cover w-[250px] 2xl:w-[300px] fxl:w-[450px] 3xl:w-[550px]"
+            src={translation?.sezioneForm?.title}
+            alt="welcome title"
+            width={500}
+            height={500}
+            priority
+          />
+          <div className="w-full h-auto flex-col justify-start items-start gap-[45px] flex">
+            <div className="w-full h-autotext-second text-xl font-normal leading-7">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. <br />
+              <br />
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur.{" "}
+            </div>
+          </div>
+        </div>
+        <ContactForm />
       </div>
     </>
   );
