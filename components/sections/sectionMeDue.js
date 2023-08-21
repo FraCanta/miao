@@ -3,7 +3,7 @@ import Marquee from "../marquee/marquee";
 import Image from "next/image";
 
 const SectionMeDue = ({ translation }) => {
-  console.log(translation);
+  // console.log(translation);
   return (
     <div className="w-full min-h-[40vh] justify-between items-center mt-[150px] flex mx-auto">
       <div className="w-full h-full">
