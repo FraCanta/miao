@@ -70,6 +70,105 @@
     "hero": {
       "title": "/pageImg/serviceTitle_en.png",
       "img": "/pageImg/gatto.png"
+    },
+    "serviziItem": [
+      {
+        "img": "/serviziImg/logodesign.png",
+        "name": "Logo Design",
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+      },
+      {
+        "img": "/serviziImg/branding.png",
+        "name": "Branding Strategy",
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+      },
+      {
+        "img": "/serviziImg/label.png",
+        "name": "Label & Packaging",
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+      },
+      {
+        "img": "/serviziImg/social.png",
+        "name": "Social Media Strategy",
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+      },
+      {
+        "img": "/serviziImg/campagne.png",
+        "name": "Campagne Pubblicitarie BLT",
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+      },
+      {
+        "img": "/serviziImg/allestimenti.png",
+        "name": "Allestimenti",
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+      },
+      {
+        "img": "/serviziImg/illustrazione.png",
+        "name": "illustrazione Vettoriale e Manuale",
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+      },
+      {
+        "img": "/serviziImg/contentCreator.png",
+        "name": "Content Creator",
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+      }
+    ],
+    "singleService": {
+      "Logo": {
+        "img": "/serviziImg/logodesign.png",
+        "name": "Logo Design",
+        "title": "logo",
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+      },
+      "Branding": {
+        "img": "/serviziImg/branding.png",
+        "name": "Branding Strategy",
+        "title": "branding",
+
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+      },
+      "Label": {
+        "img": "/serviziImg/label.png",
+        "name": "Label & Packaging",
+        "title": "label",
+
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+      },
+      "Social": {
+        "img": "/serviziImg/social.png",
+        "name": "Social Media Strategy",
+        "title": "social",
+
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+      },
+      "Campagne": {
+        "img": "/serviziImg/campagne.png",
+        "name": "Campagne Pubblicitarie BLT",
+        "title": "campagne",
+
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+      },
+      "Allestimenti": {
+        "img": "/serviziImg/allestimenti.png",
+        "name": "Allestimenti",
+        "title": "allestimenti",
+
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+      },
+      "Illustrazione": {
+        "img": "/serviziImg/illustrazione.png",
+        "name": "illustrazione Vettoriale e Manuale",
+        "title": "illustrazione",
+
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+      },
+      "Content": {
+        "img": "/serviziImg/contentCreator.png",
+        "name": "Content Creator",
+        "title": "content",
+
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+      }
     }
   },
   "portfolio": {
