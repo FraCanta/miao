@@ -26,7 +26,7 @@ const Me = ({ translation }) => {
         />
       </div>
       <SectionMeUno translation={translation?.sezioneUno} />
-      <SectionMeDue translation={translation?.sezioneUno} />
+      <SectionMeDue translation={translation?.sezioneDue} />
     </>
   );
 };
