@@ -54,6 +54,9 @@
     },
     "sezioneDue": {
       "title": "/sectionsTitle/clienti_fr.png"
+    },
+    "sezioneTre": {
+      "title": "/sectionsTitle/testimonials_fr.png"
     }
   },
   "servizi": {

@@ -102,6 +102,17 @@ section {
   text-align: center;
 }
 
+.eapps-widget-toolbar {
+  display: none !important;
+}
+
+.huflDf {
+  display: none !important;
+}
+
+.Main__Container-sc-1w4nyzp-0 .kzANES .es-main-container a {
+  display: none !important;
+}
 @media screen and (max-width: 768px) {
   .marquee__content .logo {
     width: 80px;
