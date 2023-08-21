@@ -15,7 +15,6 @@ import SectionMeTre from "@/components/sections/sectionMeTre";
 import ContactForm from "@/components/contactForm/contactForm";
 
 const Me = ({ translation }) => {
-  console.log(translation);
   return (
     <>
       <Head>
@@ -38,10 +37,10 @@ const Me = ({ translation }) => {
           height={300}
           priority
         />
-        <div class="elfsight-app-e5f28877-c53f-4c54-8037-22c0d90781f9"></div>{" "}
+        <div className="elfsight-app-e5f28877-c53f-4c54-8037-22c0d90781f9"></div>{" "}
       </div>
       <SectionMeTre translation={translation?.sezioneQuattro} />
-      <div className="w-[90%] min-h-[40vh] justify-between items-center gap-[39px] flex flex-col mx-auto mt-[150px]">
+      <div className="w-[90%] min-h-[40vh] justify-between items-center gap-[39px] flex flex-col 2xl:flex-row mx-auto mt-[150px]">
         <div className="flex-col justify-start items-start gap-[50px] inline-flex">
           <Image
             className="object-cover w-[250px] 2xl:w-[300px] fxl:w-[450px] 3xl:w-[550px]"
