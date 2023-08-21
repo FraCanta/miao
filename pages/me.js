@@ -29,14 +29,14 @@ const Me = ({ translation }) => {
       <SectionMeDue translation={translation?.sezioneDue} />
       <div className="w-[90%] mx-auto mt-[150px]">
         <Image
-          className="object-cover w-[300px] 2xl:w-[550px] fxl:w-[400px] 3xl:w-[450px] py-14"
+          className="object-cover w-[300px] 2xl:w-[550px] fxl:w-[650px] 3xl:w-[800px] py-14 3xl:py-24"
           src={translation?.sezioneTre?.title}
           alt="welcome title"
           width={300}
           height={300}
           priority
         />
-        <div className="elfsight-app-e5f28877-c53f-4c54-8037-22c0d90781f9"></div>
+        <div class="elfsight-app-e5f28877-c53f-4c54-8037-22c0d90781f9"></div>{" "}
       </div>
     </>
   );
