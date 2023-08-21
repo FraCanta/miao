@@ -17,7 +17,7 @@ const SectionMeDue = ({ translation }) => {
             priority
           />
         </div>
-        <div className="w-full h-full  bg-main flex items-center py-8">
+        <div className="w-full h-full  bg-main flex items-center 2xl:py-8">
           <Marquee />
         </div>
       </div>
