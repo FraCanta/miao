@@ -128,7 +128,14 @@
         "name": "Logo Design",
         "title": "/serviziImg/logo_Title.png",
         "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-        "link": "logo"
+        "link": "logo",
+        "gallery": [
+          { "src": "/serviziImg/LOGOS9.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS23.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS29.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS34.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS45.jpg", "width": 600, "height": 600 }
+        ]
       },
       "branding": {
         "img": "/serviziImg/branding.png",
@@ -136,7 +143,14 @@
         "title": "/serviziImg/branding_Title.png",
 
         "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-        "link": "branding"
+        "link": "branding",
+        "gallery": [
+          { "src": "/serviziImg/LOGOS9.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS23.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS29.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS34.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS45.jpg", "width": 600, "height": 600 }
+        ]
       },
       "label": {
         "img": "/serviziImg/label.png",
@@ -144,7 +158,14 @@
         "title": "/serviziImg/label_Title.png",
 
         "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-        "link": "label"
+        "link": "label",
+        "gallery": [
+          { "src": "/serviziImg/LOGOS9.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS23.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS29.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS34.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS45.jpg", "width": 600, "height": 600 }
+        ]
       },
       "social": {
         "img": "/serviziImg/social.png",
@@ -152,7 +173,14 @@
         "title": "/serviziImg/social_Title.png",
 
         "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-        "link": "social"
+        "link": "social",
+        "gallery": [
+          { "src": "/serviziImg/LOGOS9.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS23.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS29.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS34.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS45.jpg", "width": 600, "height": 600 }
+        ]
       },
       "campagne": {
         "img": "/serviziImg/campagne.png",
@@ -160,7 +188,14 @@
         "title": "/serviziImg/campagne_Title.png",
 
         "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-        "link": "campagne"
+        "link": "campagne",
+        "gallery": [
+          { "src": "/serviziImg/LOGOS9.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS23.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS29.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS34.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS45.jpg", "width": 600, "height": 600 }
+        ]
       },
       "allestimenti": {
         "img": "/serviziImg/allestimenti.png",
@@ -168,7 +203,14 @@
         "title": "/serviziImg/allestimenti_Title.png",
 
         "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-        "link": "allestimenti"
+        "link": "allestimenti",
+        "gallery": [
+          { "src": "/serviziImg/LOGOS9.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS23.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS29.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS34.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS45.jpg", "width": 600, "height": 600 }
+        ]
       },
       "illustrazione": {
         "img": "/serviziImg/illustrazione.png",
@@ -176,7 +218,14 @@
         "title": "/serviziImg/illustrazione_Title.png",
 
         "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-        "link": "illustrazione"
+        "link": "illustrazione",
+        "gallery": [
+          { "src": "/serviziImg/LOGOS9.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS23.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS29.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS34.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS45.jpg", "width": 600, "height": 600 }
+        ]
       },
       "content": {
         "img": "/serviziImg/contentCreator.png",
@@ -184,7 +233,14 @@
         "title": "/serviziImg/content_Title.png",
 
         "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-        "link": "content"
+        "link": "content",
+        "gallery": [
+          { "src": "/serviziImg/LOGOS9.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS23.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS29.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS34.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/LOGOS45.jpg", "width": 600, "height": 600 }
+        ]
       }
     }
   },

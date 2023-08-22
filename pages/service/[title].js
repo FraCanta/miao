@@ -6,21 +6,109 @@ import HeroPage from "@/components/heros/heroPage";
 import Branding from "@/public/serviziImg/branding.png";
 import Head from "next/head";
 import ServiziItem from "@/components/serviziItem/serviziItem";
+import Gallery from "@/components/gallery/gallery";
+import ContactForm from "@/components/contactForm/contactForm";
+import Image from "next/image";
+import Talk from "@/public/sectionsTitle/contact_form.png";
 const Servizi = ({ servizio, others }) => {
   return (
     <>
       <Head>
         <title>{`Miao - ${servizio?.name}`}</title>
       </Head>
-      <HeroPage title={servizio?.title} img={servizio?.img} />{" "}
+      <HeroPage
+        title={servizio?.title}
+        img={servizio?.img}
+        link={servizio?.img}
+      />
       <div className="w-[90%] mx-auto flex flex-col justify-between mt-[100px] 3xl:mt-[250px]">
-        <div className="w-full 2xl:w-[90%] 3xl:w-full mx-auto">
-          <h2 className="text-main font-bold capitalize text-4xl lg:text-4xl leading-[2.5rem] fxl:text-7xl 3xl:text-8xl">
+        <div className="min-h-[40vh] h-full flex flex-col gap-8 p-6">
+          <h3 className="text-main font-bold capitalize text-4xl lg:text-6xl leading-[2.5rem] fxl:text-7xl 3xl:text-8xl">
+            Non solo {servizio?.name}
+          </h3>
+          <p className="text-second text-[1.25rem] leading-normal">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, sed
+            praesentium fuga, earum nulla reiciendis officiis, ducimus
+            blanditiis magnam ut accusamus minima corporis laborum maxime sunt?
+            Sequi deleniti aspernatur reiciendis!
+          </p>
+          <p className="text-second text-[1.25rem] leading-normal">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, sed
+            praesentium fuga, earum nulla reiciendis officiis, ducimus
+            blanditiis magnam ut accusamus minima corporis laborum maxime sunt?
+            Sequi deleniti aspernatur reiciendis!
+          </p>
+        </div>
+        <div className="min-h-[40vh] flex flex-col gap-8 p-6 mt-[100px]">
+          <h3 className="text-main font-bold capitalize text-4xl lg:text-6xl leading-[2.5rem] fxl:text-7xl 3xl:text-8xl">
+            Come procediamo?
+          </h3>
+
+          <ul className="list-disc text-[1.25rem] flex flex-col gap-4 ml-6 mt-4">
+            <li>
+              Now this is a story all about how, my life got flipped-turned
+              upside down
+            </li>
+            <li>
+              Now this is a story all about how, my life got flipped-turned
+              upside down
+            </li>
+            <li>
+              Now this is a story all about how, my life got flipped-turned
+              upside down
+            </li>
+            <li>
+              Now this is a story all about how, my life got flipped-turned
+              upside down
+            </li>
+            <li>
+              Now this is a story all about how, my life got flipped-turned
+              upside down
+            </li>
+          </ul>
+        </div>
+        <div className="min-h-[40vh] flex flex-col gap-8 p-6 mt-[100px]">
+          <h3 className="text-main font-bold capitalize text-4xl lg:text-6xl leading-[2.5rem] fxl:text-7xl 3xl:text-8xl">
+            Ecco alcuni esempi
+          </h3>
+          <Gallery
+            imageArray={servizio?.gallery}
+            galleryID="gallery--click-to-next"
+            galleryTitle={"Gallery"}
+          />
+        </div>
+        <div className="w-[90%] min-h-[40vh] justify-between items-center gap-[39px] flex flex-col 2xl:flex-row mx-auto mt-[100px]">
+          <div className="flex-col justify-start items-start gap-[50px] inline-flex">
+            <Image
+              className="object-cover w-[250px] 2xl:w-[300px] fxl:w-[450px] 3xl:w-[550px]"
+              src={Talk}
+              alt="welcome title"
+              width={500}
+              height={500}
+              priority
+            />
+            <div className="w-full h-auto flex-col justify-start items-start gap-[45px] flex">
+              <div className="w-full h-autotext-second text-xl font-normal leading-7">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+                <br />
+                <br />
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur.{" "}
+              </div>
+            </div>
+          </div>
+          <ContactForm />
+        </div>
+        <div className="w-full  p-6 mt-[150px]">
+          <h3 className="text-main font-bold capitalize text-4xl lg:text-4xl leading-[2.5rem] fxl:text-7xl 3xl:text-8xl">
             {/* {servizio?.titleOpzioni} */}
             ti potrebbe anche interesssare
-          </h2>
+          </h3>
         </div>
-        <div className="grid gap-6 grid-cols-1 2xl:grid-cols-4 w-full 2xl:w-[90%] mt-10 mx-auto">
+        <div className="grid gap-6 grid-cols-1 2xl:grid-cols-4 w-full mt-10 mx-auto">
           {others?.map((el, i) => (
             <ServiziItem
               key={i}
@@ -58,6 +146,7 @@ export async function getStaticProps(context) {
       break;
   }
   let targetObj = obj?.servizi?.singleService?.[params?.title];
+
   const arr = Object.keys(obj?.servizi?.singleService);
   const filteredOthers = arr
     .filter((el) => el !== params?.title) // Exclude the current service

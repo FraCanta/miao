@@ -200,7 +200,7 @@ const ContactForm = ({ translation }) => {
                 <div>{form.message}</div>
               ) : (
                 form.state === "success" && (
-                  <div className="text-pink">
+                  <div className="text-main">
                     Inviato correttamente, grazie per averci contattato.
                   </div>
                 )

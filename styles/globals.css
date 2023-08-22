@@ -23,9 +23,9 @@ p {
   font-family: "Lato", sans-serif;
 }
 
-li {
+/* li {
   list-style-type: none;
-}
+} */
 section {
   overflow-x: hidden;
 }
