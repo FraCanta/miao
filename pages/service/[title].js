@@ -68,7 +68,7 @@ const Servizi = ({ servizio, others }) => {
           </ul>
         </div>
         <div className="min-h-[40vh] flex flex-col gap-8 2xl:p-6 mt-[100px]">
-          <h3 className="text-main font-bold capitalize text-4xl lg:text-6xl leading-[2.5rem] fxl:text-7xl 3xl:text-8xl">
+          <h3 className="text-main font-bold capitalize text-4xl lg:text-6xl leading-[2.5rem] fxl:text-7xl 3xl:text-8xl py-6">
             Ecco alcuni esempi
           </h3>
           <Gallery

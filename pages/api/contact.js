@@ -1,8 +1,7 @@
 import nodemailer from "nodemailer";
 
 export default async function mailer(req, res) {
-  const { name, surname, email, project_type, service_type, message } =
-    req.body;
+  const { name, surname, email, service_type, message } = req.body;
   const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     port: 465,
@@ -22,7 +21,6 @@ export default async function mailer(req, res) {
       subject: `elisa. da ${name} ${surname} `,
 
       html: ` 
-   <div style="font-size:16px; padding:4px; margin-bottom:20px;">Tipo di progetto : ${project_type} </div>
       <div style="font-size:16px; padding:4px; margin-bottom:20px;">Tipo di servizio : ${service_type} </div>
 
 <div >
@@ -37,8 +35,7 @@ Referenze del contatto:
 <ul>
 <li>
 ${email}
-</li><li>
-${phone}</li></ul>
+</li></ul>
 
 </div>
 ‍
