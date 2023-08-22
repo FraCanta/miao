@@ -22,7 +22,7 @@ const Servizi = ({ servizio, others }) => {
         link={servizio?.img}
       />
       <div className="w-[90%] mx-auto flex flex-col justify-between mt-[100px] 3xl:mt-[250px]">
-        <div className="min-h-[40vh] h-full flex flex-col gap-8 p-6">
+        <div className="min-h-[40vh] h-full flex flex-col gap-8 2xl:p-6">
           <h3 className="text-main font-bold capitalize text-4xl lg:text-6xl leading-[2.5rem] fxl:text-7xl 3xl:text-8xl">
             Non solo {servizio?.name}
           </h3>
@@ -39,7 +39,7 @@ const Servizi = ({ servizio, others }) => {
             Sequi deleniti aspernatur reiciendis!
           </p>
         </div>
-        <div className="min-h-[40vh] flex flex-col gap-8 p-6 mt-[100px]">
+        <div className="min-h-[40vh] flex flex-col gap-8 2xl:p-6 mt-[100px]">
           <h3 className="text-main font-bold capitalize text-4xl lg:text-6xl leading-[2.5rem] fxl:text-7xl 3xl:text-8xl">
             Come procediamo?
           </h3>
@@ -67,7 +67,7 @@ const Servizi = ({ servizio, others }) => {
             </li>
           </ul>
         </div>
-        <div className="min-h-[40vh] flex flex-col gap-8 p-6 mt-[100px]">
+        <div className="min-h-[40vh] flex flex-col gap-8 2xl:p-6 mt-[100px]">
           <h3 className="text-main font-bold capitalize text-4xl lg:text-6xl leading-[2.5rem] fxl:text-7xl 3xl:text-8xl">
             Ecco alcuni esempi
           </h3>
@@ -77,7 +77,7 @@ const Servizi = ({ servizio, others }) => {
             galleryTitle={"Gallery"}
           />
         </div>
-        <div className="w-[90%] min-h-[40vh] justify-between items-center gap-[39px] flex flex-col 2xl:flex-row mx-auto mt-[100px]">
+        <div className="2xl:w-[90%] min-h-[40vh] justify-between items-center gap-[39px] flex flex-col 2xl:flex-row mx-auto mt-[100px]">
           <div className="flex-col justify-start items-start gap-[50px] inline-flex">
             <Image
               className="object-cover w-[250px] 2xl:w-[300px] fxl:w-[450px] 3xl:w-[550px]"
@@ -102,7 +102,7 @@ const Servizi = ({ servizio, others }) => {
           </div>
           <ContactForm />
         </div>
-        <div className="w-full  p-6 mt-[150px]">
+        <div className="w-full  2xl:p-6 mt-[150px]">
           <h3 className="text-main font-bold capitalize text-4xl lg:text-4xl leading-[2.5rem] fxl:text-7xl 3xl:text-8xl">
             {/* {servizio?.titleOpzioni} */}
             ti potrebbe anche interesssare
