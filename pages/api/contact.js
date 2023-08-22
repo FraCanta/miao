@@ -1,7 +1,7 @@
 import nodemailer from "nodemailer";
 
 export default async function mailer(req, res) {
-  const { name, surname, email, phone, project_type, service_type, message } =
+  const { name, surname, email, project_type, service_type, message } =
     req.body;
   const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
@@ -10,16 +10,16 @@ export default async function mailer(req, res) {
     auth: {
       //   user: process.env.SMTP_USER, se vogliamo inserire le credenziali su env
       //   pass: process.env.SMTP_PASSWORD,
-      user: "thalliondev@gmail.com",
-      pass: "abtryarebjkirtkh",
+      user: "mitha.creatives@gmail.com",
+      pass: "cgopkuxoayjcyelt",
     },
   });
 
   try {
     await transporter.sendMail({
-      from: "thalliondev@gmail.com",
-      to: ["thalliondev@gmail.com"],
-      subject: `thalliondev. da ${name} ${surname} `,
+      from: "mitha.creatives@gmail.com",
+      to: ["mitha.creatives@gmail.com"],
+      subject: `elisa. da ${name} ${surname} `,
 
       html: ` 
    <div style="font-size:16px; padding:4px; margin-bottom:20px;">Tipo di progetto : ${project_type} </div>

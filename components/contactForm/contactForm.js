@@ -6,7 +6,6 @@ const ContactForm = ({ translation }) => {
     name: "",
     surname: "",
     email: "",
-    phone: "",
     project_type: "Non Specificato",
     service_type: "Non Specificato",
     message: "",
@@ -22,6 +21,7 @@ const ContactForm = ({ translation }) => {
   };
 
   const onSubmitForm = async (e) => {
+    console.log(e);
     e.preventDefault();
 
     if (
@@ -87,19 +87,24 @@ const ContactForm = ({ translation }) => {
             >
               <div className="flex flex-wrap md:flex-nowrap name_surname_wrapper">
                 <div className="label_wrapper flex flex-col w-full md:mr-4 gap-[15px]">
-                  <label htmlFor="name">Name</label>
+                  <label htmlFor="name" className="3xl:text-3xl">
+                    Name
+                  </label>
                   <input
                     id="name"
                     type="text"
                     value={inputs.name}
                     onChange={handleChange}
-                    className="inputField w-full p-3 bg-second/20  text-main text-sm 3xl:text-4xl  focus:ring-white focus:border-white block"
+                    className="inputField w-full p-3 3xl:p-6 bg-second/20  text-main text-sm 3xl:text-2xl  focus:ring-white focus:border-white block"
                     placeholder="Mario"
                     required
                   />
                 </div>
                 <div className="label_wrapper flex flex-col w-full gap-[15px]">
-                  <label htmlFor="surname" className="mt-4 md:mt-0 ">
+                  <label
+                    htmlFor="surname"
+                    className="mt-4 md:mt-0 3xl:text-3xl"
+                  >
                     Surname
                   </label>
                   <input
@@ -107,7 +112,7 @@ const ContactForm = ({ translation }) => {
                     type="text"
                     value={inputs.surname}
                     onChange={handleChange}
-                    className="inputField w-full p-3 bg-second/20  text-main text-sm 3xl:text-4xl  focus:ring-white focus:border-white block"
+                    className="inputField w-full p-3 3xl:p-6 bg-second/20  text-main text-sm 3xl:text-2xl  focus:ring-white focus:border-white block"
                     placeholder="Rossi"
                     required
                   />
@@ -116,57 +121,31 @@ const ContactForm = ({ translation }) => {
 
               <div className="email_phone_wrapper flex flex-wrap md:flex-nowrap mt-4 3xl:mt-16">
                 <div className="label_wrapper flex flex-col w-full gap-[15px]">
-                  <label htmlFor="email">Email</label>
+                  <label htmlFor="email" className="3xl:text-3xl">
+                    Email
+                  </label>
                   <input
                     id="email"
                     type="email"
                     value={inputs.email}
                     onChange={handleChange}
-                    className="inputField w-full p-3 bg-second/20  text-pink text-sm 3xl:text-4xl rounded focus:ring-pink focus:border-pink block"
+                    className="inputField w-full p-3 3xl:p-6 bg-second/20  text-pink text-sm 3xl:text-2xl rounded focus:ring-pink focus:border-pink block"
                     placeholder="esempio@email.com"
                     required
                   />
                 </div>
-                {/* <div className="label_wrapper flex flex-col w-full ">
-                  <label htmlFor="phone" className="mt-4 md:mt-0"></label>
-                  <input
-                    id="phone"
-                    type="tel"
-                    value={inputs.phone}
-                    onChange={handleChange}
-                    className="inputField w-full p-3 bg-transparent border-b  text-pink text-sm 3xl:text-4xl rounded focus:ring-pink focus:border-pink block"
-                    placeholder="33XXXXXXXX"
-                    required
-                  />
-                </div> */}
               </div>
-              {/* <div className="label_wrapper flex flex-col mt-6 3xl:mt-16 w-full text-base 3xl:text-4xl text-pink">
-                <label htmlFor="project_type ">{translation?.question1}</label>
-                <select
-                  value={inputs.project_type}
-                  onChange={handleChange}
-                  name="project_type"
-                  id="project_type"
-                  className="inputField w-full p-3 bg-transparent border-b  text-pink text-sm 3xl:text-3xl rounded block mt-4 3xl:mt-6"
-                >
-                  <option value="Non Specificato">Seleziona...</option>
-                  <option value="Startup">Startup</option>
-                  <option value="App">App</option>
-                  <option value="Applicativo">Applicativo</option>
-                  <option value="Sito istituzionale">Sito istituzionale</option>
-                  <option value="Sito automotive">Automotive</option>
-                  <option value="Sito Wedding">Wedding</option>
-                </select>
-              </div> */}
 
-              <div className="label_wrapper flex flex-col mt-6 3xl:mt-16 w-full text-base 3xl:text-4xl text-main">
-                <label htmlFor="service_type ">Quale servizio scegli?</label>
+              <div className="label_wrapper flex flex-col mt-6 3xl:mt-16 w-full text-base 3xl:text-3xl text-main">
+                <label htmlFor="service_type " className="3xl:text-3xl">
+                  Quale servizio scegli?
+                </label>
                 <select
                   value={inputs.service_type}
                   onChange={handleChange}
                   name="service_type"
                   id="service_type"
-                  className="inputField w-full p-3 border border-second/30 bg-white  text-main text-sm  3xl:text-3xl  block mt-4 3xl:mt-6"
+                  className="inputField w-full p-3 3xl:p-6 border border-second/30 bg-white  text-main text-sm  3xl:text-base  block mt-4 3xl:mt-6"
                 >
                   <option value="Non Specificato">Seleziona...</option>
                   <option value="Tailored Site">Tailored Site</option>
@@ -178,13 +157,15 @@ const ContactForm = ({ translation }) => {
                 </select>
               </div>
               <div className="label_wrapper flex flex-col mt-6 3xl:mt-16 gap-[15px]">
-                <label htmlFor="message">Message</label>
+                <label htmlFor="message" className="3xl:text-3xl">
+                  Message
+                </label>
                 <textarea
                   id="message"
                   type="text"
                   value={inputs.message}
                   onChange={handleChange}
-                  className="inputField p-3 bg-second/20 text-main text-sm 3xl:text-3xl  block !text-pink"
+                  className="inputField p-3 3xl:p-6 bg-second/20 text-main text-sm 3xl:text-2xl  block !text-pink"
                   placeholder="Descrivi brevemente il tuo progetto"
                   rows="5"
                   required
@@ -192,7 +173,7 @@ const ContactForm = ({ translation }) => {
               </div>
               <input
                 type="submit"
-                className="button p-3 cursor-pointer capitalize bg-main text-white font-bold mt-4 text-[18px] md:text-[24px] 3xl:text-4xl"
+                className="button p-3 3xl:p-6 cursor-pointer capitalize bg-main text-white font-bold mt-4 3xl:mt-8 text-[18px] md:text-[24px] 3xl:text-3xl"
               />
               {form.state === "loading" ? (
                 <div>Invio in corso....</div>

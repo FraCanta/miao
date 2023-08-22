@@ -26,13 +26,13 @@ const Servizi = ({ servizio, others }) => {
           <h3 className="text-main font-bold capitalize text-4xl lg:text-6xl leading-[2.5rem] fxl:text-7xl 3xl:text-8xl">
             Non solo {servizio?.name}
           </h3>
-          <p className="text-second text-[1.25rem] leading-normal">
+          <p className="text-second text-[1.25rem] 3xl:text-4xl 3xl:leading-[50px] leading-normal">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, sed
             praesentium fuga, earum nulla reiciendis officiis, ducimus
             blanditiis magnam ut accusamus minima corporis laborum maxime sunt?
             Sequi deleniti aspernatur reiciendis!
           </p>
-          <p className="text-second text-[1.25rem] leading-normal">
+          <p className="text-second text-[1.25rem] 3xl:text-4xl 3xl:leading-[50px] leading-normal">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, sed
             praesentium fuga, earum nulla reiciendis officiis, ducimus
             blanditiis magnam ut accusamus minima corporis laborum maxime sunt?
@@ -44,7 +44,7 @@ const Servizi = ({ servizio, others }) => {
             Come procediamo?
           </h3>
 
-          <ul className="list-disc text-[1.25rem] flex flex-col gap-4 ml-6 mt-4">
+          <ul className="list-disc text-[1.25rem] 3xl:text-4xl flex flex-col gap-4 3xl:gap-6 ml-6 mt-4">
             <li>
               Now this is a story all about how, my life got flipped-turned
               upside down

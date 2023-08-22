@@ -63,7 +63,7 @@ const Gallery = ({ imageArray, galleryID, galleryTitle }) => {
             height={800}
             alt=""
             key={i}
-            className="w-[250px] h-auto"
+            className="w-full h-auto"
           />
         </a>
       ))}
