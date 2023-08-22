@@ -75,99 +75,116 @@
       {
         "img": "/serviziImg/logodesign.png",
         "name": "Logo Design",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        "title": "logo",
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "link": "/service/logo"
       },
       {
         "img": "/serviziImg/branding.png",
         "name": "Branding Strategy",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "link": "/service/branding"
       },
       {
         "img": "/serviziImg/label.png",
         "name": "Label & Packaging",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "link": "/service/label"
       },
       {
         "img": "/serviziImg/social.png",
         "name": "Social Media Strategy",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "link": "/service/social"
       },
       {
         "img": "/serviziImg/campagne.png",
         "name": "Campagne Pubblicitarie BLT",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "link": "/service/campagne"
       },
       {
         "img": "/serviziImg/allestimenti.png",
         "name": "Allestimenti",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "link": "/service/allestimenti"
       },
       {
         "img": "/serviziImg/illustrazione.png",
         "name": "illustrazione Vettoriale e Manuale",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "link": "/service/illustrazione"
       },
       {
         "img": "/serviziImg/contentCreator.png",
         "name": "Content Creator",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "link": "/service/content"
       }
     ],
     "singleService": {
-      "Logo": {
+      "logo": {
         "img": "/serviziImg/logodesign.png",
         "name": "Logo Design",
-        "title": "logo",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        "title": "/serviziImg/logo_Title.png",
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "link": "logo"
       },
-      "Branding": {
+      "branding": {
         "img": "/serviziImg/branding.png",
         "name": "Branding Strategy",
-        "title": "branding",
+        "title": "/serviziImg/branding_Title.png",
 
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "link": "branding"
       },
-      "Label": {
+      "label": {
         "img": "/serviziImg/label.png",
         "name": "Label & Packaging",
-        "title": "label",
+        "title": "/serviziImg/label_Title.png",
 
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "link": "label"
       },
-      "Social": {
+      "social": {
         "img": "/serviziImg/social.png",
         "name": "Social Media Strategy",
-        "title": "social",
+        "title": "/serviziImg/social_Title.png",
 
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "link": "social"
       },
-      "Campagne": {
+      "campagne": {
         "img": "/serviziImg/campagne.png",
         "name": "Campagne Pubblicitarie BLT",
-        "title": "campagne",
+        "title": "/serviziImg/campagne_Title.png",
 
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "link": "campagne"
       },
-      "Allestimenti": {
+      "allestimenti": {
         "img": "/serviziImg/allestimenti.png",
         "name": "Allestimenti",
-        "title": "allestimenti",
+        "title": "/serviziImg/allestimenti_Title.png",
 
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "link": "allestimenti"
       },
-      "Illustrazione": {
+      "illustrazione": {
         "img": "/serviziImg/illustrazione.png",
         "name": "illustrazione Vettoriale e Manuale",
-        "title": "illustrazione",
+        "title": "/serviziImg/illustrazione_Title.png",
 
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "link": "illustrazione"
       },
-      "Content": {
+      "content": {
         "img": "/serviziImg/contentCreator.png",
         "name": "Content Creator",
-        "title": "content",
+        "title": "/serviziImg/content_Title.png",
 
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "link": "content"
       }
     }
   },

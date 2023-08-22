@@ -29,6 +29,7 @@ const Me = ({ translation }) => {
               img={el?.img}
               name={el?.name}
               descrizione={el?.descrizione}
+              link={el?.link}
             />
           );
         })}
