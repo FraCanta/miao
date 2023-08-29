@@ -6,10 +6,11 @@ import { useRouter } from "next/router";
 import { Icon } from "@iconify/react";
 import socials from "../../utils/socials.json";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 const Menu = ({ translation }) => {
   const { locale } = useRouter();
-
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
   const handleOpen = () => {
     setOpen(!open);
   };
@@ -37,33 +38,43 @@ const Menu = ({ translation }) => {
             <div className="w-full flex items-center justify-end">
               <Link
                 href="/me"
-                className="mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] fxl:text-[25px] 3xl:text-[35px] 4xl:text-[55px]  text-main font-regular"
+                className={`${
+                  pathname === "/me" ? "text-red font-medium" : ""
+                } mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center`}
               >
                 {translation?.[locale]?.me}
               </Link>
 
               <Link
                 href="/servizi"
-                className="mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  !text-main font-regular capitalize flex items-center"
+                className={`${
+                  pathname === "/servizi" ? "text-red font-medium" : ""
+                } mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center`}
               >
                 {translation?.[locale]?.servizi}
               </Link>
               <Link
                 href="/portfolio"
-                className="mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] fxl:text-[25px] 3xl:text-[35px] 4xl:text-[55px] text-main font-regular"
+                className={`${
+                  pathname === "/portfolio" ? "text-red font-medium" : ""
+                } mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center`}
               >
                 {translation?.[locale]?.portfolio}
               </Link>
               <Link
                 href="/blog"
-                className="mr-[2.35rem] 3xl:mr-12 text-[16px] 4xl:mr-16 md:text-[1.2rem] fxl:text-[25px] 3xl:text-[40px] 4xl:text-[55px] text-main font-regular"
+                className={`${
+                  pathname === "/blog" ? "text-red font-medium" : ""
+                } mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center`}
               >
                 {translation?.[locale]?.blog}
               </Link>
 
               <Link
                 href="/contatti"
-                className="flex items-center text-[16px] md:text-[1.1rem] fxl:text-[25px] 3xl:text-[35px] 4xl:text-[55px]  font-regular fxl:text-2xl 3xl:text-3xl text-main  "
+                className={`${
+                  pathname === "/contatti" ? "text-red font-medium" : ""
+                } mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center`}
               >
                 {translation?.[locale]?.contatti}
               </Link>
@@ -126,7 +137,9 @@ const Menu = ({ translation }) => {
                 <li onClick={handleOpen}>
                   <Link
                     href="/me"
-                    className="mr-8 text-[25px] md:text-[38px] lg:text-4xl text-main font-regular "
+                    className={`${
+                      pathname === "/me" ? "text-red font-medium" : ""
+                    } "mr-8 text-[25px] md:text-[38px] lg:text-4xl text-main font-regular "`}
                   >
                     {translation?.[locale]?.me}
                   </Link>
@@ -134,7 +147,9 @@ const Menu = ({ translation }) => {
                 <li>
                   <Link
                     href="/servizi"
-                    className="mr-8 text-[25px] md:text-5xl lg:text-4xl text-main font-regular"
+                    className={`${
+                      pathname === "/servizi" ? "text-red font-medium" : ""
+                    } "mr-8 text-[25px] md:text-[38px] lg:text-4xl text-main font-regular "`}
                   >
                     {translation?.[locale]?.servizi}
                   </Link>
@@ -142,7 +157,9 @@ const Menu = ({ translation }) => {
                 <li onClick={handleOpen}>
                   <Link
                     href="/portfolio"
-                    className="mr-8 text-[25px] md:text-[38px] lg:text-4xl text-main font-regular"
+                    className={`${
+                      pathname === "/portfolio" ? "text-red font-medium" : ""
+                    } "mr-8 text-[25px] md:text-[38px] lg:text-4xl text-main font-regular "`}
                   >
                     {translation?.[locale]?.portfolio}
                   </Link>
@@ -151,14 +168,21 @@ const Menu = ({ translation }) => {
                   className="text-[25px] md:text-[38px] lg:text-4xl  flex items-center"
                   onClick={handleOpen}
                 >
-                  <Link href="/blog" className="text-main font-regular">
+                  <Link
+                    href="/blog"
+                    className={`${
+                      pathname === "/blog" ? "text-red font-medium" : ""
+                    } "mr-8 text-[25px] md:text-[38px] lg:text-4xl text-main font-regular "`}
+                  >
                     {translation?.[locale]?.blog}
                   </Link>
                 </li>
                 <li onClick={handleOpen}>
                   <Link
                     href="/contatti"
-                    className="text-[25px] md:text-[38px] lg:text-4xl  font-regular text-main "
+                    className={`${
+                      pathname === "/contatti" ? "text-red font-medium" : ""
+                    } "mr-8 text-[25px] md:text-[38px] lg:text-4xl text-main font-regular "`}
                   >
                     {translation?.[locale]?.contatti}
                   </Link>

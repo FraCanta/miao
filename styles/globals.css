@@ -61,6 +61,9 @@ section {
   }
 }
 
+.active {
+  color: var(--red);
+}
 /* Enable animation */
 .enable-animation .marquee__content {
   animation: scroll 8s linear infinite;

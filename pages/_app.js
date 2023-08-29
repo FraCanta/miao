@@ -7,11 +7,9 @@ export default function App({ Component, pageProps }) {
   const router = useRouter();
   return (
     <>
-      <AnimatePresence>
-        <Layout>
-          <Component {...pageProps} key={router.asPath} />
-        </Layout>
-      </AnimatePresence>
+      <Layout>
+        <Component {...pageProps} key={router.asPath} />
+      </Layout>
       <Script
         src="https://static.elfsight.com/platform/platform.js"
         data-use-service-core
