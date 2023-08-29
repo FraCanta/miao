@@ -15,25 +15,27 @@ const Me = ({ translation }) => {
       <Head>
         <title>Miao - Servizi</title>
       </Head>
-      <div className="w-full min-h-[calc(40vh_-_80px)] lg:h-[calc(100vh_-_70px)]  2xl:h-[calc(100vh_-_100px)] fxl:h-[calc(100vh_-_150px)]  4xl:h-[calc(100vh_-_250px)] mx-auto flex flex-col lg:flex-row items-center justify-between">
-        <HeroPage
-          title={translation?.hero?.title}
-          img={translation?.hero?.img}
-        />
-      </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 w-[90%] mx-auto min-h-[40vh] mt-[150px] gap-10">
-        {translation?.serviziItem?.map((el, i) => {
-          return (
-            <ServiziItem
-              key={i}
-              img={el?.img}
-              name={el?.name}
-              descrizione={el?.descrizione}
-              link={el?.link}
-            />
-          );
-        })}
-      </div>
+      <SlideAnimation>
+        <div className="w-full min-h-[calc(40vh_-_80px)] lg:h-[calc(100vh_-_70px)]  2xl:h-[calc(100vh_-_100px)] fxl:h-[calc(100vh_-_150px)]  4xl:h-[calc(100vh_-_250px)] mx-auto flex flex-col lg:flex-row items-center justify-between">
+          <HeroPage
+            title={translation?.hero?.title}
+            img={translation?.hero?.img}
+          />
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 w-[90%] mx-auto min-h-[40vh] mt-[150px] gap-10">
+          {translation?.serviziItem?.map((el, i) => {
+            return (
+              <ServiziItem
+                key={i}
+                img={el?.img}
+                name={el?.name}
+                descrizione={el?.descrizione}
+                link={el?.link}
+              />
+            );
+          })}
+        </div>
+      </SlideAnimation>
     </>
   );
 };
