@@ -8,11 +8,11 @@
     },
     "sezioneUno": {
       "paragrafi": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "<p>Mi chiamo <strong>Elisa </strong> e mi trovi online come <strong>Miaographics</strong>. Sono una <strong>Graphic Designer</strong> e <strong>Content Creator</strong>, e sono qui per essere la tua partner nella definizione dell’identità visiva della tua azienda.</p>  <p>Posso creare per te un logo su misura, in base alle tue esigenze strategiche e alla tua mission, dal design unico che ti aiuti a farti notare e a differenziarti dai competitors. </p><p>Aiuto le piccole e medie aziende a raggiungere i propri obiettivi di business, mediante un’analisi approfondita del prodotto/servizio, del mercato e del target.</p>",
+        "<p>Posso offrirti soluzioni personalizzate in linea con tuo budget e con i tuoi obiettivi. Il mio scopo è quello di aiutarti ad avere un’immagine forte e una comunicazione coerente che ti permetta di distinguerti dalla concorrenza, raggiungere nuovi clienti e crescere.</p><p> Per me, è fondamentale conoscere la tua storia, la tua realtà e i tuoi obiettivi aziendali. Attraverso un incontro conoscitivo, che può anche essere online, sarò in grado di capire le tue esigenze e sviluppare una comunicazione visiva su misura per te.</p>"
       ],
       "cta": "conosciamoci",
-      "title": "/sectionsTitle/sezioneUno.png"
+      "title": "/sectionsTitle/welcome_title.png"
     },
     "sezioneDue": {
       "paragrafi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -20,18 +20,18 @@
       "cta": "cosa offro",
       "title": "/sectionsTitle/sezioneDue.png",
       "img": "/sectionsTitle/servizi_generici.png",
-      "titoloP": "Lorem ipsum",
-      "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "titoloP": "Soluzioni creative a 360°",
+      "descrizione": "Il Graphic Design e la Comunicazione Visiva sono l’arte invisibile che permea il nostro mondo. Si tratta di molto più di semplici immagini e colori; sono strumenti potenti che plasmano le nostre percezioni e guidano le nostre decisioni.",
+      "descrizione2": "In un’era digitale, dove l’attenzione è un bene prezioso, il design ben pensato cattura l’occhio e trattiene l’attenzione. È la differenza tra essere notati o ignorati. La Comunicazione Visiva è lo strumento che trasforma le idee in realtà, che da vita al marchio e che comunica contenuti ad alto impatto sensoriale destando l’attenzione del pubblico target."
     },
     "sezioneTre": {
-      "paragrafi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "paragrafi": "La mia missione è assistere le piccole realtà aziendali nella definizione di un’immagine coordinata che sia unica ed efficace. Questo processo è fondamentale per distinguersi dalla concorrenza e per consolidare la propria presenza sul mercato off e on-line. Creo contenuti sia visivi che testuali che siano in linea con gli obiettivi di business e che si  sappiano coinvolgere il giusto pubblico.",
 
       "cta": "i miei casi",
       "title": "/sectionsTitle/sezioneTre.png",
-      "img": "/sectionsTitle/portfolio_img.png",
-      "titoloP": "Lorem ipsum",
-      "paragrafo1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "paragrafo2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "img": "/sectionsTitle/logosmix.jpg",
+      "titoloP": "Alcuni lavori svolti",
+      "paragrafo1": "La mia missione è assistere le piccole realtà aziendali nella definizione di un’immagine coordinata che sia unica ed efficace. Questo processo è fondamentale per distinguersi dalla concorrenza e per consolidare la propria presenza sul mercato off e on-line. Creo contenuti sia visivi che testuali che siano in linea con gli obiettivi di business e che si  sappiano coinvolgere il giusto pubblico."
     },
     "sezioneQuattro": {
       "paragrafi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",

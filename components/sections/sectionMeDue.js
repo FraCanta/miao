@@ -5,7 +5,7 @@ import Image from "next/image";
 const SectionMeDue = ({ translation }) => {
   // console.log(translation);
   return (
-    <div className="w-full min-h-[40vh] justify-between items-center mt-[100px] 2xl:mt-[150px] flex mx-auto">
+    <section className="w-full min-h-[40vh] justify-between items-center mt-[100px] 2xl:mt-[150px] flex mx-auto">
       <div className="w-full h-full">
         <div className="justify-start items-center flex w-[90%] mx-auto py-4 2xl:py-14">
           <Image
@@ -21,7 +21,7 @@ const SectionMeDue = ({ translation }) => {
           <Marquee />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

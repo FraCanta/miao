@@ -4,7 +4,7 @@ import React from "react";
 
 const SectionDue = ({ translation }) => {
   return (
-    <div className="w-[90%] min-h-[30vh] flex-col justify-center items-start mt-[100px] 2xl:mt-[150px] flex mx-auto">
+    <section className="w-[90%] min-h-[30vh] flex-col justify-center items-start mt-[100px] 2xl:mt-[150px] flex mx-auto">
       <div className="w-full justify-start items-end gap-[354px] inline-flex">
         <div className="justify-start items-center flex w-full">
           <Image
@@ -39,6 +39,9 @@ const SectionDue = ({ translation }) => {
           <p className="text-second text-[1.125rem] fxl:text-[1.4rem] 3xl:text-[1.8rem] font-normal leading-normal">
             {translation?.descrizione}
           </p>
+          <p className="text-second text-[1.125rem] fxl:text-[1.4rem] 3xl:text-[1.8rem] font-normal leading-normal">
+            {translation?.descrizione2}
+          </p>
           <div className="w-full 2xl:justify-end items-center inline-flex">
             <Link
               href="/servizi"
@@ -49,7 +52,7 @@ const SectionDue = ({ translation }) => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

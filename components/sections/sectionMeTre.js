@@ -4,7 +4,7 @@ import React from "react";
 
 const SectionMeTre = ({ translation }) => {
   return (
-    <div className="w-[90%] min-h-[40vh] justify-between items-center  flex flex-col  mx-auto mt-[150px]">
+    <section className="w-[90%] min-h-[40vh] justify-between items-center  flex flex-col  mx-auto mt-[150px]">
       <div className="w-full flex-col 2xl:flex-row justify-start items-center gap-[50px] flex ">
         <Image
           className="object-cover w-full 2xl:w-[600px] fxl:w-[750px] 3xl:w-[900px]"
@@ -53,7 +53,7 @@ const SectionMeTre = ({ translation }) => {
           </Link>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

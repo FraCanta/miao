@@ -5,8 +5,6 @@ import translationEN from "../public/locales/en/en.json";
 import translationFR from "../public/locales/fr/fr.json";
 
 import HeroPage from "@/components/heros/heroPage";
-import Lampadina from "@/public/pageImg/lampadina.png";
-import Graffa from "@/public/pageImg/meTitle.png";
 import Head from "next/head";
 import Image from "next/image";
 import SectionMeUno from "@/components/sections/sectionMeUno";
@@ -29,7 +27,7 @@ const Me = ({ translation }) => {
         </div>
         <SectionMeUno translation={translation?.sezioneUno} />
         <SectionMeDue translation={translation?.sezioneDue} />
-        <div className="w-[90%] mx-auto min-h-[40vh]  mt-[100px] 2xl:mt-[150px]">
+        <section className="w-[90%] mx-auto min-h-[40vh]  mt-[100px] 2xl:mt-[150px]">
           <Image
             className="object-cover w-full 2xl:w-[550px] fxl:w-[650px] 3xl:w-[800px] pb-14 2xl:py-14 3xl:py-24"
             src={translation?.sezioneTre?.title}
@@ -38,10 +36,10 @@ const Me = ({ translation }) => {
             height={300}
             priority
           />
-          <div className="elfsight-app-e5f28877-c53f-4c54-8037-22c0d90781f9"></div>{" "}
-        </div>
+          <div class="elfsight-app-e5f28877-c53f-4c54-8037-22c0d90781f9"></div>{" "}
+        </section>
         <SectionMeTre translation={translation?.sezioneQuattro} />
-        <div className="w-[90%] min-h-[40vh] justify-between items-center gap-[39px] flex flex-col 2xl:flex-row mx-auto mt-[150px]">
+        <section className="w-[90%] min-h-[40vh] justify-between items-center gap-[39px] flex flex-col 2xl:flex-row mx-auto mt-[150px]">
           <div className="flex-col justify-start items-start gap-[50px] inline-flex">
             <Image
               className="object-cover w-[250px] 2xl:w-[300px] fxl:w-[450px] 3xl:w-[550px]"
@@ -65,7 +63,7 @@ const Me = ({ translation }) => {
             </div>
           </div>
           <ContactForm />
-        </div>
+        </section>
       </SlideAnimation>
     </>
   );

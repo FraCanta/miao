@@ -7,7 +7,7 @@ import { Icon } from "@iconify/react";
 import socials from "../../utils/socials.json";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
-const Menu = ({ translation }) => {
+const Menu = ({ nr, translation }) => {
   const { locale } = useRouter();
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
@@ -20,8 +20,7 @@ const Menu = ({ translation }) => {
       <nav
         className="h-[80px] md:h-[140px] lg:h-[70px] xl:h-[100px] fxl:h-[150px] 3xl:h-[180px] 4xl:h-[250px] 3xl flex w-full items-center justify-between relative z-[999999]  "
         id="header"
-        // ref={nr}
-        // onClick={handleScroll}
+        ref={nr}
       >
         <div className="flex w-[90%] mx-auto justify-between items-center ">
           <div>

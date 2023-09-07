@@ -18,7 +18,7 @@ const ServiziItem = ({ img, name, descrizione, link }) => {
           </div>
           <div className="h-auto justify-start items-start gap-2.5 flex flex-col p-4">
             <div className="w-full justify-start items-start gap-2.5 flex">
-              <h6 className="text-main text-[25px] font-extrabold capitalize leading-[27.12px]">
+              <h6 className="text-main text-[25px] font-extrabold  leading-[27.12px]">
                 {name}
               </h6>
             </div>

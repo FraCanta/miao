@@ -41,9 +41,9 @@ export default function Home({ translation }) {
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
       <SlideAnimation>
-        <div className="w-full min-h-[calc(40vh_-_80px)] lg:h-[calc(100vh_-_70px)]  2xl:h-[calc(100vh_-_100px)] fxl:h-[calc(100vh_-_150px)]  4xl:h-[calc(100vh_-_250px)] mx-auto flex flex-col lg:flex-row items-center justify-between">
+        <section className="w-full min-h-[calc(40vh_-_80px)] lg:h-[calc(100vh_-_70px)]  2xl:h-[calc(100vh_-_100px)] fxl:h-[calc(100vh_-_150px)]  4xl:h-[calc(100vh_-_250px)] mx-auto flex flex-col lg:flex-row items-center justify-between">
           <HeroHome translation={translation?.hero} />
-        </div>
+        </section>
         <SectionUno translation={translation?.sezioneUno} />
         <SectionDue translation={translation?.sezioneDue} />
         <SectionTre translation={translation?.sezioneTre} />

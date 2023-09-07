@@ -4,7 +4,7 @@ import React from "react";
 
 const SectionsQuattro = ({ translation }) => {
   return (
-    <div className="w-[90%] min-h-[40vh] flex-col justify-center items-start mt-[100px] 2xl:mt-[150px] flex mx-auto">
+    <section className="w-[90%] min-h-[40vh] flex-col justify-center items-start mt-[100px] 2xl:mt-[150px] flex mx-auto">
       <div className="w-full justify-start items-end  inline-flex">
         <Image
           className="object-cover w-[200px] 2xl:w-[300px] fxl:w-[350px] 3xl:w-[400px] "
@@ -91,7 +91,7 @@ const SectionsQuattro = ({ translation }) => {
           </Link>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

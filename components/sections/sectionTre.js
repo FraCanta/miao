@@ -4,7 +4,7 @@ import React from "react";
 
 const SectionTre = ({ translation }) => {
   return (
-    <div className="w-[90%] min-h-[40vh] flex-col justify-center items-start mt-[100px] 2xl:mt-[150px] flex mx-auto">
+    <section className="w-[90%] min-h-[40vh] flex-col justify-center items-start mt-[100px] 2xl:mt-[150px] flex mx-auto">
       <div className="w-full justify-start items-end  inline-flex">
         <Image
           className="object-cover w-[200px] 2xl:w-[300px] fxl:w-[350px] 3xl:w-[400px] "
@@ -27,7 +27,7 @@ const SectionTre = ({ translation }) => {
         <div className="w-full flex-col justify-start items-start mt-[50px] flex">
           <div className=" flex-col justify-start items-start gap-10 lg:gap-[50px] flex">
             <div className="w-full flex flex-col 2xl:flex-row justify-between items-stretch gap-6 lg:gap-4">
-              <div className="w-full 2xl:w-[33%] flex flex-col justify-start items-start">
+              <div className="w-full 2xl:w-[50%] flex flex-col justify-start items-start">
                 <h3>
                   <span className="text-main text-[40px] fxl:text-6xl font-extrabold capitalize leading-normal">
                     {translation?.titoloP}
@@ -37,14 +37,9 @@ const SectionTre = ({ translation }) => {
                   </span>
                 </h3>
               </div>
-              <div className="w-full 2xl:w-[33%] flex flex-col justify-start items-stretch">
+              <div className="w-full 2xl:w-[50%] flex flex-col justify-start items-stretch">
                 <div className="text-second text-[1.125rem] fxl:text-[1.4rem] 3xl:text-[1.8rem] font-normal leading-normal">
                   <p> {translation?.paragrafo1}</p>
-                </div>
-              </div>
-              <div className="w-full 2xl:w-[33%] flex flex-col justify-start items-stretch gap-2.5">
-                <div className="text-second text-[1.125rem] fxl:text-[1.4rem] 3xl:text-[1.8rem] font-normal leading-normal">
-                  <p> {translation?.paragrafo2}</p>
                 </div>
                 <div className="w-full 2xl:justify-end items-center inline-flex mt-10">
                   <Link
@@ -55,11 +50,16 @@ const SectionTre = ({ translation }) => {
                   </Link>
                 </div>
               </div>
+              {/* <div className="w-full 2xl:w-[33%] flex flex-col justify-start items-stretch gap-2.5"> */}
+              {/* <div className="text-second text-[1.125rem] fxl:text-[1.4rem] 3xl:text-[1.8rem] font-normal leading-normal">
+                  <p> {translation?.paragrafo2}</p>
+                </div> */}
+              {/* </div> */}
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

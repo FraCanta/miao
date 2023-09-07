@@ -4,7 +4,7 @@ import React from "react";
 
 const SectionMeUno = ({ translation }) => {
   return (
-    <div className="w-[90%] min-h-[40vh] justify-between items-center mt-[150px] flex flex-col 2xl:flex-row mx-auto">
+    <section className="w-[90%] min-h-[40vh] justify-between items-center mt-[150px] flex flex-col 2xl:flex-row mx-auto">
       <div className="flex-col justify-between items-center flex 2xl:w-1/2 h-full gap-10 3xl:gap-14">
         <p className="w-full h-full text-second text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-[46px] font-normal leading-normal">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -36,7 +36,7 @@ const SectionMeUno = ({ translation }) => {
         width={450}
         height={450}
       />
-    </div>
+    </section>
   );
 };
 
