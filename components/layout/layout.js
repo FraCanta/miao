@@ -15,7 +15,7 @@ const Layout = (props) => {
         navbar.classList.remove("nav-scroll");
       }
       window.addEventListener("scroll", () => {
-        if (window.pageYOffset > 200) {
+        if (window.pageYOffset > 100) {
           navbar.classList.add("nav-scroll");
         } else if (!!navbar) {
           navbar.classList.remove("nav-scroll");

@@ -2,23 +2,33 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import Logo from "../../public/assets/logo.png";
+
 import { useRouter } from "next/router";
 import { Icon } from "@iconify/react";
 import socials from "../../utils/socials.json";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
+
 const Menu = ({ nr, translation }) => {
   const { locale } = useRouter();
   const [open, setOpen] = useState(false);
+  const [overlayVisible, setOverlayVisible] = useState("overlay");
+
   const pathname = usePathname();
   const handleOpen = () => {
-    setOpen(!open);
+    if (!open) {
+      setOpen(true);
+      setOverlayVisible("");
+    } else {
+      setOpen(false);
+      setOverlayVisible("overlay");
+    }
   };
 
   return (
     <header>
       <nav
-        className="h-[80px] md:h-[140px] lg:h-[70px] xl:h-[100px] fxl:h-[150px] 3xl:h-[180px] 4xl:h-[250px] 3xl flex w-full items-center justify-between relative z-[999999]  "
+        className="h-[60px] md:h-[140px] lg:h-[70px] xl:h-[80px] fxl:h-[150px] 3xl:h-[180px] 4xl:h-[250px] 3xl flex w-full items-center justify-between relative z-[999999]  "
         id="header"
         ref={nr}
       >
@@ -68,19 +78,10 @@ const Menu = ({ nr, translation }) => {
               >
                 {translation?.[locale]?.blog}
               </Link>
-
-              <Link
-                href="/contatti"
-                className={`${
-                  pathname === "/contatti" ? "text-red font-medium" : ""
-                } mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center`}
-              >
-                {translation?.[locale]?.contatti}
-              </Link>
             </div>
           </div>
           <div className="lg:flex hidden">
-            {socials?.Elisa?.map((el, i) => (
+            {/* {socials?.Elisa?.map((el, i) => (
               <Link
                 href={el?.url}
                 target="_blank"
@@ -93,7 +94,13 @@ const Menu = ({ nr, translation }) => {
                   className="w-[25px] h-[25px]  fxl:w-[30px] fxl:h-[30px] 3xl:w-[40px] 3xl:h-[40px] 4xl:w-[50px] 4xl:h-[50px] cursor-pointer mr-4"
                 />
               </Link>
-            ))}
+            ))} */}
+            <Link
+              href="/contatti"
+              className="capitalize font-bold py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 border 2xl:text-xl fxl:text-2xl 3xl:text-3xl rounded shadow  text-white hover:transition-all border-red  bg-red"
+            >
+              {translation?.[locale]?.contatti}
+            </Link>
           </div>
           <div className="flex lg:hidden text-main">
             <Icon
@@ -103,11 +110,14 @@ const Menu = ({ nr, translation }) => {
             />
           </div>
         </div>
-
+        <div
+          className={`${overlayVisible} fixed left-0 right-0 top-0 bottom-0 h-screen bg-main/30 opacity-1  `}
+          onClick={handleOpen}
+        ></div>
         <div
           className="h-screen w-screen fixed top-0 left-0  transition-transform duration-500 ease-in-out transform"
           style={{
-            transform: open ? "translateX(0)" : "translateX(-100%) ",
+            transform: open ? "translateX(0)" : "translateX(-100%)",
           }}
           id="contacts"
         >
@@ -143,7 +153,7 @@ const Menu = ({ nr, translation }) => {
                     {translation?.[locale]?.me}
                   </Link>
                 </li>
-                <li>
+                <li onClick={handleOpen}>
                   <Link
                     href="/servizi"
                     className={`${
@@ -176,12 +186,10 @@ const Menu = ({ nr, translation }) => {
                     {translation?.[locale]?.blog}
                   </Link>
                 </li>
-                <li onClick={handleOpen}>
+                <li className="my-4" onClick={handleOpen}>
                   <Link
                     href="/contatti"
-                    className={`${
-                      pathname === "/contatti" ? "text-red font-medium" : ""
-                    } "mr-8 text-[25px] md:text-[38px] lg:text-4xl text-main font-regular "`}
+                    className="capitalize font-bold py-2.5 px-6 text-[22px] md:text-[38px] lg:text-4xl border rounded shadow  text-white hover:transition-all border-red  bg-red"
                   >
                     {translation?.[locale]?.contatti}
                   </Link>
