@@ -36,7 +36,7 @@ const Me = ({ translation }) => {
             height={300}
             priority
           />
-          <div class="elfsight-app-e5f28877-c53f-4c54-8037-22c0d90781f9"></div>{" "}
+          <div className="elfsight-app-e5f28877-c53f-4c54-8037-22c0d90781f9"></div>{" "}
         </section>
         <SectionMeTre translation={translation?.sezioneQuattro} />
         <section className="w-[90%] min-h-[40vh] justify-between items-center gap-[39px] flex flex-col 2xl:flex-row mx-auto mt-[150px]">

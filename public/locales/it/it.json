@@ -50,7 +50,14 @@
       "img": "/pageImg/lampadina.png"
     },
     "sezioneUno": {
-      "img": "/sectionsTitle/eli.png"
+      "img": "/sectionsTitle/eli.png",
+      "presentazione": [
+        "Mi considero una persona decisamente <strong>Cre-Attiva! </strong>",
+        "<strong>... o almeno così dicono le persone che mi conoscono e con cui lavoro. </strong> 😊 ",
+        "Fin da bambina ho usato le mani per plasmare oggetti e disegnare i personaggi della mia fantasia. Artigiana nel cuore e di fatto, partecipo da anni con il mio banchetto alla Foire de Saint-Ours e realizzo oggetti hand-made quali bigiotteria e complementi di arredo in legno, lana e cuoio. <strong>Amo l’arte in tutte le sue forme e adoro dar voce alle idee tramite la comunicazione visiva. </strong>",
+        "Dopo aver studiato allo Ied di Torino e aver svolto qualche anno come apprendista nel 2008 apro il mio atelier creativo con il nome di l’heartelier. Da qualche anno itinerante tra Milano e Aosta, ho deciso di rinnovare la mia identità diventando <strong>Miao graphics - grafismi itineranti </strong> esattamente come me (sempre con la valigia in mano). <strong>Ogni brand ha una storia da raccontare</strong>, e io sono qui per trasformarla in un design unico. <strong>Il mio intento è catturare la tua idea e tradurla in un’identità visiva (logo, pack, illustrazione) memorabile. </strong>",
+        "Come graphic designer professionista, offro <strong>soluzioni creative a 360° </strong> per aiutare il tuo business a spiccare e ad affermarsi. La mia filosofia di lavoro si basa sulla collaborazione e sulla comprensione delle tue esigenze. <strong>Insieme creeremo un percorso creativo su misura per te. </strong> Se stai cercando un graphic designer che abbracci la tua visione e dia vita alle tue idee, allora sono la persona giusta per te. Prendiamo insieme il tuo brand e trasformiamolo in un’opera d’arte visiva. <strong>Contattami oggi </strong> per iniziare questo entusiasmante itinerario creativo!"
+      ]
     },
     "sezioneDue": {
       "title": "/sectionsTitle/clienti.png"
