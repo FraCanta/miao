@@ -27,9 +27,9 @@ const SectionTre = ({ translation }) => {
         <div className="w-full flex-col justify-start items-start mt-[50px] flex">
           <div className=" flex-col justify-start items-start gap-10 lg:gap-[50px] flex">
             <div className="w-full flex flex-col 2xl:flex-row justify-between items-stretch gap-6 lg:gap-4">
-              <div className="w-full 2xl:w-[50%] flex flex-col justify-start items-start">
+              <div className="w-2/3 2xl:w-[50%] flex flex-col justify-start items-start">
                 <h3>
-                  <span className="text-main text-[40px] fxl:text-6xl font-extrabold capitalize leading-normal">
+                  <span className="text-main  text-[40px] fxl:text-6xl font-extrabold capitalize leading-normal">
                     {translation?.titoloP}
                   </span>
                   <span className="text-red text-[40px] fxl:text-6xl font-extrabold capitalize ">

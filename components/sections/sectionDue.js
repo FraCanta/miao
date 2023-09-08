@@ -28,10 +28,10 @@ const SectionDue = ({ translation }) => {
         />
         <div className="2xl:w-1/2 h-full flex-col justify-start items-start gap-[31px] inline-flex">
           <div className="w-full h-full justify-start items-end flex">
-            <h3 className="text-main text-[40px] fxl:text-6xl  font-extrabold capitalize leading-normal">
+            <h3 className="text-main text-[40px] w-11/12 fxl:text-6xl  font-extrabold  leading-normal">
               <span>{translation?.titoloP}</span>
 
-              <span className="text-red text-[40px] md:text-6xl  font-extrabold capitalize ">
+              <span className="text-red text-[40px] md:text-6xl  font-extrabold">
                 .
               </span>
             </h3>
