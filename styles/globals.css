@@ -289,3 +289,15 @@ section {
     width: 2560px !important;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .port_p {
+    width: 81%;
+  }
+}
+
+@media screen and (min-width: 385px) and (max-width: 390px) {
+  .port_p {
+    width: 75%;
+  }
+}
