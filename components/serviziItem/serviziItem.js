@@ -7,7 +7,7 @@ const ServiziItem = ({ img, name, descrizione, link }) => {
     <>
       <div className="w-full justify-start items-start gap-2.5 flex ">
         <Link href={link}>
-          <div className="w-full p-4 ">
+          <div className="w-full 2xl:p-4 ">
             <Image
               className="object-cover w-auto h-auto"
               src={img}
@@ -16,7 +16,7 @@ const ServiziItem = ({ img, name, descrizione, link }) => {
               alt="name"
             />
           </div>
-          <div className="h-auto justify-start items-start gap-2.5 flex flex-col p-4">
+          <div className="h-auto justify-start items-start gap-2.5 flex flex-col 2xl:p-4">
             <div className="w-full justify-start items-start gap-2.5 flex">
               <h6 className="text-main text-[25px] font-extrabold  leading-[27.12px]">
                 {name}

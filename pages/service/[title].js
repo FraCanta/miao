@@ -109,7 +109,7 @@ const Servizi = ({ servizio, others, serviziFra }) => {
             </div>
             <ContactForm />
           </div> */}
-          <div className="w-full mx-auto 2xl:p-6 2xl:mt-[150px] flex flex-col gap-6">
+          <div className="w-full mx-auto 2xl:p-6 mt-10 2xl:mt-[150px] flex flex-col gap-6">
             <h3 className="text-main font-bold capitalize text-4xl lg:text-6xl 2xl:!leading-[4.5rem] fxl:text-7xl 3xl:text-8xl">
               {/* {servizio?.titleOpzioni} */}
               Perchè non volere di più? Ecco altre opzioni su misura per te
