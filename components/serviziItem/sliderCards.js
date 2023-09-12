@@ -16,7 +16,7 @@ const SliderCards = ({ servizi }) => {
       spaceBetween={30}
       navigation={true}
       modules={[Navigation, Mousewheel, FreeMode]}
-      className="mySwiper"
+      className="mySwiper  mt-[20px]"
       breakpoints={{
         640: {
           slidesPerView: 1,
@@ -32,7 +32,7 @@ const SliderCards = ({ servizi }) => {
         },
       }}
     >
-      <div className="flex ">
+      <div className="flex">
         {servizi?.map((el, i) => (
           <SwiperSlide key={i}>
             <ServiziItem

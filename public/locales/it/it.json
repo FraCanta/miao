@@ -247,7 +247,33 @@
           { "src": "/serviziImg/LOGOS45.jpg", "width": 600, "height": 600 }
         ]
       }
-    }
+    },
+    "fraService": [
+      {
+        "img": "/fraService/tailored.png",
+        "name": "Tailored Site",
+        "descrizione": "Un sito su misura con una grafica accattivante per distinguerti tra le migliaia di siti pre-confezionati.",
+        "link": "https://www.thallion-dev.it/service/tailored"
+      },
+      {
+        "img": "/fraService/ecommerce.png",
+        "name": "E-commerce",
+        "descrizione": "Che tu abbia pochi prodotti o una selezione più ampia, costruiamo attorno al tuo brand la chiave del tuo successo online.",
+        "link": "https://www.thallion-dev.it/service/ecommerce"
+      },
+      {
+        "img": "/fraService/figma.png",
+        "name": "Prototipazione con figma",
+        "descrizione": "Testa la tua idea prima di svilupparla! Ideale per piccole aziende e start-up. Risparmia budget e tempo.",
+        "link": "https://www.thallion-dev.it/service/figma"
+      },
+      {
+        "img": "/fraService/restyle.png",
+        "name": "È Tempo Di Un Restyling",
+        "descrizione": "Il tuo sito non sta funzionando come pensavi? Fammi dare un'occhiata! Magari è una questione di stile.",
+        "link": "https://www.thallion-dev.it/service/restyling"
+      }
+    ]
   },
   "portfolio": {
     "hero": {

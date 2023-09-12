@@ -14,7 +14,7 @@ const Others = ({ others }) => {
       spaceBetween={30}
       navigation={true}
       modules={[Navigation, Mousewheel, FreeMode]}
-      className="mySwiper"
+      className="mySwiper mt-[20px]"
       breakpoints={{
         640: {
           slidesPerView: 1,

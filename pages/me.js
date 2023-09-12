@@ -43,7 +43,7 @@ const Me = ({ translation, servizi }) => {
         <SectionMeTre translation={translation?.sezioneQuattro} />
         <div className="w-[90%] mx-auto mt-[150px]">
           <h3 className="text-main font-bold capitalize text-4xl lg:text-4xl leading-[2.5rem] fxl:text-7xl 3xl:text-8xl">
-            Cosa posso fare per te
+            Cosa posso fare per te?
           </h3>
           <SliderCards servizi={servizi} />
         </div>

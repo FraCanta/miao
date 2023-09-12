@@ -12,7 +12,9 @@ import Image from "next/image";
 import Talk from "@/public/sectionsTitle/contact_form.png";
 import SlideAnimation from "@/components/slideAnimation/slideAnimation";
 import Others from "@/components/serviziItem/others";
-const Servizi = ({ servizio, others }) => {
+import Link from "next/link";
+const Servizi = ({ servizio, others, serviziFra }) => {
+  console.log(serviziFra);
   return (
     <>
       <Head>
@@ -70,6 +72,14 @@ const Servizi = ({ servizio, others }) => {
               </li>
             </ul>
           </div>
+          <div className="bg-main h-20 flex items-center justify-center 2xl:justify-end px-8 mt-[150px]">
+            <Link
+              href="/contatti"
+              className="capitalize font-bold py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 border 2xl:text-xl fxl:text-2xl 3xl:text-3xl rounded shadow  text-white hover:transition-all border-red  bg-red"
+            >
+              Chiedi un preventivo
+            </Link>
+          </div>
           <div className="min-h-[40vh] flex flex-col gap-8 2xl:p-6 mt-[100px]">
             <h3 className="text-main font-bold capitalize text-4xl lg:text-6xl leading-[2.5rem] fxl:text-7xl 3xl:text-8xl py-6">
               Ecco alcuni esempi
@@ -80,7 +90,7 @@ const Servizi = ({ servizio, others }) => {
               galleryTitle={"Gallery"}
             />
           </div>
-          <div className="2xl:w-[90%] min-h-[40vh] justify-between items-center gap-[39px] flex flex-col 2xl:flex-row mx-auto mt-[100px]">
+          {/* <div className="2xl:w-[90%] min-h-[40vh] justify-between items-center gap-[39px] flex flex-col 2xl:flex-row mx-auto mt-[100px]">
             <div className="flex-col justify-start items-start gap-[50px] inline-flex">
               <Image
                 className="object-cover w-[250px] 2xl:w-[300px] fxl:w-[450px] 3xl:w-[550px]"
@@ -104,6 +114,39 @@ const Servizi = ({ servizio, others }) => {
               </div>
             </div>
             <ContactForm />
+          </div> */}
+          <div className="w-full mx-auto 2xl:p-6 mt-[150px] flex flex-col gap-6">
+            <h3 className="text-main font-bold capitalize text-4xl lg:text-4xl leading-[2.5rem] fxl:text-7xl 3xl:text-8xl">
+              {/* {servizio?.titleOpzioni} */}
+              Perchè non volere di più? Ecco altre opzioni da aggiungere al tuo
+              sito
+            </h3>
+            <p className="text-second text-[1.25rem] 3xl:text-4xl 3xl:leading-[50px] leading-normal">
+              Lavoreremo insieme a Francesca, web designer molto talentuosa, per
+              costruire un&apos;immagine autentica e coinvolgente. Grazie alle
+              sue competenze, ti propongo queste opzioni:
+            </p>
+            <div className="grid grid-cols-1 2xl:grid-cols-4 ">
+              {serviziFra?.map((f, i) => {
+                return (
+                  <ServiziItem
+                    key={i}
+                    img={f?.img}
+                    name={f?.name}
+                    link={f?.link}
+                    descrizione={f?.descrizione}
+                  />
+                );
+              })}
+            </div>
+            <div className="bg-main h-20 flex items-center justify-center 2xl:justify-end px-8 ">
+              <Link
+                href="/contatti"
+                className="capitalize font-bold py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 border 2xl:text-xl fxl:text-2xl 3xl:text-3xl rounded shadow  text-white hover:transition-all border-red  bg-red"
+              >
+                Prenota una call con me
+              </Link>
+            </div>
           </div>
           <div className="w-full mx-auto 2xl:p-6 mt-[150px]">
             <h3 className="text-main font-bold capitalize text-4xl lg:text-4xl leading-[2.5rem] fxl:text-7xl 3xl:text-8xl">
@@ -158,6 +201,7 @@ export async function getStaticProps(context) {
     props: {
       servizio: targetObj,
       others: filteredOthers,
+      serviziFra: obj?.servizi?.fraService,
     },
   };
 }
