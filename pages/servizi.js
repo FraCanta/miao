@@ -22,7 +22,7 @@ const Me = ({ translation }) => {
             img={translation?.hero?.img}
           />
         </div>
-        <section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 w-[90%] mx-auto min-h-[40vh] mt-[150px] gap-10">
+        <section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 w-[90%] mx-auto min-h-[40vh] gap-10">
           {translation?.serviziItem?.map((el, i) => {
             return (
               <ServiziItem
