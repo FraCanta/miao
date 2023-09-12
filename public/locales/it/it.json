@@ -81,13 +81,13 @@
         "img": "/serviziImg/logodesign.png",
         "name": "Logo Design",
         "title": "logo",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "descrizione": "Un logo ben progettato è un investimento chiave nella costruzione della reputazione e della fiducia del tuo marchio nel tempo.",
         "link": "/service/logo"
       },
       {
         "img": "/serviziImg/branding.png",
         "name": "Branding Strategy",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "descrizione": "Creare un branding (attraverso il logo, la comunicazione visiva e i valori aziendali) aiuta a differenziarsi dalla concorrenza e costruire un'identità forte e unica.",
         "link": "/service/branding"
       },
       {
@@ -104,7 +104,7 @@
       },
       {
         "img": "/serviziImg/campagne.png",
-        "name": "Campagne Pubblicitarie BLT",
+        "name": "Campagne Off-line",
         "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
         "link": "/service/campagne"
       },
@@ -116,7 +116,7 @@
       },
       {
         "img": "/serviziImg/illustrazione.png",
-        "name": "illustrazione Vettoriale e Manuale",
+        "name": "Illustrazione Vettoriale e Manuale",
         "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
         "link": "/service/illustrazione"
       },
@@ -131,30 +131,211 @@
       "logo": {
         "img": "/serviziImg/logodesign.png",
         "name": "Logo Design",
+        "introTitle": "Progettiamo insieme il tuo Logo Personalizzato per la Tua nuova Attività",
+        "intro": "Se stai iniziando una nuova attività e ancora non hai un logo distintivo che rappresenti al meglio la tua azienda, sei nel posto giusto! Hai bisogno di un’immagine visiva su misura, in perfetta sintonia con la tua mission e adatta al tuo pubblico di riferimento?",
         "title": "/serviziImg/logo_Title.png",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "titlePro": "Sono qui per te:",
+        "descPro": "Progetteremo un logo unico per la tua azienda, che trasmetta chiaramente la tua attività e i prodotti/servizi che offri al tuo pubblico.",
+        "titleList": " Cosa otterrai:",
+        "list": [
+          "1 logo in formato vettoriale (pdf), ideale per qualsiasi comunicazione stampata e/o tipografica.",
+          "1 logo in formato web (jpeg e gif), perfetto per i tuoi canali social e online."
+        ],
+        "descrizione": "Un logo ben progettato è un investimento chiave nella costruzione della reputazione e della fiducia del tuo marchio nel tempo.",
         "link": "logo",
         "gallery": [
-          { "src": "/serviziImg/LOGOS9.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS24.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS29.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS34.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS45.jpg", "width": 600, "height": 600 }
+          {
+            "src": "/serviziImg/logoDesign/logoDesign.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign2.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign3.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign4.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign5.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign6.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign7.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign8.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign9.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign10.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign11.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign12.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign13.jpg",
+            "width": 600,
+            "height": 600
+          }
         ]
       },
       "branding": {
         "img": "/serviziImg/branding.png",
         "name": "Branding Strategy",
         "title": "/serviziImg/branding_Title.png",
-
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-        "link": "branding",
+        "introTitle": "Progettiamo insieme il tuo Logo Personalizzato per la Tua nuova Attività",
+        "intro": "Se stai iniziando una nuova attività e ancora non hai un logo distintivo che rappresenti al meglio la tua azienda, sei nel posto giusto! Hai bisogno di un’immagine visiva su misura, in perfetta sintonia con la tua mission e adatta al tuo pubblico di riferimento?",
+        "titlePro": "Sono qui per te:",
+        "descPro": "Progetteremo un logo unico per la tua azienda, che trasmetta chiaramente la tua attività e i prodotti/servizi che offri al tuo pubblico.",
+        "titleList": " Cosa otterrai:",
+        "list": [
+          "1 logo in formato vettoriale (pdf), ideale per qualsiasi comunicazione stampata e/o tipografica.",
+          "1 logo in formato web (jpeg e gif), perfetto per i tuoi canali social e online."
+        ],
+        "descrizione": "Un logo ben progettato è un investimento chiave nella costruzione della reputazione e della fiducia del tuo marchio nel tempo.",
+        "link": "logo",
         "gallery": [
-          { "src": "/serviziImg/LOGOS9.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS24.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS29.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS34.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS45.jpg", "width": 600, "height": 600 }
+          {
+            "src": "/serviziImg/branding/brand.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/branding/brand2.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/branding/brand3.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/branding/brand4.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/branding/brand5.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/branding/brand6.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/branding/brand7.jpg",
+            "width": 600,
+            "height": 600
+          }
+        ],
+        "gallery2": [
+          {
+            "src": "/serviziImg/branding/brand8.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/branding/brand9.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/branding/brand10.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/branding/brand11.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/branding/brand12.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/branding/brand13.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/branding/brand14.jpg",
+            "width": 600,
+            "height": 600
+          }
+        ],
+        "gallery3": [
+          {
+            "src": "/serviziImg/branding/brand15.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/branding/brand16.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/branding/brand17.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/branding/brand18.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/branding/brand19.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/branding/brand20.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/branding/brand21.jpg",
+            "width": 600,
+            "height": 600
+          }
         ]
       },
       "label": {
@@ -189,7 +370,7 @@
       },
       "campagne": {
         "img": "/serviziImg/campagne.png",
-        "name": "Campagne Pubblicitarie BLT",
+        "name": "Campagne Off-line",
         "title": "/serviziImg/campagne_Title.png",
 
         "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",

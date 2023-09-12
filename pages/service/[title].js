@@ -21,58 +21,42 @@ const Servizi = ({ servizio, others, serviziFra }) => {
         <title>{`Miao - ${servizio?.name}`}</title>
       </Head>
       <SlideAnimation>
-        <HeroPage
-          title={servizio?.title}
-          img={servizio?.img}
-          link={servizio?.img}
-        />
-        <div className="w-[90%] mx-auto flex flex-col justify-between mt-[100px] 3xl:mt-[250px]">
-          <div className="min-h-[40vh] h-full flex flex-col gap-8 2xl:p-6">
-            <h3 className="text-main font-bold capitalize text-4xl lg:text-6xl leading-[2.5rem] fxl:text-7xl 3xl:text-8xl">
-              Non solo {servizio?.name}
+        <div className="w-full h-full min-h-[calc(100vh_-_80px)] lg:h-[calc(100vh_-_70px)]  2xl:h-[calc(80vh_-_100px)] fxl:h-[calc(100vh_-_150px)]  4xl:h-[calc(100vh_-_250px)] mx-auto flex flex-col lg:flex-row items-center justify-center 2xl:justify-between">
+          <HeroPage
+            title={servizio?.title}
+            img={servizio?.img}
+            link={servizio?.img}
+          />
+        </div>
+        <div className="w-[90%] mx-auto flex flex-col justify-between mt-10">
+          <div className="min-h-[30vh] h-full flex flex-col gap-8 2xl:p-6">
+            <h3 className="text-main font-bold capitalize text-4xl lg:text-6xl 2xl:!leading-[4.5rem] fxl:text-7xl 3xl:text-8xl">
+              {servizio?.introTitle}
             </h3>
             <p className="text-second text-[1.25rem] 3xl:text-4xl 3xl:leading-[50px] leading-normal">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, sed
-              praesentium fuga, earum nulla reiciendis officiis, ducimus
-              blanditiis magnam ut accusamus minima corporis laborum maxime
-              sunt? Sequi deleniti aspernatur reiciendis!
-            </p>
-            <p className="text-second text-[1.25rem] 3xl:text-4xl 3xl:leading-[50px] leading-normal">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, sed
-              praesentium fuga, earum nulla reiciendis officiis, ducimus
-              blanditiis magnam ut accusamus minima corporis laborum maxime
-              sunt? Sequi deleniti aspernatur reiciendis!
+              {servizio?.intro}
             </p>
           </div>
-          <div className="min-h-[40vh] flex flex-col gap-8 2xl:p-6 mt-[100px]">
+          <div className="min-h-[50vh] flex flex-col gap-8 2xl:p-6 mt-10">
             <h3 className="text-main font-bold capitalize text-4xl lg:text-6xl leading-[2.5rem] fxl:text-7xl 3xl:text-8xl">
-              Come procediamo?
+              {servizio?.titlePro}
+            </h3>
+            <p className="text-second text-[1.25rem] 3xl:text-4xl 3xl:leading-[50px] leading-normal">
+              {servizio?.descPro}
+            </p>
+            <div></div>
+
+            <h3 className="text-main font-bold capitalize text-4xl lg:text-6xl leading-[2.5rem] fxl:text-7xl 3xl:text-8xl">
+              {servizio?.titleList}
             </h3>
 
             <ul className="list-disc text-[1.25rem] 3xl:text-4xl flex flex-col gap-4 3xl:gap-6 ml-6 mt-4">
-              <li>
-                Now this is a story all about how, my life got flipped-turned
-                upside down
-              </li>
-              <li>
-                Now this is a story all about how, my life got flipped-turned
-                upside down
-              </li>
-              <li>
-                Now this is a story all about how, my life got flipped-turned
-                upside down
-              </li>
-              <li>
-                Now this is a story all about how, my life got flipped-turned
-                upside down
-              </li>
-              <li>
-                Now this is a story all about how, my life got flipped-turned
-                upside down
-              </li>
+              {servizio?.list?.map((l, i) => {
+                return <li key={i}>{l}</li>;
+              })}
             </ul>
           </div>
-          <div className="bg-main h-20 flex items-center justify-center 2xl:justify-end px-8 mt-[150px]">
+          <div className="bg-main h-20 flex items-center justify-center 2xl:justify-end px-8 mt-[50px]">
             <Link
               href="/contatti"
               className="capitalize font-bold py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 border 2xl:text-xl fxl:text-2xl 3xl:text-3xl rounded shadow  text-white hover:transition-all border-red  bg-red"
@@ -80,12 +64,22 @@ const Servizi = ({ servizio, others, serviziFra }) => {
               Chiedi un preventivo
             </Link>
           </div>
-          <div className="min-h-[40vh] flex flex-col gap-8 2xl:p-6 mt-[100px]">
+          <div className="min-h-[40vh] flex flex-col gap-8 2xl:p-6 mt-10 2xl:mt-[100px]">
             <h3 className="text-main font-bold capitalize text-4xl lg:text-6xl leading-[2.5rem] fxl:text-7xl 3xl:text-8xl py-6">
               Ecco alcuni esempi
             </h3>
             <Gallery
               imageArray={servizio?.gallery}
+              galleryID="gallery--click-to-next"
+              galleryTitle={"Gallery"}
+            />
+            <Gallery
+              imageArray={servizio?.gallery2}
+              galleryID="gallery--click-to-next"
+              galleryTitle={"Gallery"}
+            />
+            <Gallery
+              imageArray={servizio?.gallery3}
               galleryID="gallery--click-to-next"
               galleryTitle={"Gallery"}
             />
@@ -115,16 +109,16 @@ const Servizi = ({ servizio, others, serviziFra }) => {
             </div>
             <ContactForm />
           </div> */}
-          <div className="w-full mx-auto 2xl:p-6 mt-[150px] flex flex-col gap-6">
-            <h3 className="text-main font-bold capitalize text-4xl lg:text-4xl leading-[2.5rem] fxl:text-7xl 3xl:text-8xl">
+          <div className="w-full mx-auto 2xl:p-6 2xl:mt-[150px] flex flex-col gap-6">
+            <h3 className="text-main font-bold capitalize text-4xl lg:text-6xl 2xl:!leading-[4.5rem] fxl:text-7xl 3xl:text-8xl">
               {/* {servizio?.titleOpzioni} */}
-              Perchè non volere di più? Ecco altre opzioni da aggiungere al tuo
-              sito
+              Perchè non volere di più? Ecco altre opzioni su misura per te
             </h3>
             <p className="text-second text-[1.25rem] 3xl:text-4xl 3xl:leading-[50px] leading-normal">
               Lavoreremo insieme a Francesca, web designer molto talentuosa, per
-              costruire un&apos;immagine autentica e coinvolgente. Grazie alle
-              sue competenze, ti propongo queste opzioni:
+              ideare un sito web professionale cheti permetta di rafforzare la
+              tua identità aziendale e così consolidando la tua presenza online.
+              Grazie alle sue competenze, ti propongo queste opzioni:
             </p>
             <div className="grid grid-cols-1 2xl:grid-cols-4 ">
               {serviziFra?.map((f, i) => {
@@ -148,8 +142,8 @@ const Servizi = ({ servizio, others, serviziFra }) => {
               </Link>
             </div>
           </div>
-          <div className="w-full mx-auto 2xl:p-6 mt-[150px]">
-            <h3 className="text-main font-bold capitalize text-4xl lg:text-4xl leading-[2.5rem] fxl:text-7xl 3xl:text-8xl">
+          <div className="w-full mx-auto 2xl:p-6 mt-20 2xl:mt-[150px]">
+            <h3 className="text-main font-bold capitalize text-4xl lg:text-6xl 2xl:!leading-[4.5rem] fxl:text-7xl 3xl:text-8xl">
               {/* {servizio?.titleOpzioni} */}
               ti potrebbe anche interesssare
             </h3>

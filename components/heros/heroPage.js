@@ -3,7 +3,7 @@ import React from "react";
 
 const HeroPage = ({ img, title }) => {
   return (
-    <div className="w-[90%] mx-auto h-full flex flex-col lg:flex-row 2xl:items-center 2xl:justify-around gap-8 mt-6">
+    <div className="w-[90%] mx-auto h-full flex flex-col lg:flex-row 2xl:items-center 2xl:justify-around gap-8">
       <div>
         <Image
           src={title}
