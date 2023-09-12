@@ -11,8 +11,10 @@ import SectionMeUno from "@/components/sections/sectionMeUno";
 import SectionMeDue from "@/components/sections/sectionMeDue";
 import SectionMeTre from "@/components/sections/sectionMeTre";
 import ContactForm from "@/components/contactForm/contactForm";
+import SliderCards from "@/components/serviziItem/sliderCards";
 
-const Me = ({ translation }) => {
+const Me = ({ translation, servizi }) => {
+  console.log(servizi);
   return (
     <>
       <Head>
@@ -39,7 +41,14 @@ const Me = ({ translation }) => {
           <div className="elfsight-app-e5f28877-c53f-4c54-8037-22c0d90781f9"></div>{" "}
         </section>
         <SectionMeTre translation={translation?.sezioneQuattro} />
-        <section className="w-[90%] min-h-[40vh] justify-between items-center gap-[39px] flex flex-col 2xl:flex-row mx-auto mt-[150px]">
+        <div className="w-[90%] mx-auto mt-[150px]">
+          <h3 className="text-main font-bold capitalize text-4xl lg:text-4xl leading-[2.5rem] fxl:text-7xl 3xl:text-8xl">
+            Cosa posso fare per te
+          </h3>
+          <SliderCards servizi={servizi} />
+        </div>
+
+        {/* <section className="w-[90%] min-h-[40vh] justify-between items-center gap-[39px] flex flex-col 2xl:flex-row mx-auto mt-[150px]">
           <div className="flex-col justify-start items-start gap-[50px] inline-flex">
             <Image
               className="object-cover w-[250px] 2xl:w-[300px] fxl:w-[450px] 3xl:w-[550px]"
@@ -63,7 +72,7 @@ const Me = ({ translation }) => {
             </div>
           </div>
           <ContactForm />
-        </section>
+        </section> */}
       </SlideAnimation>
     </>
   );
@@ -92,6 +101,7 @@ export async function getStaticProps(locale, context) {
   return {
     props: {
       translation: obj?.me,
+      servizi: obj?.servizi?.serviziItem,
     },
     revalidate: 60,
   };

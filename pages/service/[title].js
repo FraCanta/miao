@@ -11,6 +11,7 @@ import ContactForm from "@/components/contactForm/contactForm";
 import Image from "next/image";
 import Talk from "@/public/sectionsTitle/contact_form.png";
 import SlideAnimation from "@/components/slideAnimation/slideAnimation";
+import Others from "@/components/serviziItem/others";
 const Servizi = ({ servizio, others }) => {
   return (
     <>
@@ -104,22 +105,12 @@ const Servizi = ({ servizio, others }) => {
             </div>
             <ContactForm />
           </div>
-          <div className="w-full  2xl:p-6 mt-[150px]">
+          <div className="w-full mx-auto 2xl:p-6 mt-[150px]">
             <h3 className="text-main font-bold capitalize text-4xl lg:text-4xl leading-[2.5rem] fxl:text-7xl 3xl:text-8xl">
               {/* {servizio?.titleOpzioni} */}
               ti potrebbe anche interesssare
             </h3>
-          </div>
-          <div className="grid gap-6 grid-cols-1 2xl:grid-cols-4 w-full mt-10 mx-auto">
-            {others?.map((el, i) => (
-              <ServiziItem
-                key={i}
-                img={el?.img}
-                name={el?.name}
-                link={el?.link}
-                descrizione={el?.descrizione}
-              />
-            ))}
+            <Others others={others} />
           </div>
         </div>
       </SlideAnimation>

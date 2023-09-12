@@ -5,9 +5,9 @@ import React from "react";
 const ServiziItem = ({ img, name, descrizione, link }) => {
   return (
     <>
-      <div className="w-full justify-start items-start gap-2.5 flex  flex-col">
+      <div className="w-full justify-start items-start gap-2.5 flex ">
         <Link href={link}>
-          <div className="w-full p-8">
+          <div className="w-full p-4 2xl:p-8">
             <Image
               className="object-cover w-auto h-auto"
               src={img}
@@ -22,8 +22,8 @@ const ServiziItem = ({ img, name, descrizione, link }) => {
                 {name}
               </h6>
             </div>
-            <div className="w-full text-second text-base font-normal leading-tight">
-              {descrizione}
+            <div className="w-full text-second text-base 3xl:text-[1.5rem] font-normal leading-tight">
+              <p>{descrizione}</p>
             </div>
           </div>
         </Link>
