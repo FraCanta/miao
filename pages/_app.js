@@ -1,4 +1,5 @@
 import "@/styles/globals.css";
+import "@/styles/contact.css";
 import Layout from "@/components/layout/layout";
 import { useRouter } from "next/router";
 import Script from "next/script";
