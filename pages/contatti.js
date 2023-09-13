@@ -22,7 +22,7 @@ const Me = ({ translation }) => {
             img={translation?.hero?.img}
           />
         </div>
-        <section className="w-[90%] min-h-[40vh] justify-between items-center gap-[39px] flex flex-col 2xl:flex-row mx-auto mt-[150px]">
+        <section className="w-[90%] min-h-auto justify-between items-center  flex flex-col 2xl:flex-row mx-auto mt-20">
           {/* <div className="flex-col justify-start items-start gap-[50px] inline-flex">
             <Image
               className="object-cover w-[250px] 2xl:w-[300px] fxl:w-[450px] 3xl:w-[550px]"
