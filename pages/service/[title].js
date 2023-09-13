@@ -29,22 +29,35 @@ const Servizi = ({ servizio, others, serviziFra }) => {
           />
         </div>
         <div className="w-[90%] mx-auto flex flex-col justify-between mt-10">
-          <div className="min-h-[30vh] h-full flex flex-col gap-8 2xl:p-6">
+          <div className="min-h-auto h-full flex flex-col gap-8 2xl:p-6">
             <h3 className="text-main font-bold capitalize text-4xl lg:text-6xl 2xl:!leading-[4.5rem] fxl:text-7xl 3xl:text-8xl">
               {servizio?.introTitle}
             </h3>
-            <p className="text-second text-[1.25rem] 3xl:text-4xl 3xl:leading-[50px] leading-normal">
-              {servizio?.intro}
-            </p>
+            {servizio?.intro?.map((p, i) => {
+              return (
+                <p
+                  key={i}
+                  className="text-second text-[1.25rem] 3xl:text-4xl 3xl:leading-[50px] leading-normal"
+                >
+                  {p}
+                </p>
+              );
+            })}
           </div>
-          <div className="min-h-[50vh] flex flex-col gap-8 2xl:p-6 mt-10">
-            <h3 className="text-main font-bold capitalize text-4xl lg:text-6xl leading-[2.5rem] fxl:text-7xl 3xl:text-8xl">
-              {servizio?.titlePro}
-            </h3>
-            <p className="text-second text-[1.25rem] 3xl:text-4xl 3xl:leading-[50px] leading-normal">
-              {servizio?.descPro}
-            </p>
-            <div></div>
+
+          <div className="min-h-auto flex flex-col gap-8 2xl:p-6 mt-10">
+            {servizio?.titlePro && servizio?.descPro ? (
+              <div>
+                <h3 className="text-main font-bold capitalize text-4xl lg:text-6xl leading-[2.5rem] fxl:text-7xl 3xl:text-8xl">
+                  {servizio?.titlePro}
+                </h3>{" "}
+                <p className="text-second text-[1.25rem] 3xl:text-4xl 3xl:leading-[50px] leading-normal">
+                  {servizio?.descPro}
+                </p>
+              </div>
+            ) : (
+              ""
+            )}
 
             <h3 className="text-main font-bold capitalize text-4xl lg:text-6xl leading-[2.5rem] fxl:text-7xl 3xl:text-8xl">
               {servizio?.titleList}
@@ -64,7 +77,7 @@ const Servizi = ({ servizio, others, serviziFra }) => {
               Chiedi un preventivo
             </Link>
           </div>
-          <div className="min-h-[40vh] flex flex-col gap-8 2xl:p-6 mt-10 2xl:mt-[100px]">
+          <div className="min-h-auto flex flex-col gap-8 2xl:p-6 mt-10 2xl:mt-[100px]">
             <h3 className="text-main font-bold capitalize text-4xl lg:text-6xl leading-[2.5rem] fxl:text-7xl 3xl:text-8xl py-6">
               Ecco alcuni esempi
             </h3>
@@ -109,7 +122,7 @@ const Servizi = ({ servizio, others, serviziFra }) => {
             </div>
             <ContactForm />
           </div> */}
-          <div className="w-full mx-auto 2xl:p-6 mt-10 2xl:mt-[150px] flex flex-col gap-6">
+          <div className="w-full mx-auto 2xl:p-6 mt-10 2xl:mt-[100px] flex flex-col gap-6">
             <h3 className="text-main font-bold capitalize text-4xl lg:text-6xl 2xl:!leading-[4.5rem] fxl:text-7xl 3xl:text-8xl">
               {/* {servizio?.titleOpzioni} */}
               Perchè non volere di più? Ecco altre opzioni su misura per te
@@ -142,7 +155,7 @@ const Servizi = ({ servizio, others, serviziFra }) => {
               </Link>
             </div>
           </div>
-          <div className="w-full mx-auto 2xl:p-6 mt-20 2xl:mt-[150px]">
+          <div className="w-full mx-auto 2xl:p-6 mt-20 2xl:mt-[100px]">
             <h3 className="text-main font-bold capitalize text-4xl lg:text-6xl 2xl:!leading-[4.5rem] fxl:text-7xl 3xl:text-8xl">
               {/* {servizio?.titleOpzioni} */}
               ti potrebbe anche interesssare
