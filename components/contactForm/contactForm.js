@@ -461,7 +461,7 @@ export default function ContactForm({ translation }) {
                 type="submit"
               >
                 <span className="button__content">
-                  <span className="button__text text-lg py-2 px-12 2xl:text-xl text-white font-bold">
+                  <span className="button__text text-lg py-2 px-12 2xl:text-xl 3xl:text-3xl text-white font-bold">
                     Invia
                   </span>
                 </span>
