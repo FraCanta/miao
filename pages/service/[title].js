@@ -47,7 +47,7 @@ const Servizi = ({ servizio, others, serviziFra }) => {
 
           <div className="min-h-auto flex flex-col gap-8 2xl:p-6 mt-10">
             {servizio?.titlePro && servizio?.descPro ? (
-              <div>
+              <div className="flex  flex-col gap-6 mb-6">
                 <h3 className="text-main font-bold capitalize text-4xl lg:text-6xl leading-[2.5rem] fxl:text-7xl 3xl:text-8xl">
                   {servizio?.titlePro}
                 </h3>{" "}
@@ -97,6 +97,7 @@ const Servizi = ({ servizio, others, serviziFra }) => {
               galleryTitle={"Gallery"}
             />
           </div>
+
           {/* <div className="2xl:w-[90%] min-h-[40vh] justify-between items-center gap-[39px] flex flex-col 2xl:flex-row mx-auto mt-[100px]">
             <div className="flex-col justify-start items-start gap-[50px] inline-flex">
               <Image

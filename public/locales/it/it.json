@@ -105,18 +105,18 @@
       {
         "img": "/serviziImg/campagne.png",
         "name": "Campagne Off-line",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "descrizione": "Le campagne offline hanno un’importanza incalcolabile nel plasmare le nostre scelte, nel creare connessioni e nel trasmettere messaggi profondi. Sono le manifestazioni tangibili di idee, valori e brand che possono essere toccate, sentite e ricordate. ",
         "link": "/service/campagne"
       },
       {
         "img": "/serviziImg/allestimenti.png",
         "name": "Allestimenti",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "descrizione": "Gli allestimenti personalizzati trasformano uno spazio vuoto in una tela bianca per raccontare la tua storia. Possono evocare emozioni, creare atmosfere e coinvolgere il tuo pubblico in modo unico.",
         "link": "/service/allestimenti"
       },
       {
         "img": "/serviziImg/illustrazione.png",
-        "name": "Illustrazione Vettoriale e Manuale",
+        "name": "Illustrazione Digitale",
         "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
         "link": "/service/illustrazione"
       },
@@ -133,6 +133,8 @@
         "name": "Logo Design",
         "introTitle": "Progettiamo insieme il tuo Logo Personalizzato per la Tua nuova Attività",
         "intro": [
+          "Un logo design efficace ha un impatto duraturo sulla percezione dell’azienda nel corso del tempo. È una parte fondamentale della strategia di branding, che contribuisce a costruire la reputazione e la fiducia del marchio nel lungo periodo. Un logo ben progettato è un investimento per il successo futuro dell’azienda.",
+
           "Se stai iniziando una nuova attività e ancora non hai un logo distintivo che rappresenti al meglio la tua azienda, sei nel posto giusto! Hai bisogno di un’immagine visiva su misura, in perfetta sintonia con la tua mission e adatta al tuo pubblico di riferimento?"
         ],
         "title": "/serviziImg/logo_Title.png",
@@ -151,23 +153,9 @@
             "width": 600,
             "height": 600
           },
-          {
-            "src": "/serviziImg/logoDesign/logoDesign2.jpg",
-            "width": 600,
-            "height": 600
-          },
+
           {
             "src": "/serviziImg/logoDesign/logoDesign3.jpg",
-            "width": 600,
-            "height": 600
-          },
-          {
-            "src": "/serviziImg/logoDesign/logoDesign4.jpg",
-            "width": 600,
-            "height": 600
-          },
-          {
-            "src": "/serviziImg/logoDesign/logoDesign5.jpg",
             "width": 600,
             "height": 600
           },
@@ -177,7 +165,17 @@
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logoDesign7.jpg",
+            "src": "/serviziImg/logoDesign/logoDesign4.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign13.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign5.jpg",
             "width": 600,
             "height": 600
           },
@@ -187,12 +185,7 @@
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logoDesign9.jpg",
-            "width": 600,
-            "height": 600
-          },
-          {
-            "src": "/serviziImg/logoDesign/logoDesign10.jpg",
+            "src": "/serviziImg/logoDesign/logoDesign7.jpg",
             "width": 600,
             "height": 600
           },
@@ -207,7 +200,18 @@
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logoDesign13.jpg",
+            "src": "/serviziImg/logoDesign/logoDesign9.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign10.jpg",
+            "width": 600,
+            "height": 600
+          },
+
+          {
+            "src": "/serviziImg/logoDesign/logoDesign2.jpg",
             "width": 600,
             "height": 600
           }
@@ -229,7 +233,7 @@
           "1 logo in formato vettoriale (pdf), ideale per qualsiasi comunicazione stampata e/o tipografica.",
           "1 logo in formato web (jpeg e gif), perfetto per i tuoi canali social e online."
         ],
-        "descrizione": "Un logo ben progettato è un investimento chiave nella costruzione della reputazione e della fiducia del tuo marchio nel tempo.",
+        "descrizione": "Creare un branding (attraverso il logo, la comunicazione visiva e i valori aziendali) aiuta a differenziarsi dalla concorrenza e costruire un'identità forte e unica.",
         "link": "logo",
         "gallery": [
           {
@@ -244,7 +248,7 @@
             "height": 600
           },
           {
-            "src": "/serviziImg/branding/brand4.jpg",
+            "src": "/serviziImg/branding/brandA.jpg",
             "width": 600,
             "height": 600
           },
@@ -305,12 +309,12 @@
             "height": 600
           },
           {
-            "src": "/serviziImg/branding/brand20.jpg",
+            "src": "/serviziImg/branding/brand16.jpg",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/branding/brand16.jpg",
+            "src": "/serviziImg/branding/brand20.jpg",
             "width": 600,
             "height": 600
           }
@@ -466,35 +470,160 @@
         "img": "/serviziImg/campagne.png",
         "name": "Campagne Off-line",
         "title": "/serviziImg/campagne_Title.png",
-
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "introTitle": "Riscoprire il Potere delle Campagne Offline: Emozioni, Fiducia ed Accessibilità nel Mondo Digitale",
+        "intro": [
+          "Nel mondo frenetico e digitalizzato in cui viviamo, può sembrare che l’attenzione sia rivolta unicamente verso il mondo online. Ma, in un’epoca in cui i nostri occhi sono incollati agli schermi e i nostri dispositivi ci tengono connessi costantemente, c’è un mondo fuori che non dovremmo mai sottovalutare: il mondo delle campagne offline.",
+          "A differenza delle Ads, sul web apportano benefici tangibili quali:  ",
+          "Generare emozioni: un poster, un volantino o un evento dal vivo possono suscitare sentimenti che difficilmente si possono ottenere attraverso uno schermo. La sensazione di tenere tra le mani un prodotto, sentirne la consistenza, fruire le informazioni con il prorio tempo ecc... possono creare un impatto profondo.",
+          "Creare fiducia: le persone tendono a fidarsi di ciò che possono vedere, toccare e sperimentare direttamente. Le campagne offline forniscono questa opportunità di esperienza autentica.",
+          "Ampliare l’accessibilità: non tutti hanno accesso costante a Internet o sono disposti a condividere i propri dati online. Le campagne offline raggiungono un pubblico più ampio, inclusi coloro che potrebbero essere altrimenti esclusi dal mondo digitale."
+        ],
+        "titleList": "Come fare per realizzare una buona campagna offline:",
+        "list": [
+          "scegliere i giusti spazi per le affissioni",
+          "prevedere delle uscite su testate giornalistiche locali in target",
+          "ideare una grafica accattivante e coinvolgente rispetto al messaggio",
+          "creare differenti formati di manifesti",
+          "creare delle cartoline o dei flyer per permettere la consegna manuale del messaggio",
+          "supportare l’iniziativa mediante gadget ideati ad hoc"
+        ],
+        "descrizione": "Le campagne offline hanno un’importanza incalcolabile nel plasmare le nostre scelte, nel creare connessioni e nel trasmettere messaggi profondi. Sono le manifestazioni tangibili di idee, valori e brand che possono essere toccate, sentite e ricordate. ",
         "link": "campagne",
         "gallery": [
-          { "src": "/serviziImg/LOGOS9.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS24.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS29.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS34.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS45.jpg", "width": 600, "height": 600 }
+          {
+            "src": "/serviziImg/logoDesign/logoDesign.jpg",
+            "width": 600,
+            "height": 600
+          },
+
+          {
+            "src": "/serviziImg/logoDesign/logoDesign3.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign6.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign4.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign13.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign5.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign8.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign7.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign11.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign12.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign9.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign10.jpg",
+            "width": 600,
+            "height": 600
+          },
+
+          {
+            "src": "/serviziImg/logoDesign/logoDesign2.jpg",
+            "width": 600,
+            "height": 600
+          }
         ]
       },
       "allestimenti": {
         "img": "/serviziImg/allestimenti.png",
         "name": "Allestimenti",
         "title": "/serviziImg/allestimenti_Title.png",
+        "introTitle": "Allestiti per Comunicare: Il Potere dell'Allestimento Personalizzato nell'Impatto del Tuo Brand",
+        "intro": [
+          "Un’ allestimento personalizzato è un potente strumento che trasforma un semplice spazio in un’ambiente comunicativo. Gli allestimenti, sia in ambito fieristico che riguardanti il punto vendita, sono la chiave per catturare l’attenzione, suscitare emozioni e far sì che il tuo brand si distingua.",
 
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+          "Nei contesti fieristici, un allestimento personalizzato mette in mostra il tuo brand in prima fila, attirando gli sguardi e creando un’esperienza memorabile. Nel punto vendita, trasforma la visita dei clienti in un’immersione totale nel tuo mondo.",
+          "Gli allestimenti personalizzati sono un potente strumento di comunicazione. Possono trasmettere messaggi chiari e memorabili, aiutandoti a raggiungere i tuoi obiettivi di marketing e promozione."
+        ],
+
+        "descrizione": "Gli allestimenti personalizzati trasformano uno spazio vuoto in una tela bianca per raccontare la tua storia. Possono evocare emozioni, creare atmosfere e coinvolgere il tuo pubblico in modo unico.",
         "link": "allestimenti",
         "gallery": [
-          { "src": "/serviziImg/LOGOS9.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS24.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS29.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS34.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS45.jpg", "width": 600, "height": 600 }
+          {
+            "src": "/serviziImg/allestimenti/allestimenti.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/allestimenti/allestimenti2.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/allestimenti/allestimenti3.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/allestimenti/allestimenti4.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/allestimenti/allestimenti5.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/allestimenti/allestimenti6.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/allestimenti/allestimenti7.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/allestimenti/allestimenti8.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/allestimenti/allestimenti9.jpg",
+            "width": 600,
+            "height": 600
+          }
         ]
       },
       "illustrazione": {
         "img": "/serviziImg/illustrazione.png",
-        "name": "illustrazione Vettoriale e Manuale",
+        "name": "Illustrazione Digitale",
         "title": "/serviziImg/illustrazione_Title.png",
 
         "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
