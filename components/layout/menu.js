@@ -28,7 +28,7 @@ const Menu = ({ nr, translation }) => {
   return (
     <header>
       <nav
-        className="h-[60px] md:h-[140px] lg:h-[70px] xl:h-[80px] fxl:h-[150px] 3xl:h-[180px] 4xl:h-[250px] 3xl flex w-full items-center justify-between relative z-[999999]  "
+        className="h-[60px] md:h-[140px] lg:h-[70px] xl:h-[80px] fxl:h-[150px] 3xl:h-[180px] 4xl:h-[250px] 3xl flex w-full items-center justify-between relative z-[999999] nav-scroll "
         id="header"
         ref={nr}
       >

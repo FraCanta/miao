@@ -6,8 +6,6 @@ import translationEN from "../public/locales/en/en.json";
 import translationFR from "../public/locales/fr/fr.json";
 
 import SectionUno from "@/components/sections/sectionUno";
-import Image from "next/image";
-import Link from "next/link";
 import SectionDue from "@/components/sections/sectionDue";
 import SectionTre from "@/components/sections/sectionTre";
 import SectionsQuattro from "@/components/sections/sectionsQuattro";
@@ -41,7 +39,7 @@ export default function Home({ translation }) {
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
       <SlideAnimation>
-        <section className="w-full min-h-[calc(40vh_-_60px)] lg:h-[calc(100vh_-_70px)]  2xl:h-[calc(100vh_-_80px)] fxl:h-[calc(100vh_-_150px)]  4xl:h-[calc(100vh_-_250px)] mx-auto flex flex-col lg:flex-row items-center justify-between">
+        <section className="w-full min-h-[calc(40vh_-_60px)] lg:h-[calc(100vh_-_70px)]  2xl:h-[calc(100vh_-_80px)] fxl:h-[calc(100vh_-_150px)]  4xl:h-[calc(100vh_-_250px)] mx-auto flex flex-col lg:flex-row items-center justify-between relative">
           <HeroHome translation={translation?.hero} />
         </section>
         <SectionUno translation={translation?.sezioneUno} />

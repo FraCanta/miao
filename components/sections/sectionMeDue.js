@@ -9,7 +9,7 @@ const SectionMeDue = ({ translation }) => {
       <div className="w-full h-full">
         <div className="justify-start items-center flex w-[90%] mx-auto py-4 2xl:py-14">
           <Image
-            className="object-cover w-[300px] 2xl:w-[350px] fxl:w-[400px] 3xl:w-[30%]"
+            className="object-cover w-[60vw] 2xl:w-[30vw] fxl:w-[35vw] 3xl:w-[40vw]"
             src={translation?.title}
             alt="welcome title"
             width={300}

@@ -117,13 +117,13 @@
       {
         "img": "/serviziImg/illustrazione.png",
         "name": "Illustrazione Digitale",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "descrizione": "Nel vasto oceano del branding e della comunicazione visiva, c’è una chiave segreta che spicca come una stella brillante: le illustrazioni personalizzate. Questi tesori visivi sono molto più di semplici immagini; sono la luce che esalta il tuo brand e illumina l’immagine dei tuoi prodotti.",
         "link": "/service/illustrazione"
       },
       {
         "img": "/serviziImg/contentCreator.png",
         "name": "Content Creator",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "descrizione": "Nel mondo digitale di oggi, il contenuto ricopre un ruolo sempre più importante. Ma non si tratta solo di quantità; si tratta di qualità e, soprattutto, di personalizzazione. ",
         "link": "/service/content"
       }
     ],
@@ -491,69 +491,23 @@
         "link": "campagne",
         "gallery": [
           {
-            "src": "/serviziImg/logoDesign/logoDesign.jpg",
+            "src": "/serviziImg/campagne/campagne.jpg",
             "width": 600,
             "height": 600
           },
 
           {
-            "src": "/serviziImg/logoDesign/logoDesign3.jpg",
+            "src": "/serviziImg/campagne/campagne2.jpg",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logoDesign6.jpg",
+            "src": "/serviziImg/campagne/campagne3.jpg",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logoDesign4.jpg",
-            "width": 600,
-            "height": 600
-          },
-          {
-            "src": "/serviziImg/logoDesign/logoDesign13.jpg",
-            "width": 600,
-            "height": 600
-          },
-          {
-            "src": "/serviziImg/logoDesign/logoDesign5.jpg",
-            "width": 600,
-            "height": 600
-          },
-          {
-            "src": "/serviziImg/logoDesign/logoDesign8.jpg",
-            "width": 600,
-            "height": 600
-          },
-          {
-            "src": "/serviziImg/logoDesign/logoDesign7.jpg",
-            "width": 600,
-            "height": 600
-          },
-          {
-            "src": "/serviziImg/logoDesign/logoDesign11.jpg",
-            "width": 600,
-            "height": 600
-          },
-          {
-            "src": "/serviziImg/logoDesign/logoDesign12.jpg",
-            "width": 600,
-            "height": 600
-          },
-          {
-            "src": "/serviziImg/logoDesign/logoDesign9.jpg",
-            "width": 600,
-            "height": 600
-          },
-          {
-            "src": "/serviziImg/logoDesign/logoDesign10.jpg",
-            "width": 600,
-            "height": 600
-          },
-
-          {
-            "src": "/serviziImg/logoDesign/logoDesign2.jpg",
+            "src": "/serviziImg/campagne/campagne4.jpg",
             "width": 600,
             "height": 600
           }
@@ -625,30 +579,153 @@
         "img": "/serviziImg/illustrazione.png",
         "name": "Illustrazione Digitale",
         "title": "/serviziImg/illustrazione_Title.png",
+        "introTitle": "La Potenza delle Illustrazioni Personalizzate nel Distinguere il Tuo Brand",
+        "intro": [
+          "Le illustrazioni personalizzate sono la firma del tuo brand. Possono catturare l’essenza della tua identità aziendale in un’immagine, rendendo il tuo brand immediatamente riconoscibile e memorabile.",
+
+          "Le immagini parlano più intensamente delle parole, e le illustrazioni personalizzate sono un linguaggio universale. Possono trasmettere emozioni, concetti e storie in un istante, senza bisogno di spiegazioni.",
+          "In un mondo saturo di contenuti visivi generici, le illustrazioni personalizzate ti distinguono. Rendono il tuo brand unico, attraente e irresistibile agli occhi del pubblico.",
+          "I pattern personalizzati, creati con illustrazioni, aggiungono coesione e riconoscibilità a tutti i tuoi materiali di marketing. Permettono di creare un'armonia comunicativa tra il brand e il prodotto."
+        ],
 
         "descrizione": "Nel vasto oceano del branding e della comunicazione visiva, c’è una chiave segreta che spicca come una stella brillante: le illustrazioni personalizzate. Questi tesori visivi sono molto più di semplici immagini; sono la luce che esalta il tuo brand e illumina l’immagine dei tuoi prodotti.",
+        "titleList": "Quali sono i servizi illustrativi offerti:",
+        "list": [
+          "illustrazioni manuali per libri, materiali promozionali",
+          "illustrazioni digitali per comunicazione sui social",
+          "illustrazioni digitali per la creazione di pattern",
+          "illustrazioni digitali per l’immagine di prodotto (label, packaging)",
+          "illustrazioni digitali per la comunicazione e promozione di eventi",
+          "illustrazioni digitali personalizzate (inviti, quadri, coordinati nozze)",
+          "illustrazioni vettoriali per la creazione di loghi o magliette o gadget"
+        ],
+
         "link": "illustrazione",
         "gallery": [
-          { "src": "/serviziImg/LOGOS9.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS24.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS29.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS34.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS45.jpg", "width": 600, "height": 600 }
+          {
+            "src": "/serviziImg/illustrazione/illustrazioni2.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/illustrazione/illustrazioni3.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/illustrazione/illustrazioni4.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/illustrazione/illustrazioni5.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/illustrazione/illustrazioni6.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/illustrazione/illustrazioni7.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/illustrazione/illustrazioni8.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/illustrazione/illustrazioni9.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/illustrazione/illustrazioni10.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/illustrazione/illustrazioni.jpg",
+            "width": 600,
+            "height": 600
+          }
         ]
       },
       "content": {
         "img": "/serviziImg/contentCreator.png",
         "name": "Content Creator",
         "title": "/serviziImg/content_Title.png",
+        "introTitle": "Allestiti per Comunicare: Il Potere dell'Allestimento Personalizzato nell'Impatto del Tuo Brand",
+        "intro": [
+          "Creare contenuti su misura, che siano foto, video o testi, è la formula magica per il successo sui social e non solo. Ecco perché dovresti fare della personalizzazione una priorità assoluta.",
 
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+          "I contenuti personalizzati ti consentono di creare un ponte diretto tra il tuo brand e il tuo pubblico. Ogni foto e ogni parola possono essere adattate per rispecchiare i valori, la voce e la personalità unica del tuo brand, instaurando una connessione autentica con i tuoi followers.",
+          "La personalizzazione non si limita ai social media. Puoi estenderla ai tuoi materiali promozionali, creando un’immagine coesa e riconoscibile del tuo brand ovunque appaia. Questa coerenza rafforza la tua presenza e la tua credibilità."
+        ],
+        "titleList": "Quali sono i servizi offerti:",
+        "list": [
+          "creazione di contenuti digitali (immagini grafiche ideate ad hoc)",
+          "creazione di contenuti fotografici e video, da te in azienda, realizzati in base ai tuoi obiettivi di marketing",
+          "creazione di contenuti testuali in liena con il tuo stile comunicativo, in grado di parlare al tuo target",
+          "creazione di contenuti testuali in ottica seo in base alle "
+        ],
+
+        "descrizione": "Nel mondo digitale di oggi, il contenuto ricopre un ruolo sempre più importante. Ma non si tratta solo di quantità; si tratta di qualità e, soprattutto, di personalizzazione. ",
         "link": "content",
         "gallery": [
-          { "src": "/serviziImg/LOGOS9.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS24.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS29.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS34.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS45.jpg", "width": 600, "height": 600 }
+          {
+            "src": "/serviziImg/creator/content2.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content3.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content4.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content5.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content6.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content7.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content8.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content9.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content10.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content2.jpg",
+            "width": 600,
+            "height": 600
+          }
         ]
       }
     },

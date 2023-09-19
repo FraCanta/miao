@@ -45,7 +45,7 @@ const Gallery = ({ imageArray, galleryID, galleryTitle }) => {
   }, []);
   return (
     <div
-      className="gallery  pswp-gallery grid grid-cols-2  2xl:grid-cols-5"
+      className="gallery  pswp-gallery grid grid-cols-2 lg:grid-cols-3  2xl:grid-cols-5"
       id={galleryID}
     >
       {imageArray?.map((el, i) => (

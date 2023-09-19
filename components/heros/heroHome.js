@@ -8,7 +8,7 @@ import Link from "next/link";
 const HeroHome = ({ translation }) => {
   return (
     <>
-      <div className="h-full overflow-hidden hidden lg:block">
+      <div className="h-full overflow-hidden hidden lg:block ">
         <Image
           className="object-contain w-full h-full"
           src={Rettangolo}

@@ -7,7 +7,7 @@ const SectionMeTre = ({ translation }) => {
     <section className="w-[90%] min-h-[40vh] justify-between items-center  flex flex-col  mx-auto mt-[150px]">
       <div className="w-full flex-col 2xl:flex-row justify-start items-center gap-[50px] flex ">
         <Image
-          className="object-cover w-full 2xl:w-[600px] fxl:w-[750px] 3xl:w-[900px]"
+          className="object-cover w-[60vw] 2xl:w-[30vw] fxl:w-[35vw] 3xl:w-[45vw]"
           src={translation?.img}
           alt="welcome title"
           width={500}
@@ -16,7 +16,7 @@ const SectionMeTre = ({ translation }) => {
         />
         <div className="2xl:w-1/2 h-full flex-col justify-start items-start gap-[31px] inline-flex">
           <Image
-            className="object-cover w-full 2xl:w-[500px] fxl:w-[750px] 3xl:w-[650px]"
+            className="object-cover w-[60vw] 2xl:w-[30vw] fxl:w-[35vw] 3xl:w-[40vw]"
             src={translation?.title}
             alt="welcome title"
             width={500}

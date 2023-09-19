@@ -11,7 +11,7 @@ const Footer = ({ translation }) => {
 
   return (
     <div className="min-h-[20vh] h-full w-full flex flex-col justify-center items-center mt-20 py-6 lg:py-2 3xl:mt-40">
-      <div className="w-[90%] flex-col lg:flex-row justify-between md:items-end gap-[35px] md:gap-[106px] inline-flex">
+      <div className="w-[90%] flex-col lg:flex-row justify-between lg:items-end gap-[35px] md:gap-[40px] lg inline-flex">
         <div className="flex-col justify-start items-start gap-2.5 inline-flex">
           <div className="text-right text-main text-base lg:text-[0.9rem] xl:text-base fxl:text-xl 3xl:text-2xl font-light capitalize">
             {translation?.[locale]?.col1?.row1?.title}
@@ -36,8 +36,8 @@ const Footer = ({ translation }) => {
             </Link>
           </div>
         </div>
-        <div className="flex-col justify-start md:items-end gap-2.5 inline-flex">
-          <div className="md:text-right text-main text-xs fxl:text-xl 3xl:text-2xl font-light capitalize">
+        <div className="flex-col justify-start lg:items-end gap-2.5 inline-flex">
+          <div className="lg:text-right text-main text-xs fxl:text-xl 3xl:text-2xl font-light capitalize">
             Via Avondo, 15 - 11100 Aosta (AO)
           </div>
           <div className="text-main text-xs fxl:text-xl 3xl:text-2xl font-light capitalize">
@@ -47,9 +47,9 @@ const Footer = ({ translation }) => {
             +39 340 853 9159 - miaographics@gmail.com
           </div>
         </div>
-        <div className="flex-col justify-start md:items-end gap-2.5 inline-flex ">
+        <div className="flex-col justify-start lg:items-end gap-2.5 inline-flex ">
           <Image src={Logo} alt="logo" width={100} className="opacity-60" />
-          <div className="md:text-right text-main text-base fxl:text-xl 3xl:text-2xl font-[300] capitalize">
+          <div className="lg:text-right text-main text-base fxl:text-xl 3xl:text-2xl font-[300] capitalize">
             <Link href="/privacy" target="_blank">
               {" "}
               Privacy policy

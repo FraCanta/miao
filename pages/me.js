@@ -10,13 +10,12 @@ import Image from "next/image";
 import SectionMeUno from "@/components/sections/sectionMeUno";
 import SectionMeDue from "@/components/sections/sectionMeDue";
 import SectionMeTre from "@/components/sections/sectionMeTre";
-import ContactForm from "@/components/contactForm/contactForm";
 import SliderCards from "@/components/serviziItem/sliderCards";
 
 const Me = ({ translation, servizi }) => {
   console.log(servizi);
   return (
-    <>
+    <main data-scroll-container>
       <Head>
         <title>Miao - Chi Sono</title>
       </Head>
@@ -29,9 +28,9 @@ const Me = ({ translation, servizi }) => {
         </div>
         <SectionMeUno translation={translation?.sezioneUno} />
         <SectionMeDue translation={translation?.sezioneDue} />
-        <section className="w-[90%] mx-auto min-h-[40vh] 2xl:mt-[150px]">
+        <section className="w-[90%] mx-auto min-h-[40vh] mt-[150px] flex flex-col gap-20">
           <Image
-            className="object-cover w-full 2xl:w-[550px] fxl:w-[650px] 3xl:w-[800px] pb-14 2xl:py-14 3xl:py-24"
+            className="object-cover w-[60vw] 2xl:w-[30vw] fxl:w-[35vw] 3xl:w-[40vw]"
             src={translation?.sezioneTre?.title}
             alt="welcome title"
             width={300}
@@ -42,13 +41,13 @@ const Me = ({ translation, servizi }) => {
         </section>
         <SectionMeTre translation={translation?.sezioneQuattro} />
         <div className="w-[90%] mx-auto mt-[150px]">
-          <h3 className="text-main font-bold capitalize text-4xl lg:text-4xl leading-[2.5rem] fxl:text-7xl 3xl:text-8xl">
+          <h3 className="text-main font-bold capitalize text-[60vw] lg:text-4xl leading-[2.5rem] fxl:text-[60vw]l 3xl:text-[4vw]">
             Cosa posso fare per te?
           </h3>
           <SliderCards servizi={servizi} />
         </div>
       </SlideAnimation>
-    </>
+    </main>
   );
 };
 
