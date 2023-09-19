@@ -8,7 +8,7 @@ const SectionUno = ({ translation }) => {
     <section className="w-[90%] mx-auto min-h-[40vh] mt-[150px]">
       <div className="w-full h-full  flex-col justify-start items-start gap-[30px] inline-flex mx-auto">
         <Image
-          className="object-cover w-[200px] 2xl:w-[300px] fxl:w-[350px] 3xl:w-[400px]"
+          className="object-cover w-[60vw] 2xl:w-[20vw] fxl:w-[20vw] 3xl:w-[20vw]"
           src={translation?.title}
           alt="welcome title"
           width={300}
@@ -24,7 +24,7 @@ const SectionUno = ({ translation }) => {
               return (
                 <div
                   key={i}
-                  className="text-second text-[1.125rem] fxl:text-[1.4rem] 3xl:text-[1.8rem] font-normal leading-normal w-full flex flex-col justify-between gap-6"
+                  className="text-second text-[5vw] md:text-[2.6vw] 2xl:text-[1.3vw]"
                   dangerouslySetInnerHTML={{ __html: p }}
                   style={{ flex: 1 }}
                 ></div>

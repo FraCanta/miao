@@ -7,7 +7,7 @@ const SectionTre = ({ translation }) => {
     <section className="w-[90%] min-h-[40vh] flex-col justify-center items-start mt-[100px] 2xl:mt-[150px] flex mx-auto">
       <div className="w-full justify-start items-end  inline-flex">
         <Image
-          className="object-cover w-[200px] 2xl:w-[300px] fxl:w-[350px] 3xl:w-[400px] "
+          className="object-cover w-[60vw] 2xl:w-[20vw] fxl:w-[20vw] 3xl:w-[20vw]"
           src={translation?.title}
           alt=""
           priority
@@ -17,7 +17,7 @@ const SectionTre = ({ translation }) => {
       </div>
       <div className="w-full flex-col justify-start items-start mt-[50px] flex">
         <Image
-          className="object-cover w-full h-[350px]"
+          className="object-cover w-full h-[40vh]"
           src={translation?.img}
           alt=""
           width={1200}
@@ -28,19 +28,16 @@ const SectionTre = ({ translation }) => {
           <div className=" flex-col justify-start items-start gap-10 lg:gap-[50px] flex">
             <div className="w-full flex flex-col 2xl:flex-row justify-between items-stretch gap-6 lg:gap-4">
               <div className="2xl:w-[50%] flex flex-col justify-start items-start port_p">
-                <h3>
-                  <span className="text-main  text-[45px] fxl:text-6xl font-extrabold capitalize leading-normal">
-                    {translation?.titoloP}
-                  </span>
-                  <span className="text-red text-[40px] fxl:text-6xl font-extrabold capitalize ">
-                    .
-                  </span>
+                <h3 className="text-main font-bold capitalize text-[10vw] leading-none md:text-[8vw] lg:text-[6vw] 2xl:text-[4vw] 3xl:text-[3.6vw] ">
+                  <span>{translation?.titoloP}</span>
+                  <span>.</span>
                 </h3>
               </div>
               <div className="w-full 2xl:w-[50%] flex flex-col justify-start items-stretch">
-                <div className="text-second text-[1.125rem] fxl:text-[1.4rem] 3xl:text-[1.8rem] font-normal leading-normal">
-                  <p> {translation?.paragrafo1}</p>
-                </div>
+                <p className="text-second text-[5vw] md:text-[2.6vw] 2xl:text-[1.3vw]">
+                  {" "}
+                  {translation?.paragrafo1}
+                </p>
                 <div className="w-full 2xl:justify-end items-center inline-flex mt-10">
                   <Link
                     href="/portfolio"
@@ -50,11 +47,6 @@ const SectionTre = ({ translation }) => {
                   </Link>
                 </div>
               </div>
-              {/* <div className="w-full 2xl:w-[33%] flex flex-col justify-start items-stretch gap-2.5"> */}
-              {/* <div className="text-second text-[1.125rem] fxl:text-[1.4rem] 3xl:text-[1.8rem] font-normal leading-normal">
-                  <p> {translation?.paragrafo2}</p>
-                </div> */}
-              {/* </div> */}
             </div>
           </div>
         </div>

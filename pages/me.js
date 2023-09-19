@@ -30,7 +30,7 @@ const Me = ({ translation, servizi }) => {
         <SectionMeDue translation={translation?.sezioneDue} />
         <section className="w-[90%] mx-auto min-h-[40vh] mt-[150px] flex flex-col gap-20">
           <Image
-            className="object-cover w-[60vw] 2xl:w-[30vw] fxl:w-[35vw] 3xl:w-[40vw]"
+            className="object-cover w-[90vw] 2xl:w-[30vw] fxl:w-[35vw] 3xl:w-[40vw]"
             src={translation?.sezioneTre?.title}
             alt="welcome title"
             width={300}
@@ -40,7 +40,7 @@ const Me = ({ translation, servizi }) => {
           <div className="elfsight-app-e5f28877-c53f-4c54-8037-22c0d90781f9"></div>{" "}
         </section>
         <SectionMeTre translation={translation?.sezioneQuattro} />
-        <div className="w-[90%] mx-auto mt-[150px]">
+        <div className="w-[90%] mx-auto mt-[100px]">
           <h3 className="text-main font-bold capitalize text-4xl lg:text-6xl 2xl:!leading-[4.5rem] fxl:text-7xl 3xl:text-8xl">
             Cosa posso fare per te?
           </h3>

@@ -8,7 +8,7 @@ const SectionDue = ({ translation }) => {
       <div className="w-full justify-start items-end gap-[354px] inline-flex">
         <div className="justify-start items-center flex w-full">
           <Image
-            className="object-cover w-[200px] 2xl:w-[300px] fxl:w-[350px] 3xl:w-[400px]"
+            className="object-cover w-[60vw] 2xl:w-[20vw] fxl:w-[20vw] 3xl:w-[20vw]"
             src={translation?.title}
             alt="welcome title"
             width={300}
@@ -19,7 +19,7 @@ const SectionDue = ({ translation }) => {
       </div>
       <div className="w-full flex-col 2xl:flex-row justify-start items-center gap-10 flex mt-10 2xl:mt-20">
         <Image
-          className="object-cover w-full 2xl:w-[600px] fxl:w-[750px] 3xl:w-[900px]"
+          className="object-cover w-full md:w-[50vw] "
           src={translation?.img}
           alt="welcome title"
           width={500}
@@ -28,7 +28,7 @@ const SectionDue = ({ translation }) => {
         />
         <div className="2xl:w-1/2 h-full flex-col justify-start items-start gap-[31px] inline-flex">
           <div className="w-full h-full justify-start items-end flex">
-            <h3 className="text-main text-[40px] w-11/12 fxl:text-6xl  font-extrabold  leading-normal">
+            <h3 className="text-main font-bold capitalize text-[10vw] leading-none md:text-[8vw] lg:text-[6vw] 2xl:text-[4vw] 3xl:text-[3.6vw] ">
               <span>{translation?.titoloP}</span>
 
               <span className="text-red text-[40px] md:text-6xl  font-extrabold">
@@ -36,10 +36,10 @@ const SectionDue = ({ translation }) => {
               </span>
             </h3>
           </div>
-          <p className="text-second text-[1.125rem] fxl:text-[1.4rem] 3xl:text-[1.8rem] font-normal leading-normal">
+          <p className="text-second text-[5vw] md:text-[2.6vw] 2xl:text-[1.3vw]">
             {translation?.descrizione}
           </p>
-          <p className="text-second text-[1.125rem] fxl:text-[1.4rem] 3xl:text-[1.8rem] font-normal leading-normal">
+          <p className="text-second text-[5vw] md:text-[2.6vw] 2xl:text-[1.3vw]">
             {translation?.descrizione2}
           </p>
           <div className="w-full 2xl:justify-end items-center inline-flex">

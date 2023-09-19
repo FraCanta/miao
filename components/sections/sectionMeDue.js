@@ -7,9 +7,9 @@ const SectionMeDue = ({ translation }) => {
   return (
     <section className="w-full min-h-[40vh] justify-between items-center mt-[100px] 2xl:mt-[150px] flex mx-auto">
       <div className="w-full h-full">
-        <div className="justify-start items-center flex w-[90%] mx-auto py-4 2xl:py-14">
+        <div className="justify-start items-center flex w-[90%] mx-auto pb-10 2xl:py-14">
           <Image
-            className="object-cover w-[60vw] 2xl:w-[30vw] fxl:w-[35vw] 3xl:w-[40vw]"
+            className="object-cover w-[90vw] 2xl:w-[30vw] fxl:w-[35vw] 3xl:w-[40vw]"
             src={translation?.title}
             alt="welcome title"
             width={300}
