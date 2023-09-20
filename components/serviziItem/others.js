@@ -29,7 +29,7 @@ const Others = ({ others }) => {
           spaceBetween: 50,
         },
         1280: {
-          slidesPerView: 3,
+          slidesPerView: 4,
           spaceBetween: 50,
         },
         1500: {

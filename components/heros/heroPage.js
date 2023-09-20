@@ -7,8 +7,8 @@ const HeroPage = ({ img, title }) => {
       <div>
         <Image
           src={title}
-          alt="lampadina"
-          className="object-contain w-[230px] md:w-[420px] xl:w-[420px] fxl:w-[500px] 3xl:w-[750px] h-full"
+          alt="titolo servizio"
+          className="object-contain w-[90vw] md:w-[60vw] xl:w-[40vw]  h-full"
           width={230}
           height={100}
           priority
@@ -16,7 +16,7 @@ const HeroPage = ({ img, title }) => {
       </div>
       <Image
         src={img}
-        alt="lampadina"
+        alt="immagine del servizio"
         className="object-contain w-full lg:w-[500px] xl:w-[680px] fxl:w-[1000px] 3xl:w-[1200px] h-full"
         width={780}
         height={800}

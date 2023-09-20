@@ -81,13 +81,13 @@
         "img": "/serviziImg/logodesign.png",
         "name": "Logo Design",
         "title": "logo",
-        "descrizione": "Un logo ben progettato è un investimento chiave nella costruzione della reputazione e della fiducia del tuo marchio nel tempo.",
+        "descrizione": "Un logo progettato su misura, in base al tuo target di riferimento e alla tua vision è un investimento per il successo della tua azienda.",
         "link": "/service/logo"
       },
       {
         "img": "/serviziImg/branding.png",
         "name": "Branding Strategy",
-        "descrizione": "Creare un branding (attraverso il logo, la comunicazione visiva e i valori aziendali) aiuta a differenziarsi dalla concorrenza e costruire un'identità forte e unica.",
+        "descrizione": "Una buona strategia di branding ti permette di differenziarti dalla concorrenza e di costruire un'identità forte, unica e riconoscibile.",
         "link": "/service/branding"
       },
       {
@@ -99,7 +99,7 @@
       {
         "img": "/serviziImg/social.png",
         "name": "Social Media Strategy",
-        "descrizione": "Risparmia tempo prezioso e ottieni risultati più consistenti affidando a me la tua presenza online. Seguo costantemente le nuove tendenze e genero contenuti efficaci e mirati che aumentano l'engagement del pubblico.",
+        "descrizione": "Risparmia tempo prezioso e ottieni risultati più consistenti consolidando la tua presenza online. Seguo costantemente le nuove tendenze e genero contenuti ad hoc e mirati che ti permetteranno di aumentare l'engagement del pubblico.",
         "link": "/service/social"
       },
       {
@@ -117,7 +117,7 @@
       {
         "img": "/serviziImg/illustrazione.png",
         "name": "Illustrazione Digitale",
-        "descrizione": "Nel vasto oceano del branding e della comunicazione visiva, c’è una chiave segreta che spicca come una stella brillante: le illustrazioni personalizzate. Questi tesori visivi sono molto più di semplici immagini; sono la luce che esalta il tuo brand e illumina l’immagine dei tuoi prodotti.",
+        "descrizione": "Le illustrazioni create ad hoc, sono molto più di semplici immagini; sono elementi chiave che permettono di esaltare il tuo brand e renderlo unico e memorabile.",
         "link": "/service/illustrazione"
       },
       {
@@ -131,21 +131,25 @@
       "logo": {
         "img": "/serviziImg/logodesign.png",
         "name": "Logo Design",
-        "introTitle": "Progettiamo insieme il tuo Logo Personalizzato per la Tua nuova Attività",
+        "introTitle": "Progettiamo Insieme Un Logo Personalizzato Per La Tua Attività",
         "intro": [
-          "Un logo design efficace ha un impatto duraturo sulla percezione dell’azienda nel corso del tempo. È una parte fondamentale della strategia di branding, che contribuisce a costruire la reputazione e la fiducia del marchio nel lungo periodo. Un logo ben progettato è un investimento per il successo futuro dell’azienda.",
-
-          "Se stai iniziando una nuova attività e ancora non hai un logo distintivo che rappresenti al meglio la tua azienda, sei nel posto giusto! Hai bisogno di un’immagine visiva su misura, in perfetta sintonia con la tua mission e adatta al tuo pubblico di riferimento?"
+          "Un logo design efficace ha un impatto duraturo sulla percezione dell’azienda nel corso del tempo.",
+          "È parte fondamentale della strategia di branding, e contribuisce a costruire la reputazione e la notorietà del brand nel lungo periodo.",
+          "Se stai iniziando una nuova attività e ancora non hai un logo distintivo che rappresenti al meglio la tua azienda, sei nel posto giusto!",
+          "Hai bisogno di un’immagine visiva su misura, in perfetta sintonia con la tua mission e adatta al tuo pubblico di riferimento?"
         ],
         "title": "/serviziImg/logo_Title.png",
         "titlePro": "Sono qui per te:",
-        "descPro": "Progetteremo un logo unico per la tua azienda, che trasmetta chiaramente la tua attività e i prodotti/servizi che offri al tuo pubblico.",
+        "descPro": [
+          "Progetteremo un logo unico per la tua azienda, che identifichi chiaramente la tua attività e i prodotti/servizi offerti al tuo pubblico target."
+        ],
         "titleList": " Cosa otterrai:",
         "list": [
           "1 logo in formato vettoriale (pdf), ideale per qualsiasi comunicazione stampata e/o tipografica.",
-          "1 logo in formato web (jpeg e gif), perfetto per i tuoi canali social e online."
+          "1 logo in formato web (jpeg e gif), perfetto per i tuoi canali social e online.",
+          "1 manuale d’uso con le brand guidelines"
         ],
-        "descrizione": "Un logo ben progettato è un investimento chiave nella costruzione della reputazione e della fiducia del tuo marchio nel tempo.",
+        "descrizione": "Un logo progettato su misura, in base al tuo target di riferimento e alla tua vision è un investimento per il successo della tua azienda.",
         "link": "logo",
         "gallery": [
           {
@@ -224,16 +228,22 @@
         "introTitle": "Non solo logo!",
         "intro": [
           "La mia missione è andare oltre la creazione di un semplice logo. ",
-          "Voglio aiutarti a definire l’immagine completa della tua azienda, dall’inizio alla fine, analizzando attentamente la tua vision, la tua mission e il tuo target. Insieme, svilupperemo una strategia di marketing su misura che darà vita alla tua identità aziendale, rendendola unica, riconoscibile e memorabile. ",
-          "Il branding non si limita solo alla progettazione del logo; comprende una serie di azioni specifiche e mirate, volte a comunicare e consolidare l’immagine del tuo brand all’interno del tuo mercato di riferimento. Desideriamo che il tuo marchio spicchi grazie a un’immagine coordinata, curata in ogni dettaglio, in grado di sostenere al meglio tutte le tue iniziative di marketing. ",
-          "Sono qui per farti notare e distinguerti dai competitor!"
+          "Voglio aiutarti a definire l’immagine completa della tua azienda, dall’inizio alla fine, analizzando attentamente la tua vision, la tua mission e il tuo target. Insieme, svilupperemo una strategia di marketing su misura, che darà vita alla tua identità aziendale, rendendola unica, riconoscibile e memorabile. ",
+          "Il branding non si limita solo alla progettazione del logo, ma comprende una serie di azioni specifiche e mirate, volte a comunicare e consolidare l’immagine del tuo brand all’interno del tuo mercato di riferimento. ",
+          "Desideriamo che il tuo “marchio” spicchi grazie a un’immagine coordinata, curata in ogni dettaglio, in grado di sostenere al meglio tutte le tue iniziative di marketing.",
+          "Sono qui per farti notare e aiutarti a distinguerti dai competitor!"
         ],
+        "titlePro": "Sono qui per te:",
+        "descPro": [
+          "A seguito di una call conoscitiva analizzeremo insieme la tua mission, la tua vision, il tuo target e i tuoi prodotti/servizi.",
+          "Definiremo poi insieme i supporti necessari per costruire una strategia di marketing che ti permetta di rafforzare la tua identità aziendale e raggiungere i tuoi obiettivi"
+        ],
+
         "titleList": " Cosa otterrai:",
         "list": [
-          "1 logo in formato vettoriale (pdf), ideale per qualsiasi comunicazione stampata e/o tipografica.",
-          "1 logo in formato web (jpeg e gif), perfetto per i tuoi canali social e online."
+          "Un piano strategico ideato su misura per te in base ai tuoi obiettivi e al tuo target."
         ],
-        "descrizione": "Creare un branding (attraverso il logo, la comunicazione visiva e i valori aziendali) aiuta a differenziarsi dalla concorrenza e costruire un'identità forte e unica.",
+        "descrizione": "Una buona strategia di branding ti permette di differenziarti dalla concorrenza e di costruire un'identità forte, unica e riconoscibile.",
         "link": "logo",
         "gallery": [
           {
@@ -335,12 +345,12 @@
         ],
         "titleList": " Cosa comprende:",
         "list": [
-          "la selezione del contenitore più confacente al tuo prodotto.",
-          "l’ideazione di un’etichetta mastro sulla base delle misure del contenitore scelto (2 bozze grafiche).",
-          "il mock-up per il controllo delle misure e della resa.",
-          "la ricerca dei fornitori.",
-          "la fornitura dell’esecutivo in formato digitale e l’avvio alla stampa",
-          "a declinazione della mastro selezionata sulla base del prodotto e del formato (fino a 4 prodotti differenti)",
+          "La selezione del contenitore più confacente al tuo prodotto.",
+          "L’ideazione di un’etichetta mastro sulla base delle misure del contenitore scelto (2 bozze grafiche).",
+          "Il mock-up per il controllo delle misure e della resa.",
+          "La ricerca dei fornitori.",
+          "La fornitura dell’esecutivo in formato digitale e l’avvio alla stampa",
+          "La declinazione della mastro selezionata sulla base del prodotto e del formato (fino a 4 prodotti differenti)",
           "1 esecutivo per la label mastro.",
           "1 esecutivo per tipologia di prodotto (per un totale di 4 prodotti), la consulenza per la ricerca del contenitore e dei fornitori."
         ],
@@ -367,26 +377,25 @@
         "img": "/serviziImg/social.png",
         "name": "Social Media Strategy",
         "title": "/serviziImg/social_Title.png",
-        "introTitle": "Scopri i Segreti del Successo Online: Gestione dei Social Media e Contenuti di Qualità",
+        "introTitle": "Consolida La Tua presenza Online: Grazie ai social e a contenuti su misura",
         "intro": [
-          "La gestione dei social media e la creazione di contenuti di qualità sono le chiavi per il successo online. Con noi, otterrai una presenza digitale potente ed efficace. ",
-          "Conosciamo i segreti per coinvolgere il tuo pubblico, costruire brand awareness e generare risultati concreti. Non perdere l’opportunità di sfruttare appieno il potenziale dei social media, lascia che il tuo brand brilli online! "
+          "La gestione dei social media e la creazione di contenuti di qualità sono le chiavi per il successo online.",
+          "Con noi, otterrai una presenza digitale specifica, personalizzata ed efficace. ",
+          "Conosciamo i segreti per coinvolgere il tuo pubblico, costruire brand awareness e generare risultati concreti.",
+          "Non perdere l’opportunità di sfruttare appieno il potenziale dei social media, potenziando l'immagine del tuo brand online!"
         ],
-        "titleList": " Cosa comprende:",
+        "titlePro": "Sono qui per te:",
+        "descPro": [
+          "Per aiutarti a definire un piano editoriale sulla base dei tuoi obiettivi aziendali"
+        ],
+        "titleList": "Cosa Otterrai:",
         "list": [
-          "definizione di una strategia in base ai tuoi obiettivi di marketing - piano editoriale",
-          "definizione di una calendario editoriale con uscite programmate ",
-          "creazione e ottimizzazione dei profili business per facebook e instagram",
-          "servizio fotografico da 50 scatti in azienda ogni bimestre",
-          "creazione di post, storie e reel per facebook e instagram ",
-          "programmazione dei contenuti targettizzati",
-          "2 post su facebook e 2 su instagram + 1 story al giorno",
-          "condivisione dei post su gruppi e canali specifici",
-          "assistenza completa",
-          "accesso come amministratore alle pagine e potrai comodamente monitorare l’andamento, la crescita e acquisire notorietà."
+          "Un piano editoriale strategico personalizzato in base ai tuoi obiettivi e al tuo target.",
+          "Una gestione mensile completa dei canali Meta (in base alle tue esigenze)",
+          "Contenuti creati ad hoc per te, in grado di generare lead"
         ],
 
-        "descrizione": "Risparmia tempo prezioso e ottieni risultati più consistenti affidando a me la tua presenza online. Seguo costantemente le nuove tendenze e genero contenuti efficaci e mirati che aumentano l'engagement del pubblico.",
+        "descrizione": "Risparmia tempo prezioso e ottieni risultati più consistenti consolidando la tua presenza online. Seguo costantemente le nuove tendenze e genero contenuti ad hoc e mirati che ti permetteranno di aumentare l'engagement del pubblico.",
         "link": "social",
         "gallery": [
           {
@@ -579,7 +588,7 @@
         "img": "/serviziImg/illustrazione.png",
         "name": "Illustrazione Digitale",
         "title": "/serviziImg/illustrazione_Title.png",
-        "introTitle": "La Potenza delle Illustrazioni Personalizzate nel Distinguere il Tuo Brand",
+        "introTitle": "Le Illustrazioni Personalizzate rafforzano l'immagine del Tuo Brand",
         "intro": [
           "Le illustrazioni personalizzate sono la firma del tuo brand. Possono catturare l’essenza della tua identità aziendale in un’immagine, rendendo il tuo brand immediatamente riconoscibile e memorabile.",
 
@@ -587,17 +596,20 @@
           "In un mondo saturo di contenuti visivi generici, le illustrazioni personalizzate ti distinguono. Rendono il tuo brand unico, attraente e irresistibile agli occhi del pubblico.",
           "I pattern personalizzati, creati con illustrazioni, aggiungono coesione e riconoscibilità a tutti i tuoi materiali di marketing. Permettono di creare un'armonia comunicativa tra il brand e il prodotto."
         ],
+        "titlePro": "Sono qui per te:",
+        "descPro": [
+          "Per generare immagini ad hoc che rispecchino il tuo gusto e i valori del tuo brand."
+        ],
 
-        "descrizione": "Nel vasto oceano del branding e della comunicazione visiva, c’è una chiave segreta che spicca come una stella brillante: le illustrazioni personalizzate. Questi tesori visivi sono molto più di semplici immagini; sono la luce che esalta il tuo brand e illumina l’immagine dei tuoi prodotti.",
-        "titleList": "Quali sono i servizi illustrativi offerti:",
+        "descrizione": "Le illustrazioni create ad hoc, sono molto più di semplici immagini; sono elementi chiave che permettono di esaltare il tuo brand e renderlo unico e memorabile.",
+        "titleList": "Cosa Otterrai:",
+        "sottoList": "In base alle tue esigenze creeremo per te:",
         "list": [
-          "illustrazioni manuali per libri, materiali promozionali",
-          "illustrazioni digitali per comunicazione sui social",
-          "illustrazioni digitali per la creazione di pattern",
-          "illustrazioni digitali per l’immagine di prodotto (label, packaging)",
-          "illustrazioni digitali per la comunicazione e promozione di eventi",
-          "illustrazioni digitali personalizzate (inviti, quadri, coordinati nozze)",
-          "illustrazioni vettoriali per la creazione di loghi o magliette o gadget"
+          "Grafiche vettoriali",
+          "Illustrazioni digitali",
+          "Illustrazioni artigianali a tecnica mista",
+          "Pattern",
+          "...e altri elementi visivi a supporto della tua comunicazione."
         ],
 
         "link": "illustrazione",

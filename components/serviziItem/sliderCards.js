@@ -34,6 +34,10 @@ const SliderCards = ({ servizi }) => {
           slidesPerView: 3,
           spaceBetween: 50,
         },
+        1500: {
+          slidesPerView: 4,
+          spaceBetween: 50,
+        },
       }}
     >
       <div className="flex">

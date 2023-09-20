@@ -30,14 +30,14 @@ const Servizi = ({ servizio, others, serviziFra }) => {
         </div>
         <div className="w-[90%] mx-auto flex flex-col justify-between mt-10">
           <div className="min-h-auto h-full flex flex-col gap-8 2xl:p-6">
-            <h3 className="text-main font-bold capitalize text-[10vw] leading-10 md:leading-none md:text-[8vw] lg:text-[6vw] 2xl:text-[4vw] 3xl:text-[3.6vw] ">
+            <h3 className="text-main font-bold capitalize text-[10vw] leading-10 md:leading-none md:text-[8vw] lg:text-[6vw] xl:text-[5vw] 2xl:text-[4vw] 3xl:text-[3.6vw] ">
               {servizio?.introTitle}
             </h3>
             {servizio?.intro?.map((p, i) => {
               return (
                 <p
                   key={i}
-                  className="text-second text-[5vw] md:text-[2.6vw] 2xl:text-[1.3vw]"
+                  className="text-second text-[5vw] md:text-[2.6vw] xl:text-[1.9vw] 2xl:text-[1.3vw]"
                 >
                   {p}
                 </p>
@@ -45,31 +45,47 @@ const Servizi = ({ servizio, others, serviziFra }) => {
             })}
           </div>
 
-          <div className="min-h-auto flex flex-col gap-8 2xl:p-6 mt-10 lg:mt-20">
+          <div className="min-h-auto flex flex-col gap-8 2xl:p-6 mt-10">
             {servizio?.titlePro && servizio?.descPro ? (
               <div className="flex  flex-col gap-6 mb-6">
-                <h3 className="text-main font-bold capitalize text-[10vw] leading-10 md:leading-none md:text-[8vw] lg:text-[6vw] 2xl:text-[4vw] 3xl:text-[3.6vw] ">
+                <h3 className="text-main font-bold capitalize text-[10vw] leading-10 md:leading-none md:text-[8vw] lg:text-[6vw] xl:text-[5vw] 2xl:text-[4vw] 3xl:text-[3.6vw] ">
                   {servizio?.titlePro}
                 </h3>{" "}
-                <p className="text-second text-[5vw] md:text-[2.6vw] 2xl:text-[1.3vw]">
-                  {servizio?.descPro}
-                </p>
+                {servizio?.descPro?.map((el, i) => {
+                  return (
+                    <p
+                      key={i}
+                      className="text-second text-[5vw] md:text-[2.6vw] xl:text-[1.9vw] 2xl:text-[1.3vw]"
+                    >
+                      {el}
+                    </p>
+                  );
+                })}
               </div>
             ) : (
               ""
             )}
-            {servizio?.titleList && servizio?.list ? (
-              <>
-                <h3 className="text-main font-bold capitalize text-[10vw] leading-10 md:leading-none md:text-[8vw] lg:text-[6vw] 2xl:text-[4vw] 3xl:text-[3.6vw] ">
-                  {servizio?.titleList}
-                </h3>
+            {servizio?.titleList ? (
+              <h3 className="text-main font-bold capitalize text-[10vw] leading-10 md:leading-none md:text-[8vw] lg:text-[6vw] xl:text-[5vw] 2xl:text-[4vw] 3xl:text-[3.6vw] ">
+                {servizio?.titleList}
+              </h3>
+            ) : (
+              ""
+            )}
+            {servizio?.sottoList ? (
+              <p className="text-second text-[5vw] md:text-[2.6vw] xl:text-[1.9vw] 2xl:text-[1.9vw]">
+                {servizio?.sottoList}
+              </p>
+            ) : (
+              ""
+            )}
 
-                <ul className="list-disc text-[5vw] md:text-[2.6vw] 2xl:text-[1.3vw] flex flex-col gap-4 3xl:gap-6 ml-6 mt-4">
-                  {servizio?.list?.map((l, i) => {
-                    return <li key={i}>{l}</li>;
-                  })}
-                </ul>
-              </>
+            {servizio?.list ? (
+              <ul className="list-disc text-second text-[5vw] md:text-[2.6vw] xl:text-[1.9vw] 2xl:text-[1.3vw] flex flex-col gap-4 3xl:gap-6 ml-6 mt-4">
+                {servizio?.list?.map((l, i) => {
+                  return <li key={i}>{l}</li>;
+                })}
+              </ul>
             ) : (
               ""
             )}
@@ -77,13 +93,13 @@ const Servizi = ({ servizio, others, serviziFra }) => {
           <div className="bg-main h-20 flex items-center justify-center 2xl:justify-end px-8 mt-[50px]">
             <Link
               href="/contatti"
-              className="capitalize font-bold py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 border text-[5vw] md:text-[2vw] 2xl:text-xl fxl:text-2xl 3xl:text-3xl rounded shadow  text-white hover:transition-all border-red  bg-red"
+              className="capitalize font-bold py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 border text-[5vw] md:text-[2vw]  2xl:text-xl fxl:text-2xl 3xl:text-3xl rounded shadow  text-white hover:transition-all border-red  bg-red"
             >
               Chiedi un preventivo
             </Link>
           </div>
           <div className="min-h-auto flex flex-col gap-8 2xl:p-6 mt-10 md:gap-24 lg:mt-[150px] 2xl:mt-[100px]">
-            <h3 className="text-main font-bold capitalize text-[10vw] leading-10 md:leading-none md:text-[8vw] lg:text-[6vw] 2xl:text-[4vw] 3xl:text-[3.6vw] ">
+            <h3 className="text-main font-bold capitalize text-[10vw] leading-10 md:leading-none md:text-[8vw] lg:text-[6vw] xl:text-[5vw] 2xl:text-[4vw] 3xl:text-[3.6vw] ">
               Ecco alcuni esempi
             </h3>
             <Gallery
@@ -112,17 +128,17 @@ const Servizi = ({ servizio, others, serviziFra }) => {
           </div>
 
           <div className="w-full mx-auto 2xl:p-6 mt-10 lg:mt-[150px] 2xl:mt-[100px] flex flex-col gap-6">
-            <h3 className="text-main font-bold capitalize text-[10vw] leading-none md:text-[8vw] lg:text-[6vw] 2xl:text-[4vw] 3xl:text-[3.6vw] ">
+            <h3 className="text-main font-bold capitalize text-[10vw] leading-none md:text-[8vw] lg:text-[6vw] xl:text-[5vw] 2xl:text-[4vw] 3xl:text-[3.6vw] ">
               {/* {servizio?.titleOpzioni} */}
               Perchè non volere di più? Ecco altre opzioni su misura per te
             </h3>
-            <p className="text-second text-[5vw] md:text-[2.6vw] 2xl:text-[1.3vw]">
+            <p className="text-second text-[5vw] md:text-[2.6vw] xl:text-[1.9vw] 2xl:text-[1.3vw]">
               Lavoreremo insieme a Francesca, web designer molto talentuosa, per
-              ideare un sito web professionale cheti permetta di rafforzare la
+              ideare un sito web professionale che ti permetta di rafforzare la
               tua identità aziendale e così consolidando la tua presenza online.
               Grazie alle sue competenze, ti propongo queste opzioni:
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 md:gap-4 lg:gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-4 md:gap-4 lg:gap-8">
               {serviziFra?.map((f, i) => {
                 return (
                   <ServiziItem

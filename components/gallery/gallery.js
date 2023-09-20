@@ -64,6 +64,7 @@ const Gallery = ({ imageArray, galleryID, galleryTitle }) => {
             alt=""
             key={i}
             className="w-full h-auto"
+            priority
           />
         </a>
       ))}
