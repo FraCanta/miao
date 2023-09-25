@@ -4,6 +4,7 @@ import { fetchAllPostsSlugs, fetchPost } from "../api/api";
 import Head from "next/head";
 
 const SinglePost = ({ post }) => {
+  console.log(post);
   return (
     <>
       <Head>
@@ -18,11 +19,33 @@ const SinglePost = ({ post }) => {
           alt="img"
           width={300}
           height={300}
-          className="md:h-96 w-full mb-10 object-cover object-center "
+          className="md:h-[500px] w-full mb-10 object-cover object-center "
         />
+        <p className="mb-8 leading-relaxed text-[1.25rem]">
+          {post?.content?.paragraph}
+        </p>
+        <div className="grid  grid-cols-1 md:grid-cols-2 gap-4 mb-2 md:mb-10">
+          <Image
+            src={post?.content?.postImg?.filename}
+            alt="img"
+            width={300}
+            height={300}
+            className="md:h-full w-full mb-10 object-cover object-center "
+          />{" "}
+          <Image
+            src={post?.content?.postImg2?.filename}
+            alt="img"
+            width={300}
+            height={300}
+            className="md:h-full w-full mb-10 object-cover object-center "
+          />{" "}
+        </div>
 
         <p className="mb-8 leading-relaxed text-[1.25rem]">
-          {post?.content?.content}
+          {post?.content?.paragraph2}
+        </p>
+        <p className="mb-8 leading-relaxed text-[1.25rem]">
+          {post?.content?.paragraph3}
         </p>
       </div>
     </>
