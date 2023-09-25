@@ -3,12 +3,13 @@ import SlideAnimation from "@/components/slideAnimation/slideAnimation";
 import translationIT from "../public/locales/it/it.json";
 import translationEN from "../public/locales/en/en.json";
 import translationFR from "../public/locales/fr/fr.json";
-
 import HeroPage from "@/components/heros/heroPage";
 import Head from "next/head";
+import Posts from "@/components/post/posts";
+import { fetchAllPosts } from "./api/api";
 
-const Me = ({ translation }) => {
-  // console.log(translation);
+const Me = ({ translation, posts }) => {
+  console.log(posts);
   return (
     <>
       <Head>
@@ -21,6 +22,11 @@ const Me = ({ translation }) => {
             img={translation?.hero?.img}
           />
         </div>
+        <div className="mt-[150px] w-[90%] mx-auto grid grid-cols-1 2xl:grid-cols-3 gap-6">
+          {posts?.map((post) => {
+            return <Posts key={post?.id} post={post} />;
+          })}
+        </div>
       </SlideAnimation>
     </>
   );
@@ -29,6 +35,7 @@ const Me = ({ translation }) => {
 export default Me;
 
 export async function getStaticProps(locale, context) {
+  const posts = await fetchAllPosts();
   let obj;
   switch (locale.locale) {
     case "it":
@@ -49,6 +56,7 @@ export async function getStaticProps(locale, context) {
   return {
     props: {
       translation: obj?.blog,
+      posts,
     },
     revalidate: 60,
   };
