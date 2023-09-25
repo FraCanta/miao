@@ -28,8 +28,14 @@ export const fetchAllPosts = async (per_page = 6, page = 1) => {
 export const fetchPost = async (slug) => {
   try {
     const { data } = await axiosInstance().get("/posts/" + slug);
-    return data;
+    return data.story;
   } catch (error) {
     return null;
   }
+};
+
+export const fetchAllPostsSlugs = async () => {
+  const data = await fetchAllPosts();
+  const slugs = data.map((post) => "/post/" + post.slug);
+  return slugs;
 };

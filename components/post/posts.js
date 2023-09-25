@@ -13,14 +13,16 @@ const Posts = ({ post }) => {
         height={300}
         alt=""
       />
-      <h4>
-        <span className="text-main text-[25px] 3xl:text-[40px] font-extrabold capitalize leading-normal">
-          {post?.content?.title}
-        </span>
-        <span className="text-red text-[25px] 3xl:text-[40px] font-extrabold capitalize">
-          .
-        </span>
-      </h4>
+      <Link href={`/post/${post?.slug}`}>
+        <h4>
+          <span className="text-main text-[25px] 3xl:text-[40px] font-extrabold capitalize leading-normal">
+            {post?.content?.title}
+          </span>
+          <span className="text-red text-[25px] 3xl:text-[40px] font-extrabold capitalize">
+            .
+          </span>
+        </h4>
+      </Link>
       <p className="w-full text-second text-base 3xl:text-[26px] font-normal leading-normal">
         {post.content?.excerpt}
       </p>
