@@ -13,10 +13,10 @@ const SinglePost = ({ post }) => {
       </Head>
       <div className="w-[90%] mx-auto ">
         <div className="w-full mx-auto py-12 mt-[20px] md:mt-[60px]">
-          <div className="text-sm breadcrumbs text-pink">
-            <ul>
-              <li>
-                <Link href="/">
+          <div className="text-sm breadcrumbs text-pink flex items-center">
+            <ul className="flex items-center">
+              <li className="flex items-center">
+                <Link href="/" className="flex items-center">
                   <Icon
                     icon="majesticons:home"
                     className="w-4 h-4 fxl:w-6 fxl:h-6 3xl:w-8 3xl:h-8 mr-2 stroke-current"
@@ -24,22 +24,20 @@ const SinglePost = ({ post }) => {
                   <p className="fxl:text-xl 3xl:text-3xl">Home</p>
                 </Link>
               </li>
-              <li>
-                <Link href="/blog">
+              <li className="flex items-center">
+                <Link href="/blog" className="flex items-center">
                   <Icon
                     icon="ic:round-signpost"
                     className="w-4 h-4 fxl:w-6 fxl:h-6 3xl:w-8 3xl:h-8 mr-2 stroke-current"
                   />
-                  <p className="fxl:text-xl 3xl:text-3xl">
-                    Don&apos;t Call It Blog
-                  </p>
+                  <p className="fxl:text-xl 3xl:text-3xl">Blog</p>
                 </Link>
               </li>
             </ul>
           </div>
         </div>
         <Image
-          src={post?.content?.image?.filename}
+          src={post?.content?.cover?.filename}
           alt="img"
           width={300}
           height={300}
@@ -96,9 +94,11 @@ const SinglePost = ({ post }) => {
 
 export default SinglePost;
 
-export const getStaticProps = async ({ params }) => {
+export const getStaticProps = async ({ params, locale }) => {
   const { slug } = params;
+  console.log(params);
   const data = await fetchPost(slug);
+  console.log(data);
   return {
     props: {
       post: data,
@@ -108,6 +108,7 @@ export const getStaticProps = async ({ params }) => {
 
 export const getStaticPaths = async () => {
   const data = await fetchAllPostsSlugs();
+  console.log("getsStaticPath", data);
   return {
     paths: data,
     fallback: false,

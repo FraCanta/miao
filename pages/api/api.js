@@ -36,6 +36,7 @@ export const fetchPost = async (slug) => {
 
 export const fetchAllPostsSlugs = async () => {
   const data = await fetchAllPosts();
-  const slugs = data.map((post) => "/post/" + post.slug);
+
+  const slugs = data.map((post) => "/posts/" + post.slug);
   return slugs;
 };

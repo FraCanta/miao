@@ -3,17 +3,16 @@ import Link from "next/link";
 import React from "react";
 
 const Posts = ({ post }) => {
-  console.log(post);
   return (
     <div className="w-full flex-col justify-start items-start gap-4 flex">
       <Image
         className="w-full h-[240px] md:h-[350px] lg:h-[200px] 3xl:h-[380px] object-cover"
-        src={post?.content?.image?.filename}
+        src={post?.content?.cover?.filename}
         width={300}
         height={300}
         alt=""
       />
-      <Link href={`/post/${post?.slug}`}>
+      <Link href={`/posts/${post?.slug}`}>
         <h4>
           <span className="text-main text-[25px] 3xl:text-[40px] font-extrabold capitalize leading-normal">
             {post?.content?.title}

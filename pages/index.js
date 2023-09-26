@@ -12,7 +12,6 @@ import SectionsQuattro from "@/components/sections/sectionsQuattro";
 import { fetchAllPosts } from "./api/api";
 
 export default function Home({ translation, posts }) {
-  console.log(posts);
   return (
     <>
       <Head>
