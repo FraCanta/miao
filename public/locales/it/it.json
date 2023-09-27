@@ -111,7 +111,7 @@
       {
         "img": "/serviziImg/allestimenti.png",
         "name": "Allestimenti",
-        "descrizione": "Gli allestimenti personalizzati trasformano uno spazio vuoto in una tela bianca per raccontare la tua storia. Possono evocare emozioni, creare atmosfere e coinvolgere il tuo pubblico in modo unico.",
+        "descrizione": "Gli allestimenti personalizzati conferiscono personalità ad uno spazio vuoto. Possono evocare emozioni, creare atmosfere e coinvolgere il pubblico in modo unico.",
         "link": "/service/allestimenti"
       },
       {
@@ -123,7 +123,7 @@
       {
         "img": "/serviziImg/contentCreator.png",
         "name": "Content Creator",
-        "descrizione": "Nel mondo digitale di oggi, il contenuto ricopre un ruolo sempre più importante. Ma non si tratta solo di quantità; si tratta di qualità e, soprattutto, di personalizzazione. ",
+        "descrizione": "Nel mondo digitale di oggi, il contenuto ricopre un ruolo sempre più importante. Ma non si tratta solo di quantità; si tratta di qualità e, soprattutto, di personalizzazione.",
         "link": "/service/content"
       }
     ],
@@ -194,7 +194,7 @@
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logoDesign11.jpg",
+            "src": "/serviziImg/logoDesign/logoDesign10.jpg",
             "width": 600,
             "height": 600
           },
@@ -208,12 +208,12 @@
             "width": 600,
             "height": 600
           },
+
           {
-            "src": "/serviziImg/logoDesign/logoDesign10.jpg",
+            "src": "/serviziImg/logoDesign/logoDesign11.jpg",
             "width": 600,
             "height": 600
           },
-
           {
             "src": "/serviziImg/logoDesign/logoDesign2.jpg",
             "width": 600,
@@ -334,7 +334,7 @@
         "img": "/serviziImg/label.png",
         "name": "Label & Packaging",
         "title": "/serviziImg/label_Title.png",
-        "introTitle": "Packaging e Label: La Chiave del Successo del Tuo Prodotto",
+        "introTitle": "Packaging e Label: Dai Voce al Tuo Prodotto!",
         "intro": [
           "Spesso diamo per scontati il label e il packaging design, ma in realtà, sono dei veri e propri “ambasciatori” del nostro prodotto. ",
           "Immagina di passeggiare per il supermercato e notare un prodotto con un packaging accattivante e un’etichetta che trasmette un senso di qualità e personalità.",
@@ -343,33 +343,39 @@
           "Oggi giorno, immersi in un mercato sempre più competitivo, il label e il packaging design diventano ancor più cruciali. Non solo catturano l’interesse del pubblico, ma contribuiscono a creare un’esperienza d’acquisto memorabile. ",
           "Sono qui per aiutarti a scegliere il miglior contenitore per il tuo prodotto e a vestirlo con un look unico e accattivante"
         ],
+        "titlePro": "Sono qui per te:",
+        "descPro": [
+          "Per analizzare insieme il tipo di pack più opportuno per il tuo prodotto e definire insieme una linea grafica"
+        ],
+
         "titleList": " Cosa comprende:",
         "list": [
           "La selezione del contenitore più confacente al tuo prodotto.",
           "L’ideazione di un’etichetta mastro sulla base delle misure del contenitore scelto (2 bozze grafiche).",
           "Il mock-up per il controllo delle misure e della resa.",
+          "Eventuali declinazioni grafiche (linea di prodotti)",
           "La ricerca dei fornitori.",
-          "La fornitura dell’esecutivo in formato digitale e l’avvio alla stampa",
-          "La declinazione della mastro selezionata sulla base del prodotto e del formato (fino a 4 prodotti differenti)",
-          "1 esecutivo per la label mastro.",
-          "1 esecutivo per tipologia di prodotto (per un totale di 4 prodotti), la consulenza per la ricerca del contenitore e dei fornitori."
+          "La fornitura dell’esecutivo in formato digitale e l’avvio alla stampa"
         ],
-        "descrizione": "Il label e il packaging design sono essenziali per il successo di un prodotto, in un mercato competitivo, sono cruciali per catturare l’interesse del pubblico e informare il consumatore.",
+        "descrizione": "Il label e il packaging design sono elementi essenziali che contribuiscono al successo di un prodotto e alla sua vendita. In un mercato competitivo permettono di attrarre l'interesse del pubblico e informare i consumatore.",
         "link": "label",
         "gallery": [
           { "src": "/serviziImg/label/pack2.jpg", "width": 600, "height": 600 },
           { "src": "/serviziImg/label/pack3.jpg", "width": 600, "height": 600 },
           { "src": "/serviziImg/label/pack4.jpg", "width": 600, "height": 600 },
           { "src": "/serviziImg/label/pack5.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/label/pack6.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/label/pack7.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/label/pack8.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/label/pack9.jpg", "width": 600, "height": 600 },
           {
             "src": "/serviziImg/label/pack10.jpg",
             "width": 600,
             "height": 600
           },
+          { "src": "/serviziImg/label/pack8.jpg", "width": 600, "height": 600 },
+
+          { "src": "/serviziImg/label/pack7.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/label/pack9.jpg", "width": 600, "height": 600 },
+
+          { "src": "/serviziImg/label/pack6.jpg", "width": 600, "height": 600 },
+
           { "src": "/serviziImg/label/pack.jpg", "width": 600, "height": 600 }
         ]
       },
@@ -447,31 +453,6 @@
             "src": "/serviziImg/social/socialMedia11.jpg",
             "width": 600,
             "height": 600
-          },
-          {
-            "src": "/serviziImg/social/socialMedia12.jpg",
-            "width": 600,
-            "height": 600
-          },
-          {
-            "src": "/serviziImg/social/socialMedia13.jpg",
-            "width": 600,
-            "height": 600
-          },
-          {
-            "src": "/serviziImg/social/socialMedia14.jpg",
-            "width": 600,
-            "height": 600
-          },
-          {
-            "src": "/serviziImg/social/socialMedia15.jpg",
-            "width": 600,
-            "height": 600
-          },
-          {
-            "src": "/serviziImg/social/socialMedia16.jpg",
-            "width": 600,
-            "height": 600
           }
         ]
       },
@@ -519,6 +500,31 @@
             "src": "/serviziImg/campagne/campagne4.jpg",
             "width": 600,
             "height": 600
+          },
+          {
+            "src": "/serviziImg/campagne/campagne5.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/campagne/campagne6.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/campagne/campagne7.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/campagne/campagne8.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/campagne/campagne9.jpg",
+            "width": 600,
+            "height": 600
           }
         ]
       },
@@ -526,15 +532,19 @@
         "img": "/serviziImg/allestimenti.png",
         "name": "Allestimenti",
         "title": "/serviziImg/allestimenti_Title.png",
-        "introTitle": "Allestiti per Comunicare: Il Potere dell'Allestimento Personalizzato nell'Impatto del Tuo Brand",
+        "introTitle": "Scegli un’ Allestimento per Promuovere il tuo Brand",
         "intro": [
           "Un’ allestimento personalizzato è un potente strumento che trasforma un semplice spazio in un’ambiente comunicativo. Gli allestimenti, sia in ambito fieristico che riguardanti il punto vendita, sono la chiave per catturare l’attenzione, suscitare emozioni e far sì che il tuo brand si distingua.",
 
           "Nei contesti fieristici, un allestimento personalizzato mette in mostra il tuo brand in prima fila, attirando gli sguardi e creando un’esperienza memorabile. Nel punto vendita, trasforma la visita dei clienti in un’immersione totale nel tuo mondo.",
           "Gli allestimenti personalizzati sono un potente strumento di comunicazione. Possono trasmettere messaggi chiari e memorabili, aiutandoti a raggiungere i tuoi obiettivi di marketing e promozione."
         ],
+        "titlePro": "Sono qui per te:",
+        "descPro": [
+          "Per aiutarti a personalizzare il tuo punto vendita oppure a trovare insieme a te una soluzione mirata per esporre al meglio i tuoi prodotti negli ambienti fieristici o presso terzi."
+        ],
 
-        "descrizione": "Gli allestimenti personalizzati trasformano uno spazio vuoto in una tela bianca per raccontare la tua storia. Possono evocare emozioni, creare atmosfere e coinvolgere il tuo pubblico in modo unico.",
+        "descrizione": "Gli allestimenti personalizzati conferiscono personalità ad uno spazio vuoto. Possono evocare emozioni, creare atmosfere e coinvolgere il pubblico in modo unico.",
         "link": "allestimenti",
         "gallery": [
           {
@@ -670,7 +680,7 @@
         "img": "/serviziImg/contentCreator.png",
         "name": "Content Creator",
         "title": "/serviziImg/content_Title.png",
-        "introTitle": "Allestiti per Comunicare: Il Potere dell'Allestimento Personalizzato nell'Impatto del Tuo Brand",
+        "introTitle": "Coinvolgi il tuo target con contenuti ideati ad hoc",
         "intro": [
           "Creare contenuti su misura, che siano foto, video o testi, è la formula magica per il successo sui social e non solo. Ecco perché dovresti fare della personalizzazione una priorità assoluta.",
 
@@ -679,15 +689,21 @@
         ],
         "titleList": "Quali sono i servizi offerti:",
         "list": [
-          "creazione di contenuti digitali (immagini grafiche ideate ad hoc)",
-          "creazione di contenuti fotografici e video, da te in azienda, realizzati in base ai tuoi obiettivi di marketing",
-          "creazione di contenuti testuali in liena con il tuo stile comunicativo, in grado di parlare al tuo target",
-          "creazione di contenuti testuali in ottica seo in base alle "
+          "Creazione di contenuti digitali (immagini grafiche ideate ad hoc)",
+          "Creazione di contenuti fotografici e video, da te in azienda, realizzati in base ai tuoi obiettivi di marketing",
+          "Creazione di contenuti testuali in liena con il tuo stile comunicativo, in grado di parlare al tuo target",
+          "Creazione di contenuti testuali in ottica seo in base alle parole più ricercate relativamente al tuo settore",
+          "Ricerca hashtag e parole chiave ad alto rendimento"
         ],
 
-        "descrizione": "Nel mondo digitale di oggi, il contenuto ricopre un ruolo sempre più importante. Ma non si tratta solo di quantità; si tratta di qualità e, soprattutto, di personalizzazione. ",
+        "descrizione": "Nel mondo digitale di oggi, il contenuto ricopre un ruolo sempre più importante. Ma non si tratta solo di quantità; si tratta di qualità e, soprattutto, di personalizzazione.",
         "link": "content",
         "gallery": [
+          {
+            "src": "/serviziImg/creator/content.jpg",
+            "width": 600,
+            "height": 600
+          },
           {
             "src": "/serviziImg/creator/content2.jpg",
             "width": 600,
@@ -734,7 +750,72 @@
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content2.jpg",
+            "src": "/serviziImg/creator/content11.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content12.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content13.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content14.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content15.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content16.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content17.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content18.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content19.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content20.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content21.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content22.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content23.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content24.jpg",
             "width": 600,
             "height": 600
           }

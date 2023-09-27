@@ -20,6 +20,10 @@ const Others = ({ others }) => {
           slidesPerView: 1,
           spaceBetween: 20,
         },
+        650: {
+          slidesPerView: 2,
+          spaceBetween: 40,
+        },
         768: {
           slidesPerView: 2,
           spaceBetween: 40,

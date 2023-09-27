@@ -19,7 +19,7 @@ const Gallery = ({ imageArray, galleryID, galleryTitle }) => {
       escKey: true,
       arrowKeys: true,
       loop: true,
-      padding: { top: 20, bottom: 20, left: 10, right: 10 },
+      padding: { top: 100, bottom: 20, left: 10, right: 10 },
       mainClass: "pswp--custom-bg",
       showHideAnimationType: "zoom",
       showAnimationDuration: 500,
