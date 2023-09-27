@@ -42,6 +42,9 @@ const SectionDue = ({ translation }) => {
           <p className="text-second text-[5vw] md:text-[2.6vw] 2xl:text-[1.3vw]">
             {translation?.descrizione2}
           </p>
+          <p className="text-second text-[5vw] md:text-[2.6vw] 2xl:text-[1.3vw]">
+            {translation?.descrizione3}
+          </p>
           <div className="w-full 2xl:justify-end items-center inline-flex">
             <Link
               href="/servizi"

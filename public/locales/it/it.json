@@ -22,7 +22,8 @@
       "img": "/sectionsTitle/servizi_generici.png",
       "titoloP": "Soluzioni Creative a 360°",
       "descrizione": "Il Graphic Design e la Comunicazione Visiva sono l’arte invisibile che permea il nostro mondo. Si tratta di molto più di semplici immagini e colori; sono strumenti potenti che plasmano le nostre percezioni e guidano le nostre decisioni.",
-      "descrizione2": "In un’era digitale, dove l’attenzione è un bene prezioso, il design ben pensato cattura l’occhio e trattiene l’attenzione. È la differenza tra essere notati o ignorati. La Comunicazione Visiva è lo strumento che trasforma le idee in realtà, che da vita al marchio e che comunica contenuti ad alto impatto sensoriale destando l’attenzione del pubblico target."
+      "descrizione2": "In un’era digitale, dove l’attenzione è un bene prezioso, il design ben pensato cattura l’occhio e trattiene l’attenzione. È la differenza tra essere notati o ignorati. ",
+      "descrizione3": "La Comunicazione Visiva è lo strumento che trasforma le idee in realtà, che da vita al marchio e che comunica contenuti ad alto impatto sensoriale destando l’attenzione del pubblico target."
     },
     "sezioneTre": {
       "paragrafi": "La mia missione è assistere le piccole realtà aziendali nella definizione di un’immagine coordinata che sia unica ed efficace. Questo processo è fondamentale per distinguersi dalla concorrenza e per consolidare la propria presenza sul mercato off e on-line. Creo contenuti sia visivi che testuali che siano in linea con gli obiettivi di business e che si  sappiano coinvolgere il giusto pubblico.",
@@ -54,7 +55,9 @@
       "presentazione": [
         "Fin da bambina ho usato le mani per plasmare oggetti e disegnare i personaggi della mia fantasia. Artigiana nel cuore e di fatto, partecipo da anni con il mio banchetto alla Foire de Saint-Ours e realizzo oggetti hand-made. ",
         "Dopo aver studiato allo Ied di Torino, nel 2008 apro il mio atelier creativo con il nome di l’heartelier. Da qualche anno itinerante tra Milano e Aosta, ho deciso di rinnovare la mia identità diventando <strong>Miao graphics - grafismi itineranti </strong> esattamente come me (sempre con la valigia in mano). ",
-        "Come graphic designer professionista, offro <strong>soluzioni creative a 360° </strong> per aiutare il tuo business a spiccare e ad affermarsi. La mia filosofia di lavoro si basa sulla collaborazione e sulla comprensione delle tue esigenze. <strong>Insieme creeremo un percorso creativo su misura per te. </strong><strong>Ogni brand ha una storia da raccontare</strong>, e io sono qui per trasformarla in un design unico. <strong>Il mio intento è catturare la tua idea e tradurla in un’identità visiva (logo, pack, illustrazione) memorabile. </strong> <strong>Contattami oggi </strong> per iniziare questo entusiasmante itinerario creativo!"
+        "Come graphic designer professionista, offro <strong>soluzioni creative a 360° </strong> per aiutare il tuo business a spiccare e ad affermarsi. La mia filosofia di lavoro si basa sulla collaborazione e sulla comprensione delle tue esigenze. <strong>Insieme creeremo un percorso creativo su misura per te. </strong>",
+        "<strong>Ogni brand ha una storia da raccontare</strong>, e io sono qui per trasformarla in un design unico. <strong>Il mio intento è catturare la tua idea e tradurla in un’identità visiva (logo, pack, illustrazione) memorabile. </strong>",
+        "<strong>Contattami oggi </strong> per iniziare questo entusiasmante itinerario creativo!"
       ]
     },
     "sezioneDue": {
@@ -99,13 +102,13 @@
       {
         "img": "/serviziImg/social.png",
         "name": "Social Media Strategy",
-        "descrizione": "Risparmia tempo prezioso e ottieni risultati più consistenti consolidando la tua presenza online. Seguo costantemente le nuove tendenze e genero contenuti ad hoc e mirati che ti permetteranno di aumentare l'engagement del pubblico.",
+        "descrizione": "Risparmia tempo e migliora la tua presenza online con contenuti mirati e aggiornati alle ultime tendenze per aumentare l'engagement.",
         "link": "/service/social"
       },
       {
         "img": "/serviziImg/campagne.png",
         "name": "Campagne Off-line",
-        "descrizione": "Le campagne offline hanno un’importanza incalcolabile nel plasmare le nostre scelte, nel creare connessioni e nel trasmettere messaggi profondi. Sono le manifestazioni tangibili di idee, valori e brand che possono essere toccate, sentite e ricordate. ",
+        "descrizione": "Le campagne offline plasmano scelte, creano connessioni e trasmettono messaggi profondi, incarnando idee, valori e brand che si toccano, sentono e ricordano.",
         "link": "/service/campagne"
       },
       {
@@ -401,7 +404,7 @@
           "Contenuti creati ad hoc per te, in grado di generare lead"
         ],
 
-        "descrizione": "Risparmia tempo prezioso e ottieni risultati più consistenti consolidando la tua presenza online. Seguo costantemente le nuove tendenze e genero contenuti ad hoc e mirati che ti permetteranno di aumentare l'engagement del pubblico.",
+        "descrizione": "Risparmia tempo e migliora la tua presenza online con contenuti mirati e aggiornati alle ultime tendenze per aumentare l'engagement.",
         "link": "social",
         "gallery": [
           {
@@ -479,7 +482,7 @@
           "creare delle cartoline o dei flyer per permettere la consegna manuale del messaggio",
           "supportare l’iniziativa mediante gadget ideati ad hoc"
         ],
-        "descrizione": "Le campagne offline hanno un’importanza incalcolabile nel plasmare le nostre scelte, nel creare connessioni e nel trasmettere messaggi profondi. Sono le manifestazioni tangibili di idee, valori e brand che possono essere toccate, sentite e ricordate. ",
+        "descrizione": "Le campagne offline plasmano scelte, creano connessioni e trasmettono messaggi profondi, incarnando idee, valori e brand che si toccano, sentono e ricordano.",
         "link": "campagne",
         "gallery": [
           {
