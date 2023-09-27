@@ -10,7 +10,7 @@ const SectionMeUno = ({ translation }) => {
           return (
             <p
               key={i}
-              className="text-second text-[5vw] md:text-[2.6vw] 2xl:text-[1.3vw]"
+              className="text-second text-[5vw] md:text-[2.6vw] xl:text-[1.55vw] 2xl:text-[1.3vw]"
               dangerouslySetInnerHTML={{ __html: p }}
             ></p>
           );

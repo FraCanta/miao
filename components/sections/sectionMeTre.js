@@ -5,9 +5,9 @@ import React from "react";
 const SectionMeTre = ({ translation }) => {
   return (
     <section className="w-[90%] min-h-[40vh] justify-between items-center  flex flex-col  mx-auto mt-[150px]">
-      <div className="w-full flex-col 2xl:flex-row justify-start items-center gap-[50px] flex ">
+      <div className="w-full flex-col xl:flex-row justify-start items-center gap-[50px] flex ">
         <Image
-          className="object-cover w-full 2xl:w-[600px] fxl:w-[750px] 3xl:w-[900px]"
+          className="object-cover w-full xl:w-[35vw] 2xl:w-[600px] fxl:w-[750px] 3xl:w-[900px]"
           src={translation?.img}
           alt="welcome title"
           width={500}
@@ -16,7 +16,7 @@ const SectionMeTre = ({ translation }) => {
         />
         <div className="2xl:w-1/2 h-full flex-col justify-start items-start gap-[31px] inline-flex">
           <Image
-            className="object-cover w-[90vw] 2xl:w-[30vw] fxl:w-[35vw] 3xl:w-[45vw]"
+            className="object-cover w-[90vw] xl:w-[35vw] 2xl:w-[30vw] fxl:w-[35vw] 3xl:w-[45vw]"
             src={translation?.title}
             alt="welcome title"
             width={500}

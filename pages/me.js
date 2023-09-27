@@ -30,7 +30,7 @@ const Me = ({ translation, servizi }) => {
         <SectionMeDue translation={translation?.sezioneDue} />
         <section className="w-[90%] mx-auto min-h-[40vh] mt-[150px] flex flex-col gap-20">
           <Image
-            className="object-cover w-[90vw] 2xl:w-[30vw] fxl:w-[35vw] 3xl:w-[40vw]"
+            className="object-cover w-[90vw] xl:w-[35vw] 2xl:w-[30vw] fxl:w-[35vw] 3xl:w-[40vw]"
             src={translation?.sezioneTre?.title}
             alt="welcome title"
             width={300}
