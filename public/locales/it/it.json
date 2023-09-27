@@ -405,17 +405,7 @@
         "link": "social",
         "gallery": [
           {
-            "src": "/serviziImg/social/socialMedia2.jpg",
-            "width": 600,
-            "height": 600
-          },
-          {
             "src": "/serviziImg/social/socialMedia3.jpg",
-            "width": 600,
-            "height": 600
-          },
-          {
-            "src": "/serviziImg/social/socialMedia4.jpg",
             "width": 600,
             "height": 600
           },
@@ -425,17 +415,7 @@
             "height": 600
           },
           {
-            "src": "/serviziImg/social/socialMedia6.jpg",
-            "width": 600,
-            "height": 600
-          },
-          {
-            "src": "/serviziImg/social/socialMedia7.jpg",
-            "width": 600,
-            "height": 600
-          },
-          {
-            "src": "/serviziImg/social/socialMedia8.jpg",
+            "src": "/serviziImg/social/socialMedia11.jpg",
             "width": 600,
             "height": 600
           },
@@ -445,12 +425,34 @@
             "height": 600
           },
           {
+            "src": "/serviziImg/social/socialMedia7.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/social/socialMedia2.jpg",
+            "width": 600,
+            "height": 600
+          },
+
+          {
+            "src": "/serviziImg/social/socialMedia4.jpg",
+            "width": 600,
+            "height": 600
+          },
+
+          {
             "src": "/serviziImg/social/socialMedia10.jpg",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/social/socialMedia11.jpg",
+            "src": "/serviziImg/social/socialMedia8.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/social/socialMedia6.jpg",
             "width": 600,
             "height": 600
           }
@@ -481,23 +483,7 @@
         "link": "campagne",
         "gallery": [
           {
-            "src": "/serviziImg/campagne/campagne.jpg",
-            "width": 600,
-            "height": 600
-          },
-
-          {
-            "src": "/serviziImg/campagne/campagne2.jpg",
-            "width": 600,
-            "height": 600
-          },
-          {
             "src": "/serviziImg/campagne/campagne3.jpg",
-            "width": 600,
-            "height": 600
-          },
-          {
-            "src": "/serviziImg/campagne/campagne4.jpg",
             "width": 600,
             "height": 600
           },
@@ -507,15 +493,27 @@
             "height": 600
           },
           {
-            "src": "/serviziImg/campagne/campagne6.jpg",
+            "src": "/serviziImg/campagne/campagne.jpg",
+            "width": 600,
+            "height": 600
+          },
+
+          {
+            "src": "/serviziImg/campagne/campagne4.jpg",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/campagne/campagne7.jpg",
+            "src": "/serviziImg/campagne/campagne2.jpg",
             "width": 600,
             "height": 600
           },
+          {
+            "src": "/serviziImg/campagne/campagne6.jpg",
+            "width": 600,
+            "height": 600
+          },
+
           {
             "src": "/serviziImg/campagne/campagne8.jpg",
             "width": 600,
@@ -523,6 +521,11 @@
           },
           {
             "src": "/serviziImg/campagne/campagne9.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/campagne/campagne7.jpg",
             "width": 600,
             "height": 600
           }
@@ -589,6 +592,16 @@
           },
           {
             "src": "/serviziImg/allestimenti/allestimenti9.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/allestimenti/allestimenti10.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/allestimenti/allestimenti11.jpg",
             "width": 600,
             "height": 600
           }
@@ -692,7 +705,7 @@
           "Creazione di contenuti digitali (immagini grafiche ideate ad hoc)",
           "Creazione di contenuti fotografici e video, da te in azienda, realizzati in base ai tuoi obiettivi di marketing",
           "Creazione di contenuti testuali in liena con il tuo stile comunicativo, in grado di parlare al tuo target",
-          "Creazione di contenuti testuali in ottica seo in base alle parole più ricercate relativamente al tuo settore",
+          "Creazione di contenuti testuali in ottica SEO in base alle parole più ricercate relativamente al tuo settore",
           "Ricerca hashtag e parole chiave ad alto rendimento"
         ],
 
@@ -816,6 +829,11 @@
           },
           {
             "src": "/serviziImg/creator/content24.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content25.jpg",
             "width": 600,
             "height": 600
           }
