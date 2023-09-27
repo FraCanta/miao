@@ -23,20 +23,18 @@ const SectionMeTre = ({ translation }) => {
             height={500}
             priority
           />
-          <div className="w-full  text-second text-xl 3xl:text-3xl font-normal leading-7">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.{" "}
+          <div className="w-full flex-col justify-between  flex  h-full gap-6 3xl:gap-14">
+            {translation?.paragrafi?.map((p, i) => {
+              return (
+                <p
+                  key={i}
+                  className="w-full text-second text-[5vw] md:text-[2.6vw] xl:text-[1.55vw] 2xl:text-[1.3vw]"
+                  dangerouslySetInnerHTML={{ __html: p }}
+                ></p>
+              );
+            })}
           </div>
-          <div className="w-full  text-second text-xl 3xl:text-3xl font-normal leading-7">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat
-          </div>
+
           <Link
             href=""
             className="w-full  justify-end items-center inline-flex"

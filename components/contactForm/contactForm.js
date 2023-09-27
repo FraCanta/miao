@@ -11,10 +11,11 @@ export default function ContactForm({ translation }) {
 
   const [checkboxesState, setCheckboxesState] = useState({
     // state per le chackboxes
-    tailored: false,
-    commerce: false,
-    figma: false,
-    restyle: false,
+    logo: false,
+    label: false,
+    branding: false,
+    social: false,
+    altro: false,
   });
 
   const [form, setForm] = useState("");
@@ -92,10 +93,11 @@ export default function ContactForm({ translation }) {
         setSelectedRadio(null); // Resetta la radio selezionata
         setClickedRadio(null);
         setCheckboxesState({
-          tailored: false,
-          commerce: false,
-          figma: false,
-          restyle: false,
+          logo: false,
+          label: false,
+          branding: false,
+          social: false,
+          altro: false,
         }); // Resetta le checkbox selezionate
       } catch (error) {
         setForm({
@@ -128,7 +130,7 @@ export default function ContactForm({ translation }) {
               />
 
               <span className="contact-form__text text-black heading-l">
-                e lavoro a
+                e il mio brand è
               </span>
               <input
                 id="work"
@@ -258,74 +260,92 @@ export default function ContactForm({ translation }) {
               <div className="contact-form__items">
                 <label
                   className={`pill-checkbox ${
-                    checkboxesState.tailored ? "checked" : ""
+                    checkboxesState.logo ? "checked" : ""
                   }`}
-                  data-checked={checkboxesState.tailored}
+                  data-checked={checkboxesState.logo}
                   data-invalid="false"
                 >
                   <input
                     className="pill-checkbox__input"
                     type="checkbox"
                     name="service"
-                    value="tailored"
+                    value="logo"
                     onClick={onChangeValue}
                   />
                   <span className="pill-checkbox__label no-select text-m">
-                    Tailored Site
+                    Logo Design
                   </span>
                 </label>
                 <label
                   className={`pill-checkbox ${
-                    checkboxesState.commerce ? "checked" : ""
+                    checkboxesState.label ? "checked" : ""
                   }`}
-                  data-checked={checkboxesState.commerce}
+                  data-checked={checkboxesState.label}
                   data-invalid="false"
                 >
                   <input
                     className="pill-checkbox__input"
                     type="checkbox"
                     name="service"
-                    value="commerce"
+                    value="label"
                     onClick={onChangeValue}
                   />
                   <span className="pill-checkbox__label no-select text-m">
-                    E-commerce
+                    Label Design
                   </span>
                 </label>
                 <label
                   className={`pill-checkbox ${
-                    checkboxesState.figma ? "checked" : ""
+                    checkboxesState.branding ? "checked" : ""
                   }`}
-                  data-checked={checkboxesState.figma}
+                  data-checked={checkboxesState.branding}
                   data-invalid="false"
                 >
                   <input
                     className="pill-checkbox__input"
                     type="checkbox"
                     name="service"
-                    value="figma"
+                    value="branding"
                     onClick={onChangeValue}
                   />
                   <span className="pill-checkbox__label no-select text-m">
-                    Figma
+                    Branding
                   </span>
                 </label>
                 <label
                   className={`pill-checkbox ${
-                    checkboxesState.restyle ? "checked" : ""
+                    checkboxesState.social ? "checked" : ""
                   }`}
-                  data-checked={checkboxesState.restyle}
+                  data-checked={checkboxesState.social}
                   data-invalid="false"
                 >
                   <input
                     className="pill-checkbox__input"
                     type="checkbox"
                     name="service"
-                    value="restyle"
+                    value="social"
                     onClick={onChangeValue}
                   />
                   <span className="pill-checkbox__label no-select text-m">
-                    Restyle
+                    Social Media
+                  </span>
+                </label>
+                <label
+                  className={`pill-checkbox ${
+                    checkboxesState.altro ? "checked" : ""
+                  }`}
+                  data-checked={checkboxesState.altro}
+                  data-invalid="false"
+                >
+                  <input
+                    className="pill-checkbox__input"
+                    type="checkbox"
+                    name="service"
+                    value="altro"
+                    onClick={onChangeValue}
+                  />
+                  <span className="pill-checkbox__label no-select text-m">
+                    Altro
                   </span>
                 </label>
               </div>
@@ -337,29 +357,29 @@ export default function ContactForm({ translation }) {
               <div className="contact-form__items">
                 <label
                   className={`radio ${
-                    clickedRadio === "€ 800 - 1,500" ? "checked" : ""
+                    clickedRadio === "€ 350 - 500" ? "checked" : ""
                   }`}
-                  data-checked={clickedRadio === "€ 800 - 1,500"}
+                  data-checked={clickedRadio === "€ 350 - 500"}
                   data-invalid="false"
                 >
                   <input
-                    id="€ 800 - 1,500"
+                    id="€ 350 - 500"
                     className="radio__input"
                     type="radio"
                     name="source"
-                    value=" € 800 - 1,500"
-                    onChange={() => handleClickedRadioChange("€ 800 - 1,500")}
-                    checked={clickedRadio === "€ 800 - 1,500"}
+                    value=" € 350 - 500"
+                    onChange={() => handleClickedRadioChange("€ 350 - 500")}
+                    checked={clickedRadio === "€ 350 - 500"}
                   />
                   <span className="radio__label no-select text-m">
-                    € 800 - 1,500
+                    € 350 - 500
                   </span>
                 </label>
                 <label
                   className={`radio ${
-                    clickedRadio === "€ 1,500 - 3,000" ? "checked" : ""
+                    clickedRadio === "€ 500 - 1,500" ? "checked" : ""
                   }`}
-                  data-checked={clickedRadio === "€ 1,500 - 3,000"}
+                  data-checked={clickedRadio === "€ 500 - 1,500"}
                   data-invalid="false"
                 >
                   <input
@@ -367,52 +387,52 @@ export default function ContactForm({ translation }) {
                     className="radio__input"
                     type="radio"
                     name="source"
-                    value="€ 1,500 - 3,000"
-                    onChange={() => handleClickedRadioChange("€ 1,500 - 3,000")}
-                    checked={clickedRadio === "€ 1,500 - 3,000"}
+                    value="€ 500 - 1,500"
+                    onChange={() => handleClickedRadioChange("€ 500 - 1,500")}
+                    checked={clickedRadio === "€ 500 - 1,500"}
                   />
                   <span className="radio__label no-select text-m">
-                    € 1,500 - 3,000
+                    € 500 - 1,500
                   </span>
                 </label>
                 <label
                   className={`radio ${
-                    clickedRadio === "€ 3,000 - 5,000" ? "checked" : ""
+                    clickedRadio === "€ 1,500 - 2,500" ? "checked" : ""
                   }`}
-                  data-checked={clickedRadio === "€ 3,000 - 5,000"}
+                  data-checked={clickedRadio === "€ 1,500 - 2,500"}
                   data-invalid="false"
                 >
                   <input
-                    id="€ 3,000 - 5,000"
+                    id="€ 1,500 - 2,500"
                     className="radio__input"
                     type="radio"
                     name="source"
-                    value=" € 3,000 - 5,000"
-                    onChange={() => handleClickedRadioChange("€ 3,000 - 5,000")}
-                    checked={clickedRadio === "€ 3,000 - 5,000"}
+                    value=" € 1,500 - 2,500"
+                    onChange={() => handleClickedRadioChange("€ 1,500 - 2,500")}
+                    checked={clickedRadio === "€ 1,500 - 2,500"}
                   />
                   <span className="radio__label no-select text-m">
-                    € 3,000 - 5,000
+                    € 1,500 - 2,500
                   </span>
                 </label>
                 <label
                   className={`radio ${
-                    clickedRadio === "5000+" ? "checked" : ""
+                    clickedRadio === "5,500+" ? "checked" : ""
                   }`}
-                  data-checked={clickedRadio === "5000+"}
+                  data-checked={clickedRadio === "2,500+"}
                   data-invalid="false"
                 >
                   <input
-                    id="5000+"
+                    id="2,500+"
                     className="radio__input"
                     type="radio"
                     name="source"
-                    value="5000+"
-                    onChange={() => handleClickedRadioChange("5000+")}
-                    checked={clickedRadio === "5000+"}
+                    value="2,500+"
+                    onChange={() => handleClickedRadioChange("2,500+")}
+                    checked={clickedRadio === "2,500+"}
                   />
                   <span className="radio__label no-select text-m">
-                    € 5,000 +
+                    € 2,500 +
                   </span>
                 </label>
               </div>
