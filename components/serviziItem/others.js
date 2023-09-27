@@ -8,7 +8,6 @@ import { Navigation, Mousewheel, FreeMode } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const Others = ({ others }) => {
-  console.log(others);
   return (
     <Swiper
       spaceBetween={30}

@@ -13,7 +13,6 @@ import SectionMeTre from "@/components/sections/sectionMeTre";
 import SliderCards from "@/components/serviziItem/sliderCards";
 
 const Me = ({ translation, servizi }) => {
-  console.log(servizi);
   return (
     <main data-scroll-container>
       <Head>

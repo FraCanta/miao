@@ -14,7 +14,6 @@ import SlideAnimation from "@/components/slideAnimation/slideAnimation";
 import Others from "@/components/serviziItem/others";
 import Link from "next/link";
 const Servizi = ({ servizio, others, serviziFra }) => {
-  console.log(serviziFra);
   return (
     <>
       <Head>
