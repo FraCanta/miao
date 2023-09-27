@@ -107,7 +107,7 @@
       },
       {
         "img": "/serviziImg/campagne.png",
-        "name": "Campagne Off-line",
+        "name": "Campagne Offline",
         "descrizione": "Le campagne offline plasmano scelte, creano connessioni e trasmettono messaggi profondi, incarnando idee, valori e brand che si toccano, sentono e ricordano.",
         "link": "/service/campagne"
       },
@@ -463,7 +463,7 @@
       },
       "campagne": {
         "img": "/serviziImg/campagne.png",
-        "name": "Campagne Off-line",
+        "name": "Campagne Offline",
         "title": "/serviziImg/campagne_Title.png",
         "introTitle": "Riscoprire il Potere delle Campagne Offline: Emozioni, Fiducia ed Accessibilità nel Mondo Digitale",
         "intro": [
