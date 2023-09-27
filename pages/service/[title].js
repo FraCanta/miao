@@ -138,7 +138,7 @@ const Servizi = ({ servizio, others, serviziFra }) => {
               tua identità aziendale e così consolidando la tua presenza online.
               Grazie alle sue competenze, ti propongo queste opzioni:
             </p>
-            <div className="grid grid-cols-2 md:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-4 gap-6 md:gap-4 lg:gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-4 gap-6 md:gap-4 lg:gap-8">
               {serviziFra?.map((f, i) => {
                 return (
                   <ServiziItem
