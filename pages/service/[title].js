@@ -37,7 +37,7 @@ const Servizi = ({ servizio, others, serviziFra }) => {
               return (
                 <p
                   key={i}
-                  className="text-second text-[3.5vw] md:text-[2.6vw] xl:text-[1.9vw] 2xl:text-[1.3vw]"
+                  className="text-second text-[4.5vw] md:text-[2.6vw] xl:text-[1.9vw] 2xl:text-[1.3vw]"
                 >
                   {p}
                 </p>
@@ -55,7 +55,7 @@ const Servizi = ({ servizio, others, serviziFra }) => {
                   return (
                     <p
                       key={i}
-                      className="text-second text-[3.5vw] md:text-[2.6vw] xl:text-[1.9vw] 2xl:text-[1.3vw]"
+                      className="text-second text-[4.5vw] md:text-[2.6vw] xl:text-[1.9vw] 2xl:text-[1.3vw]"
                     >
                       {el}
                     </p>
@@ -73,7 +73,7 @@ const Servizi = ({ servizio, others, serviziFra }) => {
               ""
             )}
             {servizio?.sottoList ? (
-              <p className="text-second text-[3.5vw] md:text-[2.6vw] xl:text-[1.9vw] 2xl:text-[1.9vw]">
+              <p className="text-second text-[4.5vw] md:text-[2.6vw] xl:text-[1.9vw] 2xl:text-[1.9vw]">
                 {servizio?.sottoList}
               </p>
             ) : (
@@ -81,7 +81,7 @@ const Servizi = ({ servizio, others, serviziFra }) => {
             )}
 
             {servizio?.list ? (
-              <ul className="list-disc text-second text-[3.5vw] md:text-[2.6vw] xl:text-[1.9vw] 2xl:text-[1.3vw] flex flex-col gap-4 3xl:gap-6 ml-6 mt-4">
+              <ul className="list-disc text-second text-[4.5vw] md:text-[2.6vw] xl:text-[1.9vw] 2xl:text-[1.3vw] flex flex-col gap-4 3xl:gap-6 ml-6 mt-4">
                 {servizio?.list?.map((l, i) => {
                   return <li key={i}>{l}</li>;
                 })}
@@ -93,7 +93,7 @@ const Servizi = ({ servizio, others, serviziFra }) => {
           <div className="bg-main h-20 flex items-center justify-center 2xl:justify-end px-8 mt-[50px]">
             <Link
               href="/contatti"
-              className="capitalize font-bold py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 border text-[3.5vw] md:text-[2vw]  2xl:text-xl fxl:text-2xl 3xl:text-3xl rounded shadow  text-white hover:transition-all border-red  bg-red"
+              className="capitalize font-bold py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 border text-[4.5vw] md:text-[2vw]  2xl:text-xl fxl:text-2xl 3xl:text-3xl rounded shadow  text-white hover:transition-all border-red  bg-red"
             >
               Chiedi un preventivo
             </Link>
@@ -132,7 +132,7 @@ const Servizi = ({ servizio, others, serviziFra }) => {
               {/* {servizio?.titleOpzioni} */}
               Perchè non volere di più? Ecco altre opzioni su misura per te
             </h3>
-            <p className="text-second text-[3.5vw] md:text-[2.6vw] xl:text-[1.9vw] 2xl:text-[1.3vw]">
+            <p className="text-second text-[4.5vw] md:text-[2.6vw] xl:text-[1.9vw] 2xl:text-[1.3vw]">
               Lavoreremo insieme a Francesca, web designer molto talentuosa, per
               ideare un sito web professionale che ti permetta di rafforzare la
               tua identità aziendale e così consolidando la tua presenza online.
@@ -154,7 +154,7 @@ const Servizi = ({ servizio, others, serviziFra }) => {
             <div className="bg-main h-20 flex items-center justify-center 2xl:justify-end px-8 ">
               <Link
                 href="/contatti"
-                className="capitalize font-bold py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 border text-[3.5vw] 2xl:text-xl fxl:text-2xl 3xl:text-3xl rounded shadow  text-white hover:transition-all border-red  bg-red"
+                className="capitalize font-bold py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 border text-[4.5vw] 2xl:text-xl fxl:text-2xl 3xl:text-3xl rounded shadow  text-white hover:transition-all border-red  bg-red"
               >
                 Prenota una call con me
               </Link>
