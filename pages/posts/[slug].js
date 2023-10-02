@@ -101,9 +101,9 @@ export default function SinglePost({
         />
       </Head>
       <div className="singlePost" >
-        <div className="w-full xl:w-[90%] mx-auto py-12 mt-[20px] md:mt-[60px]">
+        <div className="w-full xl:w-[90%] mx-auto py-12 ">
         <div className="w-[90%] mx-auto ">
-        <div className="w-full mx-auto py-12 mt-[20px] md:mt-[60px]">
+        <div className="w-full mx-auto py-12">
           <div className="text-sm breadcrumbs text-pink flex items-center">
             <ul className="flex items-center">
               <li className="flex items-center">

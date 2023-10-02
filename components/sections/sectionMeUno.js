@@ -4,7 +4,7 @@ import React from "react";
 
 const SectionMeUno = ({ translation }) => {
   return (
-    <section className="w-[90%] min-h-[40vh] justify-between items-center mt-[150px] flex flex-col xl:flex-row mx-auto xl:gap-8 2xl:gap-2">
+    <section className="w-[90%] min-h-[40vh] justify-between items-center mt-[50px] md:mt-[150px] flex flex-col xl:flex-row mx-auto xl:gap-8 2xl:gap-2">
       <div className="w-full flex-col justify-between  flex 2xl:w-1/2 h-full gap-6 3xl:gap-14">
         {translation?.presentazione?.map((p, i) => {
           return (

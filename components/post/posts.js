@@ -31,17 +31,17 @@ const Posts = ({ post, featuredMedia}) => {
       </figure>
       <Link href={`/posts/${post?.slug}`}>
         <h4>
-          <span  dangerouslySetInnerHTML={{ __html: post?.title?.rendered }} className="text-main text-[25px] 3xl:text-[40px] font-extrabold capitalize leading-normal">
+          <span  dangerouslySetInnerHTML={{ __html: post?.title?.rendered }} className="text-main text-[20px] 3xl:text-[40px] font-extrabold capitalize">
           </span>
-          <span className="text-red text-[25px] 3xl:text-[40px] font-extrabold capitalize">
+          <span className="text-red text-[20px] 3xl:text-[40px] font-extrabold">
             .
           </span>
         </h4>
       </Link>
-      <div
+      {/* <div
           dangerouslySetInnerHTML={{ __html: post?.excerpt?.rendered }}
           className="line-clamp2 text-pink text-[16px] mb-4 fxl:text-[20px] 3xl:text-[25px]"
-        ></div>
+        ></div> */}
     </div>
   );
 };

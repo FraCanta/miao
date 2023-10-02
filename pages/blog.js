@@ -9,12 +9,14 @@ import React, { useState, useEffect } from "react";
 import router, { useRouter } from "next/router";
 
 import { getPosts, getCategories, getTagId } from "../utils/wordpress";
+import { Icon } from "@iconify/react";
+import LastPost from "@/components/post/lastPost";
 
-const Me = ({ post, category, pages, currentP, translation }) => {
+const Me = ({ post, category, pages, currentP, translation, lastPost }) => {
+  console.log(lastPost)
   const myRouter = useRouter();
   const [jsxPosts, setJsxPosts] = useState([]);
   const [filterObj, setFilterObj] = useState({});
-console.log(post)
   useEffect(() => {
     setFilterObj({
       currentPage: parseInt(myRouter?.query?.page) || 1,
@@ -72,23 +74,27 @@ console.log(post)
           />
         </div>
        <div className="container w-[90%] mx-auto p-2 xl:p-8">
-         
+       <div className="flex flex-col md:flex-row justify-between gap-6  w-full mx-auto mt-[50px] lg:mt-10">
+       <div className="grid grid-cols-1  md:w-[70%] ">
+        <div className="flex flex-col w-full gap-6">
+        <h4>
+          <span  className="text-main text-[8vw] leading-[1.2] md:leading-none md:text-[8vw] lg:text-[6vw] xl:text-[5vw] 2xl:text-[4vw] 3xl:text-[3.6vw]  font-extrabold capitalize "> In evidenza
+          </span>
+          <span className="text-red text-[8vw] leading-[1.2] md:leading-none md:text-[8vw] lg:text-[6vw] xl:text-[5vw] 2xl:text-[4vw] 3xl:text-[3.6vw]  font-extrabold capitalize">
+            .
+          </span>
+        </h4>        <div className="w-full relative">
+          <LastPost lastPost={lastPost} id={lastPost.id} category={category} />
         </div>
+        </div>
+       
+        </div> 
 
-        <div className="flex flex-col md:flex-row justify-between gap-6  w-[90%] mx-auto mt-[150px] lg:mt-0">
-         <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:w-[80%]">{jsxPosts}</div> 
-          <div className="flex flex-col py-8 md:w-[20%]">
+          <div className="flex flex-col  md:w-[30%]">
             {category?.map((el, i) => (
               <a
                 key={i}
-                style={
-                  filterObj?.categories === el?.id
-                    ? {
-                        background: "#204e59",
-                        color: "#ebdeba",
-                      }
-                    : {}
-                } // coloro quelli selezionati
+                
                 onClick={() => {
                   setFilterObj((prevData) => {
                     if (prevData?.categories === el?.id)
@@ -103,17 +109,19 @@ console.log(post)
                     },
                   });
                 }}
-                className={`${
-                  filterObj?.categories !== el?.id
-                    ? "tab tab-xs lg:tab-lg  tab-lifted text-pink "
-                    : "tab tab-lg xl:tab-2xl tab-lifted tab-active"
-                }  `}
+                className="flex items-center gap-2 border-solid border-2 rounded-[5px] border-red uppercase p-4 mb-2 cursor-pointer hover:bg-red hover:text-white text-xl"
               >
+                <Icon icon="ph:arrow-up-right-light" />
                 {el?.name}
               </a>
             ))}
           </div>
         </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-[30px] md:mt-[100px]">{jsxPosts}</div> 
+
+        </div>
+
+        
         <div className="container w-full mx-auto flex justify-center mt-10">
           {filterObj?.paginationArray?.length > 1 && (
             <div className="flex justify-center mb-8 ">
@@ -224,7 +232,13 @@ console.log(category)
 
   return {
     props: {
-      post: paginationTrim,
+      post: paginationTrim        ?.filter((el) => el?.tags?.includes(myTag) && el.id !== post.id).sort((a, b) => a?.date > b?.date)
+      .filter((el, i) => i < 3)
+      ,
+      lastPost: post
+        ?.filter((el) => el?.tags?.includes(myTag))
+        .sort((a, b) => a?.date > b?.date)
+        .filter((el, i) => i < 1),
       pages: Math.ceil(filteredPosts.length / itemPerPage),
       category: category, //array delle categorie presenti
       // media: media,

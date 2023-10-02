@@ -1,7 +1,7 @@
 const BASE_URL = "https://mithablog.mithacreative.it/wp-json/wp/v2";
 
 export async function getPosts(lang) {
-  const postsRes = await fetch(BASE_URL + "/posts?_embed&per_page=100", {
+  const postsRes = await fetch(BASE_URL + "/posts?_embed&per_page=10", {
     cache: "force-cache",
     revalidate: 900,
   });
