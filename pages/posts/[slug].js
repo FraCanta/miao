@@ -129,7 +129,7 @@ export default function SinglePost({
         </div>
         </div>
           <div className=" w-[90%] 3xl:w-full mx-auto ">
-            <h3 className="md:text-center text-second text-xl md:text-2xl fxl:text-3xl 3xl:text-5xl font-medium uppercase  ">
+            <h3 className="md:text-center text-red text-xl md:text-2xl fxl:text-3xl 3xl:text-5xl font-medium uppercase  ">
               {postCategories[0]?.name}
             </h3>
 
@@ -142,7 +142,7 @@ export default function SinglePost({
               <div className="flex  md:items-center">
                 <Icon
                   icon="fa6-solid:user-pen"
-                  color="#5cb4ad"
+                  color="#de4928"
                   className="mr-2 fxl:w-8 fxl:h-8"
                 />
                 <Link
@@ -157,7 +157,7 @@ export default function SinglePost({
                   {" "}
                   <Icon
                     icon="clarity:date-line"
-                    color="#5cb4ad"
+                    color="#de4928"
                     className="mr-2 fxl:w-8 fxl:h-8"
                   />
                   {getDate(post?.date)}
@@ -165,7 +165,7 @@ export default function SinglePost({
                 <div className=" text-main md:text-lg flex ml-6 font-[400] items-center">
                   <Icon
                     icon="tabler:clock-hour-3"
-                    color="#5cb4ad"
+                    color="#de4928"
                     className="mr-2 fxl:w-8 fxl:h-8"
                   />
                   <p className="fxl:text-2xl">{minutiLettura} min read</p>

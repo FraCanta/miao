@@ -4,13 +4,20 @@ import SlideAnimation from "@/components/slideAnimation/slideAnimation";
 import translationIT from "../public/locales/it/it.json";
 import translationEN from "../public/locales/en/en.json";
 import translationFR from "../public/locales/fr/fr.json";
+import {
+  getPosts,
+  getCategories,
+  getMedia,
+  getTagId,
+  getUsers,
+} from "../utils/wordpress";
 
 import SectionUno from "@/components/sections/sectionUno";
 import SectionDue from "@/components/sections/sectionDue";
 import SectionTre from "@/components/sections/sectionTre";
 import SectionsQuattro from "@/components/sections/sectionsQuattro";
 
-export default function Home({ translation }) {
+export default function Home({ translation, post, featuredMedia, users }) {
   return (
     <>
       <Head>
@@ -44,13 +51,26 @@ export default function Home({ translation }) {
         <SectionUno translation={translation?.sezioneUno} />
         <SectionDue translation={translation?.sezioneDue} />
         <SectionTre translation={translation?.sezioneTre} />
-        <SectionsQuattro translation={translation?.sezioneQuattro} />
+        <SectionsQuattro translation={translation?.sezioneQuattro}  post={post}
+          featuredMedia={featuredMedia}
+          users={users}/>
       </SlideAnimation>
     </>
   );
 }
 
+
+
+
 export async function getStaticProps(locale, context) {
+  const idLocale = await getTagId(locale.locale); // recupera id della lingua attuale
+  const post = await getPosts(idLocale); //recupera post nella lingua attuale
+  const category = await getCategories();
+  const media = await getMedia();
+  const users = await getUsers();
+  const myTag = await getTagId("miaographics");
+  // const myTag = 133;
+
   let obj;
   switch (locale.locale) {
     case "it":
@@ -71,6 +91,14 @@ export async function getStaticProps(locale, context) {
   return {
     props: {
       translation: obj?.home,
+      post: post
+        ?.filter((el) => el?.tags?.includes(myTag))
+        .sort((a, b) => a?.date > b?.date)
+        .filter((el, i) => i < 3), //elimino i post per sideeffect
+      category: category,
+      media: media,
+      users: users,
+      // instagramPosts: posts,
     },
     revalidate: 60,
   };
