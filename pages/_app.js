@@ -1,5 +1,7 @@
 import "@/styles/globals.css";
 import "@/styles/contact.css";
+import "@/styles/wordpress.css";
+
 
 import Layout from "@/components/layout/layout";
 import { useRouter } from "next/router";

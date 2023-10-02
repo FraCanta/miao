@@ -9,9 +9,8 @@ import SectionUno from "@/components/sections/sectionUno";
 import SectionDue from "@/components/sections/sectionDue";
 import SectionTre from "@/components/sections/sectionTre";
 import SectionsQuattro from "@/components/sections/sectionsQuattro";
-import { fetchAllPosts } from "./api/api";
 
-export default function Home({ translation, posts }) {
+export default function Home({ translation }) {
   return (
     <>
       <Head>
@@ -45,18 +44,13 @@ export default function Home({ translation, posts }) {
         <SectionUno translation={translation?.sezioneUno} />
         <SectionDue translation={translation?.sezioneDue} />
         <SectionTre translation={translation?.sezioneTre} />
-        <SectionsQuattro
-          translation={translation?.sezioneQuattro}
-          posts={posts}
-        />
+        <SectionsQuattro translation={translation?.sezioneQuattro} />
       </SlideAnimation>
     </>
   );
 }
 
 export async function getStaticProps(locale, context) {
-  const posts = await fetchAllPosts();
-
   let obj;
   switch (locale.locale) {
     case "it":
@@ -77,7 +71,6 @@ export async function getStaticProps(locale, context) {
   return {
     props: {
       translation: obj?.home,
-      posts,
     },
     revalidate: 60,
   };
