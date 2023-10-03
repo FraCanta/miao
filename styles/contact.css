@@ -280,7 +280,7 @@
 
   .radio {
     align-items: center;
-    border-radius: 100px;
+    border-radius: 2px;
     cursor: pointer;
     display: flex;
     flex-shrink: 0;
