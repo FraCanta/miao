@@ -174,35 +174,43 @@ export default function SinglePost({
             </div>
           </div>
         </div>
-        <div className="w-full xl:w-[90%] mx-auto pb-20">
-          <div className="flex w-[90%] 3xl:w-full mx-auto flex-col  xl:flex-row">
+        <div className="w-[90%] mx-auto pb-20 flex flex-col lg:flex-row gap-6">
+          <div className="flex xl:w-[70%] mx-auto flex-col  xl:flex-row">
           <div
-                className="text-main text-[20px] md:text-[25px] lg:text-[24px] xl:text-[20px] fxl:text-[30px] 3xl:text-[38px] 3xl:leading-[3.5rem] l-article paragrafo"
+                className="text-main text-[20px] md:text-[25px] lg:text-[24px] xl:text-[20px] fxl:text-[30px] 3xl:text-[38px] 3xl:leading-[3.5rem] l-article paragrafo xl:w-[90%] py-12 3xl:w-full mx-auto"
                 dangerouslySetInnerHTML={{ __html: post?.content?.rendered }}
               ></div>
-            {/* <div className="w-full xl:w-[30%] 3xl:w-[20%]  h-full flex justify-between flex-col lg:sticky top-24 mt-8 xl:mt-0 ">
-              <div className="w-full h-full hidden">
-                <h3 className="text-[26px] font-bold uppercase text-second underline">
-                  I più letti
+           
+          </div>
+          <div className="w-full xl:w-[30%] h-full flex justify-between flex-col lg:sticky top-24 mt-8 xl:mt-0 3xl:top-[190px]">
+              <div className="w-full h-full">
+                <h3 className="text-[8vw] xl:text-[2vw] font-bold uppercase text-second underline">
+                  I più recenti
                 </h3>
-                <div className="w-full h-full py-4">
-                  <Link
-                    href={`/posts/${post?.slug}`}
-                    target="_blank"
-                    className="cursor-pointer"
-                  >
-                    <h4
-                      dangerouslySetInnerHTML={{
-                        __html: post?.title?.rendered,
-                      }}
-                      className="text-main uppercase hover:line-through hover:text-second"
-                    ></h4>
-                  </Link>
+                <div className="w-full h-full py-4 flex flex-col gap-6">
+               {
+                recent?.map((p,i)=>{
+                  return (
+                    <div key={i}>
+                       <small className=" text-red py-2 fxl:text-base">
+          {getDate(p?.date)}
+        </small>
+                   
+        <Link href={`/posts/${p?.slug}`}>
+          <h5
+            className="font-bold text-main hover:text-red capitalize text-[1.4rem] lg:text-3xl leading-[1.8rem] xl:text-xl fxl:text-3xl 3xl:text-4xl py-2"
+            dangerouslySetInnerHTML={{ __html: p?.title?.rendered }}
+          ></h5>
+        </Link>
+       
+        </div>
+                  )
+                })
+               }
                 </div>
               </div>
             
-            </div> */}
-          </div>
+            </div>
         </div>
       </div>
     </>

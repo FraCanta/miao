@@ -7,13 +7,13 @@ import Head from "next/head";
 import Post from "../components/post/posts";
 import React, { useState, useEffect } from "react";
 import router, { useRouter } from "next/router";
-
+import { getDate } from "@/utils/utils";
 import { getPosts, getCategories, getTagId } from "../utils/wordpress";
 import { Icon } from "@iconify/react";
 import LastPost from "@/components/post/lastPost";
 
 const Me = ({ post, category, pages, currentP, translation, lastPost }) => {
-  console.log(lastPost);
+  // console.log(lastPost);
   const myRouter = useRouter();
   const [jsxPosts, setJsxPosts] = useState([]);
   const [filterObj, setFilterObj] = useState({});
@@ -33,7 +33,7 @@ const Me = ({ post, category, pages, currentP, translation, lastPost }) => {
         );
       })
     );
-    console.log(post);
+    // console.log(post);
   }, [post]); // aggiorna le cards
 
   useEffect(() => {
@@ -71,11 +71,11 @@ const Me = ({ post, category, pages, currentP, translation, lastPost }) => {
             <div className="grid grid-cols-1  md:w-[70%] ">
               <div className="flex flex-col w-full gap-6">
                 <h4>
-                  <span className="text-main text-[8vw] leading-[1.2] md:leading-none md:text-[8vw] lg:text-[6vw] xl:text-[5vw] 2xl:text-[4vw] 3xl:text-[3.6vw]  font-extrabold capitalize ">
+                  <span className="text-main text-[8vw] leading-[1.2] md:leading-none  lg:text-[6vw] xl:text-[5vw] 2xl:text-[3vw] 3xl:text-[3.6vw]  font-extrabold capitalize ">
                     {" "}
                     In evidenza
                   </span>
-                  <span className="text-red text-[8vw] leading-[1.2] md:leading-none md:text-[8vw] lg:text-[6vw] xl:text-[5vw] 2xl:text-[4vw] 3xl:text-[3.6vw]  font-extrabold capitalize">
+                  <span className="text-red text-[8vw] leading-[1.2] md:leading-none lg:text-[6vw] xl:text-[5vw] 2xl:text-[3vw] 3xl:text-[3.6vw]  font-extrabold capitalize">
                     .
                   </span>
                 </h4>{" "}
@@ -107,7 +107,7 @@ const Me = ({ post, category, pages, currentP, translation, lastPost }) => {
                       },
                     });
                   }}
-                  className="flex items-center gap-2 border-solid border-2 rounded-[5px] border-red uppercase p-4 mb-2 cursor-pointer hover:bg-red hover:text-white text-xl"
+                  className="flex items-center gap-2 border-solid border-2 rounded-[5px] border-red text-white bg-red uppercase p-[3vw] xl:p-[0.6vw] mb-2 cursor-pointer hover:bg-white hover:text-main text-[5vw] xl:text-[1.2vw]"
                 >
                   <Icon icon="ph:arrow-up-right-light" />
                   {el?.name}
@@ -207,7 +207,7 @@ export async function getServerSideProps(context) {
   );
   const category = await getCategories(locale); //categorie nella lingua attuale
   // const media = await getMedia();
-  console.log(category);
+  // console.log(category);
   let obj;
   switch (locale.locale) {
     case "it":

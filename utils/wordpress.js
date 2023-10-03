@@ -113,7 +113,7 @@ export async function getCategories(lang, onlyFull = true) {
 //   } else {
 //     return categories;
 //   }
-console.log(fullCategories)
+// console.log(fullCategories)
 return fullCategories
 }
 
@@ -140,7 +140,7 @@ export async function getUsers() {
     revalidate: 900,
   });
   const users = await userRes.json();
-  console.log(users)
+  // console.log(users)
   return users;
 }
 
