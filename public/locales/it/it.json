@@ -879,7 +879,74 @@
     "hero": {
       "title": "/pageImg/portfolioTitle.png",
       "img": "/pageImg/gufo.png"
-    }
+    },
+    "worksItem": [
+      {
+        "img": "/portfolioImg/anserme/cover.jpg",
+        "name": "Anserme",
+        "title": "anserme",
+        "descrizione": "azienda agricola di andrea casadei",
+        "location": "location",
+        "link": "/works/anserme"
+      },
+      {
+        "img": "/portfolioImg/bequet/cover.jpg",
+        "name": "Bequet",
+        "title": "bequet",
+        "descrizione": "azienda agricola",
+        "location": "location",
+        "link": "/works/bequet"
+      },
+      {
+        "img": "/portfolioImg/casadei/cover2.jpg",
+        "name": "Bequet",
+        "title": "bequet",
+        "descrizione": "azienda agricola",
+        "location": "location",
+        "link": "/works/bequet"
+      },
+      {
+        "img": "/portfolioImg/phillacolor/cover_phillacolor.jpg",
+        "name": "Bequet",
+        "title": "bequet",
+        "descrizione": "azienda agricola",
+        "location": "location",
+        "link": "/works/bequet"
+      },
+      {
+        "img": "/portfolioImg/chappoz/cover.jpg",
+        "name": "Bequet",
+        "title": "bequet",
+        "descrizione": "azienda agricola",
+        "location": "location",
+        "link": "/works/bequet"
+      },
+      {
+        "img": "/portfolioImg/daemy/cover.jpg",
+        "name": "Bequet",
+        "title": "bequet",
+        "descrizione": "azienda agricola",
+        "location": "location",
+        "link": "/works/bequet"
+      },
+      {
+        "img": "/portfolioImg/horto/cover_horto.jpg",
+        "name": "Bequet",
+        "title": "bequet",
+        "descrizione": "azienda agricola",
+        "location": "location",
+        "link": "/works/bequet"
+      },
+      {
+        "img": "/portfolioImg/isavivai/cover.jpg",
+        "name": "Bequet",
+        "title": "bequet",
+        "descrizione": "azienda agricola",
+        "location": "location",
+        "link": "/works/bequet"
+      }
+     
+    ]
   },
   "blog": {
     "hero": {

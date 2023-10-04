@@ -6,6 +6,7 @@ import translationFR from "../public/locales/fr/fr.json";
 
 import HeroPage from "@/components/heros/heroPage";
 import Head from "next/head";
+import WorksItem from "@/components/worksItem/worksItem";
 
 const Me = ({ translation }) => {
   // console.log(translation);
@@ -21,6 +22,19 @@ const Me = ({ translation }) => {
             img={translation?.hero?.img}
           />
         </div>
+        <section className="grid grid-cols-1 md:grid-cols-2  min-h-[40vh] mt-[100px]">
+          {translation?.worksItem?.map((el, i) => {
+            return (
+              <WorksItem
+                key={i}
+                img={el?.img}
+                name={el?.name}
+                descrizione={el?.descrizione}
+                link={el?.link}
+              />
+            );
+          })}
+        </section>
       </SlideAnimation>
     </>
   );

@@ -41,7 +41,7 @@ const Footer = ({ translation }) => {
             Via Avondo, 15 - 11100 Aosta (AO)
           </div>
           <div className="text-main text-xs fxl:text-xl 3xl:text-2xl font-light capitalize">
-            Via Jacopo della Quercia , 2 - 20096 Pioltello (MI)
+            Via Jacopo della Quercia, 2 - 20096 Pioltello (MI)
           </div>
           <div className="text-main text-xs  fxl:text-xl 3xl:text-2xl font-extrabold lowercase">
             +39 340 853 9159 - miaographics@gmail.com

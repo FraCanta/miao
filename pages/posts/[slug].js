@@ -24,6 +24,8 @@ import Head from "next/head";
 import translationIT from "../../public/locales/it/it.json";
 import translationEN from "../../public/locales/en/en.json";
 import { useEffect, useState } from "react";
+import { parse } from "dom-parser-react";
+
 export default function SinglePost({
   post,
   modifiedContent,
@@ -69,13 +71,16 @@ export default function SinglePost({
     // tl.to(".singlePost", { duration: 1, opacity: 1, ease: "power3.inOut" });
   }, [modifiedContent]);
 
-
+  const contents = parse(post.title.rendered, {
+    createElement: React.createElement,
+    Fragment: React.Fragment,
+  });
 
 
   return (
     <>
       <Head>
-        <title>{post.title.rendered}</title>
+        <title >{contents}</title>
 
         <meta
           property="og:image"

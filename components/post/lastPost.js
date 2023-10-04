@@ -2,8 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { getDate } from '@/utils/utils'
-const LastPost = ({lastPost, category}) => {
-    console.log(lastPost[0].slug)
+const LastPost = ({lastPost}) => {
   return (
     <>
 <Link href={`/posts/${lastPost[0].slug}`}>
@@ -19,7 +18,7 @@ const LastPost = ({lastPost, category}) => {
 
     </figure>
   <div className='absolute bottom-0 left-0 font-bold p-6 z-20 md:w-[60%] flex flex-col gap-2 xl:gap-6'>
-  <p className='text-red uppercase font-extrabold xl:text-[1.5vw] '>{category[0].name}</p>
+  {/* <p className='text-red uppercase font-extrabold xl:text-[1.5vw] '>{category}</p> */}
    
    <h2  dangerouslySetInnerHTML={{ __html: lastPost?.[0].title?.rendered }} className='text-white text-[5.5vw] md:text-[2.5vw] leading-[1.4] '></h2>
    <small className=" text-white text-[3vw] xl:text-[1.2vw]">

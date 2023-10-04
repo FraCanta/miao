@@ -113,7 +113,7 @@ export async function getCategories(lang, onlyFull = true) {
 //   } else {
 //     return categories;
 //   }
-// console.log(fullCategories)
+console.log(filteredCategories)
 return fullCategories
 }
 
@@ -151,12 +151,15 @@ export async function getPostsByLanguageAndBlogOwner(
   resObj.ownerId = await getTagId(blogOwner);
   resObj.it = await getTagId("it");
   resObj.en = await getTagId("en");
+  resObj.en = await getTagId("fr");
   const ownerPosts = await getPosts(resObj.ownerId); // tutti i posts in tutte lingue del blogOwner
   
   return {
     ...resObj,
     it: ownerPosts.filter((el) => el?.tags?.includes(resObj.it)),
     en: ownerPosts.filter((el) => el?.tags?.includes(resObj.en)),
+    fr: ownerPosts.filter((el) => el?.tags?.includes(resObj.fr)),
+
   };
 }
 
