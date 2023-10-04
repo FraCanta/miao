@@ -19,7 +19,7 @@ const HeroWorks = ({ img, name, descrizione, location, button }) => {
               <h1 className=" text-white text-[10vw] md:text-[40px] leading-none">
                 {name}
               </h1>
-              <p className="text-white mt-[0.15rem] text-[12px] tracking-[0.15rem] ">
+              <p className="text-white mt-[0.15rem] text-[11px] tracking-[0.15rem] ">
                 {descrizione}
               </p>
             </div>

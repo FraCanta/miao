@@ -371,98 +371,98 @@
         "button": ["Branding", "Social Media"]
       }
     ],
-    "singleWork": {
-      "ansermè": {
-         "img": "/portfolioImg/anserme/cover.jpg",
-         "name": "Ansermé",
-         "title": "ansermè",
-         "descrizione": "Bio Bontà di Montagna",
-         "location": "Arnad  - Valle d’Aosta",
-         "link": "/works/ansermè",
-         "button": ["Branding", "Label Design", "Social Media"]
-       },
-    "becquet":   {
-         "img": "/portfolioImg/bequet/cover.jpg",
-         "name": "Samuel Becquet",
-         "title": "becquet",
-         "descrizione": "Agriculture en Haute Montagne",
-         "location": "location",
-         "link": "/works/becquet",
-         "button": ["Branding", "Label Design"]
-       },
-      "reve": {
-         "img": "/portfolioImg/casadei/cover2.jpg",
-         "name": "Le Rêve en Vert",
-         "title": "reve",
-         "descrizione": "Azienda Agricola di Andrea Casadei",
-         "location": "Arnad - Valle d’Aosta",
-         "link": "/works/reve",
-         "button": ["Branding", "Label Design"]
-       },
-      "phillacolor": {
-         "img": "/portfolioImg/phillacolor/cover_phillacolor.jpg",
-         "name": "Phillacolor",
-         "title": "phillacolor",
-         "descrizione": "Eco-liquid Dye",
-         "location": "Saint -Pierre  - Valle d’Aosta",
-         "link": "/works/phillacolor",
-         "button": ["Branding", "Label Design"]
-       },
-      "chappoz": {
-         "img": "/portfolioImg/chappoz/cover.jpg",
-         "name": "Chappoz",
-         "title": "chappoz",
-         "descrizione": "Azienda Agricola",
-         "location": "Donnas - Valle d’Aosta",
-         "link": "/works/chappoz",
-         "button": ["Branding", "Label Design", "Social Media"]
-       },
-     "daemy":  {
-         "img": "/portfolioImg/daemy/cover.jpg",
-         "name": "Da Emy",
-         "title": "daemy",
-         "descrizione": "Piante Officinali",
-         "location": "Valsavarenche - Valle d’Aosta",
-         "link": "/works/daemy",
-         "button": ["Branding", "Label Design"]
-       },
-      "horto": {
-         "img": "/portfolioImg/horto/cover_horto.jpg",
-         "name": "Horto Sapiens",
-         "title": "horto",
-         "descrizione": "Prodotti tipici di Monte Amiata e Val d'Orcia",
-         "location": "Abbadia San Salvatore (SI) - Toscana",
-         "link": "/works/horto",
-         "button": ["Branding", "Label Design"]
-       },
-     "isavivai":  {
-         "img": "/portfolioImg/isavivai/cover.jpg",
-         "name": "Isavivai",
-         "title": "isavivai",
-         "descrizione": "Il Verde che ti emoziona",
-         "location": "Aymavilles  - Valle d’Aosta",
-         "link": "/works/isavivai",
-         "button": ["Branding", "Allestimenti"]
-       },
-      "saintgrat": {
-         "img": "/portfolioImg/saint/cover.jpg",
-         "name": "Saint Grat",
-         "title": "saintgrat",
-         "descrizione": "Azienda Agricola",
-         "location": "Aymavilles - Valle d’Aosta",
-         "link": "/works/saintgrat",
-         "button": ["Branding", "Label Design"]
-       },
-      "morzenti": {
-         "img": "/portfolioImg/morzenti/cover.jpg",
-         "name": "Morzenti Daniele",
-         "title": "morzenti",
-         "descrizione": "Azienda Agricola",
-         "location": "Gressan - Valle d’Aosta",
-         "link": "/works/morzenti",
-         "button": ["Branding", "Social Media"]
-       }
-     }
+    "singleWorks": {
+     "ansermè": {
+        "img": "/portfolioImg/anserme/cover.jpg",
+        "name": "Ansermé",
+        "title": "anserme",
+        "descrizione": "Bio Bontà di Montagna",
+        "location": "Arnad  - Valle d’Aosta",
+        "link": "/works/anserme",
+        "button": ["Branding", "Label Design", "Social Media"]
+      },
+   "becquet":   {
+        "img": "/portfolioImg/bequet/cover.jpg",
+        "name": "Samuel Becquet",
+        "title": "becquet",
+        "descrizione": "Agriculture en Haute Montagne",
+        "location": "location",
+        "link": "/works/bequet",
+        "button": ["Branding", "Label Design"]
+      },
+     "reve": {
+        "img": "/portfolioImg/casadei/cover2.jpg",
+        "name": "Le Rêve en Vert",
+        "title": "reve",
+        "descrizione": "Azienda Agricola di Andrea Casadei",
+        "location": "Arnad - Valle d’Aosta",
+        "link": "/works/reve",
+        "button": ["Branding", "Label Design"]
+      },
+     "phillacolor": {
+        "img": "/portfolioImg/phillacolor/cover_phillacolor.jpg",
+        "name": "Phillacolor",
+        "title": "phillacolor",
+        "descrizione": "Eco-liquid Dye",
+        "location": "Saint -Pierre  - Valle d’Aosta",
+        "link": "/works/phillacolor",
+        "button": ["Branding", "Label Design"]
+      },
+     "chappoz": {
+        "img": "/portfolioImg/chappoz/cover.jpg",
+        "name": "Chappoz",
+        "title": "chappoz",
+        "descrizione": "Azienda Agricola",
+        "location": "Donnas - Valle d’Aosta",
+        "link": "/works/chappoz",
+        "button": ["Branding", "Label Design", "Social Media"]
+      },
+    "daemy":  {
+        "img": "/portfolioImg/daemy/cover.jpg",
+        "name": "Da Emy",
+        "title": "daemy",
+        "descrizione": "Piante Officinali",
+        "location": "Valsavarenche - Valle d’Aosta",
+        "link": "/works/daemy",
+        "button": ["Branding", "Label Design"]
+      },
+     "horto": {
+        "img": "/portfolioImg/horto/cover_horto.jpg",
+        "name": "Horto Sapiens",
+        "title": "horto",
+        "descrizione": "Prodotti tipici di Monte Amiata e Val d'Orcia",
+        "location": "Abbadia San Salvatore (SI) - Toscana",
+        "link": "/works/horto",
+        "button": ["Branding", "Label Design"]
+      },
+    "isavivai":  {
+        "img": "/portfolioImg/isavivai/cover.jpg",
+        "name": "Isavivai",
+        "title": "isavivai",
+        "descrizione": "Il Verde che ti emoziona",
+        "location": "Aymavilles  - Valle d’Aosta",
+        "link": "/works/isavivai",
+        "button": ["Branding", "Allestimenti"]
+      },
+     "saintgrat": {
+        "img": "/portfolioImg/saint/cover.jpg",
+        "name": "Saint Grat",
+        "title": "saintgrat",
+        "descrizione": "Azienda Agricola",
+        "location": "Aymavilles - Valle d’Aosta",
+        "link": "/works/saintgrat",
+        "button": ["Branding", "Label Design"]
+      },
+     "morzenti": {
+        "img": "/portfolioImg/morzenti/cover.jpg",
+        "name": "Morzenti Daniele",
+        "title": "morzenti",
+        "descrizione": "Azienda Agricola",
+        "location": "Gressan - Valle d’Aosta",
+        "link": "/works/morzenti",
+        "button": ["Branding", "Social Media"]
+      }
+    }
   },
   "blog": {
     "hero": {
