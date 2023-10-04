@@ -25,7 +25,7 @@ const WorksItem = ({ img, name, descrizione }) => {
               </div>
               <div className="flex gap-4 h-full pr-10 uppercase text-[10px]">
                 <p className="py-1 px-4 border border-1 border-white rounded-[2px]">bottone uno</p>
-                <p className="py-1 px-4 border border-1 border-white rounded-[2px]">bottone uno</p>
+                <p className="hidden md:block py-1 px-4 border border-1 border-white rounded-[2px]">bottone uno</p>
               </div>
             </div>
           </div>
