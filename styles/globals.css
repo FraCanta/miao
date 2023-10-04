@@ -9,6 +9,12 @@
   --white: #ffffff;
 }
 
+@layer utilities {
+  .hand-pointer {
+    cursor: url("../public/assets/hand-behance.png"), auto;
+  }
+}
+
 h1,
 h2,
 h3,
