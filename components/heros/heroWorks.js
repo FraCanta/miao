@@ -4,7 +4,7 @@ import React from "react";
 
 const HeroWorks = ({ img, name, descrizione, location, button }) => {
   return (
-    <div className="w-[90%] mx-auto h-full flex flex-col lg:flex-row 2xl:items-center 2xl:justify-around gap-8">
+    <div className="w-[90%] mx-auto h-full flex flex-col lg:flex-row 2xl:items-center 2xl:justify-around gap-8  before:content-{} before: inline  before:absolute before:left-0 before:right-0 before:top-0 before:z-10 before:h-full before:w-full before:bg-main/90 before:opacity-20">
       <Image
         src={img}
         alt={name}
@@ -13,13 +13,13 @@ const HeroWorks = ({ img, name, descrizione, location, button }) => {
         className="min-h-full h-full object-cover w-full object-center"
       />
       <div className="absolute bottom-0 left-0 p-6 flex w-full z-10 text-white">
-        <div className="grid grid-col-1 md:grid-cols-2 w-full h-full">
-          <div className="flex flex-col h-full justify-between gap-6">
-            <div>
-              <h1 className=" text-white text-[10vw] md:text-[40px] leading-none">
+        <div className="grid grid-col-1 md:grid-cols-2 w-full h-full mb-4">
+          <div className="flex flex-col h-full justify-between md:gap-6">
+            <div className="gap-1 flex flex-col">
+              <h1 className=" text-white text-[10vw] xl:text-[6vw] leading-none">
                 {name}
               </h1>
-              <p className="text-white mt-[0.15rem] text-[11px] tracking-[0.15rem] ">
+              <p className="text-white md:mt-[0.15rem] text-[11px] xl:text-[1.5vw] tracking-[0.15rem] ">
                 {descrizione}
               </p>
             </div>
@@ -30,12 +30,12 @@ const HeroWorks = ({ img, name, descrizione, location, button }) => {
                 color="white"
                 className="text-[12px]"
               />
-              <p className="text-[8px] md:text-[10px] uppercase font-bold tracking-[0.15rem]">
+              <p className="text-[8px] py-4 md:text-[10px] uppercase font-bold tracking-[0.15rem]">
                 {location}
               </p>
             </div>
           </div>
-          <div className="text-white hidden md:grid grid-cols-1 md:grid-cols-3 gap-1 w-full md:justify-between items-end uppercase text-[12px]">
+          <div className=" text-white  grid grid-cols-2 md:grid-cols-3 gap-1 w-full md:justify-between items-end uppercase text-[12px]">
             {button.map((el, i) => {
               return (
                 <p
