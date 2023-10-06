@@ -969,7 +969,7 @@
         "button": ["Branding", "Allestimenti"]
       },
       {
-        "img": "/portfolioImg/saint/illustrazioni_linea_classica.png",
+        "img": "/portfolioImg/saint/cover_saint.jpg",
         "name": "Saint Grat",
         "title": "saintgrat",
         "descrizione": "Azienda Agricola",
@@ -1061,7 +1061,7 @@
         "button": ["Branding", "Allestimenti"]
       },
       "saintgrat": {
-        "img": "/portfolioImg/saint/cover.jpg",
+        "img": "/portfolioImg/saint/cover_saint.jpg",
         "name": "Saint Grat",
         "title": "saintgrat",
         "descrizione": "Azienda Agricola",
