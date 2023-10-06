@@ -892,7 +892,18 @@
         "descrizione": "Bio Bontà di Montagna",
         "location": "Arnad  - Valle d’Aosta",
         "link": "/works/ansermè",
-        "button": ["Branding", "Label Design", "Social Media"]
+        "button": ["Branding", "Label Design", "Social Media"],
+        "cliente": {
+          "titolo": "cliente",
+          "nome": "Ansermè"
+        },
+        "anno": {
+          "titolo": "anno",
+          "nome": "2020"
+        },
+        "keywords": {
+          "titolo": "keywords"
+        }
       },
       {
         "img": "/portfolioImg/bequet/cover.jpg",
@@ -977,7 +988,7 @@
       }
     ],
     "singleWorks": {
-     "ansermè": {
+      "ansermè": {
         "img": "/portfolioImg/anserme/cover.jpg",
         "name": "Ansermé",
         "title": "anserme",
@@ -986,7 +997,7 @@
         "link": "/works/anserme",
         "button": ["Branding", "Label Design", "Social Media"]
       },
-   "becquet":   {
+      "becquet": {
         "img": "/portfolioImg/bequet/cover.jpg",
         "name": "Samuel Becquet",
         "title": "becquet",
@@ -995,7 +1006,7 @@
         "link": "/works/bequet",
         "button": ["Branding", "Label Design"]
       },
-     "reve": {
+      "reve": {
         "img": "/portfolioImg/casadei/cover2.jpg",
         "name": "Le Rêve en Vert",
         "title": "reve",
@@ -1004,7 +1015,7 @@
         "link": "/works/reve",
         "button": ["Branding", "Label Design"]
       },
-     "phillacolor": {
+      "phillacolor": {
         "img": "/portfolioImg/phillacolor/cover_phillacolor.jpg",
         "name": "Phillacolor",
         "title": "phillacolor",
@@ -1013,7 +1024,7 @@
         "link": "/works/phillacolor",
         "button": ["Branding", "Label Design"]
       },
-     "chappoz": {
+      "chappoz": {
         "img": "/portfolioImg/chappoz/cover.jpg",
         "name": "Chappoz",
         "title": "chappoz",
@@ -1022,7 +1033,7 @@
         "link": "/works/chappoz",
         "button": ["Branding", "Label Design", "Social Media"]
       },
-    "daemy":  {
+      "daemy": {
         "img": "/portfolioImg/daemy/cover.jpg",
         "name": "Da Emy",
         "title": "daemy",
@@ -1031,7 +1042,7 @@
         "link": "/works/daemy",
         "button": ["Branding", "Label Design"]
       },
-     "horto": {
+      "horto": {
         "img": "/portfolioImg/horto/cover_horto.jpg",
         "name": "Horto Sapiens",
         "title": "horto",
@@ -1040,7 +1051,7 @@
         "link": "/works/horto",
         "button": ["Branding", "Label Design"]
       },
-    "isavivai":  {
+      "isavivai": {
         "img": "/portfolioImg/isavivai/cover.jpg",
         "name": "Isavivai",
         "title": "isavivai",
@@ -1049,7 +1060,7 @@
         "link": "/works/isavivai",
         "button": ["Branding", "Allestimenti"]
       },
-     "saintgrat": {
+      "saintgrat": {
         "img": "/portfolioImg/saint/cover.jpg",
         "name": "Saint Grat",
         "title": "saintgrat",
@@ -1058,7 +1069,7 @@
         "link": "/works/saintgrat",
         "button": ["Branding", "Label Design"]
       },
-     "morzenti": {
+      "morzenti": {
         "img": "/portfolioImg/morzenti/cover.jpg",
         "name": "Morzenti Daniele",
         "title": "morzenti",

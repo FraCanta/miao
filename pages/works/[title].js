@@ -2,10 +2,12 @@ import translationIT from "../../public/locales/it/it.json";
 import translationEN from "../../public/locales/en/en.json";
 import translationFR from "../../public/locales/fr/fr.json";
 import HeroWorks from "@/components/heros/heroWorks";
+import SezioneIntro from "@/components/worksItem/sezioneIntro";
 
 const Works = ({ works }) => {
   return (
-    <div className="w-full min-h-[calc(100vh_-_60px)] lg:h-[calc(100vh_-_70px)]  2xl:h-[calc(100vh_-_100px)] fxl:h-[calc(100vh_-_150px)]  4xl:h-[calc(100vh_-_250px)] mx-auto flex flex-col lg:flex-row items-center justify-center 2xl:justify-between relative">
+    <>
+    <div className="w-full min-h-[calc(50vh_-_60px)] lg:h-[calc(100vh_-_70px)]  2xl:h-[calc(100vh_-_100px)] fxl:h-[calc(100vh_-_150px)]  4xl:h-[calc(100vh_-_250px)] flex flex-col lg:flex-row items-center justify-center 2xl:justify-center relative">
 
     <HeroWorks
       img={works.img}
@@ -14,7 +16,12 @@ const Works = ({ works }) => {
       location={works?.location}
       button={works?.button}
     />
+    
     </div>
+    <section className="flex flex-col gap-6 min-h-[40vh] w-[90%] mx-auto">
+    <SezioneIntro />
+  </section>
+  </>
   );
 };
 
