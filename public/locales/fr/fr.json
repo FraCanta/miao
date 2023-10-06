@@ -372,95 +372,625 @@
       }
     ],
     "singleWorks": {
-     "ansermè": {
+      "ansermè": {
         "img": "/portfolioImg/anserme/cover.jpg",
         "name": "Ansermé",
         "title": "anserme",
         "descrizione": "Bio Bontà di Montagna",
         "location": "Arnad  - Valle d’Aosta",
         "link": "/works/anserme",
-        "button": ["Branding", "Label Design", "Social Media"]
+        "button": ["Branding", "Label Design", "Social Media"],
+        "introTitolo": "Progetto",
+        "cliente": {
+          "titolo": "cliente",
+          "nome": "Ansermè"
+        },
+        "anno": {
+          "titolo": "anno",
+          "nome": "2020 - 2023"
+        },
+        "keywords": {
+          "titolo": "keywords",
+          "nome": "BIO, Apicoltura di montagna, minimal,artigianalità, BIO bontà"
+        },
+        "servizi": {
+          "titolo": "servizi",
+          "nome": ["branding", "label design", "social media"]
+        },
+        "desc": [
+          "Con Alessandro abbiamo pensato di creare un concept grafico moderno e dai colori accesi che potesse esaltare la linea dei prodotti biologici, rendendoli facilmente riconoscibili e differenziandoli dalla concorrenza."
+        ],
+        "logoImg": "/portfolioImg/anserme/brand_anse.png",
+        "typo": {
+          "titolo": "Typography",
+          "typoImg": "/portfolioImg/anserme/typo_anse.png"
+        },
+        "color": {
+          "titolo": "Color Brand",
+          "descrizione": "In collaborazione con Alessandro abbiamo definito una gamma di colori vibranti e accesi, declinati nelle varie gradazioni, che potessero creare un piacevole contrasto con lo sfondo scuro e neutro (effetto carta riciclata) delle etichette.",
+          "colorImg": "/portfolioImg/anserme/coloribrand_anse.png"
+        },
+        "illustrazioni": {
+          "titolo": "Illustrazioni Vettoriali",
+          "descrizione": "Per caratterizzare la linea dei prodotti è stata realizzata un’apina stilizzata, il cui colore delle ali, varia in base alla tipologia di miele, biscotto o cosmetico.",
+          "illImg": "/portfolioImg/anserme/illustrazioni_anse.png",
+          "descrizione2": "Per promuovere l’iniziativa adotta un alveare ho stilizzato anche un’arnia e i fiori di alta montagna."
+        },
+        "label": {
+          "titolo": "Label & Pack Design: ",
+          "descrizione": "Etichette fustellate per la linea dei mieli biologici stampate su carta betulla vergata.",
+          "labelImg": "/portfolioImg/anserme/etichetta_miele.png",
+          "cartellinoImg": "/portfolioImg/anserme/latta_caramelle.png",
+          "descrizione2": "Stampa diretta su latta (per le caramelle).",
+          "caramelleImg": "/portfolioImg/anserme/cartellino_caramelle.png",
+          "biscottiImg": "/portfolioImg/anserme/cartellino_biscotti.png",
+          "scatoleImg": "/portfolioImg/anserme/scatola_creme.png",
+          "cremaImg": "/portfolioImg/anserme/label_crema.png",
+          "etichettasImg": "/portfolioImg/anserme/label_shampoo.png"
+        },
+        "social": {
+          "titolo": "Social",
+          "descrizione": "Immagini e contenuti realizzati ad hoc per la promozione dei prodotti e delle iniziative promosse dall’azienda.",
+          "socialImg": "/portfolioImg/anserme/social.png"
+        }
       },
-   "becquet":   {
+      "becquet": {
         "img": "/portfolioImg/bequet/cover.jpg",
         "name": "Samuel Becquet",
         "title": "becquet",
         "descrizione": "Agriculture en Haute Montagne",
-        "location": "location",
+        "location": "Ayas - Valle d’Aosta",
         "link": "/works/bequet",
-        "button": ["Branding", "Label Design"]
+        "button": ["Branding", "Label Design"],
+        "introTitolo": "Progetto",
+        "cliente": {
+          "titolo": "cliente",
+          "nome": "Ansermè"
+        },
+        "anno": {
+          "titolo": "anno",
+          "nome": "2020 - 2023"
+        },
+        "keywords": {
+          "titolo": "keywords",
+          "nome": "BIO, Apicoltura di montagna, minimal,artigianalità, BIO bontà"
+        },
+        "servizi": {
+          "titolo": "servizi",
+          "nome": ["branding", "label design", "social media"]
+        },
+        "desc": [
+          "Con Alessandro abbiamo pensato di creare un concept grafico moderno e dai colori accesi che potesse esaltare la linea dei prodotti biologici, rendendoli facilmente riconoscibili e differenziandoli dalla concorrenza."
+        ],
+        "logoImg": "/portfolioImg/anserme/brand_anse.png",
+        "typo": {
+          "titolo": "Typography",
+          "typoImg": "/portfolioImg/anserme/typo_anse.png"
+        },
+        "color": {
+          "titolo": "Color Brand",
+          "descrizione": "In collaborazione con Alessandro abbiamo definito una gamma di colori vibranti e accesi, declinati nelle varie gradazioni, che potessero creare un piacevole contrasto con lo sfondo scuro e neutro (effetto carta riciclata) delle etichette.",
+          "colorImg": "/portfolioImg/anserme/coloribrand_anse.png"
+        },
+        "illustrazioni": {
+          "titolo": "Illustrazioni Vettoriali",
+          "descrizione": "Per caratterizzare la linea dei prodotti è stata realizzata un’apina stilizzata, il cui colore delle ali, varia in base alla tipologia di miele, biscotto o cosmetico.",
+          "illImg": "/portfolioImg/anserme/illustrazioni_anse.png",
+          "descrizione2": "Per promuovere l’iniziativa adotta un alveare ho stilizzato anche un’arnia e i fiori di alta montagna."
+        },
+        "label": {
+          "titolo": "Label & Pack Design: ",
+          "descrizione": "Etichette fustellate per la linea dei mieli biologici stampate su carta betulla vergata.",
+          "labelImg": "/portfolioImg/anserme/etichetta_miele.png",
+          "cartellinoImg": "/portfolioImg/anserme/latta_caramelle.png",
+          "descrizione2": "Stampa diretta su latta (per le caramelle).",
+          "caramelleImg": "/portfolioImg/anserme/cartellino_caramelle.png",
+          "biscottiImg": "/portfolioImg/anserme/cartellino_biscotti.png",
+          "scatoleImg": "/portfolioImg/anserme/scatola_creme.png",
+          "cremaImg": "/portfolioImg/anserme/label_crema.png",
+          "etichettasImg": "/portfolioImg/anserme/label_shampoo.png"
+        },
+        "social": {
+          "titolo": "Social",
+          "descrizione": "Immagini e contenuti realizzati ad hoc per la promozione dei prodotti e delle iniziative promosse dall’azienda.",
+          "socialImg": "/portfolioImg/anserme/social.png"
+        }
       },
-     "reve": {
+      "reve": {
         "img": "/portfolioImg/casadei/cover2.jpg",
         "name": "Le Rêve en Vert",
         "title": "reve",
         "descrizione": "Azienda Agricola di Andrea Casadei",
         "location": "Arnad - Valle d’Aosta",
         "link": "/works/reve",
-        "button": ["Branding", "Label Design"]
+        "button": ["Branding", "Label Design"],
+        "introTitolo": "Progetto",
+        "cliente": {
+          "titolo": "cliente",
+          "nome": "Ansermè"
+        },
+        "anno": {
+          "titolo": "anno",
+          "nome": "2020 - 2023"
+        },
+        "keywords": {
+          "titolo": "keywords",
+          "nome": "BIO, Apicoltura di montagna, minimal,artigianalità, BIO bontà"
+        },
+        "servizi": {
+          "titolo": "servizi",
+          "nome": ["branding", "label design", "social media"]
+        },
+        "desc": [
+          "Con Alessandro abbiamo pensato di creare un concept grafico moderno e dai colori accesi che potesse esaltare la linea dei prodotti biologici, rendendoli facilmente riconoscibili e differenziandoli dalla concorrenza."
+        ],
+        "logoImg": "/portfolioImg/anserme/brand_anse.png",
+        "typo": {
+          "titolo": "Typography",
+          "typoImg": "/portfolioImg/anserme/typo_anse.png"
+        },
+        "color": {
+          "titolo": "Color Brand",
+          "descrizione": "In collaborazione con Alessandro abbiamo definito una gamma di colori vibranti e accesi, declinati nelle varie gradazioni, che potessero creare un piacevole contrasto con lo sfondo scuro e neutro (effetto carta riciclata) delle etichette.",
+          "colorImg": "/portfolioImg/anserme/coloribrand_anse.png"
+        },
+        "illustrazioni": {
+          "titolo": "Illustrazioni Vettoriali",
+          "descrizione": "Per caratterizzare la linea dei prodotti è stata realizzata un’apina stilizzata, il cui colore delle ali, varia in base alla tipologia di miele, biscotto o cosmetico.",
+          "illImg": "/portfolioImg/anserme/illustrazioni_anse.png",
+          "descrizione2": "Per promuovere l’iniziativa adotta un alveare ho stilizzato anche un’arnia e i fiori di alta montagna."
+        },
+        "label": {
+          "titolo": "Label & Pack Design: ",
+          "descrizione": "Etichette fustellate per la linea dei mieli biologici stampate su carta betulla vergata.",
+          "labelImg": "/portfolioImg/anserme/etichetta_miele.png",
+          "cartellinoImg": "/portfolioImg/anserme/latta_caramelle.png",
+          "descrizione2": "Stampa diretta su latta (per le caramelle).",
+          "caramelleImg": "/portfolioImg/anserme/cartellino_caramelle.png",
+          "biscottiImg": "/portfolioImg/anserme/cartellino_biscotti.png",
+          "scatoleImg": "/portfolioImg/anserme/scatola_creme.png",
+          "cremaImg": "/portfolioImg/anserme/label_crema.png",
+          "etichettasImg": "/portfolioImg/anserme/label_shampoo.png"
+        },
+        "social": {
+          "titolo": "Social",
+          "descrizione": "Immagini e contenuti realizzati ad hoc per la promozione dei prodotti e delle iniziative promosse dall’azienda.",
+          "socialImg": "/portfolioImg/anserme/social.png"
+        }
       },
-     "phillacolor": {
+      "phillacolor": {
         "img": "/portfolioImg/phillacolor/cover_phillacolor.jpg",
         "name": "Phillacolor",
         "title": "phillacolor",
         "descrizione": "Eco-liquid Dye",
         "location": "Saint -Pierre  - Valle d’Aosta",
         "link": "/works/phillacolor",
-        "button": ["Branding", "Label Design"]
+        "button": ["Branding", "Label Design"],
+        "introTitolo": "Progetto",
+        "cliente": {
+          "titolo": "cliente",
+          "nome": "Ansermè"
+        },
+        "anno": {
+          "titolo": "anno",
+          "nome": "2020 - 2023"
+        },
+        "keywords": {
+          "titolo": "keywords",
+          "nome": "BIO, Apicoltura di montagna, minimal,artigianalità, BIO bontà"
+        },
+        "servizi": {
+          "titolo": "servizi",
+          "nome": ["branding", "label design", "social media"]
+        },
+        "desc": [
+          "Con Alessandro abbiamo pensato di creare un concept grafico moderno e dai colori accesi che potesse esaltare la linea dei prodotti biologici, rendendoli facilmente riconoscibili e differenziandoli dalla concorrenza."
+        ],
+        "logoImg": "/portfolioImg/anserme/brand_anse.png",
+        "typo": {
+          "titolo": "Typography",
+          "typoImg": "/portfolioImg/anserme/typo_anse.png"
+        },
+        "color": {
+          "titolo": "Color Brand",
+          "descrizione": "In collaborazione con Alessandro abbiamo definito una gamma di colori vibranti e accesi, declinati nelle varie gradazioni, che potessero creare un piacevole contrasto con lo sfondo scuro e neutro (effetto carta riciclata) delle etichette.",
+          "colorImg": "/portfolioImg/anserme/coloribrand_anse.png"
+        },
+        "illustrazioni": {
+          "titolo": "Illustrazioni Vettoriali",
+          "descrizione": "Per caratterizzare la linea dei prodotti è stata realizzata un’apina stilizzata, il cui colore delle ali, varia in base alla tipologia di miele, biscotto o cosmetico.",
+          "illImg": "/portfolioImg/anserme/illustrazioni_anse.png",
+          "descrizione2": "Per promuovere l’iniziativa adotta un alveare ho stilizzato anche un’arnia e i fiori di alta montagna."
+        },
+        "label": {
+          "titolo": "Label & Pack Design: ",
+          "descrizione": "Etichette fustellate per la linea dei mieli biologici stampate su carta betulla vergata.",
+          "labelImg": "/portfolioImg/anserme/etichetta_miele.png",
+          "cartellinoImg": "/portfolioImg/anserme/latta_caramelle.png",
+          "descrizione2": "Stampa diretta su latta (per le caramelle).",
+          "caramelleImg": "/portfolioImg/anserme/cartellino_caramelle.png",
+          "biscottiImg": "/portfolioImg/anserme/cartellino_biscotti.png",
+          "scatoleImg": "/portfolioImg/anserme/scatola_creme.png",
+          "cremaImg": "/portfolioImg/anserme/label_crema.png",
+          "etichettasImg": "/portfolioImg/anserme/label_shampoo.png"
+        },
+        "social": {
+          "titolo": "Social",
+          "descrizione": "Immagini e contenuti realizzati ad hoc per la promozione dei prodotti e delle iniziative promosse dall’azienda.",
+          "socialImg": "/portfolioImg/anserme/social.png"
+        }
       },
-     "chappoz": {
+      "chappoz": {
         "img": "/portfolioImg/chappoz/cover.jpg",
         "name": "Chappoz",
         "title": "chappoz",
         "descrizione": "Azienda Agricola",
         "location": "Donnas - Valle d’Aosta",
         "link": "/works/chappoz",
-        "button": ["Branding", "Label Design", "Social Media"]
+        "button": ["Branding", "Label Design", "Social Media"],
+        "introTitolo": "Progetto",
+        "cliente": {
+          "titolo": "cliente",
+          "nome": "Ansermè"
+        },
+        "anno": {
+          "titolo": "anno",
+          "nome": "2020 - 2023"
+        },
+        "keywords": {
+          "titolo": "keywords",
+          "nome": "BIO, Apicoltura di montagna, minimal,artigianalità, BIO bontà"
+        },
+        "servizi": {
+          "titolo": "servizi",
+          "nome": ["branding", "label design", "social media"]
+        },
+        "desc": [
+          "Con Alessandro abbiamo pensato di creare un concept grafico moderno e dai colori accesi che potesse esaltare la linea dei prodotti biologici, rendendoli facilmente riconoscibili e differenziandoli dalla concorrenza."
+        ],
+        "logoImg": "/portfolioImg/anserme/brand_anse.png",
+        "typo": {
+          "titolo": "Typography",
+          "typoImg": "/portfolioImg/anserme/typo_anse.png"
+        },
+        "color": {
+          "titolo": "Color Brand",
+          "descrizione": "In collaborazione con Alessandro abbiamo definito una gamma di colori vibranti e accesi, declinati nelle varie gradazioni, che potessero creare un piacevole contrasto con lo sfondo scuro e neutro (effetto carta riciclata) delle etichette.",
+          "colorImg": "/portfolioImg/anserme/coloribrand_anse.png"
+        },
+        "illustrazioni": {
+          "titolo": "Illustrazioni Vettoriali",
+          "descrizione": "Per caratterizzare la linea dei prodotti è stata realizzata un’apina stilizzata, il cui colore delle ali, varia in base alla tipologia di miele, biscotto o cosmetico.",
+          "illImg": "/portfolioImg/anserme/illustrazioni_anse.png",
+          "descrizione2": "Per promuovere l’iniziativa adotta un alveare ho stilizzato anche un’arnia e i fiori di alta montagna."
+        },
+        "label": {
+          "titolo": "Label & Pack Design: ",
+          "descrizione": "Etichette fustellate per la linea dei mieli biologici stampate su carta betulla vergata.",
+          "labelImg": "/portfolioImg/anserme/etichetta_miele.png",
+          "cartellinoImg": "/portfolioImg/anserme/latta_caramelle.png",
+          "descrizione2": "Stampa diretta su latta (per le caramelle).",
+          "caramelleImg": "/portfolioImg/anserme/cartellino_caramelle.png",
+          "biscottiImg": "/portfolioImg/anserme/cartellino_biscotti.png",
+          "scatoleImg": "/portfolioImg/anserme/scatola_creme.png",
+          "cremaImg": "/portfolioImg/anserme/label_crema.png",
+          "etichettasImg": "/portfolioImg/anserme/label_shampoo.png"
+        },
+        "social": {
+          "titolo": "Social",
+          "descrizione": "Immagini e contenuti realizzati ad hoc per la promozione dei prodotti e delle iniziative promosse dall’azienda.",
+          "socialImg": "/portfolioImg/anserme/social.png"
+        }
       },
-    "daemy":  {
+      "daemy": {
         "img": "/portfolioImg/daemy/cover.jpg",
         "name": "Da Emy",
         "title": "daemy",
         "descrizione": "Piante Officinali",
         "location": "Valsavarenche - Valle d’Aosta",
         "link": "/works/daemy",
-        "button": ["Branding", "Label Design"]
+        "button": ["Branding", "Label Design"],
+        "introTitolo": "Progetto",
+        "cliente": {
+          "titolo": "cliente",
+          "nome": "Ansermè"
+        },
+        "anno": {
+          "titolo": "anno",
+          "nome": "2020 - 2023"
+        },
+        "keywords": {
+          "titolo": "keywords",
+          "nome": "BIO, Apicoltura di montagna, minimal,artigianalità, BIO bontà"
+        },
+        "servizi": {
+          "titolo": "servizi",
+          "nome": ["branding", "label design", "social media"]
+        },
+        "desc": [
+          "Con Alessandro abbiamo pensato di creare un concept grafico moderno e dai colori accesi che potesse esaltare la linea dei prodotti biologici, rendendoli facilmente riconoscibili e differenziandoli dalla concorrenza."
+        ],
+        "logoImg": "/portfolioImg/anserme/brand_anse.png",
+        "typo": {
+          "titolo": "Typography",
+          "typoImg": "/portfolioImg/anserme/typo_anse.png"
+        },
+        "color": {
+          "titolo": "Color Brand",
+          "descrizione": "In collaborazione con Alessandro abbiamo definito una gamma di colori vibranti e accesi, declinati nelle varie gradazioni, che potessero creare un piacevole contrasto con lo sfondo scuro e neutro (effetto carta riciclata) delle etichette.",
+          "colorImg": "/portfolioImg/anserme/coloribrand_anse.png"
+        },
+        "illustrazioni": {
+          "titolo": "Illustrazioni Vettoriali",
+          "descrizione": "Per caratterizzare la linea dei prodotti è stata realizzata un’apina stilizzata, il cui colore delle ali, varia in base alla tipologia di miele, biscotto o cosmetico.",
+          "illImg": "/portfolioImg/anserme/illustrazioni_anse.png",
+          "descrizione2": "Per promuovere l’iniziativa adotta un alveare ho stilizzato anche un’arnia e i fiori di alta montagna."
+        },
+        "label": {
+          "titolo": "Label & Pack Design: ",
+          "descrizione": "Etichette fustellate per la linea dei mieli biologici stampate su carta betulla vergata.",
+          "labelImg": "/portfolioImg/anserme/etichetta_miele.png",
+          "cartellinoImg": "/portfolioImg/anserme/latta_caramelle.png",
+          "descrizione2": "Stampa diretta su latta (per le caramelle).",
+          "caramelleImg": "/portfolioImg/anserme/cartellino_caramelle.png",
+          "biscottiImg": "/portfolioImg/anserme/cartellino_biscotti.png",
+          "scatoleImg": "/portfolioImg/anserme/scatola_creme.png",
+          "cremaImg": "/portfolioImg/anserme/label_crema.png",
+          "etichettasImg": "/portfolioImg/anserme/label_shampoo.png"
+        },
+        "social": {
+          "titolo": "Social",
+          "descrizione": "Immagini e contenuti realizzati ad hoc per la promozione dei prodotti e delle iniziative promosse dall’azienda.",
+          "socialImg": "/portfolioImg/anserme/social.png"
+        }
       },
-     "horto": {
+      "horto": {
         "img": "/portfolioImg/horto/cover_horto.jpg",
         "name": "Horto Sapiens",
         "title": "horto",
         "descrizione": "Prodotti tipici di Monte Amiata e Val d'Orcia",
         "location": "Abbadia San Salvatore (SI) - Toscana",
         "link": "/works/horto",
-        "button": ["Branding", "Label Design"]
+        "button": ["Branding", "Label Design"],
+        "introTitolo": "Progetto",
+        "cliente": {
+          "titolo": "cliente",
+          "nome": "Ansermè"
+        },
+        "anno": {
+          "titolo": "anno",
+          "nome": "2020 - 2023"
+        },
+        "keywords": {
+          "titolo": "keywords",
+          "nome": "BIO, Apicoltura di montagna, minimal,artigianalità, BIO bontà"
+        },
+        "servizi": {
+          "titolo": "servizi",
+          "nome": ["branding", "label design", "social media"]
+        },
+        "desc": [
+          "Con Alessandro abbiamo pensato di creare un concept grafico moderno e dai colori accesi che potesse esaltare la linea dei prodotti biologici, rendendoli facilmente riconoscibili e differenziandoli dalla concorrenza."
+        ],
+        "logoImg": "/portfolioImg/anserme/brand_anse.png",
+        "typo": {
+          "titolo": "Typography",
+          "typoImg": "/portfolioImg/anserme/typo_anse.png"
+        },
+        "color": {
+          "titolo": "Color Brand",
+          "descrizione": "In collaborazione con Alessandro abbiamo definito una gamma di colori vibranti e accesi, declinati nelle varie gradazioni, che potessero creare un piacevole contrasto con lo sfondo scuro e neutro (effetto carta riciclata) delle etichette.",
+          "colorImg": "/portfolioImg/anserme/coloribrand_anse.png"
+        },
+        "illustrazioni": {
+          "titolo": "Illustrazioni Vettoriali",
+          "descrizione": "Per caratterizzare la linea dei prodotti è stata realizzata un’apina stilizzata, il cui colore delle ali, varia in base alla tipologia di miele, biscotto o cosmetico.",
+          "illImg": "/portfolioImg/anserme/illustrazioni_anse.png",
+          "descrizione2": "Per promuovere l’iniziativa adotta un alveare ho stilizzato anche un’arnia e i fiori di alta montagna."
+        },
+        "label": {
+          "titolo": "Label & Pack Design: ",
+          "descrizione": "Etichette fustellate per la linea dei mieli biologici stampate su carta betulla vergata.",
+          "labelImg": "/portfolioImg/anserme/etichetta_miele.png",
+          "cartellinoImg": "/portfolioImg/anserme/latta_caramelle.png",
+          "descrizione2": "Stampa diretta su latta (per le caramelle).",
+          "caramelleImg": "/portfolioImg/anserme/cartellino_caramelle.png",
+          "biscottiImg": "/portfolioImg/anserme/cartellino_biscotti.png",
+          "scatoleImg": "/portfolioImg/anserme/scatola_creme.png",
+          "cremaImg": "/portfolioImg/anserme/label_crema.png",
+          "etichettasImg": "/portfolioImg/anserme/label_shampoo.png"
+        },
+        "social": {
+          "titolo": "Social",
+          "descrizione": "Immagini e contenuti realizzati ad hoc per la promozione dei prodotti e delle iniziative promosse dall’azienda.",
+          "socialImg": "/portfolioImg/anserme/social.png"
+        }
       },
-    "isavivai":  {
+      "isavivai": {
         "img": "/portfolioImg/isavivai/cover.jpg",
         "name": "Isavivai",
         "title": "isavivai",
         "descrizione": "Il Verde che ti emoziona",
         "location": "Aymavilles  - Valle d’Aosta",
         "link": "/works/isavivai",
-        "button": ["Branding", "Allestimenti"]
+        "button": ["Branding", "Allestimenti"],
+        "introTitolo": "Progetto",
+        "cliente": {
+          "titolo": "cliente",
+          "nome": "Ansermè"
+        },
+        "anno": {
+          "titolo": "anno",
+          "nome": "2020 - 2023"
+        },
+        "keywords": {
+          "titolo": "keywords",
+          "nome": "BIO, Apicoltura di montagna, minimal,artigianalità, BIO bontà"
+        },
+        "servizi": {
+          "titolo": "servizi",
+          "nome": ["branding", "label design", "social media"]
+        },
+        "desc": [
+          "Con Alessandro abbiamo pensato di creare un concept grafico moderno e dai colori accesi che potesse esaltare la linea dei prodotti biologici, rendendoli facilmente riconoscibili e differenziandoli dalla concorrenza."
+        ],
+        "logoImg": "/portfolioImg/anserme/brand_anse.png",
+        "typo": {
+          "titolo": "Typography",
+          "typoImg": "/portfolioImg/anserme/typo_anse.png"
+        },
+        "color": {
+          "titolo": "Color Brand",
+          "descrizione": "In collaborazione con Alessandro abbiamo definito una gamma di colori vibranti e accesi, declinati nelle varie gradazioni, che potessero creare un piacevole contrasto con lo sfondo scuro e neutro (effetto carta riciclata) delle etichette.",
+          "colorImg": "/portfolioImg/anserme/coloribrand_anse.png"
+        },
+        "illustrazioni": {
+          "titolo": "Illustrazioni Vettoriali",
+          "descrizione": "Per caratterizzare la linea dei prodotti è stata realizzata un’apina stilizzata, il cui colore delle ali, varia in base alla tipologia di miele, biscotto o cosmetico.",
+          "illImg": "/portfolioImg/anserme/illustrazioni_anse.png",
+          "descrizione2": "Per promuovere l’iniziativa adotta un alveare ho stilizzato anche un’arnia e i fiori di alta montagna."
+        },
+        "label": {
+          "titolo": "Label & Pack Design: ",
+          "descrizione": "Etichette fustellate per la linea dei mieli biologici stampate su carta betulla vergata.",
+          "labelImg": "/portfolioImg/anserme/etichetta_miele.png",
+          "cartellinoImg": "/portfolioImg/anserme/latta_caramelle.png",
+          "descrizione2": "Stampa diretta su latta (per le caramelle).",
+          "caramelleImg": "/portfolioImg/anserme/cartellino_caramelle.png",
+          "biscottiImg": "/portfolioImg/anserme/cartellino_biscotti.png",
+          "scatoleImg": "/portfolioImg/anserme/scatola_creme.png",
+          "cremaImg": "/portfolioImg/anserme/label_crema.png",
+          "etichettasImg": "/portfolioImg/anserme/label_shampoo.png"
+        },
+        "social": {
+          "titolo": "Social",
+          "descrizione": "Immagini e contenuti realizzati ad hoc per la promozione dei prodotti e delle iniziative promosse dall’azienda.",
+          "socialImg": "/portfolioImg/anserme/social.png"
+        }
       },
-     "saintgrat": {
-        "img": "/portfolioImg/saint/cover.jpg",
+      "saintgrat": {
+        "img": "/portfolioImg/saint/cover2.jpg",
         "name": "Saint Grat",
         "title": "saintgrat",
         "descrizione": "Azienda Agricola",
         "location": "Aymavilles - Valle d’Aosta",
         "link": "/works/saintgrat",
-        "button": ["Branding", "Label Design"]
+        "button": ["Branding", "Label Design"],
+        "introTitolo": "Progetto",
+        "cliente": {
+          "titolo": "cliente",
+          "nome": "Ansermè"
+        },
+        "anno": {
+          "titolo": "anno",
+          "nome": "2020 - 2023"
+        },
+        "keywords": {
+          "titolo": "keywords",
+          "nome": "BIO, Apicoltura di montagna, minimal,artigianalità, BIO bontà"
+        },
+        "servizi": {
+          "titolo": "servizi",
+          "nome": ["branding", "label design", "social media"]
+        },
+        "desc": [
+          "Con Alessandro abbiamo pensato di creare un concept grafico moderno e dai colori accesi che potesse esaltare la linea dei prodotti biologici, rendendoli facilmente riconoscibili e differenziandoli dalla concorrenza."
+        ],
+        "logoImg": "/portfolioImg/anserme/brand_anse.png",
+        "typo": {
+          "titolo": "Typography",
+          "typoImg": "/portfolioImg/anserme/typo_anse.png"
+        },
+        "color": {
+          "titolo": "Color Brand",
+          "descrizione": "In collaborazione con Alessandro abbiamo definito una gamma di colori vibranti e accesi, declinati nelle varie gradazioni, che potessero creare un piacevole contrasto con lo sfondo scuro e neutro (effetto carta riciclata) delle etichette.",
+          "colorImg": "/portfolioImg/anserme/coloribrand_anse.png"
+        },
+        "illustrazioni": {
+          "titolo": "Illustrazioni Vettoriali",
+          "descrizione": "Per caratterizzare la linea dei prodotti è stata realizzata un’apina stilizzata, il cui colore delle ali, varia in base alla tipologia di miele, biscotto o cosmetico.",
+          "illImg": "/portfolioImg/anserme/illustrazioni_anse.png",
+          "descrizione2": "Per promuovere l’iniziativa adotta un alveare ho stilizzato anche un’arnia e i fiori di alta montagna."
+        },
+        "label": {
+          "titolo": "Label & Pack Design: ",
+          "descrizione": "Etichette fustellate per la linea dei mieli biologici stampate su carta betulla vergata.",
+          "labelImg": "/portfolioImg/anserme/etichetta_miele.png",
+          "cartellinoImg": "/portfolioImg/anserme/latta_caramelle.png",
+          "descrizione2": "Stampa diretta su latta (per le caramelle).",
+          "caramelleImg": "/portfolioImg/anserme/cartellino_caramelle.png",
+          "biscottiImg": "/portfolioImg/anserme/cartellino_biscotti.png",
+          "scatoleImg": "/portfolioImg/anserme/scatola_creme.png",
+          "cremaImg": "/portfolioImg/anserme/label_crema.png",
+          "etichettasImg": "/portfolioImg/anserme/label_shampoo.png"
+        },
+        "social": {
+          "titolo": "Social",
+          "descrizione": "Immagini e contenuti realizzati ad hoc per la promozione dei prodotti e delle iniziative promosse dall’azienda.",
+          "socialImg": "/portfolioImg/anserme/social.png"
+        }
       },
-     "morzenti": {
+      "morzenti": {
         "img": "/portfolioImg/morzenti/cover.jpg",
         "name": "Morzenti Daniele",
         "title": "morzenti",
         "descrizione": "Azienda Agricola",
         "location": "Gressan - Valle d’Aosta",
         "link": "/works/morzenti",
-        "button": ["Branding", "Social Media"]
+        "button": ["Branding", "Social Media"],
+        "introTitolo": "Progetto",
+        "cliente": {
+          "titolo": "cliente",
+          "nome": "Ansermè"
+        },
+        "anno": {
+          "titolo": "anno",
+          "nome": "2020 - 2023"
+        },
+        "keywords": {
+          "titolo": "keywords",
+          "nome": "BIO, Apicoltura di montagna, minimal,artigianalità, BIO bontà"
+        },
+        "servizi": {
+          "titolo": "servizi",
+          "nome": ["branding", "label design", "social media"]
+        },
+        "desc": [
+          "Con Alessandro abbiamo pensato di creare un concept grafico moderno e dai colori accesi che potesse esaltare la linea dei prodotti biologici, rendendoli facilmente riconoscibili e differenziandoli dalla concorrenza."
+        ],
+        "logoImg": "/portfolioImg/anserme/brand_anse.png",
+        "typo": {
+          "titolo": "Typography",
+          "typoImg": "/portfolioImg/anserme/typo_anse.png"
+        },
+        "color": {
+          "titolo": "Color Brand",
+          "descrizione": "In collaborazione con Alessandro abbiamo definito una gamma di colori vibranti e accesi, declinati nelle varie gradazioni, che potessero creare un piacevole contrasto con lo sfondo scuro e neutro (effetto carta riciclata) delle etichette.",
+          "colorImg": "/portfolioImg/anserme/coloribrand_anse.png"
+        },
+        "illustrazioni": {
+          "titolo": "Illustrazioni Vettoriali",
+          "descrizione": "Per caratterizzare la linea dei prodotti è stata realizzata un’apina stilizzata, il cui colore delle ali, varia in base alla tipologia di miele, biscotto o cosmetico.",
+          "illImg": "/portfolioImg/anserme/illustrazioni_anse.png",
+          "descrizione2": "Per promuovere l’iniziativa adotta un alveare ho stilizzato anche un’arnia e i fiori di alta montagna."
+        },
+        "label": {
+          "titolo": "Label & Pack Design: ",
+          "descrizione": "Etichette fustellate per la linea dei mieli biologici stampate su carta betulla vergata.",
+          "labelImg": "/portfolioImg/anserme/etichetta_miele.png",
+          "cartellinoImg": "/portfolioImg/anserme/latta_caramelle.png",
+          "descrizione2": "Stampa diretta su latta (per le caramelle).",
+          "caramelleImg": "/portfolioImg/anserme/cartellino_caramelle.png",
+          "biscottiImg": "/portfolioImg/anserme/cartellino_biscotti.png",
+          "scatoleImg": "/portfolioImg/anserme/scatola_creme.png",
+          "cremaImg": "/portfolioImg/anserme/label_crema.png",
+          "etichettasImg": "/portfolioImg/anserme/label_shampoo.png"
+        },
+        "social": {
+          "titolo": "Social",
+          "descrizione": "Immagini e contenuti realizzati ad hoc per la promozione dei prodotti e delle iniziative promosse dall’azienda.",
+          "socialImg": "/portfolioImg/anserme/social.png"
+        }
       }
     }
   },
