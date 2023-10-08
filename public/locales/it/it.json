@@ -1037,8 +1037,10 @@
         },
         "social": {
           "titolo": "Social",
-          "descrizione": "Immagini e contenuti realizzati ad hoc per la promozione dei prodotti e delle iniziative promosse dall’azienda.",
-          "socialImg": "/portfolioImg/anserme/social.png"
+          "descrizione": [
+            "Immagini e contenuti realizzati ad hoc per la promozione dei prodotti e delle iniziative promosse dall’azienda."
+          ],
+          "socialImg": ["/portfolioImg/anserme/social.png"]
         }
       },
       "becquet": {
@@ -1252,8 +1254,10 @@
         },
         "social": {
           "titolo": "Social",
-          "descrizione": "Creazione di contenuti fotografici e testuali ad hoc per la promozione dell’azienda sui canali social di Meta.",
-          "socialImg": "/portfolioImg/chappoz/social_chappoz.png"
+          "descrizione": [
+            "Creazione di contenuti fotografici e testuali ad hoc per la promozione dell’azienda sui canali social di Meta."
+          ],
+          "socialImg": ["/portfolioImg/chappoz/social_chappoz.png"]
         }
       },
       "daemy": {
