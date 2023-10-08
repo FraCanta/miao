@@ -526,14 +526,14 @@
         "logoImg": "/portfolioImg/casadei/brand_casadei.png",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/casadei/typo_casadei.png"
+          "typoImg": "/portfolioImg/casadei/typo_brand.png"
         },
         "color": {
           "titolo": "Color Brand",
           "descrizione": [
             "In collaborazione con Andrea, abbiamo scelto di utilizzare una gamma di tonalità di verde come base per la nostra comunicazione, con l’obiettivo di richiamare le sfumature presenti nel suo orto a chilometro zero."
           ],
-          "colorImg": "/portfolioImg/casadei/colors_casadei.png",
+          "colorImg": "/portfolioImg/casadei/colors_brand.png",
           "sponsorImg": "/portfolioImg/casadei/sponsor.png"
         },
         "illustrazioni": {
@@ -652,7 +652,7 @@
           "descrizione": [
             "Creazione di contenuti fotografici e testuali ad hoc per la promozione dell’azienda sui canali social di Meta."
           ],
-          "socialImg": ["/portfolioImg/chappoz/social_chappoz.png"]
+          "socialImg": ["/portfolioImg/chappoz/social.png"]
         }
       },
       "daemy": {
@@ -684,7 +684,7 @@
           "Emilia e sua figlia Ambra, coltivano in quei di Valsavarenche erbe officinali e genepy.",
           "Abbiamo creato una linea comunicativa che richiamasse l’alta montagna e la naturalezza delle piantine nate nel parco del Gran Paradiso."
         ],
-        "logoImg": "/portfolioImg/daemy/logo_emy.png",
+        "logoImg": "/portfolioImg/daemy/brand_emy.png",
         "typo": {
           "titolo": "Typography",
           "typoImg": "/portfolioImg/daemy/typo_emy.png"
