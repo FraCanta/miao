@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const WorksItem = ({ img, name,link, descrizione, button, location }) => {
+const WorksItem = ({ img, name, link, descrizione, button, location }) => {
   return (
     <>
       <div className="h-[100vw] xl:h-[40vw]   w-full relative before:content-{} before: inline  before:absolute before:left-0 before:right-0 before:top-0 before:z-10 before:h-full before:w-full before:bg-main/90 before:opacity-20">

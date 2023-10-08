@@ -25,7 +25,7 @@ const Works = ({ works }) => {
       <section className="flex flex-col gap-6 min-h-[40vh] w-[90%] mx-auto pt-6">
         <SezioneIntro translation={works} />
       </section>
-      <section className="w-[90%] mx-auto min-h-[40vh] md:h-[100vh] relative">
+      <section className="w-[90%] mx-auto min-h-[40vh] md:h-[90vh] relative">
         <Image
           src={works?.logoImg}
           fill
@@ -40,15 +40,28 @@ const Works = ({ works }) => {
       <section className="flex flex-col gap-6  w-[90%] mx-auto pt-6">
         <ColorBrand translation={works?.color} />
       </section>
-      <section className="flex flex-col gap-6  w-[90%] mx-auto pt-6">
-        <Illustrazioni translation={works?.illustrazioni} />
-      </section>
-      <section className="flex flex-col gap-6  w-[90%] mx-auto pt-6">
-        <Label translation={works?.label} />
-      </section>
-      <section className="flex flex-col gap-6  w-[90%] mx-auto pt-10">
-        <Social translation={works?.social} />
-      </section>
+      {works?.illustrazioni ? (
+        <section className="flex flex-col gap-6  w-[90%] mx-auto pt-6">
+          <Illustrazioni translation={works?.illustrazioni} />
+        </section>
+      ) : (
+        ""
+      )}
+      {works?.label ? (
+        <section className="flex flex-col gap-6  w-[90%] mx-auto pt-6">
+          <Label translation={works?.label} />
+        </section>
+      ) : (
+        ""
+      )}
+
+      {works?.social ? (
+        <section className="flex flex-col gap-6  w-[90%] mx-auto pt-10">
+          <Social translation={works?.social} />
+        </section>
+      ) : (
+        ""
+      )}
     </>
   );
 };
