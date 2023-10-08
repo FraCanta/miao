@@ -33,7 +33,7 @@ const Works = ({ works }) => {
         <Image
           src={works?.logoImg}
           fill
-          alt="logo img"
+          alt="logo brand"
           className="object-contain"
           priority
         />
