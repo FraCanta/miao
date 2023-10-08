@@ -9,10 +9,14 @@ import ColorBrand from "@/components/worksItem/colorBrand";
 import Illustrazioni from "@/components/worksItem/illustrazioni";
 import Label from "@/components/worksItem/label";
 import Social from "@/components/worksItem/social";
+import Head from "next/head";
 
 const Works = ({ works }) => {
   return (
     <>
+      <Head>
+        <title>{`Miao - ${works?.name}`}</title>
+      </Head>
       <div className="w-full min-h-[calc(50vh_-_60px)] lg:h-[calc(100vh_-_70px)]  2xl:h-[calc(100vh_-_100px)] fxl:h-[calc(100vh_-_150px)]  4xl:h-[calc(100vh_-_250px)] flex flex-col lg:flex-row items-center justify-center 2xl:justify-center relative">
         <HeroWorks
           img={works.img}
