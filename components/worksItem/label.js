@@ -5,7 +5,8 @@ const Label = ({ translation }) => {
   return (
     <div>
       <h3 className="text-[6vw] md:text-[3.5vw] font-bold mb-4 text-main">
-        {translation?.titolo}
+        <span>{translation?.titolo}</span>
+        <span className="text-red ml-0">.</span>
       </h3>
       <div className="relative h-[30vh] md:h-[100vh]">
         <Image

@@ -5,7 +5,8 @@ function ColorBrand({ translation }) {
   return (
     <div>
       <h3 className="text-[6vw] md:text-[3.5vw] mb-2 text-main font-bold">
-        {translation?.titolo}
+        <span>{translation?.titolo}</span>
+        <span className="text-red">.</span>
       </h3>
       {translation?.descrizione?.map((d, i) => {
         return (

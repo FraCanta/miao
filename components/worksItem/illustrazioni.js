@@ -5,7 +5,8 @@ const Illustrazioni = ({ translation }) => {
   return (
     <div>
       <h3 className="text-[6vw] md:text-[3.5vw] font-bold mb-2 text-main">
-        {translation?.titolo}
+        <span>{translation?.titolo}</span>
+        <span className="text-red">.</span>
       </h3>
       {translation?.descrizione ? (
         <p className="text-[4.5vw] md:text-[1.3vw] text-second">
