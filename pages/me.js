@@ -16,7 +16,7 @@ const Me = ({ translation, servizi }) => {
   return (
     <main data-scroll-container>
       <Head>
-        <title>Miao - Chi Sono</title>
+        <title>Miao - {translation?.meta?.title}</title>
       </Head>
       <SlideAnimation>
         <div className="w-full min-h-[calc(100vh_-_80px)] lg:h-[calc(100vh_-_70px)]  2xl:h-[calc(100vh_-_100px)] fxl:h-[calc(100vh_-_150px)]  4xl:h-[calc(100vh_-_250px)] mx-auto flex flex-col lg:flex-row items-center justify-center 2xl:justify-between">
@@ -41,7 +41,7 @@ const Me = ({ translation, servizi }) => {
         <SectionMeTre translation={translation?.sezioneQuattro} />
         <div className="w-[90%] mx-auto mt-[100px]">
           <h3 className="text-main font-bold capitalize text-4xl lg:text-6xl 2xl:!leading-[4.5rem] fxl:text-7xl 3xl:text-8xl">
-            Cosa posso fare per te?
+            {translation?.serviziMore?.title}
           </h3>
           <SliderCards servizi={servizi} />
         </div>

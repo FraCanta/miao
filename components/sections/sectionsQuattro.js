@@ -31,14 +31,14 @@ const SectionsQuattro = ({ post, featuredMedia, tags, translation, users }) => {
 
       <div className="w-full  flex-col justify-start items-start mt-[50px] flex">
         <div className="w-full justify-between items-start gap-16 flex flex-col 2xl:flex-row">
-        {jsxPosts}
+          {jsxPosts}
         </div>
         <div className="w-full justify-start items-center flex mt-10">
           <Link
             href="/blog"
             className="text-main text-2xl fxl:text-3xl 3xl:text-4xl font-extrabold underline capitalize leading-normal "
           >
-            Altre Notizie
+            {translation?.cta}
           </Link>
         </div>
       </div>

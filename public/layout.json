@@ -41,19 +41,19 @@
     },
     "fr": {
       "me": "Qui suis-je",
-      "servizi": "services",
+      "servizi": "Mes services",
       "portfolio": "portfolio",
       "blog": "blog",
       "contatti": "+ Contactez-moi",
       "col1": {
         "row1": {
-          "title": "Voulez-vous collaborer avec moi ?",
-          "cta": "Commençons."
+          "title": "Veux-tu collaborer avec moi ?",
+          "cta": "Allons-y."
         }
       },
       "col2": {
         "row1": {
-          "title": "Vous voulez en savoir plus ?",
+          "title": "Veux-tu en savoir plus ?",
           "cta": "Contactez-moi."
         }
       }
@@ -91,13 +91,13 @@
     "fr": {
       "col1": {
         "row1": {
-          "title": "Voulez-vous collaborer avec moi ?",
-          "cta": "Commençons."
+          "title": "Veux-tu collaborer avec moi ?",
+          "cta": "Allons-y."
         }
       },
       "col2": {
         "row1": {
-          "title": "Vous voulez en savoir plus ?",
+          "title": "Veux-tu en savoir plus ? ",
           "cta": "Contactez-moi."
         }
       }

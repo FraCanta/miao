@@ -8,49 +8,54 @@
     },
     "sezioneUno": {
       "paragrafi": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "<p>Je m'appelle <strong>Elisa </strong> et vous pouvez me retrouver en ligne sous le nom de <strong>Miaographics</strong>. Je suis <strong>Graphiste</strong> et <strong>Créatrice de contenu</strong>, et je suis ici pour être votre partenaire dans la définition de l'identité visuelle de votre entreprise.</p>  <p>Je peux créer pour vous une identité visuelle à votre image, en fonction de vos besoins stratégiques et de votre mission, avec un design unique qui vous aide à vous faire remarquer et à vous différencier de vos concurrents. </p><p>J'aide les petites et moyennes entreprises à atteindre leurs objectifs commerciaux grâce à une analyse approfondie du produit/service, du marché et du “target”.</p>",
+        "<p>Je peux vous proposer des solutions personnalisées correspondant à votre budget et à vos objectifs. Mon but est de vous aider à avoir une image visuelle forte et une communication cohérente qui vous permette de vous démarquer de la concurrence, d'atteindre de nouveaux clients et de grandir. Pour moi, il est essentiel de connaître votre histoire, votre réalité et vos objectifs d'entreprise. À travers une réunion informative, qui peut également se dérouler en ligne, je serai en mesure de comprendre vos besoins et de développer une communication visuelle sur mesure pour vous.</p>"
       ],
-      "cta": "Découvrir",
+      "cta": "Contactez-moi",
       "title": "/sectionsTitle/welcomeTitle.png"
     },
     "sezioneDue": {
-      "paragrafi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-      "cta": "Ce que j'offre",
-      "title": "/pageImg/serviceTitle_en.png",
+      "cta": "Mes services",
+      "title": "/sectionsTitle/serviceTitle_fr.png",
       "img": "/sectionsTitle/servizi_generici.png",
-      "titoloP": "Lorem ipsum",
-      "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "titoloP": "Solutions créatives à 360 degrés",
+      "descrizione": "Le design graphique et la communication visuelle sont l'art invisible qui imprègne notre monde. Il s'agit de bien plus que de simples images et de couleurs ; ce sont des outils puissants qui façonnent nos perceptions et guident nos décisions.",
+      "descrizione2": "Dans une époque où l'attention est un bien précieux, un design bien pensé capture le regard et le retient. C'est la différence entre être remarqué ou ignoré. ",
+      "descrizione3": "La communication visuelle est l'outil qui transforme les idées en réalité, qui donne vie à la marque et communique des contenus à fort impact sensoriel en attirant l'attention du public cible."
     },
     "sezioneTre": {
-      "paragrafi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-      "cta": "i miei casi",
+      "cta": "Découvre mes travaux",
       "title": "/sectionsTitle/sezioneTre.png",
       "img": "/sectionsTitle/logosmix.jpg",
-      "titoloP": "Lorem ipsum",
-      "paragrafo1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "paragrafo2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "titoloP": "Découvrez mes toutes réalisations (ou presque).",
+      "paragrafo1": "Mon but est celui d'aider les petites entreprises à définir une image visuelle unique et efficace. Ce processus est essentiel pour se démarquer de la concurrence et pour renforcer sa présence sur le marché en ligne et hors ligne. Je crée des contenus à la fois visuels et textuels qui correspondent aux objectifs commerciaux et qui savent engager le bon public."
     },
     "sezioneQuattro": {
       "paragrafi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 
-      "cta": "i miei casi",
-      "title": "/pageImg/blogTitle_fr.png",
-      "img": "/sectionsTitle/postImg.png",
-      "titoloP": "Lorem ipsum",
-      "paragrafo1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "paragrafo2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "cta": "D’autres nouvelles",
+      "title": "/sectionsTitle/blogTitle_fr.png"
     }
   },
   "me": {
+    "meta": {
+      "title": "C’est moi"
+    },
     "hero": {
       "title": "/pageImg/meTitle_fr.png",
       "img": "/pageImg/lampadina.png"
     },
     "sezioneUno": {
-      "img": "/sectionsTitle/eli.png"
+      "img": "/sectionsTitle/eli.png",
+      "presentazione": [
+        "Depuis mon enfance, j'ai employé mes mains pour façonner des objets et dessiner les personnages de mon imagination. Artisane dans l'âme et de fait, je participe depuis des années à la Foire de Saint-Ours (foire de l’artisanat typique) et je crée des objets faits main.",
+        "Après avoir étudié à l'Ied de Turin, j'ai ouvert mon atelier créatif en 2008 sous le nom de l'heartelier. Depuis quelques années, je suis itinérante entre Milan et Aoste, et j'ai décidé de renouveler mon identité en  <strong>Miao graphics - des graphismes itinérants</strong>, tout comme moi (toujours avec la valise à la main).",
+        "En tant que graphiste professionnelle, je propose des <strong>solutions créatives à 360 degrés</strong> pour aider votre entreprise à se démarquer et à s'affirmer. Ma philosophie de travail repose sur la collaboration et la compréhension de vos besoins.",
+        "<strong>Ensemble, nous créerons un parcours créatif sur mesure pour vous.</strong>",
+        "<strong>Chaque marque a une histoire à décrire</strong>, et je suis là pour la transformer en un design unique.  <strong>Mon objectif est de capturer votre idée et de la traduire en une identité visuelle mémorable (logo, emballage, illustration).</strong>",
+        "<strong>Contactez-moi aujourd'hui </strong> pour commencer ce passionnant voyage créatif !"
+      ],
+      "cta": "Découvre comment"
     },
     "sezioneDue": {
       "title": "/sectionsTitle/clienti_fr.png"
@@ -60,15 +65,20 @@
     },
     "sezioneQuattro": {
       "title": "/sectionsTitle/mitha_title.png",
-      "img": "/assets/mitha_animation.gif"
+      "img": "/assets/mitha_animation.gif",
+      "paragrafi": [
+        "De plus, il y a Mitha, une idée créative qui est née presque par jeu, un pari entre <a href='https://www.thallion-dev.it/' target='_blank'><strong>Thallion+dev</strong></a>, une talentueuse webdesigner qui a également créé mon site, et moi. J'ai toujours cherché à m'entourer de professionnels déterminés et concrets dans la poursuite de leurs objectifs.",
+        "Ce projet partagé est une opportunité pour les clients, car avec Mitha, ils peuvent trouver toutes les solutions dont ils ont besoin sans l'inconvénient de devoir chercher ailleurs. Restez connectés !"
+      ],
+      "cta": "Informez-vous davantage"
     },
-    "sezioneForm": {
-      "title": "/sectionsTitle/contact_form.png"
+    "serviziMore": {
+      "title": "On peut t’aider ?"
     }
   },
   "servizi": {
     "hero": {
-      "title": "/pageImg/serviceTitle_en.png",
+      "title": "/pageImg/serviceTitle.png",
       "img": "/pageImg/gatto.png"
     },
     "serviziItem": [
@@ -76,49 +86,49 @@
         "img": "/serviziImg/logodesign.png",
         "name": "Logo Design",
         "title": "logo",
-        "descrizione": "Un logo design efficace ha un impatto duraturo sulla percezione dell’azienda nel corso del tempo. È una parte fondamentale della strategia di branding, che contribuisce a costruire la reputazione e la fiducia del marchio nel lungo periodo. Un logo ben progettato è un investimento per il successo futuro dell’azienda.",
+        "descrizione": "Un logo progettato su misura, in base al tuo target di riferimento e alla tua vision è un investimento per il successo della tua azienda.",
         "link": "/service/logo"
       },
       {
         "img": "/serviziImg/branding.png",
         "name": "Branding Strategy",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "descrizione": "Una buona strategia di branding ti permette di differenziarti dalla concorrenza e di costruire un'identità forte, unica e riconoscibile.",
         "link": "/service/branding"
       },
       {
         "img": "/serviziImg/label.png",
         "name": "Label & Packaging",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "descrizione": "Il label e il packaging design sono essenziali per il successo di un prodotto, in un mercato competitivo, sono cruciali per catturare l’interesse del pubblico e informare il consumatore.",
         "link": "/service/label"
       },
       {
         "img": "/serviziImg/social.png",
         "name": "Social Media Strategy",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "descrizione": "Risparmia tempo e migliora la tua presenza online con contenuti mirati e aggiornati alle ultime tendenze per aumentare l'engagement.",
         "link": "/service/social"
       },
       {
         "img": "/serviziImg/campagne.png",
-        "name": "Campagne Pubblicitarie BLT",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "name": "Campagne Offline",
+        "descrizione": "Le campagne offline plasmano scelte, creano connessioni e trasmettono messaggi profondi, incarnando idee, valori e brand che si toccano, sentono e ricordano.",
         "link": "/service/campagne"
       },
       {
         "img": "/serviziImg/allestimenti.png",
         "name": "Allestimenti",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "descrizione": "Gli allestimenti personalizzati conferiscono personalità ad uno spazio vuoto. Possono evocare emozioni, creare atmosfere e coinvolgere il pubblico in modo unico.",
         "link": "/service/allestimenti"
       },
       {
         "img": "/serviziImg/illustrazione.png",
-        "name": "illustrazione Vettoriale e Manuale",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "name": "Illustrazione Digitale",
+        "descrizione": "Le illustrazioni create ad hoc, sono molto più di semplici immagini; sono elementi chiave che permettono di esaltare il tuo brand e renderlo unico e memorabile.",
         "link": "/service/illustrazione"
       },
       {
         "img": "/serviziImg/contentCreator.png",
         "name": "Content Creator",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "descrizione": "Nel mondo digitale di oggi, il contenuto ricopre un ruolo sempre più importante. Ma non si tratta solo di quantità; si tratta di qualità e, soprattutto, di personalizzazione.",
         "link": "/service/content"
       }
     ],
@@ -126,120 +136,712 @@
       "logo": {
         "img": "/serviziImg/logodesign.png",
         "name": "Logo Design",
+        "introTitle": "Progettiamo Insieme Un Logo Personalizzato Per La Tua Attività",
+        "intro": [
+          "Un logo design efficace ha un impatto duraturo sulla percezione dell’azienda nel corso del tempo.",
+          "È parte fondamentale della strategia di branding, e contribuisce a costruire la reputazione e la notorietà del brand nel lungo periodo.",
+          "Se stai iniziando una nuova attività e ancora non hai un logo distintivo che rappresenti al meglio la tua azienda, sei nel posto giusto!",
+          "Hai bisogno di un’immagine visiva su misura, in perfetta sintonia con la tua mission e adatta al tuo pubblico di riferimento?"
+        ],
         "title": "/serviziImg/logo_Title.png",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "titlePro": "Sono qui per te:",
+        "descPro": [
+          "Progetteremo un logo unico per la tua azienda, che identifichi chiaramente la tua attività e i prodotti/servizi offerti al tuo pubblico target."
+        ],
+        "titleList": " Cosa otterrai:",
+        "list": [
+          "1 logo in formato vettoriale (pdf), ideale per qualsiasi comunicazione stampata e/o tipografica.",
+          "1 logo in formato web (jpeg e gif), perfetto per i tuoi canali social e online.",
+          "1 manuale d’uso con le brand guidelines"
+        ],
+        "descrizione": "Un logo progettato su misura, in base al tuo target di riferimento e alla tua vision è un investimento per il successo della tua azienda.",
         "link": "logo",
         "gallery": [
-          { "src": "/serviziImg/LOGOS9.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS23.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS29.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS34.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS45.jpg", "width": 600, "height": 600 }
+          {
+            "src": "/serviziImg/logoDesign/logoDesign.jpg",
+            "width": 600,
+            "height": 600
+          },
+
+          {
+            "src": "/serviziImg/logoDesign/logoDesign3.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign6.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign4.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign13.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign5.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign8.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign7.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign10.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign12.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign9.jpg",
+            "width": 600,
+            "height": 600
+          },
+
+          {
+            "src": "/serviziImg/logoDesign/logoDesign11.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign2.jpg",
+            "width": 600,
+            "height": 600
+          }
         ]
       },
       "branding": {
         "img": "/serviziImg/branding.png",
         "name": "Branding Strategy",
         "title": "/serviziImg/branding_Title.png",
+        "introTitle": "Non solo logo!",
+        "intro": [
+          "La mia missione è andare oltre la creazione di un semplice logo. ",
+          "Voglio aiutarti a definire l’immagine completa della tua azienda, dall’inizio alla fine, analizzando attentamente la tua vision, la tua mission e il tuo target. Insieme, svilupperemo una strategia di marketing su misura, che darà vita alla tua identità aziendale, rendendola unica, riconoscibile e memorabile. ",
+          "Il branding non si limita solo alla progettazione del logo, ma comprende una serie di azioni specifiche e mirate, volte a comunicare e consolidare l’immagine del tuo brand all’interno del tuo mercato di riferimento. ",
+          "Desideriamo che il tuo “marchio” spicchi grazie a un’immagine coordinata, curata in ogni dettaglio, in grado di sostenere al meglio tutte le tue iniziative di marketing.",
+          "Sono qui per farti notare e aiutarti a distinguerti dai competitor!"
+        ],
+        "titlePro": "Sono qui per te:",
+        "descPro": [
+          "A seguito di una call conoscitiva analizzeremo insieme la tua mission, la tua vision, il tuo target e i tuoi prodotti/servizi.",
+          "Definiremo poi insieme i supporti necessari per costruire una strategia di marketing che ti permetta di rafforzare la tua identità aziendale e raggiungere i tuoi obiettivi"
+        ],
 
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-        "link": "branding",
+        "titleList": " Cosa otterrai:",
+        "list": [
+          "Un piano strategico ideato su misura per te in base ai tuoi obiettivi e al tuo target."
+        ],
+        "descrizione": "Una buona strategia di branding ti permette di differenziarti dalla concorrenza e di costruire un'identità forte, unica e riconoscibile.",
+        "link": "logo",
         "gallery": [
-          { "src": "/serviziImg/LOGOS9.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS23.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS29.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS34.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS45.jpg", "width": 600, "height": 600 }
+          {
+            "src": "/serviziImg/branding/brand.jpg",
+            "width": 600,
+            "height": 600
+          },
+
+          {
+            "src": "/serviziImg/branding/brand3.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/branding/brandA.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/branding/brand7.jpg",
+            "width": 600,
+            "height": 600
+          },
+
+          {
+            "src": "/serviziImg/branding/brand6.jpg",
+            "width": 600,
+            "height": 600
+          }
+        ],
+        "gallery2": [
+          {
+            "src": "/serviziImg/branding/brand8.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/branding/brand10.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/branding/brand14.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/branding/brand11.jpg",
+            "width": 600,
+            "height": 600
+          },
+
+          {
+            "src": "/serviziImg/branding/brand13.jpg",
+            "width": 600,
+            "height": 600
+          }
+        ],
+        "gallery3": [
+          {
+            "src": "/serviziImg/branding/brand15.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/branding/brand21.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/branding/brand17.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/branding/brand16.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/branding/brand20.jpg",
+            "width": 600,
+            "height": 600
+          }
         ]
       },
       "label": {
         "img": "/serviziImg/label.png",
         "name": "Label & Packaging",
         "title": "/serviziImg/label_Title.png",
+        "introTitle": "Packaging e Label: Dai Voce al Tuo Prodotto!",
+        "intro": [
+          "Spesso diamo per scontati il label e il packaging design, ma in realtà, sono dei veri e propri “ambasciatori” del nostro prodotto. ",
+          "Immagina di passeggiare per il supermercato e notare un prodotto con un packaging accattivante e un’etichetta che trasmette un senso di qualità e personalità.",
+          "Questi dettagli non solo catturano la tua attenzione ma comunicano anche il valore intrinseco del prodotto. ",
+          "E sai una cosa? Possono fare la differenza tra scegliere quel prodotto o lasciarlo lì sugli scaffali.",
+          "Oggi giorno, immersi in un mercato sempre più competitivo, il label e il packaging design diventano ancor più cruciali. Non solo catturano l’interesse del pubblico, ma contribuiscono a creare un’esperienza d’acquisto memorabile. ",
+          "Sono qui per aiutarti a scegliere il miglior contenitore per il tuo prodotto e a vestirlo con un look unico e accattivante"
+        ],
+        "titlePro": "Sono qui per te:",
+        "descPro": [
+          "Per analizzare insieme il tipo di pack più opportuno per il tuo prodotto e definire insieme una linea grafica"
+        ],
 
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "titleList": " Cosa comprende:",
+        "list": [
+          "La selezione del contenitore più confacente al tuo prodotto.",
+          "L’ideazione di un’etichetta mastro sulla base delle misure del contenitore scelto (2 bozze grafiche).",
+          "Il mock-up per il controllo delle misure e della resa.",
+          "Eventuali declinazioni grafiche (linea di prodotti)",
+          "La ricerca dei fornitori.",
+          "La fornitura dell’esecutivo in formato digitale e l’avvio alla stampa"
+        ],
+        "descrizione": "Il label e il packaging design sono elementi essenziali che contribuiscono al successo di un prodotto e alla sua vendita. In un mercato competitivo permettono di attrarre l'interesse del pubblico e informare i consumatore.",
         "link": "label",
         "gallery": [
-          { "src": "/serviziImg/LOGOS9.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS23.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS29.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS34.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS45.jpg", "width": 600, "height": 600 }
+          { "src": "/serviziImg/label/pack2.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/label/pack3.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/label/pack4.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/label/pack5.jpg", "width": 600, "height": 600 },
+          {
+            "src": "/serviziImg/label/pack10.jpg",
+            "width": 600,
+            "height": 600
+          },
+          { "src": "/serviziImg/label/pack8.jpg", "width": 600, "height": 600 },
+
+          { "src": "/serviziImg/label/pack7.jpg", "width": 600, "height": 600 },
+          { "src": "/serviziImg/label/pack9.jpg", "width": 600, "height": 600 },
+
+          { "src": "/serviziImg/label/pack6.jpg", "width": 600, "height": 600 },
+
+          { "src": "/serviziImg/label/pack.jpg", "width": 600, "height": 600 }
         ]
       },
       "social": {
         "img": "/serviziImg/social.png",
         "name": "Social Media Strategy",
         "title": "/serviziImg/social_Title.png",
+        "introTitle": "Consolida La Tua presenza Online: Grazie ai social e a contenuti su misura",
+        "intro": [
+          "La gestione dei social media e la creazione di contenuti di qualità sono le chiavi per il successo online.",
+          "Con noi, otterrai una presenza digitale specifica, personalizzata ed efficace. ",
+          "Conosciamo i segreti per coinvolgere il tuo pubblico, costruire brand awareness e generare risultati concreti.",
+          "Non perdere l’opportunità di sfruttare appieno il potenziale dei social media, potenziando l'immagine del tuo brand online!"
+        ],
+        "titlePro": "Sono qui per te:",
+        "descPro": [
+          "Per aiutarti a definire un piano editoriale sulla base dei tuoi obiettivi aziendali"
+        ],
+        "titleList": "Cosa Otterrai:",
+        "list": [
+          "Un piano editoriale strategico personalizzato in base ai tuoi obiettivi e al tuo target.",
+          "Una gestione mensile completa dei canali Meta (in base alle tue esigenze)",
+          "Contenuti creati ad hoc per te, in grado di generare lead"
+        ],
 
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "descrizione": "Risparmia tempo e migliora la tua presenza online con contenuti mirati e aggiornati alle ultime tendenze per aumentare l'engagement.",
         "link": "social",
         "gallery": [
-          { "src": "/serviziImg/LOGOS9.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS23.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS29.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS34.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS45.jpg", "width": 600, "height": 600 }
+          {
+            "src": "/serviziImg/social/socialMedia3.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/social/socialMedia5.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/social/socialMedia11.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/social/socialMedia9.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/social/socialMedia7.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/social/socialMedia2.jpg",
+            "width": 600,
+            "height": 600
+          },
+
+          {
+            "src": "/serviziImg/social/socialMedia4.jpg",
+            "width": 600,
+            "height": 600
+          },
+
+          {
+            "src": "/serviziImg/social/socialMedia10.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/social/socialMedia8.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/social/socialMedia6.jpg",
+            "width": 600,
+            "height": 600
+          }
         ]
       },
       "campagne": {
         "img": "/serviziImg/campagne.png",
-        "name": "Campagne Pubblicitarie BLT",
+        "name": "Campagne Offline",
         "title": "/serviziImg/campagne_Title.png",
-
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "introTitle": "Riscopri il Potere delle Campagne Offline: Emozioni, Fiducia ed Accessibilità nel Mondo Digitale",
+        "intro": [
+          "Nel mondo frenetico e digitalizzato in cui viviamo, può sembrare che l’attenzione sia rivolta unicamente verso il mondo online. Ma, in un’epoca in cui i nostri occhi sono incollati agli schermi e i nostri dispositivi ci tengono connessi costantemente, c’è un mondo fuori che non dovremmo mai sottovalutare: il mondo delle campagne offline.",
+          "A differenza delle Ads, sul web apportano benefici tangibili quali:  ",
+          "Generare emozioni: un poster, un volantino o un evento dal vivo possono suscitare sentimenti che difficilmente si possono ottenere attraverso uno schermo. La sensazione di tenere tra le mani un prodotto, sentirne la consistenza, fruire le informazioni con il prorio tempo ecc... possono creare un impatto profondo.",
+          "Creare fiducia: le persone tendono a fidarsi di ciò che possono vedere, toccare e sperimentare direttamente. Le campagne offline forniscono questa opportunità di esperienza autentica.",
+          "Ampliare l’accessibilità: non tutti hanno accesso costante a Internet o sono disposti a condividere i propri dati online. Le campagne offline raggiungono un pubblico più ampio, inclusi coloro che potrebbero essere altrimenti esclusi dal mondo digitale."
+        ],
+        "titleList": "Come fare per realizzare una buona campagna offline:",
+        "list": [
+          "scegliere i giusti spazi per le affissioni",
+          "prevedere delle uscite su testate giornalistiche locali in target",
+          "ideare una grafica accattivante e coinvolgente rispetto al messaggio",
+          "creare differenti formati di manifesti",
+          "creare delle cartoline o dei flyer per permettere la consegna manuale del messaggio",
+          "supportare l’iniziativa mediante gadget ideati ad hoc"
+        ],
+        "descrizione": "Le campagne offline plasmano scelte, creano connessioni e trasmettono messaggi profondi, incarnando idee, valori e brand che si toccano, sentono e ricordano.",
         "link": "campagne",
         "gallery": [
-          { "src": "/serviziImg/LOGOS9.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS23.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS29.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS34.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS45.jpg", "width": 600, "height": 600 }
+          {
+            "src": "/serviziImg/campagne/campagne3.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/campagne/campagne5.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/campagne/campagne.jpg",
+            "width": 600,
+            "height": 600
+          },
+
+          {
+            "src": "/serviziImg/campagne/campagne4.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/campagne/campagne2.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/campagne/campagne6.jpg",
+            "width": 600,
+            "height": 600
+          },
+
+          {
+            "src": "/serviziImg/campagne/campagne8.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/campagne/campagne9.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/campagne/campagne7.jpg",
+            "width": 600,
+            "height": 600
+          }
         ]
       },
       "allestimenti": {
         "img": "/serviziImg/allestimenti.png",
         "name": "Allestimenti",
         "title": "/serviziImg/allestimenti_Title.png",
+        "introTitle": "Scegli un’ Allestimento per Promuovere il tuo Brand",
+        "intro": [
+          "Un’ allestimento personalizzato è un potente strumento che trasforma un semplice spazio in un’ambiente comunicativo. Gli allestimenti, sia in ambito fieristico che riguardanti il punto vendita, sono la chiave per catturare l’attenzione, suscitare emozioni e far sì che il tuo brand si distingua.",
 
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+          "Nei contesti fieristici, un allestimento personalizzato mette in mostra il tuo brand in prima fila, attirando gli sguardi e creando un’esperienza memorabile. Nel punto vendita, trasforma la visita dei clienti in un’immersione totale nel tuo mondo.",
+          "Gli allestimenti personalizzati sono un potente strumento di comunicazione. Possono trasmettere messaggi chiari e memorabili, aiutandoti a raggiungere i tuoi obiettivi di marketing e promozione."
+        ],
+        "titlePro": "Sono qui per te:",
+        "descPro": [
+          "Per aiutarti a personalizzare il tuo punto vendita oppure a trovare insieme a te una soluzione mirata per esporre al meglio i tuoi prodotti negli ambienti fieristici o presso terzi."
+        ],
+
+        "descrizione": "Gli allestimenti personalizzati conferiscono personalità ad uno spazio vuoto. Possono evocare emozioni, creare atmosfere e coinvolgere il pubblico in modo unico.",
         "link": "allestimenti",
         "gallery": [
-          { "src": "/serviziImg/LOGOS9.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS23.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS29.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS34.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS45.jpg", "width": 600, "height": 600 }
+          {
+            "src": "/serviziImg/allestimenti/allestimenti.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/allestimenti/allestimenti2.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/allestimenti/allestimenti3.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/allestimenti/allestimenti4.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/allestimenti/allestimenti5.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/allestimenti/allestimenti6.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/allestimenti/allestimenti7.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/allestimenti/allestimenti8.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/allestimenti/allestimenti9.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/allestimenti/allestimenti10.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/allestimenti/allestimenti11.jpg",
+            "width": 600,
+            "height": 600
+          }
         ]
       },
       "illustrazione": {
         "img": "/serviziImg/illustrazione.png",
-        "name": "illustrazione Vettoriale e Manuale",
+        "name": "Illustrazione Digitale",
         "title": "/serviziImg/illustrazione_Title.png",
+        "introTitle": "Le Illustrazioni Personalizzate rafforzano l'immagine del Tuo Brand",
+        "intro": [
+          "Le illustrazioni personalizzate sono la firma del tuo brand. Possono catturare l’essenza della tua identità aziendale in un’immagine, rendendo il tuo brand immediatamente riconoscibile e memorabile.",
 
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+          "Le immagini parlano più intensamente delle parole, e le illustrazioni personalizzate sono un linguaggio universale. Possono trasmettere emozioni, concetti e storie in un istante, senza bisogno di spiegazioni.",
+          "In un mondo saturo di contenuti visivi generici, le illustrazioni personalizzate ti distinguono. Rendono il tuo brand unico, attraente e irresistibile agli occhi del pubblico.",
+          "I pattern personalizzati, creati con illustrazioni, aggiungono coesione e riconoscibilità a tutti i tuoi materiali di marketing. Permettono di creare un'armonia comunicativa tra il brand e il prodotto."
+        ],
+        "titlePro": "Sono qui per te:",
+        "descPro": [
+          "Per generare immagini ad hoc che rispecchino il tuo gusto e i valori del tuo brand."
+        ],
+
+        "descrizione": "Le illustrazioni create ad hoc, sono molto più di semplici immagini; sono elementi chiave che permettono di esaltare il tuo brand e renderlo unico e memorabile.",
+        "titleList": "Cosa Otterrai:",
+        "sottoList": "In base alle tue esigenze creeremo per te:",
+        "list": [
+          "Grafiche vettoriali",
+          "Illustrazioni digitali",
+          "Illustrazioni artigianali a tecnica mista",
+          "Pattern",
+          "...e altri elementi visivi a supporto della tua comunicazione."
+        ],
+
         "link": "illustrazione",
         "gallery": [
-          { "src": "/serviziImg/LOGOS9.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS23.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS29.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS34.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS45.jpg", "width": 600, "height": 600 }
+          {
+            "src": "/serviziImg/illustrazione/illustrazioni2.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/illustrazione/illustrazioni3.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/illustrazione/illustrazioni4.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/illustrazione/illustrazioni5.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/illustrazione/illustrazioni6.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/illustrazione/illustrazioni7.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/illustrazione/illustrazioni8.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/illustrazione/illustrazioni9.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/illustrazione/illustrazioni10.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/illustrazione/illustrazioni.jpg",
+            "width": 600,
+            "height": 600
+          }
         ]
       },
       "content": {
         "img": "/serviziImg/contentCreator.png",
         "name": "Content Creator",
         "title": "/serviziImg/content_Title.png",
+        "introTitle": "Coinvolgi il tuo target con contenuti ideati ad hoc",
+        "intro": [
+          "Creare contenuti su misura, che siano foto, video o testi, è la formula magica per il successo sui social e non solo. Ecco perché dovresti fare della personalizzazione una priorità assoluta.",
 
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+          "I contenuti personalizzati ti consentono di creare un ponte diretto tra il tuo brand e il tuo pubblico. Ogni foto e ogni parola possono essere adattate per rispecchiare i valori, la voce e la personalità unica del tuo brand, instaurando una connessione autentica con i tuoi followers.",
+          "La personalizzazione non si limita ai social media. Puoi estenderla ai tuoi materiali promozionali, creando un’immagine coesa e riconoscibile del tuo brand ovunque appaia. Questa coerenza rafforza la tua presenza e la tua credibilità."
+        ],
+        "titleList": "Quali sono i servizi offerti:",
+        "list": [
+          "Creazione di contenuti digitali (immagini grafiche ideate ad hoc)",
+          "Creazione di contenuti fotografici e video, da te in azienda, realizzati in base ai tuoi obiettivi di marketing",
+          "Creazione di contenuti testuali in linea con il tuo stile comunicativo, in grado di parlare al tuo target",
+          "Creazione di contenuti testuali in ottica SEO in base alle parole più ricercate relativamente al tuo settore",
+          "Ricerca hashtag e parole chiave ad alto rendimento"
+        ],
+
+        "descrizione": "Nel mondo digitale di oggi, il contenuto ricopre un ruolo sempre più importante. Ma non si tratta solo di quantità; si tratta di qualità e, soprattutto, di personalizzazione.",
         "link": "content",
         "gallery": [
-          { "src": "/serviziImg/LOGOS9.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS23.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS29.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS34.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/LOGOS45.jpg", "width": 600, "height": 600 }
+          {
+            "src": "/serviziImg/creator/content.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content2.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content3.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content4.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content5.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content6.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content7.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content8.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content9.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content10.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content11.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content12.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content13.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content14.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content15.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content16.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content17.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content18.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content19.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content20.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content21.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content22.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content23.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content24.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content25.jpg",
+            "width": 600,
+            "height": 600
+          }
         ]
       }
     },
@@ -277,7 +879,7 @@
     },
     "intro": [
       "Una selezione di lavori che raccontano per immagini, i servizi da me offerti.",
-      "<span style='color:#de4928;'>Guarda</span>  tutte le case history :)"
+      "<span style='color:#de4928;font-weight: bold'>Guarda  tutte le case history :)</span>"
     ],
     "worksItem": [
       {
@@ -294,7 +896,7 @@
         "name": "Samuel Becquet",
         "title": "becquet",
         "descrizione": "Agriculture en Haute Montagne",
-        "location": "location",
+        "location": "Ayas - Valle d’Aosta",
         "link": "/works/becquet",
         "button": ["Branding", "Label Design"]
       },
@@ -311,8 +913,8 @@
         "img": "/portfolioImg/phillacolor/cover_phillacolor.jpg",
         "name": "Phillacolor",
         "title": "phillacolor",
-        "descrizione": "Eco-liquid Dye",
-        "location": "Saint -Pierre  - Valle d’Aosta",
+        "descrizione": "Eco-Liquid Dye",
+        "location": "Saint-Pierre  - Valle d’Aosta",
         "link": "/works/phillacolor",
         "button": ["Branding", "Label Design"]
       },
@@ -353,11 +955,11 @@
         "button": ["Branding", "Allestimenti"]
       },
       {
-        "img": "/portfolioImg/saint/cover.jpg",
+        "img": "/portfolioImg/saint/cover2.jpg",
         "name": "Saint Grat",
         "title": "saintgrat",
         "descrizione": "Azienda Agricola",
-        "location": "Aymavilles - Valle d’Aosta",
+        "location": "Gressan - Valle d’Aosta",
         "link": "/works/saintgrat",
         "button": ["Branding", "Label Design"]
       },
@@ -366,7 +968,7 @@
         "name": "Morzenti Daniele",
         "title": "morzenti",
         "descrizione": "Azienda Agricola",
-        "location": "Gressan - Valle d’Aosta",
+        "location": "Aymavilles - Valle d’Aosta",
         "link": "/works/morzenti",
         "button": ["Branding", "Social Media"]
       }
@@ -421,7 +1023,7 @@
           "descrizione2": "Per promuovere l’iniziativa adotta un alveare ho stilizzato anche un’arnia e i fiori di alta montagna."
         },
         "label": {
-          "titolo": "Label & Pack Design: ",
+          "titolo": "Label & Pack Design",
           "descrizione": "Etichette fustellate per la linea dei mieli biologici stampate su carta betulla vergata.",
           "labelImg": "/portfolioImg/anserme/etichetta_miele.png",
           "cartellinoImg": "/portfolioImg/anserme/latta_caramelle.png",
@@ -490,7 +1092,7 @@
           "descrizione2": ""
         },
         "label": {
-          "titolo": "Label Design ",
+          "titolo": "Label Design",
           "labelImg": "/portfolioImg/bequet/label1_sam.png",
           "cartellinoImg": "/portfolioImg/bequet/label4_sam.png",
           "caramelleImg": "/portfolioImg/bequet/label2_sam.png",
@@ -548,7 +1150,7 @@
           "illImg": "/portfolioImg/casadei/pattern_casadei.png"
         },
         "label": {
-          "titolo": "Label Design: ",
+          "titolo": "Label Design",
           "labelImg": "/portfolioImg/casadei/label1.png",
           "cartellinoImg": "/portfolioImg/casadei/label2.png",
           "caramelleImg": "/portfolioImg/casadei/label3.png",
@@ -600,7 +1202,7 @@
         },
 
         "label": {
-          "titolo": "Label Design: ",
+          "titolo": "Label Design",
           "labelImg": "/portfolioImg/phillacolor/label_philla1.png",
           "biscottiImg": "/portfolioImg/phillacolor/label_philla2.png"
         }
@@ -653,7 +1255,7 @@
           "illImg": "/portfolioImg/chappoz/illustrazioni.png"
         },
         "label": {
-          "titolo": "Label & Pack Design: ",
+          "titolo": "Label & Pack Design",
           "labelImg": "/portfolioImg/chappoz/label1.png",
           "biscottiImg": "/portfolioImg/chappoz/label_polenta.png"
         },
@@ -715,7 +1317,7 @@
           "illImg": "/portfolioImg/daemy/illustrazioni.png"
         },
         "label": {
-          "titolo": "Label & Pack Design: ",
+          "titolo": "Label & Pack Design",
           "labelImg": "/portfolioImg/daemy/label1.png",
           "cartellinoImg": "/portfolioImg/daemy/label2.png",
           "caramelleImg": "/portfolioImg/daemy/label3.png",
@@ -772,7 +1374,7 @@
           "illImg": "/portfolioImg/horto/illustrazioni.png"
         },
         "label": {
-          "titolo": "Label Design: ",
+          "titolo": "Label Design",
           "labelImg": "/portfolioImg/horto/label1.png",
           "biscottiImg": "/portfolioImg/horto/label2.png"
         }
@@ -880,7 +1482,7 @@
           "illImg2": "/portfolioImg/saint/illustrazioni_green.png"
         },
         "label": {
-          "titolo": "Label & Pack Design: ",
+          "titolo": "Label & Pack Design",
           "labelImg": "/portfolioImg/saint/jus_dor.png",
           "cartellinoImg": "/portfolioImg/saint/scarti.png",
           "caramelleImg": "/portfolioImg/saint/baginbox.png",
@@ -950,13 +1552,13 @@
   },
   "blog": {
     "hero": {
-      "title": "/pageImg/blogTitle_fr.png",
+      "title": "/pageImg/blogTitle.png",
       "img": "/pageImg/gattina.png"
     }
   },
   "contatti": {
     "hero": {
-      "title": "/pageImg/contattiTitle_en.png",
+      "title": "/pageImg/contattiTitle.png",
       "img": "/pageImg/lupo.png"
     }
   }

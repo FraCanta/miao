@@ -46,6 +46,9 @@
     }
   },
   "me": {
+    "meta": {
+      "title": "Chi sono"
+    },
     "hero": {
       "title": "/pageImg/meTitle.png",
       "img": "/pageImg/lampadina.png"
@@ -59,7 +62,8 @@
         "<strong>Insieme creeremo un percorso creativo su misura per te. </strong>",
         "<strong>Ogni brand ha una storia da raccontare</strong>, e io sono qui per trasformarla in un design unico. <strong>Il mio intento è catturare la tua idea e tradurla in un’identità visiva (logo, pack, illustrazione) memorabile. </strong>",
         "<strong>Contattami oggi </strong> per iniziare questo entusiasmante itinerario creativo!"
-      ]
+      ],
+      "cta": "Scopri come"
     },
     "sezioneDue": {
       "title": "/sectionsTitle/clienti.png"
@@ -76,8 +80,8 @@
       ],
       "cta": "Scopri di più"
     },
-    "sezioneForm": {
-      "title": "/sectionsTitle/contact_form.png"
+    "serviziMore": {
+      "title": "Cosa posso fare per te?"
     }
   },
   "servizi": {

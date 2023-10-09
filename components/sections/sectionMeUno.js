@@ -21,7 +21,7 @@ const SectionMeUno = ({ translation }) => {
             href="/contatti"
             className="text-main text-2xl fxl:text-3xl 3xl:text-4xl font-extrabold underline capitalize leading-normal "
           >
-            Scopri come
+            {translation?.cta}
           </Link>
         </div>
       </div>
