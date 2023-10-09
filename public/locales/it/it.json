@@ -8,7 +8,7 @@
     },
     "sezioneUno": {
       "paragrafi": [
-        "<p>Mi chiamo <strong>Elisa </strong> e mi trovi online come <strong>Miaographics</strong>. Sono una <strong>Graphic Designer</strong> e <strong>Content Creator</strong>, e sono qui per essere la tua partner nella definizione dell’identità visiva della tua azienda.</p>  <p>Posso creare per te un logo su misura, in base alle tue esigenze strategiche e alla tua mission, dal design unico che ti aiuti a farti notare e a differenziarti dai competitors. </p><p>Aiuto le piccole e medie aziende a raggiungere i propri obiettivi di business, mediante un’analisi approfondita del prodotto/servizio, del mercato e del target.</p>",
+        "<p>Mi chiamo <strong>Elisa </strong> e mi trovi online come <strong>Miaographics</strong>. Sono una <strong>Graphic Designer</strong> e <strong>Content Creator</strong>, e sono qui per essere la tua partner nella definizione dell’identità visiva della tua azienda.</p>  <p>Posso creare per te un logo su misura, in base alle tue esigenze strategiche e alla tua mission, dal design unico, che ti aiuti a farti notare e a differenziarti dai competitors. </p><p>Aiuto le piccole e medie aziende a raggiungere i propri obiettivi di business, mediante un’analisi approfondita del prodotto/servizio, del mercato e del target.</p>",
         "<p>Posso offrirti soluzioni personalizzate in linea con tuo budget e con i tuoi obiettivi. Il mio scopo è quello di aiutarti ad avere un’immagine forte e una comunicazione coerente che ti permetta di distinguerti dalla concorrenza, raggiungere nuovi clienti e crescere.</p><p> Per me, è fondamentale conoscere la tua storia, la tua realtà e i tuoi obiettivi aziendali. Attraverso un incontro conoscitivo, che può anche essere online, sarò in grado di capire le tue esigenze e sviluppare una comunicazione visiva su misura per te.</p>"
       ],
       "cta": "conosciamoci",
@@ -72,8 +72,9 @@
       "img": "/assets/mitha_animation.gif",
       "paragrafi": [
         "Inoltre, c'è Mitha, un'idea creativa che è nata quasi per gioco, una scommessa tra me e <a href='https://www.thallion-dev.it/' target='_blank'><strong>Thallion+dev</strong></a>, una talentuosa web designer che ha anche creato il mio sito. Ho sempre cercato di circondarmi di professionisti determinati e concreti nel perseguire i loro obiettivi.",
-        "Questo progetto condiviso è un'opportunità per i clienti, poiché in Mitha possono trovare tutte le soluzioni di cui hanno bisogno senza il disagio di dover cercare altrove. Stay tuned!"
-      ]
+        "Questo progetto condiviso è un'opportunità per i clienti, poiché in Mitha possono trovare tutte le soluzioni di cui hanno bisogno senza dover cercare altrove. Stay tuned!"
+      ],
+      "cta": "Scopri di più"
     },
     "sezioneForm": {
       "title": "/sectionsTitle/contact_form.png"
@@ -470,7 +471,7 @@
         "img": "/serviziImg/campagne.png",
         "name": "Campagne Offline",
         "title": "/serviziImg/campagne_Title.png",
-        "introTitle": "Riscoprire il Potere delle Campagne Offline: Emozioni, Fiducia ed Accessibilità nel Mondo Digitale",
+        "introTitle": "Riscopri il Potere delle Campagne Offline: Emozioni, Fiducia ed Accessibilità nel Mondo Digitale",
         "intro": [
           "Nel mondo frenetico e digitalizzato in cui viviamo, può sembrare che l’attenzione sia rivolta unicamente verso il mondo online. Ma, in un’epoca in cui i nostri occhi sono incollati agli schermi e i nostri dispositivi ci tengono connessi costantemente, c’è un mondo fuori che non dovremmo mai sottovalutare: il mondo delle campagne offline.",
           "A differenza delle Ads, sul web apportano benefici tangibili quali:  ",
@@ -712,7 +713,7 @@
         "list": [
           "Creazione di contenuti digitali (immagini grafiche ideate ad hoc)",
           "Creazione di contenuti fotografici e video, da te in azienda, realizzati in base ai tuoi obiettivi di marketing",
-          "Creazione di contenuti testuali in liena con il tuo stile comunicativo, in grado di parlare al tuo target",
+          "Creazione di contenuti testuali in linea con il tuo stile comunicativo, in grado di parlare al tuo target",
           "Creazione di contenuti testuali in ottica SEO in base alle parole più ricercate relativamente al tuo settore",
           "Ricerca hashtag e parole chiave ad alto rendimento"
         ],
@@ -917,7 +918,7 @@
         "name": "Phillacolor",
         "title": "phillacolor",
         "descrizione": "Eco-Liquid Dye",
-        "location": "Saint -Pierre  - Valle d’Aosta",
+        "location": "Saint-Pierre  - Valle d’Aosta",
         "link": "/works/phillacolor",
         "button": ["Branding", "Label Design"]
       },

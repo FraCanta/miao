@@ -162,7 +162,7 @@ const Servizi = ({ servizio, others, serviziFra }) => {
           <div className="w-full mx-auto 2xl:p-6 mt-20 2xl:mt-[100px]">
             <h3 className="text-main font-bold capitalize text-4xl lg:text-6xl 2xl:!leading-[4.5rem] fxl:text-7xl 3xl:text-8xl">
               {/* {servizio?.titleOpzioni} */}
-              ti potrebbe anche interesssare
+              ti potrebbe anche interessare
             </h3>
             <Others others={others} />
           </div>

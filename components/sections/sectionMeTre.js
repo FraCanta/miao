@@ -38,17 +38,9 @@ const SectionMeTre = ({ translation }) => {
           <Link
             href="https://www.mithacreative.it/"
             target="_blank"
-            className="w-full  justify-end items-center inline-flex"
+            className="text-main text-2xl fxl:text-3xl 3xl:text-4xl font-extrabold underline capitalize leading-normal w-full  justify-end items-center inline-flex"
           >
-            <span className="text-main text-xl 3xl:text-3xl font-extrabold underline capitalize leading-tight">
-              Coming Soon.
-            </span>
-            <span className="text-red text-xl 3xl:text-3xl font-extrabold underline capitalize leading-tight">
-              .
-            </span>
-            <span className="text-main text-xl 3xl:text-3xl font-extrabold underline capitalize leading-tight">
-              .
-            </span>
+            {translation?.cta}
           </Link>
         </div>
       </div>
