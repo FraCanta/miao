@@ -1,31 +1,53 @@
 .pagination-buttons {
   position: fixed;
   top: 50%;
-  left: 0%;
+  transform: translateY(-50%);
   opacity: 0;
-  padding: 10px;
-  transition: opacity 0.3s ease-in-out;
   z-index: 1000;
   display: flex;
+  align-items: center; /* Allinea i bottoni verticalmente al centro */
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  padding: 10px;
   justify-content: space-between;
   width: 100%;
 }
 
-.pagination-buttons a {
+.pagination-button:hover {
   background-color: var(--white);
-  padding: 10px 20px;
   border: 1px solid #afafaf;
-  text-decoration: none;
-  border-radius: 5px;
   color: var(--red);
 }
 
-.pagination-buttons a:hover {
+.pagination-button {
   background-color: var(--red);
+  padding: 10px;
+  border: 1px solid var(--red);
+  text-decoration: none;
+  border-radius: 5px;
   color: var(--white);
-  border-color: var(--red);
+  margin-right: 10px; /* Spazio tra i bottoni */
+  transform: translateX(-50px); /* Inizia nascosto a sinistra */
 }
 
-.show-pagination-buttons {
+.pagination-button svg {
+  font-size: 30px;
+}
+
+.pagination-buttons.show {
   opacity: 1;
+}
+
+.pagination-buttons.show .pagination-button {
+  transform: translateX(0); /* Scorri da sinistra */
+}
+
+.pagination-buttons.show-reverse .pagination-button {
+  transform: translateX(0); /* Scorri da destra */
+}
+
+@media screen and (max-width: 768px) {
+  .pagination-button svg {
+    font-size: 20px;
+  }
 }

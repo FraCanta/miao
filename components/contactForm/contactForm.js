@@ -417,7 +417,7 @@ export default function ContactForm({ translation }) {
                 </label>
                 <label
                   className={`radio ${
-                    clickedRadio === "5,500+" ? "checked" : ""
+                    clickedRadio === "2,500+" ? "checked" : ""
                   }`}
                   data-checked={clickedRadio === "2,500+"}
                   data-invalid="false"

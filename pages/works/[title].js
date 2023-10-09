@@ -12,15 +12,18 @@ import Social from "@/components/worksItem/social";
 import Head from "next/head";
 import Link from "next/link";
 import React from "react";
-const Works = ({ works, previousWork, nextWork }) => {
-  const [showButtons, setShowButtons] = React.useState(false);
+import { useState, useEffect } from "react";
+import { Icon } from "@iconify/react";
 
-  React.useEffect(() => {
+const Works = ({ works, previousWork, nextWork }) => {
+  const [isScrolling, setIsScrolling] = useState(false);
+
+  useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 250) {
-        setShowButtons(true);
+      if (window.scrollY > 400) {
+        setIsScrolling(true);
       } else {
-        setShowButtons(false);
+        setIsScrolling(false);
       }
     };
 
@@ -86,13 +89,23 @@ const Works = ({ works, previousWork, nextWork }) => {
       )}
 
       <div
-        className={`pagination-buttons ${
-          showButtons ? "show-pagination-buttons" : ""
+        className={`pagination-buttons ${isScrolling ? "show" : ""} ${
+          previousWork ? "show-reverse" : ""
         }`}
       >
-        {" "}
-        {previousWork && <Link href={`/works/${previousWork}`}>&lt; Prev</Link>}
-        {nextWork && <Link href={`/works/${nextWork}`}>Next &gt;</Link>}
+        {previousWork && (
+          <Link href={`/works/${previousWork}`} className="pagination-button">
+            <Icon icon="raphael:arrowleft" />
+          </Link>
+        )}
+        {nextWork && (
+          <Link
+            href={`/works/${nextWork}`}
+            className="pagination-button ml-auto"
+          >
+            <Icon icon="raphael:arrowright" />
+          </Link>
+        )}
       </div>
     </>
   );
