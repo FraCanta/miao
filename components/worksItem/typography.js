@@ -5,13 +5,21 @@ const Typography = ({ translation }) => {
   console.log(translation);
   return (
     <div>
-      <h3 className="text-[6vw] md:text-[3.5vw] font-bold">
+      <h3 className="text-[6vw] md:text-[3.5vw] font-bold text-main">
         {translation?.titolo}
       </h3>
-      <div className="relative h-[20vh] md:h-[60vh]">
+      <div className="min-h-[20vh] md:h-[60vh] grid grid-cols-1 md:grid-cols-2 py-4">
         <Image
           src={translation?.typoImg}
-          fill
+          width={800}
+          height={800}
+          className="object-contain h-full"
+          alt=""
+        ></Image>
+        <Image
+          src={translation?.typoImg2}
+          width={800}
+          height={800}
           className="object-contain h-full"
           alt=""
         ></Image>

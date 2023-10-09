@@ -882,7 +882,7 @@
     },
     "intro": [
       "Una selezione di lavori che raccontano per immagini, i servizi da me offerti.",
-      "<span style='color:#de4928;'>Guarda</span>  tutte le case history :)"
+      "<span style='color:#de4928;font-weight: bold'>Guarda  tutte le case history :)</span>"
     ],
     "worksItem": [
       {
@@ -916,7 +916,7 @@
         "img": "/portfolioImg/phillacolor/cover_phillacolor.jpg",
         "name": "Phillacolor",
         "title": "phillacolor",
-        "descrizione": "Eco-liquid Dye",
+        "descrizione": "Eco-Liquid Dye",
         "location": "Saint -Pierre  - Valle d’Aosta",
         "link": "/works/phillacolor",
         "button": ["Branding", "Label Design"]
@@ -962,7 +962,7 @@
         "name": "Saint Grat",
         "title": "saintgrat",
         "descrizione": "Azienda Agricola",
-        "location": "Aymavilles - Valle d’Aosta",
+        "location": "Gressan - Valle d’Aosta",
         "link": "/works/saintgrat",
         "button": ["Branding", "Label Design"]
       },
@@ -971,7 +971,7 @@
         "name": "Morzenti Daniele",
         "title": "morzenti",
         "descrizione": "Azienda Agricola",
-        "location": "Gressan - Valle d’Aosta",
+        "location": "Aymavilles - Valle d’Aosta",
         "link": "/works/morzenti",
         "button": ["Branding", "Social Media"]
       }
@@ -988,7 +988,8 @@
         "introTitolo": "Progetto",
         "cliente": {
           "titolo": "cliente",
-          "nome": "Ansermé Bio Bontà"
+          "nome": "Ansermé",
+          "payoff": "Bio Bontà di Montagna"
         },
         "anno": {
           "titolo": "anno",
@@ -996,24 +997,25 @@
         },
         "keywords": {
           "titolo": "keywords",
-          "nome": "BIO, Apicoltura di montagna, minimal,artigianalità, BIO bontà"
+          "nome": "BIO, Apicoltura di montagna, minimal, artigianalità, BIO bontà"
         },
         "servizi": {
           "titolo": "servizi",
           "nome": ["branding", "label design", "social media"]
         },
         "desc": [
-          "Con Alessandro abbiamo pensato di creare un concept grafico moderno e dai colori accesi che potesse esaltare la linea dei prodotti biologici, rendendoli facilmente riconoscibili e differenziandoli dalla concorrenza."
+          "Con Alessandro, abbiamo pensato di creare un concept grafico moderno e dai colori accesi che potesse esaltare la linea dei prodotti biologici, rendendoli facilmente riconoscibili e differenziandoli dalla concorrenza."
         ],
         "logoImg": "/portfolioImg/anserme/intro_anse.png",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/anserme/typo_anse.png"
+          "typoImg": "/portfolioImg/anserme/typo_anse_text.png",
+          "typoImg2": "/portfolioImg/anserme/typo_anse_font.png"
         },
         "color": {
           "titolo": "Color Brand",
           "descrizione": [
-            "In collaborazione con Alessandro abbiamo definito una gamma di colori vibranti e accesi, declinati nelle varie gradazioni, che potessero creare un piacevole contrasto con lo sfondo scuro e neutro (effetto carta riciclata) delle etichette."
+            "In collaborazione con Alessandro, abbiamo definito una gamma di colori vibranti e accesi, declinati nelle varie gradazioni, che potessero creare un piacevole contrasto con lo sfondo scuro e neutro (effetto carta riciclata) delle etichette."
           ],
           "colorImg": "/portfolioImg/anserme/coloribrand_anse.png"
         },
@@ -1031,14 +1033,14 @@
           "descrizione2": "Stampa diretta su latta (per le caramelle).",
           "caramelleImg": "/portfolioImg/anserme/cartellino_caramelle.png",
           "biscottiImg": "/portfolioImg/anserme/cartellino_biscotti.png",
-          "scatoleImg": "/portfolioImg/anserme/scatola_crema.png",
-          "cremaImg": "/portfolioImg/anserme/label_crema.png",
+          "scatoleImg": "/portfolioImg/anserme/creme.png",
+          "cremaImg": "/portfolioImg/anserme/creme2.png",
           "etichettasImg": "/portfolioImg/anserme/label_shampoo.png"
         },
         "social": {
           "titolo": "Social",
           "descrizione": [
-            "Immagini e contenuti realizzati ad hoc per la promozione dei prodotti e delle iniziative promosse dall’azienda."
+            "Immagini fotografiche e contenuti testuali e visivi realizzati ad hoc, per la promozione dei prodotti e dell’azienda."
           ],
           "socialImg": ["/portfolioImg/anserme/social.png"]
         }
@@ -1054,7 +1056,8 @@
         "introTitolo": "Progetto",
         "cliente": {
           "titolo": "cliente",
-          "nome": "Samuel Becquet- agriculture en haute montagne"
+          "nome": "Samuel Becquet ",
+          "payoff": "Agriculture en Haute Montagne"
         },
         "anno": {
           "titolo": "anno",
@@ -1069,18 +1072,19 @@
           "nome": ["branding", "label design"]
         },
         "desc": [
-          "Abbiamo ideato insieme a Samuel una nuova identità visiva per la sua azienda che trasforma prodotti orticoli a km zero in frutti e ortaggi essiccati pronti all’uso quali: tisane, zuppe e frutta x ingolosire yogurt e gelati."
+          "Abbiamo ideato insieme a Samuel, una nuova identità visiva per la sua azienda che trasforma prodotti orticoli a km zero in frutti e ortaggi essiccati pronti all’uso quali: tisane, zuppe e frutta per ingolosire yogurt e gelati."
         ],
         "logoImg": "/portfolioImg/bequet/logo_becquet.jpg",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/bequet/typo_becquet.png"
+          "typoImg": "/portfolioImg/bequet/typo_becquet_text.png",
+          "typoImg2": "/portfolioImg/bequet/typo_becquet_font.png"
         },
         "color": {
           "titolo": "Color Brand",
           "descrizione": [
             "Abbiamo deciso con Samuel di utilizzare colori neutri che richiamassero la terra, in grado di far esaltare i prodotti essiccati tradizionali della Valle d’Aosta.",
-            "Per richiamare i colori della bandiere valdostana abbiamo inserito nelle grafiche una coccinella, simbolo esso stesso di genuinità, utilizzando al posto del nero un marrone molto scuro."
+            "Per richiamare i colori della bandiera valdostana, abbiamo inserito nelle grafiche una coccinella (simbolo esso stesso di genuinità), utilizzando al posto del nero un marrone molto scuro."
           ],
           "colorImg": "/portfolioImg/bequet/brandcolor_bequet.png"
         },
@@ -1093,9 +1097,9 @@
         "label": {
           "titolo": "Label Design ",
           "labelImg": "/portfolioImg/bequet/label1_sam.png",
-          "cartellinoImg": "/portfolioImg/bequet/label2_sam.png",
-          "caramelleImg": "/portfolioImg/bequet/label3_sam.png",
-          "biscottiImg": "/portfolioImg/bequet/label4_sam.png",
+          "cartellinoImg": "/portfolioImg/bequet/label4_sam.png",
+          "caramelleImg": "/portfolioImg/bequet/label2_sam.png",
+          "biscottiImg": "/portfolioImg/bequet/label3_sam.png",
           "scatoleImg": "/portfolioImg/bequet/cartellino.png"
         }
       },
@@ -1110,7 +1114,8 @@
         "introTitolo": "Progetto",
         "cliente": {
           "titolo": "cliente",
-          "nome": "Le Rêve en Vert - Azienda agricola di Andrea Casadei"
+          "nome": "Le Rêve en Vert",
+          "payoff": "Azienda agricola di Andrea Casadei"
         },
         "anno": {
           "titolo": "anno",
@@ -1125,13 +1130,14 @@
           "nome": ["branding", "label design"]
         },
         "desc": [
-          "Abbiamo completamente rinnovato il logo originale e, in collaborazione con Andrea, abbiamo sviluppato una strategia di branding completa. ",
-          "Questa strategia ha incluso la creazione di una linea coordinata per i prodotti trasformati e la promozione attraverso materiali stampati di alta qualità, sia all’interno del punto vendita che all’esterno."
+          "Con Andrea abbiamo rinnovato il logo originale e sviluppato una linea di branding completa. ",
+          "Questa strategia ha incluso la creazione di un'immagine coordinata per i prodotti trasformati e la promozione attraverso materiali stampati di alta qualità, sia all’interno del punto vendita che all’esterno."
         ],
         "logoImg": "/portfolioImg/casadei/brand_casadei.png",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/casadei/typo_casadei.png"
+          "typoImg": "/portfolioImg/casadei/typo_casadei_text.png",
+          "typoImg2": "/portfolioImg/casadei/typo_casadei_font.png"
         },
         "color": {
           "titolo": "Color Brand",
@@ -1142,7 +1148,7 @@
           "sponsorImg": "/portfolioImg/casadei/sponsor.png"
         },
         "illustrazioni": {
-          "titolo": "Illustrazioni e Patterns",
+          "titolo": "Illustrazioni e Pattern",
           "descrizione": "Per realizzare i pattern abbiamo creato delle illustrazioni a mano libera, convertite successivamente in formato vettoriale.",
           "illImg": "/portfolioImg/casadei/pattern_casadei.png"
         },
@@ -1158,18 +1164,19 @@
         "img": "/portfolioImg/phillacolor/cover_phillacolor.jpg",
         "name": "Phillacolor",
         "title": "phillacolor",
-        "descrizione": "Eco-liquid Dye",
+        "descrizione": "Eco-Liquid Dye",
         "location": "Saint -Pierre  - Valle d’Aosta",
         "link": "/works/phillacolor",
         "button": ["Branding", "Label Design"],
         "introTitolo": "Progetto",
         "cliente": {
           "titolo": "cliente",
-          "nome": "Phillacolor"
+          "nome": "Phillacolor ",
+          "payoff": "Eco-Liquid Dye"
         },
         "anno": {
           "titolo": "anno",
-          "nome": "2023"
+          "nome": "2020"
         },
         "keywords": {
           "titolo": "keywords",
@@ -1180,17 +1187,18 @@
           "nome": ["branding", "label design"]
         },
         "desc": [
-          "Per un’idea sostenibile e innovativa abbiamo elaborato con Laura una strategia comunicativa che facesse emergere la filosofia del prodotto relizzato solo con materie prime naturali e sostenibili."
+          "Per un’idea sostenibile e innovativa, abbiamo elaborato con Laura, una strategia comunicativa che facesse emergere la filosofia del prodotto, realizzato solo con materie prime naturali e sostenibili."
         ],
         "logoImg": "/portfolioImg/phillacolor/logo_phillacolor.png",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/phillacolor/typo_phillacolor.png"
+          "typoImg": "/portfolioImg/phillacolor/typo_phillacolor_text.png",
+          "typoImg2": "/portfolioImg/phillacolor/typo_phillacolor_font.png"
         },
         "color": {
           "titolo": "Color Brand",
           "descrizione": [
-            "Abbiamo stabilito con Laura una gamma cromatica che traesse ispirazione dal verde della clorofilla delle piante utilizzate per creare le tinture naturali."
+            "Abbiamo stabilito con Laura una gamma cromatica, che traesse ispirazione dal verde della clorofilla, delle piante utilizzate per creare le tinture naturali."
           ],
           "colorImg": "/portfolioImg/phillacolor/colorbrand_philla.png",
           "colorImg2": "/portfolioImg/phillacolor/colorbrand_philla2.png"
@@ -1213,7 +1221,8 @@
         "introTitolo": "Progetto",
         "cliente": {
           "titolo": "cliente",
-          "nome": "Chappoz - Azienda agricola"
+          "nome": "Chappoz",
+          "payoff": "Azienda agricola"
         },
         "anno": {
           "titolo": "anno",
@@ -1228,23 +1237,24 @@
           "nome": ["branding", "label design", "social media"]
         },
         "desc": [
-          "La volontà era quella di proporre un’immagine che identificasse l’azienda agricola a conduzione familiare che coltiva mais, cereali e ortaggi in bassa valle a Donnas."
+          "La volontà era quella di proporre un’immagine che identificasse l’azienda agricola, a conduzione familiare, che coltiva mais, cereali e ortaggi in bassa valle a Donnas."
         ],
         "logoImg": "/portfolioImg/chappoz/logos.png",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/chappoz/typo_chap.png"
+          "typoImg": "/portfolioImg/chappoz/typo_chap_text.png",
+          "typoImg2": "/portfolioImg/chappoz/typo_chap_font.png"
         },
         "color": {
           "titolo": "Color Brand",
           "descrizione": [
-            "In collaborazione con Monica abbiamo scelto dei colori che richiamassero la terra, le coltivazioni di mais e granoturco e i piccoli frutti."
+            "In collaborazione con Monica, abbiamo scelto dei colori che richiamassero la terra, le coltivazioni di mais e granoturco e i piccoli frutti."
           ],
           "colorImg": "/portfolioImg/chappoz/color.png"
         },
         "illustrazioni": {
           "titolo": "Illustrazioni",
-          "descrizione": "Ogni prodotto è stato eseguito a mano libera a matita, e in seguito digitalizzato e vettorializzato.",
+          "descrizione": "Ogni illustrazione è stata realizzata a mano libera, a matita e in seguito digitalizzata e resa vettoriale.",
           "illImg": "/portfolioImg/chappoz/illustrazioni.png"
         },
         "label": {
@@ -1255,7 +1265,7 @@
         "social": {
           "titolo": "Social",
           "descrizione": [
-            "Creazione di contenuti fotografici e testuali ad hoc per la promozione dell’azienda sui canali social di Meta."
+            "Creazione di contenuti fotografici e testuali ad hoc, per la promozione dell’azienda sui canali social di Meta."
           ],
           "socialImg": ["/portfolioImg/chappoz/social_chappoz.png"]
         }
@@ -1271,7 +1281,8 @@
         "introTitolo": "Progetto",
         "cliente": {
           "titolo": "cliente",
-          "nome": "Da Emy - Piante Officinali"
+          "nome": "Da Emy",
+          "payoff": "Piante Officinali"
         },
         "anno": {
           "titolo": "anno",
@@ -1292,12 +1303,13 @@
         "logoImg": "/portfolioImg/daemy/brand_emy.png",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/daemy/typo_emy.png"
+          "typoImg": "/portfolioImg/daemy/typo_emy_text.png",
+          "typoImg2": "/portfolioImg/daemy/typo_emy_font.png"
         },
         "color": {
           "titolo": "Color Brand",
           "descrizione": [
-            "Abbiamo deciso con Emy di utilizzare i colori dei fiori e delle piantine da lei coltivate nelle varie gradazioni colore, per creare un piacevole contrasto con le illustrazioni botaniche."
+            "Abbiamo deciso con Emy, di utilizzare i colori dei fiori e delle piantine da lei coltivate, nelle varie gradazioni colore, per creare un piacevole contrasto con le illustrazioni botaniche."
           ],
           "colorImg": "/portfolioImg/daemy/colors.png",
           "colorImg2": "/portfolioImg/daemy/colors2.png"
@@ -1327,7 +1339,8 @@
         "introTitolo": "Progetto",
         "cliente": {
           "titolo": "cliente",
-          "nome": "Horto Sapiens"
+          "nome": "Horto Sapiens",
+          "payoff": "Prodotti tipici di Monte Amiata e Val d'Orcia"
         },
         "anno": {
           "titolo": "anno",
@@ -1347,7 +1360,8 @@
         "logoImg": "/portfolioImg/horto/logo_horto.png",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/horto/typo_horto.png"
+          "typoImg": "/portfolioImg/horto/typo_horto_text.png",
+          "typoImg2": "/portfolioImg/horto/typo_horto_font.png"
         },
         "color": {
           "titolo": "Color Brand",
@@ -1359,7 +1373,7 @@
         },
         "illustrazioni": {
           "titolo": "Illustrazioni Vettoriali",
-          "descrizione": "Per contraddistinguere ogni prodotto ho realizzato delle icone vettoriali stilizzate, identificative dello stesso, aventi tutte lo stesso stile.",
+          "descrizione": "Per contraddistinguere ogni prodotto, ho realizzato delle icone vettoriali stilizzate, identificative dello stesso, aventi tutte lo stesso stile.",
           "illImg": "/portfolioImg/horto/illustrazioni.png"
         },
         "label": {
@@ -1379,7 +1393,8 @@
         "introTitolo": "Progetto",
         "cliente": {
           "titolo": "cliente",
-          "nome": "Isavivai"
+          "nome": "Isavivai",
+          "payoff": "Vivaio e Serra"
         },
         "anno": {
           "titolo": "anno",
@@ -1394,17 +1409,18 @@
           "nome": ["branding", "allestimenti"]
         },
         "desc": [
-          "Abbiamo ideato insieme a Chérie e Monique una strategia di comunicazione per il nuovo punto vendita, per la comunicazione interna e per la promozione off-line."
+          "Abbiamo ideato insieme a Chérie e Monique, una linea di immagine coordinata per il nuovo punto vendita, e una strategia di marketing per la comunicazione interna e per la promozione offline."
         ],
         "logoImg": "/portfolioImg/isavivai/logo_isavivai.png",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/isavivai/typo_isavivai.png"
+          "typoImg": "/portfolioImg/isavivai/typo_isavivai_text.png",
+          "typoImg2": "/portfolioImg/isavivai/typo_isavivai_font.png"
         },
         "color": {
           "titolo": "Color Brand",
           "descrizione": [
-            "Abbiamo stabilito con Monique e Chérie una gamma colori pastello che identificasse e distinguesse al meglio le aree interne al vivaio."
+            "Abbiamo stabilito con Monique e Chérie, una gamma colori pastello che identificasse e distinguesse al meglio le aree interne al vivaio."
           ],
           "colorImg": "/portfolioImg/isavivai/colors.png",
           "colorImg2": "/portfolioImg/isavivai/colors2.png"
@@ -1415,7 +1431,7 @@
         },
         "label": {
           "titolo": "Allestimenti",
-          "labelImg": "/portfolioImg/isavivai/allestimenti.jpeg"
+          "labelImg": "/portfolioImg/isavivai/allestimenti.png"
         }
       },
       "saintgrat": {
@@ -1423,13 +1439,14 @@
         "name": "Saint Grat",
         "title": "saintgrat",
         "descrizione": "Azienda agricola",
-        "location": "Aymavilles - Valle d’Aosta",
+        "location": "Gressan - Valle d’Aosta",
         "link": "/works/saintgrat",
         "button": ["Branding", "Label Design"],
         "introTitolo": "Progetto",
         "cliente": {
           "titolo": "cliente",
-          "nome": "Saint Grat - Azienda agricola"
+          "nome": "Saint Grat",
+          "payoff": "Azienda agricola"
         },
         "anno": {
           "titolo": "anno",
@@ -1450,7 +1467,8 @@
         "logoImg": "/portfolioImg/saint/brand_saint.png",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/saint/typo_saint.png"
+          "typoImg": "/portfolioImg/saint/typo_saint_text.png",
+          "typoImg2": "/portfolioImg/saint/typo_saint_font.png"
         },
         "color": {
           "titolo": "Color Brand",
@@ -1463,7 +1481,7 @@
           "titolo": "Illustrazioni e Pattern",
           "descrizione": "Per la comunicazione aziendale abbiamo inizialmente puntato su un disegno più manuale che richiamasse la storia stessa dell’azienda.",
           "illImg": "/portfolioImg/saint/illustrazioni_classica.png",
-          "descrizione2": "Per i nuovi prodotti delle linea Green abbiamo invece stabilito di scegliere una linea più moderna basata su icone vettoriali in grado di descrivere il procedimento di realizzazione dei succhi dalla raccolta all’imbottigliamento.",
+          "descrizione2": "Per i nuovi prodotti delle linea Green, abbiamo invece stabilito di scegliere una linea più moderna basata su icone vettoriali in grado di descrivere il procedimento di realizzazione dei succhi dalla raccolta all’imbottigliamento.",
           "illImg2": "/portfolioImg/saint/illustrazioni_green.png"
         },
         "label": {
@@ -1478,14 +1496,15 @@
         "img": "/portfolioImg/morzenti/cover.jpg",
         "name": "Morzenti Daniele",
         "title": "morzenti",
-        "descrizione": "Azienda Agricola",
-        "location": "Gressan - Valle d’Aosta",
+        "descrizione": "Azienda agricola",
+        "location": "Aymavilles - Valle d’Aosta",
         "link": "/works/morzenti",
         "button": ["Branding", "Social Media"],
         "introTitolo": "Progetto",
         "cliente": {
           "titolo": "cliente",
-          "nome": "Morzenti Daniele - Azienda Agricola"
+          "nome": "Morzenti Daniele ",
+          "payoff": "Azienda agricola"
         },
         "anno": {
           "titolo": "anno",
@@ -1500,18 +1519,19 @@
           "nome": ["branding", "social media"]
         },
         "desc": [
-          "Con Daniele abbiamo pensato di stilizzare come logo una pecora Rosset immersa tra i verdi pascoli montani, e di includerla all’interno di un cerchio per creare un bollino di qualità.",
-          "Tutta la strategia si basa sulla promozione sui canali social e sulla realizzazione di contenuti fotografici che raccontano l’azienda a 360°."
+          "Con Daniele, abbiamo pensato di stilizzare come logo una pecora Rosset, immersa tra i verdi pascoli montani, e di includerla all’interno di un cerchio per creare una sorta di bollino di qualità",
+          "Tutta la strategia verte sulla promozione attraverso i canali social di meta e mediante contenuti fotografici e testuali che descrivono l’azienda a 360°."
         ],
         "logoImg": "/portfolioImg/morzenti/brand_morzenti.png",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/morzenti/typo_morzenti.png"
+          "typoImg": "/portfolioImg/morzenti/typo_morzenti_text.png",
+          "typoImg2": "/portfolioImg/morzenti/typo_morzenti_font.png"
         },
         "color": {
           "titolo": "Color Brand",
           "descrizione": [
-            "Sono stati selezionati dei colori che riprendono la terra e i pascoli di montagna: verdi, marroni e qualche colore a contrasto."
+            "Sono stati selezionati dei colori che riprendono quelli della terra e dei pascoli di montagna: verdi, marroni e qualche colore a contrasto."
           ],
           "colorImg": "/portfolioImg/morzenti/colors.png"
         },

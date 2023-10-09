@@ -15,7 +15,7 @@ const Illustrazioni = ({ translation }) => {
         ""
       )}
 
-      <div className="relative h-[20vh] md:h-[70vh] py-2">
+      <div className="relative h-[20vh] md:h-[80vh] py-2">
         <Image
           src={translation?.illImg}
           fill

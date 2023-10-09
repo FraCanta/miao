@@ -30,7 +30,7 @@ const Me = ({ translation }) => {
             return (
               <p
                 key={i}
-                className="text-[8vw] md:text-[3.5vw]"
+                className="text-[8vw] md:text-[2.5vw]"
                 dangerouslySetInnerHTML={{ __html: el }}
               ></p>
             );
@@ -52,12 +52,12 @@ const Me = ({ translation }) => {
           })}
         </section>
         <section className="w-[90%] mx-auto min-h-[20vh] flex flex-col gap-6 mt-[50px]  md:mt-[150px] text-center justify-center items-center">
-          <h3 className="uppercase text-[5vw] md:text-[2.5vw]">
-            La mia creatività non finisce qui,
+          <h3 className="capitalize text-[5vw] md:text-[2.5vw]">
+            La mia creatività non finisce qui...
             <br /> continua su
           </h3>
           <Link
-            href="https://www.behance.net/miaographics/projects"
+            href="https://miaographics.myportfolio.com/work"
             target="_blank"
             className="hand-pointer font-medium gap-2 w-54 py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 border 2xl:text-xl fxl:text-2xl 3xl:text-3xl rounded shadow  hover:transition-all border-red  bg-red flex items-center justify-center"
           >

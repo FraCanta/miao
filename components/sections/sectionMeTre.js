@@ -36,7 +36,8 @@ const SectionMeTre = ({ translation }) => {
           </div>
 
           <Link
-            href=""
+            href="https://www.mithacreative.it/"
+            target="_blank"
             className="w-full  justify-end items-center inline-flex"
           >
             <span className="text-main text-xl 3xl:text-3xl font-extrabold underline capitalize leading-tight">
