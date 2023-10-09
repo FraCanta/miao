@@ -2,7 +2,6 @@ import Image from "next/image";
 import React from "react";
 
 const Typography = ({ translation }) => {
-  console.log(translation);
   return (
     <div>
       <h3 className="text-[6vw] md:text-[3.5vw] font-bold text-main">

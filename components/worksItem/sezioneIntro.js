@@ -2,7 +2,6 @@ import Image from "next/image";
 import React from "react";
 import Graffa from "../../public/portfolioImg/graffa_grigia.png";
 const SezioneIntro = ({ translation }) => {
-  console.log(translation);
   return (
     <>
       <h2 className="text-[10.26vw] md:text-[5.95vw] mt-4 font-bold text-main">

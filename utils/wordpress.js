@@ -97,24 +97,24 @@ export async function getCategories(lang, onlyFull = true) {
     revalidate: 900,
   });
   const categories = await categoriesRes.json();
-  const filteredCategories = categories?.filter((el) =>
-    el?.description.includes(lang) && el?.description.includes("miaographics")
+  const filteredCategories = categories?.filter(
+    (el) =>
+      el?.description.includes(lang) && el?.description.includes("miaographics")
   );
   const fullCategories = onlyFull
     ? filteredCategories?.filter((el) => el?.count > 0)
     : filteredCategories;
 
-//   if (!!lang) {
-//     lang === "it" && 
-//       fullCategories.splice(0, 0, { id: 0, name: "Tutte le categorie" });
-//     lang === "en" &&
-//       fullCategories.splice(0, 0, { id: 0, name: "All categories" });
-//     return fullCategories;
-//   } else {
-//     return categories;
-//   }
-console.log(filteredCategories)
-return fullCategories
+  //   if (!!lang) {
+  //     lang === "it" &&
+  //       fullCategories.splice(0, 0, { id: 0, name: "Tutte le categorie" });
+  //     lang === "en" &&
+  //       fullCategories.splice(0, 0, { id: 0, name: "All categories" });
+  //     return fullCategories;
+  //   } else {
+  //     return categories;
+  //   }
+  return fullCategories;
 }
 
 export async function getSlugs(type) {
@@ -153,13 +153,12 @@ export async function getPostsByLanguageAndBlogOwner(
   resObj.en = await getTagId("en");
   resObj.en = await getTagId("fr");
   const ownerPosts = await getPosts(resObj.ownerId); // tutti i posts in tutte lingue del blogOwner
-  
+
   return {
     ...resObj,
     it: ownerPosts.filter((el) => el?.tags?.includes(resObj.it)),
     en: ownerPosts.filter((el) => el?.tags?.includes(resObj.en)),
     fr: ownerPosts.filter((el) => el?.tags?.includes(resObj.fr)),
-
   };
 }
 

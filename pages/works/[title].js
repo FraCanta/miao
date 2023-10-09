@@ -10,8 +10,26 @@ import Illustrazioni from "@/components/worksItem/illustrazioni";
 import Label from "@/components/worksItem/label";
 import Social from "@/components/worksItem/social";
 import Head from "next/head";
+import Link from "next/link";
+import React from "react";
+const Works = ({ works, previousWork, nextWork }) => {
+  const [showButtons, setShowButtons] = React.useState(false);
 
-const Works = ({ works }) => {
+  React.useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 250) {
+        setShowButtons(true);
+      } else {
+        setShowButtons(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <>
       <Head>
@@ -66,6 +84,16 @@ const Works = ({ works }) => {
       ) : (
         ""
       )}
+
+      <div
+        className={`pagination-buttons ${
+          showButtons ? "show-pagination-buttons" : ""
+        }`}
+      >
+        {" "}
+        {previousWork && <Link href={`/works/${previousWork}`}>&lt; Prev</Link>}
+        {nextWork && <Link href={`/works/${nextWork}`}>Next &gt;</Link>}
+      </div>
     </>
   );
 };
@@ -94,6 +122,10 @@ export async function getStaticProps(context) {
   let targetObj = obj?.portfolio?.singleWorks?.[params?.title];
 
   const arr = Object.keys(obj?.portfolio?.singleWorks);
+  const currentIndex = arr.findIndex((el) => el === params.title);
+  const previousWork = currentIndex > 0 ? arr[currentIndex - 1] : null;
+
+  const nextWork = currentIndex < arr.length - 1 ? arr[currentIndex + 1] : null;
   const filteredOthers = arr
     .filter((el) => el !== params?.title) // Exclude the current service
     .map((el) => {
@@ -110,6 +142,8 @@ export async function getStaticProps(context) {
     props: {
       works: targetObj,
       others: filteredOthers,
+      previousWork,
+      nextWork,
     },
   };
 }
@@ -134,6 +168,7 @@ export async function getStaticPaths({ locale }) {
   }
 
   const works = Object.keys(obj?.portfolio?.singleWorks);
+
   const pathEn = works?.map((el) => {
     return {
       params: {

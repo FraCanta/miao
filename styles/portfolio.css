@@ -1,0 +1,31 @@
+.pagination-buttons {
+  position: fixed;
+  top: 50%;
+  left: 0%;
+  opacity: 0;
+  padding: 10px;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.pagination-buttons a {
+  background-color: var(--white);
+  padding: 10px 20px;
+  border: 1px solid #afafaf;
+  text-decoration: none;
+  border-radius: 5px;
+  color: var(--red);
+}
+
+.pagination-buttons a:hover {
+  background-color: var(--red);
+  color: var(--white);
+  border-color: var(--red);
+}
+
+.show-pagination-buttons {
+  opacity: 1;
+}
