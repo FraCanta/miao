@@ -325,6 +325,90 @@ section {
     width: 2560px !important;
   }
 }
+@media screen and (min-width: 5000px) {
+  .marquee__content .logo {
+    width: auto;
+  }
+
+  .marquee {
+    --gap: 15rem;
+  }
+
+  .eMlkQV {
+    width: 20px;
+    height: 20px;
+  }
+
+  .fNqGxJ {
+    font-size: 60px !important;
+    line-height: 40px !important;
+    margin-bottom: 40px;
+  }
+
+  .bNlWwC > div > div {
+    font-size: 50px;
+  }
+
+  .fRYNlR {
+    width: 70px !important;
+    height: 70px !important;
+  }
+
+  .jmhlpF {
+    margin-bottom: 30px !important;
+  }
+
+  .capcOd {
+    padding: 60px;
+  }
+
+  .kdDwXd {
+    font-size: 30px !important;
+  }
+  .hDDUYK {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+
+  .cEynvZ {
+    width: 30px !important;
+    height: 30px !important;
+    margin-bottom: 20px;
+  }
+  .hCDqLO {
+    margin-right: 45px !important;
+  }
+
+  .gBcYjk {
+    font-size: 25px;
+  }
+
+  .fIkVWg {
+    font-size: 25px !important;
+  }
+
+  .kzANES {
+    margin: 0 !important;
+  }
+
+  .swiper-slide .swiper-slide-visible .swiper-slide-active {
+    width: 580px !important;
+  }
+
+  .eMlkQV {
+    width: 25px !important;
+    height: 25px !important;
+  }
+
+  .fRCAcw {
+    font-size: 30px !important;
+    margin-top: 10px;
+  }
+
+  .eDfoHK {
+    width: 4600px !important;
+  }
+}
 
 @media screen and (max-width: 360px) {
   .port_p {

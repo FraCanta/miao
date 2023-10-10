@@ -41,7 +41,7 @@ const SectionTre = ({ translation }) => {
                 <div className="w-full 2xl:justify-end items-center inline-flex mt-10">
                   <Link
                     href="/portfolio"
-                    className="text-main text-2xl fxl:text-3xl 3xl:text-4xl font-extrabold underline capitalize leading-normal "
+                    className="text-main text-2xl fxl:text-3xl 3xl:text-4xl 4xl:text-[5rem] font-extrabold underline capitalize leading-normal "
                   >
                     {translation?.cta}
                   </Link>

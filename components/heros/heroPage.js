@@ -17,7 +17,7 @@ const HeroPage = ({ img, title }) => {
       <Image
         src={img}
         alt="immagine del servizio"
-        className="object-contain w-full lg:w-[500px] xl:w-[680px] fxl:w-[1000px] 3xl:w-[1200px] h-full"
+        className="object-contain w-full lg:w-[500px] xl:w-[680px] fxl:w-[1000px] 3xl:w-[1200px] 4xl:w-auto h-full"
         width={780}
         height={800}
         priority

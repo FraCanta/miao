@@ -8,41 +8,40 @@
     },
     "sezioneUno": {
       "paragrafi": [
-        "<p>Mi chiamo <strong>Elisa </strong> e mi trovi online come <strong>Miaographics</strong>. Sono una <strong>Graphic Designer</strong> e <strong>Content Creator</strong>, e sono qui per essere la tua partner nella definizione dell’identità visiva della tua azienda.</p>  <p>Posso creare per te un logo su misura, in base alle tue esigenze strategiche e alla tua mission, dal design unico, che ti aiuti a farti notare e a differenziarti dai competitors. </p><p>Aiuto le piccole e medie aziende a raggiungere i propri obiettivi di business, mediante un’analisi approfondita del prodotto/servizio, del mercato e del target.</p>",
-        "<p>Posso offrirti soluzioni personalizzate in linea con tuo budget e con i tuoi obiettivi. Il mio scopo è quello di aiutarti ad avere un’immagine forte e una comunicazione coerente che ti permetta di distinguerti dalla concorrenza, raggiungere nuovi clienti e crescere.</p><p> Per me, è fondamentale conoscere la tua storia, la tua realtà e i tuoi obiettivi aziendali. Attraverso un incontro conoscitivo, che può anche essere online, sarò in grado di capire le tue esigenze e sviluppare una comunicazione visiva su misura per te.</p>"
+        "<p>Mi chiamo <strong>Elisa </strong> e mi trovi online come <strong>Miaographics</strong>. ",
+        "Sono una <strong>Graphic Designer</strong> e <strong>Content Creator</strong>, e sono qui per essere la tua partner nella definizione dell’identità visiva della tua azienda.</p>  <p>Posso creare per te un logo su misura, in base alle tue esigenze strategiche e alla tua mission, dal design unico, che ti aiuti a farti notare e a differenziarti dai competitors. </p>",
+        "<p><strong>Aiuto le piccole e medie aziende</strong> a raggiungere i propri obiettivi di business, mediante un’analisi approfondita del prodotto/servizio, del mercato e del target.</p>"
+      ],
+      "paragrafi2": [
+        "<p>Posso offrirti <strong>soluzioni personalizzate</strong> in linea con tuo budget e con i tuoi obiettivi. Il mio scopo è quello di aiutarti ad avere un’immagine forte e una comunicazione coerente che ti permetta di distinguerti dalla concorrenza, raggiungere nuovi clienti e crescere.</p>",
+        "<p> Per me, è fondamentale conoscere la tua storia, la tua realtà e i tuoi obiettivi aziendali. </p>",
+        "<p>Attraverso un incontro conoscitivo, che può anche essere online, sarò in grado di capire le tue esigenze e sviluppare una comunicazione visiva su misura per te.</p>"
       ],
       "cta": "conosciamoci",
       "title": "/sectionsTitle/welcome_title.png"
     },
     "sezioneDue": {
-      "paragrafi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
       "cta": "cosa offro",
       "title": "/sectionsTitle/sezioneDue.png",
       "img": "/sectionsTitle/servizi_generici.png",
       "titoloP": "Soluzioni Creative a 360°",
       "descrizione": "Il Graphic Design e la Comunicazione Visiva sono l’arte invisibile che permea il nostro mondo. Si tratta di molto più di semplici immagini e colori; sono strumenti potenti che plasmano le nostre percezioni e guidano le nostre decisioni.",
       "descrizione2": "In un’era digitale, dove l’attenzione è un bene prezioso, il design ben pensato cattura l’occhio e trattiene l’attenzione. È la differenza tra essere notati o ignorati. ",
-      "descrizione3": "La Comunicazione Visiva è lo strumento che trasforma le idee in realtà, che da vita al marchio e che comunica contenuti ad alto impatto sensoriale destando l’attenzione del pubblico target."
+      "descrizione3": "<strong>La Comunicazione Visiva</strong> è lo strumento che trasforma le idee in realtà, che da vita al marchio e che comunica contenuti ad alto impatto sensoriale destando l’attenzione del pubblico target."
     },
     "sezioneTre": {
       "paragrafi": "La mia missione è assistere le piccole realtà aziendali nella definizione di un’immagine coordinata che sia unica ed efficace. Questo processo è fondamentale per distinguersi dalla concorrenza e per consolidare la propria presenza sul mercato off e on-line. Creo contenuti sia visivi che testuali che siano in linea con gli obiettivi di business e che si  sappiano coinvolgere il giusto pubblico.",
 
-      "cta": "i miei casi",
+      "cta": "Case History",
       "title": "/sectionsTitle/sezioneTre.png",
       "img": "/sectionsTitle/logosmix.jpg",
       "titoloP": "Alcuni lavori svolti",
       "paragrafo1": "La mia missione è assistere le piccole realtà aziendali nella definizione di un’immagine coordinata che sia unica ed efficace. Questo processo è fondamentale per distinguersi dalla concorrenza e per consolidare la propria presenza sul mercato off e on-line. Creo contenuti sia visivi che testuali che siano in linea con gli obiettivi di business e che si  sappiano coinvolgere il giusto pubblico."
     },
     "sezioneQuattro": {
-      "paragrafi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-      "cta": "i miei casi",
+      "cta": "Altre notizie",
       "title": "/sectionsTitle/sezioneQuattro.png",
-      "img": "/sectionsTitle/postImg.png",
-      "titoloP": "Lorem ipsum",
-      "paragrafo1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "paragrafo2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "img": "/sectionsTitle/postImg.png"
     }
   },
   "me": {
@@ -76,7 +75,7 @@
       "img": "/assets/mitha_animation.gif",
       "paragrafi": [
         "Inoltre, c'è Mitha, un'idea creativa che è nata quasi per gioco, una scommessa tra me e <a href='https://www.thallion-dev.it/' target='_blank'><strong>Thallion+dev</strong></a>, una talentuosa web designer che ha anche creato il mio sito. Ho sempre cercato di circondarmi di professionisti determinati e concreti nel perseguire i loro obiettivi.",
-        "Questo progetto condiviso è un'opportunità per i clienti, poiché in Mitha possono trovare tutte le soluzioni di cui hanno bisogno senza dover cercare altrove. Stay tuned!"
+        "Questo progetto condiviso è un'opportunità per i clienti, poiché in Mitha possono trovare tutte le soluzioni di cui hanno bisogno senza dover cercare altrove.<span style='color:#de4928;font-weight: bold'> Stay tuned!</span>"
       ],
       "cta": "Scopri di più"
     },
@@ -148,7 +147,7 @@
         "intro": [
           "Un logo design efficace ha un impatto duraturo sulla percezione dell’azienda nel corso del tempo.",
           "È parte fondamentale della strategia di branding, e contribuisce a costruire la reputazione e la notorietà del brand nel lungo periodo.",
-          "Se stai iniziando una nuova attività e ancora non hai un logo distintivo che rappresenti al meglio la tua azienda, sei nel posto giusto!",
+          "Se stai iniziando una nuova attività e ancora non hai <strong>un logo distintivo</strong> che rappresenti al meglio la tua azienda, sei nel posto giusto!",
           "Hai bisogno di un’immagine visiva su misura, in perfetta sintonia con la tua mission e adatta al tuo pubblico di riferimento?"
         ],
         "title": "/serviziImg/logo_Title.png",
@@ -158,12 +157,14 @@
         ],
         "titleList": " Cosa otterrai:",
         "list": [
-          "1 logo in formato vettoriale (pdf), ideale per qualsiasi comunicazione stampata e/o tipografica.",
-          "1 logo in formato web (jpeg e gif), perfetto per i tuoi canali social e online.",
+          "1 logo in formato vettoriale (pdf), ideale per qualsiasi comunicazione stampata e/o tipografica",
+          "1 logo in formato web (jpeg e gif), perfetto per i tuoi canali social e online",
           "1 manuale d’uso con le brand guidelines"
         ],
+        "preventivo": "Chiedi un preventivo",
         "descrizione": "Un logo progettato su misura, in base al tuo target di riferimento e alla tua vision è un investimento per il successo della tua azienda.",
         "link": "logo",
+        "galleryTitle": "Ecco alcuni esempi",
         "gallery": [
           {
             "src": "/serviziImg/logoDesign/logoDesign.jpg",
@@ -232,7 +233,11 @@
             "width": 600,
             "height": 600
           }
-        ]
+        ],
+        "call": "Prenota una call con me",
+        "titleOpzioni": "Perchè non volere di più? Ecco altre opzioni su misura per te",
+        "descOpzioni": "Lavoreremo insieme a Francesca, web designer molto talentuosa, per ideare un sito web professionale che ti permetta di rafforzare la tua identità aziendale e così consolidando la tua presenza online. Grazie alle sue competenze, ti propongo queste opzioni:",
+        "opzioni": "Ti potrebbe anche interessare"
       },
       "branding": {
         "img": "/serviziImg/branding.png",
@@ -241,7 +246,7 @@
         "introTitle": "Non solo logo!",
         "intro": [
           "La mia missione è andare oltre la creazione di un semplice logo. ",
-          "Voglio aiutarti a definire l’immagine completa della tua azienda, dall’inizio alla fine, analizzando attentamente la tua vision, la tua mission e il tuo target. Insieme, svilupperemo una strategia di marketing su misura, che darà vita alla tua identità aziendale, rendendola unica, riconoscibile e memorabile. ",
+          "Voglio aiutarti a definire <strong>l’immagine completa della tua azienda</strong>, dall’inizio alla fine, analizzando attentamente la tua vision, la tua mission e il tuo target. Insieme, svilupperemo una strategia di marketing su misura, che darà vita alla tua identità aziendale, rendendola unica, riconoscibile e memorabile. ",
           "Il branding non si limita solo alla progettazione del logo, ma comprende una serie di azioni specifiche e mirate, volte a comunicare e consolidare l’immagine del tuo brand all’interno del tuo mercato di riferimento. ",
           "Desideriamo che il tuo “marchio” spicchi grazie a un’immagine coordinata, curata in ogni dettaglio, in grado di sostenere al meglio tutte le tue iniziative di marketing.",
           "Sono qui per farti notare e aiutarti a distinguerti dai competitor!"
@@ -249,12 +254,12 @@
         "titlePro": "Sono qui per te:",
         "descPro": [
           "A seguito di una call conoscitiva analizzeremo insieme la tua mission, la tua vision, il tuo target e i tuoi prodotti/servizi.",
-          "Definiremo poi insieme i supporti necessari per costruire una strategia di marketing che ti permetta di rafforzare la tua identità aziendale e raggiungere i tuoi obiettivi"
+          "Definiremo poi insieme i supporti necessari per costruire una strategia di marketing che ti permetta di rafforzare la tua identità aziendale e raggiungere <strong>i tuoi obiettivi</strong>."
         ],
 
         "titleList": " Cosa otterrai:",
         "list": [
-          "Un piano strategico ideato su misura per te in base ai tuoi obiettivi e al tuo target."
+          "Un piano strategico ideato su misura per te in base ai tuoi obiettivi e al tuo target"
         ],
         "descrizione": "Una buona strategia di branding ti permette di differenziarti dalla concorrenza e di costruire un'identità forte, unica e riconoscibile.",
         "link": "logo",
@@ -349,11 +354,11 @@
         "title": "/serviziImg/label_Title.png",
         "introTitle": "Packaging e Label: Dai Voce al Tuo Prodotto!",
         "intro": [
-          "Spesso diamo per scontati il label e il packaging design, ma in realtà, sono dei veri e propri “ambasciatori” del nostro prodotto. ",
-          "Immagina di passeggiare per il supermercato e notare un prodotto con un packaging accattivante e un’etichetta che trasmette un senso di qualità e personalità.",
-          "Questi dettagli non solo catturano la tua attenzione ma comunicano anche il valore intrinseco del prodotto. ",
-          "E sai una cosa? Possono fare la differenza tra scegliere quel prodotto o lasciarlo lì sugli scaffali.",
-          "Oggi giorno, immersi in un mercato sempre più competitivo, il label e il packaging design diventano ancor più cruciali. Non solo catturano l’interesse del pubblico, ma contribuiscono a creare un’esperienza d’acquisto memorabile. ",
+          "Spesso diamo per scontati il label e il packaging design, ma in realtà, sono dei veri e propri “ambasciatori” del nostro prodotto ",
+          "Immagina di passeggiare per il supermercato e notare un prodotto con un packaging accattivante e un’etichetta che trasmette un senso di qualità e personalità",
+          "Questi dettagli non solo catturano la tua attenzione ma comunicano anche il valore intrinseco del prodotto",
+          "E sai una cosa? Possono fare la differenza tra scegliere quel prodotto o lasciarlo lì sugli scaffali",
+          "Oggi giorno, immersi in un mercato sempre più competitivo, il label e il packaging design diventano ancor più cruciali. Non solo catturano l’interesse del pubblico, ma contribuiscono a creare un’esperienza d’acquisto memorabile",
           "Sono qui per aiutarti a scegliere il miglior contenitore per il tuo prodotto e a vestirlo con un look unico e accattivante"
         ],
         "titlePro": "Sono qui per te:",
@@ -374,7 +379,11 @@
         "link": "label",
         "gallery": [
           { "src": "/serviziImg/label/pack2.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/label/pack3.jpg", "width": 600, "height": 600 },
+          {
+            "src": "/serviziImg/label/pack3_new.jpg",
+            "width": 600,
+            "height": 600
+          },
           { "src": "/serviziImg/label/pack4.jpg", "width": 600, "height": 600 },
           { "src": "/serviziImg/label/pack5.jpg", "width": 600, "height": 600 },
           {
@@ -409,7 +418,7 @@
         ],
         "titleList": "Cosa Otterrai:",
         "list": [
-          "Un piano editoriale strategico personalizzato in base ai tuoi obiettivi e al tuo target.",
+          "Un piano editoriale strategico personalizzato in base ai tuoi obiettivi e al tuo target",
           "Una gestione mensile completa dei canali Meta (in base alle tue esigenze)",
           "Contenuti creati ad hoc per te, in grado di generare lead"
         ],
@@ -628,7 +637,7 @@
         "intro": [
           "Le illustrazioni personalizzate sono la firma del tuo brand. Possono catturare l’essenza della tua identità aziendale in un’immagine, rendendo il tuo brand immediatamente riconoscibile e memorabile.",
 
-          "Le immagini parlano più intensamente delle parole, e le illustrazioni personalizzate sono un linguaggio universale. Possono trasmettere emozioni, concetti e storie in un istante, senza bisogno di spiegazioni.",
+          "Le <strong>immagini parlano più intensamente delle parole</strong>, e le illustrazioni personalizzate sono un linguaggio universale. Possono trasmettere emozioni, concetti e storie in un istante, senza bisogno di spiegazioni.",
           "In un mondo saturo di contenuti visivi generici, le illustrazioni personalizzate ti distinguono. Rendono il tuo brand unico, attraente e irresistibile agli occhi del pubblico.",
           "I pattern personalizzati, creati con illustrazioni, aggiungono coesione e riconoscibilità a tutti i tuoi materiali di marketing. Permettono di creare un'armonia comunicativa tra il brand e il prodotto."
         ],
@@ -645,7 +654,7 @@
           "Illustrazioni digitali",
           "Illustrazioni artigianali a tecnica mista",
           "Pattern",
-          "...e altri elementi visivi a supporto della tua comunicazione."
+          "...e altri elementi visivi a supporto della tua comunicazione"
         ],
 
         "link": "illustrazione",
@@ -666,7 +675,7 @@
             "height": 600
           },
           {
-            "src": "/serviziImg/illustrazione/illustrazioni5.jpg",
+            "src": "/serviziImg/illustrazione/illustrazioni5_new.jpg",
             "width": 600,
             "height": 600
           },
@@ -741,7 +750,7 @@
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content4.jpg",
+            "src": "/serviziImg/creator/content_4.jpg",
             "width": 600,
             "height": 600
           },
@@ -771,7 +780,7 @@
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content10.jpg",
+            "src": "/serviziImg/creator/content_10.jpg",
             "width": 600,
             "height": 600
           },
@@ -927,7 +936,7 @@
         "button": ["Branding", "Label Design"]
       },
       {
-        "img": "/portfolioImg/chappoz/cover_chappoz.webp",
+        "img": "/portfolioImg/chappoz/cover_chappoz_new.webp",
         "name": "Chappoz",
         "title": "chappoz",
         "descrizione": "Azienda Agricola",
@@ -1216,7 +1225,7 @@
         }
       },
       "chappoz": {
-        "img": "/portfolioImg/chappoz/cover_chappoz.webp",
+        "img": "/portfolioImg/chappoz/cover_chappoz_new.webp",
         "name": "Chappoz",
         "title": "chappoz",
         "descrizione": "Azienda Agricola",
@@ -1568,6 +1577,18 @@
     "hero": {
       "title": "/pageImg/contattiTitle.png",
       "img": "/pageImg/lupo.png"
+    },
+    "contactForm": {
+      "row1": "Ciao! Mi chiamo",
+      "row1Right": "e lavoro a",
+      "row2": "Ti ho trovata usando",
+      "row3": "Ho bisogno di aiuto con:",
+      "row4": "Vorrei restare attorno a:",
+      "row5": "Non esitare a contattarmi su",
+      "row5Right": "per cominciare a parlarne.",
+      "row6": "Mi piacerebbe condividere maggiori dettagli sul mio progetto:",
+      "btn": "Invia",
+      "passaparola": "Passaparola"
     }
   }
 }

@@ -37,9 +37,8 @@ const Servizi = ({ servizio, others, serviziFra }) => {
                 <p
                   key={i}
                   className="text-second text-[5.6vw] md:text-[3.5vw] xl:text-[1.9vw] 2xl:text-[1.3vw]"
-                >
-                  {p}
-                </p>
+                  dangerouslySetInnerHTML={{ __html: p }}
+                ></p>
               );
             })}
           </div>
@@ -55,9 +54,8 @@ const Servizi = ({ servizio, others, serviziFra }) => {
                     <p
                       key={i}
                       className="text-second text-[5.6vw] md:text-[3.5vw] xl:text-[1.9vw] 2xl:text-[1.3vw]"
-                    >
-                      {el}
-                    </p>
+                      dangerouslySetInnerHTML={{ __html: el }}
+                    ></p>
                   );
                 })}
               </div>
@@ -94,12 +92,12 @@ const Servizi = ({ servizio, others, serviziFra }) => {
               href="/contatti"
               className="capitalize font-bold py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 border text-[4.5vw] md:text-[3.5vw] xl:text-[2vw]  2xl:text-xl fxl:text-2xl 3xl:text-3xl rounded shadow  text-white hover:transition-all border-red  bg-red"
             >
-              Chiedi un preventivo
+              {servizio?.preventivo}
             </Link>
           </div>
           <div className="min-h-auto flex flex-col gap-8 2xl:p-6 mt-10 md:gap-24 lg:mt-[150px] 2xl:mt-[100px]">
             <h3 className="text-main font-bold capitalize text-[8vw] leading-10 md:leading-none md:text-[8vw] lg:text-[6vw] xl:text-[5vw] 2xl:text-[4vw] 3xl:text-[3.6vw] ">
-              Ecco alcuni esempi
+              {servizio?.galleryTitle}
             </h3>
             <Gallery
               imageArray={servizio?.gallery}
@@ -128,14 +126,10 @@ const Servizi = ({ servizio, others, serviziFra }) => {
 
           <div className="w-full mx-auto 2xl:p-6 mt-10 lg:mt-[150px] 2xl:mt-[100px] flex flex-col gap-6">
             <h3 className="text-main font-bold capitalize text-[8vw] leading-none md:text-[8vw] lg:text-[6vw] xl:text-[5vw] 2xl:text-[4vw] 3xl:text-[3.6vw] ">
-              {/* {servizio?.titleOpzioni} */}
-              Perchè non volere di più? Ecco altre opzioni su misura per te
+              {servizio?.titleOpzioni}
             </h3>
             <p className="text-second text-[5.6vw] md:text-[3.5vw] xl:text-[1.9vw] 2xl:text-[1.3vw]">
-              Lavoreremo insieme a Francesca, web designer molto talentuosa, per
-              ideare un sito web professionale che ti permetta di rafforzare la
-              tua identità aziendale e così consolidando la tua presenza online.
-              Grazie alle sue competenze, ti propongo queste opzioni:
+              {servizio?.descOpzioni}
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-4 gap-6 md:gap-4 lg:gap-8">
               {serviziFra?.map((f, i) => {
@@ -155,14 +149,13 @@ const Servizi = ({ servizio, others, serviziFra }) => {
                 href="/contatti"
                 className="capitalize font-bold py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 border text-[4.5vw] md:text-[3vw] xl:text-[2vw] 2xl:text-xl fxl:text-2xl 3xl:text-3xl rounded shadow  text-white hover:transition-all border-red  bg-red"
               >
-                Prenota una call con me
+                {servizio?.call}
               </Link>
             </div>
           </div>
           <div className="w-full mx-auto 2xl:p-6 mt-20 2xl:mt-[100px]">
             <h3 className="text-main font-bold capitalize text-4xl lg:text-6xl 2xl:!leading-[4.5rem] fxl:text-7xl 3xl:text-8xl">
-              {/* {servizio?.titleOpzioni} */}
-              ti potrebbe anche interessare
+              {servizio?.opzioni}
             </h3>
             <Others others={others} />
           </div>

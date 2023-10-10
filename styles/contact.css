@@ -232,9 +232,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .contact-form__form {
-    margin-top: 50px;
-  }
   .contact-form__row {
     display: flex;
     flex-direction: column;

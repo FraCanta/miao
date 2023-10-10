@@ -1,6 +1,5 @@
 import { useState } from "react";
 export default function ContactForm({ translation }) {
-  // console.log(translation);
   const [inputs, setInputs] = useState({
     // state per le inputs normali
     name: "",
@@ -115,7 +114,7 @@ export default function ContactForm({ translation }) {
           <form onSubmit={(e) => onSubmitForm(e)}>
             <div className="contact-form__row">
               <span className="contact-form__text text-black heading-l">
-                Ciao! Mi chiamo
+                {translation?.row1}
               </span>
               <input
                 id="name"
@@ -130,7 +129,7 @@ export default function ContactForm({ translation }) {
               />
 
               <span className="contact-form__text text-black heading-l">
-                e il mio brand è
+                {translation?.row1Right}
               </span>
               <input
                 id="work"
@@ -147,7 +146,7 @@ export default function ContactForm({ translation }) {
             </div>
             <div className="contact-form__row">
               <span className="contact-form__text text-black heading-l">
-                Ti ho trovata usando
+                {translation?.row2}
               </span>
               <div className="contact-form__items">
                 <label
@@ -167,7 +166,7 @@ export default function ContactForm({ translation }) {
                     checked={selectedRadio === "passaparola" ? "checked" : ""}
                   />
                   <span className="radio__label no-select text-m">
-                    Passaparola
+                    {translation?.passaparola}
                   </span>
                 </label>
                 <label
@@ -255,7 +254,7 @@ export default function ContactForm({ translation }) {
             </div>
             <div className="contact-form__row">
               <span className="contact-form__text text-main heading-l">
-                Ho bisogno di aiuto con:
+                {translation?.row3}
               </span>
               <div className="contact-form__items">
                 <label
@@ -352,7 +351,7 @@ export default function ContactForm({ translation }) {
             </div>
             <div className="contact-form__row">
               <span className="contact-form__text text-black heading-l">
-                Vorrei restare attorno
+                {translation?.row4}
               </span>
               <div className="contact-form__items">
                 <label
@@ -439,7 +438,7 @@ export default function ContactForm({ translation }) {
             </div>
             <div className="contact-form__row">
               <span className="contact-form__text text-black heading-l">
-                Non esitare a contattarmi su
+                {translation?.row5}
               </span>
               <input
                 id="email"
@@ -454,13 +453,13 @@ export default function ContactForm({ translation }) {
                 required
               />
               <span className="contact-form__text text-black heading-l">
-                per cominciare a parlarne
+                {translation?.row5Right}
               </span>
             </div>
             <div className="contact-form__textarea-wrapper">
               <div>
                 <span className="contact-form__text text-black heading-l">
-                  Mi piacerebbe condividere maggiori dettagli sul mio progetto:
+                  {translation?.row6}
                 </span>
               </div>
               <div>
@@ -482,7 +481,7 @@ export default function ContactForm({ translation }) {
               >
                 <span className="button__content">
                   <span className="button__text text-lg py-2 px-12 2xl:text-xl 3xl:text-3xl text-white font-bold">
-                    Invia
+                    {translation?.btn}
                   </span>
                 </span>
                 {form.state === "loading" ? (
@@ -498,6 +497,9 @@ export default function ContactForm({ translation }) {
             </div>
           </form>
         </div>
+      </div>
+      <div className="text-red text-lg font-bold">
+        <p>{translation?.indice}</p>
       </div>
     </section>
   );

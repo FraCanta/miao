@@ -8,8 +8,13 @@
     },
     "sezioneUno": {
       "paragrafi": [
-        "<p>Je m'appelle <strong>Elisa </strong> et vous pouvez me retrouver en ligne sous le nom de <strong>Miaographics</strong>. Je suis <strong>Graphiste</strong> et <strong>Créatrice de contenu</strong>, et je suis ici pour être votre partenaire dans la définition de l'identité visuelle de votre entreprise.</p>  <p>Je peux créer pour vous une identité visuelle à votre image, en fonction de vos besoins stratégiques et de votre mission, avec un design unique qui vous aide à vous faire remarquer et à vous différencier de vos concurrents. </p><p>J'aide les petites et moyennes entreprises à atteindre leurs objectifs commerciaux grâce à une analyse approfondie du produit/service, du marché et du “target”.</p>",
-        "<p>Je peux vous proposer des solutions personnalisées correspondant à votre budget et à vos objectifs. Mon but est de vous aider à avoir une image visuelle forte et une communication cohérente qui vous permette de vous démarquer de la concurrence, d'atteindre de nouveaux clients et de grandir. Pour moi, il est essentiel de connaître votre histoire, votre réalité et vos objectifs d'entreprise. À travers une réunion informative, qui peut également se dérouler en ligne, je serai en mesure de comprendre vos besoins et de développer une communication visuelle sur mesure pour vous.</p>"
+        "<p>Je m'appelle <strong>Elisa </strong> et vous pouvez me retrouver en ligne sous le nom de <strong>Miaographics</strong>. </p>",
+        "<p>Je suis <strong>Graphiste</strong> et <strong>Créatrice de contenu</strong>, et je suis ici pour être votre partenaire dans la définition de l'identité visuelle de votre entreprise.</p>  <p>Je peux créer pour vous une identité visuelle à votre image, en fonction de vos besoins stratégiques et de votre mission, avec un design unique qui vous aide à vous faire remarquer et à vous différencier de vos concurrents. </p>",
+        "<p><strong>J'aide les petites et moyennes entreprises</strong> à atteindre leurs objectifs commerciaux grâce à une analyse approfondie du produit/service, du marché et du “target”.</p>"
+      ],
+      "paragrafi2": [
+        "<p>Je peux vous proposer des <strong>solutions personnalisées</strong> correspondant à votre budget et à vos objectifs. Mon but est de vous aider à avoir une image visuelle forte et une communication cohérente qui vous permette de vous démarquer de la concurrence, d'atteindre de nouveaux clients et de grandir. </p>",
+        "Pour moi, il est essentiel de connaître votre histoire, votre réalité et vos objectifs d'entreprise. À travers une réunion informative, qui peut également se dérouler en ligne, je serai en mesure de comprendre vos besoins et de développer une communication visuelle sur mesure pour vous."
       ],
       "cta": "Contactez-moi",
       "title": "/sectionsTitle/welcomeTitle.png"
@@ -21,7 +26,7 @@
       "titoloP": "Solutions créatives à 360 degrés",
       "descrizione": "Le design graphique et la communication visuelle sont l'art invisible qui imprègne notre monde. Il s'agit de bien plus que de simples images et de couleurs ; ce sont des outils puissants qui façonnent nos perceptions et guident nos décisions.",
       "descrizione2": "Dans une époque où l'attention est un bien précieux, un design bien pensé capture le regard et le retient. C'est la différence entre être remarqué ou ignoré. ",
-      "descrizione3": "La communication visuelle est l'outil qui transforme les idées en réalité, qui donne vie à la marque et communique des contenus à fort impact sensoriel en attirant l'attention du public cible."
+      "descrizione3": "<strong>La communication visuelle</strong> est l'outil qui transforme les idées en réalité, qui donne vie à la marque et communique des contenus à fort impact sensoriel en attirant l'attention du public cible."
     },
     "sezioneTre": {
       "cta": "Découvre mes travaux",
@@ -70,7 +75,7 @@
         "De plus, il y a Mitha, une idée créative qui est née presque par jeu, un pari entre <a href='https://www.thallion-dev.it/' target='_blank'><strong>Thallion+dev</strong></a>, une talentueuse webdesigner qui a également créé mon site, et moi. J'ai toujours cherché à m'entourer de professionnels déterminés et concrets dans la poursuite de leurs objectifs.",
         "Ce projet partagé est une opportunité pour les clients, car avec Mitha, ils peuvent trouver toutes les solutions dont ils ont besoin sans l'inconvénient de devoir chercher ailleurs. Restez connectés !"
       ],
-      "cta": "Informez-vous davantage"
+      "cta": "Restez connectés"
     },
     "serviziMore": {
       "title": "On peut t’aider ?"
@@ -136,26 +141,28 @@
       "logo": {
         "img": "/serviziImg/logodesign.png",
         "name": "Logo Design",
-        "introTitle": "Progettiamo Insieme Un Logo Personalizzato Per La Tua Attività",
+        "introTitle": "Concevons ensemble un logo personnalisé pour votre entreprise",
         "intro": [
-          "Un logo design efficace ha un impatto duraturo sulla percezione dell’azienda nel corso del tempo.",
-          "È parte fondamentale della strategia di branding, e contribuisce a costruire la reputazione e la notorietà del brand nel lungo periodo.",
-          "Se stai iniziando una nuova attività e ancora non hai un logo distintivo che rappresenti al meglio la tua azienda, sei nel posto giusto!",
-          "Hai bisogno di un’immagine visiva su misura, in perfetta sintonia con la tua mission e adatta al tuo pubblico di riferimento?"
+          "Un design de logo efficace a un impact durable sur la perception de l'entreprise au fil du temps.",
+          "Il fait partie intégrante de la stratégie de branding et contribue à construire la réputation et la notoriété de la marque à long terme.",
+          "Si vous lancez une nouvelle activité et que vous n'avez pas encore de logo distinctif qui représente au mieux votre entreprise, vous êtes au bon endroit !",
+          "Vous avez besoin d'une image visuelle sur mesure, en parfaite harmonie avec votre mission et adaptée à votre public ?"
         ],
         "title": "/serviziImg/logo_Title.png",
-        "titlePro": "Sono qui per te:",
+        "titlePro": "Je suis là pour vous aider:",
         "descPro": [
-          "Progetteremo un logo unico per la tua azienda, che identifichi chiaramente la tua attività e i prodotti/servizi offerti al tuo pubblico target."
+          "Nous concevrons un logo unique pour votre entreprise, qui identifie clairement votre activité et les produits/services offerts à votre “ target ”."
         ],
-        "titleList": " Cosa otterrai:",
+        "titleList": "Ce que vous obtiendrez:",
         "list": [
-          "1 logo in formato vettoriale (pdf), ideale per qualsiasi comunicazione stampata e/o tipografica.",
-          "1 logo in formato web (jpeg e gif), perfetto per i tuoi canali social e online.",
-          "1 manuale d’uso con le brand guidelines"
+          "1 logo au format vectoriel (pdf), idéal pour toute communication imprimée et/ou typographique",
+          "1 logo au format web (jpeg et gif), parfait pour vos réseaux sociaux et votre présence en ligne",
+          "1 manuel d'utilisation avec les directives de la marque"
         ],
+        "preventivo": "j’aimerais un devis ",
         "descrizione": "Un logo progettato su misura, in base al tuo target di riferimento e alla tua vision è un investimento per il successo della tua azienda.",
         "link": "logo",
+        "galleryTitle": "Quelques exemples",
         "gallery": [
           {
             "src": "/serviziImg/logoDesign/logoDesign.jpg",
@@ -224,32 +231,40 @@
             "width": 600,
             "height": 600
           }
-        ]
+        ],
+        "call": "Réserve ton appel",
+        "titleOpzioni": "Pourquoi ne pas en vouloir plus ?",
+        "descOpzioni": "Voici d'autres options sur mesure pour vous. En collaboration avec Francesca, une web designer très talentueuse, nous créerons un site web professionnel qui renforcera votre identité d'entreprise et consolidéra votre présence en ligne. . Grâce à ses compétences, je vous propose ces options :",
+        "opzioni": "autres services..."
       },
       "branding": {
         "img": "/serviziImg/branding.png",
         "name": "Branding Strategy",
         "title": "/serviziImg/branding_Title.png",
-        "introTitle": "Non solo logo!",
+        "introTitle": "Pas seulement un logo!",
         "intro": [
-          "La mia missione è andare oltre la creazione di un semplice logo. ",
-          "Voglio aiutarti a definire l’immagine completa della tua azienda, dall’inizio alla fine, analizzando attentamente la tua vision, la tua mission e il tuo target. Insieme, svilupperemo una strategia di marketing su misura, che darà vita alla tua identità aziendale, rendendola unica, riconoscibile e memorabile. ",
-          "Il branding non si limita solo alla progettazione del logo, ma comprende una serie di azioni specifiche e mirate, volte a comunicare e consolidare l’immagine del tuo brand all’interno del tuo mercato di riferimento. ",
-          "Desideriamo che il tuo “marchio” spicchi grazie a un’immagine coordinata, curata in ogni dettaglio, in grado di sostenere al meglio tutte le tue iniziative di marketing.",
-          "Sono qui per farti notare e aiutarti a distinguerti dai competitor!"
+          "Ma mission va au-delà de la création d'un simple logo.",
+          "Je veux vous aider à définir l'image complète de votre entreprise, du début à la fin, en examinant attentivement votre vision, votre mission et votre public. Ensemble, nous développerons une stratégie marketing sur mesure qui donnera vie à votre identité d'entreprise, la rendant unique, reconnaissable et mémorable.",
+          "Le branding ne se limite pas à la conception du logo, mais comprend toute une série d'actions spécifiques visant à communiquer et à consolider l'image de votre marque au sein de votre marché spécifique.",
+          "Nous voulons que votre 'marque' se démarque grâce à une image coordonnée, soignée dans les moindres détails, capable de soutenir au mieux toutes vos initiatives marketing.",
+          "Je suis là pour vous faire remarquer et vous aider à vous distinguer de vos concurrents !"
         ],
-        "titlePro": "Sono qui per te:",
+        "titlePro": "Je suis là pour vous :",
         "descPro": [
-          "A seguito di una call conoscitiva analizzeremo insieme la tua mission, la tua vision, il tuo target e i tuoi prodotti/servizi.",
-          "Definiremo poi insieme i supporti necessari per costruire una strategia di marketing che ti permetta di rafforzare la tua identità aziendale e raggiungere i tuoi obiettivi"
+          "Suite à un entretien préliminaire, nous analyserons ensemble votre mission, votre vision et vos produits/services.",
+          "Ensuite, nous définirons les supports nécessaires pour élaborer une stratégie marketing qui renforcera votre identité d'entreprise et vous aidera à atteindre <strong>vos objectifs.</strong>"
         ],
 
-        "titleList": " Cosa otterrai:",
+        "titleList": "Qu'obtiendrez-vous:",
         "list": [
-          "Un piano strategico ideato su misura per te in base ai tuoi obiettivi e al tuo target."
+          "Un plan stratégique conçu sur mesure pour vous, en fonction de vos objectifs et de votre “ target ”."
         ],
+        "preventivo": "j’aimerais un devis ",
+
         "descrizione": "Una buona strategia di branding ti permette di differenziarti dalla concorrenza e di costruire un'identità forte, unica e riconoscibile.",
         "link": "logo",
+        "galleryTitle": "Quelques exemples",
+
         "gallery": [
           {
             "src": "/serviziImg/branding/brand.jpg",
@@ -333,40 +348,48 @@
             "width": 600,
             "height": 600
           }
-        ]
+        ],
+        "call": "Réserve ton appel",
+        "titleOpzioni": "Pourquoi ne pas en vouloir plus ?",
+        "descOpzioni": "Voici d'autres options sur mesure pour vous. En collaboration avec Francesca, une web designer très talentueuse, nous créerons un site web professionnel qui renforcera votre identité d'entreprise et consolidéra votre présence en ligne. . Grâce à ses compétences, je vous propose ces options :",
+        "opzioni": "autres services..."
       },
       "label": {
         "img": "/serviziImg/label.png",
         "name": "Label & Packaging",
         "title": "/serviziImg/label_Title.png",
-        "introTitle": "Packaging e Label: Dai Voce al Tuo Prodotto!",
+        "introTitle": "Étiquettes et emballage: Fais parler ton produit!",
         "intro": [
-          "Spesso diamo per scontati il label e il packaging design, ma in realtà, sono dei veri e propri “ambasciatori” del nostro prodotto. ",
-          "Immagina di passeggiare per il supermercato e notare un prodotto con un packaging accattivante e un’etichetta che trasmette un senso di qualità e personalità.",
-          "Questi dettagli non solo catturano la tua attenzione ma comunicano anche il valore intrinseco del prodotto. ",
-          "E sai una cosa? Possono fare la differenza tra scegliere quel prodotto o lasciarlo lì sugli scaffali.",
-          "Oggi giorno, immersi in un mercato sempre più competitivo, il label e il packaging design diventano ancor più cruciali. Non solo catturano l’interesse del pubblico, ma contribuiscono a creare un’esperienza d’acquisto memorabile. ",
-          "Sono qui per aiutarti a scegliere il miglior contenitore per il tuo prodotto e a vestirlo con un look unico e accattivante"
+          "Nous avons souvent tendance à négliger le design de l'étiquette et de l'emballage, mais en réalité, ce sont de véritables 'ambassadeurs' de notre produit.",
+          "Imagine-toi te promener dans un supermarché et remarquer un produit avec un emballage accrocheur et une étiquette qui transmet un sens de qualité et de personnalité.",
+          "Ces détails attirent non seulement ton attention, mais communiquent aussi la valeur intrinsèque du produit.",
+          "Et tu sais quoi ? Ils peuvent faire la différence entre choisir ce produit ou le laisser sur l'étagère.",
+          "De nos jours, dans un marché de plus en plus compétitif, le design de l'étiquette et de l'emballage devient encore plus crucial. Non seulement ils captent l'intérêt du public, mais ils contribuent également à créer une expérience d'achat mémorable.",
+          "Je suis là pour t'aider à choisir le meilleur contenant pour ton produit et à le parer d'un look unique et accrocheur."
         ],
-        "titlePro": "Sono qui per te:",
+        "titlePro": "Je suis là pour vous aider:",
         "descPro": [
-          "Per analizzare insieme il tipo di pack più opportuno per il tuo prodotto e definire insieme una linea grafica"
+          "Pour analyser ensemble le type d'emballage le plus approprié pour ton produit et définir une ligne graphique."
         ],
 
-        "titleList": " Cosa comprende:",
+        "titleList": "Dans le projet est compris: ",
         "list": [
-          "La selezione del contenitore più confacente al tuo prodotto.",
-          "L’ideazione di un’etichetta mastro sulla base delle misure del contenitore scelto (2 bozze grafiche).",
-          "Il mock-up per il controllo delle misure e della resa.",
-          "Eventuali declinazioni grafiche (linea di prodotti)",
-          "La ricerca dei fornitori.",
-          "La fornitura dell’esecutivo in formato digitale e l’avvio alla stampa"
+          "La sélection du contenant le plus adapté à ton produit",
+          "La création d'une étiquette maître en fonction des dimensions du contenant choisi (2 maquettes graphiques)",
+          "La maquette pour vérification des dimensions et du rendu",
+          "D'éventuelles variantes graphiques (ligne de produits)",
+          "La recherche de fournisseurs",
+          "La fourniture du fichier exécutif au format numérique et le lancement de l'impression"
         ],
         "descrizione": "Il label e il packaging design sono elementi essenziali che contribuiscono al successo di un prodotto e alla sua vendita. In un mercato competitivo permettono di attrarre l'interesse del pubblico e informare i consumatore.",
         "link": "label",
         "gallery": [
           { "src": "/serviziImg/label/pack2.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/label/pack3.jpg", "width": 600, "height": 600 },
+          {
+            "src": "/serviziImg/label/pack3_new.jpg",
+            "width": 600,
+            "height": 600
+          },
           { "src": "/serviziImg/label/pack4.jpg", "width": 600, "height": 600 },
           { "src": "/serviziImg/label/pack5.jpg", "width": 600, "height": 600 },
           {
@@ -382,28 +405,34 @@
           { "src": "/serviziImg/label/pack6.jpg", "width": 600, "height": 600 },
 
           { "src": "/serviziImg/label/pack.jpg", "width": 600, "height": 600 }
-        ]
+        ],
+        "preventivo": "j’aimerais un devis ",
+        "galleryTitle": "Quelques exemples",
+        "call": "Réserve ton appel",
+        "titleOpzioni": "Pourquoi ne pas en vouloir plus ?",
+        "descOpzioni": "Voici d'autres options sur mesure pour vous. En collaboration avec Francesca, une web designer très talentueuse, nous créerons un site web professionnel qui renforcera votre identité d'entreprise et consolidéra votre présence en ligne. . Grâce à ses compétences, je vous propose ces options :",
+        "opzioni": "autres services..."
       },
       "social": {
         "img": "/serviziImg/social.png",
         "name": "Social Media Strategy",
         "title": "/serviziImg/social_Title.png",
-        "introTitle": "Consolida La Tua presenza Online: Grazie ai social e a contenuti su misura",
+        "introTitle": "Renforcez votre présence en ligne : grâce aux réseaux sociaux et à des contenus sur mesure",
         "intro": [
-          "La gestione dei social media e la creazione di contenuti di qualità sono le chiavi per il successo online.",
-          "Con noi, otterrai una presenza digitale specifica, personalizzata ed efficace. ",
-          "Conosciamo i segreti per coinvolgere il tuo pubblico, costruire brand awareness e generare risultati concreti.",
-          "Non perdere l’opportunità di sfruttare appieno il potenziale dei social media, potenziando l'immagine del tuo brand online!"
+          "La gestion des médias sociaux et la création de contenus de qualité sont les clés du succès en ligne.",
+          "Avec nous, vous obtiendrez une présence numérique spécifique, personnalisée et efficace.",
+          "Nous connaissons les secrets pour impliquer votre public, accroître la notoriété de votre marque et obtenir des résultats concrets.",
+          "Ne manquez pas l'opportunité de tirer pleinement parti du potentiel des médias sociaux en renforçant l'image de votre marque en ligne !"
         ],
-        "titlePro": "Sono qui per te:",
+        "titlePro": "Je suis là pour vous :",
         "descPro": [
-          "Per aiutarti a definire un piano editoriale sulla base dei tuoi obiettivi aziendali"
+          "Pour vous aider à définir un plan éditorial en fonction de vos objectifs commerciaux. "
         ],
-        "titleList": "Cosa Otterrai:",
+        "titleList": "Qu'obtiendrez-vous:",
         "list": [
-          "Un piano editoriale strategico personalizzato in base ai tuoi obiettivi e al tuo target.",
-          "Una gestione mensile completa dei canali Meta (in base alle tue esigenze)",
-          "Contenuti creati ad hoc per te, in grado di generare lead"
+          "Un plan éditorial stratégique personnalisé en fonction de vos objectifs et de votre public",
+          "Une gestion mensuelle complète des canaux Meta (selon vos besoins)",
+          "Des contenus créés spécialement pour vous, capables de générer des prospects"
         ],
 
         "descrizione": "Risparmia tempo e migliora la tua presenza online con contenuti mirati e aggiornati alle ultime tendenze per aumentare l'engagement.",
@@ -461,28 +490,34 @@
             "width": 600,
             "height": 600
           }
-        ]
+        ],
+        "preventivo": "j’aimerais un devis ",
+        "galleryTitle": "Quelques exemples",
+        "call": "Réserve ton appel",
+        "titleOpzioni": "Pourquoi ne pas en vouloir plus ?",
+        "descOpzioni": "Voici d'autres options sur mesure pour vous. En collaboration avec Francesca, une web designer très talentueuse, nous créerons un site web professionnel qui renforcera votre identité d'entreprise et consolidéra votre présence en ligne. . Grâce à ses compétences, je vous propose ces options :",
+        "opzioni": "autres services..."
       },
       "campagne": {
         "img": "/serviziImg/campagne.png",
         "name": "Campagne Offline",
         "title": "/serviziImg/campagne_Title.png",
-        "introTitle": "Riscopri il Potere delle Campagne Offline: Emozioni, Fiducia ed Accessibilità nel Mondo Digitale",
+        "introTitle": "Redécouvre le Pouvoir des Campagnes Hors Ligne : Émotions, Confiance et Accessibilité dans le Monde physique",
         "intro": [
-          "Nel mondo frenetico e digitalizzato in cui viviamo, può sembrare che l’attenzione sia rivolta unicamente verso il mondo online. Ma, in un’epoca in cui i nostri occhi sono incollati agli schermi e i nostri dispositivi ci tengono connessi costantemente, c’è un mondo fuori che non dovremmo mai sottovalutare: il mondo delle campagne offline.",
-          "A differenza delle Ads, sul web apportano benefici tangibili quali:  ",
-          "Generare emozioni: un poster, un volantino o un evento dal vivo possono suscitare sentimenti che difficilmente si possono ottenere attraverso uno schermo. La sensazione di tenere tra le mani un prodotto, sentirne la consistenza, fruire le informazioni con il prorio tempo ecc... possono creare un impatto profondo.",
-          "Creare fiducia: le persone tendono a fidarsi di ciò che possono vedere, toccare e sperimentare direttamente. Le campagne offline forniscono questa opportunità di esperienza autentica.",
-          "Ampliare l’accessibilità: non tutti hanno accesso costante a Internet o sono disposti a condividere i propri dati online. Le campagne offline raggiungono un pubblico più ampio, inclusi coloro che potrebbero essere altrimenti esclusi dal mondo digitale."
+          "Dans le monde frénétique et digitalisé dans lequel nous vivons, il peut sembler que l'attention soit uniquement portée vers le monde en ligne. Mais à une époque où nos yeux sont rivés sur les écrans et nos appareils nous maintiennent constamment connectés, il y a un monde extérieur que nous ne devrions jamais sous-estimer : le monde des campagnes hors ligne.",
+          "Contrairement aux publicités en ligne, elles apportent des avantages tangibles tels que : ",
+          "Éveiller des émotions : une affiche, un dépliant ou un événement en direct peuvent susciter des sentiments difficiles à obtenir à travers un écran. Le fait de tenir un produit entre ses mains, d'en sentir la texture, de prendre le temps d'en apprendre sur lui, etc., peuvent avoir un impact profond.",
+          "Créer la confiance : les gens ont tendance à faire confiance à ce qu'ils peuvent voir, toucher et expérimenter directement. Les campagnes hors ligne offrent cette opportunité d'une expérience authentique.",
+          "Élargir l'accessibilité : tout le monde n'a pas un accès constant à Internet ou n'est pas disposé à partager ses données en ligne. "
         ],
-        "titleList": "Come fare per realizzare una buona campagna offline:",
+        "titleList": "Comment réaliser une bonne campagne hors ligne :",
         "list": [
-          "scegliere i giusti spazi per le affissioni",
-          "prevedere delle uscite su testate giornalistiche locali in target",
-          "ideare una grafica accattivante e coinvolgente rispetto al messaggio",
-          "creare differenti formati di manifesti",
-          "creare delle cartoline o dei flyer per permettere la consegna manuale del messaggio",
-          "supportare l’iniziativa mediante gadget ideati ad hoc"
+          "choisir les bons emplacements pour les affichages",
+          "prévoir des publicités dans des journaux locaux en “target”",
+          "concevoir un graphisme attractif et engageant en lien avec le message",
+          "créer différents formats d'affiches",
+          "concevoir des cartes postales ou des flyers pour permettre la remise manuelle du message",
+          "soutenir l'initiative avec des gadgets conçus sur mesure"
         ],
         "descrizione": "Le campagne offline plasmano scelte, creano connessioni e trasmettono messaggi profondi, incarnando idee, valori e brand che si toccano, sentono e ricordano.",
         "link": "campagne",
@@ -534,22 +569,28 @@
             "width": 600,
             "height": 600
           }
-        ]
+        ],
+        "preventivo": "j’aimerais un devis ",
+        "galleryTitle": "Quelques exemples",
+        "call": "Réserve ton appel",
+        "titleOpzioni": "Pourquoi ne pas en vouloir plus ?",
+        "descOpzioni": "Voici d'autres options sur mesure pour vous. En collaboration avec Francesca, une web designer très talentueuse, nous créerons un site web professionnel qui renforcera votre identité d'entreprise et consolidéra votre présence en ligne. . Grâce à ses compétences, je vous propose ces options :",
+        "opzioni": "autres services..."
       },
       "allestimenti": {
         "img": "/serviziImg/allestimenti.png",
         "name": "Allestimenti",
         "title": "/serviziImg/allestimenti_Title.png",
-        "introTitle": "Scegli un’ Allestimento per Promuovere il tuo Brand",
+        "introTitle": "Choisissez un bon Agencement pour Promouvoir Votre Marque",
         "intro": [
-          "Un’ allestimento personalizzato è un potente strumento che trasforma un semplice spazio in un’ambiente comunicativo. Gli allestimenti, sia in ambito fieristico che riguardanti il punto vendita, sono la chiave per catturare l’attenzione, suscitare emozioni e far sì che il tuo brand si distingua.",
+          "Un agencement personnalisé est un outil puissant qui transforme un simple espace en un environnement de communication. Les agencements, qu'ils soient liés à des salons professionnels ou à des points de vente, sont la clé pour attirer l'attention, susciter des émotions et faire en sorte que votre marque se distingue.",
 
-          "Nei contesti fieristici, un allestimento personalizzato mette in mostra il tuo brand in prima fila, attirando gli sguardi e creando un’esperienza memorabile. Nel punto vendita, trasforma la visita dei clienti in un’immersione totale nel tuo mondo.",
-          "Gli allestimenti personalizzati sono un potente strumento di comunicazione. Possono trasmettere messaggi chiari e memorabili, aiutandoti a raggiungere i tuoi obiettivi di marketing e promozione."
+          "Dans les contextes des salons professionnels, un agencement personnalisé met en avant votre marque au premier plan, captant les regards et créant une expérience mémorable. Dans les points de vente, il transforme la visite des clients en une immersion totale dans votre univers.",
+          "Les agencements personnalisés sont un outil puissant de communication. Ils peuvent transmettre des messages clairs et mémorables, vous aidant à atteindre vos objectifs marketing et promotionnels."
         ],
-        "titlePro": "Sono qui per te:",
+        "titlePro": "Je suis là pour vous :",
         "descPro": [
-          "Per aiutarti a personalizzare il tuo punto vendita oppure a trovare insieme a te una soluzione mirata per esporre al meglio i tuoi prodotti negli ambienti fieristici o presso terzi."
+          "Pour vous aider à personnaliser votre point de vente ou à trouver avec vous une solution ciblée pour mettre en valeur au mieux vos produits dans les espaces des salons professionnels ou chez des tiers."
         ],
 
         "descrizione": "Gli allestimenti personalizzati conferiscono personalità ad uno spazio vuoto. Possono evocare emozioni, creare atmosfere e coinvolgere il pubblico in modo unico.",
@@ -610,34 +651,40 @@
             "width": 600,
             "height": 600
           }
-        ]
+        ],
+        "preventivo": "j’aimerais un devis ",
+        "galleryTitle": "Quelques exemples",
+        "call": "Réserve ton appel",
+        "titleOpzioni": "Pourquoi ne pas en vouloir plus ?",
+        "descOpzioni": "Voici d'autres options sur mesure pour vous. En collaboration avec Francesca, une web designer très talentueuse, nous créerons un site web professionnel qui renforcera votre identité d'entreprise et consolidéra votre présence en ligne. . Grâce à ses compétences, je vous propose ces options :",
+        "opzioni": "autres services..."
       },
       "illustrazione": {
         "img": "/serviziImg/illustrazione.png",
         "name": "Illustrazione Digitale",
         "title": "/serviziImg/illustrazione_Title.png",
-        "introTitle": "Le Illustrazioni Personalizzate rafforzano l'immagine del Tuo Brand",
+        "introTitle": "Les Illustrations Personnalisées Renforcent l'Image de Votre Marque",
         "intro": [
-          "Le illustrazioni personalizzate sono la firma del tuo brand. Possono catturare l’essenza della tua identità aziendale in un’immagine, rendendo il tuo brand immediatamente riconoscibile e memorabile.",
+          "Les illustrations personnalisées sont la signature de votre marque. Elles peuvent capturer l'essence de votre identité d'entreprise dans une image, rendant votre marque immédiatement reconnaissable et mémorable.",
 
-          "Le immagini parlano più intensamente delle parole, e le illustrazioni personalizzate sono un linguaggio universale. Possono trasmettere emozioni, concetti e storie in un istante, senza bisogno di spiegazioni.",
-          "In un mondo saturo di contenuti visivi generici, le illustrazioni personalizzate ti distinguono. Rendono il tuo brand unico, attraente e irresistibile agli occhi del pubblico.",
-          "I pattern personalizzati, creati con illustrazioni, aggiungono coesione e riconoscibilità a tutti i tuoi materiali di marketing. Permettono di creare un'armonia comunicativa tra il brand e il prodotto."
+          "Les <strong>images parlent plus intensément que les mots</strong>, et les illustrations personnalisées sont un langage universel. Elles peuvent transmettre des émotions, des concepts et des histoires en un instant, sans besoin d'explications.",
+          "Dans un monde saturé de contenus visuels génériques, les illustrations personnalisées vous distinguent. Elles rendent votre marque unique, attrayante et irrésistible aux yeux du public.",
+          "Les motifs personnalisés, créés avec des illustrations, ajoutent de la cohérence et de la reconnaissance à tous vos supports marketing. Ils permettent de créer une harmonie communicative entre la marque et le produit."
         ],
-        "titlePro": "Sono qui per te:",
+        "titlePro": "Je suis là pour vous :",
         "descPro": [
-          "Per generare immagini ad hoc che rispecchino il tuo gusto e i valori del tuo brand."
+          "Pour créer des images sur mesure qui reflètent votre goût et les valeurs de votre marque."
         ],
 
         "descrizione": "Le illustrazioni create ad hoc, sono molto più di semplici immagini; sono elementi chiave che permettono di esaltare il tuo brand e renderlo unico e memorabile.",
-        "titleList": "Cosa Otterrai:",
-        "sottoList": "In base alle tue esigenze creeremo per te:",
+        "titleList": "Qu'obtiendrez-vous:",
+        "sottoList": "En fonction de vos besoins, nous créerons pour vous :",
         "list": [
-          "Grafiche vettoriali",
-          "Illustrazioni digitali",
-          "Illustrazioni artigianali a tecnica mista",
-          "Pattern",
-          "...e altri elementi visivi a supporto della tua comunicazione."
+          "graphiques vectoriels",
+          "illustrations à la main",
+          "illustrations artisanales en technique mixte",
+          "motifs",
+          "...et d'autres éléments visuels pour soutenir votre communication"
         ],
 
         "link": "illustrazione",
@@ -658,7 +705,7 @@
             "height": 600
           },
           {
-            "src": "/serviziImg/illustrazione/illustrazioni5.jpg",
+            "src": "/serviziImg/illustrazione/illustrazioni5_new.jpg",
             "width": 600,
             "height": 600
           },
@@ -692,26 +739,32 @@
             "width": 600,
             "height": 600
           }
-        ]
+        ],
+        "preventivo": "j’aimerais un devis ",
+        "galleryTitle": "Quelques exemples",
+        "call": "Réserve ton appel",
+        "titleOpzioni": "Pourquoi ne pas en vouloir plus ?",
+        "descOpzioni": "Voici d'autres options sur mesure pour vous. En collaboration avec Francesca, une web designer très talentueuse, nous créerons un site web professionnel qui renforcera votre identité d'entreprise et consolidéra votre présence en ligne. . Grâce à ses compétences, je vous propose ces options :",
+        "opzioni": "autres services..."
       },
       "content": {
         "img": "/serviziImg/contentCreator.png",
         "name": "Content Creator",
         "title": "/serviziImg/content_Title.png",
-        "introTitle": "Coinvolgi il tuo target con contenuti ideati ad hoc",
+        "introTitle": "Engagez votre public avec des contenus sur mesure",
         "intro": [
-          "Creare contenuti su misura, che siano foto, video o testi, è la formula magica per il successo sui social e non solo. Ecco perché dovresti fare della personalizzazione una priorità assoluta.",
+          "Créer des contenus sur mesure, que ce soit des photos, des vidéos ou des textes, est la formule magique pour réussir sur les réseaux sociaux et au-delà. C'est pourquoi vous devriez faire de la personnalisation une priorité absolue.",
 
-          "I contenuti personalizzati ti consentono di creare un ponte diretto tra il tuo brand e il tuo pubblico. Ogni foto e ogni parola possono essere adattate per rispecchiare i valori, la voce e la personalità unica del tuo brand, instaurando una connessione autentica con i tuoi followers.",
-          "La personalizzazione non si limita ai social media. Puoi estenderla ai tuoi materiali promozionali, creando un’immagine coesa e riconoscibile del tuo brand ovunque appaia. Questa coerenza rafforza la tua presenza e la tua credibilità."
+          "Les contenus personnalisés vous permettent de créer un lien direct entre votre marque et votre public. Chaque photo et chaque mot peuvent être adaptés pour refléter les valeurs, la voix et la personnalité unique de votre marque, établissant une connexion authentique avec vos followers.",
+          "La personnalisation ne se limite pas aux médias sociaux. Vous pouvez l'étendre à vos supports promotionnels, créant ainsi une image cohérente et reconnaissable de votre marque partout où elle apparaît. Cette cohérence renforce votre présence et votre crédibilité."
         ],
-        "titleList": "Quali sono i servizi offerti:",
+        "titleList": "Services compris :",
         "list": [
-          "Creazione di contenuti digitali (immagini grafiche ideate ad hoc)",
-          "Creazione di contenuti fotografici e video, da te in azienda, realizzati in base ai tuoi obiettivi di marketing",
-          "Creazione di contenuti testuali in linea con il tuo stile comunicativo, in grado di parlare al tuo target",
-          "Creazione di contenuti testuali in ottica SEO in base alle parole più ricercate relativamente al tuo settore",
-          "Ricerca hashtag e parole chiave ad alto rendimento"
+          "Création de contenus graphiques (images conçues sur mesure)",
+          "Création de contenus photographiques et vidéo, réalisés dans votre entreprise, en fonction de vos objectifs marketing",
+          "Création de contenus textuels en harmonie avec votre style de communication, capables de s'adresser à votre public cible",
+          "Création de contenus textuels optimisés pour le référencement SEO, basés sur les mots-clés les plus recherchés dans votre secteur",
+          "Recherche d'hashtags et de mots-clés à fort rendement"
         ],
 
         "descrizione": "Nel mondo digitale di oggi, il contenuto ricopre un ruolo sempre più importante. Ma non si tratta solo di quantità; si tratta di qualità e, soprattutto, di personalizzazione.",
@@ -733,7 +786,7 @@
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content4.jpg",
+            "src": "/serviziImg/creator/content_4.jpg",
             "width": 600,
             "height": 600
           },
@@ -763,7 +816,7 @@
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content10.jpg",
+            "src": "/serviziImg/creator/content_10.jpg",
             "width": 600,
             "height": 600
           },
@@ -842,7 +895,13 @@
             "width": 600,
             "height": 600
           }
-        ]
+        ],
+        "preventivo": "j’aimerais un devis ",
+        "galleryTitle": "Quelques exemples",
+        "call": "Réserve ton appel",
+        "titleOpzioni": "Pourquoi ne pas en vouloir plus ?",
+        "descOpzioni": "Voici d'autres options sur mesure pour vous. En collaboration avec Francesca, une web designer très talentueuse, nous créerons un site web professionnel qui renforcera votre identité d'entreprise et consolidéra votre présence en ligne. . Grâce à ses compétences, je vous propose ces options :",
+        "opzioni": "autres services..."
       }
     },
     "fraService": [
@@ -878,15 +937,15 @@
       "img": "/pageImg/gufo.png"
     },
     "intro": [
-      "Una selezione di lavori che raccontano per immagini, i servizi da me offerti.",
-      "<span style='color:#de4928;font-weight: bold'>Guarda  tutte le case history :)</span>"
+      "Une sélection de travaux en images pour les services que je propose.",
+      "<span style='color:#de4928;font-weight: bold'>Découvrez toutes les réalités :)</span>"
     ],
     "worksItem": [
       {
         "img": "/portfolioImg/anserme/cover_anse.webp",
         "name": "Ansermé",
         "title": "ansermè",
-        "descrizione": "Bio Bontà di Montagna",
+        "descrizione": "Délices bio de la montagne",
         "location": "Arnad  - Valle d’Aosta",
         "link": "/works/ansermè",
         "button": ["Branding", "Label Design", "Social Media"]
@@ -904,7 +963,7 @@
         "img": "/portfolioImg/casadei/cover_casadei.webp",
         "name": "Le Rêve en Vert",
         "title": "reve",
-        "descrizione": "Azienda Agricola di Andrea Casadei",
+        "descrizione": "Exploitation agricole de Andrea Casadei",
         "location": "Arnad - Valle d’Aosta",
         "link": "/works/reve",
         "button": ["Branding", "Label Design"]
@@ -913,16 +972,16 @@
         "img": "/portfolioImg/phillacolor/cover_philla.webp",
         "name": "Phillacolor",
         "title": "phillacolor",
-        "descrizione": "Eco-Liquid Dye",
+        "descrizione": "Éco-teinture",
         "location": "Saint-Pierre  - Valle d’Aosta",
         "link": "/works/phillacolor",
         "button": ["Branding", "Label Design"]
       },
       {
-        "img": "/portfolioImg/chappoz/cover_chappoz.webp",
+        "img": "/portfolioImg/chappoz/cover_chappoz_new.webp",
         "name": "Chappoz",
         "title": "chappoz",
-        "descrizione": "Azienda Agricola",
+        "descrizione": "Exploitation agricole",
         "location": "Donnas - Valle d’Aosta",
         "link": "/works/chappoz",
         "button": ["Branding", "Label Design", "Social Media"]
@@ -931,7 +990,7 @@
         "img": "/portfolioImg/daemy/cover_daemy.webp",
         "name": "Da Emy",
         "title": "daemy",
-        "descrizione": "Piante Officinali",
+        "descrizione": "Plantes médicinales ",
         "location": "Valsavarenche - Valle d’Aosta",
         "link": "/works/daemy",
         "button": ["Branding", "Label Design"]
@@ -940,7 +999,7 @@
         "img": "/portfolioImg/horto/cover_horto.webp",
         "name": "Horto Sapiens",
         "title": "horto",
-        "descrizione": "Prodotti tipici di Monte Amiata e Val d'Orcia",
+        "descrizione": "Produits typiques du Monte Amiata et de la Val d'Orcia",
         "location": "Abbadia San Salvatore (SI) - Toscana",
         "link": "/works/horto",
         "button": ["Branding", "Label Design"]
@@ -949,7 +1008,7 @@
         "img": "/portfolioImg/isavivai/cover_isavivai.webp",
         "name": "Isavivai",
         "title": "isavivai",
-        "descrizione": "Il Verde che ti emoziona",
+        "descrizione": "Le vert qui vous émeut",
         "location": "Aymavilles  - Valle d’Aosta",
         "link": "/works/isavivai",
         "button": ["Branding", "Allestimenti"]
@@ -958,7 +1017,7 @@
         "img": "/portfolioImg/saint/cover_saintgrat.webp",
         "name": "Saint Grat",
         "title": "saintgrat",
-        "descrizione": "Azienda Agricola",
+        "descrizione": "Exploitation agricole",
         "location": "Gressan - Valle d’Aosta",
         "link": "/works/saintgrat",
         "button": ["Branding", "Label Design"]
@@ -967,7 +1026,7 @@
         "img": "/portfolioImg/morzenti/cover_morzenti.webp",
         "name": "Morzenti Daniele",
         "title": "morzenti",
-        "descrizione": "Azienda Agricola",
+        "descrizione": "Exploitation agricole",
         "location": "Aymavilles - Valle d’Aosta",
         "link": "/works/morzenti",
         "button": ["Branding", "Social Media"]
@@ -978,56 +1037,54 @@
         "img": "/portfolioImg/anserme/cover_anse.webp",
         "name": "Ansermé",
         "title": "anserme",
-        "descrizione": "Bio Bontà di Montagna",
+        "descrizione": "Délices Bio de la montagne",
         "location": "Arnad  - Valle d’Aosta",
         "link": "/works/anserme",
         "button": ["Branding", "Label Design", "Social Media"],
-        "introTitolo": "Progetto",
+        "introTitolo": "Project",
         "cliente": {
-          "titolo": "cliente",
+          "titolo": "client",
           "nome": "Ansermé",
-          "payoff": "Bio Bontà di Montagna"
+          "payoff": "Délices Bio de la montagne"
         },
         "anno": {
-          "titolo": "anno",
+          "titolo": "année",
           "nome": "2020 - 2023"
         },
         "keywords": {
           "titolo": "keywords",
-          "nome": "BIO, Apicoltura di montagna, minimal, artigianalità, BIO bontà"
+          "nome": "BIO, Apiculture de montagne, minimalisme, produit artisanal, BIO délices"
         },
         "servizi": {
-          "titolo": "servizi",
+          "titolo": "services",
           "nome": ["branding", "label design", "social media"]
         },
         "desc": [
-          "Con Alessandro, abbiamo pensato di creare un concept grafico moderno e dai colori accesi che potesse esaltare la linea dei prodotti biologici, rendendoli facilmente riconoscibili e differenziandoli dalla concorrenza."
+          "Avec Alessandro, nous avons pensé à créer un concept graphique moderne aux couleurs vives qui puisse mettre en valeur la gamme de produits biologiques, les rendant facilement reconnaissables et les distinguant de la concurrence."
         ],
         "logoImg": "/portfolioImg/anserme/intro_anse.png",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/anserme/typo_anse_text.png",
-          "typoImg2": "/portfolioImg/anserme/typo_anse_font.png"
+          "typoImg": "/portfolioImg/anserme/typo_text_anse_fr.png",
+          "typoImg2": "/portfolioImg/anserme/typo_font_anse.png"
         },
         "color": {
-          "titolo": "Color Brand",
+          "titolo": "Brand Colors",
           "descrizione": [
-            "In collaborazione con Alessandro, abbiamo definito una gamma di colori vibranti e accesi, declinati nelle varie gradazioni, che potessero creare un piacevole contrasto con lo sfondo scuro e neutro (effetto carta riciclata) delle etichette."
+            "En collaboration avec Alessandro, nous avons défini une palette de couleurs vives et éclatantes, déclinées en différentes nuances, afin de créer un contraste agréable avec le fond sombre et neutre (effet papier recyclé) des étiquettes."
           ],
           "colorImg": "/portfolioImg/anserme/coloribrand_anse.png"
         },
         "illustrazioni": {
-          "titolo": "Illustrazioni Vettoriali",
-          "descrizione": "Per caratterizzare la linea dei prodotti è stata realizzata un’apina stilizzata, il cui colore delle ali, varia in base alla tipologia di miele, biscotto o cosmetico.",
+          "titolo": "Illustrations vectorielles",
+          "descrizione": "Pour caractériser la gamme de produits, une abeille stylisée a été créée, dont la couleur des ailes varie en fonction du type de miel, de biscuit ou de produit cosmétique.",
           "illImg": "/portfolioImg/anserme/illustrazioni_anse.png",
-          "descrizione2": "Per promuovere l’iniziativa adotta un alveare ho stilizzato anche un’arnia e i fiori di alta montagna."
+          "descrizione2": "Pour promouvoir l'initiative Adopte une Ruche, j'ai également stylisé une ruche et des fleurs de haute montagne."
         },
         "label": {
-          "titolo": "Label & Pack Design",
-          "descrizione": "Etichette fustellate per la linea dei mieli biologici stampate su carta betulla vergata.",
+          "titolo": "Étiquettes et Emballage",
           "labelImg": "/portfolioImg/anserme/etichetta_miele.png",
           "cartellinoImg": "/portfolioImg/anserme/latta_caramelle.png",
-          "descrizione2": "Stampa diretta su latta (per le caramelle).",
           "caramelleImg": "/portfolioImg/anserme/cartellino_caramelle.png",
           "biscottiImg": "/portfolioImg/anserme/cartellino_biscotti.png",
           "scatoleImg": "/portfolioImg/anserme/creme.png",
@@ -1037,7 +1094,7 @@
         "social": {
           "titolo": "Social",
           "descrizione": [
-            "Immagini fotografiche e contenuti testuali e visivi realizzati ad hoc, per la promozione dei prodotti e dell’azienda."
+            "Images photographiques et contenus textuels et visuels créés sur mesure pour la promotion des produits et de l'entreprise."
           ],
           "socialImg": ["/portfolioImg/anserme/social.png"]
         }
@@ -1050,49 +1107,48 @@
         "location": "Ayas - Valle d’Aosta",
         "link": "/works/bequet",
         "button": ["Branding", "Label Design"],
-        "introTitolo": "Progetto",
+        "introTitolo": "Project",
         "cliente": {
-          "titolo": "cliente",
+          "titolo": "client",
           "nome": "Samuel Becquet ",
           "payoff": "Agriculture en Haute Montagne"
         },
         "anno": {
-          "titolo": "anno",
+          "titolo": "année",
           "nome": "2020 - 2023"
         },
         "keywords": {
           "titolo": "keywords",
-          "nome": "Alta Montagna, Fotografia, Modern, Genuino"
+          "nome": "Haute Montagne, Photographie, Style Moderne, Authentique"
         },
         "servizi": {
-          "titolo": "servizi",
+          "titolo": "services",
           "nome": ["branding", "label design"]
         },
         "desc": [
-          "Abbiamo ideato insieme a Samuel, una nuova identità visiva per la sua azienda che trasforma prodotti orticoli a km zero in frutti e ortaggi essiccati pronti all’uso quali: tisane, zuppe e frutta per ingolosire yogurt e gelati."
+          "Nous avons conçu, en collaboration avec Samuel, une nouvelle identité visuelle pour son entreprise, transformant des produits locaux en fruits et légumes séchés prêts à l'emploi, tels que des tisanes, des soupes et des fruits pour agrémenter les yaourts et les glaces."
         ],
         "logoImg": "/portfolioImg/bequet/logo_becquet.jpg",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/bequet/typo_becquet_text.png",
-          "typoImg2": "/portfolioImg/bequet/typo_becquet_font.png"
+          "typoImg": "/portfolioImg/bequet/typo_text_samuel_fr.png",
+          "typoImg2": "/portfolioImg/bequet/typo_font_samuel.png"
         },
         "color": {
           "titolo": "Color Brand",
           "descrizione": [
-            "Abbiamo deciso con Samuel di utilizzare colori neutri che richiamassero la terra, in grado di far esaltare i prodotti essiccati tradizionali della Valle d’Aosta.",
-            "Per richiamare i colori della bandiera valdostana, abbiamo inserito nelle grafiche una coccinella (simbolo esso stesso di genuinità), utilizzando al posto del nero un marrone molto scuro."
+            "Nous avons décidé avec Samuel d'utiliser des couleurs neutres évoquant la terre, mettant en valeur les produits traditionnels de la Vallée d'Aoste.",
+            "Pour rappeler les couleurs du drapeau valdôtain, nous avons ajouté une coccinelle dans les graphiques (symbole de Salubrité), en utilisant un marron très foncé à la place du noir."
           ],
           "colorImg": "/portfolioImg/bequet/brandcolor_bequet.png"
         },
         "illustrazioni": {
-          "titolo": "Illustrazioni Digitali",
-          "descrizione": "Abbiamo deciso di optare per una comunicazione moderna, lineare, utilizzando immagini fotografiche a contrasto con elementi vettoriali che riprendono i colori del prodotto descritto.",
-          "illImg": "/portfolioImg/bequet/illustrazioni.png",
-          "descrizione2": ""
+          "titolo": "Illustrations photographiques",
+          "descrizione": "Nous avons décidé d'opter pour une communication moderne, épurée, utilisant des images photographiques en contraste avec des éléments vectoriels reprenant les couleurs du produit décrit.",
+          "illImg": "/portfolioImg/bequet/illustrazioni.png"
         },
         "label": {
-          "titolo": "Label Design",
+          "titolo": "Étiquettes et Emballage",
           "labelImg": "/portfolioImg/bequet/label1_sam.png",
           "cartellinoImg": "/portfolioImg/bequet/label4_sam.png",
           "caramelleImg": "/portfolioImg/bequet/label2_sam.png",
@@ -1104,53 +1160,53 @@
         "img": "/portfolioImg/casadei/cover_casadei.webp",
         "name": "Le Rêve en Vert",
         "title": "reve",
-        "descrizione": "Azienda Agricola di Andrea Casadei",
+        "descrizione": "Exploitation agricole de Andrea Casadei",
         "location": "Arnad - Valle d’Aosta",
         "link": "/works/reve",
         "button": ["Branding", "Label Design"],
-        "introTitolo": "Progetto",
+        "introTitolo": "Project",
         "cliente": {
-          "titolo": "cliente",
+          "titolo": "client",
           "nome": "Le Rêve en Vert",
-          "payoff": "Azienda agricola di Andrea Casadei"
+          "payoff": "Exploitation agricole de Andrea Casadei"
         },
         "anno": {
-          "titolo": "anno",
+          "titolo": "année",
           "nome": "2020 - 2023"
         },
         "keywords": {
           "titolo": "keywords",
-          "nome": "Km0, Sogno, Verde, Orto, Colori, Pattern"
+          "nome": "Km0, Rêve, Vert, Potager, Couleurs, Motif"
         },
         "servizi": {
-          "titolo": "servizi",
+          "titolo": "services",
           "nome": ["branding", "label design"]
         },
         "desc": [
-          "Con Andrea abbiamo rinnovato il logo originale e sviluppato una linea di branding completa. ",
-          "Questa strategia ha incluso la creazione di un'immagine coordinata per i prodotti trasformati e la promozione attraverso materiali stampati di alta qualità, sia all’interno del punto vendita che all’esterno."
+          "Avec Andrea, nous avons rénové le logo original et développé une gamme de branding complète.",
+          "Cette stratégie comprenait la création d'une identité visuelle coordonnée pour les produits transformés et la promotion à travers des supports imprimés de haute qualité, à la fois à l'intérieur du point de vente et à l'extérieur."
         ],
         "logoImg": "/portfolioImg/casadei/brand_casadei.png",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/casadei/typo_casadei_text.png",
-          "typoImg2": "/portfolioImg/casadei/typo_casadei_font.png"
+          "typoImg": "/portfolioImg/casadei/typo_text_casadei_fr.png",
+          "typoImg2": "/portfolioImg/casadei/typo_font_casadei.png"
         },
         "color": {
-          "titolo": "Color Brand",
+          "titolo": "Brand Colors",
           "descrizione": [
-            "In collaborazione con Andrea, abbiamo scelto di utilizzare una gamma di tonalità di verde come base per la nostra comunicazione, con l’obiettivo di richiamare le sfumature presenti nel suo orto a chilometro zero."
+            "En collaboration avec Andrea, nous avons choisi d'utiliser une gamme de nuances de vert comme base pour notre communication, dans le but de rappeler les nuances présentes dans son potager local."
           ],
           "colorImg": "/portfolioImg/casadei/colors_casadei.png",
           "sponsorImg": "/portfolioImg/casadei/sponsor.png"
         },
         "illustrazioni": {
-          "titolo": "Illustrazioni e Pattern",
-          "descrizione": "Per realizzare i pattern abbiamo creato delle illustrazioni a mano libera, convertite successivamente in formato vettoriale.",
+          "titolo": "Illustrations et Pattern",
+          "descrizione": "Pour créer les patterns, nous avons réalisé des illustrations à main levée, ensuite converties en format vectoriel.",
           "illImg": "/portfolioImg/casadei/pattern_casadei.png"
         },
         "label": {
-          "titolo": "Label Design",
+          "titolo": "Étiquettes et Emballage",
           "labelImg": "/portfolioImg/casadei/label1.png",
           "cartellinoImg": "/portfolioImg/casadei/label2.png",
           "caramelleImg": "/portfolioImg/casadei/label3.png",
@@ -1161,108 +1217,108 @@
         "img": "/portfolioImg/phillacolor/cover_philla.webp",
         "name": "Phillacolor",
         "title": "phillacolor",
-        "descrizione": "Eco-Liquid Dye",
-        "location": "Saint -Pierre  - Valle d’Aosta",
+        "descrizione": "Éco-teinture",
+        "location": "Saint-Pierre  - Valle d’Aosta",
         "link": "/works/phillacolor",
         "button": ["Branding", "Label Design"],
-        "introTitolo": "Progetto",
+        "introTitolo": "Project",
         "cliente": {
-          "titolo": "cliente",
+          "titolo": "client",
           "nome": "Phillacolor ",
-          "payoff": "Eco-Liquid Dye"
+          "payoff": "Éco-teinture"
         },
         "anno": {
-          "titolo": "anno",
+          "titolo": "année",
           "nome": "2020"
         },
         "keywords": {
           "titolo": "keywords",
-          "nome": "Sostenibilità, Eco-dying, Colori naturali, Clorofilla"
+          "nome": "Durabilité, Éco-teinture, Couleurs naturelles, Chlorophylle"
         },
         "servizi": {
-          "titolo": "servizi",
+          "titolo": "services",
           "nome": ["branding", "label design"]
         },
         "desc": [
-          "Per un’idea sostenibile e innovativa, abbiamo elaborato con Laura, una strategia comunicativa che facesse emergere la filosofia del prodotto, realizzato solo con materie prime naturali e sostenibili."
+          "Pour une idée durable et innovante, nous avons élaboré avec Laura une stratégie de communication mettant en avant la philosophie du produit, fabriqué uniquement avec des matières premières naturelles et durables."
         ],
         "logoImg": "/portfolioImg/phillacolor/logo_phillacolor.png",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/phillacolor/typo_phillacolor_text.png",
-          "typoImg2": "/portfolioImg/phillacolor/typo_phillacolor_font.png"
+          "typoImg": "/portfolioImg/phillacolor/typo_text_philla_fr.png",
+          "typoImg2": "/portfolioImg/phillacolor/typo_font_philla.png"
         },
         "color": {
-          "titolo": "Color Brand",
+          "titolo": "Brand Colors",
           "descrizione": [
-            "Abbiamo stabilito con Laura una gamma cromatica, che traesse ispirazione dal verde della clorofilla, delle piante utilizzate per creare le tinture naturali."
+            "Nous avons établi avec Laura une gamme chromatique inspirée du vert de la chlorophylle et des plantes utilisées pour créer les teintures naturelles."
           ],
           "colorImg": "/portfolioImg/phillacolor/colorbrand_philla.png",
           "colorImg2": "/portfolioImg/phillacolor/colorbrand_philla2.png"
         },
 
         "label": {
-          "titolo": "Label Design",
+          "titolo": "Étiquettes et Emballage",
           "labelImg": "/portfolioImg/phillacolor/label_philla1.png",
           "biscottiImg": "/portfolioImg/phillacolor/label_philla2.png"
         }
       },
       "chappoz": {
-        "img": "/portfolioImg/chappoz/cover_chappoz.webp",
+        "img": "/portfolioImg/chappoz/cover_chappoz_new.webp",
         "name": "Chappoz",
         "title": "chappoz",
-        "descrizione": "Azienda Agricola",
+        "descrizione": "Exploitation agricole",
         "location": "Donnas - Valle d’Aosta",
         "link": "/works/chappoz",
         "button": ["Branding", "Label Design", "Social Media"],
-        "introTitolo": "Progetto",
+        "introTitolo": "Project",
         "cliente": {
-          "titolo": "cliente",
+          "titolo": "client",
           "nome": "Chappoz",
-          "payoff": "Azienda agricola"
+          "payoff": "Exploitation agricole"
         },
         "anno": {
-          "titolo": "anno",
+          "titolo": "année",
           "nome": "2020 - 2023"
         },
         "keywords": {
           "titolo": "keywords",
-          "nome": "Casa, Famiglia, Mais, Cereali, Cura della terra"
+          "nome": "Maison, Famille, Maïs, Céréales, Soins de la Terre"
         },
         "servizi": {
-          "titolo": "servizi",
+          "titolo": "services",
           "nome": ["branding", "label design", "social media"]
         },
         "desc": [
-          "La volontà era quella di proporre un’immagine che identificasse l’azienda agricola, a conduzione familiare, che coltiva mais, cereali e ortaggi in bassa valle a Donnas."
+          "L'objectif était de proposer une image identifiant l'exploitation agricole familiale cultivant du maïs, des céréales et des légumes dans la basse vallée à Donnas."
         ],
         "logoImg": "/portfolioImg/chappoz/logos.png",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/chappoz/typo_chap_text.png",
-          "typoImg2": "/portfolioImg/chappoz/typo_chap_font.png"
+          "typoImg": "/portfolioImg/chappoz/typo_text_chappoz_fr.png",
+          "typoImg2": "/portfolioImg/chappoz/typo_font_chappoz.png"
         },
         "color": {
-          "titolo": "Color Brand",
+          "titolo": "Brand Colors",
           "descrizione": [
-            "In collaborazione con Monica, abbiamo scelto dei colori che richiamassero la terra, le coltivazioni di mais e granoturco e i piccoli frutti."
+            "En collaboration avec Monica, nous avons choisi des couleurs évoquant la terre, les cultures de maïs et de blé, ainsi que les petits fruits."
           ],
           "colorImg": "/portfolioImg/chappoz/color.png"
         },
         "illustrazioni": {
-          "titolo": "Illustrazioni",
-          "descrizione": "Ogni illustrazione è stata realizzata a mano libera, a matita e in seguito digitalizzata e resa vettoriale.",
+          "titolo": "Illustration",
+          "descrizione": "Chaque illustration a été réalisée à main levée, au crayon, puis digitalisée et vectorisée par la suite.",
           "illImg": "/portfolioImg/chappoz/illustrazioni.png"
         },
         "label": {
-          "titolo": "Label & Pack Design",
+          "titolo": "Étiquettes et Emballage",
           "labelImg": "/portfolioImg/chappoz/label1.png",
           "biscottiImg": "/portfolioImg/chappoz/label_polenta.png"
         },
         "social": {
           "titolo": "Social",
           "descrizione": [
-            "Creazione di contenuti fotografici e testuali ad hoc, per la promozione dell’azienda sui canali social di Meta."
+            "Création de contenus photographiques et textuels sur mesure pour la promotion de l'entreprise sur les réseaux sociaux de Meta."
           ],
           "socialImg": ["/portfolioImg/chappoz/social_chappoz.png"]
         }
@@ -1271,53 +1327,53 @@
         "img": "/portfolioImg/daemy/cover_daemy.webp",
         "name": "Da Emy",
         "title": "daemy",
-        "descrizione": "Piante Officinali",
+        "descrizione": "Plantes médicinales ",
         "location": "Valsavarenche - Valle d’Aosta",
         "link": "/works/daemy",
         "button": ["Branding", "Label Design"],
-        "introTitolo": "Progetto",
+        "introTitolo": "Project",
         "cliente": {
-          "titolo": "cliente",
+          "titolo": "client",
           "nome": "Da Emy",
-          "payoff": "Piante Officinali"
+          "payoff": "Plantes médicinales"
         },
         "anno": {
-          "titolo": "anno",
+          "titolo": "année",
           "nome": "2015 - 2023"
         },
         "keywords": {
           "titolo": "keywords",
-          "nome": "Parco Naturale, Erbe officinali, Botanica, Genepy"
+          "nome": "Parc naturel, Plantes médicinales, Botanique, Genévrier commun"
         },
         "servizi": {
-          "titolo": "servizi",
+          "titolo": "services",
           "nome": ["branding", "label design"]
         },
         "desc": [
-          "Emilia e sua figlia Ambra, coltivano in quei di Valsavarenche erbe officinali e genepy.",
-          "Abbiamo creato una linea comunicativa che richiamasse l’alta montagna e la naturalezza delle piantine nate nel parco del Gran Paradiso."
+          "Emilia et sa fille Ambra cultivent dans la région de Valsavarenche des plantes médicinales et du génépi.",
+          "Nous avons créé une ligne de communication évoquant les hautes montagnes et la naturalité des plantes nées dans le parc du Grand Paradis."
         ],
         "logoImg": "/portfolioImg/daemy/brand_emy.png",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/daemy/typo_emy_text.png",
-          "typoImg2": "/portfolioImg/daemy/typo_emy_font.png"
+          "typoImg": "/portfolioImg/daemy/typo_text_daemy_fr.png",
+          "typoImg2": "/portfolioImg/daemy/typo_font_daemy.png"
         },
         "color": {
-          "titolo": "Color Brand",
+          "titolo": "Brand Colors",
           "descrizione": [
-            "Abbiamo deciso con Emy, di utilizzare i colori dei fiori e delle piantine da lei coltivate, nelle varie gradazioni colore, per creare un piacevole contrasto con le illustrazioni botaniche."
+            "Nous avons décidé avec Emy d’employer les couleurs des fleurs et des plantes qu'elle cultive, dans différentes nuances, pour créer un contraste agréable avec les illustrations botaniques."
           ],
           "colorImg": "/portfolioImg/daemy/colors.png",
           "colorImg2": "/portfolioImg/daemy/colors2.png"
         },
         "illustrazioni": {
-          "titolo": "Illustrazioni a pennello ideate ad hoc",
-          "descrizione": "Per conferire alle etichette uno stile del tutto naturale, ogni illustrazione è stata realizzata a mano a pennello con finiture a matita acquerellabile.",
+          "titolo": "Illustrations au pinceau créées sur mesure",
+          "descrizione": "Chaque illustration a été réalisée à main levée, au crayon, puis digitalisée et vectorisée par la suite.",
           "illImg": "/portfolioImg/daemy/illustrazioni.png"
         },
         "label": {
-          "titolo": "Label & Pack Design",
+          "titolo": "Étiquettes et Emballage",
           "labelImg": "/portfolioImg/daemy/label1.png",
           "cartellinoImg": "/portfolioImg/daemy/label2.png",
           "caramelleImg": "/portfolioImg/daemy/label3.png",
@@ -1329,52 +1385,52 @@
         "img": "/portfolioImg/horto/cover_horto.webp",
         "name": "Horto Sapiens",
         "title": "horto",
-        "descrizione": "Prodotti tipici di Monte Amiata e Val d'Orcia",
+        "descrizione": "Produits typiques du Monte Amiata et de la Val d'Orcia",
         "location": "Abbadia San Salvatore (SI) - Toscana",
         "link": "/works/horto",
         "button": ["Branding", "Label Design"],
-        "introTitolo": "Progetto",
+        "introTitolo": "Project",
         "cliente": {
-          "titolo": "cliente",
+          "titolo": "client",
           "nome": "Horto Sapiens",
-          "payoff": "Prodotti tipici di Monte Amiata e Val d'Orcia"
+          "payoff": "Produits typiques du Monte Amiata et de la Val d'Orcia"
         },
         "anno": {
-          "titolo": "anno",
+          "titolo": "année",
           "nome": "2013"
         },
         "keywords": {
           "titolo": "keywords",
-          "nome": "Olio, Monte Amiata, Icone, Colline Toscane, Colore"
+          "nome": "Huile, Mont Amiata, Icônes, Collines toscanes, Couleur"
         },
         "servizi": {
-          "titolo": "servizi",
+          "titolo": "services",
           "nome": ["branding", "label design"]
         },
         "desc": [
-          "La volontà era quella di creare una linea di coordinati che riflettesse la qualità delle materie prime toscane, utilizzate per creare oli aromatici, confetture dagli abbinamenti estrosi e mieli."
+          "L'objectif était de créer une gamme de produits assortis reflétant la qualité des matières premières toscanes, utilisées pour créer des huiles aromatiques, des confitures aux combinaisons audacieuses et des miels."
         ],
         "logoImg": "/portfolioImg/horto/logo_horto.png",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/horto/typo_horto_text.png",
-          "typoImg2": "/portfolioImg/horto/typo_horto_font.png"
+          "typoImg": "/portfolioImg/horto/typo_text_horto_fr.png",
+          "typoImg2": "/portfolioImg/horto/typo_font_horto.png"
         },
         "color": {
-          "titolo": "Color Brand",
+          "titolo": "Brand Colors",
           "descrizione": [
-            "In collaborazione con Andrea, abbiamo optato per colori vibranti che riprendessero quelli delle materie prime utilizzate nei trasformati."
+            "En collaboration avec Andrea, nous avons choisi des couleurs vives reprenant celles des matières premières utilisées dans les produits transformés."
           ],
           "colorImg": "/portfolioImg/horto/colorbrand_horto.png",
           "sponsorImg": "/portfolioImg/horto/branding.png"
         },
         "illustrazioni": {
-          "titolo": "Illustrazioni Vettoriali",
-          "descrizione": "Per contraddistinguere ogni prodotto, ho realizzato delle icone vettoriali stilizzate, identificative dello stesso, aventi tutte lo stesso stile.",
+          "titolo": "Illustrations vectorielles",
+          "descrizione": "Pour distinguer chaque produit, j'ai créé des icônes vectorielles stylisées, représentatives de chaque produit, toutes dans le même style.",
           "illImg": "/portfolioImg/horto/illustrazioni.png"
         },
         "label": {
-          "titolo": "Label Design",
+          "titolo": "Étiquettes et Emballage",
           "labelImg": "/portfolioImg/horto/label1.png",
           "biscottiImg": "/portfolioImg/horto/label2.png"
         }
@@ -1383,41 +1439,41 @@
         "img": "/portfolioImg/isavivai/cover_isavivai.webp",
         "name": "Isavivai",
         "title": "isavivai",
-        "descrizione": "Il Verde che ti emoziona",
+        "descrizione": "Le vert qui vous émeut",
         "location": "Aymavilles  - Valle d’Aosta",
         "link": "/works/isavivai",
         "button": ["Branding", "Allestimenti"],
-        "introTitolo": "Progetto",
+        "introTitolo": "Project",
         "cliente": {
-          "titolo": "cliente",
+          "titolo": "client",
           "nome": "Isavivai",
-          "payoff": "Vivaio e Serra"
+          "payoff": "Jardinerie et serre"
         },
         "anno": {
-          "titolo": "anno",
+          "titolo": "année",
           "nome": "2023"
         },
         "keywords": {
           "titolo": "keywords",
-          "nome": "Il verde che ti emoziona, Modern, Minimal"
+          "nome": "Le vert qui vous émeut, Moderne, Minimaliste"
         },
         "servizi": {
-          "titolo": "servizi",
+          "titolo": "services",
           "nome": ["branding", "allestimenti"]
         },
         "desc": [
-          "Abbiamo ideato insieme a Chérie e Monique, una linea di immagine coordinata per il nuovo punto vendita, e una strategia di marketing per la comunicazione interna e per la promozione offline."
+          "Nous avons conçu ensemble avec Chérie et Monique une image de marque pour le nouveau point de vente, ainsi qu'une stratégie de marketing pour la communication interne et la promotion hors ligne."
         ],
         "logoImg": "/portfolioImg/isavivai/logo_isavivai.png",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/isavivai/typo_isavivai_text.png",
-          "typoImg2": "/portfolioImg/isavivai/typo_isavivai_font.png"
+          "typoImg": "/portfolioImg/isavivai/typo_text_isavivai_fr.png",
+          "typoImg2": "/portfolioImg/isavivai/typo_font_isavivai.png"
         },
         "color": {
-          "titolo": "Color Brand",
+          "titolo": "Brand Colors",
           "descrizione": [
-            "Abbiamo stabilito con Monique e Chérie, una gamma colori pastello che identificasse e distinguesse al meglio le aree interne al vivaio."
+            "Nous avons décidé avec Monique et Chérie d'utiliser une palette de couleurs pastel pour identifier et distinguer au mieux les zones intérieures de la pépinière."
           ],
           "colorImg": "/portfolioImg/isavivai/colors.png",
           "colorImg2": "/portfolioImg/isavivai/colors2.png"
@@ -1435,54 +1491,54 @@
         "img": "/portfolioImg/saint/cover_saintgrat.webp",
         "name": "Saint Grat",
         "title": "saintgrat",
-        "descrizione": "Azienda agricola",
+        "descrizione": "Exploitation agricole",
         "location": "Gressan - Valle d’Aosta",
         "link": "/works/saintgrat",
         "button": ["Branding", "Label Design"],
-        "introTitolo": "Progetto",
+        "introTitolo": "Project",
         "cliente": {
-          "titolo": "cliente",
+          "titolo": "client",
           "nome": "Saint Grat",
-          "payoff": "Azienda agricola"
+          "payoff": "Exploitation agricole"
         },
         "anno": {
-          "titolo": "anno",
+          "titolo": "année",
           "nome": "2014 - 2023"
         },
         "keywords": {
           "titolo": "keywords",
-          "nome": "Mele, tradizione, territorio, biologico"
+          "nome": "Pommes, Tradition, Terroir, Biologique"
         },
         "servizi": {
-          "titolo": "servizi",
+          "titolo": "services",
           "nome": ["branding", "label design"]
         },
         "desc": [
-          "Con Elodie abbiamo pensato di riproporre in chiave stilizzata la forma della cappelletta che spicca di fronte alla sede aziendale, unendola alla produzione principale ossia le mele.",
-          "Per la linea Green abbiamo prestato molta attenzione alla scelta dei materiali e alla sostenibilità degli stessi."
+          "Avec Elodie, nous avons décidé de proposer une version stylisée de la forme du petit chapeau qui se distingue devant le siège de l'entreprise, en l'associant à la production principale, à savoir les pommes.",
+          "Pour la gamme Green, nous avons porté une attention particulière au choix des matériaux et à leur durabilité."
         ],
         "logoImg": "/portfolioImg/saint/brand_saint.png",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/saint/typo_saint_text.png",
-          "typoImg2": "/portfolioImg/saint/typo_saint_font.png"
+          "typoImg": "/portfolioImg/saint/typo_text_saint_fr.png",
+          "typoImg2": "/portfolioImg/saint/typo_font_saint.png"
         },
         "color": {
-          "titolo": "Color Brand",
+          "titolo": "Brand Colors",
           "descrizione": [
-            "Abbiamo deciso di mantenere il verde originale del logo storico e di ideare invece dei colori nuovi a contrasto per identificare i succhi di mela e le confetture."
+            "Nous avons choisi de conserver le vert original du logo historique et d'imaginer de nouvelles couleurs contrastées pour identifier les jus de pomme et les confitures."
           ],
           "colorImg": "/portfolioImg/saint/colors.png"
         },
         "illustrazioni": {
-          "titolo": "Illustrazioni e Pattern",
-          "descrizione": "Per la comunicazione aziendale abbiamo inizialmente puntato su un disegno più manuale che richiamasse la storia stessa dell’azienda.",
+          "titolo": "Illustrations ",
+          "descrizione": "Pour la communication d'entreprise, nous avons d'abord opté pour un dessin plus manuel qui évoquait l'histoire même de l'entreprise.",
           "illImg": "/portfolioImg/saint/illustrazioni_classica.png",
-          "descrizione2": "Per i nuovi prodotti delle linea Green, abbiamo invece stabilito di scegliere una linea più moderna basata su icone vettoriali in grado di descrivere il procedimento di realizzazione dei succhi dalla raccolta all’imbottigliamento.",
+          "descrizione2": "Pour les nouveaux produits de la gamme Green, nous avons plutôt opté pour une approche moderne basée sur des icônes vectorielles décrivant le processus de fabrication des jus, de la récolte à la mise en bouteille.",
           "illImg2": "/portfolioImg/saint/illustrazioni_green.png"
         },
         "label": {
-          "titolo": "Label & Pack Design",
+          "titolo": "Étiquettes et Emballage",
           "labelImg": "/portfolioImg/saint/jus_dor.png",
           "cartellinoImg": "/portfolioImg/saint/scarti.png",
           "caramelleImg": "/portfolioImg/saint/baginbox.png",
@@ -1493,42 +1549,42 @@
         "img": "/portfolioImg/morzenti/cover_morzenti.webp",
         "name": "Morzenti Daniele",
         "title": "morzenti",
-        "descrizione": "Azienda agricola",
+        "descrizione": "Exploitation agricole",
         "location": "Aymavilles - Valle d’Aosta",
         "link": "/works/morzenti",
         "button": ["Branding", "Social Media"],
-        "introTitolo": "Progetto",
+        "introTitolo": "Project",
         "cliente": {
-          "titolo": "cliente",
+          "titolo": "client",
           "nome": "Morzenti Daniele ",
-          "payoff": "Azienda agricola"
+          "payoff": "Exploitation agricole"
         },
         "anno": {
-          "titolo": "anno",
+          "titolo": "année",
           "nome": "2019 - 2023"
         },
         "keywords": {
           "titolo": "keywords",
-          "nome": "Pecore, Pastorizia nomade, Formaggi di pecora, Happy Farm, Orto a Km0"
+          "nome": "Moutons, Élevage Nomade, Fromages de Brebis, Happy Farm, Potager Local"
         },
         "servizi": {
-          "titolo": "servizi",
+          "titolo": "services",
           "nome": ["branding", "social media"]
         },
         "desc": [
-          "Con Daniele, abbiamo pensato di stilizzare come logo una pecora Rosset, immersa tra i verdi pascoli montani, e di includerla all’interno di un cerchio per creare una sorta di bollino di qualità",
-          "Tutta la strategia verte sulla promozione attraverso i canali social di meta e mediante contenuti fotografici e testuali che descrivono l’azienda a 360°."
+          "Avec Daniele, nous avons opté pour la stylisation d'une brebis de race Rosset comme logo, l'entourant de verdoyants pâturages de montagne, et l'intégrant dans un cercle pour créer une sorte de label de qualité.",
+          "L'ensemble de notre stratégie se focalise sur la promotion à travers les réseaux sociaux de Meta, ainsi que sur la création de contenus photographiques et textuels exhaustifs présentant l'entreprise sous tous ses aspects."
         ],
         "logoImg": "/portfolioImg/morzenti/brand_morzenti.png",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/morzenti/typo_morzenti_text.png",
-          "typoImg2": "/portfolioImg/morzenti/typo_morzenti_font.png"
+          "typoImg": "/portfolioImg/morzenti/typo_text_morzenti_fr.png",
+          "typoImg2": "/portfolioImg/morzenti/typo_font_morzenti.png"
         },
         "color": {
-          "titolo": "Color Brand",
+          "titolo": "Brand Colors",
           "descrizione": [
-            "Sono stati selezionati dei colori che riprendono quelli della terra e dei pascoli di montagna: verdi, marroni e qualche colore a contrasto."
+            "Nous avons choisi des couleurs qui évoquent la terre et les pâturages de montagne : des verts, des bruns et quelques touches de couleur contrastée."
           ],
           "colorImg": "/portfolioImg/morzenti/colors.png"
         },
@@ -1536,8 +1592,8 @@
         "social": {
           "titolo": "Social",
           "descrizione": [
-            "Ogni bimestre mi reco in azienda per concordare con Daniele le tematiche da affrontare e stendere insieme il calendario editoriale.",
-            "Ogni foto utilizzata per i social è scattata in azienda e ritrae la vita del pastore nomade, dell’agricoltore e del casaro."
+            "Chaque deux mois, je me rends à l'entreprise pour discuter avec Daniele des sujets à aborder et établir ensemble le calendrier éditorial. ",
+            "Chaque photo utilisée sur les réseaux sociaux est prise sur le site de l'entreprise et représente la vie du berger nomade, de l'agriculteur et du fromager."
           ],
           "socialImg": [
             "/portfolioImg/morzenti/social1.png",
@@ -1560,6 +1616,19 @@
     "hero": {
       "title": "/pageImg/contattiTitle.png",
       "img": "/pageImg/lupo.png"
+    },
+    "contactForm": {
+      "row1": "Salut ! Je m'appelle",
+      "row1Right": "et mon entreprise est",
+      "row2": "Je t'ai trouvée grâce à",
+      "row3": "J'ai besoin d'aide avec :",
+      "row4": "Mon budget varie entre :",
+      "row5": "N'hésitez pas à me contacter à",
+      "row5Right": "pour en discuter davantage.",
+      "row6": "J'aimerais partager plus de détails sur mon projet :",
+      "btn": "Envoyer",
+      "passaparola": "BàO*",
+      "indice": "* Bouche-à-Oreille"
     }
   }
 }

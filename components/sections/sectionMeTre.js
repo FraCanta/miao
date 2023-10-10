@@ -7,7 +7,7 @@ const SectionMeTre = ({ translation }) => {
     <section className="w-[90%] min-h-[40vh] justify-between items-center  flex flex-col  mx-auto mt-[150px]">
       <div className="w-full flex-col xl:flex-row justify-start items-center gap-[50px] flex ">
         <Image
-          className="object-cover w-full xl:w-[35vw] 2xl:w-[600px] fxl:w-[750px] 3xl:w-[900px]"
+          className="object-cover w-full xl:w-[35vw] 2xl:w-[600px] fxl:w-[750px] 3xl:w-[900px] 4xl:w-[40vw]"
           src={translation?.img}
           alt="welcome title"
           width={500}
@@ -38,7 +38,7 @@ const SectionMeTre = ({ translation }) => {
           <Link
             href="https://www.mithacreative.it/"
             target="_blank"
-            className="text-main text-2xl fxl:text-3xl 3xl:text-4xl font-extrabold underline capitalize leading-normal w-full  justify-end items-center inline-flex"
+            className="text-main text-2xl fxl:text-3xl 3xl:text-4xl 4xl:text-[5rem] font-extrabold underline capitalize leading-normal w-full  justify-end items-center inline-flex"
           >
             {translation?.cta}
           </Link>
