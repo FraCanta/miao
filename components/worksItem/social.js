@@ -8,7 +8,7 @@ const Social = ({ translation }) => {
         <span>{translation?.titolo}</span>
         <span className="text-red">.</span>
       </h3>
-      <div className="text-[4.5vw] md:text-[1.3vw] text-second mb-6">
+      <div className="text-[4.5vw] md:text-[3vw] lg:text-[1.3vw] text-second mb-6">
         {translation?.descrizione?.map((d, i) => {
           return (
             <p key={i} className="my-2">
@@ -19,7 +19,7 @@ const Social = ({ translation }) => {
       </div>
       {translation?.socialImg?.map((el, i) => {
         return (
-          <div className="relative h-[30vh] md:h-[100vh] " key={i}>
+          <div className="relative h-[30vh] lg:h-[100vh] " key={i}>
             <Image
               src={el}
               fill

@@ -38,7 +38,7 @@ const Works = ({ works, previousWork, nextWork }) => {
       <Head>
         <title>{`Miao - ${works?.name}`}</title>
       </Head>
-      <div className="w-full min-h-[calc(50vh_-_60px)] lg:h-[calc(100vh_-_70px)]  2xl:h-[calc(100vh_-_100px)] fxl:h-[calc(100vh_-_150px)]  4xl:h-[calc(100vh_-_250px)] flex flex-col lg:flex-row items-center justify-center 2xl:justify-center relative">
+      <div className="w-full min-h-[calc(50vh_-_60px)] md:h-[calc(60vh_-_100px)] lg:h-[calc(100vh_-_70px)]  2xl:h-[calc(100vh_-_100px)] fxl:h-[calc(100vh_-_150px)]  4xl:h-[calc(100vh_-_250px)] flex flex-col lg:flex-row items-center justify-center 2xl:justify-center relative">
         <HeroWorks
           img={works.img}
           name={works.name}
@@ -50,7 +50,7 @@ const Works = ({ works, previousWork, nextWork }) => {
       <section className="flex flex-col gap-6 min-h-[40vh] w-[90%] mx-auto pt-6">
         <SezioneIntro translation={works} />
       </section>
-      <section className="w-[90%] mx-auto min-h-[40vh] md:h-[90vh] relative">
+      <section className="w-[90%] mx-auto min-h-[40vh] lg:h-[90vh] relative">
         <Image
           src={works?.logoImg}
           fill

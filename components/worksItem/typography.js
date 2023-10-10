@@ -8,7 +8,7 @@ const Typography = ({ translation }) => {
         <span>{translation?.titolo}</span>
         <span className="text-red ml-0">.</span>
       </h3>
-      <div className="min-h-[20vh] md:h-[60vh] grid grid-cols-1 md:grid-cols-2 py-4">
+      <div className="min-h-[20vh] lg:h-[60vh] grid grid-cols-1 md:grid-cols-2 py-4">
         <Image
           src={translation?.typoImg}
           width={800}

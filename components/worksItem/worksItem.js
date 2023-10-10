@@ -19,7 +19,7 @@ const WorksItem = ({ img, name, link, descrizione, button, location }) => {
             <div className="grid grid-col-1 md:grid-cols-2 w-full h-full">
               <div className="flex flex-col h-full justify-between gap-6">
                 <div>
-                  <h1 className=" text-white text-[10vw] md:text-[40px] leading-none">
+                  <h1 className=" text-white text-[10vw] md:text-[5vw] lg:text-[2.5vw] leading-none">
                     {name}
                   </h1>
                   <p className="text-white mt-[0.15rem] text-[12px] tracking-[0.15rem] ">
@@ -38,12 +38,12 @@ const WorksItem = ({ img, name, link, descrizione, button, location }) => {
                   </p>
                 </div>
               </div>
-              <div className="text-white hidden md:grid grid-cols-1 md:grid-cols-3 gap-1 w-full md:justify-between items-end uppercase text-[12px]">
+              <div className="text-white hidden  md:flex  gap-1 w-full justify-end items-end uppercase text-[0.8vw] md:text-[1.5vw] lg:text-[0.8vw]">
                 {button.map((el, i) => {
                   return (
                     <p
                       key={i}
-                      className="py-1 px-2  border border-1 border-white rounded-[2px] text-center backdrop-blur"
+                      className="py-1 px-2  border border-1 border-white rounded-[2px] text-center backdrop-blur w-[33%]"
                     >
                       {el}
                     </p>

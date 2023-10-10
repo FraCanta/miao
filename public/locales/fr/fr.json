@@ -883,7 +883,7 @@
     ],
     "worksItem": [
       {
-        "img": "/portfolioImg/anserme/cover.jpg",
+        "img": "/portfolioImg/anserme/cover_anse.webp",
         "name": "Ansermé",
         "title": "ansermè",
         "descrizione": "Bio Bontà di Montagna",
@@ -892,7 +892,7 @@
         "button": ["Branding", "Label Design", "Social Media"]
       },
       {
-        "img": "/portfolioImg/bequet/cover.jpg",
+        "img": "/portfolioImg/bequet/cover_samuel.webp",
         "name": "Samuel Becquet",
         "title": "becquet",
         "descrizione": "Agriculture en Haute Montagne",
@@ -901,7 +901,7 @@
         "button": ["Branding", "Label Design"]
       },
       {
-        "img": "/portfolioImg/casadei/cover2.jpg",
+        "img": "/portfolioImg/casadei/cover_casadei.webp",
         "name": "Le Rêve en Vert",
         "title": "reve",
         "descrizione": "Azienda Agricola di Andrea Casadei",
@@ -910,7 +910,7 @@
         "button": ["Branding", "Label Design"]
       },
       {
-        "img": "/portfolioImg/phillacolor/cover_phillacolor.jpg",
+        "img": "/portfolioImg/phillacolor/cover_philla.webp",
         "name": "Phillacolor",
         "title": "phillacolor",
         "descrizione": "Eco-Liquid Dye",
@@ -919,7 +919,7 @@
         "button": ["Branding", "Label Design"]
       },
       {
-        "img": "/portfolioImg/chappoz/cover.jpg",
+        "img": "/portfolioImg/chappoz/cover_chappoz.webp",
         "name": "Chappoz",
         "title": "chappoz",
         "descrizione": "Azienda Agricola",
@@ -928,7 +928,7 @@
         "button": ["Branding", "Label Design", "Social Media"]
       },
       {
-        "img": "/portfolioImg/daemy/cover.jpg",
+        "img": "/portfolioImg/daemy/cover_daemy.webp",
         "name": "Da Emy",
         "title": "daemy",
         "descrizione": "Piante Officinali",
@@ -937,7 +937,7 @@
         "button": ["Branding", "Label Design"]
       },
       {
-        "img": "/portfolioImg/horto/cover_horto.jpg",
+        "img": "/portfolioImg/horto/cover_horto.webp",
         "name": "Horto Sapiens",
         "title": "horto",
         "descrizione": "Prodotti tipici di Monte Amiata e Val d'Orcia",
@@ -946,7 +946,7 @@
         "button": ["Branding", "Label Design"]
       },
       {
-        "img": "/portfolioImg/isavivai/cover.jpg",
+        "img": "/portfolioImg/isavivai/cover_isavivai.webp",
         "name": "Isavivai",
         "title": "isavivai",
         "descrizione": "Il Verde che ti emoziona",
@@ -955,7 +955,7 @@
         "button": ["Branding", "Allestimenti"]
       },
       {
-        "img": "/portfolioImg/saint/cover2.jpg",
+        "img": "/portfolioImg/saint/cover_saintgrat.webp",
         "name": "Saint Grat",
         "title": "saintgrat",
         "descrizione": "Azienda Agricola",
@@ -964,7 +964,7 @@
         "button": ["Branding", "Label Design"]
       },
       {
-        "img": "/portfolioImg/morzenti/cover.jpg",
+        "img": "/portfolioImg/morzenti/cover_morzenti.webp",
         "name": "Morzenti Daniele",
         "title": "morzenti",
         "descrizione": "Azienda Agricola",
@@ -975,7 +975,7 @@
     ],
     "singleWorks": {
       "ansermè": {
-        "img": "/portfolioImg/anserme/cover.jpg",
+        "img": "/portfolioImg/anserme/cover_anse.webp",
         "name": "Ansermé",
         "title": "anserme",
         "descrizione": "Bio Bontà di Montagna",
@@ -1043,7 +1043,7 @@
         }
       },
       "becquet": {
-        "img": "/portfolioImg/bequet/cover.jpg",
+        "img": "/portfolioImg/bequet/cover_samuel.webp",
         "name": "Samuel Becquet",
         "title": "becquet",
         "descrizione": "Agriculture en Haute Montagne",
@@ -1101,7 +1101,7 @@
         }
       },
       "reve": {
-        "img": "/portfolioImg/casadei/cover2.jpg",
+        "img": "/portfolioImg/casadei/cover_casadei.webp",
         "name": "Le Rêve en Vert",
         "title": "reve",
         "descrizione": "Azienda Agricola di Andrea Casadei",
@@ -1158,7 +1158,7 @@
         }
       },
       "phillacolor": {
-        "img": "/portfolioImg/phillacolor/cover_phillacolor.jpg",
+        "img": "/portfolioImg/phillacolor/cover_philla.webp",
         "name": "Phillacolor",
         "title": "phillacolor",
         "descrizione": "Eco-Liquid Dye",
@@ -1208,7 +1208,7 @@
         }
       },
       "chappoz": {
-        "img": "/portfolioImg/chappoz/cover.jpg",
+        "img": "/portfolioImg/chappoz/cover_chappoz.webp",
         "name": "Chappoz",
         "title": "chappoz",
         "descrizione": "Azienda Agricola",
@@ -1268,7 +1268,7 @@
         }
       },
       "daemy": {
-        "img": "/portfolioImg/daemy/cover.jpg",
+        "img": "/portfolioImg/daemy/cover_daemy.webp",
         "name": "Da Emy",
         "title": "daemy",
         "descrizione": "Piante Officinali",
@@ -1326,7 +1326,7 @@
         }
       },
       "horto": {
-        "img": "/portfolioImg/horto/cover_horto.jpg",
+        "img": "/portfolioImg/horto/cover_horto.webp",
         "name": "Horto Sapiens",
         "title": "horto",
         "descrizione": "Prodotti tipici di Monte Amiata e Val d'Orcia",
@@ -1380,7 +1380,7 @@
         }
       },
       "isavivai": {
-        "img": "/portfolioImg/isavivai/cover.jpg",
+        "img": "/portfolioImg/isavivai/cover_isavivai.webp",
         "name": "Isavivai",
         "title": "isavivai",
         "descrizione": "Il Verde che ti emoziona",
@@ -1432,7 +1432,7 @@
         }
       },
       "saintgrat": {
-        "img": "/portfolioImg/saint/cover2.jpg",
+        "img": "/portfolioImg/saint/cover_saintgrat.webp",
         "name": "Saint Grat",
         "title": "saintgrat",
         "descrizione": "Azienda agricola",
@@ -1490,7 +1490,7 @@
         }
       },
       "morzenti": {
-        "img": "/portfolioImg/morzenti/cover.jpg",
+        "img": "/portfolioImg/morzenti/cover_morzenti.webp",
         "name": "Morzenti Daniele",
         "title": "morzenti",
         "descrizione": "Azienda agricola",

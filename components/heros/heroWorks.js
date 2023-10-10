@@ -12,7 +12,7 @@ const HeroWorks = ({ img, name, descrizione, location, button }) => {
         fill
         className="min-h-full h-full object-cover w-full "
       />
-      <div className="absolute bottom-4 md:bottom-0 md:left-1/2 md:p-6 flex md:w-[90%] md:-translate-x-1/2  z-10 text-white">
+      <div className="absolute bottom-4 md:bottom-10 md:left-1/2  flex w-[90%] md:-translate-x-1/2  z-10 text-white">
         <div className="grid grid-col-1 md:grid-cols-2 w-full h-full">
           <div className="flex flex-col h-full justify-between md:gap-6">
             <div className="gap-1 flex flex-col">
@@ -35,12 +35,12 @@ const HeroWorks = ({ img, name, descrizione, location, button }) => {
               </p>
             </div>
           </div>
-          <div className="hidden text-white md:grid grid-cols-3 gap-2 w-full md:justify-between items-end uppercase text-[0.8vw]">
+          <div className="text-white hidden  md:flex  gap-1 w-full md:justify-end items-end uppercase text-[2.5vw] md:text-[1.5vw] lg:text-[0.8vw]">
             {button.map((el, i) => {
               return (
                 <p
                   key={i}
-                  className="py-2 px-4  border border-1 border-white rounded-[2px] text-center backdrop-blur"
+                  className="py-1 md:py-2 px-4  border border-1 border-white rounded-[2px] text-center backdrop-blur w-[33%]"
                 >
                   {el}
                 </p>

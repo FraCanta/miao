@@ -10,13 +10,16 @@ function ColorBrand({ translation }) {
       </h3>
       {translation?.descrizione?.map((d, i) => {
         return (
-          <div key={i} className="text-[4.5vw] md:text-[1.3vw] text-second ">
+          <div
+            key={i}
+            className="text-[4.5vw] md:text-[3vw] lg:text-[1.3vw] text-second "
+          >
             <p className="py-2">{d}</p>
           </div>
         );
       })}
 
-      <div className="relative h-[20vh] md:h-[50vh]">
+      <div className="relative h-[20vh] lg:h-[50vh]">
         <Image
           src={translation?.colorImg}
           fill
@@ -25,7 +28,7 @@ function ColorBrand({ translation }) {
         ></Image>
       </div>
       {translation?.colorImg2 ? (
-        <div className="relative h-[20vh] md:h-[50vh]">
+        <div className="relative h-[20vh] lg:h-[50vh]">
           <Image
             src={translation?.colorImg2}
             fill
@@ -38,7 +41,7 @@ function ColorBrand({ translation }) {
       )}
 
       {translation?.sponsorImg ? (
-        <div className="relative h-[20vh] md:h-[100vh]">
+        <div className="relative h-[20vh] md:h-[30vh] lg:h-[100vh]">
           <Image
             src={translation?.sponsorImg}
             fill

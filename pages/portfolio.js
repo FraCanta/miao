@@ -30,13 +30,13 @@ const Me = ({ translation }) => {
             return (
               <p
                 key={i}
-                className="text-[8vw] md:text-[2.5vw]"
+                className="text-[8vw] md:text-[5vw] lg:text-[2.5vw]"
                 dangerouslySetInnerHTML={{ __html: el }}
               ></p>
             );
           })}
         </section>
-        <section className="grid grid-cols-1 md:grid-cols-2  min-h-[40vh] mt-[100px]">
+        <section className="grid grid-cols-1 lg:grid-cols-2  min-h-[40vh] mt-[100px]">
           {translation?.worksItem?.map((el, i) => {
             return (
               <WorksItem
