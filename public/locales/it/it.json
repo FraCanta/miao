@@ -346,7 +346,14 @@
             "width": 600,
             "height": 600
           }
-        ]
+        ],
+        "galleryTitle": "Ecco alcuni esempi",
+        "preventivo": "Chiedi un preventivo",
+
+        "call": "Prenota una call con me",
+        "titleOpzioni": "Perchè non volere di più? Ecco altre opzioni su misura per te",
+        "descOpzioni": "Lavoreremo insieme a Francesca, web designer molto talentuosa, per ideare un sito web professionale che ti permetta di rafforzare la tua identità aziendale e così consolidando la tua presenza online. Grazie alle sue competenze, ti propongo queste opzioni:",
+        "opzioni": "Ti potrebbe anche interessare"
       },
       "label": {
         "img": "/serviziImg/label.png",
@@ -399,7 +406,14 @@
           { "src": "/serviziImg/label/pack6.jpg", "width": 600, "height": 600 },
 
           { "src": "/serviziImg/label/pack.jpg", "width": 600, "height": 600 }
-        ]
+        ],
+        "galleryTitle": "Ecco alcuni esempi",
+        "preventivo": "Chiedi un preventivo",
+
+        "call": "Prenota una call con me",
+        "titleOpzioni": "Perchè non volere di più? Ecco altre opzioni su misura per te",
+        "descOpzioni": "Lavoreremo insieme a Francesca, web designer molto talentuosa, per ideare un sito web professionale che ti permetta di rafforzare la tua identità aziendale e così consolidando la tua presenza online. Grazie alle sue competenze, ti propongo queste opzioni:",
+        "opzioni": "Ti potrebbe anche interessare"
       },
       "social": {
         "img": "/serviziImg/social.png",
@@ -478,7 +492,14 @@
             "width": 600,
             "height": 600
           }
-        ]
+        ],
+        "galleryTitle": "Ecco alcuni esempi",
+        "preventivo": "Chiedi un preventivo",
+
+        "call": "Prenota una call con me",
+        "titleOpzioni": "Perchè non volere di più? Ecco altre opzioni su misura per te",
+        "descOpzioni": "Lavoreremo insieme a Francesca, web designer molto talentuosa, per ideare un sito web professionale che ti permetta di rafforzare la tua identità aziendale e così consolidando la tua presenza online. Grazie alle sue competenze, ti propongo queste opzioni:",
+        "opzioni": "Ti potrebbe anche interessare"
       },
       "campagne": {
         "img": "/serviziImg/campagne.png",
@@ -551,7 +572,14 @@
             "width": 600,
             "height": 600
           }
-        ]
+        ],
+        "galleryTitle": "Ecco alcuni esempi",
+        "preventivo": "Chiedi un preventivo",
+
+        "call": "Prenota una call con me",
+        "titleOpzioni": "Perchè non volere di più? Ecco altre opzioni su misura per te",
+        "descOpzioni": "Lavoreremo insieme a Francesca, web designer molto talentuosa, per ideare un sito web professionale che ti permetta di rafforzare la tua identità aziendale e così consolidando la tua presenza online. Grazie alle sue competenze, ti propongo queste opzioni:",
+        "opzioni": "Ti potrebbe anche interessare"
       },
       "allestimenti": {
         "img": "/serviziImg/allestimenti.png",
@@ -627,7 +655,14 @@
             "width": 600,
             "height": 600
           }
-        ]
+        ],
+        "galleryTitle": "Ecco alcuni esempi",
+        "preventivo": "Chiedi un preventivo",
+
+        "call": "Prenota una call con me",
+        "titleOpzioni": "Perchè non volere di più? Ecco altre opzioni su misura per te",
+        "descOpzioni": "Lavoreremo insieme a Francesca, web designer molto talentuosa, per ideare un sito web professionale che ti permetta di rafforzare la tua identità aziendale e così consolidando la tua presenza online. Grazie alle sue competenze, ti propongo queste opzioni:",
+        "opzioni": "Ti potrebbe anche interessare"
       },
       "illustrazione": {
         "img": "/serviziImg/illustrazione.png",
@@ -709,7 +744,14 @@
             "width": 600,
             "height": 600
           }
-        ]
+        ],
+        "galleryTitle": "Ecco alcuni esempi",
+        "preventivo": "Chiedi un preventivo",
+
+        "call": "Prenota una call con me",
+        "titleOpzioni": "Perchè non volere di più? Ecco altre opzioni su misura per te",
+        "descOpzioni": "Lavoreremo insieme a Francesca, web designer molto talentuosa, per ideare un sito web professionale che ti permetta di rafforzare la tua identità aziendale e così consolidando la tua presenza online. Grazie alle sue competenze, ti propongo queste opzioni:",
+        "opzioni": "Ti potrebbe anche interessare"
       },
       "content": {
         "img": "/serviziImg/contentCreator.png",
@@ -859,7 +901,14 @@
             "width": 600,
             "height": 600
           }
-        ]
+        ],
+        "galleryTitle": "Ecco alcuni esempi",
+        "preventivo": "Chiedi un preventivo",
+
+        "call": "Prenota una call con me",
+        "titleOpzioni": "Perchè non volere di più? Ecco altre opzioni su misura per te",
+        "descOpzioni": "Lavoreremo insieme a Francesca, web designer molto talentuosa, per ideare un sito web professionale che ti permetta di rafforzare la tua identità aziendale e così consolidando la tua presenza online. Grazie alle sue competenze, ti propongo queste opzioni:",
+        "opzioni": "Ti potrebbe anche interessare"
       }
     },
     "fraService": [
