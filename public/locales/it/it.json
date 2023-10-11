@@ -116,19 +116,19 @@
       },
       {
         "img": "/serviziImg/campagne.png",
-        "name": "Campagne Offline",
+        "name": "Offline Campaigns",
         "descrizione": "Le campagne offline plasmano scelte, creano connessioni e trasmettono messaggi profondi, incarnando idee, valori e brand che si toccano, sentono e ricordano.",
         "link": "/service/campagne"
       },
       {
         "img": "/serviziImg/allestimenti.png",
-        "name": "Allestimenti",
+        "name": "Stage Design",
         "descrizione": "Gli allestimenti personalizzati conferiscono personalità ad uno spazio vuoto. Possono evocare emozioni, creare atmosfere e coinvolgere il pubblico in modo unico.",
         "link": "/service/allestimenti"
       },
       {
         "img": "/serviziImg/illustrazione.png",
-        "name": "Illustrazione Digitale",
+        "name": "Illustrations",
         "descrizione": "Le illustrazioni create ad hoc, sono molto più di semplici immagini; sono elementi chiave che permettono di esaltare il tuo brand e renderlo unico e memorabile.",
         "link": "/service/illustrazione"
       },
@@ -150,7 +150,7 @@
           "Se stai iniziando una nuova attività e ancora non hai <strong>un logo distintivo</strong> che rappresenti al meglio la tua azienda, sei nel posto giusto!",
           "Hai bisogno di un’immagine visiva su misura, in perfetta sintonia con la tua mission e adatta al tuo pubblico di riferimento?"
         ],
-        "title": "/serviziImg/logo_Title.png",
+        "title": "/pageImg/logo_Title.png",
         "titlePro": "Sono qui per te:",
         "descPro": [
           "Progetteremo un logo unico per la tua azienda, che identifichi chiaramente la tua attività e i prodotti/servizi offerti al tuo pubblico target."
@@ -232,6 +232,16 @@
             "src": "/serviziImg/logoDesign/logoDesign2.jpg",
             "width": 600,
             "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign15.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign16.jpg",
+            "width": 600,
+            "height": 600
           }
         ],
         "call": "Prenota una call con me",
@@ -242,7 +252,7 @@
       "branding": {
         "img": "/serviziImg/branding.png",
         "name": "Branding Strategy",
-        "title": "/serviziImg/branding_Title.png",
+        "title": "/pageImg/branding_Title.png",
         "introTitle": "Non solo logo!",
         "intro": [
           "La mia missione è andare oltre la creazione di un semplice logo. ",
@@ -503,8 +513,8 @@
       },
       "campagne": {
         "img": "/serviziImg/campagne.png",
-        "name": "Campagne Offline",
-        "title": "/serviziImg/campagne_Title.png",
+        "name": "Offline Campaigns",
+        "title": "/pageImg/campagne_Title.png",
         "introTitle": "Riscopri il Potere delle Campagne Offline: Emozioni, Fiducia ed Accessibilità nel Mondo Non Digitale",
         "intro": [
           "Nel mondo frenetico e digitalizzato in cui viviamo, può sembrare che l’attenzione sia rivolta unicamente verso il mondo online. Ma, in un’epoca in cui i nostri occhi sono incollati agli schermi e i nostri dispositivi ci tengono connessi costantemente, c’è un mondo fuori che non dovremmo mai sottovalutare: il mondo delle campagne offline.",
@@ -571,6 +581,11 @@
             "src": "/serviziImg/campagne/campagne7.jpg",
             "width": 600,
             "height": 600
+          },
+          {
+            "src": "/serviziImg/campagne/campagne10.jpg",
+            "width": 600,
+            "height": 600
           }
         ],
         "galleryTitle": "Ecco alcuni esempi",
@@ -583,8 +598,8 @@
       },
       "allestimenti": {
         "img": "/serviziImg/allestimenti.png",
-        "name": "Allestimenti",
-        "title": "/serviziImg/allestimenti_Title.png",
+        "name": "Stage Design",
+        "title": "/pageImg/allestimenti_Title.png",
         "introTitle": "Scegli un’ Allestimento per Promuovere il tuo Brand",
         "intro": [
           "Un’ allestimento personalizzato è un potente strumento che trasforma un semplice spazio in un’ambiente comunicativo. Gli allestimenti, sia in ambito fieristico che riguardanti il punto vendita, sono la chiave per catturare l’attenzione, suscitare emozioni e far sì che il tuo brand si distingua.",
@@ -661,8 +676,8 @@
       },
       "illustrazione": {
         "img": "/serviziImg/illustrazione.png",
-        "name": "Illustrazione Digitale",
-        "title": "/serviziImg/illustrazione_Title.png",
+        "name": "Illustrations",
+        "title": "/pageImg/illustrazione_Title.png",
         "introTitle": "Le Illustrazioni Personalizzate rafforzano l'immagine del Tuo Brand",
         "intro": [
           "Le illustrazioni personalizzate sono la firma del tuo brand. Possono catturare l’essenza della tua identità aziendale in un’immagine, rendendo il tuo brand immediatamente riconoscibile e memorabile.",
@@ -751,7 +766,7 @@
       "content": {
         "img": "/serviziImg/contentCreator.png",
         "name": "Content Creator",
-        "title": "/serviziImg/content_Title.png",
+        "title": "/pageImg/content_Title.png",
         "introTitle": "Coinvolgi il tuo target con contenuti ideati ad hoc",
         "intro": [
           "Creare contenuti su misura, che siano foto, video o testi, è la formula magica per il successo sui social e non solo. Ecco perché dovresti fare della personalizzazione una priorità assoluta.",
@@ -1085,10 +1100,8 @@
         },
         "label": {
           "titolo": "Label & Pack Design",
-          "descrizione": "Etichette fustellate per la linea dei mieli biologici stampate su carta betulla vergata.",
           "labelImg": "/portfolioImg/anserme/etichetta_miele.png",
           "cartellinoImg": "/portfolioImg/anserme/latta_caramelle.png",
-          "descrizione2": "Stampa diretta su latta (per le caramelle).",
           "caramelleImg": "/portfolioImg/anserme/cartellino_caramelle.png",
           "biscottiImg": "/portfolioImg/anserme/cartellino_biscotti.png",
           "scatoleImg": "/portfolioImg/anserme/creme.png",
@@ -1149,8 +1162,7 @@
         "illustrazioni": {
           "titolo": "Illustrazioni Digitali",
           "descrizione": "Abbiamo deciso di optare per una comunicazione moderna, lineare, utilizzando immagini fotografiche a contrasto con elementi vettoriali che riprendono i colori del prodotto descritto.",
-          "illImg": "/portfolioImg/bequet/illustrazioni.png",
-          "descrizione2": ""
+          "illImg": "/portfolioImg/bequet/illustrazioni.png"
         },
         "label": {
           "titolo": "Label Design",
