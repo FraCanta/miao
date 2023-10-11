@@ -95,49 +95,49 @@
         "img": "/serviziImg/logodesign.png",
         "name": "Logo Design",
         "title": "logo",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "descrizione": "A custom-designed logo, tailored to your target audience and your vision, is an investment in your company's success.",
         "link": "/service/logo"
       },
       {
         "img": "/serviziImg/branding.png",
         "name": "Branding Strategy",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "descrizione": "A good branding strategy allows you to stand out from the competition and build a strong, unique, and recognizable identity.",
         "link": "/service/branding"
       },
       {
         "img": "/serviziImg/label.png",
         "name": "Label & Packaging",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "descrizione": "Label and packaging design are essential for a product's success. In a competitive market, they are crucial for capturing the interest of the audience and informing the consumer.",
         "link": "/service/label"
       },
       {
         "img": "/serviziImg/social.png",
         "name": "Social Media Strategy",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "descrizione": "Save time and enhance your online presence with targeted, up-to-date content to increase engagement.",
         "link": "/service/social"
       },
       {
         "img": "/serviziImg/campagne.png",
         "name": "Offline Campaigns",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "descrizione": "Offline campaigns shape choices, create connections, and convey deep messages, embodying ideas, values, and brands that people touch, feel, and remember.",
         "link": "/service/campagne"
       },
       {
         "img": "/serviziImg/allestimenti.png",
         "name": "Stage Design",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "descrizione": "Custom setups give personality to an empty space. They can evoke emotions, create atmospheres, and engage the audience uniquely.",
         "link": "/service/allestimenti"
       },
       {
         "img": "/serviziImg/illustrazione.png",
         "name": "Illustrations",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "descrizione": "Tailor-made illustrations are more than just images; they are key elements that enhance your brand and make it unique and memorable.",
         "link": "/service/illustrazione"
       },
       {
         "img": "/serviziImg/contentCreator.png",
         "name": "Content Creator",
-        "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "descrizione": "In today's digital world, content plays an increasingly important role. But it's not just about quantity; it's about quality and, most importantly, personalization.",
         "link": "/service/content"
       }
     ],
@@ -163,7 +163,7 @@
           "1 logo in web format (jpeg and gif), perfect for your social media and online channels",
           "1 usage manual with brand guidelines"
         ],
-        "descrizione": "Un logo progettato su misura, in base al tuo target di riferimento e alla tua vision è un investimento per il successo della tua azienda.",
+        "descrizione": "A custom-designed logo, tailored to your target audience and your vision, is an investment in your company's success.",
         "link": "logo",
         "gallery": [
           {
@@ -232,6 +232,16 @@
             "src": "/serviziImg/logoDesign/logoDesign2.jpg",
             "width": 600,
             "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign15.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign16.jpg",
+            "width": 600,
+            "height": 600
           }
         ],
         "preventivo": "Contact me for a quote",
@@ -263,7 +273,7 @@
         "list": [
           "A tailored strategic plan designed specifically for you based on your objectives and target audience."
         ],
-        "descrizione": "Una buona strategia di branding ti permette di differenziarti dalla concorrenza e di costruire un'identità forte, unica e riconoscibile.",
+        "descrizione": "A good branding strategy allows you to stand out from the competition and build a strong, unique, and recognizable identity.",
         "link": "logo",
         "gallery": [
           {
@@ -383,7 +393,7 @@
           "Supplier research",
           "Provision of digital artwork for printing and initiation of the printing process"
         ],
-        "descrizione": "Il label e il packaging design sono elementi essenziali che contribuiscono al successo di un prodotto e alla sua vendita. In un mercato competitivo permettono di attrarre l'interesse del pubblico e informare i consumatore.",
+        "descrizione": "Label and packaging design are essential for a product's success. In a competitive market, they are crucial for capturing the interest of the audience and informing the consumer.",
         "link": "label",
         "gallery": [
           { "src": "/serviziImg/label/pack2.jpg", "width": 600, "height": 600 },
@@ -437,7 +447,7 @@
           "Tailor-made content created specifically for you, capable of generating leads"
         ],
 
-        "descrizione": "Risparmia tempo e migliora la tua presenza online con contenuti mirati e aggiornati alle ultime tendenze per aumentare l'engagement.",
+        "descrizione": "Save time and enhance your online presence with targeted, up-to-date content to increase engagement.",
         "link": "social",
         "gallery": [
           {
@@ -503,7 +513,7 @@
       "campagne": {
         "img": "/serviziImg/campagne.png",
         "name": "Offline Campaigns",
-        "title": "/serviziImg/campagne_Title.png",
+        "title": "/pageImg/campagne_Title.png",
         "introTitle": "Rediscover the Power of Offline Campaigns: Emotions, Trust, and Accessibility in the real World",
         "intro": [
           "In the fast-paced and digitized world we live in, it might seem like attention is solely focused on the online realm. But in an era where our eyes are glued to screens and our devices keep us constantly connected, there's a world outside that we should never underestimate: the realm of offline campaigns.",
@@ -521,7 +531,7 @@
           "Design Postcards or Flyers: Create postcards or flyers for manual distribution, allowing for a personal touch in delivering your message. These can be handed out directly to potential customers",
           "Support with Custom Merchandise: Enhance your initiative with specially designed gadgets or merchandise. These items can reinforce your campaign message and serve as tangible reminders for your audience"
         ],
-        "descrizione": "Le campagne offline plasmano scelte, creano connessioni e trasmettono messaggi profondi, incarnando idee, valori e brand che si toccano, sentono e ricordano.",
+        "descrizione": "Offline campaigns shape choices, create connections, and convey deep messages, embodying ideas, values, and brands that people touch, feel, and remember.",
         "link": "campagne",
         "gallery": [
           {
@@ -570,6 +580,11 @@
             "src": "/serviziImg/campagne/campagne7.jpg",
             "width": 600,
             "height": 600
+          },
+          {
+            "src": "/serviziImg/campagne/campagne10.jpg",
+            "width": 600,
+            "height": 600
           }
         ],
         "preventivo": "Contact me for a quote",
@@ -582,7 +597,7 @@
       "allestimenti": {
         "img": "/serviziImg/allestimenti.png",
         "name": "Stage Design",
-        "title": "/serviziImg/allestimenti_Title.png",
+        "title": "/pageImg/allestimenti_Title.png",
         "introTitle": "Choose a Setup to Promote Your Brand",
         "intro": [
           "A customized setup is a powerful tool that transforms a simple space into a communicative environment. Setups, whether in trade shows or retail settings, are key to capturing attention, evoking emotions, and ensuring your brand stands out.",
@@ -595,7 +610,7 @@
           "To help you customize your retail space or find tailored solutions together to showcase your products effectively in trade show environments or third-party locations."
         ],
 
-        "descrizione": "Gli allestimenti personalizzati conferiscono personalità ad uno spazio vuoto. Possono evocare emozioni, creare atmosfere e coinvolgere il pubblico in modo unico.",
+        "descrizione": "Custom setups give personality to an empty space. They can evoke emotions, create atmospheres, and engage the audience uniquely.",
         "link": "allestimenti",
         "gallery": [
           {
@@ -659,7 +674,7 @@
       "illustrazione": {
         "img": "/serviziImg/illustrazione.png",
         "name": "Illustrations",
-        "title": "/serviziImg/illustrazione_Title.png",
+        "title": "/pageImg/illustrazione_Title.png",
         "introTitle": "Custom Illustrations Strengthen Your Brand Image",
         "intro": [
           "Custom illustrations serve as the signature of your brand. They can capture the essence of your corporate identity in an image, making your brand instantly recognizable and memorable.",
@@ -673,7 +688,7 @@
           "To create tailored images that reflect your taste and your brand's values."
         ],
 
-        "descrizione": "Le illustrazioni create ad hoc, sono molto più di semplici immagini; sono elementi chiave che permettono di esaltare il tuo brand e renderlo unico e memorabile.",
+        "descrizione": "Tailor-made illustrations are more than just images; they are key elements that enhance your brand and make it unique and memorable.",
         "titleList": "What You'll Get:",
         "sottoList": "According to your needs, we will create for you:",
         "list": [
@@ -764,7 +779,7 @@
           "Research of high-performing hashtags and keywords"
         ],
 
-        "descrizione": "Nel mondo digitale di oggi, il contenuto ricopre un ruolo sempre più importante. Ma non si tratta solo di quantità; si tratta di qualità e, soprattutto, di personalizzazione.",
+        "descrizione": "In today's digital world, content plays an increasingly important role. But it's not just about quantity; it's about quality and, most importantly, personalization.",
         "link": "content",
         "gallery": [
           {
@@ -905,25 +920,25 @@
       {
         "img": "/fraService/tailored.png",
         "name": "Tailored Site",
-        "descrizione": "Un sito su misura con una grafica accattivante per distinguerti tra le migliaia di siti pre-confezionati.",
+        "descrizione": "A custom-designed website with an attractive graphic layout to set you apart from the thousands of pre-packaged sites.",
         "link": "https://www.thallion-dev.it/service/tailored"
       },
       {
         "img": "/fraService/ecommerce.png",
         "name": "E-commerce",
-        "descrizione": "Che tu abbia pochi prodotti o una selezione più ampia, costruiamo attorno al tuo brand la chiave del tuo successo online.",
+        "descrizione": "Whether you have a few products or a wider selection, we build the key to your online success around your brand.",
         "link": "https://www.thallion-dev.it/service/ecommerce"
       },
       {
         "img": "/fraService/figma.png",
-        "name": "Prototipazione con figma",
-        "descrizione": "Testa la tua idea prima di svilupparla! Ideale per piccole aziende e start-up. Risparmia budget e tempo.",
+        "name": "Prototyping with Figma",
+        "descrizione": "Test your idea before developing it! Ideal for small businesses and startups. Save budget and time.",
         "link": "https://www.thallion-dev.it/service/figma"
       },
       {
         "img": "/fraService/restyle.png",
-        "name": "È Tempo Di Un Restyling",
-        "descrizione": "Il tuo sito non sta funzionando come pensavi? Fammi dare un'occhiata! Magari è una questione di stile.",
+        "name": "Time for a makeover",
+        "descrizione": "Is your website not performing as you thought? Let me take a look! Perhaps it's a matter of style.",
         "link": "https://www.thallion-dev.it/service/restyling"
       }
     ]
@@ -1173,15 +1188,15 @@
         },
         "keywords": {
           "titolo": "keywords",
-          "nome": "Andrea Casadei's Agricultural Company"
+          "nome": "Local, Dream, Green, Garden, Colors, Patterns"
         },
         "servizi": {
           "titolo": "services",
           "nome": ["branding", "label design"]
         },
         "desc": [
-          "Con Andrea abbiamo rinnovato il logo originale e sviluppato una linea di branding completa. ",
-          "Questa strategia ha incluso la creazione di un'immagine coordinata per i prodotti trasformati e la promozione attraverso materiali stampati di alta qualità, sia all’interno del punto vendita che all’esterno."
+          "With Andrea, we revamped the original logo and developed a complete branding line.",
+          "This strategy involved creating a coordinated image for the transformed products and promotion through high-quality printed materials, both inside the store and outside."
         ],
         "logoImg": "/portfolioImg/casadei/brand_casadei.png",
         "typo": {
@@ -1192,7 +1207,7 @@
         "color": {
           "titolo": "Brand Colors",
           "descrizione": [
-            "In collaborazione con Andrea, abbiamo scelto di utilizzare una gamma di tonalità di verde come base per la nostra comunicazione, con l’obiettivo di richiamare le sfumature presenti nel suo orto a chilometro zero."
+            "In collaboration with Andrea, we chose to use a range of green shades as the basis for our communication, aiming to reflect the nuances found in his local garden."
           ],
           "colorImg": "/portfolioImg/casadei/colors_casadei.png",
           "sponsorImg": "/portfolioImg/casadei/sponsor.png"
@@ -1215,29 +1230,29 @@
         "name": "Phillacolor",
         "title": "phillacolor",
         "descrizione": "Eco-Liquid Dye",
-        "location": "Saint -Pierre  - Valle d’Aosta",
+        "location": "Saint-Pierre  - Valle d’Aosta",
         "link": "/works/phillacolor",
         "button": ["Branding", "Label Design"],
-        "introTitolo": "Progetto",
+        "introTitolo": "Project",
         "cliente": {
-          "titolo": "cliente",
+          "titolo": "client",
           "nome": "Phillacolor ",
           "payoff": "Eco-Liquid Dye"
         },
         "anno": {
-          "titolo": "anno",
+          "titolo": "year",
           "nome": "2020"
         },
         "keywords": {
           "titolo": "keywords",
-          "nome": "Sostenibilità, Eco-dying, Colori naturali, Clorofilla"
+          "nome": "Sustainability, Eco-dyeing, Natural Colors, Chlorophyll"
         },
         "servizi": {
-          "titolo": "servizi",
+          "titolo": "services",
           "nome": ["branding", "label design"]
         },
         "desc": [
-          "Per un’idea sostenibile e innovativa, abbiamo elaborato con Laura, una strategia comunicativa che facesse emergere la filosofia del prodotto, realizzato solo con materie prime naturali e sostenibili."
+          "For a sustainable and innovative concept, Laura and I developed a communication strategy to highlight the product's philosophy, made only with natural and sustainable raw materials."
         ],
         "logoImg": "/portfolioImg/phillacolor/logo_phillacolor.png",
         "typo": {
@@ -1248,7 +1263,7 @@
         "color": {
           "titolo": "Brand Colors",
           "descrizione": [
-            "Abbiamo stabilito con Laura una gamma cromatica, che traesse ispirazione dal verde della clorofilla, delle piante utilizzate per creare le tinture naturali."
+            "Laura and I established a color palette inspired by the green of chlorophyll and plants used to create natural dyes."
           ],
           "colorImg": "/portfolioImg/phillacolor/colorbrand_philla.png",
           "colorImg2": "/portfolioImg/phillacolor/colorbrand_philla2.png"
@@ -1264,30 +1279,30 @@
         "img": "/portfolioImg/chappoz/cover_chappoz_new.webp",
         "name": "Chappoz",
         "title": "chappoz",
-        "descrizione": "Azienda Agricola",
+        "descrizione": "Agricultural Company",
         "location": "Donnas - Valle d’Aosta",
         "link": "/works/chappoz",
         "button": ["Branding", "Label Design", "Social Media"],
-        "introTitolo": "Progetto",
+        "introTitolo": "Project",
         "cliente": {
-          "titolo": "cliente",
+          "titolo": "client",
           "nome": "Chappoz",
-          "payoff": "Azienda agricola"
+          "payoff": "Agricultural Company"
         },
         "anno": {
-          "titolo": "anno",
+          "titolo": "year",
           "nome": "2020 - 2023"
         },
         "keywords": {
           "titolo": "keywords",
-          "nome": "Casa, Famiglia, Mais, Cereali, Cura della terra"
+          "nome": "Home, Family, Corn, Cereals, Care for the Earth"
         },
         "servizi": {
-          "titolo": "servizi",
+          "titolo": "services",
           "nome": ["branding", "label design", "social media"]
         },
         "desc": [
-          "La volontà era quella di proporre un’immagine che identificasse l’azienda agricola, a conduzione familiare, che coltiva mais, cereali e ortaggi in bassa valle a Donnas."
+          "The goal was to create an image that represents the family-run agricultural business, cultivating corn, cereals, and vegetables in the lower valley in Donnas."
         ],
         "logoImg": "/portfolioImg/chappoz/logos.png",
         "typo": {
@@ -1298,13 +1313,13 @@
         "color": {
           "titolo": "Brand Colors",
           "descrizione": [
-            "In collaborazione con Monica, abbiamo scelto dei colori che richiamassero la terra, le coltivazioni di mais e granoturco e i piccoli frutti."
+            "In collaboration with Monica, we chose colors that evoke the earth, corn and maize crops, and small fruits."
           ],
           "colorImg": "/portfolioImg/chappoz/color.png"
         },
         "illustrazioni": {
-          "titolo": "Illustrazioni",
-          "descrizione": "Ogni illustrazione è stata realizzata a mano libera, a matita e in seguito digitalizzata e resa vettoriale.",
+          "titolo": "Illustrations",
+          "descrizione": "Each illustration was hand-drawn with pencil and later digitized and vectorized.",
           "illImg": "/portfolioImg/chappoz/illustrazioni.png"
         },
         "label": {
@@ -1315,7 +1330,7 @@
         "social": {
           "titolo": "Social",
           "descrizione": [
-            "Creazione di contenuti fotografici e testuali ad hoc, per la promozione dell’azienda sui canali social di Meta."
+            "Creation of tailor-made photographic and textual content for the promotion of the company on Meta's social channels."
           ],
           "socialImg": ["/portfolioImg/chappoz/social_chappoz2.png"]
         }
@@ -1324,31 +1339,31 @@
         "img": "/portfolioImg/daemy/cover_daemy.webp",
         "name": "Da Emy",
         "title": "daemy",
-        "descrizione": "Piante Officinali",
+        "descrizione": "Medicinal Plants",
         "location": "Valsavarenche - Valle d’Aosta",
         "link": "/works/daemy",
         "button": ["Branding", "Label Design"],
-        "introTitolo": "Progetto",
+        "introTitolo": "Project",
         "cliente": {
-          "titolo": "cliente",
+          "titolo": "client",
           "nome": "Da Emy",
-          "payoff": "Piante Officinali"
+          "payoff": "Medicinal Plants"
         },
         "anno": {
-          "titolo": "anno",
+          "titolo": "year",
           "nome": "2015 - 2023"
         },
         "keywords": {
           "titolo": "keywords",
-          "nome": "Parco Naturale, Erbe officinali, Botanica, Genepy"
+          "nome": "Natural Park, Medicinal Herbs, Botany, Genepy"
         },
         "servizi": {
-          "titolo": "servizi",
+          "titolo": "services",
           "nome": ["branding", "label design"]
         },
         "desc": [
-          "Emilia e sua figlia Ambra, coltivano in quei di Valsavarenche erbe officinali e genepy.",
-          "Abbiamo creato una linea comunicativa che richiamasse l’alta montagna e la naturalezza delle piantine nate nel parco del Gran Paradiso."
+          "Emilia and her daughter Ambra cultivate medicinal herbs and genepy in the Valsavarenche area.",
+          "We created a communication strategy that evokes the high mountains and the naturalness of the plants born in the Gran Paradiso Park."
         ],
         "logoImg": "/portfolioImg/daemy/brand_emy.png",
         "typo": {
@@ -1359,14 +1374,14 @@
         "color": {
           "titolo": "Brand Colors",
           "descrizione": [
-            "Abbiamo deciso con Emy, di utilizzare i colori dei fiori e delle piantine da lei coltivate, nelle varie gradazioni colore, per creare un piacevole contrasto con le illustrazioni botaniche."
+            "Emy and I decided to use the colors of the flowers and plants she cultivates, in various shades, to create a pleasant contrast with botanical illustrations."
           ],
           "colorImg": "/portfolioImg/daemy/colors.png",
           "colorImg2": "/portfolioImg/daemy/colors2.png"
         },
         "illustrazioni": {
-          "titolo": "Illustrazioni a pennello ideate ad hoc",
-          "descrizione": "Per conferire alle etichette uno stile del tutto naturale, ogni illustrazione è stata realizzata a mano a pennello con finiture a matita acquerellabile.",
+          "titolo": "Custom Brush Illustrations",
+          "descrizione": "To give the labels a completely natural style, each illustration was hand-painted with brush strokes and finished with watercolor pencil.",
           "illImg": "/portfolioImg/daemy/illustrazioni.png"
         },
         "label": {
@@ -1382,30 +1397,30 @@
         "img": "/portfolioImg/horto/cover_horto.webp",
         "name": "Horto Sapiens",
         "title": "horto",
-        "descrizione": "Prodotti tipici di Monte Amiata e Val d'Orcia",
+        "descrizione": "Typical Products from Monte Amiata and Val d'Orcia",
         "location": "Abbadia San Salvatore (SI) - Toscana",
         "link": "/works/horto",
         "button": ["Branding", "Label Design"],
-        "introTitolo": "Progetto",
+        "introTitolo": "Project",
         "cliente": {
-          "titolo": "cliente",
+          "titolo": "client",
           "nome": "Horto Sapiens",
-          "payoff": "Prodotti tipici di Monte Amiata e Val d'Orcia"
+          "payoff": "Typical Products from Monte Amiata and Val d'Orcia"
         },
         "anno": {
-          "titolo": "anno",
+          "titolo": "year",
           "nome": "2013"
         },
         "keywords": {
           "titolo": "keywords",
-          "nome": "Olio, Monte Amiata, Icone, Colline Toscane, Colore"
+          "nome": "Oil, Monte Amiata, Icons, Tuscan Hills, Color"
         },
         "servizi": {
-          "titolo": "servizi",
+          "titolo": "services",
           "nome": ["branding", "label design"]
         },
         "desc": [
-          "La volontà era quella di creare una linea di coordinati che riflettesse la qualità delle materie prime toscane, utilizzate per creare oli aromatici, confetture dagli abbinamenti estrosi e mieli."
+          "The goal was to create a line of products that reflected the quality of Tuscan raw materials used to produce aromatic oils, creatively paired jams, and honey."
         ],
         "logoImg": "/portfolioImg/horto/logo_horto.png",
         "typo": {
@@ -1416,14 +1431,14 @@
         "color": {
           "titolo": "Brand Colors",
           "descrizione": [
-            "In collaborazione con Andrea, abbiamo optato per colori vibranti che riprendessero quelli delle materie prime utilizzate nei trasformati."
+            "In collaboration with Andrea, we chose vibrant colors that mirrored those of the raw materials used in the products."
           ],
           "colorImg": "/portfolioImg/horto/colorbrand_horto.png",
           "sponsorImg": "/portfolioImg/horto/branding.png"
         },
         "illustrazioni": {
-          "titolo": "Illustrazioni Vettoriali",
-          "descrizione": "Per contraddistinguere ogni prodotto, ho realizzato delle icone vettoriali stilizzate, identificative dello stesso, aventi tutte lo stesso stile.",
+          "titolo": "Vector Illustrations",
+          "descrizione": "To distinguish each product, I created stylized vector icons, representing each item with a consistent style.",
           "illImg": "/portfolioImg/horto/illustrazioni.png"
         },
         "label": {
@@ -1436,30 +1451,30 @@
         "img": "/portfolioImg/isavivai/cover_isavivai.webp",
         "name": "Isavivai",
         "title": "isavivai",
-        "descrizione": "Il Verde che ti emoziona",
+        "descrizione": "The Green That Moves You - Nursery, Greenhouse",
         "location": "Aymavilles  - Valle d’Aosta",
         "link": "/works/isavivai",
         "button": ["Branding", "Allestimenti"],
-        "introTitolo": "Progetto",
+        "introTitolo": "Project",
         "cliente": {
-          "titolo": "cliente",
+          "titolo": "client",
           "nome": "Isavivai",
-          "payoff": "Vivaio e Serra"
+          "payoff": "Nursery, Greenhouse"
         },
         "anno": {
-          "titolo": "anno",
+          "titolo": "year",
           "nome": "2023"
         },
         "keywords": {
           "titolo": "keywords",
-          "nome": "Il verde che ti emoziona, Modern, Minimal"
+          "nome": "The green that moves you, Modern, Minimal"
         },
         "servizi": {
-          "titolo": "servizi",
+          "titolo": "services",
           "nome": ["branding", "allestimenti"]
         },
         "desc": [
-          "Abbiamo ideato insieme a Chérie e Monique, una linea di immagine coordinata per il nuovo punto vendita, e una strategia di marketing per la comunicazione interna e per la promozione offline."
+          "We created together with Chérie and Monique, a coordinated image line for the new store, and a marketing strategy for internal communication and offline promotion."
         ],
         "logoImg": "/portfolioImg/isavivai/logo_isavivai.png",
         "typo": {
@@ -1470,7 +1485,7 @@
         "color": {
           "titolo": "Brand Colors",
           "descrizione": [
-            "Abbiamo stabilito con Monique e Chérie, una gamma colori pastello che identificasse e distinguesse al meglio le aree interne al vivaio."
+            "We decided with Monique and Chérie, a pastel color palette that would identify and distinguish the internal areas of the nursery."
           ],
           "colorImg": "/portfolioImg/isavivai/colors.png",
           "colorImg2": "/portfolioImg/isavivai/colors2.png"
@@ -1480,7 +1495,7 @@
           "illImg": "/portfolioImg/isavivai/branding.png"
         },
         "label": {
-          "titolo": "Allestimenti",
+          "titolo": "Stage Design",
           "labelImg": "/portfolioImg/isavivai/allestimenti.png"
         }
       },
@@ -1488,31 +1503,31 @@
         "img": "/portfolioImg/saint/cover_saintgrat.webp",
         "name": "Saint Grat",
         "title": "saintgrat",
-        "descrizione": "Azienda agricola",
+        "descrizione": "Agricultural Company",
         "location": "Gressan - Valle d’Aosta",
         "link": "/works/saintgrat",
         "button": ["Branding", "Label Design"],
-        "introTitolo": "Progetto",
+        "introTitolo": "Project",
         "cliente": {
-          "titolo": "cliente",
+          "titolo": "client",
           "nome": "Saint Grat",
-          "payoff": "Azienda agricola"
+          "payoff": "Agricultural Company"
         },
         "anno": {
-          "titolo": "anno",
+          "titolo": "year",
           "nome": "2014 - 2023"
         },
         "keywords": {
           "titolo": "keywords",
-          "nome": "Mele, tradizione, territorio, biologico"
+          "nome": "Apples, Tradition, Territory, Organic"
         },
         "servizi": {
-          "titolo": "servizi",
+          "titolo": "services",
           "nome": ["branding", "label design"]
         },
         "desc": [
-          "Con Elodie abbiamo pensato di riproporre in chiave stilizzata la forma della cappelletta che spicca di fronte alla sede aziendale, unendola alla produzione principale ossia le mele.",
-          "Per la linea Green abbiamo prestato molta attenzione alla scelta dei materiali e alla sostenibilità degli stessi."
+          "With Elodie, we decided to represent the distinctive shape of the chapel near the company headquarters in a stylized manner, combining it with the main production, which is apples.",
+          "For the Green line, we paid close attention to the choice of materials and their sustainability."
         ],
         "logoImg": "/portfolioImg/saint/brand_saint.png",
         "typo": {
@@ -1523,15 +1538,15 @@
         "color": {
           "titolo": "Brand Colors",
           "descrizione": [
-            "Abbiamo deciso di mantenere il verde originale del logo storico e di ideare invece dei colori nuovi a contrasto per identificare i succhi di mela e le confetture."
+            "We decided to keep the original green from the historic logo and instead create new contrasting colors to identify the apple juices and jams."
           ],
           "colorImg": "/portfolioImg/saint/colors.png"
         },
         "illustrazioni": {
-          "titolo": "Illustrazioni e Pattern",
-          "descrizione": "Per la comunicazione aziendale abbiamo inizialmente puntato su un disegno più manuale che richiamasse la storia stessa dell’azienda.",
+          "titolo": "Illustrations and Patterns",
+          "descrizione": "For the company's communication, we initially focused on a more manual drawing style that echoed the history of the company.",
           "illImg": "/portfolioImg/saint/illustrazioni_classica.png",
-          "descrizione2": "Per i nuovi prodotti delle linea Green, abbiamo invece stabilito di scegliere una linea più moderna basata su icone vettoriali in grado di descrivere il procedimento di realizzazione dei succhi dalla raccolta all’imbottigliamento.",
+          "descrizione2": "For the new products in the Green line, we opted for a more modern approach using vector icons to illustrate the process of making the juices, from harvesting to bottling.",
           "illImg2": "/portfolioImg/saint/illustrazioni_green.png"
         },
         "label": {
@@ -1546,31 +1561,31 @@
         "img": "/portfolioImg/morzenti/cover_morzenti.webp",
         "name": "Morzenti Daniele",
         "title": "morzenti",
-        "descrizione": "Azienda agricola",
+        "descrizione": "Agricultural Company",
         "location": "Aymavilles - Valle d’Aosta",
         "link": "/works/morzenti",
         "button": ["Branding", "Social Media"],
-        "introTitolo": "Progetto",
+        "introTitolo": "Project",
         "cliente": {
-          "titolo": "cliente",
+          "titolo": "client",
           "nome": "Morzenti Daniele ",
-          "payoff": "Azienda agricola"
+          "payoff": "Agricultural Company"
         },
         "anno": {
-          "titolo": "anno",
+          "titolo": "year",
           "nome": "2019 - 2023"
         },
         "keywords": {
           "titolo": "keywords",
-          "nome": "Pecore, Pastorizia nomade, Formaggi di pecora, Happy Farm, Orto a Km0"
+          "nome": "Sheep, Nomadic Shepherding, Sheep Cheese, Happy Farm, Local Vegetable Garden"
         },
         "servizi": {
-          "titolo": "servizi",
+          "titolo": "services",
           "nome": ["branding", "social media"]
         },
         "desc": [
-          "Con Daniele, abbiamo pensato di stilizzare come logo una pecora Rosset, immersa tra i verdi pascoli montani, e di includerla all’interno di un cerchio per creare una sorta di bollino di qualità",
-          "Tutta la strategia verte sulla promozione attraverso i canali social di meta e mediante contenuti fotografici e testuali che descrivono l’azienda a 360°."
+          "With Daniele, we decided to stylize the logo with a Rosset sheep, nestled among the green mountain pastures, and include it within a circle to create a sort of quality seal.",
+          "The entire strategy revolves around promotion through Meta social channels and through photographic and textual content that describes the company from every angle."
         ],
         "logoImg": "/portfolioImg/morzenti/brand_morzenti.png",
         "typo": {
@@ -1581,7 +1596,7 @@
         "color": {
           "titolo": "Brand Colors",
           "descrizione": [
-            "Sono stati selezionati dei colori che riprendono quelli della terra e dei pascoli di montagna: verdi, marroni e qualche colore a contrasto."
+            "Colors were chosen to reflect those of the earth and mountain pastures: greens, browns, and a few contrasting colors."
           ],
           "colorImg": "/portfolioImg/morzenti/colors.png"
         },
@@ -1589,8 +1604,8 @@
         "social": {
           "titolo": "Social",
           "descrizione": [
-            "Ogni bimestre mi reco in azienda per concordare con Daniele le tematiche da affrontare e stendere insieme il calendario editoriale.",
-            "Ogni foto utilizzata per i social è scattata in azienda e ritrae la vita del pastore nomade, dell’agricoltore e del casaro."
+            "Every two months, I visit the farm to discuss topics with Daniele and create the editorial calendar together.",
+            "Each photo used for social media is taken on the farm and captures the life of the nomadic shepherd, farmer, and cheesemaker."
           ],
           "socialImg": [
             "/portfolioImg/morzenti/social1.png",
@@ -1615,16 +1630,18 @@
       "img": "/pageImg/lupo.png"
     },
     "contactForm": {
-      "row1": "Ciao! Mi chiamo",
-      "row1Right": "e lavoro a",
-      "row2": "Ti ho trovata usando",
-      "row3": "Ho bisogno di aiuto con:",
-      "row4": "Vorrei restare attorno a:",
-      "row5": "Non esitare a contattarmi su",
-      "row5Right": "per cominciare a parlarne.",
-      "row6": "Mi piacerebbe condividere maggiori dettagli sul mio progetto:",
-      "btn": "Invia",
-      "passaparola": "Passaparola"
+      "row1": "Hi! I am",
+      "row1Right": "and my brand is",
+      "row2": "I found you using",
+      "row3": "I'm looking for help with:",
+      "row4": "I am hoping to stay around of:",
+
+      "row5": "Feel free to reach me at",
+      "row5Right": "to begin the conversation.",
+      "row6": "I would like to share more about my project:",
+      "btn": "Submit",
+      "passaparola": "Word of Mouth",
+      "altro": "Other"
     }
   }
 }

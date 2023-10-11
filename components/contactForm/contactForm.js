@@ -344,7 +344,7 @@ export default function ContactForm({ translation }) {
                     onClick={onChangeValue}
                   />
                   <span className="pill-checkbox__label no-select text-m">
-                    Altro
+                    {translation?.altro}
                   </span>
                 </label>
               </div>

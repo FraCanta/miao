@@ -91,49 +91,49 @@
         "img": "/serviziImg/logodesign.png",
         "name": "Logo Design",
         "title": "logo",
-        "descrizione": "Un logo progettato su misura, in base al tuo target di riferimento e alla tua vision è un investimento per il successo della tua azienda.",
+        "descrizione": "Un logo conçu sur mesure, en fonction de votre public cible et de votre vision, est un investissement pour le succès de votre entreprise.",
         "link": "/service/logo"
       },
       {
         "img": "/serviziImg/branding.png",
         "name": "Branding Strategy",
-        "descrizione": "Una buona strategia di branding ti permette di differenziarti dalla concorrenza e di costruire un'identità forte, unica e riconoscibile.",
+        "descrizione": "Une bonne stratégie de branding vous permet de vous démarquer de la concurrence et de construire une identité forte, unique et reconnaissable.",
         "link": "/service/branding"
       },
       {
         "img": "/serviziImg/label.png",
         "name": "Label & Packaging",
-        "descrizione": "Il label e il packaging design sono essenziali per il successo di un prodotto, in un mercato competitivo, sono cruciali per catturare l’interesse del pubblico e informare il consumatore.",
+        "descrizione": "Le design de l'étiquette et de l'emballage est essentiel pour le succès d'un produit. Dans un marché concurrentiel, ils sont cruciaux pour captiver l'intérêt du public et informer le consommateur.",
         "link": "/service/label"
       },
       {
         "img": "/serviziImg/social.png",
         "name": "Social Media Strategy",
-        "descrizione": "Risparmia tempo e migliora la tua presenza online con contenuti mirati e aggiornati alle ultime tendenze per aumentare l'engagement.",
+        "descrizione": "Gagnez du temps et améliorez votre présence en ligne avec des contenus ciblés et mis à jour pour augmenter l'engagement.",
         "link": "/service/social"
       },
       {
         "img": "/serviziImg/campagne.png",
-        "name": "Campagne Offline",
-        "descrizione": "Le campagne offline plasmano scelte, creano connessioni e trasmettono messaggi profondi, incarnando idee, valori e brand che si toccano, sentono e ricordano.",
+        "name": "Offline Campaigns",
+        "descrizione": "Les campagnes hors ligne façonnent les choix, créent des liens et transmettent des messages profonds, incarnant des idées, des valeurs et des marques que les gens touchent, ressentent et mémorisent.",
         "link": "/service/campagne"
       },
       {
         "img": "/serviziImg/allestimenti.png",
-        "name": "Allestimenti",
-        "descrizione": "Gli allestimenti personalizzati conferiscono personalità ad uno spazio vuoto. Possono evocare emozioni, creare atmosfere e coinvolgere il pubblico in modo unico.",
+        "name": "Stage Design",
+        "descrizione": "Les aménagements personnalisés donnent de la personnalité à un espace vide. Ils peuvent évoquer des émotions, créer des atmosphères et impliquer le public de manière unique.",
         "link": "/service/allestimenti"
       },
       {
         "img": "/serviziImg/illustrazione.png",
         "name": "Illustrazione Digitale",
-        "descrizione": "Le illustrazioni create ad hoc, sono molto più di semplici immagini; sono elementi chiave che permettono di esaltare il tuo brand e renderlo unico e memorabile.",
+        "descrizione": "Les illustrations sur mesure sont bien plus que de simples images ; ce sont des éléments clés qui rehaussent votre marque et la rendent unique et mémorable.",
         "link": "/service/illustrazione"
       },
       {
         "img": "/serviziImg/contentCreator.png",
         "name": "Content Creator",
-        "descrizione": "Nel mondo digitale di oggi, il contenuto ricopre un ruolo sempre più importante. Ma non si tratta solo di quantità; si tratta di qualità e, soprattutto, di personalizzazione.",
+        "descrizione": "Dans le monde numérique d'aujourd'hui, le contenu joue un rôle de plus en plus important. Mais il ne s'agit pas seulement de quantité ; il s'agit de qualité et, surtout, de personnalisation.",
         "link": "/service/content"
       }
     ],
@@ -160,7 +160,7 @@
           "1 manuel d'utilisation avec les directives de la marque"
         ],
         "preventivo": "j’aimerais un devis ",
-        "descrizione": "Un logo progettato su misura, in base al tuo target di riferimento e alla tua vision è un investimento per il successo della tua azienda.",
+        "descrizione": "Un logo conçu sur mesure, en fonction de votre public cible et de votre vision, est un investissement pour le succès de votre entreprise.",
         "link": "logo",
         "galleryTitle": "Quelques exemples",
         "gallery": [
@@ -230,6 +230,16 @@
             "src": "/serviziImg/logoDesign/logoDesign2.jpg",
             "width": 600,
             "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign15.jpg",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logoDesign16.jpg",
+            "width": 600,
+            "height": 600
           }
         ],
         "call": "Réserve ton appel",
@@ -261,7 +271,7 @@
         ],
         "preventivo": "j’aimerais un devis ",
 
-        "descrizione": "Una buona strategia di branding ti permette di differenziarti dalla concorrenza e di costruire un'identità forte, unica e riconoscibile.",
+        "descrizione": "Une bonne stratégie de branding vous permet de vous démarquer de la concurrence et de construire une identité forte, unique et reconnaissable.",
         "link": "logo",
         "galleryTitle": "Quelques exemples",
 
@@ -381,7 +391,7 @@
           "La recherche de fournisseurs",
           "La fourniture du fichier exécutif au format numérique et le lancement de l'impression"
         ],
-        "descrizione": "Il label e il packaging design sono elementi essenziali che contribuiscono al successo di un prodotto e alla sua vendita. In un mercato competitivo permettono di attrarre l'interesse del pubblico e informare i consumatore.",
+        "descrizione": "Le design de l'étiquette et de l'emballage est essentiel pour le succès d'un produit. Dans un marché concurrentiel, ils sont cruciaux pour captiver l'intérêt du public et informer le consommateur.",
         "link": "label",
         "gallery": [
           { "src": "/serviziImg/label/pack2.jpg", "width": 600, "height": 600 },
@@ -435,7 +445,7 @@
           "Des contenus créés spécialement pour vous, capables de générer des prospects"
         ],
 
-        "descrizione": "Risparmia tempo e migliora la tua presenza online con contenuti mirati e aggiornati alle ultime tendenze per aumentare l'engagement.",
+        "descrizione": "Gagnez du temps et améliorez votre présence en ligne avec des contenus ciblés et mis à jour pour augmenter l'engagement.",
         "link": "social",
         "gallery": [
           {
@@ -500,8 +510,8 @@
       },
       "campagne": {
         "img": "/serviziImg/campagne.png",
-        "name": "Campagne Offline",
-        "title": "/serviziImg/campagne_Title.png",
+        "name": "Offline Campaigns",
+        "title": "/pageImg/campagne_Title.png",
         "introTitle": "Redécouvre le Pouvoir des Campagnes Hors Ligne : Émotions, Confiance et Accessibilité dans le Monde physique",
         "intro": [
           "Dans le monde frénétique et digitalisé dans lequel nous vivons, il peut sembler que l'attention soit uniquement portée vers le monde en ligne. Mais à une époque où nos yeux sont rivés sur les écrans et nos appareils nous maintiennent constamment connectés, il y a un monde extérieur que nous ne devrions jamais sous-estimer : le monde des campagnes hors ligne.",
@@ -519,7 +529,7 @@
           "Concevoir des cartes postales ou des flyers pour permettre la remise manuelle du message",
           "Soutenir l'initiative avec des gadgets conçus sur mesure"
         ],
-        "descrizione": "Le campagne offline plasmano scelte, creano connessioni e trasmettono messaggi profondi, incarnando idee, valori e brand che si toccano, sentono e ricordano.",
+        "descrizione": "Les campagnes hors ligne façonnent les choix, créent des liens et transmettent des messages profonds, incarnant des idées, des valeurs et des marques que les gens touchent, ressentent et mémorisent.",
         "link": "campagne",
         "gallery": [
           {
@@ -568,6 +578,11 @@
             "src": "/serviziImg/campagne/campagne7.jpg",
             "width": 600,
             "height": 600
+          },
+          {
+            "src": "/serviziImg/campagne/campagne10.jpg",
+            "width": 600,
+            "height": 600
           }
         ],
         "preventivo": "j’aimerais un devis ",
@@ -579,8 +594,8 @@
       },
       "allestimenti": {
         "img": "/serviziImg/allestimenti.png",
-        "name": "Allestimenti",
-        "title": "/serviziImg/allestimenti_Title.png",
+        "name": "Stage Design",
+        "title": "/pageImg/allestimenti_Title.png",
         "introTitle": "Choisissez un bon Agencement pour Promouvoir Votre Marque",
         "intro": [
           "Un agencement personnalisé est un outil puissant qui transforme un simple espace en un environnement de communication. Les agencements, qu'ils soient liés à des salons professionnels ou à des points de vente, sont la clé pour attirer l'attention, susciter des émotions et faire en sorte que votre marque se distingue.",
@@ -593,7 +608,7 @@
           "Pour vous aider à personnaliser votre point de vente ou à trouver avec vous une solution ciblée pour mettre en valeur au mieux vos produits dans les espaces des salons professionnels ou chez des tiers."
         ],
 
-        "descrizione": "Gli allestimenti personalizzati conferiscono personalità ad uno spazio vuoto. Possono evocare emozioni, creare atmosfere e coinvolgere il pubblico in modo unico.",
+        "descrizione": "Les aménagements personnalisés donnent de la personnalité à un espace vide. Ils peuvent évoquer des émotions, créer des atmosphères et impliquer le public de manière unique.",
         "link": "allestimenti",
         "gallery": [
           {
@@ -656,8 +671,8 @@
       },
       "illustrazione": {
         "img": "/serviziImg/illustrazione.png",
-        "name": "Illustrazione Digitale",
-        "title": "/serviziImg/illustrazione_Title.png",
+        "name": "Illustrations",
+        "title": "/pageImg/illustrazione_Title.png",
         "introTitle": "Les Illustrations Personnalisées Renforcent l'Image de Votre Marque",
         "intro": [
           "Les illustrations personnalisées sont la signature de votre marque. Elles peuvent capturer l'essence de votre identité d'entreprise dans une image, rendant votre marque immédiatement reconnaissable et mémorable.",
@@ -671,7 +686,7 @@
           "Pour créer des images sur mesure qui reflètent votre goût et les valeurs de votre marque."
         ],
 
-        "descrizione": "Le illustrazioni create ad hoc, sono molto più di semplici immagini; sono elementi chiave che permettono di esaltare il tuo brand e renderlo unico e memorabile.",
+        "descrizione": "Les illustrations sur mesure sont bien plus que de simples images ; ce sont des éléments clés qui rehaussent votre marque et la rendent unique et mémorable.",
         "titleList": "Qu'obtiendrez-vous:",
         "sottoList": "En fonction de vos besoins, nous créerons pour vous :",
         "list": [
@@ -745,7 +760,7 @@
       "content": {
         "img": "/serviziImg/contentCreator.png",
         "name": "Content Creator",
-        "title": "/serviziImg/content_Title.png",
+        "title": "/pageImg/content_Title.png",
         "introTitle": "Engagez votre public avec des contenus sur mesure",
         "intro": [
           "Créer des contenus sur mesure, que ce soit des photos, des vidéos ou des textes, est la formule magique pour réussir sur les réseaux sociaux et au-delà. C'est pourquoi vous devriez faire de la personnalisation une priorité absolue.",
@@ -762,7 +777,7 @@
           "Recherche d'hashtags et de mots-clés à fort rendement"
         ],
 
-        "descrizione": "Nel mondo digitale di oggi, il contenuto ricopre un ruolo sempre più importante. Ma non si tratta solo di quantità; si tratta di qualità e, soprattutto, di personalizzazione.",
+        "descrizione": "Dans le monde numérique d'aujourd'hui, le contenu joue un rôle de plus en plus important. Mais il ne s'agit pas seulement de quantité ; il s'agit de qualité et, surtout, de personnalisation.",
         "link": "content",
         "gallery": [
           {
@@ -903,25 +918,25 @@
       {
         "img": "/fraService/tailored.png",
         "name": "Tailored Site",
-        "descrizione": "Un sito su misura con una grafica accattivante per distinguerti tra le migliaia di siti pre-confezionati.",
+        "descrizione": "Un site sur mesure avec une mise en page graphique attrayante pour vous démarquer parmi les milliers de sites préfabriqués.",
         "link": "https://www.thallion-dev.it/service/tailored"
       },
       {
         "img": "/fraService/ecommerce.png",
         "name": "E-commerce",
-        "descrizione": "Che tu abbia pochi prodotti o una selezione più ampia, costruiamo attorno al tuo brand la chiave del tuo successo online.",
+        "descrizione": "Que vous ayez quelques produits ou une sélection plus large, nous construisons la clé de votre succès en ligne autour de votre marque.",
         "link": "https://www.thallion-dev.it/service/ecommerce"
       },
       {
         "img": "/fraService/figma.png",
-        "name": "Prototipazione con figma",
-        "descrizione": "Testa la tua idea prima di svilupparla! Ideale per piccole aziende e start-up. Risparmia budget e tempo.",
+        "name": "Prototypage avec Figma",
+        "descrizione": "Testez votre idée avant de la développer ! Idéal pour les petites entreprises et les start-ups. Économisez du budget et du temps.",
         "link": "https://www.thallion-dev.it/service/figma"
       },
       {
         "img": "/fraService/restyle.png",
-        "name": "È Tempo Di Un Restyling",
-        "descrizione": "Il tuo sito non sta funzionando come pensavi? Fammi dare un'occhiata! Magari è una questione di stile.",
+        "name": "Il est temps de relooker",
+        "descrizione": "Votre site ne fonctionne pas comme prévu ? Laissez-moi jeter un coup d'œil ! Peut-être s'agit-il d'une question de style.",
         "link": "https://www.thallion-dev.it/service/restyling"
       }
     ]
@@ -1623,7 +1638,8 @@
       "row6": "J'aimerais partager plus de détails sur mon projet :",
       "btn": "Envoyer",
       "passaparola": "BàO*",
-      "indice": "* Bouche-à-Oreille"
+      "indice": "* Bouche-à-Oreille",
+      "altro": "Autre"
     }
   }
 }
