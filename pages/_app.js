@@ -15,6 +15,21 @@ export default function App({ Component, pageProps }) {
         <Component {...pageProps} key={router.asPath} />
       </Layout>
       <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-57G0ZKF60T"
+      ></Script>
+
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+
+
+  gtag('config', 'G-57G0ZKF60T');
+        `}
+      </Script>
+      <Script
         src="https://static.elfsight.com/platform/platform.js"
         data-use-service-core
         defer
