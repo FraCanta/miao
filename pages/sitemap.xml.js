@@ -6,7 +6,7 @@ import {
   getPostsByLanguageAndBlogOwner,
 } from "../utils/wordpress";
 
-import LayoutTranslation from "../public/locales/layout.json";
+import LayoutTranslation from "../public/layout.json";
 
 function generateSiteMap(posts) {
   return `<?xml version="1.0" encoding="UTF-8"?>
