@@ -8,7 +8,7 @@ const SectionDue = ({ translation }) => {
       <div className="w-full justify-start items-end gap-[354px] inline-flex">
         <div className="justify-start items-center flex w-full">
           <Image
-            className="object-cover w-[64vw] 2xl:w-[30vw] fxl:w-[20vw] 3xl:w-[20vw]"
+            className="object-cover w-full 2xl:w-[30vw] fxl:w-[20vw] 3xl:w-[20vw]"
             src={translation?.title}
             alt="welcome title"
             width={300}
