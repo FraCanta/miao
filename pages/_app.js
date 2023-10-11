@@ -29,6 +29,7 @@ export default function App({ Component, pageProps }) {
   gtag('config', 'G-57G0ZKF60T');
         `}
       </Script>
+
       <Script
         src="https://static.elfsight.com/platform/platform.js"
         data-use-service-core

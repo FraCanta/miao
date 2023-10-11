@@ -14,6 +14,10 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@400;500;700&display=swap"
           rel="stylesheet"
         ></link>
+        <meta
+          name="google-site-verification"
+          content="6WDfIu3pIELXHelT5H2YxmCYWbcTna589ZfqrIjBwj4"
+        />
       </Head>
       <body>
         <Main />
