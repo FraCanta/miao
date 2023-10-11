@@ -23,6 +23,7 @@ export default function App({ Component, pageProps }) {
         type="text/javascript"
         charset="UTF-8"
         src="//cdn.cookie-script.com/s/6206605853f8d2265c8c18f1fec772d8.js"
+        strategy="afterInteractive"
       ></Script>
     </main>
   );
