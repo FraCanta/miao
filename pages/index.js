@@ -51,16 +51,16 @@ export default function Home({ translation, post, featuredMedia, users }) {
         <SectionUno translation={translation?.sezioneUno} />
         <SectionDue translation={translation?.sezioneDue} />
         <SectionTre translation={translation?.sezioneTre} />
-        <SectionsQuattro translation={translation?.sezioneQuattro}  post={post}
+        <SectionsQuattro
+          translation={translation?.sezioneQuattro}
+          post={post}
           featuredMedia={featuredMedia}
-          users={users}/>
+          users={users}
+        />
       </SlideAnimation>
     </>
   );
 }
-
-
-
 
 export async function getStaticProps(locale, context) {
   const idLocale = await getTagId(locale.locale); // recupera id della lingua attuale

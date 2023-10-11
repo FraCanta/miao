@@ -21,7 +21,7 @@
     },
     "sezioneDue": {
       "cta": "Mes services",
-      "title": "/sectionsTitle/serviceTitle_fr.png",
+      "title": "/sectionsTitle/serviceTitle2_fr.png",
       "img": "/sectionsTitle/servizi_generici.png",
       "titoloP": "Solutions créatives à 360 degrés",
       "descrizione": "Le design graphique et la communication visuelle sont l'art invisible qui imprègne notre monde. Il s'agit de bien plus que de simples images et de couleurs ; ce sont des outils puissants qui façonnent nos perceptions et guident nos décisions.",
@@ -32,7 +32,7 @@
       "cta": "Découvre mes travaux",
       "title": "/sectionsTitle/sezioneTre.png",
       "img": "/sectionsTitle/logosmix.jpg",
-      "titoloP": "Découvrez mes toutes réalisations (ou presque).",
+      "titoloP": "Découvrez mes toutes réalisations (ou presque)",
       "paragrafo1": "Mon but est celui d'aider les petites entreprises à définir une image visuelle unique et efficace. Ce processus est essentiel pour se démarquer de la concurrence et pour renforcer sa présence sur le marché en ligne et hors ligne. Je crée des contenus à la fois visuels et textuels qui correspondent aux objectifs commerciaux et qui savent engager le bon public."
     },
     "sezioneQuattro": {
@@ -73,7 +73,7 @@
       "img": "/assets/mitha_animation.gif",
       "paragrafi": [
         "De plus, il y a Mitha, une idée créative qui est née presque par jeu, un pari entre <a href='https://www.thallion-dev.it/' target='_blank'><strong>Thallion+dev</strong></a>, une talentueuse webdesigner qui a également créé mon site, et moi. J'ai toujours cherché à m'entourer de professionnels déterminés et concrets dans la poursuite de leurs objectifs.",
-        "Ce projet partagé est une opportunité pour les clients, car avec Mitha, ils peuvent trouver toutes les solutions dont ils ont besoin sans l'inconvénient de devoir chercher ailleurs. Restez connectés !"
+        "Ce projet partagé est une opportunité pour les clients, car avec Mitha, ils peuvent trouver toutes les solutions dont ils ont besoin sans l'inconvénient de devoir chercher ailleurs. <span style='color:#de4928;font-weight: bold'> Restez connectés</span> !"
       ],
       "cta": "Restez connectés"
     },
@@ -83,7 +83,7 @@
   },
   "servizi": {
     "hero": {
-      "title": "/pageImg/serviceTitle.png",
+      "title": "/pageImg/serviceTitle_fr.png",
       "img": "/pageImg/gatto.png"
     },
     "serviziItem": [
@@ -145,7 +145,7 @@
         "intro": [
           "Un design de logo efficace a un impact durable sur la perception de l'entreprise au fil du temps.",
           "Il fait partie intégrante de la stratégie de branding et contribue à construire la réputation et la notoriété de la marque à long terme.",
-          "Si vous lancez une nouvelle activité et que vous n'avez pas encore de logo distinctif qui représente au mieux votre entreprise, vous êtes au bon endroit !",
+          "Si vous lancez une nouvelle activité et que vous n'avez pas encore de <strong>logo distinctif</strong> qui représente au mieux votre entreprise, vous êtes au bon endroit !",
           "Vous avez besoin d'une image visuelle sur mesure, en parfaite harmonie avec votre mission et adaptée à votre public ?"
         ],
         "title": "/serviziImg/logo_Title.png",
@@ -244,7 +244,7 @@
         "introTitle": "Pas seulement un logo!",
         "intro": [
           "Ma mission va au-delà de la création d'un simple logo.",
-          "Je veux vous aider à définir l'image complète de votre entreprise, du début à la fin, en examinant attentivement votre vision, votre mission et votre public. Ensemble, nous développerons une stratégie marketing sur mesure qui donnera vie à votre identité d'entreprise, la rendant unique, reconnaissable et mémorable.",
+          "Je veux vous aider à définir <strong>l'image complète de votre entreprise</strong>, du début à la fin, en examinant attentivement votre vision, votre mission et votre public. Ensemble, nous développerons une stratégie marketing sur mesure qui donnera vie à votre identité d'entreprise, la rendant unique, reconnaissable et mémorable.",
           "Le branding ne se limite pas à la conception du logo, mais comprend toute une série d'actions spécifiques visant à communiquer et à consolider l'image de votre marque au sein de votre marché spécifique.",
           "Nous voulons que votre 'marque' se démarque grâce à une image coordonnée, soignée dans les moindres détails, capable de soutenir au mieux toutes vos initiatives marketing.",
           "Je suis là pour vous faire remarquer et vous aider à vous distinguer de vos concurrents !"
@@ -506,18 +506,18 @@
         "intro": [
           "Dans le monde frénétique et digitalisé dans lequel nous vivons, il peut sembler que l'attention soit uniquement portée vers le monde en ligne. Mais à une époque où nos yeux sont rivés sur les écrans et nos appareils nous maintiennent constamment connectés, il y a un monde extérieur que nous ne devrions jamais sous-estimer : le monde des campagnes hors ligne.",
           "Contrairement aux publicités en ligne, elles apportent des avantages tangibles tels que : ",
-          "Éveiller des émotions : une affiche, un dépliant ou un événement en direct peuvent susciter des sentiments difficiles à obtenir à travers un écran. Le fait de tenir un produit entre ses mains, d'en sentir la texture, de prendre le temps d'en apprendre sur lui, etc., peuvent avoir un impact profond.",
-          "Créer la confiance : les gens ont tendance à faire confiance à ce qu'ils peuvent voir, toucher et expérimenter directement. Les campagnes hors ligne offrent cette opportunité d'une expérience authentique.",
-          "Élargir l'accessibilité : tout le monde n'a pas un accès constant à Internet ou n'est pas disposé à partager ses données en ligne. "
+          "<strong>Éveiller des émotions :</strong> une affiche, un dépliant ou un événement en direct peuvent susciter des sentiments difficiles à obtenir à travers un écran. Le fait de tenir un produit entre ses mains, d'en sentir la texture, de prendre le temps d'en apprendre sur lui, etc., peuvent avoir un impact profond.",
+          "<strong>Créer la confiance :</strong> les gens ont tendance à faire confiance à ce qu'ils peuvent voir, toucher et expérimenter directement. Les campagnes hors ligne offrent cette opportunité d'une expérience authentique.",
+          "<strong>Élargir l'accessibilité :</strong> tout le monde n'a pas un accès constant à Internet ou n'est pas disposé à partager ses données en ligne. "
         ],
         "titleList": "Comment réaliser une bonne campagne hors ligne :",
         "list": [
-          "choisir les bons emplacements pour les affichages",
-          "prévoir des publicités dans des journaux locaux en “target”",
-          "concevoir un graphisme attractif et engageant en lien avec le message",
-          "créer différents formats d'affiches",
-          "concevoir des cartes postales ou des flyers pour permettre la remise manuelle du message",
-          "soutenir l'initiative avec des gadgets conçus sur mesure"
+          "Choisir les bons emplacements pour les affichages",
+          "Prévoir des publicités dans des journaux locaux en “target”",
+          "Concevoir un graphisme attractif et engageant en lien avec le message",
+          "Créer différents formats d'affiches",
+          "Concevoir des cartes postales ou des flyers pour permettre la remise manuelle du message",
+          "Soutenir l'initiative avec des gadgets conçus sur mesure"
         ],
         "descrizione": "Le campagne offline plasmano scelte, creano connessioni e trasmettono messaggi profondi, incarnando idee, valori e brand che si toccano, sentono e ricordano.",
         "link": "campagne",
@@ -586,7 +586,7 @@
           "Un agencement personnalisé est un outil puissant qui transforme un simple espace en un environnement de communication. Les agencements, qu'ils soient liés à des salons professionnels ou à des points de vente, sont la clé pour attirer l'attention, susciter des émotions et faire en sorte que votre marque se distingue.",
 
           "Dans les contextes des salons professionnels, un agencement personnalisé met en avant votre marque au premier plan, captant les regards et créant une expérience mémorable. Dans les points de vente, il transforme la visite des clients en une immersion totale dans votre univers.",
-          "Les agencements personnalisés sont un outil puissant de communication. Ils peuvent transmettre des messages clairs et mémorables, vous aidant à atteindre vos objectifs marketing et promotionnels."
+          "Les agencements personnalisés sont <strong>un outil puissant de communication</strong>. Ils peuvent transmettre des messages clairs et mémorables, vous aidant à atteindre vos objectifs marketing et promotionnels."
         ],
         "titlePro": "Je suis là pour vous :",
         "descPro": [
@@ -645,11 +645,6 @@
             "src": "/serviziImg/allestimenti/allestimenti10.jpg",
             "width": 600,
             "height": 600
-          },
-          {
-            "src": "/serviziImg/allestimenti/allestimenti11.jpg",
-            "width": 600,
-            "height": 600
           }
         ],
         "preventivo": "j’aimerais un devis ",
@@ -680,10 +675,10 @@
         "titleList": "Qu'obtiendrez-vous:",
         "sottoList": "En fonction de vos besoins, nous créerons pour vous :",
         "list": [
-          "graphiques vectoriels",
-          "illustrations à la main",
-          "illustrations artisanales en technique mixte",
-          "motifs",
+          "Graphiques vectoriels",
+          "Illustrations à la main",
+          "Illustrations artisanales en technique mixte",
+          "Motifs",
           "...et d'autres éléments visuels pour soutenir votre communication"
         ],
 
@@ -755,7 +750,7 @@
         "intro": [
           "Créer des contenus sur mesure, que ce soit des photos, des vidéos ou des textes, est la formule magique pour réussir sur les réseaux sociaux et au-delà. C'est pourquoi vous devriez faire de la personnalisation une priorité absolue.",
 
-          "Les contenus personnalisés vous permettent de créer un lien direct entre votre marque et votre public. Chaque photo et chaque mot peuvent être adaptés pour refléter les valeurs, la voix et la personnalité unique de votre marque, établissant une connexion authentique avec vos followers.",
+          "Les contenus personnalisés vous permettent de créer un lien direct entre votre marque et votre public. Chaque photo et chaque mot peuvent être adaptés pour refléter les valeurs, la voix et la personnalité unique de votre marque, établissant <strong>une connexion authentique avec vos followers</strong>.",
           "La personnalisation ne se limite pas aux médias sociaux. Vous pouvez l'étendre à vos supports promotionnels, créant ainsi une image cohérente et reconnaissable de votre marque partout où elle apparaît. Cette cohérence renforce votre présence et votre crédibilité."
         ],
         "titleList": "Services compris :",
@@ -1608,13 +1603,13 @@
   },
   "blog": {
     "hero": {
-      "title": "/pageImg/blogTitle.png",
+      "title": "/pageImg/blogTitle_fr.png",
       "img": "/pageImg/gattina.png"
     }
   },
   "contatti": {
     "hero": {
-      "title": "/pageImg/contattiTitle.png",
+      "title": "/pageImg/contattiTitle_en.png",
       "img": "/pageImg/lupo.png"
     },
     "contactForm": {

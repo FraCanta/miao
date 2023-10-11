@@ -8,40 +8,42 @@
     },
     "sezioneUno": {
       "paragrafi": [
-        "Ciao, sono Elisa, ma mi trovi online come Miaographics. Sono una Graphic Designer e Content Creator, e sono qui per essere la tua partner nella definizione dell’identità visiva della tua azienda. Posso creare per te un logo su misura, in base alle tue esigenze strategiche e alla tua mission, dal design unico che ti aiuti a farti notare e a differenziarti dai competitors. Aiuto le piccole e medie aziende a raggiungere i propri obiettivi di business, mediante un’analisi approfondita del prodotto/servizio, del mercato e del target.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "<p>My name is  <strong>Elisa </strong> and you can find me online as <strong>Miaographics</strong>. ",
+        " I am a <strong>Graphic Designer</strong> and <strong>Content Creator</strong>, and I am here to be your partner in defining your company's visual identity. I can create a custom logo for you, tailored to your strategic needs and mission, with a unique design that helps you stand out and differentiate yourself from competitors.</p>",
+        "<p><strong>I assist small and medium-sized businesses</strong> in achieving their business goals through in-depth analysis of the product/service, market, and target audience.</p>"
+      ],
+      "paragrafi2": [
+        "<p>I can offer you <strong>customized solutions</strong> tailored to your budget and goals. My aim is to help you establish a strong image and consistent communication that sets you apart from the competition, attracts new customers, and fosters growth.</p>",
+        "<p> To me, it's essential to understand your story, your reality, and your business goals. </p>",
+        "<p>Through an introductory meeting, which can also be conducted online, I'll be able to grasp your needs and develop a visual communication tailored just for you.</p>"
       ],
       "cta": "let's meet",
       "title": "/sectionsTitle/welcome_title.png"
     },
     "sezioneDue": {
-      "paragrafi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
       "cta": "what i offer",
       "title": "/pageImg/serviceTitle_en.png",
       "img": "/sectionsTitle/servizi_generici.png",
-      "titoloP": "Lorem ipsum",
-      "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "titoloP": "360-Degree Creative Solutions",
+      "descrizione": "Graphic design and visual communication are the invisible art that permeates our world. It's much more than just images and colors; they are powerful tools that shape our perceptions and guide our decisions.",
+      "descrizione2": "In a digital era where attention is a precious commodity, well-thought-out design captures the eye and holds attention. It's the difference between being noticed or ignored.",
+      "descrizione3": "<strong>Visual communication</strong> is the tool that transforms ideas into reality, giving life to a brand and communicating high-impact sensory content that captures the attention of the target audience."
     },
     "sezioneTre": {
       "paragrafi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 
-      "cta": "i miei casi",
+      "cta": "Case History",
       "title": "/sectionsTitle/sezioneTre.png",
       "img": "/sectionsTitle/logosmix.jpg",
-      "titoloP": "Lorem ipsum",
-      "paragrafo1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "paragrafo2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "titoloP": "Some Completed Works",
+      "paragrafo1": "My mission is to assist small businesses in defining a unique and effective corporate identity. This process is crucial for standing out from the competition and strengthening one's presence both online and offline. I create visual and textual content aligned with business objectives, engaging the right audience."
     },
     "sezioneQuattro": {
       "paragrafi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 
-      "cta": "i miei casi",
-      "title": "/pageImg/blogTitle_en.png",
-      "img": "/sectionsTitle/postImg.png",
-      "titoloP": "Lorem ipsum",
-      "paragrafo1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "paragrafo2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "cta": "show more",
+      "title": "/pageImg/blogTitle2_en.png",
+      "img": "/sectionsTitle/postImg.png"
     }
   },
   "me": {
@@ -55,10 +57,10 @@
     "sezioneUno": {
       "img": "/sectionsTitle/eli.png",
       "presentazione": [
-        "Fin da bambina ho usato le mani per plasmare oggetti e disegnare i personaggi della mia fantasia. Artigiana nel cuore e di fatto, partecipo da anni con il mio banchetto alla Foire de Saint-Ours e realizzo oggetti hand-made. ",
-        "Dopo aver studiato allo Ied di Torino, nel 2008 apro il mio atelier creativo con il nome di l’heartelier. Da qualche anno itinerante tra Milano e Aosta, ho deciso di rinnovare la mia identità diventando <strong>Miao graphics - grafismi itineranti </strong> esattamente come me (sempre con la valigia in mano). ",
-        "Come graphic designer professionista, offro <strong>soluzioni creative a 360° </strong> per aiutare il tuo business a spiccare e ad affermarsi. La mia filosofia di lavoro si basa sulla collaborazione e sulla comprensione delle tue esigenze. ",
-        "<strong>Insieme creeremo un percorso creativo su misura per te. </strong>",
+        "Since I was a child, I've used my hands to shape objects and draw characters from my imagination. A craftswoman at heart and in practice, I've been participating with my booth at the Foire de Saint-Ours for years, creating handmade items.",
+        "After studying at IED in Turin, I opened my creative workshop in 2008 under the name l’heartelier. For the past few years, I've been traveling between Milan and Aosta, and I decided to renew my identity, becoming <strong>Miao graphics - itinerant graphics</strong> just like me (always with a suitcase in hand). ",
+        "As a professional graphic designer, I offer <strong>comprehensive creative solutions</strong> to help your business stand out and thrive. My work philosophy is based on collaboration and understanding your needs.",
+        "<strong>Together, we'll craft a tailor-made creative journey for you. </strong>",
         "<strong>Ogni brand ha una storia da raccontare</strong>, e io sono qui per trasformarla in un design unico. <strong>Il mio intento è catturare la tua idea e tradurla in un’identità visiva (logo, pack, illustrazione) memorabile. </strong>",
         "<strong>Contattami oggi </strong> per iniziare questo entusiasmante itinerario creativo!"
       ],
@@ -111,19 +113,19 @@
       },
       {
         "img": "/serviziImg/campagne.png",
-        "name": "Campagne Pubblicitarie BLT",
+        "name": "Offline Campaigns",
         "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
         "link": "/service/campagne"
       },
       {
         "img": "/serviziImg/allestimenti.png",
-        "name": "Allestimenti",
+        "name": "Stage Design",
         "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
         "link": "/service/allestimenti"
       },
       {
         "img": "/serviziImg/illustrazione.png",
-        "name": "illustrazione Vettoriale e Manuale",
+        "name": "Illustrations",
         "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
         "link": "/service/illustrazione"
       },

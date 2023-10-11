@@ -11,15 +11,7 @@ import { getPosts, getCategories, getTagId } from "../utils/wordpress";
 import { Icon } from "@iconify/react";
 import LastPost from "@/components/post/lastPost";
 
-const Blog = ({
-  post,
-  category,
-  pages,
-  currentP,
-  translation,
-  lastPost,
- 
-}) => {
+const Blog = ({ post, category, pages, currentP, translation, lastPost }) => {
   const myRouter = useRouter();
   const [jsxPosts, setJsxPosts] = useState([]);
   const [filterObj, setFilterObj] = useState({});
@@ -29,7 +21,7 @@ const Blog = ({
       categories: parseInt(myRouter?.query?.categories) || 0,
     });
   }, []); // aggiorna i filtri correnti dalla querystring
-
+  console.log(translation?.hero?.title);
   useEffect(() => {
     setJsxPosts(
       post?.map((p, index) => {
@@ -86,10 +78,7 @@ const Blog = ({
                   </span>
                 </h4>{" "}
                 <div className="w-full relative">
-                  <LastPost
-                    lastPost={lastPost}
-                    id={lastPost.id}
-                  />
+                  <LastPost lastPost={lastPost} id={lastPost.id} />
                 </div>
               </div>
             </div>
@@ -214,7 +203,7 @@ export async function getServerSideProps(context) {
   // const media = await getMedia();
   // console.log(category);
   let obj;
-  switch (locale.locale) {
+  switch (locale) {
     case "it":
       obj = translationIT;
       break;
@@ -230,21 +219,23 @@ export async function getServerSideProps(context) {
       break;
   }
 
+  console.log(locale);
+
   return {
     props: {
+      translation: obj?.blog,
       post: paginationTrim,
       category: category, //array delle categorie presenti
       lastPost: post
         ?.filter((el) => el?.tags?.includes(myTag))
         .sort((a, b) => a?.date > b?.date)
         .filter((el, i) => i < 1),
-     
+
       pages: Math.ceil(filteredPosts.length / itemPerPage),
 
       // media: media,
       // tags: tags,
       currentP: page,
-      translation: obj?.blog,
     },
   };
 }
