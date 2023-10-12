@@ -12,57 +12,62 @@ function generateSiteMap(posts) {
   return `<?xml version="1.0" encoding="UTF-8"?>
      <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">       
        <url>
-         <loc>https://thallion-dev.it</loc>
+         <loc>https://www.miaographics.it</loc>
          <changefreq>weekly</changefreq>
          <priority>1</priority>
        </url>
         <url>
-         <loc>https://thallion-dev.it/me</loc>
+         <loc>https://www.miaographics.it/me</loc>
          <changefreq>weekly</changefreq>
          <priority>1</priority>
        </url>
+       <url>
+       <loc>https://www.miaographics.it/portfolio</loc>
+       <changefreq>weekly</changefreq>
+       <priority>1</priority>
+     </url>
         <url>
-         <loc>https://thallion-dev.it/en/me</loc>
+         <loc>https://www.miaographics.it/en/me</loc>
          <changefreq>weekly</changefreq>
          <priority>1</priority>
        </url>
        <url>
-         <loc>https://thallion-dev.it/en</loc>
+         <loc>https://www.miaographics.it/en</loc>
          <changefreq>weekly</changefreq>
          <priority>1</priority>
        </url>
        <url>
-         <loc>https://thallion-dev.it/blog</loc>
+         <loc>https://www.miaographics.it/blog</loc>
          <changefreq>weekly</changefreq>
          <priority>1</priority>
        </url>
        <url>
-         <loc>https://thallion-dev.it/blog/en</loc>
+         <loc>https://www.miaographics.it/en/blog</loc>
          <changefreq>weekly</changefreq>
          <priority>1</priority>
        </url>
        <url>
-       <loc>https://thallion-dev.it/fr</loc>
+       <loc>https://www.miaographics.it/fr</loc>
        <changefreq>weekly</changefreq>
        <priority>1</priority>
      </url>
      <url>
-     <loc>https://thallion-dev.it/fr/me</loc>
+     <loc>https://www.miaographics.it/fr/me</loc>
      <changefreq>weekly</changefreq>
      <priority>1</priority>
    </url>
    <url>
-   <loc>https://thallion-dev.it/fr/blog</loc>
+   <loc>https://www.miaographics.it/fr/blog</loc>
    <changefreq>weekly</changefreq>
    <priority>1</priority>
  </url>
  <url>
- <loc>https://thallion-dev.it/fr/portfolio</loc>
+ <loc>https://www.miaographics.it/fr/portfolio</loc>
  <changefreq>weekly</changefreq>
  <priority>1</priority>
 </url>
  <url>
- <loc>https://thallion-dev.it/en/portfolio</loc>
+ <loc>https://www.miaographics.it/en/portfolio</loc>
  <changefreq>weekly</changefreq>
  <priority>1</priority>
 </url>
@@ -88,6 +93,15 @@ function generateSiteMap(posts) {
            `;
     })
     .join("")}
+    ${LayoutTranslation?.menu?.en?.singleService
+      .map((el, i) => {
+        return `
+              <url>
+               <loc>${`${headlessSite}/fr/service/${el?.link}`}</loc>
+           </url>
+             `;
+      })
+      .join("")}
 
 
 

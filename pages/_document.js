@@ -18,6 +18,12 @@ export default function Document() {
           name="google-site-verification"
           content="6WDfIu3pIELXHelT5H2YxmCYWbcTna589ZfqrIjBwj4"
         />
+        <link
+          rel="sitemap"
+          type="application/xml"
+          title="Sitemap"
+          href="../sitemap.xml"
+        />{" "}
       </Head>
       <body>
         <Main />
