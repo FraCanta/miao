@@ -1,10 +1,6 @@
 //pages/sitemap.xml.js
 const headlessSite = "https://www.miaographics.it";
-import {
-  getPosts,
-  getTagId,
-  getPostsByLanguageAndBlogOwner,
-} from "../utils/wordpress";
+import { getPostsByLanguageAndBlogOwner } from "../utils/wordpress";
 
 function generateSiteMap(posts) {
   return `<?xml version="1.0" encoding="UTF-8"?>
