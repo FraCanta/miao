@@ -145,7 +145,7 @@ export async function getUsers() {
 }
 
 export async function getPostsByLanguageAndBlogOwner(
-  blogOwner = "miao graphics"
+  blogOwner = "miaographics"
 ) {
   const resObj = {};
   resObj.ownerId = await getTagId(blogOwner);

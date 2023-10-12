@@ -1,10 +1,6 @@
 //pages/sitemap.xml.js
 const headlessSite = "https://www.miaographics.it/";
-import {
-  getPosts,
-  getTagId,
-  getPostsByLanguageAndBlogOwner,
-} from "../utils/wordpress";
+import { getPostsByLanguageAndBlogOwner } from "../utils/wordpress";
 
 import LayoutTranslation from "../public/layout.json";
 
