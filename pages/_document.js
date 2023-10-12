@@ -14,6 +14,10 @@ export default function Document() {
           property="og:image"
           content="https://www.miaographics.it/assets/cover_web.png"
         />
+        <meta
+          property="og:description"
+          content="Sono una Graphic Designer e Content Creator, e sono qui per essere la tua partner nella definizione dell’identità visiva della tua azienda."
+        />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="miaographics.it" />
         <meta property="twitter:url" content="https://www.miaographics.it/" />
