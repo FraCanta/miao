@@ -200,7 +200,7 @@ const Privacy = () => {
             </li>
           </ul>
 
-          <div className="cookie-report-container container mx-auto bg-pink">
+          {/* <div className="cookie-report-container container mx-auto bg-pink">
             <p data-cookiereport="true">
               Puoi modificare il tuo consenso all&apos;uso dei cookie qui sotto.{" "}
             </p>
@@ -211,7 +211,7 @@ const Privacy = () => {
               data-cs-lang="it"
               src="//report.cookie-script.com/r/952906ba33559231ca8c72a6268c0ddb.js"
             />
-          </div>
+          </div> */}
 
           <h4 className="text-3xl md:text-[28px] 3xl:text-[100px] font-medium mt-2 3xl:mt-12 leading-10 text-[#2C395B] pb-4">
             Sicurezza
@@ -240,9 +240,12 @@ const Privacy = () => {
             Per qualsiasi domanda, puoi contattarci attraverso i seguenti
             canali:
           </p>
-          <p>Nome: Elisa AvanteyCantale</p>
-          <p>Indirizzo: via Roma 54, 53013 Gaiole in chianti (SI)</p>
-          <p>E-mail: fcantale14@gmail.com</p>
+          <p>Nome: Elisa Avantey</p>
+          <p>
+            Indirizzo: Via Avondo, 15 - 11100 Aosta (AO) Via Jacopo Della
+            Quercia, 2 - 20096 Pioltello (MI)
+          </p>
+          <p>E-mail: miaographics@gmail.com</p>
           <p>Sito web: https://www.miaographics.it//</p>
         </div>
       ) : (
@@ -461,9 +464,12 @@ const Privacy = () => {
           <p>
             For any questions, please contact us through the following methods:
           </p>
-          <p>Name: Elisa AvanteyCantale</p>
-          <p>Address: via Roma 54, 53013 Gaiole in chianti (SI)</p>
-          <p>Email: fcantale14@gmail.com</p>
+          <p>Name: Elisa Avantey</p>
+          <p>
+            Address: Via Avondo, 15 - 11100 Aosta (AO) Via Jacopo Della Quercia,
+            2 - 20096 Pioltello (MI)
+          </p>
+          <p>Email: miaographics@gmail.com</p>
           <p>Website: https://www.miaographics.it//</p>
         </div>
       )}
