@@ -217,7 +217,7 @@ const Menu = ({ nr, translation }) => {
                     <div className="flex flex-col text-main capitalize md:text-xl">
                       <p> {translation?.[locale]?.col1?.row1?.title}</p>
                       <Link
-                        href="https://calendly.com/arvine82/30min"
+                        href="https://calendly.com/arvine82/parlami-del-tuo-progetto"
                         target="_blank"
                       >
                         <h4 className="text-2xl md:text-4xl text-red font-bold">

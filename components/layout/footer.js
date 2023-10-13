@@ -17,7 +17,10 @@ const Footer = ({ translation }) => {
             {translation?.[locale]?.col1?.row1?.title}
           </div>
           <div className="text-red text-[32px] lg:text-[18px] xl:text-[32px] fxl:text-4xl 3xl:text-5xl font-extrabold capitalize h-[39px] lg:h-[29px] xl:h-[39px]">
-            <Link href="https://calendly.com/arvine82/30min" target="_blank">
+            <Link
+              href="https://calendly.com/arvine82/parlami-del-tuo-progetto"
+              target="_blank"
+            >
               {translation?.[locale]?.col1?.row1?.cta}
             </Link>
           </div>
