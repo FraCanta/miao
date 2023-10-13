@@ -1,157 +1,152 @@
 .image-div {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .paragrafo {
-    padding-top: 2rem;
-  }
-  
-  .paragrafo h3 {
-    font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.paragrafo {
+  padding-top: 2rem;
+}
+
+.paragrafo h3 {
+  font-size: 30px;
+}
+
+.paragrafo figure img {
+  width: 60vw;
+}
+
+.list-style {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.line-clamp2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+figcaption {
+  font-size: 16px;
+}
+
+.youtube {
+  position: relative;
+  padding-bottom: 50%; /* Impostare il rapporto d'aspetto desiderato qui */
+  height: 0;
+}
+
+.youtube > div > iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.youtube figcaption {
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+.youtube figcaption a {
+  color: var(--second_color);
+  text-decoration: underline;
+}
+
+.figma_img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.link_site a {
+  color: var(--second_color);
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.didascalia_figma {
+  text-align: center;
+  color: var(--second_color);
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+cite {
+  font-size: 25px;
+}
+
+.img-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_post {
+  background-image: url(/assets/noise.webp),
+    radial-gradient(
+      62.9% 100% at 0 0,
+      hsla(0, 3%, 12%, 0.1) 0,
+      hsla(0, 0%, 100%, 0) 100%
+    ),
+    linear-gradient(0deg, hsl(240, 30%, 17%), hsl(199, 59.5%, 14.5%));
+}
+
+.btn {
+  border-color: transparent !important;
+  color: var(--second_color);
+  background-color: transparent !important;
+  border-width: 0px !important;
+  border-radius: 10px !important;
+}
+
+.btn-active {
+  background-color: var(--second_color) !important;
+}
+
+@media screen and (max-width: 768px) {
+  .image-div {
+    flex-direction: column;
   }
 
-  .paragrafo figure img {
-    width: 60vw;
-  }
-
-  .list-style  {
-    list-style: disc;
-    margin-left: 20px;
-  }
-  
- 
-  .line-clamp2 {
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-  }
-  
-  figcaption {
-    font-size: 16px;
-  }
-  
-  .youtube {
-    position: relative;
-    padding-bottom: 50%; /* Impostare il rapporto d'aspetto desiderato qui */
-    height: 0;
-  }
-  
-  .youtube > div > iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
+  .image-div img {
     width: 100%;
-    height: 100%;
   }
-  
+  .image {
+    width: 100%;
+  }
+
   .youtube figcaption {
     position: absolute;
-    bottom: -40px;
+    bottom: -64px;
     left: 0;
     text-align: center;
-    font-size: 16px;
-  }
-  
-  .youtube figcaption a {
-    color: var(--second_color);
-    text-decoration: underline;
-  }
-  
-  .figma_img {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  
-  .link_site a {
-    color: var(--second_color);
-    text-decoration: underline;
-    font-weight: 600;
-  }
-  
-  .didascalia_figma {
-    text-align: center;
-    color: var(--second_color);
-    font-size: 18px;
-    font-style: italic;
-    font-weight: 700;
-  }
-  
-  cite {
-    font-size: 25px;
-  }
-  
-  .img-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
- 
-  .card_post {
-    background-image: url(/assets/noise.webp),
-      radial-gradient(
-        62.9% 100% at 0 0,
-        hsla(0, 3%, 12%, 0.1) 0,
-        hsla(0, 0%, 100%, 0) 100%
-      ),
-      linear-gradient(0deg, hsl(240, 30%, 17%), hsl(199, 59.5%, 14.5%));
-  }
-  
-  .btn {
-    border-color: transparent !important;
-    color: var(--second_color);
-    background-color: transparent !important;
-    border-width: 0px !important;
-    border-radius: 10px !important;
-  }
-  
-  .btn-active {
-    background-color: var(--second_color) !important;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .image-div {
-      flex-direction: column;
-    }
-  
-    .image-div img {
-      width: 100%;
-    }
-    .image {
-      width: 100%;
-    }
-  
-    .youtube figcaption {
-      position: absolute;
-      bottom: -64px;
-      left: 0;
-      text-align: center;
-      font-size: 13px;
-    }
-  
-    cite {
-      font-size: 19px;
-    }
-    .paragrafo figure img {
-      width: 100vw;
-    }
+    font-size: 13px;
   }
 
-  
-  
-  @media screen and (min-width: 1900px) {
-    .paragrafo h3 {
-      font-size: 50px;
-    }
-  
-    .tab-lg {
-      font-size: 38px;
-      height: 5rem;
-    }
-    .tab-lifted {
-      font-size: 25px;
-    }
+  cite {
+    font-size: 19px;
   }
-  
+  .paragrafo figure img {
+    width: 100vw;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .paragrafo h3 {
+    font-size: 50px;
+  }
+
+  .tab-lg {
+    font-size: 38px;
+    height: 5rem;
+  }
+  .tab-lifted {
+    font-size: 25px;
+  }
+}

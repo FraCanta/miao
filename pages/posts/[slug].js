@@ -59,9 +59,6 @@ export default function SinglePost({
     return minuti;
   }
 
-
-
-
   useEffect(() => {
     const testoSenzaTag = modifiedContent.replace(/(<([^>]+)>)/gi, ""); // Rimuove i tag HTML dal testo
     const minuti = calcolaMinutiLettura(testoSenzaTag, 250); // Utilizza la velocità di lettura media di 250 parole al minuto
@@ -76,11 +73,10 @@ export default function SinglePost({
     Fragment: React.Fragment,
   });
 
-
   return (
     <>
       <Head>
-        <title >{contents}</title>
+        <title>{contents}</title>
 
         <meta
           property="og:image"
@@ -105,34 +101,34 @@ export default function SinglePost({
           content={post?.["_embedded"]["wp:featuredmedia"][0].source_url}
         />
       </Head>
-      <div className="singlePost" >
+      <div className="singlePost">
         <div className="w-full xl:w-[90%] mx-auto py-12 ">
-        <div className="w-[90%] mx-auto ">
-        <div className="w-full mx-auto py-12">
-          <div className="text-sm breadcrumbs text-pink flex items-center">
-            <ul className="flex items-center">
-              <li className="flex items-center">
-                <Link href="/" className="flex items-center">
-                  <Icon
-                    icon="majesticons:home"
-                    className="w-4 h-4 fxl:w-6 fxl:h-6 3xl:w-8 3xl:h-8 mr-2 stroke-current"
-                  />
-                  <p className="fxl:text-xl 3xl:text-3xl">Home</p>
-                </Link>
-              </li>
-              <li className="flex items-center">
-                <Link href="/blog" className="flex items-center">
-                  <Icon
-                    icon="ic:round-signpost"
-                    className="w-4 h-4 fxl:w-6 fxl:h-6 3xl:w-8 3xl:h-8 mr-2 stroke-current"
-                  />
-                  <p className="fxl:text-xl 3xl:text-3xl">Blog</p>
-                </Link>
-              </li>
-            </ul>
+          <div className="w-[90%] mx-auto ">
+            <div className="w-full mx-auto py-12">
+              <div className="text-sm breadcrumbs text-pink flex items-center">
+                <ul className="flex items-center">
+                  <li className="flex items-center">
+                    <Link href="/" className="flex items-center">
+                      <Icon
+                        icon="majesticons:home"
+                        className="w-4 h-4 fxl:w-6 fxl:h-6 3xl:w-8 3xl:h-8 mr-2 stroke-current"
+                      />
+                      <p className="fxl:text-xl 3xl:text-3xl">Home</p>
+                    </Link>
+                  </li>
+                  <li className="flex items-center">
+                    <Link href="/blog" className="flex items-center">
+                      <Icon
+                        icon="ic:round-signpost"
+                        className="w-4 h-4 fxl:w-6 fxl:h-6 3xl:w-8 3xl:h-8 mr-2 stroke-current"
+                      />
+                      <p className="fxl:text-xl 3xl:text-3xl">Blog</p>
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
-        </div>
-        </div>
           <div className=" w-[90%] 3xl:w-full mx-auto ">
             <h3 className="md:text-center text-red text-xl md:text-2xl fxl:text-3xl 3xl:text-5xl font-medium uppercase  ">
               {postCategories[0]?.name}
@@ -180,42 +176,58 @@ export default function SinglePost({
           </div>
         </div>
         <div className="w-[90%] mx-auto pb-20 flex flex-col lg:flex-row gap-6">
-          <div className="flex xl:w-[70%] mx-auto flex-col  xl:flex-row">
-          <div
-                className="text-main text-[20px] md:text-[25px] lg:text-[24px] xl:text-[20px] fxl:text-[30px] 3xl:text-[38px] 3xl:leading-[3.5rem] l-article paragrafo xl:w-[90%] py-12 3xl:w-full mx-auto"
-                dangerouslySetInnerHTML={{ __html: post?.content?.rendered }}
-              ></div>
-           
+          <div className="flex xl:w-[70%] mx-auto flex-col">
+            <div
+              className="text-main text-[20px] md:text-[25px] lg:text-[24px] xl:text-[20px] fxl:text-[30px] 3xl:text-[38px] 3xl:leading-[3.5rem] l-article paragrafo xl:w-[90%] py-12 3xl:w-full mx-auto"
+              dangerouslySetInnerHTML={{ __html: post?.content?.rendered }}
+            ></div>
+            <div className="mt-8 fxl:mt-20 flex flex-wrap w-full xl:w-[90%] xl:mx-auto">
+              {tags
+                ?.filter(
+                  (el) => el != "it" && el !== "thalliondev" && el != "en"
+                )
+                .map((el, i) => (
+                  <span key={i}>
+                    <span
+                      style={{ color: "#de4928" }}
+                      className="fxl:text-2xl 3xl:text-3xl"
+                    >
+                      #
+                    </span>
+                    <span className="mr-2 text-pink fxl:text-2xl 3xl:text-3xl">
+                      {el}
+                    </span>
+                  </span>
+                ))}
+            </div>
           </div>
           <div className="w-full xl:w-[30%] h-full flex justify-between flex-col lg:sticky top-24 mt-8 xl:mt-0 3xl:top-[190px]">
-              <div className="w-full h-full">
-                <h3 className="text-[8vw] xl:text-[2vw] font-bold uppercase text-second underline">
-                  I più recenti
-                </h3>
-                <div className="w-full h-full py-4 flex flex-col gap-6">
-               {
-                recent?.map((p,i)=>{
+            <div className="w-full h-full">
+              <h3 className="text-[8vw] xl:text-[2vw] font-bold uppercase text-second underline">
+                I più recenti
+              </h3>
+              <div className="w-full h-full py-4 flex flex-col gap-6">
+                {recent?.map((p, i) => {
                   return (
                     <div key={i}>
-                       <small className=" text-red py-2 fxl:text-base">
-          {getDate(p?.date)}
-        </small>
-                   
-        <Link href={`/posts/${p?.slug}`}>
-          <h5
-            className="font-bold text-main hover:text-red capitalize text-[1.4rem] lg:text-3xl leading-[1.8rem] xl:text-xl fxl:text-3xl 3xl:text-4xl py-2"
-            dangerouslySetInnerHTML={{ __html: p?.title?.rendered }}
-          ></h5>
-        </Link>
-       
-        </div>
-                  )
-                })
-               }
-                </div>
+                      <small className=" text-red py-2 fxl:text-base">
+                        {getDate(p?.date)}
+                      </small>
+
+                      <Link href={`/posts/${p?.slug}`}>
+                        <h5
+                          className="font-bold text-main hover:text-red capitalize text-[1.4rem] lg:text-3xl leading-[1.8rem] xl:text-xl fxl:text-3xl 3xl:text-4xl py-2"
+                          dangerouslySetInnerHTML={{
+                            __html: p?.title?.rendered,
+                          }}
+                        ></h5>
+                      </Link>
+                    </div>
+                  );
+                })}
               </div>
-            
             </div>
+          </div>
         </div>
       </div>
     </>
