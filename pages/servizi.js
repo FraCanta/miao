@@ -29,25 +29,19 @@ const Me = ({ translation }) => {
         ></meta>
         <meta property="og:url" content="https://www.miaographics.it/" />
         <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content="Miao graphics - grafismi itineranti"
-        />
+        <meta property="og:title" content="Miao graphics - Servizi" />
         <meta
           property="og:image"
           content="https://www.miaographics.it/assets/cover_web.png"
         />
         <meta
           property="og:description"
-          content="Sono una Graphic Designer e Content Creator, e sono qui per essere la tua partner nella definizione dell’identità visiva della tua azienda."
+          content="Affida la tua visione creativa a una graphic designer esperta. Scopri i nostri servizi di design personalizzati per rendere unico il tuo progetto. Dalla creazione di loghi all'arte digitale, trasforma le tue idee in realtà con il nostro talento creativo."
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="miaographics.it" />
         <meta property="twitter:url" content="https://www.miaographics.it/" />
-        <meta
-          name="twitter:title"
-          content="Miao graphics - grafismi itineranti"
-        />
+        <meta name="twitter:title" content="Miao graphics - Servizi" />
         <meta
           name="twitter:image"
           content="https://www.miaographics.it/assets/cover_web.png"

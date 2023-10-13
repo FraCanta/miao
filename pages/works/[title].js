@@ -37,11 +37,8 @@ const Works = ({ works, previousWork, nextWork }) => {
     <>
       <Head>
         <title>{`Miao - ${works?.name}`}</title>
-        <meta
-          name="description"
-          content="Esplora il nostro blog e scopri il mondo del design attraverso gli occhi di un esperto. Approfondimenti, tendenze e ispirazione per il tuo prossimo progetto creativo. Entra nel nostro mondo di idee e creatività!"
-        />
-        <meta name="keywords" content={works?.descrizione} />
+        <meta name="description" content={works?.descrizione} />
+        <meta name="keywords" content={works?.keywords} />
         <meta name="author" content="Elisa Avantey" />
         <meta
           name="viewport"

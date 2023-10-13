@@ -34,7 +34,7 @@ const Me = ({ translation, servizi }) => {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Miao graphics - grafismi itineranti"
+          content={`Miao - ${translation?.meta?.title}`}
         />
         <meta
           property="og:image"
@@ -49,7 +49,7 @@ const Me = ({ translation, servizi }) => {
         <meta property="twitter:url" content="https://www.miaographics.it/" />
         <meta
           name="twitter:title"
-          content="Miao graphics - grafismi itineranti"
+          content={`Miao - ${translation?.meta?.title}`}
         />
         <meta
           name="twitter:image"

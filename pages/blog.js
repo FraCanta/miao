@@ -71,10 +71,7 @@ const Blog = ({ post, category, pages, currentP, translation, lastPost }) => {
         ></meta>
         <meta property="og:url" content="https://www.miaographics.it/" />
         <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content="Miao graphics - grafismi itineranti"
-        />
+        <meta property="og:title" content="Miao graphics - Blog" />
         <meta
           property="og:image"
           content="https://www.miaographics.it/assets/cover_web.png"
@@ -86,10 +83,7 @@ const Blog = ({ post, category, pages, currentP, translation, lastPost }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="miaographics.it" />
         <meta property="twitter:url" content="https://www.miaographics.it/" />
-        <meta
-          name="twitter:title"
-          content="Miao graphics - grafismi itineranti"
-        />
+        <meta name="twitter:title" content="Miao graphics - Blog" />
         <meta
           name="twitter:image"
           content="https://www.miaographics.it/assets/cover_web.png"
