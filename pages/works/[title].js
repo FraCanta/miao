@@ -37,6 +37,56 @@ const Works = ({ works, previousWork, nextWork }) => {
     <>
       <Head>
         <title>{`Miao - ${works?.name}`}</title>
+        <meta
+          name="description"
+          content="Esplora il nostro blog e scopri il mondo del design attraverso gli occhi di un esperto. Approfondimenti, tendenze e ispirazione per il tuo prossimo progetto creativo. Entra nel nostro mondo di idee e creatività!"
+        />
+        <meta name="keywords" content={works?.descrizione} />
+        <meta name="author" content="Elisa Avantey" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0"
+        ></meta>
+        <meta property="og:url" content="https://www.miaographics.it/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={`Miao - ${works?.name}`} />
+        <meta
+          property="og:image"
+          content="https://www.miaographics.it/assets/cover_web.png"
+        />
+        <meta
+          property="og:description"
+          content="Esplora il nostro blog e scopri il mondo del design attraverso gli occhi di un esperto. Approfondimenti, tendenze e ispirazione per il tuo prossimo progetto creativo. Entra nel nostro mondo di idee e creatività!"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="miaographics.it" />
+        <meta property="twitter:url" content="https://www.miaographics.it/" />
+        <meta name="twitter:title" content={`Miao - ${works?.name}`} />
+        <meta
+          name="twitter:image"
+          content="https://www.miaographics.it/assets/cover_web.png"
+        />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="theme-color" content="#ffffff"></meta>
       </Head>
       <div className="w-full min-h-[calc(50vh_-_60px)] md:h-[calc(60vh_-_100px)] lg:h-[calc(100vh_-_70px)]  2xl:h-[calc(100vh_-_100px)] fxl:h-[calc(100vh_-_150px)]  4xl:h-[calc(100vh_-_250px)] flex flex-col lg:flex-row items-center justify-center 2xl:justify-center relative">
         <HeroWorks

@@ -16,7 +16,66 @@ const Me = ({ translation }) => {
   return (
     <>
       <Head>
-        <title>Miao - Portfolio</title>
+        <title>Miao graphics - Portfolio</title>
+        <meta
+          name="description"
+          content="Sono una Graphic Designer e Content Creator, e sono qui per essere la tua partner nella definizione dell’identità visiva della tua azienda."
+        />
+        <meta
+          name="keywords"
+          content="Graphic Design, Logo Design, Social Media, Portfolio, Case History"
+        />
+        <meta name="author" content="Elisa Avantey" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0"
+        ></meta>
+        <meta property="og:url" content="https://www.miaographics.it/" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Miao graphics - grafismi itineranti"
+        />
+        <meta
+          property="og:image"
+          content="https://www.miaographics.it/assets/cover_web.png"
+        />
+        <meta
+          property="og:description"
+          content="Sono una Graphic Designer e Content Creator, e sono qui per essere la tua partner nella definizione dell’identità visiva della tua azienda."
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="miaographics.it" />
+        <meta property="twitter:url" content="https://www.miaographics.it/" />
+        <meta
+          name="twitter:title"
+          content="Miao graphics - grafismi itineranti"
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.miaographics.it/assets/cover_web.png"
+        />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="theme-color" content="#ffffff"></meta>
       </Head>
       <SlideAnimation>
         <div className="w-full min-h-[calc(100vh_-_80px)] lg:h-[calc(100vh_-_70px)]  2xl:h-[calc(100vh_-_100px)] fxl:h-[calc(100vh_-_150px)]  4xl:h-[calc(100vh_-_250px)] mx-auto flex flex-col lg:flex-row items-center justify-center 2xl:justify-between">
