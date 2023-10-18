@@ -21,7 +21,7 @@ const Blog = ({ post, category, pages, currentP, translation, lastPost }) => {
       categories: parseInt(myRouter?.query?.categories) || 0,
     });
   }, []); // aggiorna i filtri correnti dalla querystring
-  console.log(translation?.hero?.title);
+  // console.log(translation?.hero?.title);
   useEffect(() => {
     setJsxPosts(
       post?.map((p, index) => {
@@ -272,7 +272,7 @@ export async function getServerSideProps(context) {
       break;
   }
 
-  console.log(locale);
+  // console.log(locale);
 
   return {
     props: {
