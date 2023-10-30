@@ -28,7 +28,35 @@ export default function Home({ translation, post, featuredMedia, users }) {
         />
         <meta
           name="keywords"
-          content="Graphic Design, Logo Design, Social Media"
+          content="Studio grafico, 
+          Grafica,
+          Arte grafica,
+          Agenzia di graphic design,
+          Graphic design,
+          Branding, 
+          Agenzia di branding,
+          Agenzia di comunicazione, 
+          Comunicazione visiva, 
+          studio grafico Milano, 
+          Milano,
+          Agenzia di branding Milano,
+          Grafico Milano,
+          Grafica Milano,
+          Graphic design studio,
+          Soluzioni creative,
+          Soluzioni creative su misura,
+          Immagine coordinata, 
+          Studio di graphic design Milano,
+          Grafico,
+          Graphic designer,
+          Designer grafico,
+          Studio di comunicazione, 
+          Identità visiva, 
+          Logo maker, 
+          Creative agendo,
+          Creative solutions, 
+          Comunicazione visiva, 
+          Arte del comunicare"
         />
         <meta name="author" content="Elisa Avantey" />
         <meta

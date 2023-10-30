@@ -23,7 +23,19 @@ const Me = ({ translation }) => {
         />
         <meta
           name="keywords"
-          content="Graphic Design, Logo Design, Social Media, Portfolio, Case History"
+          content="Case history, 
+          Logofolio, 
+          Brand identity,
+          Lavori svolti, 
+          Branding, 
+          Identità visive, 
+          Packaging,
+          Packaging solutions, 
+          Creative solutions,
+          Soluzioni creative,
+          Soluzioni personalizzate, 
+          Brand colors,
+          Brand image "
         />
         <meta name="author" content="Elisa Avantey" />
         <meta
