@@ -21,7 +21,7 @@ export default function Home({ translation, post, featuredMedia, users }) {
   return (
     <>
       <Head>
-        <title>Miao graphics - Home</title>
+        <title>Miao graphics - Soluzioni Creative</title>
         <meta
           name="description"
           content="Sono una Graphic Designer e Content Creator, e sono qui per essere la tua partner nella definizione dell’identità visiva della tua azienda."

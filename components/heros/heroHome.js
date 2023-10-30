@@ -32,12 +32,6 @@ const HeroHome = ({ translation }) => {
           <br />
           {translation?.title?.due}
         </h1>
-        {/* <Link
-          href="/servizi"
-          className="capitalize font-bold py-2.5 px-6 2xl:py-4 2xl:px-10 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 border 2xl:text-xl fxl:text-2xl 3xl:text-3xl rounded shadow  text-white hover:transition-all border-red  bg-red"
-        >
-          Scopri
-        </Link> */}
       </div>
       <Image
         className="object-contain lg:w-[500px] xl:w-[650px] fxl:w-[900px] 3xl:w-auto h-full"
