@@ -34,7 +34,7 @@ const Menu = ({ nr, translation }) => {
       >
         <div className="flex w-[90%] mx-auto justify-between items-center ">
           <div>
-            <Link href="/">
+            <Link href="/" title="Home Page">
               <Image
                 src={Logo}
                 alt="logo"
@@ -47,6 +47,7 @@ const Menu = ({ nr, translation }) => {
             <div className="w-full flex items-center justify-end">
               <Link
                 href="/me"
+                title="Scopri chi sono e cosa posso fare per te"
                 className={`${
                   pathname === "/me" ? "text-red font-medium" : ""
                 } mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center`}
@@ -56,6 +57,7 @@ const Menu = ({ nr, translation }) => {
 
               <Link
                 href="/servizi"
+                title="Ecco tutti i miei servizi"
                 className={`${
                   pathname === "/servizi" ? "text-red font-medium" : ""
                 } mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center`}
@@ -64,6 +66,7 @@ const Menu = ({ nr, translation }) => {
               </Link>
               <Link
                 href="/portfolio"
+                title="Guarda tutti i miei casi studio"
                 className={`${
                   pathname === "/portfolio" ? "text-red font-medium" : ""
                 } mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center`}
@@ -72,6 +75,7 @@ const Menu = ({ nr, translation }) => {
               </Link>
               <Link
                 href="/blog"
+                title="I miei articoli"
                 className={`${
                   pathname === "/blog" ? "text-red font-medium" : ""
                 } mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center`}
@@ -81,22 +85,9 @@ const Menu = ({ nr, translation }) => {
             </div>
           </div>
           <div className="lg:flex hidden">
-            {/* {socials?.Elisa?.map((el, i) => (
-              <Link
-                href={el?.url}
-                target="_blank"
-                className="text-main "
-                aria-label="link a instagram"
-                key={i}
-              >
-                <Icon
-                  icon={el?.icon}
-                  className="w-[25px] h-[25px]  fxl:w-[30px] fxl:h-[30px] 3xl:w-[40px] 3xl:h-[40px] 4xl:w-[50px] 4xl:h-[50px] cursor-pointer mr-4"
-                />
-              </Link>
-            ))} */}
             <Link
               href="/contatti"
+              title="Contattami per una consulenza e parliamo del tuo progetto"
               className="capitalize font-bold py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 border 2xl:text-xl fxl:text-2xl 3xl:text-3xl rounded shadow  text-white hover:transition-all border-red  bg-red"
             >
               {translation?.[locale]?.contatti}
@@ -146,6 +137,7 @@ const Menu = ({ nr, translation }) => {
                 <li onClick={handleOpen}>
                   <Link
                     href="/me"
+                    title="Scopri chi sono e cosa posso fare per te"
                     className={`${
                       pathname === "/me" ? "text-red font-medium" : ""
                     } "mr-8 text-[25px] md:text-[38px] lg:text-4xl text-main font-regular "`}
@@ -156,6 +148,7 @@ const Menu = ({ nr, translation }) => {
                 <li onClick={handleOpen}>
                   <Link
                     href="/servizi"
+                    title="Scopri i servizi su misura per te"
                     className={`${
                       pathname === "/servizi" ? "text-red font-medium" : ""
                     } "mr-8 text-[25px] md:text-[38px] lg:text-4xl text-main font-regular "`}
@@ -166,6 +159,7 @@ const Menu = ({ nr, translation }) => {
                 <li onClick={handleOpen}>
                   <Link
                     href="/portfolio"
+                    title="Guarda i miei casi studio"
                     className={`${
                       pathname === "/portfolio" ? "text-red font-medium" : ""
                     } "mr-8 text-[25px] md:text-[38px] lg:text-4xl text-main font-regular "`}
@@ -179,6 +173,7 @@ const Menu = ({ nr, translation }) => {
                 >
                   <Link
                     href="/blog"
+                    title="leggi i miei articoli"
                     className={`${
                       pathname === "/blog" ? "text-red font-medium" : ""
                     } "mr-8 text-[25px] md:text-[38px] lg:text-4xl text-main font-regular "`}
@@ -189,6 +184,7 @@ const Menu = ({ nr, translation }) => {
                 <li className="my-4" onClick={handleOpen}>
                   <Link
                     href="/contatti"
+                    title="contattami per una consulenza e parliamo insieme del tuo progetto"
                     className="capitalize font-bold py-2.5 px-6 text-[22px] md:text-[38px] lg:text-4xl  xl:text-[45px] border rounded shadow  text-white hover:transition-all border-red  bg-red"
                   >
                     {translation?.[locale]?.contatti}
@@ -203,7 +199,8 @@ const Menu = ({ nr, translation }) => {
                         href={el?.url}
                         target="_blank"
                         className="text-main mr-4"
-                        aria-label="link a instagram"
+                        aria-label={el?.name}
+                        title={`seguimi anche su ${el?.name}`}
                         key={i}
                       >
                         <Icon
@@ -219,6 +216,7 @@ const Menu = ({ nr, translation }) => {
                       <Link
                         href="https://calendly.com/arvine82/parlami-del-tuo-progetto"
                         target="_blank"
+                        title="prenota una consulenza 1-to-1 e parliamo insieme del tuo progetto"
                       >
                         <h4 className="text-2xl md:text-4xl text-red font-bold">
                           {" "}
@@ -228,7 +226,11 @@ const Menu = ({ nr, translation }) => {
                     </div>
                     <div className="flex flex-col text-main capitalize md:text-xl">
                       <p> {translation?.[locale]?.col2?.row1?.title}</p>
-                      <Link href="/contact" target="_blank">
+                      <Link
+                        href="/contact"
+                        target="_blank"
+                        title="contattami per una consulenza e parliamo insieme del tuo progetto"
+                      >
                         <h4 className="text-2xl md:text-4xl text-red font-bold">
                           {" "}
                           {translation?.[locale]?.col2?.row1?.cta}

@@ -7,7 +7,7 @@ const WorksItem = ({ img, name, link, descrizione, button, location }) => {
   return (
     <>
       <div className="h-[100vw] xl:h-[40vw]   w-full relative before:content-{} before: inline  before:absolute before:left-0 before:right-0 before:top-0 before:z-10 before:h-full before:w-full before:bg-main/90 before:opacity-20">
-        <Link href={link}>
+        <Link href={link} title={name}>
           <Image
             src={img}
             alt={name}

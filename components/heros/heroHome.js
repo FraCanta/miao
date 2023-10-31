@@ -3,7 +3,6 @@ import React from "react";
 import Tigre from "../../public/pageImg/tigre.png";
 import Rettangolo from "../../public/pageImg/disegno.png";
 import MobileRet from "../../public/pageImg/rettangolo_mobile.png";
-import Link from "next/link";
 
 const HeroHome = ({ translation }) => {
   return (

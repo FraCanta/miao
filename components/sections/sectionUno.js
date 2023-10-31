@@ -51,6 +51,7 @@ const SectionUno = ({ translation }) => {
         <div className="w-full h-full justify-start items-center inline-flex mt-6">
           <Link
             href="/me"
+            title="conosci la mia storia e ciò che posso fare per te"
             className="text-main text-2xl fxl:text-3xl   3xl:text-4xl 4xl:text-[5rem] font-extrabold underline capitalize  w-full 2xl:text-right text-left"
           >
             {translation?.cta}{" "}

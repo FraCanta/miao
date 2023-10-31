@@ -20,6 +20,7 @@ const Footer = ({ translation }) => {
             <Link
               href="https://calendly.com/arvine82/parlami-del-tuo-progetto"
               target="_blank"
+              title="Prenota una call 1-to-1 e parliamo del tuo progetto"
             >
               {translation?.[locale]?.col1?.row1?.cta}
             </Link>
@@ -30,7 +31,11 @@ const Footer = ({ translation }) => {
             {translation?.[locale]?.col2?.row1?.title}
           </div>
           <div className="text-red text-[32px] lg:text-[18px] xl:text-[32px] fxl:text-4xl 3xl:text-5xl font-extrabold capitalize h-[39px] lg:h-[29px] xl:h-[39px]">
-            <Link href="/contatti" target="_blank">
+            <Link
+              href="/contatti"
+              target="_blank"
+              title="Contattami per una consulenza e parlami del tuo progetto"
+            >
               {" "}
               {translation?.[locale]?.col2?.row1?.cta}
             </Link>
@@ -50,7 +55,11 @@ const Footer = ({ translation }) => {
         <div className="flex-col justify-start lg:items-end gap-2.5 inline-flex ">
           <Image src={Logo} alt="logo" width={100} className="opacity-60" />
           <div className="lg:text-right text-main text-base fxl:text-xl 3xl:text-2xl font-[300] capitalize">
-            <Link href="/privacy" target="_blank">
+            <Link
+              href="/privacy"
+              target="_blank"
+              title="leggi la mia privacy policy"
+            >
               {" "}
               Privacy policy
             </Link>
@@ -69,8 +78,9 @@ const Footer = ({ translation }) => {
                   href={el?.url}
                   target="_blank"
                   className="text-main mr-4"
-                  aria-label="link a instagram"
+                  aria-label={el?.name}
                   key={i}
+                  title={`seguimi anche ${el?.name}`}
                 >
                   <Icon
                     icon={el?.icon}
@@ -87,9 +97,10 @@ const Footer = ({ translation }) => {
             href="https://www.thallion-dev.it/"
             target="_blank"
             className="font-bold"
+            title="thallion dev website"
           >
             Thallion dev
-          </Link>{" "}
+          </Link>
           2023, all rights reserved.
         </div>
       </div>

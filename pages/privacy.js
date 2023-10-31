@@ -35,6 +35,7 @@ const Privacy = () => {
             <Link
               target="_blank"
               href="https://cookie-script.com/privacy-policy-generator"
+              title="script"
             >
               Generatore di informative sulla privacy di CookieScript
             </Link>
@@ -270,6 +271,7 @@ const Privacy = () => {
             Policy. This Privacy Policy has been created with the help of{" "}
             <Link
               target="_blank"
+              title="script"
               href="https://cookie-script.com/privacy-policy-generator"
             >
               CookieScript Privacy Policy Generator

@@ -37,6 +37,7 @@ const SectionMeTre = ({ translation }) => {
 
           <Link
             href="https://www.mithacreative.it/"
+            title="mitha creative website"
             target="_blank"
             className="text-main text-2xl fxl:text-3xl 3xl:text-4xl 4xl:text-[5rem] font-extrabold underline capitalize leading-normal w-full  justify-end items-center inline-flex"
           >

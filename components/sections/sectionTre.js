@@ -28,10 +28,10 @@ const SectionTre = ({ translation }) => {
           <div className=" flex-col justify-start items-start gap-10 lg:gap-[50px] flex">
             <div className="w-full flex flex-col 2xl:flex-row justify-between items-stretch gap-6 lg:gap-4">
               <div className="2xl:w-[50%] flex flex-col justify-start items-start port_p">
-                <h3 className="text-main font-bold capitalize text-[10vw] leading-none md:text-[8vw] lg:text-[6vw] 2xl:text-[4vw] 3xl:text-[3.6vw] ">
+                <h2 className="text-main font-bold capitalize text-[10vw] leading-none md:text-[8vw] lg:text-[6vw] 2xl:text-[4vw] 3xl:text-[3.6vw] ">
                   <span>{translation?.titoloP}</span>
                   <span>.</span>
-                </h3>
+                </h2>
               </div>
               <div className="w-full 2xl:w-[50%] flex flex-col justify-start items-stretch">
                 <p className="text-second text-[5vw] md:text-[2.6vw] 2xl:text-[1.3vw]">
@@ -41,6 +41,7 @@ const SectionTre = ({ translation }) => {
                 <div className="w-full 2xl:justify-end items-center inline-flex mt-10">
                   <Link
                     href="/portfolio"
+                    title="guarda i miei casi studio"
                     className="text-main text-2xl fxl:text-3xl 3xl:text-4xl 4xl:text-[5rem] font-extrabold underline capitalize leading-normal "
                   >
                     {translation?.cta}

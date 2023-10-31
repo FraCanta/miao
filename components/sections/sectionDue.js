@@ -28,13 +28,13 @@ const SectionDue = ({ translation }) => {
         />
         <div className="2xl:w-1/2 h-full flex-col justify-start items-start gap-[31px] 4xl:gap-[70px] inline-flex">
           <div className="w-full h-full justify-start items-end flex">
-            <h3 className="text-main font-bold capitalize text-[10vw] leading-none md:text-[8vw] lg:text-[6vw] 2xl:text-[4vw] 3xl:text-[3.6vw] ">
+            <h2 className="text-main font-bold capitalize text-[10vw] leading-none md:text-[8vw] lg:text-[6vw] 2xl:text-[4vw] 3xl:text-[3.6vw] ">
               <span>{translation?.titoloP}</span>
 
               <span className="text-red text-[40px] md:text-6xl  font-extrabold">
                 .
               </span>
-            </h3>
+            </h2>
           </div>
           <p className="text-second text-[5vw] md:text-[2.6vw] 2xl:text-[1.3vw]">
             {translation?.descrizione}
@@ -49,6 +49,7 @@ const SectionDue = ({ translation }) => {
           <div className="w-full 2xl:justify-end items-center inline-flex">
             <Link
               href="/servizi"
+              title="scegli il servizio più adatto alle tue esigenze"
               className="text-main text-2xl fxl:text-3xl 3xl:text-4xl 4xl:text-[5rem] font-extrabold underline capitalize leading-normal "
             >
               {translation?.cta}

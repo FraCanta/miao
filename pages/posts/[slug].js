@@ -108,7 +108,11 @@ export default function SinglePost({
               <div className="text-sm breadcrumbs text-pink flex items-center">
                 <ul className="flex items-center">
                   <li className="flex items-center">
-                    <Link href="/" className="flex items-center">
+                    <Link
+                      href="/"
+                      className="flex items-center"
+                      title="back to home"
+                    >
                       <Icon
                         icon="majesticons:home"
                         className="w-4 h-4 fxl:w-6 fxl:h-6 3xl:w-8 3xl:h-8 mr-2 stroke-current"
@@ -117,7 +121,11 @@ export default function SinglePost({
                     </Link>
                   </li>
                   <li className="flex items-center">
-                    <Link href="/blog" className="flex items-center">
+                    <Link
+                      href="/blog"
+                      className="flex items-center"
+                      title="back to blog"
+                    >
                       <Icon
                         icon="ic:round-signpost"
                         className="w-4 h-4 fxl:w-6 fxl:h-6 3xl:w-8 3xl:h-8 mr-2 stroke-current"
@@ -148,6 +156,7 @@ export default function SinglePost({
                 />
                 <Link
                   href={post?.["_embedded"].author[0]?.url}
+                  title="author url"
                   className=" text-main md:text-lg flex fxl:text-2xl"
                 >
                   <p>{post?.["_embedded"].author[0]?.name}</p>
@@ -214,7 +223,10 @@ export default function SinglePost({
                         {getDate(p?.date)}
                       </small>
 
-                      <Link href={`/posts/${p?.slug}`}>
+                      <Link
+                        href={`/posts/${p?.slug}`}
+                        title={post?.title?.rendered}
+                      >
                         <h5
                           className="font-bold text-main hover:text-red capitalize text-[1.4rem] lg:text-3xl leading-[1.8rem] xl:text-xl fxl:text-3xl 3xl:text-4xl py-2"
                           dangerouslySetInnerHTML={{

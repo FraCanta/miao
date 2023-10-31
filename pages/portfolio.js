@@ -123,6 +123,7 @@ const Me = ({ translation }) => {
           </h3>
           <Link
             href="https://miaographics.myportfolio.com/work"
+            title="guarda gli altri miei lavori"
             target="_blank"
             className="hand-pointer font-medium gap-2 w-54 py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 border 2xl:text-xl fxl:text-2xl 3xl:text-3xl rounded shadow  hover:transition-all border-red  bg-red flex items-center justify-center"
           >

@@ -19,6 +19,7 @@ const SectionMeUno = ({ translation }) => {
         <div className="w-full  justify-start items-center inline-flex">
           <Link
             href="/contatti"
+            title="contattami per una consulenza e parliamo insieme del tuo progetto"
             className="text-main text-2xl fxl:text-3xl 3xl:text-4xl font-extrabold underline capitalize leading-normal "
           >
             {translation?.cta}

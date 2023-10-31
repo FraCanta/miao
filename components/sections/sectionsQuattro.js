@@ -36,6 +36,7 @@ const SectionsQuattro = ({ post, featuredMedia, tags, translation, users }) => {
         <div className="w-full justify-end items-center flex mt-10 4xl:mt-20">
           <Link
             href="/blog"
+            title="leggi i miei articoli"
             className="text-main text-2xl fxl:text-3xl 3xl:text-4xl 4xl:text-[5rem] font-extrabold underline capitalize leading-normal "
           >
             {translation?.cta}

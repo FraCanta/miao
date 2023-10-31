@@ -138,6 +138,7 @@ const Servizi = ({ servizio, others, serviziFra }) => {
           <div className="bg-main h-20 flex items-center justify-center 2xl:justify-end px-8 mt-[50px]">
             <Link
               href="/contatti"
+              title="contattami per un preventivo"
               className="capitalize font-bold py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 border text-[4.5vw] md:text-[3.5vw] xl:text-[2vw]  2xl:text-xl fxl:text-2xl 3xl:text-3xl rounded shadow  text-white hover:transition-all border-red  bg-red"
             >
               {servizio?.preventivo}
@@ -195,6 +196,7 @@ const Servizi = ({ servizio, others, serviziFra }) => {
             <div className="bg-main h-20 flex items-center justify-center 2xl:justify-end px-8 ">
               <Link
                 href="/contatti"
+                title="contattami per una consulenza e parliamo insieme del tuo progetto"
                 className="capitalize font-bold py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 border text-[4.5vw] md:text-[3vw] xl:text-[2vw] 2xl:text-xl fxl:text-2xl 3xl:text-3xl rounded shadow  text-white hover:transition-all border-red  bg-red"
               >
                 {servizio?.call}
