@@ -49,8 +49,6 @@ p {
 .swiper-button-prev,
 .swiper-button-disabled {
   --swiper-navigation-size: 15px;
-  /* --swiper-navigation-top-offset: 50%; */
-  /* --swiper-navigation-sides-offset: 10px; */
   --swiper-navigation-color: var(--white);
   background-color: var(--red);
   padding: 20px;
