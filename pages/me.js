@@ -95,7 +95,10 @@ const Me = ({ translation, servizi }) => {
             height={300}
             priority
           />
-          <div className="elfsight-app-e5f28877-c53f-4c54-8037-22c0d90781f9"></div>{" "}
+          <div
+            className="elfsight-app-4232eb26-57ce-4f62-af4c-b940b9705c52"
+            data-elfsight-app-lazy
+          ></div>{" "}
         </section>
         <SectionMeTre translation={translation?.sezioneQuattro} />
         <div className="w-[90%] mx-auto mt-[100px]">

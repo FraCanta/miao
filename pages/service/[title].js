@@ -7,9 +7,6 @@ import Branding from "@/public/serviziImg/branding.png";
 import Head from "next/head";
 import ServiziItem from "@/components/serviziItem/serviziItem";
 import Gallery from "@/components/gallery/gallery";
-import ContactForm from "@/components/contactForm/contactForm";
-import Image from "next/image";
-import Talk from "@/public/sectionsTitle/contact_form.png";
 import SlideAnimation from "@/components/slideAnimation/slideAnimation";
 import Others from "@/components/serviziItem/others";
 import Link from "next/link";
@@ -239,6 +236,7 @@ export async function getStaticProps(context) {
   let targetObj = obj?.servizi?.singleService?.[params?.title];
 
   const arr = Object.keys(obj?.servizi?.singleService);
+
   const filteredOthers = arr
     .filter((el) => el !== params?.title) // Exclude the current service
     .map((el) => {
