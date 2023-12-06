@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Tigre from "../../public/pageImg/tigre.png";
+import Tigre from "../../public/pageImg/tigre.webp";
 import Rettangolo from "../../public/pageImg/disegno.png";
 import MobileRet from "../../public/pageImg/rettangolo_mobile.png";
 

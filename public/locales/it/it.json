@@ -50,7 +50,7 @@
     },
     "hero": {
       "title": "/pageImg/meTitle.png",
-      "img": "/pageImg/lampadina.png"
+      "img": "/pageImg/lampadina.webp"
     },
     "sezioneUno": {
       "img": "/sectionsTitle/eli.png",
@@ -86,7 +86,7 @@
   "servizi": {
     "hero": {
       "title": "/pageImg/serviceTitle.png",
-      "img": "/pageImg/gatto.png"
+      "img": "/pageImg/gatta.webp"
     },
     "serviziItem": [
       {
@@ -951,7 +951,7 @@
   "portfolio": {
     "hero": {
       "title": "/pageImg/portfolioTitle.png",
-      "img": "/pageImg/gufo.png"
+      "img": "/pageImg/gufo.webp"
     },
     "intro": [
       "Una selezione di lavori che raccontano per immagini, i servizi da me offerti.",
@@ -1626,13 +1626,13 @@
   "blog": {
     "hero": {
       "title": "/pageImg/blogTitle.png",
-      "img": "/pageImg/gattina.png"
+      "img": "/pageImg/gattina.webp"
     }
   },
   "contatti": {
     "hero": {
       "title": "/pageImg/contattiTitle.png",
-      "img": "/pageImg/lupo.png"
+      "img": "/pageImg/lupo.webp"
     },
     "contactForm": {
       "row1": "Ciao! Mi chiamo",
