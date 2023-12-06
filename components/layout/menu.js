@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import Logo from "../../public/assets/logo.png";
+import Logo from "../../public/assets/logo.svg";
 
 import { useRouter } from "next/router";
 import { Icon } from "@iconify/react";
