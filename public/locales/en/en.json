@@ -52,7 +52,7 @@
     },
     "hero": {
       "title": "/pageImg/meTitle_en.png",
-      "img": "/pageImg/lampadina.png"
+      "img": "/pageImg/lampadina.webp"
     },
     "sezioneUno": {
       "img": "/sectionsTitle/eli.png",
@@ -88,7 +88,7 @@
   "servizi": {
     "hero": {
       "title": "/pageImg/serviceTitle_en.png",
-      "img": "/pageImg/gatto.png"
+      "img": "/pageImg/gatto.webp"
     },
     "serviziItem": [
       {
@@ -946,7 +946,7 @@
   "portfolio": {
     "hero": {
       "title": "/pageImg/portfolioTitle.png",
-      "img": "/pageImg/gufo.png"
+      "img": "/pageImg/gufo.webp"
     },
     "intro": [
       "A selection of works that visually narrate the services I offer.",
@@ -1621,13 +1621,13 @@
   "blog": {
     "hero": {
       "title": "/pageImg/blogTitle_en.png",
-      "img": "/pageImg/gattina.png"
+      "img": "/pageImg/gattina.webp"
     }
   },
   "contatti": {
     "hero": {
       "title": "/pageImg/contattiTitle_en.png",
-      "img": "/pageImg/lupo.png"
+      "img": "/pageImg/lupo.webp"
     },
     "contactForm": {
       "row1": "Hi! I am",
