@@ -1,13 +1,6 @@
 import Link from "next/link";
 import { Icon } from "@iconify/react";
-// import {
-//   FacebookShareButton,
-//   FacebookIcon,
-//   WhatsappShareButton,
-//   WhatsappIcon,
-//   TwitterShareButton,
-//   TwitterIcon,
-// } from "next-share";
+import { FacebookShareButton, LinkedinShareButton } from "next-share";
 import {
   getPost,
   getPosts,
@@ -184,12 +177,39 @@ export default function SinglePost({
             </div>
           </div>
         </div>
+
         <div className="w-[90%] mx-auto pb-20 flex flex-col lg:flex-row gap-6">
           <div className="flex xl:w-[70%] mx-auto flex-col">
             <div
               className="text-main text-[20px] md:text-[25px] lg:text-[24px] xl:text-[20px] fxl:text-[30px] 3xl:text-[38px] 3xl:leading-[3.5rem] l-article paragrafo xl:w-[90%] py-12 3xl:w-full mx-auto"
               dangerouslySetInnerHTML={{ __html: post?.content?.rendered }}
             ></div>
+            <div className="w-[90%] mx-auto flex flex-wrap items-center justify-end text-sm md:text-xl breadcrumbs">
+              <div className="flex gap-6 items-center h-full">
+                <p className="text-lg xl:text-xl text-main">Condividi su</p>{" "}
+                <FacebookShareButton
+                  url={`https://miaographics.it/posts/${post?.slug}`}
+                  hashtag={"#lescretes"}
+                >
+                  {/* <FacebookIcon size={32} round /> */}
+                  <Icon
+                    icon="entypo-social:facebook"
+                    width={28}
+                    color="#39373c"
+                  />
+                </FacebookShareButton>{" "}
+                <LinkedinShareButton
+                  url={`https://miaographics.it/posts/${post?.slug}`}
+                  separator="- "
+                >
+                  <Icon
+                    icon="entypo-social:linkedin"
+                    color="#39373c"
+                    width="28"
+                  />
+                </LinkedinShareButton>
+              </div>
+            </div>
             <div className="mt-8 fxl:mt-20 flex flex-wrap w-full xl:w-[90%] xl:mx-auto">
               {tags
                 ?.filter(
