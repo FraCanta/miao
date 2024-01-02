@@ -101,7 +101,7 @@ const Footer = ({ translation }) => {
           >
             Thallion dev
           </Link>
-          2023, all rights reserved.
+          Today, all rights reserved.
         </div>
       </div>
     </div>
