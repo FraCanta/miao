@@ -8,57 +8,57 @@ function generateSiteMap(posts) {
        <url>
          <loc>https://www.miaographics.it/</loc>
          <changefreq>weekly</changefreq>
-         <priority>1</priority>
+         <>1</>
        </url>
         <url>
          <loc>https://www.miaographics.it/me</loc>
          <changefreq>weekly</changefreq>
-         <priority>1</priority>
+         <>1</>
        </url>
         <url>
          <loc>https://www.miaographics.it/en/me</loc>
          <changefreq>weekly</changefreq>
-         <priority>1</priority>
+         <>1</>
        </url>
        <url>
        <loc>https://www.miaographics.it/fr/me</loc>
        <changefreq>weekly</changefreq>
-       <priority>1</priority>
+       <>1</>
      </url>
        <url>
          <loc>https://www.miaographics.it/en</loc>
          <changefreq>weekly</changefreq>
-         <priority>1</priority>
+         <>1</>
        </url>
        <url>
          <loc>https://www.miaographics.it/blog</loc>
          <changefreq>weekly</changefreq>
-         <priority>1</priority>
+         <>1</>
        </url>
        <url>
          <loc>https://www.miaographics.it/en/blog</loc>
          <changefreq>weekly</changefreq>
-         <priority>1</priority>
+         <>1</>
        </url>
        <url>
        <loc>https://www.miaographics.it/fr/blog</loc>
        <changefreq>weekly</changefreq>
-       <priority>1</priority>
+       <>1</>
      </url>
        <url>
        <loc>https://www.miaographics.it/portfolio</loc>
        <changefreq>weekly</changefreq>
-       <priority>1</priority>
+       <>1</>
      </url>
      <url>
        <loc>https://www.miaographics.it/en/portfolio</loc>
        <changefreq>weekly</changefreq>
-       <priority>1</priority>
+       <>1</>
      </url>
      <url>
      <loc>https://www.miaographics.it/servizi</loc>
      <changefreq>weekly</changefreq>
-     <priority>1</priority>
+     <>1</>
    </url>
    
 
@@ -76,7 +76,7 @@ function generateSiteMap(posts) {
              <loc>${`${headlessSite}/posts/${slug}`}</loc>
              <lastmod>${`${isoDate}`}</lastmod>
              <changefreq>weekly</changefreq>
-             <priority>0.5</priority>
+             <>0.5</>
          </url>
        `;
          })

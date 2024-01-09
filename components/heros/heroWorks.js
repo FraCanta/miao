@@ -8,7 +8,6 @@ const HeroWorks = ({ img, name, descrizione, location, button }) => {
       <Image
         src={img}
         alt={name}
-        priority
         fill
         className="min-h-full h-full object-cover w-full "
       />

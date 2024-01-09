@@ -11,7 +11,6 @@ const WorksItem = ({ img, name, link, descrizione, button, location }) => {
           <Image
             src={img}
             alt={name}
-            priority
             fill
             className="min-h-full h-full object-cover w-full object-center"
           />

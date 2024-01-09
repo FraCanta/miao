@@ -14,7 +14,6 @@ const SectionMeDue = ({ translation }) => {
             alt="welcome title"
             width={300}
             height={300}
-            priority
           />
         </div>
         <div className="w-full h-full  bg-main flex items-center 2xl:py-8">

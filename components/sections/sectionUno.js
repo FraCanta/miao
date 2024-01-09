@@ -13,7 +13,6 @@ const SectionUno = ({ translation }) => {
           alt="welcome title"
           width={300}
           height={300}
-          priority
         />
         <div className="w-full h-full justify-between flex-col xl:flex-row  flex gap-6 4xl:gap-[15rem]">
           <div

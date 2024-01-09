@@ -14,7 +14,6 @@ const Marquee = () => {
               className="logo"
               width={150}
               height={150}
-              priority
             />
           </li>
           <li>
@@ -25,7 +24,6 @@ const Marquee = () => {
               className="logo"
               width={150}
               height={150}
-              priority
             />{" "}
           </li>
           <li>
@@ -35,7 +33,6 @@ const Marquee = () => {
               className="logo"
               width={150}
               height={150}
-              priority
             />
           </li>
           <li>
@@ -46,7 +43,6 @@ const Marquee = () => {
               className="logo"
               width={150}
               height={150}
-              priority
             />
           </li>
           <li>
@@ -57,7 +53,6 @@ const Marquee = () => {
               className="logo"
               width={150}
               height={150}
-              priority
             />
           </li>
           <li>
@@ -68,7 +63,6 @@ const Marquee = () => {
               className="logo"
               width={150}
               height={150}
-              priority
             />{" "}
           </li>
         </ul>
@@ -81,7 +75,6 @@ const Marquee = () => {
               className="logo"
               width={150}
               height={150}
-              priority
             />
           </li>
           <li>
@@ -92,7 +85,6 @@ const Marquee = () => {
               className="logo"
               width={150}
               height={150}
-              priority
             />{" "}
           </li>
           <li>
@@ -103,7 +95,6 @@ const Marquee = () => {
               className="logo"
               width={150}
               height={150}
-              priority
             />
           </li>
           <li>
@@ -114,7 +105,6 @@ const Marquee = () => {
               className="logo"
               width={150}
               height={150}
-              priority
             />
           </li>
           <li>
@@ -125,7 +115,6 @@ const Marquee = () => {
               className="logo"
               width={150}
               height={150}
-              priority
             />
           </li>
           <li>
@@ -136,7 +125,6 @@ const Marquee = () => {
               className="logo"
               width={150}
               height={150}
-              priority
             />{" "}
           </li>
         </ul>
@@ -151,7 +139,6 @@ const Marquee = () => {
               className="logo"
               width={150}
               height={150}
-              priority
             />
           </li>
           <li>
@@ -162,7 +149,6 @@ const Marquee = () => {
               className="logo"
               width={150}
               height={150}
-              priority
             />{" "}
           </li>
           <li>
@@ -172,7 +158,6 @@ const Marquee = () => {
               className="logo"
               width={150}
               height={150}
-              priority
             />
           </li>
           <li>
@@ -183,7 +168,6 @@ const Marquee = () => {
               className="logo"
               width={150}
               height={150}
-              priority
             />
           </li>
           <li>
@@ -194,7 +178,6 @@ const Marquee = () => {
               className="logo "
               width={150}
               height={150}
-              priority
             />
           </li>
           <li>
@@ -205,7 +188,6 @@ const Marquee = () => {
               className="logo"
               width={150}
               height={150}
-              priority
             />{" "}
           </li>
         </ul>
@@ -218,7 +200,6 @@ const Marquee = () => {
               className="logo"
               width={150}
               height={150}
-              priority
             />
           </li>
           <li>
@@ -229,7 +210,6 @@ const Marquee = () => {
               className="logo"
               width={150}
               height={150}
-              priority
             />{" "}
           </li>
           <li>
@@ -240,7 +220,6 @@ const Marquee = () => {
               className="logo"
               width={150}
               height={150}
-              priority
             />
           </li>
           <li>
@@ -251,7 +230,6 @@ const Marquee = () => {
               className="logo"
               width={150}
               height={150}
-              priority
             />
           </li>
           <li>
@@ -262,7 +240,6 @@ const Marquee = () => {
               className="logo"
               width={150}
               height={150}
-              priority
             />
           </li>
           <li>
@@ -273,7 +250,6 @@ const Marquee = () => {
               className="logo"
               width={150}
               height={150}
-              priority
             />{" "}
           </li>
         </ul>

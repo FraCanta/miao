@@ -13,16 +13,10 @@ const HeroHome = ({ translation }) => {
           src={Rettangolo}
           alt="home image"
           width={550}
-          priority
         />
       </div>
       <div className="block lg:hidden pr-4">
-        <Image
-          className="object-contain  "
-          src={MobileRet}
-          alt="home image"
-          priority
-        />
+        <Image className="object-contain  " src={MobileRet} alt="home image" />
       </div>
 
       <div className="lg:absolute top-[40%] fxl:top-1/2 lg:left-[25%] xl:left-[24%] 2xl:left-[20%] fxl:left-[24%]">
@@ -37,7 +31,6 @@ const HeroHome = ({ translation }) => {
         src={Tigre}
         alt="home image"
         width={650}
-        priority
       />
     </>
   );

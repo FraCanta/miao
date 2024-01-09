@@ -93,7 +93,6 @@ const Me = ({ translation, servizi }) => {
             alt="welcome title"
             width={300}
             height={300}
-            priority
           />
           <div
             className="elfsight-app-4232eb26-57ce-4f62-af4c-b940b9705c52"

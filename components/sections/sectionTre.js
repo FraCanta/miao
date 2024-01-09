@@ -10,7 +10,6 @@ const SectionTre = ({ translation }) => {
           className="object-cover w-[60vw] 2xl:w-[20vw] fxl:w-[20vw] 3xl:w-[20vw]"
           src={translation?.title}
           alt=""
-          priority
           width={300}
           height={300}
         />
@@ -22,7 +21,6 @@ const SectionTre = ({ translation }) => {
           alt=""
           width={1200}
           height={1200}
-          priority
         />
         <div className="w-full flex-col justify-start items-start mt-[50px] flex">
           <div className=" flex-col justify-start items-start gap-10 lg:gap-[50px] flex">

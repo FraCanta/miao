@@ -12,7 +12,6 @@ const SectionMeTre = ({ translation }) => {
           alt="welcome title"
           width={500}
           height={500}
-          priority
         />
         <div className="2xl:w-1/2 h-full flex-col justify-start items-start gap-[31px] inline-flex">
           <Image
@@ -21,7 +20,6 @@ const SectionMeTre = ({ translation }) => {
             alt="welcome title"
             width={500}
             height={500}
-            priority
           />
           <div className="w-full flex-col justify-between  flex  h-full gap-6 3xl:gap-14">
             {translation?.paragrafi?.map((p, i) => {

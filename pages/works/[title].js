@@ -103,7 +103,6 @@ const Works = ({ works, previousWork, nextWork }) => {
           fill
           alt="logo brand"
           className="object-contain"
-          priority
         />
       </section>
       <section className="flex flex-col gap-6  w-[90%] mx-auto pt-6">

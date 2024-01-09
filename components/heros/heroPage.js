@@ -11,7 +11,6 @@ const HeroPage = ({ img, title }) => {
           className="object-contain w-[90vw] md:w-[60vw] xl:w-[40vw]  h-full"
           width={230}
           height={100}
-          priority
         />
       </div>
       <Image
@@ -20,7 +19,6 @@ const HeroPage = ({ img, title }) => {
         className="object-contain w-full lg:w-[500px] xl:w-[680px] fxl:w-[1000px] 3xl:w-[1200px] 4xl:w-auto h-full"
         width={780}
         height={800}
-        priority
       />
     </div>
   );

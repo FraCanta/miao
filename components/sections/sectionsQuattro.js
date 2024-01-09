@@ -23,7 +23,6 @@ const SectionsQuattro = ({ post, featuredMedia, tags, translation, users }) => {
           className="object-cover w-full 2xl:w-[25vw] fxl:w-[350px] 3xl:w-[400px] "
           src={translation?.title}
           alt=""
-          priority
           width={300}
           height={300}
         />

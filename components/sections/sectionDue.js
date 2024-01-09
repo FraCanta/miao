@@ -13,7 +13,6 @@ const SectionDue = ({ translation }) => {
             alt="welcome title"
             width={300}
             height={300}
-            priority
           />
         </div>
       </div>
@@ -24,7 +23,6 @@ const SectionDue = ({ translation }) => {
           alt="welcome title"
           width={500}
           height={500}
-          priority
         />
         <div className="2xl:w-1/2 h-full flex-col justify-start items-start gap-[31px] 4xl:gap-[70px] inline-flex">
           <div className="w-full h-full justify-start items-end flex">
