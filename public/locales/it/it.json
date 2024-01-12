@@ -1005,7 +1005,7 @@
         "button": ["Branding", "Label Design"]
       },
       {
-        "img": "/portfolioImg/casadei/cover_casadei.webp",
+        "img": "/portfolioImg/casadei/cover2.webp",
         "name": "Le Rêve en Vert",
         "title": "reve",
         "descrizione": "Azienda Agricola di Andrea Casadei",
@@ -1202,7 +1202,7 @@
         }
       },
       "reve": {
-        "img": "/portfolioImg/casadei/cover2.jpg",
+        "img": "/portfolioImg/casadei/cover2.webp",
         "name": "Le Rêve en Vert",
         "title": "reve",
         "descrizione": "Azienda Agricola di Andrea Casadei",
