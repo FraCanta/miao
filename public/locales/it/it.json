@@ -173,63 +173,63 @@
           },
 
           {
-            "src": "/serviziImg/logoDesign/logoDesign3.jpg",
+            "src": "/serviziImg/logoDesign/logoDesign3.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logoDesign6.jpg",
+            "src": "/serviziImg/logoDesign/logoDesign6.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logoDesign4.jpg",
+            "src": "/serviziImg/logoDesign/logoDesign4.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logoDesign13.jpg",
+            "src": "/serviziImg/logoDesign/logoDesign13.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logoDesign5.jpg",
+            "src": "/serviziImg/logoDesign/logoDesign5.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logoDesign8.jpg",
+            "src": "/serviziImg/logoDesign/logoDesign8.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logoDesign7.jpg",
+            "src": "/serviziImg/logoDesign/logoDesign7.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logoDesign10.jpg",
+            "src": "/serviziImg/logoDesign/logoDesign10.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logoDesign12.jpg",
+            "src": "/serviziImg/logoDesign/logoDesign12.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logoDesign9.jpg",
+            "src": "/serviziImg/logoDesign/logoDesign9.webp",
             "width": 600,
             "height": 600
           },
 
           {
-            "src": "/serviziImg/logoDesign/logoDesign11.jpg",
+            "src": "/serviziImg/logoDesign/logoDesign11.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logoDesign2.jpg",
+            "src": "/serviziImg/logoDesign/logoDesign2.webp",
             "width": 600,
             "height": 600
           },
@@ -239,7 +239,7 @@
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logoDesign16.jpg",
+            "src": "/serviziImg/logoDesign/logoDesign16.webp",
             "width": 600,
             "height": 600
           }
@@ -275,84 +275,84 @@
         "link": "logo",
         "gallery": [
           {
-            "src": "/serviziImg/branding/brand.jpg",
+            "src": "/serviziImg/branding/brand.webp",
             "width": 600,
             "height": 600
           },
 
           {
-            "src": "/serviziImg/branding/brand3.jpg",
+            "src": "/serviziImg/branding/brand3.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/branding/brandA.jpg",
+            "src": "/serviziImg/branding/brandA.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/branding/brand7.jpg",
+            "src": "/serviziImg/branding/brand7.webp",
             "width": 600,
             "height": 600
           },
 
           {
-            "src": "/serviziImg/branding/brand6.jpg",
+            "src": "/serviziImg/branding/brand6.webp",
             "width": 600,
             "height": 600
           }
         ],
         "gallery2": [
           {
-            "src": "/serviziImg/branding/brand8.jpg",
+            "src": "/serviziImg/branding/brand8.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/branding/brand10.jpg",
+            "src": "/serviziImg/branding/brand10.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/branding/brand14.jpg",
+            "src": "/serviziImg/branding/brand14.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/branding/brand11.jpg",
+            "src": "/serviziImg/branding/brand11.webp",
             "width": 600,
             "height": 600
           },
 
           {
-            "src": "/serviziImg/branding/brand13.jpg",
+            "src": "/serviziImg/branding/brand13.webp",
             "width": 600,
             "height": 600
           }
         ],
         "gallery3": [
           {
-            "src": "/serviziImg/branding/brand15.jpg",
+            "src": "/serviziImg/branding/brand15.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/branding/brand21.jpg",
+            "src": "/serviziImg/branding/brand21.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/branding/brand17.jpg",
+            "src": "/serviziImg/branding/brand17.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/branding/brand16.jpg",
+            "src": "/serviziImg/branding/brand16.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/branding/brand20.jpg",
+            "src": "/serviziImg/branding/brand20.webp",
             "width": 600,
             "height": 600
           }
@@ -395,27 +395,55 @@
         "descrizione": "Il label e il packaging design sono elementi essenziali che contribuiscono al successo di un prodotto e alla sua vendita. In un mercato competitivo permettono di attrarre l'interesse del pubblico e informare i consumatore.",
         "link": "label",
         "gallery": [
-          { "src": "/serviziImg/label/pack2.jpg", "width": 600, "height": 600 },
           {
-            "src": "/serviziImg/label/pack3_new.jpg",
+            "src": "/serviziImg/label/pack2.webp",
             "width": 600,
             "height": 600
           },
-          { "src": "/serviziImg/label/pack4.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/label/pack5.jpg", "width": 600, "height": 600 },
           {
-            "src": "/serviziImg/label/pack10.jpg",
+            "src": "/serviziImg/label/pack3_new.webp",
             "width": 600,
             "height": 600
           },
-          { "src": "/serviziImg/label/pack8.jpg", "width": 600, "height": 600 },
+          {
+            "src": "/serviziImg/label/pack4.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/label/pack5.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/label/pack10.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/label/pack8.webp",
+            "width": 600,
+            "height": 600
+          },
 
-          { "src": "/serviziImg/label/pack7.jpg", "width": 600, "height": 600 },
-          { "src": "/serviziImg/label/pack9.jpg", "width": 600, "height": 600 },
+          {
+            "src": "/serviziImg/label/pack7.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/label/pack9.webp",
+            "width": 600,
+            "height": 600
+          },
 
-          { "src": "/serviziImg/label/pack6.jpg", "width": 600, "height": 600 },
+          {
+            "src": "/serviziImg/label/pack6.webp",
+            "width": 600,
+            "height": 600
+          },
 
-          { "src": "/serviziImg/label/pack.jpg", "width": 600, "height": 600 }
+          { "src": "/serviziImg/label/pack.webp", "width": 600, "height": 600 }
         ],
         "galleryTitle": "Ecco alcuni esempi",
         "preventivo": "Chiedi un preventivo",
@@ -451,54 +479,54 @@
         "link": "social",
         "gallery": [
           {
-            "src": "/serviziImg/social/socialMedia3.jpg",
+            "src": "/serviziImg/social/socialMedia3.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/social/socialMedia5.jpg",
+            "src": "/serviziImg/social/socialMedia5.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/social/socialMedia11.jpg",
+            "src": "/serviziImg/social/socialMedia11.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/social/socialMedia9.jpg",
+            "src": "/serviziImg/social/socialMedia9.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/social/socialMedia7.jpg",
+            "src": "/serviziImg/social/socialMedia7.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/social/socialMedia2.jpg",
-            "width": 600,
-            "height": 600
-          },
-
-          {
-            "src": "/serviziImg/social/socialMedia4.jpg",
+            "src": "/serviziImg/social/socialMedia2.webp",
             "width": 600,
             "height": 600
           },
 
           {
-            "src": "/serviziImg/social/socialMedia10.jpg",
+            "src": "/serviziImg/social/socialMedia4.webp",
+            "width": 600,
+            "height": 600
+          },
+
+          {
+            "src": "/serviziImg/social/socialMedia10.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/social/socialMedia8.jpg",
+            "src": "/serviziImg/social/socialMedia8.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/social/socialMedia6.jpg",
+            "src": "/serviziImg/social/socialMedia6.webp",
             "width": 600,
             "height": 600
           }
@@ -546,7 +574,7 @@
             "height": 600
           },
           {
-            "src": "/serviziImg/campagne/campagne.jpg",
+            "src": "/serviziImg/campagne/campagne.webp",
             "width": 600,
             "height": 600
           },
@@ -573,7 +601,7 @@
             "height": 600
           },
           {
-            "src": "/serviziImg/campagne/campagne9.jpg",
+            "src": "/serviziImg/campagne/campagne9.webp",
             "width": 600,
             "height": 600
           },
@@ -583,7 +611,7 @@
             "height": 600
           },
           {
-            "src": "/serviziImg/campagne/campagne10.jpg",
+            "src": "/serviziImg/campagne/campagne10.webp",
             "width": 600,
             "height": 600
           }
@@ -705,52 +733,52 @@
         "link": "illustrazione",
         "gallery": [
           {
-            "src": "/serviziImg/illustrazione/illustrazioni2.jpg",
+            "src": "/serviziImg/illustrazione/illustrazioni2.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/illustrazione/illustrazioni3.jpg",
+            "src": "/serviziImg/illustrazione/illustrazioni3.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/illustrazione/illustrazioni4.jpg",
+            "src": "/serviziImg/illustrazione/illustrazioni4.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/illustrazione/illustrazioni5_new.jpg",
+            "src": "/serviziImg/illustrazione/illustrazioni5_new.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/illustrazione/illustrazioni6.jpg",
+            "src": "/serviziImg/illustrazione/illustrazioni6.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/illustrazione/illustrazioni7.jpg",
+            "src": "/serviziImg/illustrazione/illustrazioni7.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/illustrazione/illustrazioni8.jpg",
+            "src": "/serviziImg/illustrazione/illustrazioni8.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/illustrazione/illustrazioni9.jpg",
+            "src": "/serviziImg/illustrazione/illustrazioni9.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/illustrazione/illustrazioni10.jpg",
+            "src": "/serviziImg/illustrazione/illustrazioni10.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/illustrazione/illustrazioni.jpg",
+            "src": "/serviziImg/illustrazione/illustrazioni.webp",
             "width": 600,
             "height": 600
           }
@@ -787,12 +815,12 @@
         "link": "content",
         "gallery": [
           {
-            "src": "/serviziImg/creator/content.jpg",
+            "src": "/serviziImg/creator/content.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content2.jpg",
+            "src": "/serviziImg/creator/content2.webp",
             "width": 600,
             "height": 600
           },
@@ -802,112 +830,112 @@
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content_4.jpg",
+            "src": "/serviziImg/creator/content_4.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content5.jpg",
+            "src": "/serviziImg/creator/content5.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content6.jpg",
+            "src": "/serviziImg/creator/content6.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content7.jpg",
+            "src": "/serviziImg/creator/content7.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content8.jpg",
+            "src": "/serviziImg/creator/content8.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content9.jpg",
+            "src": "/serviziImg/creator/content9.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content_10.jpg",
+            "src": "/serviziImg/creator/content_10.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content11.jpg",
+            "src": "/serviziImg/creator/content11.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content12.jpg",
+            "src": "/serviziImg/creator/content12.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content13.jpg",
+            "src": "/serviziImg/creator/content13.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content14.jpg",
+            "src": "/serviziImg/creator/content14.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content15.jpg",
+            "src": "/serviziImg/creator/content15.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content16.jpg",
+            "src": "/serviziImg/creator/content16.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content17.jpg",
+            "src": "/serviziImg/creator/content17.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content18.jpg",
+            "src": "/serviziImg/creator/content18.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content19.jpg",
+            "src": "/serviziImg/creator/content19.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content20.jpg",
+            "src": "/serviziImg/creator/content20.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content21.jpg",
+            "src": "/serviziImg/creator/content21.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content22.jpg",
+            "src": "/serviziImg/creator/content22.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content23.jpg",
+            "src": "/serviziImg/creator/content23.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content24.jpg",
+            "src": "/serviziImg/creator/content24.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content25.jpg",
+            "src": "/serviziImg/creator/content25.webp",
             "width": 600,
             "height": 600
           }
