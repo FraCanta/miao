@@ -111,21 +111,7 @@ function generateSiteMap(posts) {
         })
         .join("")}
 
-        ${posts?.fr
-          .map(({ id, slug, tags, date }) => {
-            const receivedDate = new Date(date);
-            const isoDate = receivedDate.toISOString();
-            return `
-         <url>
-             <loc>${`${headlessSite}/en/posts/${slug}`}</loc>
-             <lastmod>${`${isoDate}`}</lastmod>
-             <changefreq>weekly</changefreq>
-             <priority>0.5</priority>
-         </url>
-       `;
-          })
-          .join("")}
-       
+      
      </urlset>
    `;
 }
