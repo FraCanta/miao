@@ -3,7 +3,6 @@ import HeroHome from "../components/heros/heroHome";
 import SlideAnimation from "@/components/slideAnimation/slideAnimation";
 import translationIT from "../public/locales/it/it.json";
 import translationEN from "../public/locales/en/en.json";
-import translationFR from "../public/locales/fr/fr.json";
 import {
   getPosts,
   getCategories,
@@ -124,9 +123,6 @@ export async function getStaticProps(locale, context) {
 
     case "en":
       obj = translationEN;
-      break;
-    case "fr":
-      obj = translationFR;
       break;
     default:
       obj = translationIT;

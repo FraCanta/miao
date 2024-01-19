@@ -1,7 +1,6 @@
 import SlideAnimation from "@/components/slideAnimation/slideAnimation";
 import translationIT from "../public/locales/it/it.json";
 import translationEN from "../public/locales/en/en.json";
-import translationFR from "../public/locales/fr/fr.json";
 import HeroPage from "@/components/heros/heroPage";
 import Head from "next/head";
 import Post from "../components/post/posts";
@@ -167,10 +166,10 @@ const Blog = ({ post, category, pages, currentP, translation, lastPost }) => {
           </div>
         </div>
 
-        <div className="container w-full mx-auto flex justify-center mt-10">
+        <div className="container w-full mx-auto flex justify-center mt-10 ">
           {filterObj?.paginationArray?.length > 1 && (
             <div className="flex justify-center mb-8 ">
-              <div className="btn-group">
+              <div className="flex gap-6">
                 <button
                   className="btn "
                   style={
@@ -188,7 +187,7 @@ const Blog = ({ post, category, pages, currentP, translation, lastPost }) => {
                 {filterObj?.paginationArray?.map((el, i) => (
                   <button
                     className={`btn ${
-                      parseInt(currentP) - i === el && "btn-active"
+                      parseInt(currentP) - i === el && "#de4928"
                     }`}
                     key={i}
                     onClick={() => handlePagination(el + i)}
@@ -233,8 +232,9 @@ export async function getServerSideProps(context) {
   // const tags = await getTags();
   const idLocale = await getTagId(locale); // recupera id della lingua attuale
   const post = await getPosts(idLocale);
+
   const myTag = await getTagId("miaographics");
-  // const myTag = 133;
+  // const myTag = 183;
 
   const filteredPosts = post
     .filter((el) => el?.tags?.includes(myTag))
@@ -251,7 +251,7 @@ export async function getServerSideProps(context) {
   );
   const category = await getCategories(locale); //categorie nella lingua attuale
   // const media = await getMedia();
-  // console.log(category);
+
   let obj;
   switch (locale) {
     case "it":
@@ -261,31 +261,25 @@ export async function getServerSideProps(context) {
     case "en":
       obj = translationEN;
       break;
-    case "fr":
-      obj = translationFR;
-      break;
     default:
       obj = translationIT;
       break;
   }
 
-  // console.log(locale);
-
   return {
     props: {
-      translation: obj?.blog,
       post: paginationTrim,
-      category: category, //array delle categorie presenti
       lastPost: post
         ?.filter((el) => el?.tags?.includes(myTag))
         .sort((a, b) => a?.date > b?.date)
         .filter((el, i) => i < 1),
 
       pages: Math.ceil(filteredPosts.length / itemPerPage),
-
+      category: category, //array delle categorie presenti
       // media: media,
       // tags: tags,
       currentP: page,
+      translation: obj?.blog,
     },
   };
 }

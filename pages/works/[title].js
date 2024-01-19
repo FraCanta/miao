@@ -1,6 +1,5 @@
 import translationIT from "../../public/locales/it/it.json";
 import translationEN from "../../public/locales/en/en.json";
-import translationFR from "../../public/locales/fr/fr.json";
 import HeroWorks from "@/components/heros/heroWorks";
 import SezioneIntro from "@/components/worksItem/sezioneIntro";
 import Image from "next/image";
@@ -171,9 +170,6 @@ export async function getStaticProps(context) {
     case "en":
       obj = translationEN;
       break;
-    case "fr":
-      obj = translationFR;
-      break;
     default:
       obj = translationIT;
       break;
@@ -236,14 +232,6 @@ export async function getStaticPaths({ locale }) {
       locale: "en",
     };
   });
-  const pathFr = works?.map((el) => {
-    return {
-      params: {
-        title: el,
-      },
-      locale: "fr",
-    };
-  });
   const pathIt = works?.map((el) => {
     return {
       params: {
@@ -252,7 +240,7 @@ export async function getStaticPaths({ locale }) {
       locale: "it",
     };
   });
-  const paths = pathIt.concat(pathEn).concat(pathFr);
+  const paths = pathIt.concat(pathEn);
   return {
     paths,
     fallback: false,
