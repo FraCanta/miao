@@ -3,12 +3,12 @@ User-agent: *
 Allow: /
 
 
-# black-listed-bot
-User-agent: black-listed-bot
 Disallow: /mithablog/
+Disallow: /blog/
+Allow: /blog/posts/
 
 # Host
-Host: https://www.miaographics.it
+Host: https://miaographics.it
 
 # Sitemaps
-Sitemap: https://www.miaographics.it/sitemap.xml
+Sitemap: https://miaographics.it/sitemap.xml

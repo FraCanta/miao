@@ -6,106 +6,70 @@ function generateSiteMap(posts) {
   return `<?xml version="1.0" encoding="UTF-8"?>
      <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">       
        <url>
-         <loc>https://www.miaographics.it/</loc>
-         <changefreq>weekly</changefreq>
-         <priority>1</priority>
+         <loc>${headlessSite}</loc>
+         <lastmod>${new Date().toISOString()}</lastmod>
        </url>
         <url>
-         <loc>https://www.miaographics.it/me</loc>
-         <changefreq>weekly</changefreq>
-         <priority>1</priority>
+         <loc>${headlessSite}/me</loc>
+         <lastmod>${new Date().toISOString()}</lastmod>
        </url>
         <url>
-         <loc>https://www.miaographics.it/en/me</loc>
-         <changefreq>weekly</changefreq>
-         <priority>1</priority>
+         <loc>${headlessSite}/en/me</loc>
+         <lastmod>${new Date().toISOString()}</lastmod>
+       </url>
+      
+       <url>
+         <loc>${headlessSite}/en</loc>
+         <lastmod>${new Date().toISOString()}</lastmod>
        </url>
        <url>
-       <loc>https://www.miaographics.it/fr/me</loc>
-       <changefreq>weekly</changefreq>
-       <priority>1</priority>
+         <loc>${headlessSite}/blog</loc>
+         <lastmod>${new Date().toISOString()}</lastmod>
        </url>
        <url>
-         <loc>https://www.miaographics.it/en</loc>
-         <changefreq>weekly</changefreq>
-         <priority>1</priority>
+         <loc>${headlessSite}/en/blog</loc>
+         <lastmod>${new Date().toISOString()}</lastmod>
        </url>
+       
        <url>
-         <loc>https://www.miaographics.it/blog</loc>
-         <changefreq>weekly</changefreq>
-         <priority>1</priority>
-       </url>
-       <url>
-         <loc>https://www.miaographics.it/en/blog</loc>
-         <changefreq>weekly</changefreq>
-         <priority>1</priority>
-       </url>
-       <url>
-       <loc>https://www.miaographics.it/fr/blog</loc>
-       <changefreq>weekly</changefreq>
-       <priority>1</priority>
-       </url>
-       <url>
-       <loc>https://www.miaographics.it/portfolio</loc>
-       <changefreq>weekly</changefreq>
-       <priority>1</priority>
+       <loc>${headlessSite}/portfolio</loc>
+       <lastmod>${new Date().toISOString()}</lastmod>
        </url>
      <url>
-       <loc>https://www.miaographics.it/en/portfolio</loc>
-       <changefreq>weekly</changefreq>
-       <priority>1</priority>
+       <loc>${headlessSite}/en/portfolio</loc>
+       <lastmod>${new Date().toISOString()}</lastmod>
        </url>
     
-     <url>
-     <loc>https://www.miaographics.it/fr/portfolio</loc>
-     <changefreq>weekly</changefreq>
-     <priority>1</priority>
-     </url>
+    
    <url>
-     <loc>https://www.miaographics.it/servizi</loc>
-     <changefreq>weekly</changefreq>
-     <priority>1</priority>
+     <loc>${headlessSite}/servizi</loc>
+     <lastmod>${new Date().toISOString()}</lastmod>
      </url>
      <url>
-     <loc>https://www.miaographics.it/en/servizi</loc>
-     <changefreq>weekly</changefreq>
-     <priority>1</priority>
+     <loc>${headlessSite}/en/servizi</loc>
+     <lastmod>${new Date().toISOString()}</lastmod>
      </url>
-     <url>
-     <loc>https://www.miaographics.it/fr/servizi</loc>
-     <changefreq>weekly</changefreq>
-     <priority>1</priority>
-     </url>
+
    
 
 
-
-
      ${posts?.it
-       .map(({ id, slug, tags, date }) => {
-         const receivedDate = new Date(date);
-         const isoDate = receivedDate.toISOString();
+       .map(({ slug }) => {
          return `
       <url>
           <loc>${`${headlessSite}/posts/${slug}`}</loc>
-          <lastmod>${`${isoDate}`}</lastmod>
-          <changefreq>weekly</changefreq>
-          <priority>0.5</priority>
+          <lastmod>${new Date().toISOString()}</lastmod>
       </url>
     `;
        })
        .join("")}
 
       ${posts?.en
-        .map(({ id, slug, tags, date }) => {
-          const receivedDate = new Date(date);
-          const isoDate = receivedDate.toISOString();
+        .map(({ slug }) => {
           return `
        <url>
-           <loc>${`${headlessSite}/en/posts/${slug}`}</loc>
-           <lastmod>${`${isoDate}`}</lastmod>
-           <changefreq>weekly</changefreq>
-           <priority>0.5</priority>
+           <loc>${`${headlessSite}/posts/${slug}`}</loc>
+           <lastmod>${new Date().toISOString()}</lastmod>
        </url>
      `;
         })
@@ -122,7 +86,6 @@ function SiteMap() {
 
 export async function getServerSideProps({ res }) {
   const resObj = await getPostsByLanguageAndBlogOwner("miaographics");
-  console.log(resObj);
   const sitemap = generateSiteMap(resObj);
 
   res.setHeader("Content-Type", "text/xml");
