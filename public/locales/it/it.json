@@ -1014,7 +1014,7 @@
         "button": ["Branding", "Label Design"]
       },
       {
-        "img": "/portfolioImg/phillacolor/cover_philla.webp",
+        "img": "/portfolioImg/phillacolor/cover_phillacolor2.jpg",
         "name": "Phillacolor",
         "title": "phillacolor",
         "descrizione": "Eco-Liquid Dye",
@@ -1023,7 +1023,7 @@
         "button": ["Branding", "Label Design"]
       },
       {
-        "img": "/portfolioImg/chappoz/cover_chappoz_new2.webp",
+        "img": "/portfolioImg/chappoz/cover_chappoz_new2.jpg",
         "name": "Chappoz",
         "title": "chappoz",
         "descrizione": "Azienda Agricola",
@@ -1032,7 +1032,7 @@
         "button": ["Branding", "Label Design", "Social Media"]
       },
       {
-        "img": "/portfolioImg/daemy/cover_daemy.webp",
+        "img": "/portfolioImg/daemy/cover2.jpg",
         "name": "Da Emy",
         "title": "daemy",
         "descrizione": "Piante Officinali",
@@ -1041,7 +1041,7 @@
         "button": ["Branding", "Label Design"]
       },
       {
-        "img": "/portfolioImg/horto/cover_horto.webp",
+        "img": "/portfolioImg/horto/cover_horto2.jpg",
         "name": "Horto Sapiens",
         "title": "horto",
         "descrizione": "Prodotti tipici di Monte Amiata e Val d'Orcia",
@@ -1050,7 +1050,7 @@
         "button": ["Branding", "Label Design"]
       },
       {
-        "img": "/portfolioImg/isavivai/cover_isavivai.webp",
+        "img": "/portfolioImg/isavivai/cover_isavivai.jpg",
         "name": "Isavivai",
         "title": "isavivai",
         "descrizione": "Il Verde che ti emoziona",
@@ -1059,7 +1059,7 @@
         "button": ["Branding", "Allestimenti"]
       },
       {
-        "img": "/portfolioImg/saint/cover_saintgrat.webp",
+        "img": "/portfolioImg/saint/cover3.jpg",
         "name": "Saint Grat",
         "title": "saintgrat",
         "descrizione": "Azienda Agricola",
@@ -1068,7 +1068,7 @@
         "button": ["Branding", "Label Design"]
       },
       {
-        "img": "/portfolioImg/morzenti/cover_morzenti.webp",
+        "img": "/portfolioImg/morzenti/cover_morzenti.jpg",
         "name": "Morzenti Daniele",
         "title": "morzenti",
         "descrizione": "Azienda Agricola",
@@ -1231,7 +1231,7 @@
           "Con Andrea abbiamo rinnovato il logo originale e sviluppato una linea di branding completa. ",
           "Questa strategia ha incluso la creazione di un'immagine coordinata per i prodotti trasformati e la promozione attraverso materiali stampati di alta qualità, sia all’interno del punto vendita che all’esterno."
         ],
-        "logoImg": "/portfolioImg/casadei/brand_casadei.png",
+        "logoImg": "/portfolioImg/casadei/brand_casadei.jpg",
         "typo": {
           "titolo": "Typography",
           "typoImg": "/portfolioImg/casadei/typo_casadei_text.png",
@@ -1243,23 +1243,23 @@
             "In collaborazione con Andrea, abbiamo scelto di utilizzare una gamma di tonalità di verde come base per la nostra comunicazione, con l’obiettivo di richiamare le sfumature presenti nel suo orto a chilometro zero."
           ],
           "colorImg": "/portfolioImg/casadei/color_brand_casadei.png",
-          "sponsorImg": "/portfolioImg/casadei/sponsor.png"
+          "sponsorImg": "/portfolioImg/casadei/sponsor.jpg"
         },
         "illustrazioni": {
           "titolo": "Illustrazioni e Pattern",
           "descrizione": "Per realizzare i pattern abbiamo creato delle illustrazioni a mano libera, convertite successivamente in formato vettoriale.",
-          "illImg": "/portfolioImg/casadei/pattern_casadei.png"
+          "illImg": "/portfolioImg/casadei/pattern_casadei.jpg"
         },
         "label": {
           "titolo": "Label Design",
-          "labelImg": "/portfolioImg/casadei/label1.png",
-          "cartellinoImg": "/portfolioImg/casadei/label2.png",
-          "caramelleImg": "/portfolioImg/casadei/label3.png",
-          "biscottiImg": "/portfolioImg/casadei/label4.png"
+          "labelImg": "/portfolioImg/casadei/label1.jpg",
+          "cartellinoImg": "/portfolioImg/casadei/label2.jpg",
+          "caramelleImg": "/portfolioImg/casadei/label3.jpg",
+          "biscottiImg": "/portfolioImg/casadei/label4.jpg"
         }
       },
       "phillacolor": {
-        "img": "/portfolioImg/phillacolor/cover_philla.webp",
+        "img": "/portfolioImg/phillacolor/cover_phillacolor2.jpg",
         "name": "Phillacolor",
         "title": "phillacolor",
         "descrizione": "Eco-Liquid Dye",
@@ -1298,18 +1298,18 @@
           "descrizione": [
             "Abbiamo stabilito con Laura una gamma cromatica, che traesse ispirazione dal verde della clorofilla, delle piante utilizzate per creare le tinture naturali."
           ],
-          "colorImg": "/portfolioImg/phillacolor/colorbrand_philla.png",
+          "colorImg": "/portfolioImg/phillacolor/colorbrand_philla.jpg",
           "colorImg2": "/portfolioImg/phillacolor/colorbrand_philla2.png"
         },
 
         "label": {
           "titolo": "Label Design",
-          "labelImg": "/portfolioImg/phillacolor/label_philla1.png",
-          "biscottiImg": "/portfolioImg/phillacolor/label_philla2.png"
+          "labelImg": "/portfolioImg/phillacolor/label_philla1.jpg",
+          "biscottiImg": "/portfolioImg/phillacolor/label_philla2.jpg"
         }
       },
       "chappoz": {
-        "img": "/portfolioImg/chappoz/cover_chappoz_new2.webp",
+        "img": "/portfolioImg/chappoz/cover_chappoz_new2.jpg",
         "name": "Chappoz",
         "title": "chappoz",
         "descrizione": "Azienda Agricola",
@@ -1337,7 +1337,7 @@
         "desc": [
           "La volontà era quella di proporre un’immagine che identificasse l’azienda agricola, a conduzione familiare, che coltiva mais, cereali e ortaggi in bassa valle a Donnas."
         ],
-        "logoImg": "/portfolioImg/chappoz/logos.png",
+        "logoImg": "/portfolioImg/chappoz/logos.jpg",
         "typo": {
           "titolo": "Typography",
           "typoImg": "/portfolioImg/chappoz/typo_chap_text.png",
@@ -1357,19 +1357,19 @@
         },
         "label": {
           "titolo": "Label & Pack Design",
-          "labelImg": "/portfolioImg/chappoz/label1.png",
-          "biscottiImg": "/portfolioImg/chappoz/label_polenta.png"
+          "labelImg": "/portfolioImg/chappoz/label1.jpg",
+          "biscottiImg": "/portfolioImg/chappoz/label_polenta.jpg"
         },
         "social": {
           "titolo": "Social",
           "descrizione": [
             "Creazione di contenuti fotografici e testuali ad hoc, per la promozione dell’azienda sui canali social di Meta."
           ],
-          "socialImg": ["/portfolioImg/chappoz/social_chappoz2.png"]
+          "socialImg": ["/portfolioImg/chappoz/social_chappoz2.jpg"]
         }
       },
       "daemy": {
-        "img": "/portfolioImg/daemy/cover_daemy.webp",
+        "img": "/portfolioImg/daemy/cover2.jpg",
         "name": "Da Emy",
         "title": "daemy",
         "descrizione": "Piante Officinali",
@@ -1398,7 +1398,7 @@
           "Emilia e sua figlia Ambra, coltivano in quei di Valsavarenche erbe officinali e genepy.",
           "Abbiamo creato una linea comunicativa che richiamasse l’alta montagna e la naturalezza delle piantine nate nel parco del Gran Paradiso."
         ],
-        "logoImg": "/portfolioImg/daemy/brand_emy.png",
+        "logoImg": "/portfolioImg/daemy/brand_emy.jpg",
         "typo": {
           "titolo": "Typography",
           "typoImg": "/portfolioImg/daemy/typo_emy_text.png",
@@ -1415,19 +1415,19 @@
         "illustrazioni": {
           "titolo": "Illustrazioni a pennello ideate ad hoc",
           "descrizione": "Per conferire alle etichette uno stile del tutto naturale, ogni illustrazione è stata realizzata a mano a pennello con finiture a matita acquerellabile.",
-          "illImg": "/portfolioImg/daemy/illustrazioni.png"
+          "illImg": "/portfolioImg/daemy/illustrazioni.jpg"
         },
         "label": {
           "titolo": "Label & Pack Design",
-          "labelImg": "/portfolioImg/daemy/label1.png",
-          "cartellinoImg": "/portfolioImg/daemy/label2.png",
-          "caramelleImg": "/portfolioImg/daemy/label3.png",
-          "biscottiImg": "/portfolioImg/daemy/label4.png",
-          "scatoleImg": "/portfolioImg/daemy/box.png"
+          "labelImg": "/portfolioImg/daemy/label1.jpg",
+          "cartellinoImg": "/portfolioImg/daemy/label2.jpg",
+          "caramelleImg": "/portfolioImg/daemy/label3.jpg",
+          "biscottiImg": "/portfolioImg/daemy/label4.jpg",
+          "scatoleImg": "/portfolioImg/daemy/box.jpg"
         }
       },
       "horto": {
-        "img": "/portfolioImg/horto/cover_horto.webp",
+        "img": "/portfolioImg/horto/cover_horto2.jpg",
         "name": "Horto Sapiens",
         "title": "horto",
         "descrizione": "Prodotti tipici di Monte Amiata e Val d'Orcia",
@@ -1455,7 +1455,7 @@
         "desc": [
           "La volontà era quella di creare una linea di coordinati che riflettesse la qualità delle materie prime toscane, utilizzate per creare oli aromatici, confetture dagli abbinamenti estrosi e mieli."
         ],
-        "logoImg": "/portfolioImg/horto/logo_horto.png",
+        "logoImg": "/portfolioImg/horto/logo_horto.jpg",
         "typo": {
           "titolo": "Typography",
           "typoImg": "/portfolioImg/horto/typo_horto_text.png",
@@ -1467,7 +1467,7 @@
             "In collaborazione con Andrea, abbiamo optato per colori vibranti che riprendessero quelli delle materie prime utilizzate nei trasformati."
           ],
           "colorImg": "/portfolioImg/horto/colorbrand_horto.png",
-          "sponsorImg": "/portfolioImg/horto/branding.png"
+          "sponsorImg": "/portfolioImg/horto/branding.jpg"
         },
         "illustrazioni": {
           "titolo": "Illustrazioni Vettoriali",
@@ -1476,12 +1476,12 @@
         },
         "label": {
           "titolo": "Label Design",
-          "labelImg": "/portfolioImg/horto/label1.png",
-          "biscottiImg": "/portfolioImg/horto/label2.png"
+          "labelImg": "/portfolioImg/horto/label1.jpg",
+          "biscottiImg": "/portfolioImg/horto/label2.jpg"
         }
       },
       "isavivai": {
-        "img": "/portfolioImg/isavivai/cover_isavivai.webp",
+        "img": "/portfolioImg/isavivai/cover_isavivai.jpg",
         "name": "Isavivai",
         "title": "isavivai",
         "descrizione": "Il Verde che ti emoziona",
@@ -1509,7 +1509,7 @@
         "desc": [
           "Abbiamo ideato insieme a Chérie e Monique, una linea di immagine coordinata per il nuovo punto vendita, e una strategia di marketing per la comunicazione interna e per la promozione offline."
         ],
-        "logoImg": "/portfolioImg/isavivai/logo_isavivai.png",
+        "logoImg": "/portfolioImg/isavivai/logo_isavivai.jpg",
         "typo": {
           "titolo": "Typography",
           "typoImg": "/portfolioImg/isavivai/typo_isavivai_text.png",
@@ -1529,11 +1529,11 @@
         },
         "label": {
           "titolo": "Allestimenti",
-          "labelImg": "/portfolioImg/isavivai/allestimenti.png"
+          "labelImg": "/portfolioImg/isavivai/allestimenti.jpg"
         }
       },
       "saintgrat": {
-        "img": "/portfolioImg/saint/cover_saintgrat.webp",
+        "img": "/portfolioImg/saint/cover3.jpg",
         "name": "Saint Grat",
         "title": "saintgrat",
         "descrizione": "Azienda agricola",
@@ -1562,7 +1562,7 @@
           "Con Elodie abbiamo pensato di riproporre in chiave stilizzata la forma della cappelletta che spicca di fronte alla sede aziendale, unendola alla produzione principale ossia le mele.",
           "Per la linea Green abbiamo prestato molta attenzione alla scelta dei materiali e alla sostenibilità degli stessi."
         ],
-        "logoImg": "/portfolioImg/saint/brand_saint.png",
+        "logoImg": "/portfolioImg/saint/brand_saint.jpg",
         "typo": {
           "titolo": "Typography",
           "typoImg": "/portfolioImg/saint/typo_saint_text.png",
@@ -1578,20 +1578,20 @@
         "illustrazioni": {
           "titolo": "Illustrazioni e Pattern",
           "descrizione": "Per la comunicazione aziendale abbiamo inizialmente puntato su un disegno più manuale che richiamasse la storia stessa dell’azienda.",
-          "illImg": "/portfolioImg/saint/illustrazioni_classica.png",
+          "illImg": "/portfolioImg/saint/illustrazioni_classica.jpg",
           "descrizione2": "Per i nuovi prodotti delle linea Green, abbiamo invece stabilito di scegliere una linea più moderna basata su icone vettoriali in grado di descrivere il procedimento di realizzazione dei succhi dalla raccolta all’imbottigliamento.",
           "illImg2": "/portfolioImg/saint/illustrazioni_green.png"
         },
         "label": {
           "titolo": "Label & Pack Design",
-          "labelImg": "/portfolioImg/saint/jus_dor.png",
-          "cartellinoImg": "/portfolioImg/saint/scarti.png",
-          "caramelleImg": "/portfolioImg/saint/baginbox.png",
-          "biscottiImg": "/portfolioImg/saint/reinetta.png"
+          "labelImg": "/portfolioImg/saint/jus_dor.jpg",
+          "cartellinoImg": "/portfolioImg/saint/scarti.jpg",
+          "caramelleImg": "/portfolioImg/saint/baginbox.jpg",
+          "biscottiImg": "/portfolioImg/saint/reinetta.jpg"
         }
       },
       "morzenti": {
-        "img": "/portfolioImg/morzenti/cover_morzenti.webp",
+        "img": "/portfolioImg/morzenti/cover_morzenti.jpg",
         "name": "Morzenti Daniele",
         "title": "morzenti",
         "descrizione": "Azienda agricola",
@@ -1620,7 +1620,7 @@
           "Con Daniele, abbiamo pensato di stilizzare come logo una pecora Rosset, immersa tra i verdi pascoli montani, e di includerla all’interno di un cerchio per creare una sorta di bollino di qualità",
           "Tutta la strategia verte sulla promozione attraverso i canali social di meta e mediante contenuti fotografici e testuali che descrivono l’azienda a 360°."
         ],
-        "logoImg": "/portfolioImg/morzenti/brand_morzenti.png",
+        "logoImg": "/portfolioImg/morzenti/brand_morzenti.jpg",
         "typo": {
           "titolo": "Typography",
           "typoImg": "/portfolioImg/morzenti/typo_morzenti_text.png",
@@ -1641,11 +1641,11 @@
             "Ogni foto utilizzata per i social è scattata in azienda e ritrae la vita del pastore nomade, dell’agricoltore e del casaro."
           ],
           "socialImg": [
-            "/portfolioImg/morzenti/social1.png",
-            "/portfolioImg/morzenti/social2.png",
-            "/portfolioImg/morzenti/social3.png",
-            "/portfolioImg/morzenti/social4.png",
-            "/portfolioImg/morzenti/social5.png"
+            "/portfolioImg/morzenti/social1.jpg",
+            "/portfolioImg/morzenti/social2.jpg",
+            "/portfolioImg/morzenti/social3.jpg",
+            "/portfolioImg/morzenti/social4.jpg",
+            "/portfolioImg/morzenti/social5.jpg"
           ]
         }
       }
