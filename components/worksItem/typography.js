@@ -11,15 +11,15 @@ const Typography = ({ translation }) => {
       <div className="min-h-[20vh] lg:h-[60vh] grid grid-cols-1 md:grid-cols-2 py-4">
         <Image
           src={translation?.typoImg}
-          width={800}
-          height={800}
+          width={2000}
+          height={2000}
           className="object-contain h-full"
           alt=""
         ></Image>
         <Image
           src={translation?.typoImg2}
-          width={800}
-          height={800}
+          width={1000}
+          height={1000}
           className="object-contain h-full"
           alt=""
         ></Image>
