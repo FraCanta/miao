@@ -8,7 +8,7 @@ const Label = ({ translation }) => {
         <span>{translation?.titolo}</span>
         <span className="text-red ml-0">.</span>
       </h3>
-      <div className="relative h-[35vh] lg:h-[100vh]">
+      <div className="relative h-[28vh] lg:h-[100vh]">
         <Image
           src={translation?.labelImg}
           fill
@@ -17,7 +17,7 @@ const Label = ({ translation }) => {
         ></Image>
       </div>
       {translation?.biscottiImg ? (
-        <div className="relative h-[35vh] lg:h-[100vh]">
+        <div className="relative h-[28vh] lg:h-[100vh]">
           <Image
             src={translation?.biscottiImg}
             fill
@@ -30,7 +30,7 @@ const Label = ({ translation }) => {
       )}
 
       {translation?.caramelleImg ? (
-        <div className="relative h-[35vh] lg:h-[100vh]">
+        <div className="relative h-[28vh] lg:h-[100vh]">
           <Image
             src={translation?.caramelleImg}
             fill
@@ -42,7 +42,7 @@ const Label = ({ translation }) => {
         ""
       )}
       {translation?.cartellinoImg ? (
-        <div className="relative h-[35vh] lg:h-[100vh]">
+        <div className="relative h-[28vh] lg:h-[100vh]">
           <Image
             src={translation?.cartellinoImg}
             fill
@@ -55,7 +55,7 @@ const Label = ({ translation }) => {
       )}
 
       {translation?.scatoleImg ? (
-        <div className="relative h-[35vh] lg:h-[100vh]">
+        <div className="relative h-[28vh] lg:h-[100vh]">
           <Image
             src={translation?.scatoleImg}
             fill
@@ -68,11 +68,11 @@ const Label = ({ translation }) => {
       )}
 
       {translation?.cremaImg ? (
-        <div className="relative h-[40vh] md:h-[100vh]">
+        <div className="relative h-[28vh] md:h-[100vh]">
           <Image
             src={translation?.cremaImg}
             fill
-            className="object-cover  h-full"
+            className="object-contain  h-full"
             alt=""
           ></Image>
         </div>
@@ -80,11 +80,11 @@ const Label = ({ translation }) => {
         ""
       )}
       {translation?.etichettasImg ? (
-        <div className="relative h-[40vh] md:h-[100vh]">
+        <div className="relative h-[28vh] md:h-[100vh]">
           <Image
             src={translation?.etichettasImg}
             fill
-            className="object-cover  h-full"
+            className="object-contain  h-full"
             alt=""
           ></Image>
         </div>
