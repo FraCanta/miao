@@ -987,7 +987,7 @@
     ],
     "worksItem": [
       {
-        "img": "/portfolioImg/anserme/cover_anse.webp",
+        "img": "/portfolioImg/anserme/cover2.png",
         "name": "Ansermé",
         "title": "ansermè",
         "descrizione": "Bio Bontà di Montagna",
@@ -1129,11 +1129,11 @@
         "label": {
           "titolo": "Label & Pack Design",
           "labelImg": "/portfolioImg/anserme/etichetta_miele.png",
-          "cartellinoImg": "/portfolioImg/anserme/latta_caramelle.png",
-          "caramelleImg": "/portfolioImg/anserme/cartellino_caramelle.png",
-          "biscottiImg": "/portfolioImg/anserme/cartellino_biscotti.png",
+          "cartellinoImg": "/portfolioImg/anserme/latta_caramelle.jpg",
+          "caramelleImg": "/portfolioImg/anserme/cartellino_caramelle.jpg",
+          "biscottiImg": "/portfolioImg/anserme/cartellino_biscotti.jpg",
           "scatoleImg": "/portfolioImg/anserme/creme.png",
-          "cremaImg": "/portfolioImg/anserme/creme2.png",
+          "cremaImg": "/portfolioImg/anserme/creme2.jpg",
           "etichettasImg": "/portfolioImg/anserme/label_shampoo.png"
         },
         "social": {
@@ -1141,7 +1141,7 @@
           "descrizione": [
             "Immagini fotografiche e contenuti testuali e visivi realizzati ad hoc, per la promozione dei prodotti e dell’azienda."
           ],
-          "socialImg": ["/portfolioImg/anserme/social.png"]
+          "socialImg": ["/portfolioImg/anserme/social.jpg"]
         }
       },
       "becquet": {
