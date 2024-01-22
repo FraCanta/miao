@@ -996,7 +996,7 @@
         "button": ["Branding", "Label Design", "Social Media"]
       },
       {
-        "img": "/portfolioImg/bequet/cover_samuel.webp",
+        "img": "/portfolioImg/bequet/cover2.jpg",
         "name": "Samuel Becquet",
         "title": "becquet",
         "descrizione": "Agriculture en Haute Montagne",
@@ -1005,7 +1005,7 @@
         "button": ["Branding", "Label Design"]
       },
       {
-        "img": "/portfolioImg/casadei/cover2.webp",
+        "img": "/portfolioImg/casadei/cover3.jpg",
         "name": "Le Rêve en Vert",
         "title": "reve",
         "descrizione": "Azienda Agricola di Andrea Casadei",
@@ -1145,7 +1145,7 @@
         }
       },
       "becquet": {
-        "img": "/portfolioImg/bequet/cover_samuel.webp",
+        "img": "/portfolioImg/bequet/cover3.jpg",
         "name": "Samuel Becquet",
         "title": "becquet",
         "descrizione": "Agriculture en Haute Montagne",
@@ -1173,7 +1173,7 @@
         "desc": [
           "Abbiamo ideato insieme a Samuel, una nuova identità visiva per la sua azienda che trasforma prodotti orticoli a km zero in frutti e ortaggi essiccati pronti all’uso quali: tisane, zuppe e frutta per ingolosire yogurt e gelati."
         ],
-        "logoImg": "/portfolioImg/bequet/logo_becquet.jpg",
+        "logoImg": "/portfolioImg/bequet/logo_becquet2.jpg",
         "typo": {
           "titolo": "Typography",
           "typoImg": "/portfolioImg/bequet/typo_becquet_text.png",
@@ -1190,19 +1190,19 @@
         "illustrazioni": {
           "titolo": "Illustrazioni Digitali",
           "descrizione": "Abbiamo deciso di optare per una comunicazione moderna, lineare, utilizzando immagini fotografiche a contrasto con elementi vettoriali che riprendono i colori del prodotto descritto.",
-          "illImg": "/portfolioImg/bequet/illustrazioni.png"
+          "illImg": "/portfolioImg/bequet/illustrazioni.jpg"
         },
         "label": {
           "titolo": "Label Design",
-          "labelImg": "/portfolioImg/bequet/label1_sam.png",
-          "cartellinoImg": "/portfolioImg/bequet/label4_sam.png",
-          "caramelleImg": "/portfolioImg/bequet/label2_sam.png",
-          "biscottiImg": "/portfolioImg/bequet/label3_sam.png",
-          "scatoleImg": "/portfolioImg/bequet/cartellino.png"
+          "labelImg": "/portfolioImg/bequet/label1_sam.jpg",
+          "cartellinoImg": "/portfolioImg/bequet/label4_sam.jpg",
+          "caramelleImg": "/portfolioImg/bequet/label2_sam.jpg",
+          "biscottiImg": "/portfolioImg/bequet/label3_sam.jpg",
+          "scatoleImg": "/portfolioImg/bequet/cartellino.jpg"
         }
       },
       "reve": {
-        "img": "/portfolioImg/casadei/cover2.webp",
+        "img": "/portfolioImg/casadei/cover3.jpg",
         "name": "Le Rêve en Vert",
         "title": "reve",
         "descrizione": "Azienda Agricola di Andrea Casadei",
