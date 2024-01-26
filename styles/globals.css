@@ -29,6 +29,13 @@ p {
   font-family: "Lato", sans-serif;
 }
 
+::selection {
+  background-color: var(
+    --red
+  ); /* Colore di sfondo quando il testo è selezionato */
+  color: var(--white); /* Colore del testo quando il testo è selezionato */
+}
+
 .nav-scroll {
   background: var(--white);
   border-color: transparent;

@@ -982,7 +982,7 @@
     ],
     "worksItem": [
       {
-        "img": "/portfolioImg/anserme/cover_anse.webp",
+        "img": "/portfolioImg/anserme/cover2.png",
         "name": "Ansermé",
         "title": "ansermè",
         "descrizione": "Mountain Goodness Bio",
@@ -991,7 +991,7 @@
         "button": ["Branding", "Label Design", "Social Media"]
       },
       {
-        "img": "/portfolioImg/bequet/cover_samuel.webp",
+        "img": "/portfolioImg/bequet/cover2.jpg",
         "name": "Samuel Becquet",
         "title": "becquet",
         "descrizione": "High Mountain Agriculture",
@@ -1000,7 +1000,7 @@
         "button": ["Branding", "Label Design"]
       },
       {
-        "img": "/portfolioImg/casadei/cover_casadei.webp",
+        "img": "/portfolioImg/casadei/cover3.jpg",
         "name": "Le Rêve en Vert",
         "title": "reve",
         "descrizione": "Andrea Casadei's Agricultural Company",
@@ -1009,7 +1009,7 @@
         "button": ["Branding", "Label Design"]
       },
       {
-        "img": "/portfolioImg/phillacolor/cover_philla.webp",
+        "img": "/portfolioImg/phillacolor/cover_phillacolor2.jpg",
         "name": "Phillacolor",
         "title": "phillacolor",
         "descrizione": "Eco-liquid Dye",
@@ -1018,7 +1018,7 @@
         "button": ["Branding", "Label Design"]
       },
       {
-        "img": "/portfolioImg/chappoz/cover_chappoz_new.webp",
+        "img": "/portfolioImg/chappoz/cover_chappoz_new2.jpg",
         "name": "Chappoz",
         "title": "chappoz",
         "descrizione": "Agricultural Company",
@@ -1027,7 +1027,7 @@
         "button": ["Branding", "Label Design", "Social Media"]
       },
       {
-        "img": "/portfolioImg/daemy/cover_daemy.webp",
+        "img": "/portfolioImg/daemy/cover2.jpg",
         "name": "Da Emy",
         "title": "daemy",
         "descrizione": "Medicinal Plants",
@@ -1036,7 +1036,7 @@
         "button": ["Branding", "Label Design"]
       },
       {
-        "img": "/portfolioImg/horto/cover_horto.webp",
+        "img": "/portfolioImg/horto/cover_horto2.jpg",
         "name": "Horto Sapiens",
         "title": "horto",
         "descrizione": "Typical Products from Monte Amiata and Val d'Orcia",
@@ -1045,7 +1045,7 @@
         "button": ["Branding", "Label Design"]
       },
       {
-        "img": "/portfolioImg/isavivai/cover_isavivai.webp",
+        "img": "/portfolioImg/isavivai/cover_isavivai.jpg",
         "name": "Isavivai",
         "title": "isavivai",
         "descrizione": "The Green That Moves You - Nursery, Greenhouse",
@@ -1054,7 +1054,7 @@
         "button": ["Branding", "Allestimenti"]
       },
       {
-        "img": "/portfolioImg/saint/cover_saintgrat.webp",
+        "img": "/portfolioImg/saint/cover3.jpg",
         "name": "Saint Grat",
         "title": "saintgrat",
         "descrizione": "Agricultural Company",
@@ -1063,7 +1063,7 @@
         "button": ["Branding", "Label Design"]
       },
       {
-        "img": "/portfolioImg/morzenti/cover_morzenti.webp",
+        "img": "/portfolioImg/morzenti/cover_morzenti.jpg",
         "name": "Morzenti Daniele",
         "title": "morzenti",
         "descrizione": "Agricultural Company",
@@ -1074,7 +1074,7 @@
     ],
     "singleWorks": {
       "ansermè": {
-        "img": "/portfolioImg/anserme/cover_anse.webp",
+        "img": "/portfolioImg/anserme/cover2.png",
         "name": "Ansermé",
         "title": "anserme",
         "descrizione": "Mountain Goodness Bio",
@@ -1102,7 +1102,7 @@
         "desc": [
           "With Alessandro, we envisioned creating a modern graphic concept with vibrant colors to enhance the organic product line, making them easily recognizable and setting them apart from the competition."
         ],
-        "logoImg": "/portfolioImg/anserme/intro_anse.png",
+        "logoImg": "/portfolioImg/anserme/intro_anse.jpg",
         "typo": {
           "titolo": "Typography",
           "typoImg": "/portfolioImg/anserme/typo_text_anse_en.png",
@@ -1124,11 +1124,11 @@
         "label": {
           "titolo": "Label & Pack Design",
           "labelImg": "/portfolioImg/anserme/etichetta_miele.png",
-          "cartellinoImg": "/portfolioImg/anserme/latta_caramelle.png",
-          "caramelleImg": "/portfolioImg/anserme/cartellino_caramelle.png",
-          "biscottiImg": "/portfolioImg/anserme/cartellino_biscotti.png",
+          "cartellinoImg": "/portfolioImg/anserme/latta_caramelle.jpg",
+          "caramelleImg": "/portfolioImg/anserme/cartellino_caramelle.jpg",
+          "biscottiImg": "/portfolioImg/anserme/cartellino_biscotti.jpg",
           "scatoleImg": "/portfolioImg/anserme/creme.png",
-          "cremaImg": "/portfolioImg/anserme/creme2.png",
+          "cremaImg": "/portfolioImg/anserme/creme2.jpg",
           "etichettasImg": "/portfolioImg/anserme/label_shampoo.png"
         },
         "social": {
@@ -1136,11 +1136,11 @@
           "descrizione": [
             "Specially crafted photographic images and textual and visual content for the promotion of products and the company."
           ],
-          "socialImg": ["/portfolioImg/anserme/social.png"]
+          "socialImg": ["/portfolioImg/anserme/social.jpg"]
         }
       },
       "becquet": {
-        "img": "/portfolioImg/bequet/cover_samuel.webp",
+        "img": "/portfolioImg/bequet/cover3.jpg",
         "name": "Samuel Becquet",
         "title": "becquet",
         "descrizione": "High Mountain Agriculture",
@@ -1168,7 +1168,7 @@
         "desc": [
           "Alongside Samuel, we developed a new visual identity for his company, transforming locally sourced agricultural products into ready-to-use dried fruits and vegetables for teas, soups, and toppings for yogurts and ice creams."
         ],
-        "logoImg": "/portfolioImg/bequet/logo_becquet.jpg",
+        "logoImg": "/portfolioImg/bequet/logo_becquet2.jpg",
         "typo": {
           "titolo": "Typography",
           "typoImg": "/portfolioImg/bequet/typo_text_samuel_en.png",
@@ -1185,19 +1185,19 @@
         "illustrazioni": {
           "titolo": "Digital Illustrations",
           "descrizione": "We opted for a modern, streamlined communication style, using high-contrast photographic images with vector elements in the colors of the described product.",
-          "illImg": "/portfolioImg/bequet/illustrazioni.png"
+          "illImg": "/portfolioImg/bequet/illustrazioni.jpg"
         },
         "label": {
           "titolo": "Label Design ",
-          "labelImg": "/portfolioImg/bequet/label1_sam.png",
-          "cartellinoImg": "/portfolioImg/bequet/label4_sam.png",
-          "caramelleImg": "/portfolioImg/bequet/label2_sam.png",
-          "biscottiImg": "/portfolioImg/bequet/label3_sam.png",
-          "scatoleImg": "/portfolioImg/bequet/cartellino.png"
+          "labelImg": "/portfolioImg/bequet/label1_sam.jpg",
+          "cartellinoImg": "/portfolioImg/bequet/label4_sam.jpg",
+          "caramelleImg": "/portfolioImg/bequet/label2_sam.jpg",
+          "biscottiImg": "/portfolioImg/bequet/label3_sam.jpg",
+          "scatoleImg": "/portfolioImg/bequet/cartellino.jpg"
         }
       },
       "reve": {
-        "img": "/portfolioImg/casadei/cover_casadei.webp",
+        "img": "/portfolioImg/casadei/cover3.jpg",
         "name": "Le Rêve en Vert",
         "title": "reve",
         "descrizione": "Andrea Casadei's Agricultural Company",
@@ -1226,7 +1226,7 @@
           "With Andrea, we revamped the original logo and developed a complete branding line.",
           "This strategy involved creating a coordinated image for the transformed products and promotion through high-quality printed materials, both inside the store and outside."
         ],
-        "logoImg": "/portfolioImg/casadei/brand_casadei.png",
+        "logoImg": "/portfolioImg/casadei/brand_casadei.jpg",
         "typo": {
           "titolo": "Typography",
           "typoImg": "/portfolioImg/casadei/typo_text_casadei_en.png",
@@ -1238,23 +1238,23 @@
             "In collaboration with Andrea, we chose to use a range of green shades as the basis for our communication, aiming to reflect the nuances found in his local garden."
           ],
           "colorImg": "/portfolioImg/casadei/colors_casadei.png",
-          "sponsorImg": "/portfolioImg/casadei/sponsor.png"
+          "sponsorImg": "/portfolioImg/casadei/sponsor.jpg"
         },
         "illustrazioni": {
           "titolo": "Illustrazioni e Pattern",
           "descrizione": "Per realizzare i pattern abbiamo creato delle illustrazioni a mano libera, convertite successivamente in formato vettoriale.",
-          "illImg": "/portfolioImg/casadei/pattern_casadei.png"
+          "illImg": "/portfolioImg/casadei/pattern_casadei.jpg"
         },
         "label": {
           "titolo": "Label Design: ",
-          "labelImg": "/portfolioImg/casadei/label1.png",
-          "cartellinoImg": "/portfolioImg/casadei/label2.png",
-          "caramelleImg": "/portfolioImg/casadei/label3.png",
-          "biscottiImg": "/portfolioImg/casadei/label4.png"
+          "labelImg": "/portfolioImg/casadei/label1.jpg",
+          "cartellinoImg": "/portfolioImg/casadei/label2.jpg",
+          "caramelleImg": "/portfolioImg/casadei/label3.jpg",
+          "biscottiImg": "/portfolioImg/casadei/label4.jpg"
         }
       },
       "phillacolor": {
-        "img": "/portfolioImg/phillacolor/cover_philla.webp",
+        "img": "/portfolioImg/phillacolor/cover_phillacolor2.jpg",
         "name": "Phillacolor",
         "title": "phillacolor",
         "descrizione": "Eco-Liquid Dye",
@@ -1293,18 +1293,18 @@
           "descrizione": [
             "Laura and I established a color palette inspired by the green of chlorophyll and plants used to create natural dyes."
           ],
-          "colorImg": "/portfolioImg/phillacolor/colorbrand_philla.png",
+          "colorImg": "/portfolioImg/phillacolor/colorbrand_philla.jpg",
           "colorImg2": "/portfolioImg/phillacolor/colorbrand_philla2.png"
         },
 
         "label": {
           "titolo": "Label Design: ",
-          "labelImg": "/portfolioImg/phillacolor/label_philla1.png",
-          "biscottiImg": "/portfolioImg/phillacolor/label_philla2.png"
+          "labelImg": "/portfolioImg/phillacolor/label_philla1.jpg",
+          "biscottiImg": "/portfolioImg/phillacolor/label_philla2.jpg"
         }
       },
       "chappoz": {
-        "img": "/portfolioImg/chappoz/cover_chappoz_new.webp",
+        "img": "/portfolioImg/chappoz/cover_chappoz_new2.jpg",
         "name": "Chappoz",
         "title": "chappoz",
         "descrizione": "Agricultural Company",
@@ -1332,7 +1332,7 @@
         "desc": [
           "The goal was to create an image that represents the family-run agricultural business, cultivating corn, cereals, and vegetables in the lower valley in Donnas."
         ],
-        "logoImg": "/portfolioImg/chappoz/logos.png",
+        "logoImg": "/portfolioImg/chappoz/logos.jpg",
         "typo": {
           "titolo": "Typography",
           "typoImg": "/portfolioImg/chappoz/typo_text_chappoz_en.png",
@@ -1352,19 +1352,19 @@
         },
         "label": {
           "titolo": "Label & Pack Design: ",
-          "labelImg": "/portfolioImg/chappoz/label1.png",
-          "biscottiImg": "/portfolioImg/chappoz/label_polenta.png"
+          "labelImg": "/portfolioImg/chappoz/label1.jpg",
+          "biscottiImg": "/portfolioImg/chappoz/label_polenta.jpg"
         },
         "social": {
           "titolo": "Social",
           "descrizione": [
             "Creation of tailor-made photographic and textual content for the promotion of the company on Meta's social channels."
           ],
-          "socialImg": ["/portfolioImg/chappoz/social_chappoz2.png"]
+          "socialImg": ["/portfolioImg/chappoz/social_chappoz2.jpg"]
         }
       },
       "daemy": {
-        "img": "/portfolioImg/daemy/cover_daemy.webp",
+        "img": "/portfolioImg/daemy/cover2.jpg",
         "name": "Da Emy",
         "title": "daemy",
         "descrizione": "Medicinal Plants",
@@ -1393,7 +1393,7 @@
           "Emilia and her daughter Ambra cultivate medicinal herbs and genepy in the Valsavarenche area.",
           "We created a communication strategy that evokes the high mountains and the naturalness of the plants born in the Gran Paradiso Park."
         ],
-        "logoImg": "/portfolioImg/daemy/brand_emy.png",
+        "logoImg": "/portfolioImg/daemy/brand_emy.jpg",
         "typo": {
           "titolo": "Typography",
           "typoImg": "/portfolioImg/daemy/typo_text_daemy_en.png",
@@ -1410,19 +1410,19 @@
         "illustrazioni": {
           "titolo": "Custom Brush Illustrations",
           "descrizione": "To give the labels a completely natural style, each illustration was hand-painted with brush strokes and finished with watercolor pencil.",
-          "illImg": "/portfolioImg/daemy/illustrazioni.png"
+          "illImg": "/portfolioImg/daemy/illustrazioni.jpg"
         },
         "label": {
           "titolo": "Label & Pack Design: ",
-          "labelImg": "/portfolioImg/daemy/label1.png",
-          "cartellinoImg": "/portfolioImg/daemy/label2.png",
-          "caramelleImg": "/portfolioImg/daemy/label3.png",
-          "biscottiImg": "/portfolioImg/daemy/label4.png",
-          "scatoleImg": "/portfolioImg/daemy/box.png"
+          "labelImg": "/portfolioImg/daemy/label1.jpg",
+          "cartellinoImg": "/portfolioImg/daemy/label2.jpg",
+          "caramelleImg": "/portfolioImg/daemy/label3.jpg",
+          "biscottiImg": "/portfolioImg/daemy/label4.jpg",
+          "scatoleImg": "/portfolioImg/daemy/box.jpg"
         }
       },
       "horto": {
-        "img": "/portfolioImg/horto/cover_horto.webp",
+        "img": "/portfolioImg/horto/cover_horto2.jpg",
         "name": "Horto Sapiens",
         "title": "horto",
         "descrizione": "Typical Products from Monte Amiata and Val d'Orcia",
@@ -1450,7 +1450,7 @@
         "desc": [
           "The goal was to create a line of products that reflected the quality of Tuscan raw materials used to produce aromatic oils, creatively paired jams, and honey."
         ],
-        "logoImg": "/portfolioImg/horto/logo_horto.png",
+        "logoImg": "/portfolioImg/horto/logo_horto.jpg",
         "typo": {
           "titolo": "Typography",
           "typoImg": "/portfolioImg/horto/typo_text_horto_en.png",
@@ -1462,7 +1462,7 @@
             "In collaboration with Andrea, we chose vibrant colors that mirrored those of the raw materials used in the products."
           ],
           "colorImg": "/portfolioImg/horto/colorbrand_horto.png",
-          "sponsorImg": "/portfolioImg/horto/branding.png"
+          "sponsorImg": "/portfolioImg/horto/branding.jpg"
         },
         "illustrazioni": {
           "titolo": "Vector Illustrations",
@@ -1471,12 +1471,12 @@
         },
         "label": {
           "titolo": "Label Design: ",
-          "labelImg": "/portfolioImg/horto/label1.png",
-          "biscottiImg": "/portfolioImg/horto/label2.png"
+          "labelImg": "/portfolioImg/horto/label1.jpg",
+          "biscottiImg": "/portfolioImg/horto/label2.jpg"
         }
       },
       "isavivai": {
-        "img": "/portfolioImg/isavivai/cover_isavivai.webp",
+        "img": "/portfolioImg/isavivai/cover_isavivai.jpg",
         "name": "Isavivai",
         "title": "isavivai",
         "descrizione": "The Green That Moves You - Nursery, Greenhouse",
@@ -1504,7 +1504,7 @@
         "desc": [
           "We created together with Chérie and Monique, a coordinated image line for the new store, and a marketing strategy for internal communication and offline promotion."
         ],
-        "logoImg": "/portfolioImg/isavivai/logo_isavivai.png",
+        "logoImg": "/portfolioImg/isavivai/logo_isavivai.jpg",
         "typo": {
           "titolo": "Typography",
           "typoImg": "/portfolioImg/isavivai/typo_text_isavivai_en.png",
@@ -1524,11 +1524,11 @@
         },
         "label": {
           "titolo": "Stage Design",
-          "labelImg": "/portfolioImg/isavivai/allestimenti.png"
+          "labelImg": "/portfolioImg/isavivai/allestimenti.jpg"
         }
       },
       "saintgrat": {
-        "img": "/portfolioImg/saint/cover_saintgrat.webp",
+        "img": "/portfolioImg/saint/cover3.jpg",
         "name": "Saint Grat",
         "title": "saintgrat",
         "descrizione": "Agricultural Company",
@@ -1557,7 +1557,7 @@
           "With Elodie, we decided to represent the distinctive shape of the chapel near the company headquarters in a stylized manner, combining it with the main production, which is apples.",
           "For the Green line, we paid close attention to the choice of materials and their sustainability."
         ],
-        "logoImg": "/portfolioImg/saint/brand_saint.png",
+        "logoImg": "/portfolioImg/saint/brand_saint.jpg",
         "typo": {
           "titolo": "Typography",
           "typoImg": "/portfolioImg/saint/typo_text_saint_en.png",
@@ -1573,20 +1573,20 @@
         "illustrazioni": {
           "titolo": "Illustrations and Patterns",
           "descrizione": "For the company's communication, we initially focused on a more manual drawing style that echoed the history of the company.",
-          "illImg": "/portfolioImg/saint/illustrazioni_classica.png",
+          "illImg": "/portfolioImg/saint/illustrazioni_classica.jpg",
           "descrizione2": "For the new products in the Green line, we opted for a more modern approach using vector icons to illustrate the process of making the juices, from harvesting to bottling.",
           "illImg2": "/portfolioImg/saint/illustrazioni_green.png"
         },
         "label": {
           "titolo": "Label & Pack Design: ",
-          "labelImg": "/portfolioImg/saint/jus_dor.png",
-          "cartellinoImg": "/portfolioImg/saint/scarti.png",
-          "caramelleImg": "/portfolioImg/saint/baginbox.png",
-          "biscottiImg": "/portfolioImg/saint/reinetta.png"
+          "labelImg": "/portfolioImg/saint/jus_dor.jpg",
+          "cartellinoImg": "/portfolioImg/saint/scarti.jpg",
+          "caramelleImg": "/portfolioImg/saint/baginbox.jpg",
+          "biscottiImg": "/portfolioImg/saint/reinetta.jpg"
         }
       },
       "morzenti": {
-        "img": "/portfolioImg/morzenti/cover_morzenti.webp",
+        "img": "/portfolioImg/morzenti/cover_morzenti.jpg",
         "name": "Morzenti Daniele",
         "title": "morzenti",
         "descrizione": "Agricultural Company",
@@ -1615,7 +1615,7 @@
           "With Daniele, we decided to stylize the logo with a Rosset sheep, nestled among the green mountain pastures, and include it within a circle to create a sort of quality seal.",
           "The entire strategy revolves around promotion through Meta social channels and through photographic and textual content that describes the company from every angle."
         ],
-        "logoImg": "/portfolioImg/morzenti/brand_morzenti.png",
+        "logoImg": "/portfolioImg/morzenti/brand_morzenti.jpg",
         "typo": {
           "titolo": "Typography",
           "typoImg": "/portfolioImg/morzenti/typo_text_morzenti_en.png",
@@ -1636,11 +1636,11 @@
             "Each photo used for social media is taken on the farm and captures the life of the nomadic shepherd, farmer, and cheesemaker."
           ],
           "socialImg": [
-            "/portfolioImg/morzenti/social1.png",
-            "/portfolioImg/morzenti/social2.png",
-            "/portfolioImg/morzenti/social3.png",
-            "/portfolioImg/morzenti/social4.png",
-            "/portfolioImg/morzenti/social5.png"
+            "/portfolioImg/morzenti/social1.jpg",
+            "/portfolioImg/morzenti/social2.jpg",
+            "/portfolioImg/morzenti/social3.jpg",
+            "/portfolioImg/morzenti/social4.jpg",
+            "/portfolioImg/morzenti/social5.jpg"
           ]
         }
       }
