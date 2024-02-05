@@ -10,6 +10,7 @@ import SectionMeUno from "@/components/sections/sectionMeUno";
 import SectionMeDue from "@/components/sections/sectionMeDue";
 import SectionMeTre from "@/components/sections/sectionMeTre";
 import SliderCards from "@/components/serviziItem/sliderCards";
+import Link from "next/link";
 
 const Me = ({ translation, servizi }) => {
   return (
@@ -86,17 +87,28 @@ const Me = ({ translation, servizi }) => {
         <SectionMeUno translation={translation?.sezioneUno} />
         <SectionMeDue translation={translation?.sezioneDue} />
         <section className="w-[90%] mx-auto min-h-[40vh] mt-[150px] flex flex-col gap-20">
-          <Image
-            className="object-cover w-[90vw] xl:w-[35vw] 2xl:w-[30vw] fxl:w-[35vw] 3xl:w-[40vw]"
-            src={translation?.sezioneTre?.title}
-            alt="welcome title"
-            width={300}
-            height={300}
-          />
+          <div className="grid grid-cols-1 2xl:grid-cols-2 gap-10">
+            <Image
+              className="object-cover w-[90vw] xl:w-[35vw] 2xl:w-[30vw] fxl:w-[35vw] 3xl:w-[40vw]"
+              src={translation?.sezioneTre?.title}
+              alt="welcome title"
+              width={300}
+              height={300}
+            />
+            <div className="flex items-end lg:justify-end">
+              <Link
+                className="capitalize font-bold py-2.5 px-6 text-[22px] border rounded shadow  text-white hover:transition-all border-red  bg-red"
+                href="https://g.page/r/CVkCvxDyKu9aEBM/review"
+                target="_blank"
+              >
+                {translation?.sezioneTre?.cta}
+              </Link>
+            </div>
+          </div>
           <div
             className="elfsight-app-4232eb26-57ce-4f62-af4c-b940b9705c52"
             data-elfsight-app-lazy
-          ></div>{" "}
+          ></div>
         </section>
         <SectionMeTre translation={translation?.sezioneQuattro} />
         <div className="w-[90%] mx-auto mt-[100px]">

@@ -70,7 +70,8 @@
       "title": "/sectionsTitle/clienti_en.png"
     },
     "sezioneTre": {
-      "title": "/sectionsTitle/testimonials_en.png"
+      "title": "/sectionsTitle/testimonials_en.png",
+      "cta": "Write review"
     },
     "sezioneQuattro": {
       "title": "/sectionsTitle/mitha_title.png",
