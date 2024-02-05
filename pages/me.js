@@ -86,7 +86,7 @@ const Me = ({ translation, servizi }) => {
         </div>
         <SectionMeUno translation={translation?.sezioneUno} />
         <SectionMeDue translation={translation?.sezioneDue} />
-        <section className="w-[90%] mx-auto min-h-[40vh] mt-[150px] flex flex-col gap-20">
+        <section className="w-[90%] mx-auto min-h-[40vh] mt-[150px] flex flex-col gap-6 lg:gap-20">
           <div className="grid grid-cols-1 2xl:grid-cols-2 gap-10">
             <Image
               className="object-cover w-[90vw] xl:w-[35vw] 2xl:w-[30vw] fxl:w-[35vw] 3xl:w-[40vw]"
