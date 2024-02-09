@@ -189,7 +189,7 @@ export default function SinglePost({
                 <p className="text-lg xl:text-xl text-main">Condividi su</p>{" "}
                 <FacebookShareButton
                   url={`https://miaographics.it/posts/${post?.slug}`}
-                  hashtag={"#lescretes"}
+                  hashtag={"#miaographics"}
                 >
                   {/* <FacebookIcon size={32} round /> */}
                   <Icon
