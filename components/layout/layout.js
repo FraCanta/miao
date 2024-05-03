@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "./footer";
 import Menu from "./menu";
-import LayoutTranslation from "../../public/layout.json";
+import LayoutTranslation from "../../public/locales/layout.json";
 
 const Layout = (props) => {
   const navbarRef = React.useRef(null);
