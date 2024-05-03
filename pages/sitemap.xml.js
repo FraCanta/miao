@@ -88,6 +88,26 @@ function generateSiteMap(posts) {
     })
     .join("")}
 
+    ${LayoutTranslation?.menu?.it?.singleWorks
+      .map((el, i) => {
+        return `
+         <url>
+          <loc>${`${headlessSite}${el?.link}`}</loc>
+         </url>
+        `;
+      })
+      .join("")}
+
+${LayoutTranslation?.menu?.en?.singleWorks
+  .map((el, i) => {
+    return `
+         <url>
+          <loc>${`${headlessSite}/en${el?.link}`}</loc>
+      </url>
+        `;
+  })
+  .join("")}
+
 
 
 
