@@ -174,8 +174,8 @@ export async function getStaticProps(context) {
       obj = translationIT;
       break;
   }
-  let targetObj = obj?.portfolio?.singleWorks?.[params?.title];
 
+  let targetObj = obj?.portfolio?.singleWorks?.[params?.title];
   const arr = Object.keys(obj?.portfolio?.singleWorks);
   const currentIndex = arr.findIndex((el) => el === params.title);
   const previousWork = currentIndex > 0 ? arr[currentIndex - 1] : null;

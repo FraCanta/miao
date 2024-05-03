@@ -223,7 +223,7 @@ export default Blog;
 
 export async function getServerSideProps(context) {
   const { locale, query, req, res } = context;
-  res.setHeader("Cache-Control", "public, s-maxage=60, stale-while-revalidate");
+  res.setHeader("Cache-Control", "public,  stale-while-revalidate");
   let { page, categories } = query;
   page === undefined && (page = 1);
   categories === undefined && (categories = 0);
@@ -231,10 +231,10 @@ export async function getServerSideProps(context) {
 
   // const tags = await getTags();
   const idLocale = await getTagId(locale); // recupera id della lingua attuale
+  console.log(idLocale);
   const post = await getPosts(idLocale);
-
   const myTag = await getTagId("miaographics");
-  // const myTag = 183;
+  // const myTag = 133;
 
   const filteredPosts = post
     .filter((el) => el?.tags?.includes(myTag))
@@ -279,7 +279,7 @@ export async function getServerSideProps(context) {
       // media: media,
       // tags: tags,
       currentP: page,
-      translation: obj?.blog,
+      translation: obj?.home,
     },
   };
 }
