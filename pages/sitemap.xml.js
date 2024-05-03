@@ -57,6 +57,16 @@ function generateSiteMap(posts) {
      <changefreq>weekly</changefreq>
      <priority>1</priority>
    </url>
+   <url>
+   <loc>https://miaographics.it/contatti</loc>
+   <changefreq>weekly</changefreq>
+   <priority>1</priority>
+ </url>
+ <url>
+ <loc>https://miaographics.it/en/contatti</loc>
+ <changefreq>weekly</changefreq>
+ <priority>1</priority>
+</url>
 
        ${LayoutTranslation?.menu?.it?.singleService
          .map((el, i) => {
