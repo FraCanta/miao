@@ -1,7 +1,7 @@
 const BASE_URL = "https://mithablog.mithacreative.it/wp-json/wp/v2";
 
 export async function getPosts(lang) {
-  const postsRes = await fetch(BASE_URL + "/posts?_embed&per_page=10", {
+  const postsRes = await fetch(BASE_URL + "/posts?_embed&per_page=100", {
     cache: "force-cache",
     revalidate: 900,
   });
@@ -105,16 +105,15 @@ export async function getCategories(lang, onlyFull = true) {
     ? filteredCategories?.filter((el) => el?.count > 0)
     : filteredCategories;
 
-  //   if (!!lang) {
-  //     lang === "it" &&
-  //       fullCategories.splice(0, 0, { id: 0, name: "Tutte le categorie" });
-  //     lang === "en" &&
-  //       fullCategories.splice(0, 0, { id: 0, name: "All categories" });
-  //     return fullCategories;
-  //   } else {
-  //     return categories;
-  //   }
-  return fullCategories;
+  if (!!lang) {
+    lang === "it" &&
+      fullCategories.splice(0, 0, { id: 0, name: "Tutte le categorie" });
+    lang === "en" &&
+      fullCategories.splice(0, 0, { id: 0, name: "All categories" });
+    return fullCategories;
+  } else {
+    return categories;
+  }
 }
 
 export async function getSlugs(type) {
@@ -140,25 +139,21 @@ export async function getUsers() {
     revalidate: 900,
   });
   const users = await userRes.json();
-  // console.log(users)
   return users;
 }
 
 export async function getPostsByLanguageAndBlogOwner(
-  blogOwner = "miaographics"
+  blogOwner = "thalliondev"
 ) {
   const resObj = {};
   resObj.ownerId = await getTagId(blogOwner);
   resObj.it = await getTagId("it");
   resObj.en = await getTagId("en");
-  resObj.en = await getTagId("fr");
-  const ownerPosts = await getPosts(resObj.ownerId); // tutti i posts in tutte lingue del blogOwner
-
+  const ownerPosts = await getPosts(resObj.ownerId); // tutti i posts in tutte lingue del blogOwser
   return {
     ...resObj,
     it: ownerPosts.filter((el) => el?.tags?.includes(resObj.it)),
     en: ownerPosts.filter((el) => el?.tags?.includes(resObj.en)),
-    fr: ownerPosts.filter((el) => el?.tags?.includes(resObj.fr)),
   };
 }
 

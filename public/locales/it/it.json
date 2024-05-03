@@ -1652,12 +1652,7 @@
       }
     }
   },
-  "blog": {
-    "hero": {
-      "title": "/pageImg/blogTitle.png",
-      "img": "/pageImg/gattina2.webp"
-    }
-  },
+
   "contatti": {
     "hero": {
       "title": "/pageImg/contattiTitle.png",

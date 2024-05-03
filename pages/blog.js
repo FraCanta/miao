@@ -1,6 +1,6 @@
 import SlideAnimation from "@/components/slideAnimation/slideAnimation";
-import translationIT from "../public/locales/it/it.json";
-import translationEN from "../public/locales/en/en.json";
+import translationIT from "../public/locales/it/blog.json";
+import translationEN from "../public/locales/en/blog.json";
 import HeroPage from "@/components/heros/heroPage";
 import Head from "next/head";
 import Post from "../components/post/posts";
@@ -231,7 +231,6 @@ export async function getServerSideProps(context) {
 
   // const tags = await getTags();
   const idLocale = await getTagId(locale); // recupera id della lingua attuale
-  console.log(idLocale);
   const post = await getPosts(idLocale);
   const myTag = await getTagId("miaographics");
   // const myTag = 133;
@@ -279,7 +278,7 @@ export async function getServerSideProps(context) {
       // media: media,
       // tags: tags,
       currentP: page,
-      translation: obj?.home,
+      translation: obj?.blog,
     },
   };
 }
