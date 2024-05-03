@@ -182,12 +182,12 @@ const Blog = ({ post, category, pages, currentP, translation, lastPost }) => {
                   }
                   onClick={() => handlePagination(currentP - 1)}
                 >
-                  « Prev
+                  « PREV
                 </button>
                 {filterObj?.paginationArray?.map((el, i) => (
                   <button
                     className={`btn ${
-                      parseInt(currentP) - i === el && "#de4928"
+                      parseInt(currentP) - i === el && "btn-active"
                     }`}
                     key={i}
                     onClick={() => handlePagination(el + i)}
@@ -208,7 +208,7 @@ const Blog = ({ post, category, pages, currentP, translation, lastPost }) => {
                   }
                   onClick={() => handlePagination(parseInt(currentP) + 1)}
                 >
-                  Sub »
+                  SUB »
                 </button>
               </div>
             </div>

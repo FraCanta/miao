@@ -99,14 +99,17 @@ cite {
 
 .btn {
   border-color: transparent !important;
-  color: var(--second_color);
+  color: var(--main);
   background-color: transparent !important;
   border-width: 0px !important;
-  border-radius: 10px !important;
+  border-radius: 5px !important;
+  padding: 5px 20px;
+  font-weight: 500;
 }
 
 .btn-active {
-  background-color: var(--second_color) !important;
+  background-color: var(--red) !important;
+  color: white;
 }
 
 @media screen and (max-width: 768px) {
