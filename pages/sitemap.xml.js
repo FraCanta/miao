@@ -62,7 +62,7 @@ function generateSiteMap(posts) {
          .map((el, i) => {
            return `
             <url>
-             <loc>${`${headlessSite}/servizi/${el?.link}`}</loc>
+             <loc>${`${headlessSite}${el?.link}`}</loc>
             </url>
            `;
          })
@@ -72,7 +72,7 @@ function generateSiteMap(posts) {
     .map((el, i) => {
       return `
             <url>
-             <loc>${`${headlessSite}/en/servizi/${el?.link}`}</loc>
+             <loc>${`${headlessSite}/en${el?.link}`}</loc>
          </url>
            `;
     })
