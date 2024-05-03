@@ -1,81 +1,114 @@
 //pages/sitemap.xml.js
-const headlessSite = "https://www.miaographics.it";
+const headlessSite = "https://miaographics.it";
 import { getPostsByLanguageAndBlogOwner } from "../utils/wordpress";
+
+import LayoutTranslation from "../public/locales/layout.json";
 
 function generateSiteMap(posts) {
   return `<?xml version="1.0" encoding="UTF-8"?>
      <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">       
        <url>
-         <loc>${headlessSite}</loc>
-         <lastmod>${new Date().toISOString()}</lastmod>
+         <loc>https://miaographics.it</loc>
+         <changefreq>weekly</changefreq>
+         <priority>1</priority>
        </url>
         <url>
-         <loc>${headlessSite}/me</loc>
-         <lastmod>${new Date().toISOString()}</lastmod>
+         <loc>https://miaographics.it/me</loc>
+         <changefreq>weekly</changefreq>
+         <priority>1</priority>
        </url>
         <url>
-         <loc>${headlessSite}/en/me</loc>
-         <lastmod>${new Date().toISOString()}</lastmod>
-       </url>
-      
-       <url>
-         <loc>${headlessSite}/en</loc>
-         <lastmod>${new Date().toISOString()}</lastmod>
+         <loc>https://miaographics.it/en/me</loc>
+         <changefreq>weekly</changefreq>
+         <priority>1</priority>
        </url>
        <url>
-         <loc>${headlessSite}/blog</loc>
-         <lastmod>${new Date().toISOString()}</lastmod>
+         <loc>https://miaographics.it/en</loc>
+         <changefreq>weekly</changefreq>
+         <priority>1</priority>
        </url>
        <url>
-         <loc>${headlessSite}/en/blog</loc>
-         <lastmod>${new Date().toISOString()}</lastmod>
+         <loc>https://miaographics.it/blog</loc>
+         <changefreq>weekly</changefreq>
+         <priority>1</priority>
        </url>
-       
        <url>
-       <loc>${headlessSite}/portfolio</loc>
-       <lastmod>${new Date().toISOString()}</lastmod>
+         <loc>https://miaographics.it/en/blog</loc>
+         <changefreq>weekly</changefreq>
+         <priority>1</priority>
        </url>
-     <url>
-       <loc>${headlessSite}/en/portfolio</loc>
-       <lastmod>${new Date().toISOString()}</lastmod>
-       </url>
-    
-    
-   <url>
-     <loc>${headlessSite}/servizi</loc>
-     <lastmod>${new Date().toISOString()}</lastmod>
+       <url>
+       <loc>https://miaographics.it/servizi</loc>
+       <changefreq>weekly</changefreq>
+       <priority>1</priority>
      </url>
      <url>
-     <loc>${headlessSite}/en/servizi</loc>
-     <lastmod>${new Date().toISOString()}</lastmod>
+       <loc>https://miaographics.it/servizi</loc>
+       <changefreq>weekly</changefreq>
+       <priority>1</priority>
      </url>
-
-   
-
-
-     ${posts?.it
-       .map(({ slug }) => {
-         return `
-      <url>
-          <loc>${`${headlessSite}/posts/${slug}`}</loc>
-          <lastmod>${new Date().toISOString()}</lastmod>
-      </url>
-    `;
-       })
-       .join("")}
-
-      ${posts?.en
-        .map(({ slug }) => {
-          return `
        <url>
-           <loc>${`${headlessSite}/posts/${slug}`}</loc>
-           <lastmod>${new Date().toISOString()}</lastmod>
-       </url>
-     `;
-        })
-        .join("")}
+       <loc>https://miaographics.it/portfolio</loc>
+       <changefreq>weekly</changefreq>
+       <priority>1</priority>
+     </url>
+     <url>
+     <loc>https://miaographics.it/en/portfolio</loc>
+     <changefreq>weekly</changefreq>
+     <priority>1</priority>
+   </url>
 
-      
+       ${LayoutTranslation?.menu?.it?.singleService
+         .map((el, i) => {
+           return `
+            <url>
+             <loc>${`${headlessSite}/servizi/${el?.link}`}</loc>
+            </url>
+           `;
+         })
+         .join("")}
+
+  ${LayoutTranslation?.menu?.en?.singleService
+    .map((el, i) => {
+      return `
+            <url>
+             <loc>${`${headlessSite}/en/servizi/${el?.link}`}</loc>
+         </url>
+           `;
+    })
+    .join("")}
+
+
+
+
+       ${posts?.it
+         .map(({ id, slug, tags, date }) => {
+           const receivedDate = new Date(date);
+           const isoDate = receivedDate.toISOString();
+           return `
+         <url>
+             <loc>${`${headlessSite}/posts/${slug}`}</loc>
+             <lastmod>${`${isoDate}`}</lastmod>
+             <changefreq>weekly</changefreq>
+             <priority>0.5</priority>
+         </url>
+       `;
+         })
+         .join("")}
+         ${posts?.en
+           .map(({ id, slug, tags, date }) => {
+             const receivedDate = new Date(date);
+             const isoDate = receivedDate.toISOString();
+             return `
+          <url>
+              <loc>${`${headlessSite}/en/posts/${slug}`}</loc>
+              <lastmod>${`${isoDate}`}</lastmod>
+              <changefreq>weekly</changefreq>
+              <priority>0.5</priority>
+          </url>
+        `;
+           })
+           .join("")}
      </urlset>
    `;
 }
