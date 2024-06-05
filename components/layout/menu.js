@@ -227,7 +227,7 @@ const Menu = ({ nr, translation }) => {
                     <div className="flex flex-col text-main capitalize md:text-xl">
                       <p> {translation?.[locale]?.col2?.row1?.title}</p>
                       <Link
-                        href="/contact"
+                        href="/contatti"
                         target="_blank"
                         title="contattami per una consulenza e parliamo insieme del tuo progetto"
                       >
