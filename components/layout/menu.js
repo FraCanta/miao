@@ -46,10 +46,10 @@ const Menu = ({ nr, translation }) => {
           <div className="lg:flex items-center  hidden capitalize">
             <div className="w-full flex items-center justify-end">
               <Link
-                href="/me"
+                href="/chi-sono"
                 title="Scopri chi sono e cosa posso fare per te"
                 className={`${
-                  pathname === "/me" ? "text-red font-medium" : ""
+                  pathname === "/chi-sono" ? "text-red font-medium" : ""
                 } mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center`}
               >
                 {translation?.[locale]?.me}
@@ -136,10 +136,10 @@ const Menu = ({ nr, translation }) => {
               >
                 <li onClick={handleOpen}>
                   <Link
-                    href="/me"
+                    href="/chi-sono"
                     title="Scopri chi sono e cosa posso fare per te"
                     className={`${
-                      pathname === "/me" ? "text-red font-medium" : ""
+                      pathname === "/chi-sono" ? "text-red font-medium" : ""
                     } "mr-8 text-[25px] md:text-[38px] lg:text-4xl text-main font-regular "`}
                   >
                     {translation?.[locale]?.me}

@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "./footer";
 import Menu from "./menu";
 import LayoutTranslation from "../../public/locales/layout.json";
+import { Toaster } from "react-hot-toast";
 
 const Layout = (props) => {
   const navbarRef = React.useRef(null);
@@ -30,6 +31,24 @@ const Layout = (props) => {
   // console.log(LayoutTranslation?.menu);
   return (
     <>
+      <Toaster
+        position="bottom-right"
+        toastOptions={{
+          duration: 3000,
+          success: {
+            iconTheme: {
+              primary: "#39373c",
+              secondary: "white",
+            },
+          },
+          error: {
+            iconTheme: {
+              primary: "#de4928",
+              secondary: "black",
+            },
+          },
+        }}
+      />
       <Menu
         nr={navbarRef}
         lr={logoRef}

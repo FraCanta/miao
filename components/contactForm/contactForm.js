@@ -1,4 +1,5 @@
 import { useState } from "react";
+import toast from "react-hot-toast";
 export default function ContactForm({ translation }) {
   const [inputs, setInputs] = useState({
     // state per le inputs normali
@@ -68,36 +69,41 @@ export default function ContactForm({ translation }) {
           body: JSON.stringify(formData),
         });
 
-        const { error } = await res.json();
+        // const { error } = await res.json();
 
-        if (error) {
-          setForm({
-            state: "error",
-            message: error,
+        // if (error) {
+        //   setForm({
+        //     state: "error",
+        //     message: error,
+        //   });
+        //   return;
+        // }
+
+        // setForm({
+        //   state: "Fatto",
+        //   message:
+        //     "Il tuo messaggio è stato inviato. Grazie per averci contattato!",
+        // });
+        if (res.status === 200) {
+          setInputs({
+            name: "",
+            work: "",
+            email: "",
+            message: "",
           });
-          return;
+          setSelectedRadio(null); // Resetta la radio selezionata
+          setClickedRadio(null);
+          setCheckboxesState({
+            logo: false,
+            label: false,
+            branding: false,
+            social: false,
+            altro: false,
+          }); // Resetta le checkbox selezionate
+          toast.success(
+            `Hey ${inputs.name} your message was sent successfully`
+          );
         }
-
-        setForm({
-          state: "Fatto",
-          message:
-            "Il tuo messaggio è stato inviato. Grazie per averci contattato!",
-        });
-        setInputs({
-          name: "",
-          work: "",
-          email: "",
-          message: "",
-        });
-        setSelectedRadio(null); // Resetta la radio selezionata
-        setClickedRadio(null);
-        setCheckboxesState({
-          logo: false,
-          label: false,
-          branding: false,
-          social: false,
-          altro: false,
-        }); // Resetta le checkbox selezionate
       } catch (error) {
         setForm({
           state: "Errore",
@@ -109,11 +115,11 @@ export default function ContactForm({ translation }) {
 
   return (
     <section className="w-full h-full ">
-      <div className="container mx-auto w-full">
+      <div className="container w-full mx-auto">
         <div className="contact-form__form">
           <form onSubmit={(e) => onSubmitForm(e)}>
             <div className="contact-form__row">
-              <span className="contact-form__text text-black heading-l">
+              <span className="text-black contact-form__text heading-l">
                 {translation?.row1}
               </span>
               <input
@@ -128,7 +134,7 @@ export default function ContactForm({ translation }) {
                 name="name"
               />
 
-              <span className="contact-form__text text-black heading-l">
+              <span className="text-black contact-form__text heading-l">
                 {translation?.row1Right}
               </span>
               <input
@@ -145,7 +151,7 @@ export default function ContactForm({ translation }) {
               />
             </div>
             <div className="contact-form__row">
-              <span className="contact-form__text text-black heading-l">
+              <span className="text-black contact-form__text heading-l">
                 {translation?.row2}
               </span>
               <div className="contact-form__items">
@@ -350,7 +356,7 @@ export default function ContactForm({ translation }) {
               </div>
             </div>
             <div className="contact-form__row">
-              <span className="contact-form__text text-black heading-l">
+              <span className="text-black contact-form__text heading-l">
                 {translation?.row4}
               </span>
               <div className="contact-form__items">
@@ -437,7 +443,7 @@ export default function ContactForm({ translation }) {
               </div>
             </div>
             <div className="contact-form__row">
-              <span className="contact-form__text text-black heading-l">
+              <span className="text-black contact-form__text heading-l">
                 {translation?.row5}
               </span>
               <input
@@ -452,13 +458,13 @@ export default function ContactForm({ translation }) {
                 onChange={handleChange}
                 required
               />
-              <span className="contact-form__text text-black heading-l">
+              <span className="text-black contact-form__text heading-l">
                 {translation?.row5Right}
               </span>
             </div>
             <div className="contact-form__textarea-wrapper">
               <div>
-                <span className="contact-form__text text-black heading-l">
+                <span className="text-black contact-form__text heading-l">
                   {translation?.row6}
                 </span>
               </div>
@@ -480,7 +486,7 @@ export default function ContactForm({ translation }) {
                 type="submit"
               >
                 <span className="button__content">
-                  <span className="button__text text-lg py-2 px-12 2xl:text-xl 3xl:text-3xl text-white font-bold">
+                  <span className="px-12 py-2 text-lg font-bold text-white button__text 2xl:text-xl 3xl:text-3xl">
                     {translation?.btn}
                   </span>
                 </span>
@@ -498,7 +504,7 @@ export default function ContactForm({ translation }) {
           </form>
         </div>
       </div>
-      <div className="text-red text-lg font-bold">
+      <div className="text-lg font-bold text-red">
         <p>{translation?.indice}</p>
       </div>
     </section>

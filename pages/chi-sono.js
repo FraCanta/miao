@@ -30,7 +30,10 @@ const Me = ({ translation, servizi }) => {
           name="viewport"
           content="width=device-width, initial-scale=1.0"
         ></meta>
-        <meta property="og:url" content="https://www.miaographics.it/" />
+        <meta
+          property="og:url"
+          content="https://www.miaographics.it/chi-sono"
+        />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
@@ -45,8 +48,11 @@ const Me = ({ translation, servizi }) => {
           content="Sono una Graphic Designer e Content Creator, e sono qui per essere la tua partner nella definizione dell’identità visiva della tua azienda."
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="miaographics.it" />
-        <meta property="twitter:url" content="https://www.miaographics.it/" />
+        <meta property="twitter:domain" content="miaographics.it/chi-sono" />
+        <meta
+          property="twitter:url"
+          content="https://www.miaographics.it/chi-sono"
+        />
         <meta
           name="twitter:title"
           content={`Miao - ${translation?.meta?.title}`}

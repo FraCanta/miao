@@ -54,7 +54,7 @@ const Blog = ({ post, category, pages, currentP, translation, lastPost }) => {
   return (
     <>
       <Head>
-        <title>Miao graphics - Blog</title>
+        <title>Miao grafismi itineranti - Blog</title>
         <meta
           name="description"
           content="Esplora il nostro blog e scopri il mondo del design attraverso gli occhi di un esperto. Approfondimenti, tendenze e ispirazione per il tuo prossimo progetto creativo. Entra nel nostro mondo di idee e creatività!"

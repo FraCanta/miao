@@ -13,12 +13,12 @@ function generateSiteMap(posts) {
          <priority>1</priority>
        </url>
         <url>
-         <loc>https://miaographics.it/me</loc>
+         <loc>https://miaographics.it/chi-sono</loc>
          <changefreq>weekly</changefreq>
          <priority>1</priority>
        </url>
         <url>
-         <loc>https://miaographics.it/en/me</loc>
+         <loc>https://miaographics.it/en/chi-sono</loc>
          <changefreq>weekly</changefreq>
          <priority>1</priority>
        </url>
