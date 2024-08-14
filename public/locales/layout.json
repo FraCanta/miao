@@ -9,49 +9,49 @@
           "name": "Logo Design",
           "title": "logo",
           "descrizione": "Un logo progettato su misura, in base al tuo target di riferimento e alla tua vision è un investimento per il successo della tua azienda.",
-          "link": "/service/logo"
+          "link": "/servizi/logo"
         },
         {
           "img": "/serviziImg/branding.png",
           "name": "Branding Strategy",
           "descrizione": "Una buona strategia di branding ti permette di differenziarti dalla concorrenza e di costruire un'identità forte, unica e riconoscibile.",
-          "link": "/service/branding"
+          "link": "/servizi/branding"
         },
         {
           "img": "/serviziImg/label.png",
           "name": "Label & Packaging",
           "descrizione": "Il label e il packaging design sono essenziali per il successo di un prodotto, in un mercato competitivo, sono cruciali per catturare l’interesse del pubblico e informare il consumatore.",
-          "link": "/service/label"
+          "link": "/servizi/label"
         },
         {
           "img": "/serviziImg/social.png",
           "name": "Social Media Strategy",
           "descrizione": "Risparmia tempo e migliora la tua presenza online con contenuti mirati e aggiornati alle ultime tendenze per aumentare l'engagement.",
-          "link": "/service/social"
+          "link": "/servizi/social"
         },
         {
           "img": "/serviziImg/campagne.png",
           "name": "Offline Campaigns",
           "descrizione": "Le campagne offline plasmano scelte, creano connessioni e trasmettono messaggi profondi, incarnando idee, valori e brand che si toccano, sentono e ricordano.",
-          "link": "/service/campagne"
+          "link": "/servizi/campagne"
         },
         {
           "img": "/serviziImg/allestimenti.png",
           "name": "Stage Design",
           "descrizione": "Gli allestimenti personalizzati conferiscono personalità ad uno spazio vuoto. Possono evocare emozioni, creare atmosfere e coinvolgere il pubblico in modo unico.",
-          "link": "/service/allestimenti"
+          "link": "/servizi/allestimenti"
         },
         {
           "img": "/serviziImg/illustrazione.png",
           "name": "Illustrations",
           "descrizione": "Le illustrazioni create ad hoc, sono molto più di semplici immagini; sono elementi chiave che permettono di esaltare il tuo brand e renderlo unico e memorabile.",
-          "link": "/service/illustrazione"
+          "link": "/servizi/illustrazione"
         },
         {
           "img": "/serviziImg/contentCreator.png",
           "name": "Content Creator",
           "descrizione": "Nel mondo digitale di oggi, il contenuto ricopre un ruolo sempre più importante. Ma non si tratta solo di quantità; si tratta di qualità e, soprattutto, di personalizzazione.",
-          "link": "/service/content"
+          "link": "/servizi/content"
         }
       ],
       "portfolio": "portfolio",
@@ -62,7 +62,7 @@
           "title": "ansermè",
           "descrizione": "Bio Bontà di Montagna",
           "location": "Arnad  - Valle d’Aosta",
-          "link": "/works/ansermè",
+          "link": "/portfolio/ansermè",
           "button": ["Branding", "Label Design", "Social Media"]
         },
         {
@@ -71,7 +71,7 @@
           "title": "becquet",
           "descrizione": "Agriculture en Haute Montagne",
           "location": "Ayas - Valle d’Aosta",
-          "link": "/works/becquet",
+          "link": "/portfolio/becquet",
           "button": ["Branding", "Label Design"]
         },
         {
@@ -80,7 +80,7 @@
           "title": "reve",
           "descrizione": "Azienda Agricola di Andrea Casadei",
           "location": "Arnad - Valle d’Aosta",
-          "link": "/works/reve",
+          "link": "/portfolio/reve",
           "button": ["Branding", "Label Design"]
         },
         {
@@ -89,7 +89,7 @@
           "title": "phillacolor",
           "descrizione": "Eco-Liquid Dye",
           "location": "Saint-Pierre  - Valle d’Aosta",
-          "link": "/works/phillacolor",
+          "link": "/portfolio/phillacolor",
           "button": ["Branding", "Label Design"]
         },
         {
@@ -98,7 +98,7 @@
           "title": "chappoz",
           "descrizione": "Azienda Agricola",
           "location": "Donnas - Valle d’Aosta",
-          "link": "/works/chappoz",
+          "link": "/portfolio/chappoz",
           "button": ["Branding", "Label Design", "Social Media"]
         },
         {
@@ -107,7 +107,7 @@
           "title": "daemy",
           "descrizione": "Piante Officinali",
           "location": "Valsavarenche - Valle d’Aosta",
-          "link": "/works/daemy",
+          "link": "/portfolio/daemy",
           "button": ["Branding", "Label Design"]
         },
         {
@@ -116,7 +116,7 @@
           "title": "horto",
           "descrizione": "Prodotti tipici di Monte Amiata e Val d'Orcia",
           "location": "Abbadia San Salvatore (SI) - Toscana",
-          "link": "/works/horto",
+          "link": "/portfolio/horto",
           "button": ["Branding", "Label Design"]
         },
         {
@@ -125,7 +125,7 @@
           "title": "isavivai",
           "descrizione": "Il Verde che ti emoziona",
           "location": "Aymavilles  - Valle d’Aosta",
-          "link": "/works/isavivai",
+          "link": "/portfolio/isavivai",
           "button": ["Branding", "Allestimenti"]
         },
         {
@@ -134,7 +134,7 @@
           "title": "saintgrat",
           "descrizione": "Azienda Agricola",
           "location": "Gressan - Valle d’Aosta",
-          "link": "/works/saintgrat",
+          "link": "/portfolio/saintgrat",
           "button": ["Branding", "Label Design"]
         },
         {
@@ -143,7 +143,7 @@
           "title": "morzenti",
           "descrizione": "Azienda Agricola",
           "location": "Aymavilles - Valle d’Aosta",
-          "link": "/works/morzenti",
+          "link": "/portfolio/morzenti",
           "button": ["Branding", "Social Media"]
         }
       ],
@@ -171,49 +171,49 @@
           "name": "Logo Design",
           "title": "logo",
           "descrizione": "A custom-designed logo, tailored to your target audience and your vision, is an investment in your company's success.",
-          "link": "/service/logo"
+          "link": "/servizi/logo"
         },
         {
           "img": "/serviziImg/branding.png",
           "name": "Branding Strategy",
           "descrizione": "A good branding strategy allows you to stand out from the competition and build a strong, unique, and recognizable identity.",
-          "link": "/service/branding"
+          "link": "/servizi/branding"
         },
         {
           "img": "/serviziImg/label.png",
           "name": "Label & Packaging",
           "descrizione": "Label and packaging design are essential for a product's success. In a competitive market, they are crucial for capturing the interest of the audience and informing the consumer.",
-          "link": "/service/label"
+          "link": "/servizi/label"
         },
         {
           "img": "/serviziImg/social.png",
           "name": "Social Media Strategy",
           "descrizione": "Save time and enhance your online presence with targeted, up-to-date content to increase engagement.",
-          "link": "/service/social"
+          "link": "/servizi/social"
         },
         {
           "img": "/serviziImg/campagne.png",
           "name": "Offline Campaigns",
           "descrizione": "Offline campaigns shape choices, create connections, and convey deep messages, embodying ideas, values, and brands that people touch, feel, and remember.",
-          "link": "/service/campagne"
+          "link": "/servizi/campagne"
         },
         {
           "img": "/serviziImg/allestimenti.png",
           "name": "Stage Design",
           "descrizione": "Custom setups give personality to an empty space. They can evoke emotions, create atmospheres, and engage the audience uniquely.",
-          "link": "/service/allestimenti"
+          "link": "/servizi/allestimenti"
         },
         {
           "img": "/serviziImg/illustrazione.png",
           "name": "Illustrations",
           "descrizione": "Tailor-made illustrations are more than just images; they are key elements that enhance your brand and make it unique and memorable.",
-          "link": "/service/illustrazione"
+          "link": "/servizi/illustrazione"
         },
         {
           "img": "/serviziImg/contentCreator.png",
           "name": "Content Creator",
           "descrizione": "In today's digital world, content plays an increasingly important role. But it's not just about quantity; it's about quality and, most importantly, personalization.",
-          "link": "/service/content"
+          "link": "/servizi/content"
         }
       ],
       "portfolio": "portfolio",
@@ -224,7 +224,7 @@
           "title": "ansermè",
           "descrizione": "Mountain Goodness Bio",
           "location": "Arnad  - Valle d’Aosta",
-          "link": "/works/ansermè",
+          "link": "/portfolio/ansermè",
           "button": ["Branding", "Label Design", "Social Media"]
         },
         {
@@ -233,7 +233,7 @@
           "title": "becquet",
           "descrizione": "High Mountain Agriculture",
           "location": "location",
-          "link": "/works/becquet",
+          "link": "/portfolio/becquet",
           "button": ["Branding", "Label Design"]
         },
         {
@@ -242,7 +242,7 @@
           "title": "reve",
           "descrizione": "Andrea Casadei's Agricultural Company",
           "location": "Arnad - Valle d’Aosta",
-          "link": "/works/reve",
+          "link": "/portfolio/reve",
           "button": ["Branding", "Label Design"]
         },
         {
@@ -251,7 +251,7 @@
           "title": "phillacolor",
           "descrizione": "Eco-liquid Dye",
           "location": "Saint -Pierre  - Valle d’Aosta",
-          "link": "/works/phillacolor",
+          "link": "/portfolio/phillacolor",
           "button": ["Branding", "Label Design"]
         },
         {
@@ -260,7 +260,7 @@
           "title": "chappoz",
           "descrizione": "Agricultural Company",
           "location": "Donnas - Valle d’Aosta",
-          "link": "/works/chappoz",
+          "link": "/portfolio/chappoz",
           "button": ["Branding", "Label Design", "Social Media"]
         },
         {
@@ -269,7 +269,7 @@
           "title": "daemy",
           "descrizione": "Medicinal Plants",
           "location": "Valsavarenche - Valle d’Aosta",
-          "link": "/works/daemy",
+          "link": "/portfolio/daemy",
           "button": ["Branding", "Label Design"]
         },
         {
@@ -278,7 +278,7 @@
           "title": "horto",
           "descrizione": "Typical Products from Monte Amiata and Val d'Orcia",
           "location": "Abbadia San Salvatore (SI) - Toscana",
-          "link": "/works/horto",
+          "link": "/portfolio/horto",
           "button": ["Branding", "Label Design"]
         },
         {
@@ -287,7 +287,7 @@
           "title": "isavivai",
           "descrizione": "The Green That Moves You - Nursery, Greenhouse",
           "location": "Aymavilles  - Valle d’Aosta",
-          "link": "/works/isavivai",
+          "link": "/portfolio/isavivai",
           "button": ["Branding", "Allestimenti"]
         },
         {
@@ -296,7 +296,7 @@
           "title": "saintgrat",
           "descrizione": "Agricultural Company",
           "location": "Aymavilles - Valle d’Aosta",
-          "link": "/works/saintgrat",
+          "link": "/portfolio/saintgrat",
           "button": ["Branding", "Label Design"]
         },
         {
@@ -305,7 +305,7 @@
           "title": "morzenti",
           "descrizione": "Agricultural Company",
           "location": "Gressan - Valle d’Aosta",
-          "link": "/works/morzenti",
+          "link": "/portfolio/morzenti",
           "button": ["Branding", "Social Media"]
         }
       ],

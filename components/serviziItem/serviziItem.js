@@ -6,7 +6,7 @@ const ServiziItem = ({ img, name, descrizione, link }) => {
   return (
     <>
       <div className="w-full justify-start items-start gap-2.5 flex ">
-        <Link href={link} title={name}>
+        <Link href={link} title={name} target="_blank">
           <div className="w-full 2xl:p-4 ">
             <Image
               className="object-cover w-auto h-auto"

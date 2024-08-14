@@ -97,49 +97,49 @@
         "name": "Logo Design",
         "title": "logo",
         "descrizione": "A custom-designed logo, tailored to your target audience and your vision, is an investment in your company's success.",
-        "link": "/service/logo"
+        "link": "/servizi/logo"
       },
       {
         "img": "/serviziImg/branding.png",
         "name": "Branding Strategy",
         "descrizione": "A good branding strategy allows you to stand out from the competition and build a strong, unique, and recognizable identity.",
-        "link": "/service/branding"
+        "link": "/servizi/branding"
       },
       {
         "img": "/serviziImg/label.png",
         "name": "Label & Packaging",
         "descrizione": "Label and packaging design are essential for a product's success. In a competitive market, they are crucial for capturing the interest of the audience and informing the consumer.",
-        "link": "/service/label"
+        "link": "/servizi/label"
       },
       {
         "img": "/serviziImg/social.png",
         "name": "Social Media Strategy",
         "descrizione": "Save time and enhance your online presence with targeted, up-to-date content to increase engagement.",
-        "link": "/service/social"
+        "link": "/servizi/social"
       },
       {
         "img": "/serviziImg/campagne.png",
         "name": "Offline Campaigns",
         "descrizione": "Offline campaigns shape choices, create connections, and convey deep messages, embodying ideas, values, and brands that people touch, feel, and remember.",
-        "link": "/service/campagne"
+        "link": "/servizi/campagne"
       },
       {
         "img": "/serviziImg/allestimenti.png",
         "name": "Stage Design",
         "descrizione": "Custom setups give personality to an empty space. They can evoke emotions, create atmospheres, and engage the audience uniquely.",
-        "link": "/service/allestimenti"
+        "link": "/servizi/allestimenti"
       },
       {
         "img": "/serviziImg/illustrazione.png",
         "name": "Illustrations",
         "descrizione": "Tailor-made illustrations are more than just images; they are key elements that enhance your brand and make it unique and memorable.",
-        "link": "/service/illustrazione"
+        "link": "/servizi/illustrazione"
       },
       {
         "img": "/serviziImg/contentCreator.png",
         "name": "Content Creator",
         "descrizione": "In today's digital world, content plays an increasingly important role. But it's not just about quantity; it's about quality and, most importantly, personalization.",
-        "link": "/service/content"
+        "link": "/servizi/content"
       }
     ],
     "singleService": {
@@ -950,25 +950,25 @@
         "img": "/fraService/tailored.png",
         "name": "Tailored Site",
         "descrizione": "A custom-designed website with an attractive graphic layout to set you apart from the thousands of pre-packaged sites.",
-        "link": "https://www.thallion-dev.it/service/tailored"
+        "link": "https://www.thallion-dev.it/servizi/tailored"
       },
       {
         "img": "/fraService/ecommerce.png",
         "name": "E-commerce",
         "descrizione": "Whether you have a few products or a wider selection, we build the key to your online success around your brand.",
-        "link": "https://www.thallion-dev.it/service/ecommerce"
+        "link": "https://www.thallion-dev.it/servizi/ecommerce"
       },
       {
         "img": "/fraService/figma.png",
         "name": "Prototyping with Figma",
         "descrizione": "Test your idea before developing it! Ideal for small businesses and startups. Save budget and time.",
-        "link": "https://www.thallion-dev.it/service/figma"
+        "link": "https://www.thallion-dev.it/servizi/figma"
       },
       {
         "img": "/fraService/restyle.png",
         "name": "Time for a makeover",
         "descrizione": "Is your website not performing as you thought? Let me take a look! Perhaps it's a matter of style.",
-        "link": "https://www.thallion-dev.it/service/restyling"
+        "link": "https://www.thallion-dev.it/servizi/restyling"
       }
     ]
   },
