@@ -139,14 +139,17 @@ const Works = ({ works, previousWork, nextWork }) => {
         }`}
       >
         {previousWork && (
-          <Link href={`/works/${previousWork}`} className="pagination-button">
+          <Link
+            href={`/portfolio/${previousWork}`}
+            className="pagination-button"
+          >
             <Icon icon="raphael:arrowleft" />
           </Link>
         )}
         {nextWork && (
           <Link
-            href={`/works/${nextWork}`}
-            className="pagination-button ml-auto"
+            href={`/portfolio/${nextWork}`}
+            className="ml-auto pagination-button"
           >
             <Icon icon="raphael:arrowright" />
           </Link>
