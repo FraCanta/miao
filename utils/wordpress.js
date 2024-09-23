@@ -1,7 +1,7 @@
 const BASE_URL = "https://mithablog.mithacreative.it/wp-json/wp/v2";
 
 export async function getPosts(lang) {
-  const postsRes = await fetch(BASE_URL + "/posts?_embed&per_page=100", {
+  const postsRes = await fetch(BASE_URL + "/posts?_embed&per_page=30", {
     cache: "force-cache",
     revalidate: 900,
   });
@@ -34,7 +34,7 @@ export async function getPosts(lang) {
 export async function getTags() {
   let pages = 1;
   let tags = [];
-  const tagsRes = await fetch(BASE_URL + `/tags?per_page=100&page=1`, {
+  const tagsRes = await fetch(BASE_URL + `/tags?per_page=50&page=1`, {
     cache: "force-cache",
     revalidate: 900,
   });

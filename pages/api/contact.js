@@ -17,11 +17,7 @@ export default async function mailer(req, res) {
   try {
     await transporter.sendMail({
       from: `${email}`,
-      to: [
-        "miaographics@gmail.com",
-        "thalliondev@gmail.com",
-        "arvine82@gmail.com",
-      ],
+      to: ["miaographics@gmail.com", "arvine82@gmail.com"],
       subject: `${name} di ${work} ti scrivo per... `,
 
       html: ` 
