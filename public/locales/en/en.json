@@ -245,6 +245,59 @@
             "height": 600
           }
         ],
+        "gallery4": [
+          {
+            "src": "/serviziImg/logoDesign/logo_17.webp",
+            "width": 600,
+            "height": 600
+          },
+
+          {
+            "src": "/serviziImg/logoDesign/logo_18.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logo_19.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logo_20.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logo_21.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logo_22.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logo_23.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logo_24.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logo_25.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/logoDesign/logo_26.webp",
+            "width": 600,
+            "height": 600
+          }
+        ],
         "preventivo": "Contact me for a quote",
         "galleryTitle": "Here are a few examples:",
         "call": "Book a call with me",

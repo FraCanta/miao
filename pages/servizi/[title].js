@@ -72,7 +72,7 @@ const Servizi = ({ servizio, others, serviziFra }) => {
           />
         </div>
         <div className="w-[90%] mx-auto flex flex-col justify-between mt-10">
-          <div className="min-h-auto h-full flex flex-col gap-8 2xl:p-6">
+          <div className="flex flex-col h-full gap-8 min-h-auto 2xl:p-6">
             <h3 className="text-main font-bold capitalize text-[8vw] leading-[1.2] md:leading-none md:text-[8vw] lg:text-[6vw] xl:text-[5vw] 2xl:text-[4vw] 3xl:text-[3.6vw] ">
               {servizio?.introTitle}
             </h3>
@@ -87,9 +87,9 @@ const Servizi = ({ servizio, others, serviziFra }) => {
             })}
           </div>
 
-          <div className="min-h-auto flex flex-col gap-8 2xl:p-6 mt-10">
+          <div className="flex flex-col gap-8 mt-10 min-h-auto 2xl:p-6">
             {servizio?.titlePro && servizio?.descPro ? (
-              <div className="flex  flex-col gap-6 mb-6">
+              <div className="flex flex-col gap-6 mb-6">
                 <h3 className="text-main font-bold capitalize text-[8vw] leading-10 md:leading-none md:text-[8vw] lg:text-[6vw] xl:text-[5vw] 2xl:text-[4vw] 3xl:text-[3.6vw] ">
                   {servizio?.titlePro}
                 </h3>{" "}
@@ -168,6 +168,13 @@ const Servizi = ({ servizio, others, serviziFra }) => {
               ""
             )}
           </div>
+          <div className="min-h-auto flex flex-col gap-8 2xl:p-6 mt-10 md:gap-24 lg:mt-[150px] 2xl:mt-[20px]">
+            <Gallery
+              imageArray={servizio?.gallery4}
+              galleryID="gallery--click-to-next"
+              galleryTitle={"Gallery"}
+            />
+          </div>
 
           <div className="w-full mx-auto 2xl:p-6 mt-10 lg:mt-[150px] 2xl:mt-[100px] flex flex-col gap-6">
             <h3 className="text-main font-bold capitalize text-[8vw] leading-none md:text-[8vw] lg:text-[6vw] xl:text-[5vw] 2xl:text-[4vw] 3xl:text-[3.6vw] ">
@@ -176,7 +183,7 @@ const Servizi = ({ servizio, others, serviziFra }) => {
             <p className="text-second text-[5.6vw] md:text-[3.5vw] xl:text-[1.9vw] 2xl:text-[1.3vw]">
               {servizio?.descOpzioni}
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-4 gap-6 md:gap-4 lg:gap-8">
+            <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-4 md:gap-4 lg:gap-8">
               {serviziFra?.map((f, i) => {
                 return (
                   <ServiziItem
@@ -189,7 +196,7 @@ const Servizi = ({ servizio, others, serviziFra }) => {
                 );
               })}
             </div>
-            <div className="bg-main h-20 flex items-center justify-center 2xl:justify-end px-8 ">
+            <div className="flex items-center justify-center h-20 px-8 bg-main 2xl:justify-end ">
               <Link
                 href="/contatti"
                 title="contattami per una consulenza e parliamo insieme del tuo progetto"
