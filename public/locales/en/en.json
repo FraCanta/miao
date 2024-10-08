@@ -498,7 +498,32 @@
             "height": 600
           },
 
-          { "src": "/serviziImg/label/pack.webp", "width": 600, "height": 600 }
+          { "src": "/serviziImg/label/pack.webp", "width": 600, "height": 600 },
+          {
+            "src": "/serviziImg/label/pack11.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/label/pack12.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/label/pack13.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/label/pack14.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/label/pack15.webp",
+            "width": 600,
+            "height": 600
+          }
         ],
         "preventivo": "Contact me for a quote",
         "galleryTitle": "Here are a few examples:",
@@ -581,6 +606,31 @@
           },
           {
             "src": "/serviziImg/social/socialMedia6.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/social/socialMedia12.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/social/socialMedia13.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/social/socialMedia14.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/social/socialMedia15.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/social/socialMedia16.webp",
             "width": 600,
             "height": 600
           }
@@ -986,6 +1036,56 @@
           },
           {
             "src": "/serviziImg/creator/content25.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content26.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content27.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content28.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content29.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content30.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content31.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content32.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content33.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content34.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/creator/content35.webp",
             "width": 600,
             "height": 600
           }

@@ -168,7 +168,7 @@ const Servizi = ({ servizio, others, serviziFra }) => {
               ""
             )}
           </div>
-          <div className="min-h-auto flex flex-col gap-8 2xl:p-6 mt-10 md:gap-24 lg:mt-[150px] 2xl:mt-[20px]">
+          <div className="flex flex-col gap-8 min-h-auto 2xl:p-6 md:gap-24">
             <Gallery
               imageArray={servizio?.gallery4}
               galleryID="gallery--click-to-next"
