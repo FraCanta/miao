@@ -3,32 +3,36 @@ import Footer from "./footer";
 import Menu from "./menu";
 import LayoutTranslation from "../../public/locales/layout.json";
 import { Toaster } from "react-hot-toast";
+import { useRouter } from "next/router";
 
 const Layout = (props) => {
+  const router = useRouter();
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
+  const noLayoutPages = ["/welcome"];
+  const showLayout = !noLayoutPages.includes(router.pathname);
+
   React.useEffect(() => {
-    var navbar = navbarRef.current;
-    if (typeof window !== "undefined") {
-      if (window.pageYOffset > 150) {
-        navbar.classList.add("nav-scroll");
-      } else if (!!navbar.classList) {
-        navbar.classList.remove("nav-scroll");
-      }
-      window.addEventListener("scroll", () => {
+    const navbar = navbarRef.current;
+    if (typeof window !== "undefined" && navbar && showLayout) {
+      const handleScroll = () => {
         if (window.pageYOffset > 100) {
           navbar.classList.add("nav-scroll");
-        } else if (!!navbar) {
+        } else {
           navbar.classList.remove("nav-scroll");
         }
-      });
-    }
-  }, [navbarRef]);
-  const handleScroll = (refIndex) => {
-    sectionsRef[refIndex].current.scrollIntoView({ behavior: "smooth" });
-  };
+      };
 
-  // console.log(LayoutTranslation?.menu);
+      // Aggiunge l'evento di scroll solo se la pagina non è "/welcome"
+      handleScroll(); // Chiamata iniziale per settare lo stato della navbar
+      window.addEventListener("scroll", handleScroll);
+
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }
+  }, [navbarRef, router.pathname, showLayout]);
+
   return (
     <>
       <Toaster
@@ -49,14 +53,15 @@ const Layout = (props) => {
           },
         }}
       />
-      <Menu
-        nr={navbarRef}
-        lr={logoRef}
-        handleScroll={handleScroll}
-        translation={LayoutTranslation?.menu}
-      />
+      {showLayout && (
+        <Menu
+          nr={navbarRef}
+          lr={logoRef}
+          translation={LayoutTranslation?.menu}
+        />
+      )}
       <main>{props.children}</main>
-      <Footer translation={LayoutTranslation?.footer} />
+      {showLayout && <Footer translation={LayoutTranslation?.footer} />}
     </>
   );
 };

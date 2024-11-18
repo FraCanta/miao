@@ -42,13 +42,13 @@ const Footer = ({ translation }) => {
           </div>
         </div>
         <div className="flex-col justify-start lg:items-end gap-2.5 inline-flex">
-          <div className="lg:text-right text-main text-xs fxl:text-xl 3xl:text-2xl font-light capitalize">
+          <div className="text-xs font-light capitalize lg:text-right text-main fxl:text-xl 3xl:text-2xl">
             Via Avondo, 15 - 11100 Aosta (AO)
           </div>
-          <div className="text-main text-xs fxl:text-xl 3xl:text-2xl font-light capitalize">
+          <div className="text-xs font-light capitalize text-main fxl:text-xl 3xl:text-2xl">
             Via Jacopo della Quercia, 2 - 20096 Pioltello (MI)
           </div>
-          <div className="text-main text-xs  fxl:text-xl 3xl:text-2xl font-extrabold lowercase">
+          <div className="text-xs font-extrabold lowercase text-main fxl:text-xl 3xl:text-2xl">
             +39 340 853 9159 - miaographics@gmail.com
           </div>
         </div>
@@ -64,7 +64,7 @@ const Footer = ({ translation }) => {
               Privacy policy
             </Link>
           </div>
-          <div className="text-main text-xs fxl:text-xl 3xl:text-2xl font-light lowercase">
+          <div className="text-xs font-light lowercase text-main fxl:text-xl 3xl:text-2xl">
             P.iva: 01115240077
           </div>
         </div>
@@ -77,7 +77,7 @@ const Footer = ({ translation }) => {
                 <Link
                   href={el?.url}
                   target="_blank"
-                  className="text-main mr-4"
+                  className="mr-4 text-main"
                   aria-label={el?.name}
                   key={i}
                   title={`seguimi anche ${el?.name}`}
@@ -100,7 +100,7 @@ const Footer = ({ translation }) => {
             title="thallion dev website"
           >
             Thallion dev
-          </Link>
+          </Link>{" "}
           2024, all rights reserved.
         </div>
       </div>

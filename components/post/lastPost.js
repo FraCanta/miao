@@ -11,7 +11,7 @@ const LastPost = ({ lastPost }) => {
       >
         <figure className="w-full before:content-{} before: inline  before:absolute before:left-0 before:right-0 before:top-0 before:z-10 before:h-full before:w-full before:bg-main/90 before:opacity-80">
           <Image
-            className="w-full md:h-[40vw] object-cover rounded-[5px] object-center relative "
+            className="w-full md:aspect-video object-cover rounded-[5px] object-center relative "
             src={
               lastPost?.[0]["_embedded"]?.["wp:featuredmedia"][0][
                 "media_details"
