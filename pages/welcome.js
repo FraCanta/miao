@@ -44,7 +44,7 @@ function Welcome({ translation }) {
           <Image
             src={Logo}
             alt="logo"
-            className="w-[120px] md:w-[180px] lg:w-[140px] 2xl:w-[160px] fxl:w-[150px] 3xl:w-[200px] 4xl:w-[300px]"
+            className="w-[120px] md:w-[180px] lg:w-[140px] 2xla:w-[160px] fxl:w-[150px] 3xl:w-[200px] 4xl:w-[300px]"
           />
           <div className="flex items-center gap-6 lg:gap-10">
             <Link
@@ -74,8 +74,8 @@ function Welcome({ translation }) {
           </div>
         </div>
       </nav>
-      <div className="grid grid-cols-1 lg:grid-cols-2 w-11/12 gap-y-4 mx-auto lg:h-[calc(100vh_-_90px)] items-center">
-        <div className="relative w-full lg:h-full h-[450px] lg:aspect-square">
+      <div className="grid grid-cols-1 lg:grid-cols-2 w-11/12 gap-y-4 mx-auto min-h-screen 2xla:min-h-[calc(100vh_-_90px)] items-center">
+        <div className="relative w-full h-[350px] lg:aspect-square lg:h-full">
           <Image
             src="/pageImg/tigre2.webp"
             alt="logo"
@@ -112,7 +112,7 @@ function Welcome({ translation }) {
               prenota una call
             </Link>
           </div>
-          <div className="grid w-full h-full grid-cols-1 gap-8 py-4 gap-y-10 lg:grid-cols-2">
+          <div className="grid w-full grid-cols-1 gap-8 py-4 lg:gap-y-10 lg:grid-cols-2">
             <div className="flex flex-col gap-6">
               <h2 className="font-bold leading-[120%] tracking-[-1px] text-3xl xl:tracking-[-2px] text-main">
                 Dal mio blog<span className="text-red">.</span>
@@ -125,7 +125,7 @@ function Welcome({ translation }) {
                 )}
               </div>
             </div>
-            <div className="flex flex-col justify-between h-full gap-6">
+            <div className="flex flex-col h-full gap-6">
               <h2 className="text-2xl font-bold leading-[120%] tracking-[-1px] xl:text-3xl xl:tracking-[-2px] text-pink">
                 I miei servizi<span className="text-red">.</span>
               </h2>
@@ -155,7 +155,7 @@ function Welcome({ translation }) {
                 })}
               </ul>
             </div>
-            <div className="flex flex-col justify-between h-full gap-y-6">
+            <div className="flex flex-col h-full gap-y-6">
               <h2 className="text-2xl font-bold leading-[120%] tracking-[-1px] xl:text-3xl xl:tracking-[-2px] text-pink">
                 Titolo per catologhi<span className="text-red">.</span>
               </h2>
