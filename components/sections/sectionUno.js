@@ -16,7 +16,7 @@ const SectionUno = ({ translation }) => {
         />
         <div className="w-full h-full justify-between flex-col xl:flex-row  flex gap-6 4xl:gap-[15rem]">
           <div
-            className="xl:w-full h-full flex-col  justify-between  flex gap-4"
+            className="flex flex-col justify-between h-full gap-4 xl:w-full"
             style={{ flex: 1 }}
           >
             {translation?.paragrafi?.map((p, i) => {
@@ -31,7 +31,7 @@ const SectionUno = ({ translation }) => {
             })}
           </div>
           <div
-            className="xl:w-full h-full flex-col  justify-between  flex gap-4"
+            className="flex flex-col justify-between h-full gap-4 xl:w-full"
             style={{ flex: 1 }}
           >
             {translation?.paragrafi2?.map((p, i) => {
@@ -47,9 +47,9 @@ const SectionUno = ({ translation }) => {
           </div>
         </div>
 
-        <div className="w-full h-full justify-start items-center inline-flex mt-6">
+        <div className="inline-flex items-center justify-start w-full h-full mt-6">
           <Link
-            href="/me"
+            href="/chi-sono"
             title="conosci la mia storia e ciò che posso fare per te"
             className="text-main text-2xl fxl:text-3xl   3xl:text-4xl 4xl:text-[5rem] font-extrabold underline capitalize  w-full 2xl:text-right text-left"
           >
