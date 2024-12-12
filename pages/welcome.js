@@ -61,7 +61,7 @@ function Welcome({ translation }) {
               <span className="text-xl text-pink">FAQs</span>
             </Link>
             <Link
-              href="mailto:info@thallion-dev.it"
+              href="mailto:miaographics@gmail.com"
               title="contattami per parlare del tuo progetto"
             >
               <Icon
@@ -105,7 +105,7 @@ function Welcome({ translation }) {
               visita il sito web
             </Link>
             <Link
-              href="/"
+              href="https://calendly.com/arvine82/parlami-del-tuo-progetto"
               title="contattami per una consulenza e parliamo insieme del tuo progetto"
               className="capitalize text-center w-full lg:max-w-max font-bold py-2 px-10 text-[20px]  border rounded shadow  text-red hover:transition-all border-red  bg-transparent hover:bg-red hover:border-red hover:text-white"
             >
@@ -157,7 +157,7 @@ function Welcome({ translation }) {
             </div>
             <div className="flex flex-col h-full gap-y-6">
               <h2 className="text-2xl font-bold leading-[120%] tracking-[-1px] xl:text-3xl xl:tracking-[-2px] text-pink">
-                Titolo per catologhi<span className="text-red">.</span>
+                Scarica le brochure<span className="text-red">.</span>
               </h2>
 
               <ul className="flex flex-col w-full gap-6">
@@ -187,11 +187,11 @@ function Welcome({ translation }) {
             </div>
             <div className="flex flex-col h-full gap-y-6">
               <h2 className="text-2xl font-bold leading-[120%] tracking-[-1px] xl:text-3xl xl:tracking-[-2px] text-pink">
-                Titolo per free gift<span className="text-red">.</span>
+                Free download<span className="text-red">.</span>
               </h2>
 
               <Link
-                href="/"
+                href="/pdf/calendario2025.pdf"
                 title="free gift"
                 className=" items-center justify-between w-full space-x-2 flex border-solid border-2 rounded-[5px] uppercase bg-white border-red text-red font-bold p-[3vw] xl:px-6 xl:py-3 cursor-pointer hover:bg-red hover:border-red hover:text-white text-lg"
               >

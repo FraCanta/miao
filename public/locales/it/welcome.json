@@ -2,20 +2,17 @@
   "welcome": {
     "serviziItem": [
       {
-        "img": "/serviziImg/logodesign.png",
         "name": "Logo Design",
         "title": "logo",
         "descrizione": "Un logo progettato su misura, in base al tuo target di riferimento e alla tua vision è un investimento per il successo della tua azienda.",
         "link": "/servizi/logo"
       },
       {
-        "img": "/serviziImg/branding.png",
         "name": "Branding Strategy",
         "descrizione": "Una buona strategia di branding ti permette di differenziarti dalla concorrenza e di costruire un'identità forte, unica e riconoscibile.",
         "link": "/servizi/branding"
       },
       {
-        "img": "/serviziImg/label.png",
         "name": "Label Design",
         "descrizione": "Il label e il packaging design sono essenziali per il successo di un prodotto, in un mercato competitivo, sono cruciali per catturare l’interesse del pubblico e informare il consumatore.",
         "link": "/servizi/label"
@@ -23,17 +20,15 @@
     ],
     "cataloghi": [
       {
-        "img": "/serviziImg/logodesign.png",
+        "name": "Catalogo Wine & Spirits",
+        "descrizione": "Una buona strategia di branding ti permette di differenziarti dalla concorrenza e di costruire un'identità forte, unica e riconoscibile.",
+        "link": "/pdf/catalogo_etichette_vini.pdf"
+      },
+      {
         "name": "Catalogo Loghi",
         "title": "logo",
         "descrizione": "Un logo progettato su misura, in base al tuo target di riferimento e alla tua vision è un investimento per il successo della tua azienda.",
-        "link": "/servizi/logo"
-      },
-      {
-        "img": "/serviziImg/branding.png",
-        "name": "Catalogo Servizi",
-        "descrizione": "Una buona strategia di branding ti permette di differenziarti dalla concorrenza e di costruire un'identità forte, unica e riconoscibile.",
-        "link": "/servizi/branding"
+        "link": "/pdf/catalogo_loghi_2.pdf"
       }
     ]
   }
