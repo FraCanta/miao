@@ -15,6 +15,11 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: "/:lang/works/:path*", // Cattura qualsiasi lingua e tutto dopo /works/
+        destination: "/portfolio/:path*", // Cambia "works" in "portfolio" e rimuove la lingua
+        permanent: true,
+      },
+      {
         source: "/service/:path*",
         destination: "https://www.miaographics.it/servizi/:path*",
         permanent: true,
