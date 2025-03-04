@@ -28,7 +28,7 @@ const Footer = ({ translation }) => {
   }, []);
   return (
     <div className="min-h-[20vh] h-full w-full flex flex-col justify-center items-center mt-20 py-6 lg:py-2 3xl:mt-40">
-      <div className="w-[90%] flex-col lg:flex-row justify-between lg:items-end gap-[35px] md:gap-[40px] lg inline-flex">
+      <div className="w-[90%] flex-col lg:flex-row justify-between lg:items-end gap-[25px] inline-flex">
         <div className="flex-col justify-start items-start gap-2.5 inline-flex">
           <div className="text-right text-main text-base lg:text-[0.9rem] xl:text-base fxl:text-xl 3xl:text-2xl font-light capitalize">
             {translation?.it?.col1?.row1?.title}
