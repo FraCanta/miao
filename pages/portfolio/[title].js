@@ -17,8 +17,6 @@ import Illustrazioni2 from "@/components/worksItem/illustrazioni2";
 const Works = ({ works, previousWork, nextWork }) => {
   const [isScrolling, setIsScrolling] = useState(false);
 
-  console.log(works);
-
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 400) {
@@ -108,7 +106,7 @@ const Works = ({ works, previousWork, nextWork }) => {
           />
         </section>
       )}
-      <section className="flex flex-col gap-6  w-[90%] mx-auto pt-6">
+      <section className="flex flex-col gap-6  w-[90%] mx-auto pt-6  overflow-y-hidden">
         <Typography translation={works?.typo} />
       </section>
       {works?.illustrazioni2 && (

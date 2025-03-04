@@ -6,7 +6,7 @@ const Typography = ({ translation }) => {
     <div>
       <h3 className="text-[6vw] md:text-[3.5vw] font-bold text-main">
         <span>{translation?.titolo}</span>
-        <span className="text-red ml-0">.</span>
+        <span className="ml-0 text-red">.</span>
       </h3>
       <div className="min-h-[20vh] lg:h-[60vh] grid grid-cols-1 md:grid-cols-2 py-4">
         <Image

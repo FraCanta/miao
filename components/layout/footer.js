@@ -76,7 +76,7 @@ const Footer = ({ translation }) => {
             P.iva: 01115240077
           </div>
         </div>
-        <div className="flex-col  gap-2.5 inline-flex ">
+        <div className="flex-col  gap-2.5 flex ">
           <div id="tree-nation-offset-website"></div>
         </div>
       </div>
@@ -112,7 +112,26 @@ const Footer = ({ translation }) => {
           >
             Thallion dev
           </Link>{" "}
-          2025, all rights reserved.
+          2025, all rights reserved.{" "}
+          <Link
+            href="https://www.iubenda.com/privacy-policy/12170837"
+            className="iubenda-white iubenda-noiframe iubenda-embed"
+            title="Privacy Policy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Privacy Policy
+          </Link>{" "}
+          -{" "}
+          <Link
+            href="https://www.iubenda.com/privacy-policy/12170837/cookie-policy"
+            className="iubenda-white iubenda-noiframe iubenda-embed"
+            title="Cookie Policy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Cookie Policy
+          </Link>
         </div>
       </div>
     </div>

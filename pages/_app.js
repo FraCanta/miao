@@ -30,34 +30,6 @@ export default function App({ Component, pageProps }) {
   gtag('config', 'G-57G0ZKF60T');
         `}
       </Script>
-      {/* <!-- Meta Pixel Code --> */}
-      <script
-        defer
-        dangerouslySetInnerHTML={{
-          __html: `
-  !function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1068824154544520');
-fbq('track', 'PageView');
-  `,
-        }}
-      ></script>
-      <noscript>
-        <Image
-          height="1"
-          width="1"
-          style={{ display: "none" }}
-          src="https://www.facebook.com/tr?id=1068824154544520&ev=PageView&noscript=1"
-          alt=""
-        />
-      </noscript>
-      {/* <!-- End Meta Pixel Code --> */}
 
       <Script
         src="https://static.elfsight.com/platform/platform.js"
@@ -66,10 +38,14 @@ fbq('track', 'PageView');
       ></Script>
       <Script
         type="text/javascript"
+        src="//embeds.iubenda.com/widgets/84eee3af-e426-44dd-9f41-2b18f1c37d19.js"
+      ></Script>
+      {/* <Script
+        type="text/javascript"
         charset="UTF-8"
         src="//cdn.cookie-script.com/s/6206605853f8d2265c8c18f1fec772d8.js"
         strategy="afterInteractive"
-      ></Script>
+      ></Script> */}
     </main>
   );
 }
