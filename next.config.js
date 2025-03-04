@@ -25,6 +25,11 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: "/:lang/service/:path*",
+        destination: "https://www.miaographics.it/servizi/:path*",
+        permanent: true,
+      },
+      {
         source: "/me",
         destination: "https://www.miaographics.it/chi-sono",
         permanent: true,
@@ -32,6 +37,41 @@ const nextConfig = {
       {
         source: "/:lang/posts/:slug*", // Cattura qualsiasi lingua (es. "en", "it", ecc.)
         destination: "/posts/:slug*", // Rimuove la lingua e mantiene lo slug
+        permanent: true,
+      },
+      {
+        source: "/:lang/portfolio/:path*",
+        destination: "https://www.miaographics.it/portfolio/:path*",
+        permanent: true,
+      },
+      {
+        source: "/:lang/chi-sono/:path*",
+        destination: "https://www.miaographics.it/chi-sono",
+        permanent: true,
+      },
+      {
+        source: "/:lang",
+        destination: "https://www.miaographics.it/",
+        permanent: true,
+      },
+      {
+        source: "/:lang/blog",
+        destination: "https://www.miaographics.it/blog",
+        permanent: true,
+      },
+      {
+        source: "/:lang/servizi",
+        destination: "https://www.miaographics.it/servizi",
+        permanent: true,
+      },
+      {
+        source: "/:lang/portfolio",
+        destination: "https://www.miaographics.it/portfolio",
+        permanent: true,
+      },
+      {
+        source: "/:lang/contatti",
+        destination: "https://www.miaographics.it/contatti",
         permanent: true,
       },
     ];
