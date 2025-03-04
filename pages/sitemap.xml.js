@@ -17,56 +17,32 @@ function generateSiteMap(posts) {
          <changefreq>weekly</changefreq>
          <priority>1</priority>
        </url>
-        <url>
-         <loc>https://miaographics.it/en/chi-sono</loc>
-         <changefreq>weekly</changefreq>
-         <priority>1</priority>
-       </url>
-       <url>
-         <loc>https://miaographics.it/en</loc>
-         <changefreq>weekly</changefreq>
-         <priority>1</priority>
-       </url>
+       
+      
        <url>
          <loc>https://miaographics.it/blog</loc>
          <changefreq>weekly</changefreq>
          <priority>1</priority>
        </url>
-       <url>
-         <loc>https://miaographics.it/en/blog</loc>
-         <changefreq>weekly</changefreq>
-         <priority>1</priority>
-       </url>
+      
        <url>
        <loc>https://miaographics.it/servizi</loc>
        <changefreq>weekly</changefreq>
        <priority>1</priority>
      </url>
-     <url>
-       <loc>https://miaographics.it/servizi</loc>
-       <changefreq>weekly</changefreq>
-       <priority>1</priority>
-     </url>
+    
        <url>
        <loc>https://miaographics.it/portfolio</loc>
        <changefreq>weekly</changefreq>
        <priority>1</priority>
      </url>
-     <url>
-     <loc>https://miaographics.it/en/portfolio</loc>
-     <changefreq>weekly</changefreq>
-     <priority>1</priority>
-   </url>
+    
    <url>
    <loc>https://miaographics.it/contatti</loc>
    <changefreq>weekly</changefreq>
    <priority>1</priority>
  </url>
- <url>
- <loc>https://miaographics.it/en/contatti</loc>
- <changefreq>weekly</changefreq>
- <priority>1</priority>
-</url>
+
 
        ${LayoutTranslation?.menu?.it?.singleService
          .map((el, i) => {
@@ -78,15 +54,7 @@ function generateSiteMap(posts) {
          })
          .join("")}
 
-  ${LayoutTranslation?.menu?.en?.singleService
-    .map((el, i) => {
-      return `
-            <url>
-             <loc>${`${headlessSite}/en${el?.link}`}</loc>
-         </url>
-           `;
-    })
-    .join("")}
+  
 
     ${LayoutTranslation?.menu?.it?.singleWorks
       .map((el, i) => {
@@ -98,15 +66,7 @@ function generateSiteMap(posts) {
       })
       .join("")}
 
-${LayoutTranslation?.menu?.en?.singleWorks
-  .map((el, i) => {
-    return `
-         <url>
-          <loc>${`${headlessSite}/en${el?.link}`}</loc>
-      </url>
-        `;
-  })
-  .join("")}
+
 
 
 
@@ -125,19 +85,7 @@ ${LayoutTranslation?.menu?.en?.singleWorks
        `;
          })
          .join("")}
-         ${posts?.en
-           .map(({ id, slug, tags, date }) => {
-             const receivedDate = new Date(date);
-             const isoDate = receivedDate.toISOString();
-             return `
-          <url>
-              <loc>${`${headlessSite}/en/posts/${slug}`}</loc>
-              <lastmod>${`${isoDate}`}</lastmod>
-              <changefreq>weekly</changefreq>
-              <priority>0.5</priority>
-          </url>
-        `;
-           })
+                   })
            .join("")}
      </urlset>
    `;
