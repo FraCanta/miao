@@ -7,6 +7,25 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: false,
   },
+  async redirects() {
+    return [
+      {
+        source: "/works/path*", // Cattura tutti i percorsi che iniziano con /wp-content/
+        destination: "https://www.thallion-dev.it/portfolio/path*", // Reindirizza alla homepage
+        permanent: true, // 301 Redirect
+      },
+      {
+        source: "/service/path*", // Cattura tutti i percorsi che iniziano con /wp-content/
+        destination: "https://www.thallion-dev.it/servizi/path*", // Reindirizza alla homepage
+        permanent: true, // 301 Redirect
+      },
+      {
+        source: "/me", // Cattura tutti i percorsi che iniziano con /wp-content/
+        destination: "https://www.thallion-dev.it/chi-sono", // Reindirizza alla homepage
+        permanent: true, // 301 Redirect
+      },
+    ];
+  },
 };
 const ContentSecurityPolicy = `
   default-src 'self' https://cpl.iubenda.com/ https://idb.iubenda.com/ https://mithablog.mithacreative.it/ https://widget-data.service.elfsight.com/ https://static.elfsight.com/ https://service-reviews-ultimate.elfsight.com/ https://core.service.elfsight.com/ https://consent.cookie-script.com/ https://metrics.hotjar.io/ https://ask.hotjar.io/ https://content.hotjar.io/ https://in.hotjar.com/  https://vc.hotjar.io/ wss://ws.hotjar.com/api/v2/client/ws https://in.hotjar.com/ https://yourwordpresssite.com/wp-json/wp/v2/comments https://sideblog.sideffect.it/ https://api.iconify.design/ https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css https://region1.google-analytics.com;
@@ -54,6 +73,7 @@ module.exports = withPlugins([
       localeDetection: true,
     },
   },
+
   {
     async headers() {
       return [
