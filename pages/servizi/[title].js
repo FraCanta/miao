@@ -1,8 +1,6 @@
 import React from "react";
 import translationIT from "../../public/locales/it/it.json";
-import translationEN from "../../public/locales/en/en.json";
 import HeroPage from "@/components/heros/heroPage";
-import Branding from "@/public/serviziImg/branding.png";
 import Head from "next/head";
 import ServiziItem from "@/components/serviziItem/serviziItem";
 import Gallery from "@/components/gallery/gallery";
@@ -229,9 +227,6 @@ export async function getStaticProps(context) {
       obj = translationIT;
       break;
 
-    case "en":
-      obj = translationEN;
-      break;
     default:
       obj = translationIT;
       break;
@@ -269,23 +264,13 @@ export async function getStaticPaths({ locale }) {
       obj = translationIT;
       break;
 
-    case "en":
-      obj = translationEN;
-      break;
     default:
       obj = translationIT;
       break;
   }
 
   const services = Object.keys(obj?.servizi?.singleService);
-  const pathEn = services?.map((el) => {
-    return {
-      params: {
-        title: el,
-      },
-      locale: "en",
-    };
-  });
+
   const pathIt = services?.map((el) => {
     return {
       params: {
@@ -294,7 +279,7 @@ export async function getStaticPaths({ locale }) {
       locale: "it",
     };
   });
-  const paths = pathIt.concat(pathEn);
+  const paths = pathIt;
   return {
     paths,
     fallback: false,

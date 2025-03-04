@@ -7,43 +7,51 @@ const SezioneIntro = ({ translation }) => {
       <h2 className="text-[10.26vw] md:text-[5.95vw] mt-4 font-bold text-main">
         {translation?.introTitolo}
       </h2>
-      <div className="grid grid-cols-1 lg:grid-cols-2 h-full gap-6 md:gap-10 lg:gap-4 mb-8">
+      <div className="grid h-full grid-cols-1 gap-6 mb-8 lg:grid-cols-2 md:gap-10 lg:gap-4">
         <div className="grid grid-cols-1 gap-8 md:gap-[15vw] lg:gap-[6.15vw] w-full">
-          <div className="grid grid-cols-2 w-full gap-4">
+          <div className="grid w-full grid-cols-2 gap-4">
             <div className="flex flex-col gap-1">
-              <h3 className="text-base text-second font-bold">
+              <h3 className="text-base font-bold text-second">
                 {translation?.cliente?.titolo}
               </h3>
-              <p className="text-[20px] uppercase  text-main">
-                {translation?.cliente?.nome}
-              </p>
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: translation?.cliente?.nome,
+                }}
+                className="text-[16px] lg:text-[20px] uppercase  text-main"
+              ></p>
               <p className="text-main">{translation?.cliente?.payoff}</p>
             </div>
             <div className="flex flex-col gap-1">
-              <h3 className="text-base text-second font-bold">
+              <h3 className="text-base font-bold text-second">
                 {translation?.anno?.titolo}
               </h3>
-              <p className="text-[20px] uppercase  text-main">
+              <p className="text-[16px] lg:text-[20px] uppercase  text-main">
                 {translation?.anno?.nome}
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 w-full gap-8 md:gap-4">
-            <div className="flex flex-col gap-1 mr-2">
-              <h3 className="text-base text-second font-bold">
-                {translation?.keywords?.titolo}
-              </h3>
-              <p className="text-[20px]  text-main">
-                {translation?.keywords?.nome}
-              </p>
-            </div>
+          <div className="grid w-full grid-cols-1 gap-8 md:grid-cols-2 md:gap-4">
+            {translation?.keywords && (
+              <div className="flex flex-col gap-1 mr-2">
+                <h3 className="text-base font-bold text-second">
+                  {translation?.keywords?.titolo}
+                </h3>
+                <p className="text-[20px]  text-main">
+                  {translation?.keywords?.nome}
+                </p>
+              </div>
+            )}
             <div className="flex flex-col gap-1">
-              <h3 className="text-base text-second font-bold">
+              <h3 className="text-base font-bold text-second">
                 {translation?.servizi?.titolo}
               </h3>
               {translation?.servizi?.nome?.map((el, i) => {
                 return (
-                  <p key={i} className="text-[20px] uppercase  text-main">
+                  <p
+                    key={i}
+                    className="ttext-[16px] lg:text-[20px] uppercase  text-main"
+                  >
                     {el}
                   </p>
                 );
@@ -52,10 +60,10 @@ const SezioneIntro = ({ translation }) => {
           </div>
         </div>
         <div className="flex items-center h-full">
-          <div className="w-full h-full relative hidden lg:block">
+          <div className="relative hidden w-full h-full lg:block">
             <Image src={Graffa} alt="" fill className="object-contain" />
           </div>
-          <div className="lg:px-4 flex flex-col justify-between h-full gap-2">
+          <div className="flex flex-col justify-between h-full gap-2 lg:px-4">
             {translation?.desc?.map((el, i) => {
               return (
                 <p

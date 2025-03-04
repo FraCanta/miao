@@ -1,7 +1,6 @@
 import React from "react";
 import SlideAnimation from "@/components/slideAnimation/slideAnimation";
 import translationIT from "../public/locales/it/it.json";
-import translationEN from "../public/locales/en/en.json";
 
 import HeroPage from "@/components/heros/heroPage";
 import Head from "next/head";
@@ -87,9 +86,10 @@ const Me = ({ translation }) => {
           <HeroPage
             title={translation?.hero?.title}
             img={translation?.hero?.img}
+            desc="Una Selezione di Lavori<br/> che raccontano per Immagini, <br/>i Servizi da me offerti"
           />
         </div>
-        <section className="w-[90%] mx-auto min-h-[20vh] flex flex-col gap-6 mt-[50px]  md:mt-[150px]">
+        {/* <section className="w-[90%] mx-auto min-h-[20vh] flex flex-col gap-6 mt-[50px]  md:mt-[150px]">
           {translation?.intro.map((el, i) => {
             return (
               <p
@@ -99,7 +99,7 @@ const Me = ({ translation }) => {
               ></p>
             );
           })}
-        </section>
+        </section> */}
         <section className="grid grid-cols-1 lg:grid-cols-2  min-h-[40vh] mt-[100px]">
           {translation?.worksItem?.map((el, i) => {
             return (
@@ -118,7 +118,7 @@ const Me = ({ translation }) => {
         <section className="w-[90%] mx-auto min-h-[20vh] flex flex-col gap-6 mt-[50px]  md:mt-[150px] text-center justify-center items-center">
           <h3 className="capitalize text-[5vw] md:text-[2.5vw]">
             La mia creatività non finisce qui...
-            <br /> continua su
+            <br /> <span className="font-bold text-red">Continua su</span>
           </h3>
           <Link
             href="https://miaographics.myportfolio.com/work"
@@ -144,9 +144,6 @@ export async function getStaticProps(locale, context) {
       obj = translationIT;
       break;
 
-    case "en":
-      obj = translationEN;
-      break;
     default:
       obj = translationIT;
       break;

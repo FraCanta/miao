@@ -1,6 +1,5 @@
 import SlideAnimation from "@/components/slideAnimation/slideAnimation";
 import translationIT from "../public/locales/it/blog.json";
-import translationEN from "../public/locales/en/blog.json";
 import HeroPage from "@/components/heros/heroPage";
 import Head from "next/head";
 import Post from "../components/post/posts";
@@ -114,6 +113,7 @@ const Blog = ({ post, category, pages, currentP, translation, lastPost }) => {
           <HeroPage
             title={translation?.hero?.title}
             img={translation?.hero?.img}
+            desc="Notizie dal mondo del Design"
           />
         </div>
         <div className="container w-[90%] mx-auto p-2 xl:p-8">
@@ -129,7 +129,7 @@ const Blog = ({ post, category, pages, currentP, translation, lastPost }) => {
                     .
                   </span>
                 </h4>{" "}
-                <div className="w-full relative">
+                <div className="relative w-full">
                   <LastPost lastPost={lastPost} id={lastPost.id} />
                 </div>
               </div>
@@ -166,7 +166,7 @@ const Blog = ({ post, category, pages, currentP, translation, lastPost }) => {
           </div>
         </div>
 
-        <div className="container w-full mx-auto flex justify-center mt-10 ">
+        <div className="container flex justify-center w-full mx-auto mt-10 ">
           {filterObj?.paginationArray?.length > 1 && (
             <div className="flex justify-center mb-8 ">
               <div className="flex gap-6">
@@ -257,9 +257,6 @@ export async function getServerSideProps(context) {
       obj = translationIT;
       break;
 
-    case "en":
-      obj = translationEN;
-      break;
     default:
       obj = translationIT;
       break;

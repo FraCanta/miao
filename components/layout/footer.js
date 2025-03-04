@@ -4,17 +4,14 @@ import { Icon } from "@iconify/react";
 import socials from "../../utils/socials.json";
 import Logo from "../../public/assets/logo.png";
 import Image from "next/image";
-import { useRouter } from "next/router";
 
 const Footer = ({ translation }) => {
-  const { locale } = useRouter();
-
   return (
     <div className="min-h-[20vh] h-full w-full flex flex-col justify-center items-center mt-20 py-6 lg:py-2 3xl:mt-40">
       <div className="w-[90%] flex-col lg:flex-row justify-between lg:items-end gap-[35px] md:gap-[40px] lg inline-flex">
         <div className="flex-col justify-start items-start gap-2.5 inline-flex">
           <div className="text-right text-main text-base lg:text-[0.9rem] xl:text-base fxl:text-xl 3xl:text-2xl font-light capitalize">
-            {translation?.[locale]?.col1?.row1?.title}
+            {translation?.it?.col1?.row1?.title}
           </div>
           <div className="text-red text-[32px] lg:text-[18px] xl:text-[32px] fxl:text-4xl 3xl:text-5xl font-extrabold capitalize h-[39px] lg:h-[29px] xl:h-[39px]">
             <Link
@@ -22,13 +19,13 @@ const Footer = ({ translation }) => {
               target="_blank"
               title="Prenota una call 1-to-1 e parliamo del tuo progetto"
             >
-              {translation?.[locale]?.col1?.row1?.cta}
+              {translation?.it?.col1?.row1?.cta}
             </Link>
           </div>
         </div>
         <div className="flex-col justify-start items-start gap-2.5 inline-flex">
           <div className="text-right text-main text-base lg:text-[0.9rem] xl:text-base fxl:text-xl 3xl:text-2xl font-light capitalize">
-            {translation?.[locale]?.col2?.row1?.title}
+            {translation?.it?.col2?.row1?.title}
           </div>
           <div className="text-red text-[32px] lg:text-[18px] xl:text-[32px] fxl:text-4xl 3xl:text-5xl font-extrabold capitalize h-[39px] lg:h-[29px] xl:h-[39px]">
             <Link
@@ -37,7 +34,7 @@ const Footer = ({ translation }) => {
               title="Contattami per una consulenza e parlami del tuo progetto"
             >
               {" "}
-              {translation?.[locale]?.col2?.row1?.cta}
+              {translation?.it?.col2?.row1?.cta}
             </Link>
           </div>
         </div>

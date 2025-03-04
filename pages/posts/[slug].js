@@ -15,27 +15,17 @@ import { getDate } from "../../utils/utils";
 import React from "react";
 import Head from "next/head";
 import translationIT from "../../public/locales/it/it.json";
-import translationEN from "../../public/locales/en/en.json";
 import { useEffect, useState } from "react";
 import { parse } from "dom-parser-react";
 
 export default function SinglePost({
   post,
   modifiedContent,
-  featuredMedia,
-  translation,
   recent,
   postCategories,
-  users,
   tags,
-  comments,
-  lang,
 }) {
   const [minutiLettura, setMinutiLettura] = useState(0);
-  const [isReading, setIsReading] = useState(false);
-  const [speech, setSpeech] = useState(null);
-  const [isOpen, setIsOpen] = React.useState(false);
-  const [isCopied, setIsCopied] = useState(false);
 
   const linkRef = React.useRef(null);
 
@@ -97,8 +87,8 @@ export default function SinglePost({
       <div className="singlePost">
         <div className="w-full xl:w-[90%] mx-auto py-12 ">
           <div className="w-[90%] mx-auto ">
-            <div className="w-full mx-auto py-12">
-              <div className="text-sm breadcrumbs text-pink flex items-center">
+            <div className="w-full py-12 mx-auto">
+              <div className="flex items-center text-sm breadcrumbs text-pink">
                 <ul className="flex items-center">
                   <li className="flex items-center">
                     <Link
@@ -108,7 +98,7 @@ export default function SinglePost({
                     >
                       <Icon
                         icon="majesticons:home"
-                        className="w-4 h-4 fxl:w-6 fxl:h-6 3xl:w-8 3xl:h-8 mr-2 stroke-current"
+                        className="w-4 h-4 mr-2 stroke-current fxl:w-6 fxl:h-6 3xl:w-8 3xl:h-8"
                       />
                       <p className="fxl:text-xl 3xl:text-3xl">Home</p>
                     </Link>
@@ -121,7 +111,7 @@ export default function SinglePost({
                     >
                       <Icon
                         icon="ic:round-signpost"
-                        className="w-4 h-4 fxl:w-6 fxl:h-6 3xl:w-8 3xl:h-8 mr-2 stroke-current"
+                        className="w-4 h-4 mr-2 stroke-current fxl:w-6 fxl:h-6 3xl:w-8 3xl:h-8"
                       />
                       <p className="fxl:text-xl 3xl:text-3xl">Blog</p>
                     </Link>
@@ -131,7 +121,7 @@ export default function SinglePost({
             </div>
           </div>
           <div className=" w-[90%] 3xl:w-full mx-auto ">
-            <h3 className="md:text-center text-red text-xl md:text-2xl fxl:text-3xl 3xl:text-5xl font-medium uppercase  ">
+            <h3 className="text-xl font-medium uppercase md:text-center text-red md:text-2xl fxl:text-3xl 3xl:text-5xl ">
               {postCategories[0]?.name}
             </h3>
 
@@ -141,7 +131,7 @@ export default function SinglePost({
             ></h1>
             <div className="flex flex-col md:flex-row md:justify-center  items-start  md:items-center font-[400]">
               {" "}
-              <div className="flex  md:items-center">
+              <div className="flex md:items-center">
                 <Icon
                   icon="fa6-solid:user-pen"
                   color="#de4928"
@@ -150,7 +140,7 @@ export default function SinglePost({
                 <Link
                   href={post?.["_embedded"].author[0]?.url}
                   title="author url"
-                  className=" text-main md:text-lg flex fxl:text-2xl"
+                  className="flex  text-main md:text-lg fxl:text-2xl"
                 >
                   <p>{post?.["_embedded"].author[0]?.name}</p>
                 </Link>
@@ -185,7 +175,7 @@ export default function SinglePost({
               dangerouslySetInnerHTML={{ __html: post?.content?.rendered }}
             ></div>
             <div className="w-[90%] mx-auto flex flex-wrap items-center justify-end text-sm md:text-xl breadcrumbs">
-              <div className="flex gap-6 items-center h-full">
+              <div className="flex items-center h-full gap-6">
                 <p className="text-lg xl:text-xl text-main">Condividi su</p>{" "}
                 <FacebookShareButton
                   url={`https://miaographics.it/posts/${post?.slug}`}
@@ -235,11 +225,11 @@ export default function SinglePost({
               <h3 className="text-[8vw] xl:text-[2vw] font-bold uppercase text-second underline">
                 I più recenti
               </h3>
-              <div className="w-full h-full py-4 flex flex-col gap-6">
+              <div className="flex flex-col w-full h-full gap-6 py-4">
                 {recent?.map((p, i) => {
                   return (
                     <div key={i}>
-                      <small className=" text-red py-2 fxl:text-base">
+                      <small className="py-2  text-red fxl:text-base">
                         {getDate(p?.date)}
                       </small>
 
@@ -307,9 +297,6 @@ export async function getStaticProps({ params, locale }) {
       obj = translationIT;
       break;
 
-    case "en":
-      obj = translationEN;
-      break;
     default:
       obj = translationIT;
       break;

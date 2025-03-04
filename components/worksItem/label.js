@@ -4,15 +4,18 @@ import React from "react";
 const Label = ({ translation }) => {
   return (
     <div>
-      <h3 className="text-[6vw] md:text-[3.5vw] font-bold mb-4 text-main">
-        <span>{translation?.titolo}</span>
-        <span className="text-red ml-0">.</span>
-      </h3>
-      <div className="relative h-[28vh] lg:h-[100vh]">
+      {translation?.titolo && (
+        <h3 className="text-[6vw] md:text-[3.5vw] font-bold mb-4 text-main">
+          <span>{translation?.titolo}</span>
+          <span className="ml-0 text-red">.</span>
+        </h3>
+      )}
+
+      <div className="relative h-[28vh] lg:h-screen">
         <Image
           src={translation?.labelImg}
           fill
-          className="object-contain  h-full"
+          className="object-contain w-full h-full"
           alt=""
         ></Image>
       </div>
@@ -21,7 +24,7 @@ const Label = ({ translation }) => {
           <Image
             src={translation?.biscottiImg}
             fill
-            className="object-contain  h-full"
+            className="object-contain h-full"
             alt=""
           ></Image>
         </div>
@@ -34,7 +37,7 @@ const Label = ({ translation }) => {
           <Image
             src={translation?.caramelleImg}
             fill
-            className="object-contain  h-full"
+            className="object-contain h-full"
             alt=""
           ></Image>
         </div>
@@ -42,11 +45,11 @@ const Label = ({ translation }) => {
         ""
       )}
       {translation?.cartellinoImg ? (
-        <div className="relative h-[28vh] lg:h-[100vh]">
+        <div className="relative h-[28vh] lg:h-[100vh] w-full mt-16">
           <Image
             src={translation?.cartellinoImg}
             fill
-            className="object-contain  h-full"
+            className="object-contain w-full h-full"
             alt=""
           ></Image>
         </div>
@@ -59,7 +62,7 @@ const Label = ({ translation }) => {
           <Image
             src={translation?.scatoleImg}
             fill
-            className="object-contain  h-full"
+            className="object-contain h-full"
             alt=""
           ></Image>
         </div>
@@ -72,7 +75,7 @@ const Label = ({ translation }) => {
           <Image
             src={translation?.cremaImg}
             fill
-            className="object-contain  h-full"
+            className="object-contain h-full"
             alt=""
           ></Image>
         </div>
@@ -84,7 +87,7 @@ const Label = ({ translation }) => {
           <Image
             src={translation?.etichettasImg}
             fill
-            className="object-contain  h-full"
+            className="object-contain h-full"
             alt=""
           ></Image>
         </div>

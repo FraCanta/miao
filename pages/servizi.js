@@ -1,7 +1,6 @@
 import React from "react";
 import SlideAnimation from "@/components/slideAnimation/slideAnimation";
 import translationIT from "../public/locales/it/it.json";
-import translationEN from "../public/locales/en/en.json";
 
 import HeroPage from "@/components/heros/heroPage";
 import Head from "next/head";
@@ -129,6 +128,7 @@ const Me = ({ translation }) => {
           <HeroPage
             title={translation?.hero?.title}
             img={translation?.hero?.img}
+            desc="Soluzioni Creative Personalizzate"
           />
         </div>
         <section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 w-[90%] mx-auto min-h-[40vh] gap-10">
@@ -158,9 +158,6 @@ export async function getStaticProps(locale, context) {
       obj = translationIT;
       break;
 
-    case "en":
-      obj = translationEN;
-      break;
     default:
       obj = translationIT;
       break;

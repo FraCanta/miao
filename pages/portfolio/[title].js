@@ -1,5 +1,4 @@
 import translationIT from "../../public/locales/it/it.json";
-import translationEN from "../../public/locales/en/en.json";
 import HeroWorks from "@/components/heros/heroWorks";
 import SezioneIntro from "@/components/worksItem/sezioneIntro";
 import Image from "next/image";
@@ -13,9 +12,12 @@ import Link from "next/link";
 import React from "react";
 import { useState, useEffect } from "react";
 import { Icon } from "@iconify/react";
+import Illustrazioni2 from "@/components/worksItem/illustrazioni2";
 
 const Works = ({ works, previousWork, nextWork }) => {
   const [isScrolling, setIsScrolling] = useState(false);
+
+  console.log(works);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -96,20 +98,47 @@ const Works = ({ works, previousWork, nextWork }) => {
       <section className="flex flex-col gap-6 min-h-[40vh] w-[90%] mx-auto pt-6">
         <SezioneIntro translation={works} />
       </section>
-      <section className="w-[90%] mx-auto min-h-[40vh] lg:h-[90vh] relative">
-        <Image
-          src={works?.logoImg}
-          fill
-          alt="logo brand"
-          className="object-contain"
-        />
-      </section>
+      {works?.logoImg && (
+        <section className="w-[90%] mx-auto min-h-[40vh] lg:h-[90vh] relative">
+          <Image
+            src={works?.logoImg}
+            fill
+            alt="logo brand"
+            className="object-contain"
+          />
+        </section>
+      )}
       <section className="flex flex-col gap-6  w-[90%] mx-auto pt-6">
         <Typography translation={works?.typo} />
       </section>
-      <section className="flex flex-col gap-6  w-[90%] mx-auto pt-6">
-        <ColorBrand translation={works?.color} />
-      </section>
+      {works?.illustrazioni2 && (
+        <section className="flex flex-col gap-6  w-[90%] mx-auto pt-6">
+          <Illustrazioni2 translation={works?.illustrazioni2} />
+        </section>
+      )}
+      {works?.color && (
+        <section className="flex flex-col gap-6  w-[90%] mx-auto pt-6">
+          <ColorBrand translation={works?.color} />
+        </section>
+      )}{" "}
+      {works?.applyColor && (
+        <section className="flex flex-col gap-6 w-[90%] mx-auto pt-6">
+          <div>
+            <h3 className="text-[6vw] md:text-[3.5vw] font-bold text-main leading-none">
+              <span>{works.applyColor.descrizione}</span>
+              <span className="text-red">.</span>
+            </h3>
+          </div>
+          <div className="relative h-[20vh] lg:h-screen">
+            <Image
+              src={works?.applyColor.colorImg}
+              fill
+              className="object-contain h-full "
+              alt=""
+            ></Image>
+          </div>
+        </section>
+      )}
       {works?.illustrazioni ? (
         <section className="flex flex-col gap-6  w-[90%] mx-auto pt-6">
           <Illustrazioni translation={works?.illustrazioni} />
@@ -117,6 +146,32 @@ const Works = ({ works, previousWork, nextWork }) => {
       ) : (
         ""
       )}
+      {works?.fustella && (
+        <section className="relative p-20 2xl:h-screen">
+          <Image
+            src={works?.fustella.fustellaImg}
+            fill
+            className="object-contain h-full "
+            alt=""
+          ></Image>
+        </section>
+      )}
+      {works?.libro &&
+        works.libro.illustrazioni.map((el, i) => {
+          return (
+            <section
+              key={i}
+              className="relative h-[30vh] lg:h-screen w-[90%] mx-auto my-3 lg:my-6"
+            >
+              <Image
+                src={el}
+                fill
+                className="object-cover w-full h-full "
+                alt=""
+              ></Image>
+            </section>
+          );
+        })}
       {works?.label ? (
         <section className="flex flex-col gap-6  w-[90%] mx-auto pt-6">
           <Label translation={works?.label} />
@@ -124,7 +179,6 @@ const Works = ({ works, previousWork, nextWork }) => {
       ) : (
         ""
       )}
-
       {works?.social ? (
         <section className="flex flex-col gap-6  w-[90%] mx-auto pt-10">
           <Social translation={works?.social} />
@@ -132,7 +186,6 @@ const Works = ({ works, previousWork, nextWork }) => {
       ) : (
         ""
       )}
-
       <div
         className={`pagination-buttons ${isScrolling ? "show" : ""} ${
           previousWork ? "show-reverse" : ""
@@ -170,9 +223,6 @@ export async function getStaticProps(context) {
       obj = translationIT;
       break;
 
-    case "en":
-      obj = translationEN;
-      break;
     default:
       obj = translationIT;
       break;
@@ -214,12 +264,6 @@ export async function getStaticPaths({ locale }) {
       obj = translationIT;
       break;
 
-    case "en":
-      obj = translationEN;
-      break;
-    case "fr":
-      obj = translationFR;
-      break;
     default:
       obj = translationIT;
       break;
@@ -227,14 +271,6 @@ export async function getStaticPaths({ locale }) {
 
   const works = Object.keys(obj?.portfolio?.singleWorks);
 
-  const pathEn = works?.map((el) => {
-    return {
-      params: {
-        title: el,
-      },
-      locale: "en",
-    };
-  });
   const pathIt = works?.map((el) => {
     return {
       params: {
@@ -243,7 +279,7 @@ export async function getStaticPaths({ locale }) {
       locale: "it",
     };
   });
-  const paths = pathIt.concat(pathEn);
+  const paths = pathIt;
   return {
     paths,
     fallback: false,

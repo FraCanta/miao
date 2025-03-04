@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
 
-const HeroPage = ({ img, title }) => {
+const HeroPage = ({ img, title, desc }) => {
   return (
     <div className="w-[90%] mx-auto h-full flex flex-col lg:flex-row 2xl:items-center 2xl:justify-around gap-8">
-      <div>
+      <div className="flex flex-col gap-6 mt-8 lg:gap-14">
         <Image
           src={title}
           alt="titolo servizio"
@@ -12,6 +12,16 @@ const HeroPage = ({ img, title }) => {
           width={230}
           height={100}
         />
+        {desc && (
+          <p className="mx-10 text-xl lg:mx-20 lg:text-3xl text-main">
+            <span
+              dangerouslySetInnerHTML={{
+                __html: desc,
+              }}
+            ></span>
+            <span className="text-red">.</span>
+          </p>
+        )}
       </div>
       <Image
         src={img}

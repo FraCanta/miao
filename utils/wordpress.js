@@ -6,14 +6,8 @@ export async function getPosts(lang) {
     revalidate: 900,
   });
   const posts = await postsRes.json();
-  const lngPost = posts.filter((p) => {
-    if (!!lang) {
-      return p?.tags?.includes(lang);
-    } else {
-      return p;
-    }
-  });
-  const mainKeys = lngPost?.map((el) => {
+
+  const mainKeys = posts?.map((el) => {
     return {
       categories: el?.categories,
       content: { rendered: el?.content?.rendered },
@@ -148,12 +142,10 @@ export async function getPostsByLanguageAndBlogOwner(
   const resObj = {};
   resObj.ownerId = await getTagId(blogOwner);
   resObj.it = await getTagId("it");
-  resObj.en = await getTagId("en");
   const ownerPosts = await getPosts(resObj.ownerId); // tutti i posts in tutte lingue del blogOwser
   return {
     ...resObj,
     it: ownerPosts.filter((el) => el?.tags?.includes(resObj.it)),
-    en: ownerPosts.filter((el) => el?.tags?.includes(resObj.en)),
   };
 }
 

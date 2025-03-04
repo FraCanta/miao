@@ -3,14 +3,12 @@ import Link from "next/link";
 import React from "react";
 import Logo from "../../public/assets/logo.svg";
 
-import { useRouter } from "next/router";
 import { Icon } from "@iconify/react";
 import socials from "../../utils/socials.json";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
 
 const Menu = ({ nr, translation }) => {
-  const { locale } = useRouter();
   const [open, setOpen] = useState(false);
   const [overlayVisible, setOverlayVisible] = useState("overlay");
 
@@ -43,8 +41,8 @@ const Menu = ({ nr, translation }) => {
             </Link>
           </div>
 
-          <div className="lg:flex items-center  hidden capitalize">
-            <div className="w-full flex items-center justify-end">
+          <div className="items-center hidden capitalize lg:flex">
+            <div className="flex items-center justify-end w-full">
               <Link
                 href="/chi-sono"
                 title="Scopri chi sono e cosa posso fare per te"
@@ -52,7 +50,7 @@ const Menu = ({ nr, translation }) => {
                   pathname === "/chi-sono" ? "text-red font-medium" : ""
                 } mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center`}
               >
-                {translation?.[locale]?.me}
+                {translation?.it?.me}
               </Link>
 
               <Link
@@ -62,7 +60,7 @@ const Menu = ({ nr, translation }) => {
                   pathname === "/servizi" ? "text-red font-medium" : ""
                 } mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center`}
               >
-                {translation?.[locale]?.servizi}
+                {translation?.it?.servizi}
               </Link>
               <Link
                 href="/portfolio"
@@ -71,7 +69,7 @@ const Menu = ({ nr, translation }) => {
                   pathname === "/portfolio" ? "text-red font-medium" : ""
                 } mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center`}
               >
-                {translation?.[locale]?.portfolio}
+                {translation?.it?.portfolio}
               </Link>
               <Link
                 href="/blog"
@@ -80,17 +78,17 @@ const Menu = ({ nr, translation }) => {
                   pathname === "/blog" ? "text-red font-medium" : ""
                 } mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center`}
               >
-                {translation?.[locale]?.blog}
+                {translation?.it?.blog}
               </Link>
             </div>
           </div>
-          <div className="lg:flex hidden">
+          <div className="hidden lg:flex">
             <Link
               href="/contatti"
               title="Contattami per una consulenza e parliamo del tuo progetto"
               className="capitalize font-bold py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 border 2xl:text-xl fxl:text-2xl 3xl:text-3xl rounded shadow  text-white hover:transition-all border-red  bg-red"
             >
-              {translation?.[locale]?.contatti}
+              {translation?.it?.contatti}
             </Link>
           </div>
           <div className="flex lg:hidden text-main">
@@ -106,20 +104,20 @@ const Menu = ({ nr, translation }) => {
           onClick={handleOpen}
         ></div>
         <div
-          className="h-screen w-screen fixed top-0 left-0  transition-transform duration-500 ease-in-out transform"
+          className="fixed top-0 left-0 w-screen h-screen transition-transform duration-500 ease-in-out transform"
           style={{
             transform: open ? "translateX(0)" : "translateX(-100%)",
           }}
           id="contacts"
         >
-          <div className="w-1/2 contacts hidden lg:block" id="contact1"></div>
+          <div className="hidden w-1/2 contacts lg:block" id="contact1"></div>
           <div
             className={`w-11/12 h-screen md:w-[70%] lg:w-[60%] xl:w-[40%] flex flex-col p-4 md:p-6 lg:p-8 contact bg-white  ${
               open ? "block" : "hidden"
             }`}
             id="contact2"
           >
-            <div className="text-main w-full flex items-center justify-end py-1 ">
+            <div className="flex items-center justify-end w-full py-1 text-main ">
               <div className="flex items-center" id="close">
                 <Icon
                   icon="ep:close"
@@ -129,9 +127,9 @@ const Menu = ({ nr, translation }) => {
               </div>
             </div>
 
-            <div className="flex flex-col justify-between  " id="details">
+            <div className="flex flex-col justify-between " id="details">
               <ul
-                className="xl:leading-9 mt-4 text-main flex flex-col gap-6 md:gap-12 capitalize"
+                className="flex flex-col gap-6 mt-4 capitalize xl:leading-9 text-main md:gap-12"
                 onClick={handleOpen}
               >
                 <li onClick={handleOpen}>
@@ -142,7 +140,7 @@ const Menu = ({ nr, translation }) => {
                       pathname === "/chi-sono" ? "text-red font-medium" : ""
                     } "mr-8 text-[25px] md:text-[38px] lg:text-4xl text-main font-regular "`}
                   >
-                    {translation?.[locale]?.me}
+                    {translation?.it?.me}
                   </Link>
                 </li>
                 <li onClick={handleOpen}>
@@ -153,7 +151,7 @@ const Menu = ({ nr, translation }) => {
                       pathname === "/servizi" ? "text-red font-medium" : ""
                     } "mr-8 text-[25px] md:text-[38px] lg:text-4xl text-main font-regular "`}
                   >
-                    {translation?.[locale]?.servizi}
+                    {translation?.it?.servizi}
                   </Link>
                 </li>
                 <li onClick={handleOpen}>
@@ -164,7 +162,7 @@ const Menu = ({ nr, translation }) => {
                       pathname === "/portfolio" ? "text-red font-medium" : ""
                     } "mr-8 text-[25px] md:text-[38px] lg:text-4xl text-main font-regular "`}
                   >
-                    {translation?.[locale]?.portfolio}
+                    {translation?.it?.portfolio}
                   </Link>
                 </li>
                 <li
@@ -178,7 +176,7 @@ const Menu = ({ nr, translation }) => {
                       pathname === "/blog" ? "text-red font-medium" : ""
                     } "mr-8 text-[25px] md:text-[38px] lg:text-4xl text-main font-regular "`}
                   >
-                    {translation?.[locale]?.blog}
+                    {translation?.it?.blog}
                   </Link>
                 </li>
                 <li className="my-4" onClick={handleOpen}>
@@ -187,18 +185,18 @@ const Menu = ({ nr, translation }) => {
                     title="contattami per una consulenza e parliamo insieme del tuo progetto"
                     className="capitalize font-bold py-2.5 px-6 text-[22px] md:text-[38px] lg:text-4xl  xl:text-[45px] border rounded shadow  text-white hover:transition-all border-red  bg-red"
                   >
-                    {translation?.[locale]?.contatti}
+                    {translation?.it?.contatti}
                   </Link>
                 </li>
               </ul>
-              <div className="flex items-center  w-full h-full mt-10 md:mt-14">
+              <div className="flex items-center w-full h-full mt-10 md:mt-14">
                 <div className="flex flex-col w-full">
                   <div className="flex">
                     {socials?.Elisa?.map((el, i) => (
                       <Link
                         href={el?.url}
                         target="_blank"
-                        className="text-main mr-4"
+                        className="mr-4 text-main"
                         aria-label={el?.name}
                         title={`seguimi anche su ${el?.name}`}
                         key={i}
@@ -210,30 +208,30 @@ const Menu = ({ nr, translation }) => {
                       </Link>
                     ))}
                   </div>
-                  <div className=" flex flex-col lg:flex-row xl:flex-col mt-12 md:mt-20 justify-between gap-4 md:gap-10 xl:gap-8">
-                    <div className="flex flex-col text-main capitalize md:text-xl">
-                      <p> {translation?.[locale]?.col1?.row1?.title}</p>
+                  <div className="flex flex-col justify-between gap-4 mt-12 lg:flex-row xl:flex-col md:mt-20 md:gap-10 xl:gap-8">
+                    <div className="flex flex-col capitalize text-main md:text-xl">
+                      <p> {translation?.it?.col1?.row1?.title}</p>
                       <Link
                         href="https://calendly.com/arvine82/parlami-del-tuo-progetto"
                         target="_blank"
                         title="prenota una consulenza 1-to-1 e parliamo insieme del tuo progetto"
                       >
-                        <h4 className="text-2xl md:text-4xl text-red font-bold">
+                        <h4 className="text-2xl font-bold md:text-4xl text-red">
                           {" "}
-                          {translation?.[locale]?.col1?.row1?.cta}
+                          {translation?.it?.col1?.row1?.cta}
                         </h4>
                       </Link>
                     </div>
-                    <div className="flex flex-col text-main capitalize md:text-xl">
-                      <p> {translation?.[locale]?.col2?.row1?.title}</p>
+                    <div className="flex flex-col capitalize text-main md:text-xl">
+                      <p> {translation?.it?.col2?.row1?.title}</p>
                       <Link
                         href="/contatti"
                         target="_blank"
                         title="contattami per una consulenza e parliamo insieme del tuo progetto"
                       >
-                        <h4 className="text-2xl md:text-4xl text-red font-bold">
+                        <h4 className="text-2xl font-bold md:text-4xl text-red">
                           {" "}
-                          {translation?.[locale]?.col2?.row1?.cta}
+                          {translation?.it?.col2?.row1?.cta}
                         </h4>
                       </Link>
                     </div>

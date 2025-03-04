@@ -2,7 +2,6 @@ import Head from "next/head";
 import HeroHome from "../components/heros/heroHome";
 import SlideAnimation from "@/components/slideAnimation/slideAnimation";
 import translationIT from "../public/locales/it/it.json";
-import translationEN from "../public/locales/en/en.json";
 import {
   getPosts,
   getCategories,
@@ -89,7 +88,7 @@ export default function Home({ translation, post, featuredMedia, users }) {
         />
       </Head>
       <SlideAnimation>
-        <section className="w-full min-h-[calc(40vh_-_60px)] lg:h-[calc(100vh_-_70px)]  2xl:h-[calc(100vh_-_80px)] fxl:h-[calc(100vh_-_150px)]  4xl:h-[calc(100vh_-_250px)] mx-auto flex flex-col lg:flex-row items-center justify-between relative">
+        <section className="w-full min-h-[calc(40vh_-_60px)] lg:h-[calc(100vh_-_70px)]  2xl:h-[calc(100vh_-_80px)] fxl:h-[calc(100vh_-_150px)]  4xl:h-[calc(100vh_-_250px)] mx-auto flex flex-col lg:flex-row lg:items-center justify-between relative">
           <HeroHome translation={translation?.hero} />
         </section>
         <SectionUno translation={translation?.sezioneUno} />
@@ -121,9 +120,6 @@ export async function getStaticProps(locale, context) {
       obj = translationIT;
       break;
 
-    case "en":
-      obj = translationEN;
-      break;
     default:
       obj = translationIT;
       break;
