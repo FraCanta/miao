@@ -24,6 +24,11 @@ const nextConfig = {
         destination: "https://www.miaographics.it/chi-sono",
         permanent: true,
       },
+      {
+        source: "/:lang/posts/:slug*", // Cattura qualsiasi lingua (es. "en", "it", ecc.)
+        destination: "/posts/:slug*", // Rimuove la lingua e mantiene lo slug
+        permanent: true,
+      },
     ];
   },
 };
