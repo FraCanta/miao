@@ -11,17 +11,17 @@ const nextConfig = {
     return [
       {
         source: "/works/path*", // Cattura tutti i percorsi che iniziano con /wp-content/
-        destination: "https://www.thallion-dev.it/portfolio/path*", // Reindirizza alla homepage
+        destination: "https://www.miaographics.it/portfolio/path*", // Reindirizza alla homepage
         permanent: true, // 301 Redirect
       },
       {
         source: "/service/path*", // Cattura tutti i percorsi che iniziano con /wp-content/
-        destination: "https://www.thallion-dev.it/servizi/path*", // Reindirizza alla homepage
+        destination: "https://www.miaographics.it/servizi/path*", // Reindirizza alla homepage
         permanent: true, // 301 Redirect
       },
       {
         source: "/me", // Cattura tutti i percorsi che iniziano con /wp-content/
-        destination: "https://www.thallion-dev.it/chi-sono", // Reindirizza alla homepage
+        destination: "https://www.miaographics.it/chi-sono", // Reindirizza alla homepage
         permanent: true, // 301 Redirect
       },
     ];
