@@ -8,7 +8,6 @@ import { useRouter } from "next/router";
 import { getPosts, getTagId } from "../utils/wordpress";
 import LastPostMenu from "@/components/post/LastPostMenu";
 import welcomeIT from "../public/locales/it/welcome.json";
-import welcomeEN from "../public/locales/en/welcome.json";
 
 function Welcome({ translation }) {
   const { locale } = useRouter();
@@ -225,16 +224,13 @@ function Welcome({ translation }) {
 
 export default Welcome;
 
-export async function getStaticProps({ params, locale }) {
+export async function getStaticProps({ locale }) {
   let obj;
   switch (locale) {
     case "it":
       obj = welcomeIT;
       break;
 
-    case "en":
-      obj = welcomeEN;
-      break;
     default:
       obj = welcomeIT;
       break;
