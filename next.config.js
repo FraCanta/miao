@@ -10,19 +10,19 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: "/works/path*", // Cattura tutti i percorsi che iniziano con /wp-content/
-        destination: "https://www.miaographics.it/portfolio/path*", // Reindirizza alla homepage
-        permanent: true, // 301 Redirect
+        source: "/works/:path*",
+        destination: "https://www.miaographics.it/portfolio/:path*",
+        permanent: true,
       },
       {
-        source: "/service/path*", // Cattura tutti i percorsi che iniziano con /wp-content/
-        destination: "https://www.miaographics.it/servizi/path*", // Reindirizza alla homepage
-        permanent: true, // 301 Redirect
+        source: "/service/:path*",
+        destination: "https://www.miaographics.it/servizi/:path*",
+        permanent: true,
       },
       {
-        source: "/me", // Cattura tutti i percorsi che iniziano con /wp-content/
-        destination: "https://www.miaographics.it/chi-sono", // Reindirizza alla homepage
-        permanent: true, // 301 Redirect
+        source: "/me",
+        destination: "https://www.miaographics.it/chi-sono",
+        permanent: true,
       },
     ];
   },
