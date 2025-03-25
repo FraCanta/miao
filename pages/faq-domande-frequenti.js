@@ -18,6 +18,20 @@ function faqDomandeFrequenti() {
           rel="description"
           content="Sei nel posto dove nessuna domanda è sbagliata o stupida"
         />
+        <link
+          rel="icon"
+          type="image/png"
+          href="/favicon-48x48.png"
+          sizes="48x48"
+        />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
       </Head>
       <div className="relative flex flex-col items-center justify-center  min-h-[calc(30vh_-_70px)] md:min-h-[calc(50vh_-_70px)] fxl:min-h-[calc(40vh_-_100px)]">
         <div className="w-[90%] mx-auto text-center">
