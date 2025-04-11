@@ -49,11 +49,7 @@ const nextConfig = {
         destination: "https://www.miaographics.it/chi-sono",
         permanent: true,
       },
-      {
-        source: "/:lang",
-        destination: "https://www.miaographics.it/",
-        permanent: true,
-      },
+
       {
         source: "/:lang/blog",
         destination: "https://www.miaographics.it/blog",
