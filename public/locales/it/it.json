@@ -770,6 +770,31 @@
             "src": "/serviziImg/campagne/campagne10.webp",
             "width": 600,
             "height": 600
+          },
+          {
+            "src": "/serviziImg/campagne/campagne11.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/campagne/campagne12.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/campagne/campagne13.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/campagne/campagne14.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/serviziImg/campagne/campagne15.webp",
+            "width": 600,
+            "height": 600
           }
         ],
         "galleryTitle": "Ecco alcuni esempi",
@@ -1504,7 +1529,10 @@
           "labelImg": "/portfolioImg/casadei/label1.jpg",
           "cartellinoImg": "/portfolioImg/casadei/label2.jpg",
           "caramelleImg": "/portfolioImg/casadei/label3.jpg",
-          "biscottiImg": "/portfolioImg/casadei/label4.jpg"
+          "biscottiImg": "/portfolioImg/casadei/label4.jpg",
+          "label": "/portfolioImg/casadei/label5.webp",
+          "label2": "/portfolioImg/casadei/label6.webp",
+          "label3": "/portfolioImg/casadei/label7.webp"
         }
       },
       "phillacolor": {

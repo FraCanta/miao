@@ -94,6 +94,42 @@ const Label = ({ translation }) => {
       ) : (
         ""
       )}
+      {translation?.label ? (
+        <div className="relative h-[28vh] md:h-[100vh]">
+          <Image
+            src={translation?.label}
+            fill
+            className="object-contain h-full"
+            alt=""
+          ></Image>
+        </div>
+      ) : (
+        ""
+      )}
+      {translation?.label2 ? (
+        <div className="relative h-[28vh] md:h-[100vh]">
+          <Image
+            src={translation?.label2}
+            fill
+            className="object-contain h-full"
+            alt=""
+          ></Image>
+        </div>
+      ) : (
+        ""
+      )}
+      {translation?.label3 ? (
+        <div className="relative h-[28vh] md:h-[100vh]">
+          <Image
+            src={translation?.label3}
+            fill
+            className="object-contain h-full"
+            alt=""
+          ></Image>
+        </div>
+      ) : (
+        ""
+      )}
     </div>
   );
 };
