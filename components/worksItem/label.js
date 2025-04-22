@@ -45,7 +45,7 @@ const Label = ({ translation }) => {
         ""
       )}
       {translation?.cartellinoImg ? (
-        <div className="relative h-[28vh] lg:h-[100vh] w-full mt-16">
+        <div className="relative h-[28vh] lg:h-[100vh] w-full">
           <Image
             src={translation?.cartellinoImg}
             fill

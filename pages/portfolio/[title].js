@@ -171,7 +171,7 @@ const Works = ({ works, previousWork, nextWork }) => {
           );
         })}
       {works?.label ? (
-        <section className="flex flex-col gap-6  w-[90%] mx-auto pt-6">
+        <section className="flex flex-col w-[90%] mx-auto pt-6">
           <Label translation={works?.label} />
         </section>
       ) : (
