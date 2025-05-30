@@ -28,7 +28,7 @@ export async function getPosts(lang) {
 export async function getTags() {
   let pages = 1;
   let tags = [];
-  const tagsRes = await fetch(BASE_URL + `/tags?per_page=50&page=1`, {
+  const tagsRes = await fetch(BASE_URL + `/tags?per_page=60&page=1`, {
     cache: "force-cache",
     revalidate: 900,
   });

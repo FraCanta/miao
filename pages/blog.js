@@ -10,6 +10,7 @@ import { Icon } from "@iconify/react";
 import LastPost from "@/components/post/lastPost";
 
 const Blog = ({ post, category, pages, currentP, translation, lastPost }) => {
+  console.log(lastPost);
   const myRouter = useRouter();
   const [jsxPosts, setJsxPosts] = useState([]);
   const [filterObj, setFilterObj] = useState({});

@@ -70,6 +70,11 @@ const nextConfig = {
         destination: "https://www.miaographics.it/contatti",
         permanent: true,
       },
+      {
+        source: "/:lang/contact",
+        destination: "https://www.miaographics.it/contatti",
+        permanent: true,
+      },
     ];
   },
 };

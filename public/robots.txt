@@ -1,11 +1,11 @@
-# *
 User-agent: *
 Allow: /
 
-
 Disallow: /mithablog/
-Disallow: /blog/
-Allow: /blog/posts/
+
+# Immagini
+Allow: /serviziImg/
+Allow: /portfolioImg/
 
 # Host
 Host: https://miaographics.it
