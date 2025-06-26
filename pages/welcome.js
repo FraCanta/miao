@@ -228,8 +228,26 @@ function Welcome({ translation }) {
       </div>
       <footer className="w-11/12 py-6 mx-auto text-center">
         <p>
-          Miao - grafismi itineranti 2024, tutti i diritti riservati. privacy
-          policy
+          Miao - grafismi itineranti 2025, tutti i diritti riservati.{" "}
+          <Link
+            href="https://www.iubenda.com/privacy-policy/12170837"
+            className="iubenda-white iubenda-noiframe iubenda-embed"
+            title="Privacy Policy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Privacy Policy
+          </Link>{" "}
+          -{" "}
+          <Link
+            href="https://www.iubenda.com/privacy-policy/12170837/cookie-policy"
+            className="iubenda-white iubenda-noiframe iubenda-embed"
+            title="Cookie Policy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Cookie Policy
+          </Link>
         </p>
       </footer>
     </>
