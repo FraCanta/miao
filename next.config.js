@@ -20,6 +20,26 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: "/:lang/", // Cattura qualsiasi lingua e tutto dopo /works/
+        destination: "https://www.miaographics.it/", // Cambia "works" in "portfolio" e rimuove la lingua
+        permanent: true,
+      },
+      {
+        source: "/:lang/:path*", // Cattura qualsiasi lingua e tutto dopo /works/
+        destination: "https://www.miaographics.it/:path*", // Cambia "works" in "portfolio" e rimuove la lingua
+        permanent: true,
+      },
+      {
+        source: "/servizi/[title]",
+        destination: "https://www.miaographics.it/",
+        permanent: true,
+      },
+      {
+        source: "/works/:path*",
+        destination: "https://www.miaographics.it/portfolio/:path*",
+        permanent: true,
+      },
+      {
         source: "/service/:path*",
         destination: "https://www.miaographics.it/servizi/:path*",
         permanent: true,
