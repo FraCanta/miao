@@ -7,96 +7,96 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: false,
   },
-  async redirects() {
-    return [
-      {
-        source: "/works/:path*",
-        destination: "https://www.miaographics.it/portfolio/:path*",
-        permanent: true,
-      },
-      {
-        source: "/:lang/works/:path*", // Cattura qualsiasi lingua e tutto dopo /works/
-        destination: "/portfolio/:path*", // Cambia "works" in "portfolio" e rimuove la lingua
-        permanent: true,
-      },
-      {
-        source: "/:lang/", // Cattura qualsiasi lingua e tutto dopo /works/
-        destination: "https://www.miaographics.it/", // Cambia "works" in "portfolio" e rimuove la lingua
-        permanent: true,
-      },
-      {
-        source: "/:lang/:path*", // Cattura qualsiasi lingua e tutto dopo /works/
-        destination: "https://www.miaographics.it/:path*", // Cambia "works" in "portfolio" e rimuove la lingua
-        permanent: true,
-      },
-      {
-        source: "/servizi/[title]",
-        destination: "https://www.miaographics.it/",
-        permanent: true,
-      },
-      {
-        source: "/works/:path*",
-        destination: "https://www.miaographics.it/portfolio/:path*",
-        permanent: true,
-      },
-      {
-        source: "/service/:path*",
-        destination: "https://www.miaographics.it/servizi/:path*",
-        permanent: true,
-      },
-      {
-        source: "/:lang/service/:path*",
-        destination: "https://www.miaographics.it/servizi/:path*",
-        permanent: true,
-      },
-      {
-        source: "/me",
-        destination: "https://www.miaographics.it/chi-sono",
-        permanent: true,
-      },
-      {
-        source: "/:lang/posts/:slug*", // Cattura qualsiasi lingua (es. "en", "it", ecc.)
-        destination: "/posts/:slug*", // Rimuove la lingua e mantiene lo slug
-        permanent: true,
-      },
-      {
-        source: "/:lang/portfolio/:path*",
-        destination: "https://www.miaographics.it/portfolio/:path*",
-        permanent: true,
-      },
-      {
-        source: "/:lang/chi-sono/:path*",
-        destination: "https://www.miaographics.it/chi-sono",
-        permanent: true,
-      },
+  // async redirects() {
+  //   return [
+  //     {
+  //       source: "/works/:path*",
+  //       destination: "https://www.miaographics.it/portfolio/:path*",
+  //       permanent: true,
+  //     },
+  //     {
+  //       source: "/:lang/works/:path*", // Cattura qualsiasi lingua e tutto dopo /works/
+  //       destination: "/portfolio/:path*", // Cambia "works" in "portfolio" e rimuove la lingua
+  //       permanent: true,
+  //     },
+  //     {
+  //       source: "/:lang/", // Cattura qualsiasi lingua e tutto dopo /works/
+  //       destination: "https://www.miaographics.it/", // Cambia "works" in "portfolio" e rimuove la lingua
+  //       permanent: true,
+  //     },
+  //     {
+  //       source: "/:lang/:path*", // Cattura qualsiasi lingua e tutto dopo /works/
+  //       destination: "https://www.miaographics.it/:path*", // Cambia "works" in "portfolio" e rimuove la lingua
+  //       permanent: true,
+  //     },
+  //     {
+  //       source: "/servizi/[title]",
+  //       destination: "https://www.miaographics.it/",
+  //       permanent: true,
+  //     },
+  //     {
+  //       source: "/works/:path*",
+  //       destination: "https://www.miaographics.it/portfolio/:path*",
+  //       permanent: true,
+  //     },
+  //     {
+  //       source: "/service/:path*",
+  //       destination: "https://www.miaographics.it/servizi/:path*",
+  //       permanent: true,
+  //     },
+  //     {
+  //       source: "/:lang/service/:path*",
+  //       destination: "https://www.miaographics.it/servizi/:path*",
+  //       permanent: true,
+  //     },
+  //     {
+  //       source: "/me",
+  //       destination: "https://www.miaographics.it/chi-sono",
+  //       permanent: true,
+  //     },
+  //     {
+  //       source: "/:lang/posts/:slug*", // Cattura qualsiasi lingua (es. "en", "it", ecc.)
+  //       destination: "/posts/:slug*", // Rimuove la lingua e mantiene lo slug
+  //       permanent: true,
+  //     },
+  //     {
+  //       source: "/:lang/portfolio/:path*",
+  //       destination: "https://www.miaographics.it/portfolio/:path*",
+  //       permanent: true,
+  //     },
+  //     {
+  //       source: "/:lang/chi-sono/:path*",
+  //       destination: "https://www.miaographics.it/chi-sono",
+  //       permanent: true,
+  //     },
 
-      {
-        source: "/:lang/blog",
-        destination: "https://www.miaographics.it/blog",
-        permanent: true,
-      },
-      {
-        source: "/:lang/servizi",
-        destination: "https://www.miaographics.it/servizi",
-        permanent: true,
-      },
-      {
-        source: "/:lang/portfolio",
-        destination: "https://www.miaographics.it/portfolio",
-        permanent: true,
-      },
-      {
-        source: "/:lang/contatti",
-        destination: "https://www.miaographics.it/contatti",
-        permanent: true,
-      },
-      {
-        source: "/:lang/contact",
-        destination: "https://www.miaographics.it/contatti",
-        permanent: true,
-      },
-    ];
-  },
+  //     {
+  //       source: "/:lang/blog",
+  //       destination: "https://www.miaographics.it/blog",
+  //       permanent: true,
+  //     },
+  //     {
+  //       source: "/:lang/servizi",
+  //       destination: "https://www.miaographics.it/servizi",
+  //       permanent: true,
+  //     },
+  //     {
+  //       source: "/:lang/portfolio",
+  //       destination: "https://www.miaographics.it/portfolio",
+  //       permanent: true,
+  //     },
+  //     {
+  //       source: "/:lang/contatti",
+  //       destination: "https://www.miaographics.it/contatti",
+  //       permanent: true,
+  //     },
+  //     {
+  //       source: "/:lang/contact",
+  //       destination: "https://www.miaographics.it/contatti",
+  //       permanent: true,
+  //     },
+  //   ];
+  // },
 };
 const ContentSecurityPolicy = `
   default-src 'self' https://www.miaographics.it/ https://cpl.iubenda.com/ https://idb.iubenda.com/ https://mithablog.mithacreative.it/ https://widget-data.service.elfsight.com/ https://static.elfsight.com/ https://service-reviews-ultimate.elfsight.com/ https://core.service.elfsight.com/ https://consent.cookie-script.com/ https://metrics.hotjar.io/ https://ask.hotjar.io/ https://content.hotjar.io/ https://in.hotjar.com/  https://vc.hotjar.io/ wss://ws.hotjar.com/api/v2/client/ws https://in.hotjar.com/ https://yourwordpresssite.com/wp-json/wp/v2/comments https://sideblog.sideffect.it/ https://api.iconify.design/ https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css https://region1.google-analytics.com;

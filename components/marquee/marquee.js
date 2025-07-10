@@ -9,7 +9,7 @@ const Marquee = () => {
           <li>
             {" "}
             <Image
-              src="/logos/logo1.png"
+              src="/assets/logos/logo1.png"
               alt="Logo 1"
               className="logo"
               width={150}
@@ -19,7 +19,7 @@ const Marquee = () => {
           <li>
             {" "}
             <Image
-              src="/logos/logo2.png"
+              src="/assets/logos/logo2.png"
               alt="Logo 2"
               className="logo"
               width={150}
@@ -28,7 +28,7 @@ const Marquee = () => {
           </li>
           <li>
             <Image
-              src="/logos/logo3.png"
+              src="/assets/logos/logo3.png"
               alt="Logo 1"
               className="logo"
               width={150}
@@ -38,7 +38,7 @@ const Marquee = () => {
           <li>
             {" "}
             <Image
-              src="/logos/logo4.png"
+              src="/assets/logos/logo4.png"
               alt="Logo 2"
               className="logo"
               width={150}
@@ -48,7 +48,7 @@ const Marquee = () => {
           <li>
             {" "}
             <Image
-              src="/logos/logo5.png"
+              src="/assets/logos/logo5.png"
               alt="Logo 1"
               className="logo"
               width={150}
@@ -58,7 +58,7 @@ const Marquee = () => {
           <li>
             {" "}
             <Image
-              src="/logos/logo6.png"
+              src="/assets/logos/logo6.png"
               alt="Logo 1"
               className="logo"
               width={150}
@@ -70,7 +70,7 @@ const Marquee = () => {
           <li>
             {" "}
             <Image
-              src="/logos/logo7.png"
+              src="/assets/logos/logo7.png"
               alt="Logo 1"
               className="logo"
               width={150}
@@ -80,7 +80,7 @@ const Marquee = () => {
           <li>
             {" "}
             <Image
-              src="/logos/logo8.png"
+              src="/assets/logos/logo8.png"
               alt="Logo 1"
               className="logo"
               width={150}
@@ -90,7 +90,7 @@ const Marquee = () => {
           <li>
             {" "}
             <Image
-              src="/logos/logo9.png"
+              src="/assets/logos/logo9.png"
               alt="Logo 1"
               className="logo"
               width={150}
@@ -100,7 +100,7 @@ const Marquee = () => {
           <li>
             {" "}
             <Image
-              src="/logos/logo10.png"
+              src="/assets/logos/logo10.png"
               alt="Logo 1"
               className="logo"
               width={150}
@@ -110,7 +110,7 @@ const Marquee = () => {
           <li>
             {" "}
             <Image
-              src="/logos/logo1.png"
+              src="/assets/logos/logo1.png"
               alt="Logo 1"
               className="logo"
               width={150}
@@ -120,7 +120,7 @@ const Marquee = () => {
           <li>
             {" "}
             <Image
-              src="/logos/logo11.png"
+              src="/assets/logos/logo11.png"
               alt="Logo 1"
               className="logo"
               width={150}
@@ -134,7 +134,7 @@ const Marquee = () => {
           <li>
             {" "}
             <Image
-              src="/logos/logo12.png"
+              src="/assets/logos/logo12.png"
               alt="Logo 1"
               className="logo"
               width={150}
@@ -144,7 +144,7 @@ const Marquee = () => {
           <li>
             {" "}
             <Image
-              src="/logos/logo13.png"
+              src="/assets/logos/logo13.png"
               alt="Logo 2"
               className="logo"
               width={150}
@@ -153,7 +153,7 @@ const Marquee = () => {
           </li>
           <li>
             <Image
-              src="/logos/logo14.png"
+              src="/assets/logos/logo14.png"
               alt="Logo 1"
               className="logo"
               width={150}
@@ -163,7 +163,7 @@ const Marquee = () => {
           <li>
             {" "}
             <Image
-              src="/logos/logo15.png"
+              src="/assets/logos/logo15.png"
               alt="Logo 2"
               className="logo"
               width={150}
@@ -173,7 +173,7 @@ const Marquee = () => {
           <li>
             {" "}
             <Image
-              src="/logos/logo16.png"
+              src="/assets/logos/logo16.png"
               alt="Logo 1"
               className="logo "
               width={150}
@@ -183,7 +183,7 @@ const Marquee = () => {
           <li>
             {" "}
             <Image
-              src="/logos/logo17.png"
+              src="/assets/logos/logo17.png"
               alt="Logo 1"
               className="logo"
               width={150}
@@ -195,7 +195,7 @@ const Marquee = () => {
           <li>
             {" "}
             <Image
-              src="/logos/logo18.png"
+              src="/assets/logos/logo18.png"
               alt="Logo 1"
               className="logo"
               width={150}
@@ -205,7 +205,7 @@ const Marquee = () => {
           <li>
             {" "}
             <Image
-              src="/logos/logo19.png"
+              src="/assets/logos/logo19.png"
               alt="Logo 1"
               className="logo"
               width={150}
@@ -215,7 +215,7 @@ const Marquee = () => {
           <li>
             {" "}
             <Image
-              src="/logos/logo20.png"
+              src="/assets/logos/logo20.png"
               alt="Logo 1"
               className="logo"
               width={150}
@@ -225,7 +225,7 @@ const Marquee = () => {
           <li>
             {" "}
             <Image
-              src="/logos/logo21.png"
+              src="/assets/logos/logo21.png"
               alt="Logo 1"
               className="logo"
               width={150}
@@ -235,7 +235,7 @@ const Marquee = () => {
           <li>
             {" "}
             <Image
-              src="/logos/logo12.png"
+              src="/assets/logos/logo12.png"
               alt="Logo 1"
               className="logo"
               width={150}
@@ -245,7 +245,7 @@ const Marquee = () => {
           <li>
             {" "}
             <Image
-              src="/logos/logo13.png"
+              src="/assets/logos/logo13.png"
               alt="Logo 2"
               className="logo"
               width={150}
