@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import SezioneUno from "@/public/sectionsTitle/sezioneUno.png";
 
 const SectionUno = ({ translation }) => {
   return (
