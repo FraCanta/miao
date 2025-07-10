@@ -16,6 +16,7 @@ import SectionTre from "@/components/sections/sectionTre";
 import SectionsQuattro from "@/components/sections/sectionsQuattro";
 
 export default function Home({ translation, post, featuredMedia, users }) {
+  console.log("translation", translation);
   return (
     <>
       <Head>

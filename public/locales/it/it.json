@@ -18,12 +18,12 @@
         "<p>Attraverso un incontro conoscitivo, che può anche essere online, sarò in grado di capire le tue esigenze e sviluppare una comunicazione visiva su misura per te.</p>"
       ],
       "cta": "conosciamoci",
-      "title": "/sectionsTitle/welcome_title.png"
+      "title": "/assets/sectionsTitle/welcome_title.png"
     },
     "sezioneDue": {
       "cta": "cosa offro",
-      "title": "/sectionsTitle/sezioneDue.png",
-      "img": "/sectionsTitle/servizi_generici.png",
+      "title": "/assets/sectionsTitle/sezioneDue.png",
+      "img": "/assets/sectionsTitle/servizi_generici.png",
       "titoloP": "Soluzioni Creative a 360°",
       "descrizione": "Il Graphic Design e la Comunicazione Visiva sono l’arte invisibile che permea il nostro mondo. Si tratta di molto più di semplici immagini e colori; sono strumenti potenti che plasmano le nostre percezioni e guidano le nostre decisioni.",
       "descrizione2": "In un’era digitale, dove l’attenzione è un bene prezioso, il design ben pensato cattura l’occhio e trattiene l’attenzione. È la differenza tra essere notati o ignorati. ",
@@ -33,14 +33,14 @@
       "paragrafi": "La mia missione è assistere le piccole realtà aziendali nella definizione di un’immagine coordinata che sia unica ed efficace. Questo processo è fondamentale per distinguersi dalla concorrenza e per consolidare la propria presenza sul mercato off e online. Creo contenuti sia visivi che testuali che siano in linea con gli obiettivi di business e che si  sappiano coinvolgere il giusto pubblico.",
 
       "cta": "Case History",
-      "title": "/sectionsTitle/sezioneTre.png",
-      "img": "/sectionsTitle/logosmix.jpg",
+      "title": "/assets/sectionsTitle/sezioneTre.png",
+      "img": "/assets/sectionsTitle/logosmix.jpg",
       "titoloP": "Alcuni lavori svolti",
       "paragrafo1": "La mia missione è assistere le piccole realtà aziendali nella definizione di un’immagine coordinata che sia unica ed efficace. Questo processo è fondamentale per distinguersi dalla concorrenza e per consolidare la propria presenza sul mercato off e online. Creo contenuti sia visivi che testuali che siano in linea con gli obiettivi di business e che si  sappiano coinvolgere il giusto pubblico."
     },
     "sezioneQuattro": {
       "cta": "Altre notizie",
-      "title": "/sectionsTitle/sezioneQuattro.png",
+      "title": "/assets/sectionsTitle/sezioneQuattro.png",
       "img": "/sectionsTitle/postImg.png"
     }
   },
@@ -49,11 +49,11 @@
       "title": "Chi sono"
     },
     "hero": {
-      "title": "/pageImg/meTitle.png",
-      "img": "/pageImg/lampadina.webp"
+      "title": "/assets/pageImg/meTitle.png",
+      "img": "/assets/pageImg/lampadina.webp"
     },
     "sezioneUno": {
-      "img": "/sectionsTitle/eli.png",
+      "img": "/assets/sectionsTitle/eli.png",
       "presentazione": [
         "Fin da bambina ho usato le mani per plasmare oggetti e disegnare i personaggi della mia fantasia. Artigiana nel cuore e di fatto, partecipo da anni con il mio banchetto alla Foire de Saint-Ours e realizzo oggetti handmade. ",
         "Dopo aver studiato allo Ied di Torino, nel 2008 apro il mio atelier creativo con il nome di l’heartelier. Da qualche anno itinerante tra Milano e Aosta, ho deciso di rinnovare la mia identità diventando <strong>MIAO graphics - grafismi itineranti </strong> esattamente come me (sempre con la valigia in mano). ",
@@ -65,14 +65,14 @@
       "cta": "Scopri come"
     },
     "sezioneDue": {
-      "title": "/sectionsTitle/clienti.png"
+      "title": "/assets/sectionsTitle/clienti.png"
     },
     "sezioneTre": {
-      "title": "/sectionsTitle/testimonials.png",
+      "title": "/assets/sectionsTitle/testimonials.png",
       "cta": "Scrivi recensione"
     },
     "sezioneQuattro": {
-      "title": "/sectionsTitle/mitha_title.png",
+      "title": "/assets/sectionsTitle/mitha_title.png",
       "img": "/assets/mitha_cover.png",
       "paragrafi": [
         "Inoltre, c'è Mitha, un'idea creativa che è nata quasi per gioco, una scommessa tra me e <a href='https://www.thallion-dev.it/' target='_blank'><strong>Thallion+dev</strong></a>, una talentuosa web designer che ha anche creato il mio sito. Ho sempre cercato di circondarmi di professionisti determinati e concreti nel perseguire i loro obiettivi.",
@@ -86,55 +86,55 @@
   },
   "servizi": {
     "hero": {
-      "title": "/pageImg/serviceTitle.png",
-      "img": "/pageImg/gatto2.webp"
+      "title": "/assets/pageImg/serviceTitle.png",
+      "img": "/assets/pageImg/gatto2.webp"
     },
     "serviziItem": [
       {
-        "img": "/serviziImg/logodesign.png",
+        "img": "/assets/serviziImg/logodesign.png",
         "name": "Logo Design",
         "title": "logo",
         "descrizione": "Un logo progettato su misura, in base al tuo target di riferimento e alla tua vision è un investimento per il successo della tua azienda.",
         "link": "/servizi/logo"
       },
       {
-        "img": "/serviziImg/branding.png",
+        "img": "/assets/serviziImg/branding.png",
         "name": "Branding Strategy",
         "descrizione": "Una buona strategia di branding ti permette di differenziarti dalla concorrenza e di costruire un'identità forte, unica e riconoscibile.",
         "link": "/servizi/branding"
       },
       {
-        "img": "/serviziImg/label.png",
+        "img": "/assets/serviziImg/label.png",
         "name": "Label & Packaging",
         "descrizione": "Il label e il packaging design sono essenziali per il successo di un prodotto, in un mercato competitivo, sono cruciali per catturare l’interesse del pubblico e informare il consumatore.",
         "link": "/servizi/label"
       },
       {
-        "img": "/serviziImg/social.png",
+        "img": "/assets/serviziImg/social.png",
         "name": "Social Media Strategy",
         "descrizione": "Risparmia tempo e migliora la tua presenza online con contenuti mirati e aggiornati alle ultime tendenze per aumentare l'engagement.",
         "link": "/servizi/social"
       },
       {
-        "img": "/serviziImg/campagne.png",
+        "img": "/assets/serviziImg/campagne.png",
         "name": "Offline Campaigns",
         "descrizione": "Le campagne offline plasmano scelte, creano connessioni e trasmettono messaggi profondi, incarnando idee, valori e brand che si toccano, sentono e ricordano.",
         "link": "/servizi/campagne"
       },
       {
-        "img": "/serviziImg/allestimenti.png",
+        "img": "/assets/serviziImg/allestimenti.png",
         "name": "Stage Design",
         "descrizione": "Gli allestimenti personalizzati conferiscono personalità ad uno spazio vuoto. Possono evocare emozioni, creare atmosfere e coinvolgere il pubblico in modo unico.",
         "link": "/servizi/allestimenti"
       },
       {
-        "img": "/serviziImg/illustrazione.png",
+        "img": "/assets/serviziImg/illustrazione.png",
         "name": "Illustrations",
         "descrizione": "Le illustrazioni create ad hoc, sono molto più di semplici immagini; sono elementi chiave che permettono di esaltare il tuo brand e renderlo unico e memorabile.",
         "link": "/servizi/illustrazione"
       },
       {
-        "img": "/serviziImg/contentCreator.png",
+        "img": "/assets/serviziImg/contentCreator.png",
         "name": "Content Creator",
         "descrizione": "Nel mondo digitale di oggi, il contenuto ricopre un ruolo sempre più importante. Ma non si tratta solo di quantità; si tratta di qualità e, soprattutto, di personalizzazione.",
         "link": "/servizi/content"
@@ -142,7 +142,7 @@
     ],
     "singleService": {
       "logo": {
-        "img": "/serviziImg/logodesign.png",
+        "img": "/assets/serviziImg/logodesign.png",
         "name": "Logo Design",
         "introTitle": "Progettiamo Insieme Un Logo Personalizzato Per La Tua Attività",
         "intro": [
@@ -151,7 +151,7 @@
           "Se stai iniziando una nuova attività e ancora non hai <strong>un logo distintivo</strong> che rappresenti al meglio la tua azienda, sei nel posto giusto!",
           "Hai bisogno di un’immagine visiva su misura, in perfetta sintonia con la tua mission e adatta al tuo pubblico di riferimento?"
         ],
-        "title": "/pageImg/logo_Title.png",
+        "title": "/assets/pageImg/logo_Title.png",
         "titlePro": "Sono qui per te:",
         "descPro": [
           "Progetteremo un logo unico per la tua azienda, che identifichi chiaramente la tua attività e i prodotti/servizi offerti al tuo pubblico target."
@@ -168,157 +168,157 @@
         "galleryTitle": "Ecco alcuni esempi",
         "gallery": [
           {
-            "src": "/serviziImg/logoDesign/logoDesign.jpg",
+            "src": "/assets/serviziImg/logoDesign/logoDesign.jpg",
             "width": 600,
             "height": 600
           },
 
           {
-            "src": "/serviziImg/logoDesign/logoDesign3.webp",
+            "src": "/assets/serviziImg/logoDesign/logoDesign3.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logoDesign6.webp",
+            "src": "/assets/serviziImg/logoDesign/logoDesign6.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logoDesign4.webp",
+            "src": "/assets/serviziImg/logoDesign/logoDesign4.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logoDesign13.webp",
+            "src": "/assets/serviziImg/logoDesign/logoDesign13.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logoDesign5.webp",
+            "src": "/assets/serviziImg/logoDesign/logoDesign5.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logoDesign8.webp",
+            "src": "/assets/serviziImg/logoDesign/logoDesign8.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logoDesign7.webp",
+            "src": "/assets/serviziImg/logoDesign/logoDesign7.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logoDesign10.webp",
+            "src": "/assets/serviziImg/logoDesign/logoDesign10.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logoDesign12.webp",
+            "src": "/assets/serviziImg/logoDesign/logoDesign12.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logoDesign9.webp",
+            "src": "/assets/serviziImg/logoDesign/logoDesign9.webp",
             "width": 600,
             "height": 600
           },
 
           {
-            "src": "/serviziImg/logoDesign/logoDesign11.webp",
+            "src": "/assets/serviziImg/logoDesign/logoDesign11.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logoDesign2.webp",
+            "src": "/assets/serviziImg/logoDesign/logoDesign2.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logoDesign15.jpg",
+            "src": "/assets/serviziImg/logoDesign/logoDesign15.jpg",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logoDesign16.webp",
+            "src": "/assets/serviziImg/logoDesign/logoDesign16.webp",
             "width": 600,
             "height": 600
           }
         ],
         "gallery4": [
           {
-            "src": "/serviziImg/logoDesign/logo_17.webp",
+            "src": "/assets/serviziImg/logoDesign/logo_17.webp",
             "width": 600,
             "height": 600
           },
 
           {
-            "src": "/serviziImg/logoDesign/logo_18.webp",
+            "src": "/assets/serviziImg/logoDesign/logo_18.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logo_19.webp",
+            "src": "/assets/serviziImg/logoDesign/logo_19.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logo_20.webp",
+            "src": "/assets/serviziImg/logoDesign/logo_20.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logo_21.webp",
+            "src": "/assets/serviziImg/logoDesign/logo_21.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logo_22.webp",
+            "src": "/assets/serviziImg/logoDesign/logo_22.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logo_23.webp",
+            "src": "/assets/serviziImg/logoDesign/logo_23.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logo_24.webp",
+            "src": "/assets/serviziImg/logoDesign/logo_24.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logo_25.webp",
+            "src": "/assets/serviziImg/logoDesign/logo_25.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logo_26.webp",
+            "src": "/assets/serviziImg/logoDesign/logo_26.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logo_27.webp",
+            "src": "/assets/serviziImg/logoDesign/logo_27.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logo_28.webp",
+            "src": "/assets/serviziImg/logoDesign/logo_28.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logo_29.webp",
+            "src": "/assets/serviziImg/logoDesign/logo_29.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logo_30.webp",
+            "src": "/assets/serviziImg/logoDesign/logo_30.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/logoDesign/logo_31.webp",
+            "src": "/assets/serviziImg/logoDesign/logo_31.webp",
             "width": 600,
             "height": 600
           }
@@ -329,9 +329,9 @@
         "opzioni": "Ti potrebbe anche interessare"
       },
       "branding": {
-        "img": "/serviziImg/branding.png",
+        "img": "/assets/serviziImg/branding.png",
         "name": "Branding Strategy",
-        "title": "/pageImg/branding_Title.png",
+        "title": "/assets/pageImg/branding_Title.png",
         "introTitle": "Non solo logo!",
         "intro": [
           "La mia missione è andare oltre la creazione di un semplice logo. ",
@@ -383,82 +383,82 @@
         ],
         "gallery2": [
           {
-            "src": "/serviziImg/branding/brand8.webp",
+            "src": "/assets/serviziImg/branding/brand8.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/branding/brand10.webp",
+            "src": "/assets/serviziImg/branding/brand10.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/branding/brand14.webp",
+            "src": "/assets/serviziImg/branding/brand14.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/branding/brand11.webp",
+            "src": "/assets/serviziImg/branding/brand11.webp",
             "width": 600,
             "height": 600
           },
 
           {
-            "src": "/serviziImg/branding/brand13.webp",
+            "src": "/assets/serviziImg/branding/brand13.webp",
             "width": 600,
             "height": 600
           }
         ],
         "gallery3": [
           {
-            "src": "/serviziImg/branding/brand15.webp",
+            "src": "/assets/serviziImg/branding/brand15.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/branding/brand21.webp",
+            "src": "/assets/serviziImg/branding/brand21.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/branding/brand17.webp",
+            "src": "/assets/serviziImg/branding/brand17.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/branding/brand16.webp",
+            "src": "/assets/serviziImg/branding/brand16.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/branding/brand20.webp",
+            "src": "/assets/serviziImg/branding/brand20.webp",
             "width": 600,
             "height": 600
           }
         ],
         "gallery4": [
           {
-            "src": "/serviziImg/branding/branding1.webp",
+            "src": "/assets/serviziImg/branding/branding1.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/branding/branding2.webp",
+            "src": "/assets/serviziImg/branding/branding2.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/branding/branding3.webp",
+            "src": "/assets/serviziImg/branding/branding3.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/branding/branding4.webp",
+            "src": "/assets/serviziImg/branding/branding4.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/branding/branding5.webp",
+            "src": "/assets/serviziImg/branding/branding5.webp",
             "width": 600,
             "height": 600
           }
@@ -472,9 +472,9 @@
         "opzioni": "Ti potrebbe anche interessare"
       },
       "label": {
-        "img": "/serviziImg/label.png",
+        "img": "/assets/serviziImg/label.png",
         "name": "Label & Packaging",
-        "title": "/serviziImg/label_Title.png",
+        "title": "/assets/serviziImg/label_Title.png",
         "introTitle": "Packaging & Label: Dai Voce al Tuo Prodotto!",
         "intro": [
           "Spesso diamo per scontati il label e il packaging design, ma in realtà, sono dei veri e propri “ambasciatori” del nostro prodotto.",
@@ -502,76 +502,80 @@
         "link": "label",
         "gallery": [
           {
-            "src": "/serviziImg/label/pack2.webp",
+            "src": "/assets/serviziImg/label/pack2.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/label/pack3_new.webp",
+            "src": "/assets/serviziImg/label/pack3_new.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/label/pack4.webp",
+            "src": "/assets/serviziImg/label/pack4.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/label/pack5.webp",
+            "src": "/assets/serviziImg/label/pack5.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/label/pack10.webp",
+            "src": "/assets/serviziImg/label/pack10.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/label/pack8.webp",
-            "width": 600,
-            "height": 600
-          },
-
-          {
-            "src": "/serviziImg/label/pack7.webp",
-            "width": 600,
-            "height": 600
-          },
-          {
-            "src": "/serviziImg/label/pack9.webp",
+            "src": "/assets/serviziImg/label/pack8.webp",
             "width": 600,
             "height": 600
           },
 
           {
-            "src": "/serviziImg/label/pack6a.webp",
+            "src": "/assets/serviziImg/label/pack7.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/assets/serviziImg/label/pack9.webp",
             "width": 600,
             "height": 600
           },
 
-          { "src": "/serviziImg/label/pack.webp", "width": 600, "height": 600 },
           {
-            "src": "/serviziImg/label/pack11.webp",
+            "src": "/assets/serviziImg/label/pack6a.webp",
+            "width": 600,
+            "height": 600
+          },
+
+          {
+            "src": "/assets/serviziImg/label/pack.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/label/pack12.webp",
+            "src": "/assets/serviziImg/label/pack11.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/label/pack13.webp",
+            "src": "/assets/serviziImg/label/pack12.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/label/pack14.webp",
+            "src": "/assets/serviziImg/label/pack13.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/label/pack15.webp",
+            "src": "/assets/serviziImg/label/pack14.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/assets/serviziImg/label/pack15.webp",
             "width": 600,
             "height": 600
           }
@@ -585,9 +589,9 @@
         "opzioni": "Ti potrebbe anche interessare"
       },
       "social": {
-        "img": "/serviziImg/social.png",
+        "img": "/assets/serviziImg/social.png",
         "name": "Social Media Strategy",
-        "title": "/serviziImg/social_Title.png",
+        "title": "/assets/serviziImg/social_Title.png",
         "introTitle": "Consolida La Tua presenza Online: Grazie ai social e a contenuti su misura",
         "intro": [
           "La gestione dei social media e la creazione di contenuti di qualità sono le chiavi per il successo online.",
@@ -610,79 +614,79 @@
         "link": "social",
         "gallery": [
           {
-            "src": "/serviziImg/social/socialMedia3.webp",
+            "src": "/assets/serviziImg/social/socialMedia3.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/social/socialMedia5.webp",
+            "src": "/assets/serviziImg/social/socialMedia5.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/social/socialMedia11.webp",
+            "src": "/assets/serviziImg/social/socialMedia11.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/social/socialMedia9.webp",
+            "src": "/assets/serviziImg/social/socialMedia9.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/social/socialMedia7.webp",
+            "src": "/assets/serviziImg/social/socialMedia7.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/social/socialMedia2.webp",
-            "width": 600,
-            "height": 600
-          },
-
-          {
-            "src": "/serviziImg/social/socialMedia4.webp",
+            "src": "/assets/serviziImg/social/socialMedia2.webp",
             "width": 600,
             "height": 600
           },
 
           {
-            "src": "/serviziImg/social/socialMedia10.webp",
+            "src": "/assets/serviziImg/social/socialMedia4.webp",
+            "width": 600,
+            "height": 600
+          },
+
+          {
+            "src": "/assets/serviziImg/social/socialMedia10.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/social/socialMedia8.webp",
+            "src": "/assets/serviziImg/social/socialMedia8.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/social/socialMedia6.webp",
+            "src": "/assets/serviziImg/social/socialMedia6.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/social/socialMedia12.webp",
+            "src": "/assets/serviziImg/social/socialMedia12.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/social/socialMedia13.webp",
+            "src": "/assets/serviziImg/social/socialMedia13.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/social/socialMedia14.webp",
+            "src": "/assets/serviziImg/social/socialMedia14.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/social/socialMedia15.webp",
+            "src": "/assets/serviziImg/social/socialMedia15.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/social/socialMedia16.webp",
+            "src": "/assets/serviziImg/social/socialMedia16.webp",
             "width": 600,
             "height": 600
           }
@@ -696,9 +700,9 @@
         "opzioni": "Ti potrebbe anche interessare"
       },
       "campagne": {
-        "img": "/serviziImg/campagne.png",
+        "img": "/assets/serviziImg/campagne.png",
         "name": "Offline Campaigns",
-        "title": "/pageImg/campagne_Title.png",
+        "title": "/assets/pageImg/campagne_Title.png",
         "introTitle": "Riscopri il Potere delle Campagne Offline: Emozioni, Fiducia ed Accessibilità nel Mondo Non Digitale",
         "intro": [
           "Nel mondo frenetico e digitalizzato in cui viviamo, può sembrare che l’attenzione sia rivolta unicamente verso il mondo online. Ma, in un’epoca in cui i nostri occhi sono incollati agli schermi e i nostri dispositivi ci tengono connessi costantemente, c’è un mondo fuori che non dovremmo mai sottovalutare: il mondo delle campagne offline.",
@@ -720,79 +724,79 @@
         "link": "campagne",
         "gallery": [
           {
-            "src": "/serviziImg/campagne/campagne3.jpg",
+            "src": "/assets/serviziImg/campagne/campagne3.jpg",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/campagne/campagne5.jpg",
+            "src": "/assets/serviziImg/campagne/campagne5.jpg",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/campagne/campagne.webp",
-            "width": 600,
-            "height": 600
-          },
-
-          {
-            "src": "/serviziImg/campagne/campagne4.jpg",
-            "width": 600,
-            "height": 600
-          },
-          {
-            "src": "/serviziImg/campagne/campagne2.jpg",
-            "width": 600,
-            "height": 600
-          },
-          {
-            "src": "/serviziImg/campagne/campagne6.jpg",
+            "src": "/assets/serviziImg/campagne/campagne.webp",
             "width": 600,
             "height": 600
           },
 
           {
-            "src": "/serviziImg/campagne/campagne8.jpg",
+            "src": "/assets/serviziImg/campagne/campagne4.jpg",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/campagne/campagne9.webp",
+            "src": "/assets/serviziImg/campagne/campagne2.jpg",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/campagne/campagne7.jpg",
+            "src": "/assets/serviziImg/campagne/campagne6.jpg",
+            "width": 600,
+            "height": 600
+          },
+
+          {
+            "src": "/assets/serviziImg/campagne/campagne8.jpg",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/campagne/campagne10.webp",
+            "src": "/assets/serviziImg/campagne/campagne9.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/campagne/campagne11.webp",
+            "src": "/assets/serviziImg/campagne/campagne7.jpg",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/campagne/campagne12.webp",
+            "src": "/assets/serviziImg/campagne/campagne10.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/campagne/campagne13.webp",
+            "src": "/assets/serviziImg/campagne/campagne11.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/campagne/campagne14.webp",
+            "src": "/assets/serviziImg/campagne/campagne12.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/campagne/campagne15.webp",
+            "src": "/assets/serviziImg/campagne/campagne13.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/assets/serviziImg/campagne/campagne14.webp",
+            "width": 600,
+            "height": 600
+          },
+          {
+            "src": "/assets/serviziImg/campagne/campagne15.webp",
             "width": 600,
             "height": 600
           }
@@ -806,9 +810,9 @@
         "opzioni": "Ti potrebbe anche interessare"
       },
       "allestimenti": {
-        "img": "/serviziImg/allestimenti.png",
+        "img": "/assets/serviziImg/allestimenti.png",
         "name": "Stage Design",
-        "title": "/pageImg/allestimenti_Title.png",
+        "title": "/assets/pageImg/allestimenti_Title.png",
         "introTitle": "Scegli un’ Allestimento per Promuovere il tuo Brand",
         "intro": [
           "Un’ allestimento personalizzato è un potente strumento che trasforma un semplice spazio in un’ambiente comunicativo. Gli allestimenti, sia in ambito fieristico che riguardanti il punto vendita, sono la chiave per catturare l’attenzione, suscitare emozioni e far sì che il tuo brand si distingua.",
@@ -825,52 +829,52 @@
         "link": "allestimenti",
         "gallery": [
           {
-            "src": "/serviziImg/allestimenti/allestimenti.webp",
+            "src": "/assets/serviziImg/allestimenti/allestimenti.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/allestimenti/allestimenti2.webp",
+            "src": "/assets/serviziImg/allestimenti/allestimenti2.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/allestimenti/allestimenti3.webp",
+            "src": "/assets/serviziImg/allestimenti/allestimenti3.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/allestimenti/allestimenti4.webp",
+            "src": "/assets/serviziImg/allestimenti/allestimenti4.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/allestimenti/allestimenti5.webp",
+            "src": "/assets/serviziImg/allestimenti/allestimenti5.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/allestimenti/allestimenti6.webp",
+            "src": "/assets/serviziImg/allestimenti/allestimenti6.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/allestimenti/allestimenti7.webp",
+            "src": "/assets/serviziImg/allestimenti/allestimenti7.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/allestimenti/allestimenti8.webp",
+            "src": "/assets/serviziImg/allestimenti/allestimenti8.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/allestimenti/allestimenti9.webp",
+            "src": "/assets/serviziImg/allestimenti/allestimenti9.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/allestimenti/allestimenti10.webp",
+            "src": "/assets/serviziImg/allestimenti/allestimenti10.webp",
             "width": 600,
             "height": 600
           }
@@ -884,9 +888,9 @@
         "opzioni": "Ti potrebbe anche interessare"
       },
       "illustrazione": {
-        "img": "/serviziImg/illustrazione.png",
+        "img": "/assets/serviziImg/illustrazione.png",
         "name": "Illustrations",
-        "title": "/pageImg/illustrazione_Title.png",
+        "title": "/assets/pageImg/illustrazione_Title.png",
         "introTitle": "Le Illustrazioni Personalizzate rafforzano l'immagine del Tuo Brand",
         "intro": [
           "Le illustrazioni personalizzate sono la firma del tuo brand. Possono catturare l’essenza della tua identità aziendale in un’immagine, rendendo il tuo brand immediatamente riconoscibile e memorabile.",
@@ -914,102 +918,102 @@
         "link": "illustrazione",
         "gallery": [
           {
-            "src": "/serviziImg/illustrazione/illustrazioni2.webp",
+            "src": "/assets/serviziImg/illustrazione/illustrazioni2.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/illustrazione/illustrazioni3.webp",
+            "src": "/assets/serviziImg/illustrazione/illustrazioni3.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/illustrazione/illustrazioni4.webp",
+            "src": "/assets/serviziImg/illustrazione/illustrazioni4.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/illustrazione/illustrazioni5_new.webp",
+            "src": "/assets/serviziImg/illustrazione/illustrazioni5_new.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/illustrazione/illustrazioni6.webp",
+            "src": "/assets/serviziImg/illustrazione/illustrazioni6.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/illustrazione/illustrazioni7.webp",
+            "src": "/assets/serviziImg/illustrazione/illustrazioni7.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/illustrazione/illustrazioni8.webp",
+            "src": "/assets/serviziImg/illustrazione/illustrazioni8.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/illustrazione/illustrazioni9.webp",
+            "src": "/assets/serviziImg/illustrazione/illustrazioni9.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/illustrazione/illustrazioni10.webp",
+            "src": "/assets/serviziImg/illustrazione/illustrazioni10.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/illustrazione/illustrazioni.webp",
+            "src": "/assets/serviziImg/illustrazione/illustrazioni.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/illustrazione/illustrazioni11.webp",
+            "src": "/assets/serviziImg/illustrazione/illustrazioni11.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/illustrazione/illustrazioni12.webp",
+            "src": "/assets/serviziImg/illustrazione/illustrazioni12.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/illustrazione/illustrazioni13.webp",
+            "src": "/assets/serviziImg/illustrazione/illustrazioni13.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/illustrazione/illustrazioni14.webp",
+            "src": "/assets/serviziImg/illustrazione/illustrazioni14.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/illustrazione/illustrazioni15.webp",
+            "src": "/assets/serviziImg/illustrazione/illustrazioni15.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/illustrazione/illustrazioni16.webp",
+            "src": "/assets/serviziImg/illustrazione/illustrazioni16.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/illustrazione/illustrazioni17.webp",
+            "src": "/assets/serviziImg/illustrazione/illustrazioni17.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/illustrazione/illustrazioni18.webp",
+            "src": "/assets/serviziImg/illustrazione/illustrazioni18.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/illustrazione/illustrazioni19.webp",
+            "src": "/assets/serviziImg/illustrazione/illustrazioni19.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/illustrazione/illustrazioni20.webp",
+            "src": "/assets/serviziImg/illustrazione/illustrazioni20.webp",
             "width": 600,
             "height": 600
           }
@@ -1023,9 +1027,9 @@
         "opzioni": "Ti potrebbe anche interessare"
       },
       "content": {
-        "img": "/serviziImg/contentCreator.png",
+        "img": "/assets/serviziImg/contentCreator.png",
         "name": "Content Creator",
-        "title": "/pageImg/content_Title.png",
+        "title": "/assets/pageImg/content_Title.png",
         "introTitle": "Coinvolgi il tuo target con contenuti ideati ad hoc",
         "intro": [
           "Creare contenuti su misura, che siano foto, video o testi, è la formula magica per il successo sui social e non solo. Ecco perché dovresti fare della personalizzazione una priorità assoluta.",
@@ -1046,152 +1050,152 @@
         "link": "content",
         "gallery": [
           {
-            "src": "/serviziImg/creator/content.webp",
+            "src": "/assets/serviziImg/creator/content.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content29.webp",
+            "src": "/assets/serviziImg/creator/content29.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content3.jpg",
+            "src": "/assets/serviziImg/creator/content3.jpg",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content_4.webp",
+            "src": "/assets/serviziImg/creator/content_4.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content5.webp",
+            "src": "/assets/serviziImg/creator/content5.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content6.webp",
+            "src": "/assets/serviziImg/creator/content6.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content32.webp",
+            "src": "/assets/serviziImg/creator/content32.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content8.webp",
+            "src": "/assets/serviziImg/creator/content8.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content9.webp",
+            "src": "/assets/serviziImg/creator/content9.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content27.webp",
+            "src": "/assets/serviziImg/creator/content27.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content11.webp",
+            "src": "/assets/serviziImg/creator/content11.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content33.webp",
+            "src": "/assets/serviziImg/creator/content33.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content13.webp",
+            "src": "/assets/serviziImg/creator/content13.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content14.webp",
+            "src": "/assets/serviziImg/creator/content14.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content15.webp",
+            "src": "/assets/serviziImg/creator/content15.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content16.webp",
+            "src": "/assets/serviziImg/creator/content16.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content17.webp",
+            "src": "/assets/serviziImg/creator/content17.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content18.webp",
+            "src": "/assets/serviziImg/creator/content18.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content34.webp",
+            "src": "/assets/serviziImg/creator/content34.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content30.webp",
+            "src": "/assets/serviziImg/creator/content30.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content35.webp",
+            "src": "/assets/serviziImg/creator/content35.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content22.webp",
+            "src": "/assets/serviziImg/creator/content22.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content31.webp",
+            "src": "/assets/serviziImg/creator/content31.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content26.webp",
+            "src": "/assets/serviziImg/creator/content26.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content28.webp",
+            "src": "/assets/serviziImg/creator/content28.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content36.webp",
+            "src": "/assets/serviziImg/creator/content36.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content37.webp",
+            "src": "/assets/serviziImg/creator/content37.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content38.webp",
+            "src": "/assets/serviziImg/creator/content38.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content39.webp",
+            "src": "/assets/serviziImg/creator/content39.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/creator/content40.webp",
+            "src": "/assets/serviziImg/creator/content40.webp",
             "width": 600,
             "height": 600
           }
@@ -1207,25 +1211,25 @@
     },
     "fraService": [
       {
-        "img": "/fraService/tailored.png",
+        "img": "/assets/fraService/tailored.png",
         "name": "Tailored Site",
         "descrizione": "Un sito su misura con una grafica accattivante per distinguerti tra le migliaia di siti pre-confezionati.",
         "link": "https://www.thallion-dev.it/servizi/tailored"
       },
       {
-        "img": "/fraService/ecommerce.png",
+        "img": "/assets/fraService/ecommerce.png",
         "name": "E-commerce",
         "descrizione": "Che tu abbia pochi prodotti o una selezione più ampia, costruiamo attorno al tuo brand la chiave del tuo successo online.",
         "link": "https://www.thallion-dev.it/servizi/ecommerce"
       },
       {
-        "img": "/fraService/figma.png",
+        "img": "/assets/fraService/figma.png",
         "name": "Costruzione Blog con WP",
         "descrizione": "Ideale per chi ama raccontare e raccontarsi, quindi crearsi un posticino tutto suo da blogger",
         "link": "https://www.thallion-dev.it/servizi/dcbnow"
       },
       {
-        "img": "/fraService/restyle.png",
+        "img": "/assets/fraService/restyle.png",
         "name": "È Tempo Di Un Restyling",
         "descrizione": "Il tuo sito non sta funzionando come pensavi? Fammi dare un'occhiata! Magari è una questione di stile.",
         "link": "https://www.thallion-dev.it/servizi/restyling"
@@ -1234,8 +1238,8 @@
   },
   "portfolio": {
     "hero": {
-      "title": "/pageImg/portfolioTitle.png",
-      "img": "/pageImg/gufo2.webp"
+      "title": "/assets/pageImg/portfolioTitle.png",
+      "img": "/assets/pageImg/gufo2.webp"
     },
     "intro": [
       "Una selezione di lavori che raccontano per immagini, i servizi da me offerti.",
@@ -1243,7 +1247,7 @@
     ],
     "worksItem": [
       {
-        "img": "/portfolioImg/anserme/cover2.png",
+        "img": "/assets/portfolioImg/anserme/cover2.png",
         "name": "Ansermé",
         "title": "ansermè",
         "descrizione": "Bio Bontà di Montagna",
@@ -1252,7 +1256,7 @@
         "button": ["Branding", "Label Design", "Social Media"]
       },
       {
-        "img": "/portfolioImg/bequet/cover2.jpg",
+        "img": "/assets/portfolioImg/bequet/cover2.jpg",
         "name": "Samuel Becquet",
         "title": "becquet",
         "descrizione": "Agriculture en Haute Montagne",
@@ -1261,7 +1265,7 @@
         "button": ["Branding", "Label Design"]
       },
       {
-        "img": "/portfolioImg/casadei/cover3.jpg",
+        "img": "/assets/portfolioImg/casadei/cover3.jpg",
         "name": "Le Rêve en Vert",
         "title": "reve",
         "descrizione": "Azienda Agricola di Andrea Casadei",
@@ -1270,7 +1274,7 @@
         "button": ["Branding", "Label Design"]
       },
       {
-        "img": "/portfolioImg/phillacolor/cover_phillacolor2.jpg",
+        "img": "/assets/portfolioImg/phillacolor/cover_phillacolor2.jpg",
         "name": "Phillacolor",
         "title": "phillacolor",
         "descrizione": "Eco-Liquid Dye",
@@ -1279,7 +1283,7 @@
         "button": ["Branding", "Label Design"]
       },
       {
-        "img": "/portfolioImg/chappoz/cover_chappoz.jpg",
+        "img": "/assets/portfolioImg/chappoz/cover_chappoz.jpg",
         "name": "Chappoz",
         "title": "chappoz",
         "descrizione": "Azienda Agricola",
@@ -1288,7 +1292,7 @@
         "button": ["Branding", "Label Design", "Social Media"]
       },
       {
-        "img": "/portfolioImg/daemy/cover2.jpg",
+        "img": "/assets/portfolioImg/daemy/cover2.jpg",
         "name": "Da Emy",
         "title": "daemy",
         "descrizione": "Piante Officinali",
@@ -1297,7 +1301,7 @@
         "button": ["Branding", "Label Design"]
       },
       {
-        "img": "/portfolioImg/horto/cover_horto2.jpg",
+        "img": "/assets/portfolioImg/horto/cover_horto2.jpg",
         "name": "Horto Sapiens",
         "title": "horto",
         "descrizione": "Prodotti tipici di Monte Amiata e Val d'Orcia",
@@ -1306,7 +1310,7 @@
         "button": ["Branding", "Label Design"]
       },
       {
-        "img": "/portfolioImg/isavivai/cover_isavivai.jpg",
+        "img": "/assets/portfolioImg/isavivai/cover_isavivai.jpg",
         "name": "Isavivai",
         "title": "isavivai",
         "descrizione": "Il Verde che ti emoziona",
@@ -1315,7 +1319,7 @@
         "button": ["Branding", "Allestimenti"]
       },
       {
-        "img": "/portfolioImg/saint/cover3.jpg",
+        "img": "/assets/portfolioImg/saint/cover3.jpg",
         "name": "Saint Grat",
         "title": "saintgrat",
         "descrizione": "Azienda Agricola",
@@ -1324,7 +1328,7 @@
         "button": ["Branding", "Label Design"]
       },
       {
-        "img": "/portfolioImg/morzenti/cover_morzenti.jpg",
+        "img": "/assets/portfolioImg/morzenti/cover_morzenti.jpg",
         "name": "Morzenti Daniele",
         "title": "morzenti",
         "descrizione": "Azienda Agricola",
@@ -1333,7 +1337,7 @@
         "button": ["Branding", "Social Media"]
       },
       {
-        "img": "/portfolioImg/gourmandises/cover_gourmandises.webp",
+        "img": "/assets/portfolioImg/gourmandises/cover_gourmandises.webp",
         "name": "Les Gourmandises ",
         "title": "gourmandises",
         "descrizione": "di Alice Borettaz",
@@ -1342,7 +1346,7 @@
         "button": ["Branding", "Label Design"]
       },
       {
-        "img": "/portfolioImg/jardin_potager/cover_jardinpotager.webp",
+        "img": "/assets/portfolioImg/jardin_potager/cover_jardinpotager.webp",
         "name": "Jardin Potager",
         "title": "jardinpotager",
         "descrizione": "Assessorato Agricoltura e Risorse Naturali",
@@ -1353,7 +1357,7 @@
     ],
     "singleWorks": {
       "ansermè": {
-        "img": "/portfolioImg/anserme/cover2.png",
+        "img": "/assets/portfolioImg/anserme/cover2.png",
         "name": "Ansermé",
         "title": "anserme",
         "descrizione": "Bio Bontà di Montagna",
@@ -1381,45 +1385,45 @@
         "desc": [
           "Con Alessandro, abbiamo pensato di creare un concept grafico moderno e dai colori accesi che potesse esaltare la linea dei prodotti biologici, rendendoli facilmente riconoscibili e differenziandoli dalla concorrenza."
         ],
-        "logoImg": "/portfolioImg/anserme/intro_anse.jpg",
+        "logoImg": "/assets/portfolioImg/anserme/intro_anse.jpg",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/anserme/typo_anse_text.png",
-          "typoImg2": "/portfolioImg/anserme/typo_anse_font.png"
+          "typoImg": "/assets/portfolioImg/anserme/typo_anse_text.png",
+          "typoImg2": "/assets/portfolioImg/anserme/typo_anse_font.png"
         },
         "color": {
           "titolo": "Brand Colors",
           "descrizione": [
             "In collaborazione con Alessandro, abbiamo definito una gamma di colori vibranti e accesi, declinati nelle varie gradazioni, che potessero creare un piacevole contrasto con lo sfondo scuro e neutro (effetto carta riciclata) delle etichette."
           ],
-          "colorImg": "/portfolioImg/anserme/coloribrand_anse.png"
+          "colorImg": "/assets/portfolioImg/anserme/coloribrand_anse.png"
         },
         "illustrazioni": {
           "titolo": "Illustrazioni Vettoriali",
           "descrizione": "Per caratterizzare la linea dei prodotti è stata realizzata un’apina stilizzata, il cui colore delle ali, varia in base alla tipologia di miele, biscotto o cosmetico.",
-          "illImg": "/portfolioImg/anserme/illustrazioni_anse.png",
+          "illImg": "/assets/portfolioImg/anserme/illustrazioni_anse.png",
           "descrizione2": "Per promuovere l’iniziativa adotta un alveare ho stilizzato anche un’arnia e i fiori di alta montagna."
         },
         "label": {
           "titolo": "Label & Pack Design",
-          "labelImg": "/portfolioImg/anserme/etichetta_miele.png",
-          "cartellinoImg": "/portfolioImg/anserme/latta_caramelle.jpg",
-          "caramelleImg": "/portfolioImg/anserme/cartellino_caramelle.jpg",
-          "biscottiImg": "/portfolioImg/anserme/cartellino_biscotti.jpg",
-          "scatoleImg": "/portfolioImg/anserme/creme.png",
-          "cremaImg": "/portfolioImg/anserme/creme2.jpg",
-          "etichettasImg": "/portfolioImg/anserme/label_shampoo.png"
+          "labelImg": "/assets/portfolioImg/anserme/etichetta_miele.png",
+          "cartellinoImg": "/assets/portfolioImg/anserme/latta_caramelle.jpg",
+          "caramelleImg": "/assets/portfolioImg/anserme/cartellino_caramelle.jpg",
+          "biscottiImg": "/assets/portfolioImg/anserme/cartellino_biscotti.jpg",
+          "scatoleImg": "/assets/portfolioImg/anserme/creme.png",
+          "cremaImg": "/assets/portfolioImg/anserme/creme2.jpg",
+          "etichettasImg": "/assets/portfolioImg/anserme/label_shampoo.png"
         },
         "social": {
           "titolo": "Social",
           "descrizione": [
             "Immagini fotografiche e contenuti testuali e visivi realizzati ad hoc, per la promozione dei prodotti e dell’azienda."
           ],
-          "socialImg": ["/portfolioImg/anserme/social.jpg"]
+          "socialImg": ["/assets/portfolioImg/anserme/social.jpg"]
         }
       },
       "becquet": {
-        "img": "/portfolioImg/bequet/cover3.jpg",
+        "img": "/assets/portfolioImg/bequet/cover3.jpg",
         "name": "Samuel Becquet",
         "title": "becquet",
         "descrizione": "Agriculture en Haute Montagne",
@@ -1447,11 +1451,11 @@
         "desc": [
           "Abbiamo ideato insieme a Samuel, una nuova identità visiva per la sua azienda che trasforma prodotti orticoli a km zero in frutti e ortaggi essiccati pronti all’uso quali: tisane, zuppe e frutta per ingolosire yogurt e gelati."
         ],
-        "logoImg": "/portfolioImg/bequet/logo_becquet2.jpg",
+        "logoImg": "/assets/portfolioImg/bequet/logo_becquet2.jpg",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/bequet/typo_becquet_text.png",
-          "typoImg2": "/portfolioImg/bequet/typo_becquet_font.png"
+          "typoImg": "/assets/portfolioImg/bequet/typo_becquet_text.png",
+          "typoImg2": "/assets/portfolioImg/bequet/typo_becquet_font.png"
         },
         "color": {
           "titolo": "Brand Colors",
@@ -1459,24 +1463,24 @@
             "Abbiamo deciso con Samuel di utilizzare colori neutri che richiamassero la terra, in grado di far esaltare i prodotti essiccati tradizionali della Valle d’Aosta.",
             "Per richiamare i colori della bandiera valdostana, abbiamo inserito nelle grafiche una coccinella (simbolo esso stesso di genuinità), utilizzando al posto del nero un marrone molto scuro."
           ],
-          "colorImg": "/portfolioImg/bequet/brandcolor_bequet.png"
+          "colorImg": "/assets/portfolioImg/bequet/brandcolor_bequet.png"
         },
         "illustrazioni": {
           "titolo": "Illustrazioni Digitali",
           "descrizione": "Abbiamo deciso di optare per una comunicazione moderna, lineare, utilizzando immagini fotografiche a contrasto con elementi vettoriali che riprendono i colori del prodotto descritto.",
-          "illImg": "/portfolioImg/bequet/illustrazioni.jpg"
+          "illImg": "/assets/portfolioImg/bequet/illustrazioni.jpg"
         },
         "label": {
           "titolo": "Label Design",
-          "labelImg": "/portfolioImg/bequet/label1_sam.jpg",
-          "cartellinoImg": "/portfolioImg/bequet/label4_sam.jpg",
-          "caramelleImg": "/portfolioImg/bequet/label2_sam.jpg",
-          "biscottiImg": "/portfolioImg/bequet/label3_sam.jpg",
-          "scatoleImg": "/portfolioImg/bequet/cartellino.jpg"
+          "labelImg": "/assets/portfolioImg/bequet/label1_sam.jpg",
+          "cartellinoImg": "/assets/portfolioImg/bequet/label4_sam.jpg",
+          "caramelleImg": "/assets/portfolioImg/bequet/label2_sam.jpg",
+          "biscottiImg": "/assets/portfolioImg/bequet/label3_sam.jpg",
+          "scatoleImg": "/assets/portfolioImg/bequet/cartellino.jpg"
         }
       },
       "reve": {
-        "img": "/portfolioImg/casadei/cover3.jpg",
+        "img": "/assets/portfolioImg/casadei/cover3.jpg",
         "name": "Le Rêve en Vert",
         "title": "reve",
         "descrizione": "Azienda Agricola di Andrea Casadei",
@@ -1505,38 +1509,38 @@
           "Con Andrea abbiamo rinnovato il logo originale e sviluppato una linea di branding completa. ",
           "Questa strategia ha incluso la creazione di un'immagine coordinata per i prodotti trasformati e la promozione attraverso materiali stampati di alta qualità, sia all’interno del punto vendita che all’esterno."
         ],
-        "logoImg": "/portfolioImg/casadei/brand_casadei.jpg",
+        "logoImg": "/assets/portfolioImg/casadei/brand_casadei.jpg",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/casadei/typo_casadei_text.png",
-          "typoImg2": "/portfolioImg/casadei/typo_casadei_font.png"
+          "typoImg": "/assets/portfolioImg/casadei/typo_casadei_text.png",
+          "typoImg2": "/assets/portfolioImg/casadei/typo_casadei_font.png"
         },
         "color": {
           "titolo": "Brand Colors",
           "descrizione": [
             "In collaborazione con Andrea, abbiamo scelto di utilizzare una gamma di tonalità di verde come base per la nostra comunicazione, con l’obiettivo di richiamare le sfumature presenti nel suo orto a chilometro zero."
           ],
-          "colorImg": "/portfolioImg/casadei/color_brand_casadei.png",
-          "sponsorImg": "/portfolioImg/casadei/sponsor.jpg"
+          "colorImg": "/assets/portfolioImg/casadei/color_brand_casadei.png",
+          "sponsorImg": "/assets/portfolioImg/casadei/sponsor.jpg"
         },
         "illustrazioni": {
           "titolo": "Illustrazioni e Pattern",
           "descrizione": "Per realizzare i pattern abbiamo creato delle illustrazioni a mano libera, convertite successivamente in formato vettoriale.",
-          "illImg": "/portfolioImg/casadei/pattern_casadei.jpg"
+          "illImg": "/assets/portfolioImg/casadei/pattern_casadei.jpg"
         },
         "label": {
           "titolo": "Label Design",
-          "labelImg": "/portfolioImg/casadei/label1.jpg",
-          "cartellinoImg": "/portfolioImg/casadei/label2.jpg",
-          "caramelleImg": "/portfolioImg/casadei/label3.jpg",
-          "biscottiImg": "/portfolioImg/casadei/label4.jpg",
-          "label": "/portfolioImg/casadei/label5.webp",
-          "label2": "/portfolioImg/casadei/label6.webp",
-          "label3": "/portfolioImg/casadei/label7.webp"
+          "labelImg": "/assets/portfolioImg/casadei/label1.jpg",
+          "cartellinoImg": "/assets/portfolioImg/casadei/label2.jpg",
+          "caramelleImg": "/assets/portfolioImg/casadei/label3.jpg",
+          "biscottiImg": "/assets/portfolioImg/casadei/label4.jpg",
+          "label": "/assets/portfolioImg/casadei/label5.webp",
+          "label2": "/assets/portfolioImg/casadei/label6.webp",
+          "label3": "/assets/portfolioImg/casadei/label7.webp"
         }
       },
       "phillacolor": {
-        "img": "/portfolioImg/phillacolor/cover_phillacolor2.jpg",
+        "img": "/assets/portfolioImg/phillacolor/cover_phillacolor2.jpg",
         "name": "Phillacolor",
         "title": "phillacolor",
         "descrizione": "Eco-Liquid Dye",
@@ -1564,29 +1568,29 @@
         "desc": [
           "Per un’idea sostenibile e innovativa, abbiamo elaborato con Laura, una strategia comunicativa che facesse emergere la filosofia del prodotto, realizzato solo con materie prime naturali e sostenibili."
         ],
-        "logoImg": "/portfolioImg/phillacolor/logo_phillacolor.png",
+        "logoImg": "/assets/portfolioImg/phillacolor/logo_phillacolor.png",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/phillacolor/typo_phillacolor_text.png",
-          "typoImg2": "/portfolioImg/phillacolor/typo_phillacolor_font.png"
+          "typoImg": "/assets/portfolioImg/phillacolor/typo_phillacolor_text.png",
+          "typoImg2": "/assets/portfolioImg/phillacolor/typo_phillacolor_font.png"
         },
         "color": {
           "titolo": "Brand Colors",
           "descrizione": [
             "Abbiamo stabilito con Laura una gamma cromatica, che traesse ispirazione dal verde della clorofilla, delle piante utilizzate per creare le tinture naturali."
           ],
-          "colorImg": "/portfolioImg/phillacolor/colorbrand_philla.jpg",
-          "colorImg2": "/portfolioImg/phillacolor/colorbrand_philla2.png"
+          "colorImg": "/assets/portfolioImg/phillacolor/colorbrand_philla.jpg",
+          "colorImg2": "/assets/portfolioImg/phillacolor/colorbrand_philla2.png"
         },
 
         "label": {
           "titolo": "Label Design",
-          "labelImg": "/portfolioImg/phillacolor/label_philla1.jpg",
-          "biscottiImg": "/portfolioImg/phillacolor/label_philla2.jpg"
+          "labelImg": "/assets/portfolioImg/phillacolor/label_philla1.jpg",
+          "biscottiImg": "/assets/portfolioImg/phillacolor/label_philla2.jpg"
         }
       },
       "chappoz": {
-        "img": "/portfolioImg/chappoz/cover_chappoz.jpg",
+        "img": "/assets/portfolioImg/chappoz/cover_chappoz.jpg",
         "name": "Chappoz",
         "title": "chappoz",
         "descrizione": "Azienda Agricola",
@@ -1614,39 +1618,39 @@
         "desc": [
           "La volontà era quella di proporre un’immagine che identificasse l’azienda agricola, a conduzione familiare, che coltiva mais, cereali e ortaggi in bassa valle a Donnas."
         ],
-        "logoImg": "/portfolioImg/chappoz/logos.jpg",
+        "logoImg": "/assets/portfolioImg/chappoz/logos.jpg",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/chappoz/typo_chap_text.png",
-          "typoImg2": "/portfolioImg/chappoz/typo_chap_font.png"
+          "typoImg": "/assets/portfolioImg/chappoz/typo_chap_text.png",
+          "typoImg2": "/assets/portfolioImg/chappoz/typo_chap_font.png"
         },
         "color": {
           "titolo": "Brand Colors",
           "descrizione": [
             "In collaborazione con Monica, abbiamo scelto dei colori che richiamassero la terra, le coltivazioni di mais e granoturco e i piccoli frutti."
           ],
-          "colorImg": "/portfolioImg/chappoz/color.png"
+          "colorImg": "/assets/portfolioImg/chappoz/color.png"
         },
         "illustrazioni": {
           "titolo": "Illustrazioni",
           "descrizione": "Ogni illustrazione è stata realizzata a mano libera, a matita e in seguito digitalizzata e resa vettoriale.",
-          "illImg": "/portfolioImg/chappoz/illustrazioni.png"
+          "illImg": "/assets/portfolioImg/chappoz/illustrazioni.png"
         },
         "label": {
           "titolo": "Label & Pack Design",
-          "labelImg": "/portfolioImg/chappoz/label1.jpg",
-          "biscottiImg": "/portfolioImg/chappoz/label_polenta.jpg"
+          "labelImg": "/assets/portfolioImg/chappoz/label1.jpg",
+          "biscottiImg": "/assets/portfolioImg/chappoz/label_polenta.jpg"
         },
         "social": {
           "titolo": "Social",
           "descrizione": [
             "Creazione di contenuti fotografici e testuali ad hoc, per la promozione dell’azienda sui canali social di Meta."
           ],
-          "socialImg": ["/portfolioImg/chappoz/social_chappoz2.jpg"]
+          "socialImg": ["/assets/portfolioImg/chappoz/social_chappoz2.jpg"]
         }
       },
       "daemy": {
-        "img": "/portfolioImg/daemy/cover2.jpg",
+        "img": "/assets/portfolioImg/daemy/cover2.jpg",
         "name": "Da Emy",
         "title": "daemy",
         "descrizione": "Piante Officinali",
@@ -1675,36 +1679,36 @@
           "Emilia e sua figlia Ambra, coltivano in quei di Valsavarenche erbe officinali e genepy.",
           "Abbiamo creato una linea comunicativa che richiamasse l’alta montagna e la naturalezza delle piantine nate nel parco del Gran Paradiso."
         ],
-        "logoImg": "/portfolioImg/daemy/brand_emy.jpg",
+        "logoImg": "/assets/portfolioImg/daemy/brand_emy.jpg",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/daemy/typo_emy_text.png",
-          "typoImg2": "/portfolioImg/daemy/typo_emy_font.png"
+          "typoImg": "/assets/portfolioImg/daemy/typo_emy_text.png",
+          "typoImg2": "/assets/portfolioImg/daemy/typo_emy_font.png"
         },
         "color": {
           "titolo": "Brand Colors",
           "descrizione": [
             "Abbiamo deciso con Emy, di utilizzare i colori dei fiori e delle piantine da lei coltivate, nelle varie gradazioni colore, per creare un piacevole contrasto con le illustrazioni botaniche."
           ],
-          "colorImg": "/portfolioImg/daemy/colors.png",
-          "colorImg2": "/portfolioImg/daemy/colors2.png"
+          "colorImg": "/assets/portfolioImg/daemy/colors.png",
+          "colorImg2": "/assets/portfolioImg/daemy/colors2.png"
         },
         "illustrazioni": {
           "titolo": "Illustrazioni a pennello ideate ad hoc",
           "descrizione": "Per conferire alle etichette uno stile del tutto naturale, ogni illustrazione è stata realizzata a mano a pennello con finiture a matita acquerellabile.",
-          "illImg": "/portfolioImg/daemy/illustrazioni.jpg"
+          "illImg": "/assets/portfolioImg/daemy/illustrazioni.jpg"
         },
         "label": {
           "titolo": "Label & Pack Design",
-          "labelImg": "/portfolioImg/daemy/label1.jpg",
-          "cartellinoImg": "/portfolioImg/daemy/label2.jpg",
-          "caramelleImg": "/portfolioImg/daemy/label3.jpg",
-          "biscottiImg": "/portfolioImg/daemy/label4.jpg",
-          "scatoleImg": "/portfolioImg/daemy/box.jpg"
+          "labelImg": "/assets/portfolioImg/daemy/label1.jpg",
+          "cartellinoImg": "/assets/portfolioImg/daemy/label2.jpg",
+          "caramelleImg": "/assets/portfolioImg/daemy/label3.jpg",
+          "biscottiImg": "/assets/portfolioImg/daemy/label4.jpg",
+          "scatoleImg": "/assets/portfolioImg/daemy/box.jpg"
         }
       },
       "horto": {
-        "img": "/portfolioImg/horto/cover_horto2.jpg",
+        "img": "/assets/portfolioImg/horto/cover_horto2.jpg",
         "name": "Horto Sapiens",
         "title": "horto",
         "descrizione": "Prodotti tipici di Monte Amiata e Val d'Orcia",
@@ -1732,33 +1736,33 @@
         "desc": [
           "La volontà era quella di creare una linea di coordinati che riflettesse la qualità delle materie prime toscane, utilizzate per creare oli aromatici, confetture dagli abbinamenti estrosi e mieli."
         ],
-        "logoImg": "/portfolioImg/horto/logo_horto.jpg",
+        "logoImg": "/assets/portfolioImg/horto/logo_horto.jpg",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/horto/typo_horto_text.png",
-          "typoImg2": "/portfolioImg/horto/typo_horto_font.png"
+          "typoImg": "/assets/portfolioImg/horto/typo_horto_text.png",
+          "typoImg2": "/assets/portfolioImg/horto/typo_horto_font.png"
         },
         "color": {
           "titolo": "Brand Colors",
           "descrizione": [
             "In collaborazione con Andrea, abbiamo optato per colori vibranti che riprendessero quelli delle materie prime utilizzate nei trasformati."
           ],
-          "colorImg": "/portfolioImg/horto/colorbrand_horto.png",
-          "sponsorImg": "/portfolioImg/horto/branding.jpg"
+          "colorImg": "/assets/portfolioImg/horto/colorbrand_horto.png",
+          "sponsorImg": "/assets/portfolioImg/horto/branding.jpg"
         },
         "illustrazioni": {
           "titolo": "Illustrazioni Vettoriali",
           "descrizione": "Per contraddistinguere ogni prodotto, ho realizzato delle icone vettoriali stilizzate, identificative dello stesso, aventi tutte lo stesso stile.",
-          "illImg": "/portfolioImg/horto/illustrazioni.png"
+          "illImg": "/assets/portfolioImg/horto/illustrazioni.png"
         },
         "label": {
           "titolo": "Label Design",
-          "labelImg": "/portfolioImg/horto/label1.jpg",
-          "biscottiImg": "/portfolioImg/horto/label2.jpg"
+          "labelImg": "/assets/portfolioImg/horto/label1.jpg",
+          "biscottiImg": "/assets/portfolioImg/horto/label2.jpg"
         }
       },
       "isavivai": {
-        "img": "/portfolioImg/isavivai/cover_isavivai.jpg",
+        "img": "/assets/portfolioImg/isavivai/cover_isavivai.jpg",
         "name": "Isavivai",
         "title": "isavivai",
         "descrizione": "Il Verde che ti emoziona",
@@ -1786,31 +1790,31 @@
         "desc": [
           "Abbiamo ideato insieme a Chérie e Monique, una linea di immagine coordinata per il nuovo punto vendita, e una strategia di marketing per la comunicazione interna e per la promozione offline."
         ],
-        "logoImg": "/portfolioImg/isavivai/logo_isavivai.jpg",
+        "logoImg": "/assets/portfolioImg/isavivai/logo_isavivai.jpg",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/isavivai/typo_isavivai_text.png",
-          "typoImg2": "/portfolioImg/isavivai/typo_isavivai_font.png"
+          "typoImg": "/assets/portfolioImg/isavivai/typo_isavivai_text.png",
+          "typoImg2": "/assets/portfolioImg/isavivai/typo_isavivai_font.png"
         },
         "color": {
           "titolo": "Brand Colors",
           "descrizione": [
             "Abbiamo stabilito con Monique e Chérie, una gamma colori pastello che identificasse e distinguesse al meglio le aree interne al vivaio."
           ],
-          "colorImg": "/portfolioImg/isavivai/colors.png",
-          "colorImg2": "/portfolioImg/isavivai/colors2.png"
+          "colorImg": "/assets/portfolioImg/isavivai/colors.png",
+          "colorImg2": "/assets/portfolioImg/isavivai/colors2.png"
         },
         "illustrazioni": {
           "titolo": "Branding",
-          "illImg": "/portfolioImg/isavivai/branding.png"
+          "illImg": "/assets/portfolioImg/isavivai/branding.png"
         },
         "label": {
           "titolo": "Allestimenti",
-          "labelImg": "/portfolioImg/isavivai/allestimenti.jpg"
+          "labelImg": "/assets/portfolioImg/isavivai/allestimenti.jpg"
         }
       },
       "saintgrat": {
-        "img": "/portfolioImg/saint/cover3.jpg",
+        "img": "/assets/portfolioImg/saint/cover3.jpg",
         "name": "Saint Grat",
         "title": "saintgrat",
         "descrizione": "Azienda agricola",
@@ -1839,36 +1843,36 @@
           "Con Elodie abbiamo pensato di riproporre in chiave stilizzata la forma della cappelletta che spicca di fronte alla sede aziendale, unendola alla produzione principale ossia le mele.",
           "Per la linea Green abbiamo prestato molta attenzione alla scelta dei materiali e alla sostenibilità degli stessi."
         ],
-        "logoImg": "/portfolioImg/saint/brand_saint.jpg",
+        "logoImg": "/assets/portfolioImg/saint/brand_saint.jpg",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/saint/typo_saint_text.png",
-          "typoImg2": "/portfolioImg/saint/typo_saint_font.png"
+          "typoImg": "/assets/portfolioImg/saint/typo_saint_text.png",
+          "typoImg2": "/assets/portfolioImg/saint/typo_saint_font.png"
         },
         "color": {
           "titolo": "Brand Colors",
           "descrizione": [
             "Abbiamo deciso di mantenere il verde originale del logo storico e di ideare invece dei colori nuovi a contrasto per identificare i succhi di mela e le confetture."
           ],
-          "colorImg": "/portfolioImg/saint/colors.png"
+          "colorImg": "/assets/portfolioImg/saint/colors.png"
         },
         "illustrazioni": {
           "titolo": "Illustrazioni e Pattern",
           "descrizione": "Per la comunicazione aziendale abbiamo inizialmente puntato su un disegno più manuale che richiamasse la storia stessa dell’azienda.",
-          "illImg": "/portfolioImg/saint/illustrazioni_classica.jpg",
+          "illImg": "/assets/portfolioImg/saint/illustrazioni_classica.jpg",
           "descrizione2": "Per i nuovi prodotti delle linea Green, abbiamo invece stabilito di scegliere una linea più moderna basata su icone vettoriali in grado di descrivere il procedimento di realizzazione dei succhi dalla raccolta all’imbottigliamento.",
-          "illImg2": "/portfolioImg/saint/illustrazioni_green.png"
+          "illImg2": "/assets/portfolioImg/saint/illustrazioni_green.png"
         },
         "label": {
           "titolo": "Label & Pack Design",
-          "labelImg": "/portfolioImg/saint/jus_dor.jpg",
-          "cartellinoImg": "/portfolioImg/saint/scarti.jpg",
-          "caramelleImg": "/portfolioImg/saint/baginbox.jpg",
-          "biscottiImg": "/portfolioImg/saint/reinetta.jpg"
+          "labelImg": "/assets/portfolioImg/saint/jus_dor.jpg",
+          "cartellinoImg": "/assets/portfolioImg/saint/scarti.jpg",
+          "caramelleImg": "/assets/portfolioImg/saint/baginbox.jpg",
+          "biscottiImg": "/assets/portfolioImg/saint/reinetta.jpg"
         }
       },
       "morzenti": {
-        "img": "/portfolioImg/morzenti/cover_morzenti.jpg",
+        "img": "/assets/portfolioImg/morzenti/cover_morzenti.jpg",
         "name": "Morzenti Daniele",
         "title": "morzenti",
         "descrizione": "Azienda agricola",
@@ -1897,18 +1901,18 @@
           "Con Daniele, abbiamo pensato di stilizzare come logo una pecora Rosset, immersa tra i verdi pascoli montani, e di includerla all’interno di un cerchio per creare una sorta di bollino di qualità",
           "Tutta la strategia verte sulla promozione attraverso i canali social di meta e mediante contenuti fotografici e testuali che descrivono l’azienda a 360°."
         ],
-        "logoImg": "/portfolioImg/morzenti/brand_morzenti.jpg",
+        "logoImg": "/assets/portfolioImg/morzenti/brand_morzenti.jpg",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/morzenti/typo_morzenti_text.png",
-          "typoImg2": "/portfolioImg/morzenti/typo_morzenti_font.png"
+          "typoImg": "/assets/portfolioImg/morzenti/typo_morzenti_text.png",
+          "typoImg2": "/assets/portfolioImg/morzenti/typo_morzenti_font.png"
         },
         "color": {
           "titolo": "Brand Colors",
           "descrizione": [
             "Sono stati selezionati dei colori che riprendono quelli della terra e dei pascoli di montagna: verdi, marroni e qualche colore a contrasto."
           ],
-          "colorImg": "/portfolioImg/morzenti/colors.png"
+          "colorImg": "/assets/portfolioImg/morzenti/colors.png"
         },
 
         "social": {
@@ -1918,16 +1922,16 @@
             "Ogni foto utilizzata per i social è scattata in azienda e ritrae la vita del pastore nomade, dell’agricoltore e del casaro."
           ],
           "socialImg": [
-            "/portfolioImg/morzenti/social1.jpg",
-            "/portfolioImg/morzenti/social2.jpg",
-            "/portfolioImg/morzenti/social3.jpg",
-            "/portfolioImg/morzenti/social4.jpg",
-            "/portfolioImg/morzenti/social5.jpg"
+            "/assets/portfolioImg/morzenti/social1.jpg",
+            "/assets/portfolioImg/morzenti/social2.jpg",
+            "/assets/portfolioImg/morzenti/social3.jpg",
+            "/assets/portfolioImg/morzenti/social4.jpg",
+            "/assets/portfolioImg/morzenti/social5.jpg"
           ]
         }
       },
       "gourmandises": {
-        "img": "/portfolioImg/gourmandises/cover_gourmandises.webp",
+        "img": "/assets/portfolioImg/gourmandises/cover_gourmandises.webp",
         "name": "Les Gourmandises ",
         "title": "morzenti",
         "descrizione": "di Alice Borettaz",
@@ -1956,33 +1960,33 @@
           "Alice, una giovane imprenditrice, ha deciso di riportare in auge la produzione della Piata di Issogne, un pane dolce tradizionale e riconosciuto con la denominazione DECO. ",
           "Oltre alla Piata, nel suo laboratorio nascono altre prelibatezze da forno. Insieme, abbiamo scelto di creare un logo che rappresentasse l’elemento fondamentale alla base di tutte le sue creazioni: il grano, simbolo di autenticità e tradizione."
         ],
-        "logoImg": "/portfolioImg/gourmandises/brand_gourmandises.webp",
+        "logoImg": "/assets/portfolioImg/gourmandises/brand_gourmandises.webp",
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/gourmandises/typo_gourmandises_text.webp",
-          "typoImg2": "/portfolioImg/gourmandises/typo_gourmandises_font.webp"
+          "typoImg": "/assets/portfolioImg/gourmandises/typo_gourmandises_text.webp",
+          "typoImg2": "/assets/portfolioImg/gourmandises/typo_gourmandises_font.webp"
         },
         "applyColor": {
           "descrizione": "Applicazione della Palette colori",
-          "colorImg": "/portfolioImg/gourmandises/promo.webp"
+          "colorImg": "/assets/portfolioImg/gourmandises/promo.webp"
         },
         "color": {
           "titolo": "Brand Colors",
           "descrizione": [
             "Con Alice, abbiamo scelto una palette di colori pastello caldi, ispirata alle tonalità naturali dei campi e ai prodotti da forno. Questi colori trasmettono un senso di comfort e familiarità, creando un ambiente visivamente armonioso e invitante."
           ],
-          "colorImg": "/portfolioImg/gourmandises/colors.png"
+          "colorImg": "/assets/portfolioImg/gourmandises/colors.png"
         },
         "fustella": {
-          "fustellaImg": "/portfolioImg/gourmandises/etichetta_fustella.png"
+          "fustellaImg": "/assets/portfolioImg/gourmandises/etichetta_fustella.png"
         },
         "label": {
-          "labelImg": "/portfolioImg/gourmandises/portfolio_alice7.png",
-          "cartellinoImg": "/portfolioImg/gourmandises/portfolio_alice8.png"
+          "labelImg": "/assets/portfolioImg/gourmandises/portfolio_alice7.png",
+          "cartellinoImg": "/assets/portfolioImg/gourmandises/portfolio_alice8.png"
         }
       },
       "jardinpotager": {
-        "img": "/portfolioImg/jardin_potager/cover_jardinpotager.webp",
+        "img": "/assets/portfolioImg/jardin_potager/cover_jardinpotager.webp",
         "name": "Jardin Potager",
         "title": "jardinpotager",
         "descrizione": "Assessorato Agricoltura e Risorse Naturali",
@@ -2008,23 +2012,23 @@
         ],
         "typo": {
           "titolo": "Typography",
-          "typoImg": "/portfolioImg/jardin_potager/typo_book_text.png",
-          "typoImg2": "/portfolioImg/jardin_potager/typo_book_font.webp"
+          "typoImg": "/assets/portfolioImg/jardin_potager/typo_book_text.png",
+          "typoImg2": "/assets/portfolioImg/jardin_potager/typo_book_font.webp"
         },
         "illustrazioni2": {
           "titolo": "Illustrazione",
           "descrizione": "Ecco a voi le 2 mascotte che accompagneranno i ragazzi delle scuole nel meraviglioso mondo del Jardin Potager.",
-          "illImg": "/portfolioImg/jardin_potager/mascotte1.png",
+          "illImg": "/assets/portfolioImg/jardin_potager/mascotte1.png",
           "descrizione2": "Per la realizzazione dell’intero volume sono state realizzate + di 60 illustrazioni digitali eccone alcune:",
-          "illImg2": "/portfolioImg/jardin_potager/illu2.png"
+          "illImg2": "/assets/portfolioImg/jardin_potager/illu2.png"
         },
         "libro": {
           "illustrazioni": [
-            "/portfolioImg/jardin_potager/illu3.webp",
-            "/portfolioImg/jardin_potager/illu4.png",
-            "/portfolioImg/jardin_potager/illu5.png",
-            "/portfolioImg/jardin_potager/illu6.png",
-            "/portfolioImg/jardin_potager/illu7.png"
+            "/assets/portfolioImg/jardin_potager/illu3.webp",
+            "/assets/portfolioImg/jardin_potager/illu4.png",
+            "/assets/portfolioImg/jardin_potager/illu5.png",
+            "/assets/portfolioImg/jardin_potager/illu6.png",
+            "/assets/portfolioImg/jardin_potager/illu7.png"
           ]
         }
       }
@@ -2033,8 +2037,8 @@
 
   "contatti": {
     "hero": {
-      "title": "/pageImg/contattiTitle.png",
-      "img": "/pageImg/lupo2.webp"
+      "title": "/assets/pageImg/contattiTitle.png",
+      "img": "/assets/pageImg/lupo2.webp"
     },
     "contactForm": {
       "row1": "Ciao! Mi chiamo",
