@@ -127,7 +127,7 @@ const Works = ({ works, previousWork, nextWork }) => {
               <span className="text-red">.</span>
             </h3>
           </div>
-          <div className="relative h-[20vh] lg:h-screen">
+          <div className="relative h-[20vh] lg:h-screen w-full">
             <Image
               src={works?.applyColor.colorImg}
               fill

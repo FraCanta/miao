@@ -1,6 +1,6 @@
 import React from "react";
 import SlideAnimation from "@/components/slideAnimation/slideAnimation";
-import translationIT from "../public/locales/it/it.json";
+import translationIT from "@/public/locales/it/it.json";
 
 import HeroPage from "@/components/heros/heroPage";
 import Head from "next/head";
@@ -114,6 +114,15 @@ const Me = ({ translation }) => {
               />
             );
           })}
+          <Link
+            href="/contatti"
+            title="Se ti sono piaciuti i miei lavori, consulta i servizi che ho per te"
+            className="p-2 bg-red"
+          >
+            <div className="flex items-center justify-center h-[50vh] text-2xl font-bold uppercase lg:h-full lg:text-4xl text-white">
+              <h2> + New project</h2>
+            </div>
+          </Link>
         </section>
         <section className="w-[90%] mx-auto min-h-[20vh] flex flex-col gap-6 mt-[50px]  md:mt-[150px] text-center justify-center items-center">
           <h3 className="capitalize text-[5vw] md:text-[2.5vw]">

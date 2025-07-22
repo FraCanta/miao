@@ -18,19 +18,34 @@ function ColorBrand({ translation }) {
           </div>
         );
       })}
-
-      <div className="relative h-[20vh] lg:h-[50vh]">
-        <Image
-          src={translation?.colorImg}
-          fill
-          className="object-contain object-center h-full"
-          alt=""
-        ></Image>
-      </div>
+      {translation?.colorImg ? (
+        <div className="relative h-[20vh] lg:min-h-[50vh]">
+          <Image
+            src={translation?.colorImg}
+            fill
+            className="object-contain object-center h-full"
+            alt=""
+          ></Image>
+        </div>
+      ) : (
+        ""
+      )}
       {translation?.colorImg2 ? (
         <div className="relative h-[20vh] lg:h-[50vh]">
           <Image
             src={translation?.colorImg2}
+            fill
+            className="object-contain object-center h-full"
+            alt=""
+          ></Image>
+        </div>
+      ) : (
+        ""
+      )}
+      {translation?.colorImg3 ? (
+        <div className="relative h-[20vh] lg:h-screen">
+          <Image
+            src={translation?.colorImg3}
             fill
             className="object-contain object-center h-full"
             alt=""

@@ -354,29 +354,29 @@
         "link": "logo",
         "gallery": [
           {
-            "src": "/serviziImg/branding/brand.webp",
+            "src": "/assets/serviziImg/branding/brand.webp",
             "width": 600,
             "height": 600
           },
 
           {
-            "src": "/serviziImg/branding/brand3.webp",
+            "src": "/assets/serviziImg/branding/brand3.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/branding/brandA.webp",
+            "src": "/assets/serviziImg/branding/brandA.webp",
             "width": 600,
             "height": 600
           },
           {
-            "src": "/serviziImg/branding/brand7.webp",
+            "src": "/assets/serviziImg/branding/brand7.webp",
             "width": 600,
             "height": 600
           },
 
           {
-            "src": "/serviziImg/branding/brand6.webp",
+            "src": "/assets/serviziImg/branding/brand6.webp",
             "width": 600,
             "height": 600
           }
@@ -1353,6 +1353,15 @@
         "location": "Valle d’Aosta",
         "link": "/portfolio/jardinpotager",
         "button": ["Illustration"]
+      },
+      {
+        "img": "/assets/portfolioImg/alpimiel/alpimiel_cover.jpg",
+        "name": "Alpimiel",
+        "title": "alpimiel",
+        "descrizione": "Miele di Montagna",
+        "location": "Quart - Valle d’Aosta",
+        "link": "/portfolio/alpimiel",
+        "button": ["Branding", "Label Design"]
       }
     ],
     "singleWorks": {
@@ -1810,7 +1819,8 @@
         },
         "label": {
           "titolo": "Allestimenti",
-          "labelImg": "/assets/portfolioImg/isavivai/allestimenti.jpg"
+          "labelImg": "/assets/portfolioImg/isavivai/allestimenti.jpg",
+          "etichettasImg": "/assets/portfolioImg/isavivai/furgone_isavivai.webp"
         }
       },
       "saintgrat": {
@@ -2030,6 +2040,63 @@
             "/assets/portfolioImg/jardin_potager/illu6.png",
             "/assets/portfolioImg/jardin_potager/illu7.png"
           ]
+        }
+      },
+      "alpimiel": {
+        "img": "/assets/portfolioImg/alpimiel/alpimiel_cover.webp",
+        "name": "AlpiMiel",
+        "title": "alpimiel",
+        "descrizione": "di Mario Marrone",
+        "location": "Quart - Valle d’Aosta",
+        "link": "/works/morzenti",
+        "button": ["Branding", "Label Design"],
+        "introTitolo": "Progetto",
+        "cliente": {
+          "titolo": "cliente",
+          "nome": "Alpimiel di Mario Marrone"
+        },
+        "keywords": {
+          "titolo": "keywords",
+          "nome": "Montagna, Apicoltura, Natura, Miele, Territorio"
+        },
+        "anno": {
+          "titolo": "anno",
+          "nome": "2025"
+        },
+
+        "servizi": {
+          "titolo": "servizi",
+          "nome": ["branding - label design"]
+        },
+        "desc": [
+          "Abbiamo ideato insieme a Mario un nuovo logo per la sua azienda agricola apistica che produce differenti tipologie di miele, polline e trasformati.",
+          "Il logo è pensato per esprimere in modo immediato e simbolico l’essenza dell’azienda: nel suo insieme rappresenta un’ape che spicca il volo sopra le montagne, simboleggiando il legame profondo tra il lavoro delle api e il territorio montano in cui l’azienda opera."
+        ],
+        "logoImg": "/assets/portfolioImg/alpimiel/brand_alpimiel.webp",
+        "typo": {
+          "titolo": "Typography",
+          "typoImg": "/assets/portfolioImg/alpimiel/typo_alpimiel_font.png",
+          "typoImg2": "/assets/portfolioImg/alpimiel/typo_alpimiel_text.png"
+        },
+        "color": {
+          "titolo": "Brand Colors",
+          "descrizione": [
+            "In collaborazione con Mario, abbiamo creato una palette di colori freddi e contrastanti pensata per rafforzare la comunicazione promozionale del nostro brand. Questa selezione cromatica non è solo estetica, ma ha una funzione ben precisa: attrarre l’attenzione del pubblico, facilitare il riconoscimento visivo e differenziare il nostro prodotto nel mercato competitivo.",
+            "I colori freddi e contrastanti sono stati scelti strategicamente per conferire ai materiali promozionali un aspetto moderno e accattivante, con l’obiettivo di evidenziare la personalità unica dell’azienda. La palette non solo aiuta a trasmettere messaggi visivi chiari, ma ottimizza anche l’esperienza dell’utente, guidandolo attraverso un viaggio visivo che va oltre l’aspetto grafico e tocca aspetti legati alla percezione e all’emozione.",
+            "Per le etichette del miele, abbiamo selezionato una gamma di colori che richiama i fiori, le foglie e i toni delle montagne che caratterizzano la valle. Ogni colore è stato scelto per rappresentare il legame profondo tra il territorio e il prodotto, creando un forte senso di autenticità e connessione con la natura. Questa scelta cromatica non solo arricchisce visivamente il packaging, ma racconta anche la storia del miele, mettendo in risalto le origini botaniche e il paesaggio che lo rende unico."
+          ],
+          "colorImg3": "/assets/portfolioImg/alpimiel/coloribrand_alpimiel.webp"
+        },
+
+        "label": {
+          "titolo": "Label & Pack Design",
+          "labelImg": "/assets/portfolioImg/alpimiel/etichetta_miele6.webp",
+          "cartellinoImg": "/assets/portfolioImg/alpimiel/etichetta_miele2.webp",
+          "caramelleImg": "/assets/portfolioImg/alpimiel/etichetta_miele3.webp",
+          "biscottiImg": "/assets/portfolioImg/alpimiel/etichetta_miele7.webp",
+          "scatoleImg": "/assets/portfolioImg/alpimiel/etichetta_miele1.webp",
+          "cremaImg": "/assets/portfolioImg/alpimiel/etichetta_miele5.webp",
+          "etichettasImg": "/assets/portfolioImg/alpimiel/etichetta_miele4.webp"
         }
       }
     }
