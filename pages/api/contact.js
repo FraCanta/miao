@@ -3,14 +3,12 @@ import nodemailer from "nodemailer";
 export default async function mailer(req, res) {
   const { name, work, email, source, services, price, message } = req.body;
   const transporter = nodemailer.createTransport({
-    host: "smtp.gmail.com",
+    host: "smtp.ionos.it",
     port: 465,
     secure: true,
     auth: {
-      //   user: process.env.SMTP_USER, se vogliamo inserire le credenziali su env
-      //   pass: process.env.SMTP_PASSWORD,
-      user: "fcantale14@gmail.com",
-      pass: "zhqnyibyfvewrcfe",
+      user: process.env.NODEMAILER_USER,
+      pass: process.env.NODEMAILER_PASS,
     },
   });
 
