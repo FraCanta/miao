@@ -41,7 +41,7 @@ const Layout = (props) => {
           duration: 3000,
           success: {
             iconTheme: {
-              primary: "#39373c",
+              primary: "#de4928",
               secondary: "white",
             },
           },
