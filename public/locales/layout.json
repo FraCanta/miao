@@ -2,56 +2,56 @@
   "menu": {
     "it": {
       "me": "chi sono",
-      "servizi": "cosa offro",
+      "servizi": "i miei servizi",
       "singleService": [
         {
           "img": "/serviziImg/logodesign.png",
           "name": "Logo Design",
-          "title": "logo",
+          "title": "logo-design",
           "descrizione": "Un logo progettato su misura, in base al tuo target di riferimento e alla tua vision è un investimento per il successo della tua azienda.",
-          "link": "/servizi/logo"
+          "link": "/servizi/logo-design"
         },
         {
           "img": "/serviziImg/branding.png",
           "name": "Branding Strategy",
           "descrizione": "Una buona strategia di branding ti permette di differenziarti dalla concorrenza e di costruire un'identità forte, unica e riconoscibile.",
-          "link": "/servizi/branding"
+          "link": "/servizi/branding-strategy"
         },
         {
           "img": "/serviziImg/label.png",
           "name": "Label & Packaging",
           "descrizione": "Il label e il packaging design sono essenziali per il successo di un prodotto, in un mercato competitivo, sono cruciali per catturare l’interesse del pubblico e informare il consumatore.",
-          "link": "/servizi/label"
+          "link": "/servizi/label-packaging"
         },
         {
           "img": "/serviziImg/social.png",
           "name": "Social Media Strategy",
           "descrizione": "Risparmia tempo e migliora la tua presenza online con contenuti mirati e aggiornati alle ultime tendenze per aumentare l'engagement.",
-          "link": "/servizi/social"
+          "link": "/servizi/social-media-strategy"
         },
         {
           "img": "/serviziImg/campagne.png",
           "name": "Offline Campaigns",
           "descrizione": "Le campagne offline plasmano scelte, creano connessioni e trasmettono messaggi profondi, incarnando idee, valori e brand che si toccano, sentono e ricordano.",
-          "link": "/servizi/campagne"
+          "link": "/servizi/offline-campaigns"
         },
         {
           "img": "/serviziImg/allestimenti.png",
           "name": "Stage Design",
           "descrizione": "Gli allestimenti personalizzati conferiscono personalità ad uno spazio vuoto. Possono evocare emozioni, creare atmosfere e coinvolgere il pubblico in modo unico.",
-          "link": "/servizi/allestimenti"
+          "link": "/servizi/stage-design"
         },
         {
           "img": "/serviziImg/illustrazione.png",
           "name": "Illustrations",
           "descrizione": "Le illustrazioni create ad hoc, sono molto più di semplici immagini; sono elementi chiave che permettono di esaltare il tuo brand e renderlo unico e memorabile.",
-          "link": "/servizi/illustrazione"
+          "link": "/servizi/illustrations"
         },
         {
           "img": "/serviziImg/contentCreator.png",
           "name": "Content Creator",
           "descrizione": "Nel mondo digitale di oggi, il contenuto ricopre un ruolo sempre più importante. Ma non si tratta solo di quantità; si tratta di qualità e, soprattutto, di personalizzazione.",
-          "link": "/servizi/content"
+          "link": "/servizi/content-creator"
         }
       ],
       "portfolio": "portfolio",
@@ -59,28 +59,28 @@
         {
           "img": "/portfolioImg/anserme/cover2.png",
           "name": "Ansermé",
-          "title": "ansermè",
+          "title": "anserme",
           "descrizione": "Bio Bontà di Montagna",
           "location": "Arnad  - Valle d’Aosta",
-          "link": "/portfolio/ansermè",
+          "link": "/portfolio/anserme",
           "button": ["Branding", "Label Design", "Social Media"]
         },
         {
           "img": "/portfolioImg/bequet/cover2.jpg",
           "name": "Samuel Becquet",
-          "title": "becquet",
+          "title": "samuel-becquet",
           "descrizione": "Agriculture en Haute Montagne",
           "location": "Ayas - Valle d’Aosta",
-          "link": "/portfolio/becquet",
+          "link": "/portfolio/samuel-becquet",
           "button": ["Branding", "Label Design"]
         },
         {
           "img": "/portfolioImg/casadei/cover3.jpg",
           "name": "Le Rêve en Vert",
-          "title": "reve",
+          "title": "le-reve-en-vert",
           "descrizione": "Azienda Agricola di Andrea Casadei",
           "location": "Arnad - Valle d’Aosta",
-          "link": "/portfolio/reve",
+          "link": "/portfolio/le-reve-en-vert",
           "button": ["Branding", "Label Design"]
         },
         {
@@ -104,19 +104,19 @@
         {
           "img": "/portfolioImg/daemy/cover2.jpg",
           "name": "Da Emy",
-          "title": "daemy",
+          "title": "da-emy",
           "descrizione": "Piante Officinali",
           "location": "Valsavarenche - Valle d’Aosta",
-          "link": "/portfolio/daemy",
+          "link": "/portfolio/da-emy",
           "button": ["Branding", "Label Design"]
         },
         {
           "img": "/portfolioImg/horto/cover_horto2.jpg",
           "name": "Horto Sapiens",
-          "title": "horto",
+          "title": "horto-sapiens",
           "descrizione": "Prodotti tipici di Monte Amiata e Val d'Orcia",
           "location": "Abbadia San Salvatore (SI) - Toscana",
-          "link": "/portfolio/horto",
+          "link": "/portfolio/horto-sapiens",
           "button": ["Branding", "Label Design"]
         },
         {
@@ -131,19 +131,19 @@
         {
           "img": "/portfolioImg/saint/cover3.jpg",
           "name": "Saint Grat",
-          "title": "saintgrat",
+          "title": "saint-grat",
           "descrizione": "Azienda Agricola",
           "location": "Gressan - Valle d’Aosta",
-          "link": "/portfolio/saintgrat",
+          "link": "/portfolio/saint-grat",
           "button": ["Branding", "Label Design"]
         },
         {
           "img": "/portfolioImg/morzenti/cover_morzenti.jpg",
           "name": "Morzenti Daniele",
-          "title": "morzenti",
+          "title": "morzenti-daniele",
           "descrizione": "Azienda Agricola",
           "location": "Aymavilles - Valle d’Aosta",
-          "link": "/portfolio/morzenti",
+          "link": "/portfolio/morzenti-daniele",
           "button": ["Branding", "Social Media"]
         }
       ],

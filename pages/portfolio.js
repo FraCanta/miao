@@ -1,166 +1,269 @@
-import React from "react";
-import SlideAnimation from "@/components/slideAnimation/slideAnimation";
+import { useMemo, useState } from "react";
+import Head from "next/head";
+import Link from "next/link";
+import { Icon } from "@iconify/react";
 import translationIT from "@/public/locales/it/it.json";
 
-import HeroPage from "@/components/heros/heroPage";
-import Head from "next/head";
+import Behance from "@/public/assets/Behance-logo2.optimized.webp";
+import ButtonLink from "@/components/layout/ButtonLink";
+import HeroPage from "@/components/layout/HeroPage";
+import SectionIndex from "@/components/layout/SectionIndex";
 import WorksItem from "@/components/worksItem/worksItem";
-import Link from "next/link";
-import Image from "next/image";
-import Behance from "@/public/assets/Behance-logo2.png";
-import { Icon } from "@iconify/react";
-const Me = ({ translation }) => {
-  // console.log(translation);
+
+const INITIAL_VISIBLE = 4;
+const LOAD_STEP = 4;
+const ALL_FILTER = "Tutti";
+const EMPTY_WORKS = [];
+
+const filterLabels = {
+  "Social Media": "Social media",
+  Illustration: "Illustrazione",
+};
+
+const Portfolio = ({ translation }) => {
+  const works = translation?.worksItem || EMPTY_WORKS;
+  const [activeFilter, setActiveFilter] = useState(ALL_FILTER);
+  const [visibleCount, setVisibleCount] = useState(INITIAL_VISIBLE);
+
+  const filters = useMemo(
+    () => [
+      ALL_FILTER,
+      ...Array.from(new Set(works.flatMap((work) => work.button || []))),
+    ],
+    [works],
+  );
+
+  const featuredWorks = works.slice(0, 4);
+  const archiveWorks = useMemo(() => {
+    if (activeFilter === ALL_FILTER) {
+      return works.slice(4);
+    }
+
+    return works.filter((work) => work.button?.includes(activeFilter));
+  }, [activeFilter, works]);
+
+  const visibleWorks = archiveWorks.slice(0, visibleCount);
+  const hasMoreWorks = visibleCount < archiveWorks.length;
+  const metaDescription =
+    "Una selezione di progetti MIAO graphics tra identità visiva, branding, label design, comunicazione e illustrazione.";
+
+  const selectFilter = (filter) => {
+    setActiveFilter(filter);
+    setVisibleCount(INITIAL_VISIBLE);
+  };
+
   return (
-    <>
+    <div>
       <Head>
-        <title>Miao graphics - Portfolio</title>
-        <meta
-          name="description"
-          content="Sono una Graphic Designer e Content Creator, e sono qui per essere la tua partner nella definizione dell’identità visiva della tua azienda."
-        />
+        <title>MIAO graphics — Portfolio</title>
+        <meta name="description" content={metaDescription} />
         <meta
           name="keywords"
-          content="Case history, 
-          Logofolio, 
-          Brand identity,
-          Lavori svolti, 
-          Branding, 
-          Identità visive, 
-          Packaging,
-          Packaging solutions, 
-          Creative solutions,
-          Soluzioni creative,
-          Soluzioni personalizzate, 
-          Brand colors,
-          Brand image "
+          content="portfolio graphic design, branding, identità visiva, label design, packaging, illustrazione"
         />
         <meta name="author" content="Elisa Avantey" />
+        <link rel="canonical" href="https://www.miaographics.it/portfolio" />
         <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0"
-        ></meta>
-        <meta property="og:url" content="https://www.miaographics.it/" />
+          property="og:url"
+          content="https://www.miaographics.it/portfolio"
+        />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Miao graphics - Portfolio" />
+        <meta property="og:title" content="MIAO graphics — Portfolio" />
+        <meta property="og:description" content={metaDescription} />
         <meta
           property="og:image"
-          content="https://www.miaographics.it/assets/cover_web.png"
-        />
-        <meta
-          property="og:description"
-          content="Sono una Graphic Designer e Content Creator, e sono qui per essere la tua partner nella definizione dell’identità visiva della tua azienda."
+          content="https://www.miaographics.it/assets/pageImg/gufo2.optimized.webp"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="miaographics.it" />
-        <meta property="twitter:url" content="https://www.miaographics.it/" />
-        <meta name="twitter:title" content="Miao graphics - Portfolio" />
+        <meta name="twitter:title" content="MIAO graphics — Portfolio" />
+        <meta name="twitter:description" content={metaDescription} />
         <meta
           name="twitter:image"
-          content="https://www.miaographics.it/assets/cover_web.png"
+          content="https://www.miaographics.it/assets/pageImg/gufo2.optimized.webp"
         />
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/apple-touch-icon.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/favicon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="/favicon-16x16.png"
-        />
-        <link rel="manifest" href="/site.webmanifest" />
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-        <meta name="msapplication-TileColor" content="#ffffff" />
-        <meta name="theme-color" content="#ffffff"></meta>
       </Head>
-      <SlideAnimation>
-        <div className="w-full min-h-[calc(100vh_-_80px)] lg:h-[calc(100vh_-_70px)]  2xl:h-[calc(100vh_-_100px)] fxl:h-[calc(100vh_-_150px)]  4xl:h-[calc(100vh_-_250px)] mx-auto flex flex-col lg:flex-row items-center justify-center 2xl:justify-between">
-          <HeroPage
-            title={translation?.hero?.title}
-            img={translation?.hero?.img}
-            desc="Una Selezione di Lavori<br/> che raccontano per Immagini, <br/>i Servizi da me offerti"
-          />
+
+      <HeroPage
+        image={translation?.hero?.img}
+        imageAlt="Collage creativo MIAO graphics per il portfolio"
+        columnsVariant="visual"
+        mobileImageHeight="portfolio"
+      >
+        <SectionIndex>PROGETTI SELEZIONATI</SectionIndex>
+        <div className="flex items-center gap-3 md:gap-5">
+          <span
+            className="font-serif text-[5.5rem] leading-none text-red md:text-[6rem]"
+            aria-hidden="true"
+          >
+            {"{"}
+          </span>
+          <h1 className="text-[clamp(3.2rem,7vw,5rem)] font-extrabold  text-main">
+            Portfolio
+          </h1>
         </div>
-        {/* <section className="w-[90%] mx-auto min-h-[20vh] flex flex-col gap-6 mt-[50px]  md:mt-[150px]">
-          {translation?.intro.map((el, i) => {
-            return (
-              <p
-                key={i}
-                className="text-[8vw] md:text-[5vw] lg:text-[2.5vw]"
-                dangerouslySetInnerHTML={{ __html: el }}
-              ></p>
-            );
-          })}
-        </section> */}
-        <section className="grid grid-cols-1 lg:grid-cols-2  min-h-[40vh] mt-[100px]">
-          {translation?.worksItem?.map((el, i) => {
-            return (
-              <WorksItem
-                key={i}
-                img={el?.img}
-                name={el?.name}
-                descrizione={el?.descrizione}
-                link={el?.link}
-                button={el?.button}
-                location={el?.location}
-              />
-            );
-          })}
-          <Link
-            href="/contatti"
-            title="Se ti sono piaciuti i miei lavori, consulta i servizi che ho per te"
-            className="p-2 bg-red"
+        <p className="mt-7 max-w-xl text-xl leading-relaxed text-second md:text-xl">
+          Una selezione di progetti di branding, graphic design, identità
+          visiva, packaging design e comunicazione visiva, pensati per costruire
+          brand riconoscibili e coerenti.
+        </p>
+        <ButtonLink
+          href="#progetti"
+          title="Scopri i progetti"
+          variant="outline"
+          arrowIcon="prime:arrow-down"
+          className="mt-9"
+        >
+          Scopri i progetti
+        </ButtonLink>
+      </HeroPage>
+
+      <section className="border-b border-main/10 bg-main/[0.025]">
+        <div className="mx-auto grid w-[90%] grid-cols-[auto_minmax(0,1fr)] items-start gap-x-2 gap-y-8 py-14 md:grid-cols-[auto_1fr_1.15fr] md:items-center md:gap-5 lg:py-20">
+          <span
+            className="flex self-stretch items-center font-serif text-red"
+            aria-hidden="true"
           >
-            <div className="flex items-center justify-center h-[50vh] text-2xl font-bold uppercase lg:h-full lg:text-4xl text-white">
-              <h2> + New project</h2>
+            <span className="block origin-center scale-y-[1.1] text-[8rem] leading-[0.65] md:scale-y-100 md:text-[9rem]">
+              {"{"}
+            </span>
+          </span>
+          <h2 className="text-3xl font-extrabold  leading-tight text-main ">
+            Ogni progetto ha una storia differente da raccontare.
+          </h2>
+          <p className="col-span-2 text-base leading-relaxed text-second md:col-span-1 md:border-l md:border-main/15 md:pl-10 ">
+            Ascolto, ricerca e strategia guidano ogni scelta creativa.
+            Dall’identità visiva al packaging, dai contenuti ai materiali
+            stampatistampati, progetto soluzioni su misura per dare forma e
+            valore a ogni brand.
+          </p>
+        </div>
+      </section>
+
+      <section
+        id="progetti"
+        className="mx-auto w-[90%] scroll-mt-28 py-16 lg:py-24"
+      >
+        <div className="border-b border-main/15 pb-6">
+          <span className="mb-4 block text-xs font-bold uppercase tracking-[0.18em] text-second">
+            Filtra per
+          </span>
+          <div
+            className="flex gap-7 overflow-x-auto pb-2 md:flex-wrap md:gap-x-10"
+            role="group"
+            aria-label="Filtra i progetti per ambito"
+          >
+            {filters.map((filter) => {
+              const isActive = filter === activeFilter;
+
+              return (
+                <button
+                  key={filter}
+                  type="button"
+                  onClick={() => selectFilter(filter)}
+                  aria-pressed={isActive}
+                  className={`shrink-0 border-b-2 pb-2 text-sm font-bold transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-red md:text-base ${
+                    isActive
+                      ? "border-red text-red"
+                      : "border-transparent text-main hover:border-main/30 hover:text-red"
+                  }`}
+                >
+                  {filterLabels[filter] || filter}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        {activeFilter === ALL_FILTER && featuredWorks.length > 0 && (
+          <div className="mt-14">
+            <SectionIndex>PROGETTI IN EVIDENZA</SectionIndex>
+            <div className="mt-7 grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4">
+              {featuredWorks.map((work) => (
+                <WorksItem key={work.link} {...work} />
+              ))}
             </div>
-          </Link>
-        </section>
-        <section className="w-[90%] mx-auto min-h-[20vh] flex flex-col gap-6 mt-[50px]  md:mt-[150px] text-center justify-center items-center">
-          <h3 className="capitalize text-[5vw] md:text-[2.5vw]">
-            La mia creatività non finisce qui...
-            <br /> <span className="font-bold text-red">Continua su</span>
-          </h3>
-          <Link
-            href="https://miaographics.myportfolio.com/work"
-            title="guarda gli altri miei lavori"
-            target="_blank"
-            className="hand-pointer font-medium gap-2 w-54 py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 border 2xl:text-xl fxl:text-2xl 3xl:text-3xl rounded shadow  hover:transition-all border-red  bg-red flex items-center justify-center"
+          </div>
+        )}
+
+        <div className="mt-14">
+          <SectionIndex>
+            {activeFilter === ALL_FILTER
+              ? "ARCHIVIO PROGETTI"
+              : `PROGETTI: ${filterLabels[activeFilter] || activeFilter}`}
+          </SectionIndex>
+
+          {visibleWorks.length > 0 ? (
+            <div className="mt-7 grid grid-cols-1 gap-x-4 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+              {visibleWorks.map((work) => (
+                <WorksItem key={work.link} {...work} />
+              ))}
+            </div>
+          ) : (
+            <p className="mt-8 text-lg text-second">
+              Nessun progetto disponibile per questo filtro.
+            </p>
+          )}
+
+          <div className="mt-10 flex flex-col items-center gap-5">
+            {hasMoreWorks && (
+              <button
+                type="button"
+                onClick={() => setVisibleCount((count) => count + LOAD_STEP)}
+                className="site-button-outline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-red"
+              >
+                <span>Carica altri progetti</span>
+                <Icon
+                  icon="prime:arrow-down"
+                  aria-hidden="true"
+                  className="h-4 w-4"
+                />
+              </button>
+            )}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-red text-white">
+        <div className="mx-auto flex w-[90%] flex-col gap-8 py-12 md:flex-row md:items-center md:justify-between lg:py-16">
+          <div className="flex items-center gap-6">
+            <span
+              className="font-serif text-[7rem] leading-[0.55] text-white"
+              aria-hidden="true"
+            >
+              {"{"}
+            </span>
+            <div>
+              <h2 className="text-3xl font-extrabold  md:text-4xl lg:text-5xl">
+                Hai un&apos;idea da sviluppare?
+              </h2>
+              <p className="mt-2 text-white/80">
+                Costruiamo insieme un’identità visiva chiara e riconoscibile.
+              </p>
+            </div>
+          </div>
+          <ButtonLink
+            href="/contatti"
+            title="Parliamo del tuo progetto"
+            variant="inverse"
+            size="lg"
+            className="shrink-0"
           >
-            <Image src={Behance} alt="behance logo" className="w-[5rem]" />{" "}
-            <Icon icon="ph:arrow-up-right-light" className="text-white" />
-          </Link>
-        </section>
-      </SlideAnimation>
-    </>
+            Parliamo del progetto
+          </ButtonLink>
+        </div>
+      </section>
+    </div>
   );
 };
 
-export default Me;
+export default Portfolio;
 
-export async function getStaticProps(locale, context) {
-  let obj;
-  switch (locale.locale) {
-    case "it":
-      obj = translationIT;
-      break;
-
-    default:
-      obj = translationIT;
-      break;
-  }
+export async function getStaticProps({ locale }) {
+  const translations = locale === "it" ? translationIT : translationIT;
 
   return {
     props: {
-      translation: obj?.portfolio,
+      translation: translations?.portfolio,
     },
     revalidate: 60,
   };

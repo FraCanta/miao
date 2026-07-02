@@ -4,11 +4,11 @@ import React from "react";
 const Social = ({ translation }) => {
   return (
     <div>
-      <h3 className="text-[6vw] md:text-[3.5vw] mb-2 text-main font-bold">
+      <h3 className="text-[6vw] md:text-[2.5vw] mb-2 text-main font-bold">
         <span>{translation?.titolo}</span>
         <span className="text-red">.</span>
       </h3>
-      <div className="text-[4.5vw] md:text-[3vw] lg:text-[1.3vw] text-second mb-6">
+      <div className="text-[4.5vw] md:text-[2.5vw] lg:text-[1vw] text-second mb-6">
         {translation?.descrizione?.map((d, i) => {
           return (
             <p key={i} className="my-2">

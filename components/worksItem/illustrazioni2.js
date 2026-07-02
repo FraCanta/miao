@@ -4,7 +4,7 @@ import React from "react";
 const Illustrazioni2 = ({ translation }) => {
   return (
     <div>
-      <h3 className="text-[6vw] md:text-[3.5vw] font-bold mb-2 text-main">
+      <h3 className="text-[6vw] md:text-[2.5vw] font-bold mb-2 text-main">
         <span>{translation?.titolo}</span>
         <span className="text-red">.</span>
       </h3>

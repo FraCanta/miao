@@ -4,7 +4,7 @@ import React from "react";
 function ColorBrand({ translation }) {
   return (
     <div>
-      <h3 className="text-[6vw] md:text-[3.5vw] mb-2 text-main font-bold">
+      <h3 className="text-[6vw] md:text-[2.5vw] mb-2 text-main font-bold">
         <span>{translation?.titolo}</span>
         <span className="text-red">.</span>
       </h3>
@@ -12,7 +12,7 @@ function ColorBrand({ translation }) {
         return (
           <div
             key={i}
-            className="text-[4.5vw] md:text-[3vw] lg:text-[1.3vw] text-second "
+            className="text-[3.5vw] md:text-[1.5vw] lg:text-[1vw] text-second "
           >
             <p className="py-2">{d}</p>
           </div>

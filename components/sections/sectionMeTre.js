@@ -1,47 +1,44 @@
 import Image from "next/image";
-import Link from "next/link";
-import React from "react";
+import EditorialLink from "../layout/EditorialLink";
+import SectionIndex from "../layout/SectionIndex";
+import SectionLink from "../layout/SectionLink";
 
 const SectionMeTre = ({ translation }) => {
   return (
-    <section className="w-[90%] min-h-[40vh] justify-between items-center  flex flex-col  mx-auto mt-[150px]">
-      <div className="w-full flex-col xl:flex-row justify-start items-center gap-[50px] flex ">
+    <section className="mx-auto grid w-[90%] gap-12 border-b border-main/10 py-20 lg:grid-cols-2 lg:items-center lg:gap-20 lg:py-10">
+      <div className="relative">
         <Image
-          className="object-cover w-full xl:w-[35vw] 2xl:w-[600px] fxl:w-[750px] 3xl:w-[900px] 4xl:w-[40vw]"
+          className="h-auto w-full object-cover aspect-[4.3/3]"
           src={translation?.img}
-          alt="welcome title"
-          width={500}
-          height={500}
+          alt="Mitha Project, collaborazione tra MIAO graphics e Thallion Dev"
+          width={900}
+          height={600}
+          sizes="(max-width: 1023px) 90vw, 45vw"
         />
-        <div className="2xl:w-1/2 h-full flex-col justify-start items-start gap-[31px] inline-flex">
-          <Image
-            className="object-cover w-[90vw] xl:w-[35vw] 2xl:w-[30vw] fxl:w-[35vw] 3xl:w-[45vw]"
-            src={translation?.title}
-            alt="welcome title"
-            width={500}
-            height={500}
-          />
-          <div className="w-full flex-col justify-between  flex  h-full gap-6 3xl:gap-14">
-            {translation?.paragrafi?.map((p, i) => {
-              return (
-                <p
-                  key={i}
-                  className="w-full text-second text-[5vw] md:text-[2.6vw] xl:text-[1.55vw] 2xl:text-[1.3vw]"
-                  dangerouslySetInnerHTML={{ __html: p }}
-                ></p>
-              );
-            })}
-          </div>
+        <span
+          className="absolute -right-4 top-1/2 h-10 w-10 -translate-y-1/2 bg-red md:h-14 md:w-14"
+          aria-hidden="true"
+        />
+      </div>
 
-          <Link
-            href="https://www.mithacreative.it/"
-            title="mitha creative website"
-            target="_blank"
-            className="text-main text-2xl fxl:text-3xl 3xl:text-4xl 4xl:text-[5rem] font-extrabold underline capitalize leading-normal w-full  justify-end items-center inline-flex"
-          >
-            {translation?.cta}
-          </Link>
-        </div>
+      <div className="max-w-2xl">
+        <SectionIndex>MITHA PROJECT</SectionIndex>
+        <h2 className="text-4xl font-extrabold leading-[1.05] text-main md:text-5xl 2xl:text-4xl">
+          Un gioco creativo che diventa realtà.
+        </h2>
+        <p className="mt-7 text-base leading-relaxed text-second lg:text-lg">
+          Mitha è la collaborazione tra MIAO graphics e Thallion Dev: uniamo
+          identità visiva e web design per trasformare idee, obiettivi e
+          contenuti in progetti digitali coerenti e riconoscibili.
+        </p>
+        <SectionLink
+          href="https://www.mithacreative.it/"
+          title="Visita il sito di Mitha Creative"
+          target="_blank"
+          className="mt-8"
+        >
+          {translation?.cta || "Scopri di più"}
+        </SectionLink>
       </div>
     </section>
   );

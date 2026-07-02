@@ -1,12 +1,14 @@
 .contact-form__form {
-  padding: 3.57vw 0;
+  padding: clamp(2rem, 4vw, 3.5rem) 0;
 }
 
 .contact-form__row {
   display: flex;
   align-items: flex-end;
   flex-direction: row;
-  margin-bottom: 1.9vw;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: clamp(1.5rem, 2.5vw, 2.25rem);
 }
 
 .contact-form__text {
@@ -18,14 +20,14 @@
 }
 
 .heading-l {
-  font-size: 2.62vw;
+  font-size: clamp(1.75rem, 2vw, 2.25rem);
   font-weight: 500;
   letter-spacing: -0.02em;
   line-height: 1em;
 }
 
 .contact-form__input_pinched {
-  margin: 0 0.95vw;
+  margin: 0 0.5rem;
 }
 
 .contact-form__input {
@@ -36,32 +38,35 @@
   border-radius: 0;
   display: inline-block;
   outline: none;
-  padding: 0.48vw 0;
+  flex: 1 1 13rem;
+  min-width: 10rem;
+  padding: 0.5rem 0;
   text-align: center;
   transition: border-color 0.32s ease;
   width: 100%;
 }
 
 .text-l {
-  font-size: clamp(14px, 1.25vw, 100px);
+  font-size: clamp(0.95rem, 1.1vw, 1.125rem);
   letter-spacing: 0;
   line-height: 1.4em;
 }
 
 .contact-form__input_right {
-  margin: 0 0 0 0.95vw;
+  margin: 0 0 0 0.5rem;
 }
 
 .contact-form__items {
   display: flex;
   align-items: center;
-  -webkit-column-gap: 0.95vw;
-  column-gap: 0.95vw;
+  -webkit-column-gap: 0.75rem;
+  column-gap: 0.75rem;
+  flex: 1 1 32rem;
   flex-direction: row;
-  flex-wrap: nowrap;
-  margin-left: 0.95vw;
+  flex-wrap: wrap;
+  margin-left: 0.5rem;
   margin-top: 0;
-  row-gap: 0.95vw;
+  row-gap: 0.75rem;
 }
 
 .radio {
@@ -71,17 +76,19 @@
   box-sizing: border-box;
   margin: 0;
   align-items: center;
-  border-radius: 4px;
+  border-radius: 0;
   cursor: pointer;
   display: flex;
   flex-shrink: 0;
   position: relative;
   transition: background-color 0.12s ease, color 0.12s ease,
     border-color 0.25s ease;
-  padding: 1.48vw 2.5vw;
+  min-height: 3rem;
+  padding: 0.75rem 1.25rem 0.75rem 2.75rem;
   margin-bottom: 0;
-  border: 1px solid var(--red);
-  height: 1.5rem;
+  border: 1px solid rgba(57, 55, 60, 0.25);
+  background-color: var(--white);
+  height: auto;
   width: auto;
 }
 
@@ -93,27 +100,59 @@
   padding: 0;
   appearance: none;
   border: 1px solid var(--red);
-  border-radius: 2px;
+  border-radius: 50%;
   color: var(--red);
   cursor: pointer;
-  display: flex;
+  display: grid;
   font: inherit;
   margin: 0;
   place-content: center;
-  height: 0.95vw;
-  left: 0.95vw;
+  height: 1rem;
+  left: 1rem;
   position: absolute;
-  top: calc(50% - 0.48vw);
-  width: 0.95vw;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1rem;
+}
+
+.radio__input::before {
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 50%;
+  background-color: var(--red);
+  content: "";
+  transform: scale(0);
+  transition: transform 0.16s ease;
+}
+
+.radio[data-checked="true"] .radio__input::before {
+  transform: scale(1);
 }
 
 .radio__label {
-  margin-left: 0.7vw;
+  margin-left: 0;
   color: var(--main);
 }
 
 .checked {
+  border-color: var(--red);
   background-color: var(--red);
+}
+
+.radio:hover,
+.pill-checkbox:hover {
+  border-color: var(--red);
+  color: var(--red);
+}
+
+.radio:not(.checked):hover .radio__label {
+  color: var(--red);
+}
+
+.radio:focus-within,
+.pill-checkbox:focus-within {
+  outline: 2px solid var(--red);
+  outline-offset: 3px;
 }
 
 .checked input {
@@ -126,22 +165,35 @@
 }
 
 .text-m {
-  font-size: 1.3vw;
+  font-size: clamp(0.95rem, 1vw, 1.125rem);
   letter-spacing: 0;
   /* line-height: 1.3em; */
 }
 
 .pill-checkbox {
   align-items: center;
-  border: 1px solid var(--red);
-  border-radius: 4px;
+  border: 1px solid rgba(57, 55, 60, 0.25);
+  border-radius: 0;
+  background-color: var(--white);
   cursor: pointer;
   display: flex;
   flex-shrink: 0;
-  padding: 0.48vw 1.9vw;
+  min-height: 3rem;
+  padding: 0.75rem 1.25rem;
   transition: background-color 0.12s ease, color 0.12s ease,
     border-color 0.25s ease;
   color: var(--pink_lady);
+}
+
+.pill-checkbox.checked,
+.pill-checkbox.checked:hover {
+  border-color: var(--red);
+  background-color: var(--red);
+  color: var(--white);
+}
+
+.pill-checkbox.checked span {
+  color: var(--white);
 }
 
 .pill-checkbox__input {
@@ -162,20 +214,21 @@
   border-radius: 0;
   display: inline-block;
   outline: none;
-  padding: 0.48vw 0;
+  min-height: 4.5rem;
+  padding: 0.75rem 0;
   text-align: center;
   resize: none;
   transition: border-color 0.2s ease;
   width: 100%;
-  margin-top: 1.9vw;
+  margin-top: 1.5rem;
 }
 
 .contact-form__footer {
   align-items: center;
   flex-direction: row;
   justify-content: flex-end;
-  margin-top: 3vw;
-  row-gap: 2.1vw;
+  margin-top: clamp(2rem, 3vw, 3rem);
+  row-gap: 1.5rem;
   display: flex;
 }
 
@@ -190,7 +243,10 @@
 
 .contact-form__btn {
   align-self: unset;
-  margin-left: 1.43vw;
+  margin-left: 1rem;
+  border-radius: 0;
+  min-height: 3.5rem;
+  padding: 0;
 }
 
 .button {
@@ -202,15 +258,20 @@
   width: fit-content;
 }
 
+.contact-form__btn.button {
+  border-radius: 0;
+}
+
 .button__content {
   align-items: center;
-  background-color: var(--red);
-  border: 1px solid var(--red);
-  border-radius: 0.25rem;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
   display: inline-flex;
   justify-content: center;
   overflow: hidden;
-  padding: 0.5vw 2.15vw;
+  min-height: 0;
+  padding: 0;
 }
 
 .button__error,
@@ -235,23 +296,26 @@
   .contact-form__row {
     display: flex;
     flex-direction: column;
+    align-items: stretch;
+    gap: 0;
     margin-bottom: 6.15vw;
     justify-content: flex-start;
   }
 
-  .contact-form__row span {
+  .contact-form__row > .contact-form__text {
     width: 100%;
     padding: 10px 0;
-    margin-left: 10px;
+    margin-left: 0;
   }
 
   .text-m {
-    font-size: 4.05vw;
+    font-size: clamp(0.95rem, 4.05vw, 1.05rem);
   }
   .contact-form__items {
     -webkit-column-gap: 3.08vw;
     column-gap: 3.08vw;
     display: flex;
+    flex: 0 0 auto;
     flex-direction: column;
     margin-top: 4.1vw;
     row-gap: 3.08vw;
@@ -260,28 +324,39 @@
   }
 
   .heading-l {
-    font-size: 5.38vw;
+    font-size: clamp(1.5rem, 5.38vw, 2rem);
     font-weight: 500;
     letter-spacing: -0.02em;
     line-height: 1em;
   }
 
   .contact-form__input_pinched {
-    margin-bottom: 6.15vw;
-    margin-top: 2.05vw;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
   }
 
   .contact-form__input {
-    padding: 4.48vw 0;
+    flex: 0 0 auto;
+    min-height: 3.25rem;
+    width: 100%;
+    padding: 0.75rem 0;
+  }
+
+  .contact-form__input_right {
+    margin-left: 0;
+    margin-top: 0.5rem;
   }
 
   .radio {
     align-items: center;
-    border-radius: 2px;
+    border-radius: 0;
     cursor: pointer;
     display: flex;
     flex-shrink: 0;
-    padding: 3.08vw 5.13vw 3.08vw 8.72vw;
+    min-height: 3.75rem;
+    padding: 0.875rem 1rem 0.875rem 3.25rem;
     position: relative;
     transition: background-color 0.12s ease, color 0.12s ease,
       border-color 0.25s ease;
@@ -298,12 +373,13 @@
     display: grid;
     font: inherit;
     height: 1rem;
-    left: 5.13vw;
+    left: 1rem;
     margin: 0;
     place-content: center;
     position: absolute;
     width: 1rem;
-    top: 6vw;
+    top: 50%;
+    transform: translateY(-50%);
   }
   .pill-checkbox {
     width: 100%;

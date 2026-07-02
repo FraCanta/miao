@@ -1,58 +1,67 @@
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 import Posts from "../post/posts";
+import ButtonLink from "../layout/ButtonLink";
+import SectionLink from "../layout/SectionLink";
 
-const SectionsQuattro = ({ post = [], translation, users }) => {
-  const jsxPosts = post.map((p, i) => {
-    // 📸 GraphQL: featuredImage -> node.sourceUrl
-    const featuredMedia = p?.featuredImage?.node?.sourceUrl;
-
-    // 👤 Autore: da p.author.node
-    const author =
-      p?.author?.node || users?.find((u) => u.id === p.author?.node?.id);
-
-    return (
-      <Posts
-        key={i}
-        post={p}
-        featuredMedia={featuredMedia}
-        users={author}
-        id={p?.databaseId}
-      />
-    );
-  });
-
+const SectionsQuattro = ({ post = [] }) => {
   return (
-    <section className="w-[90%] min-h-[40vh] flex-col justify-center items-start mt-[100px] 2xl:mt-[150px] flex mx-auto">
-      <div className="inline-flex items-end justify-start w-full">
-        {translation?.title && (
-          <Image
-            className="object-cover w-full 2xl:w-[25vw] fxl:w-[350px] 3xl:w-[400px]"
-            src={translation.title}
-            alt="titolo sezione quattro"
-            width={300}
-            height={300}
-          />
+    <>
+      <section className="mx-auto mt-24 w-[90%] md:mt-32">
+        <div className="flex flex-col gap-5 pb-5 mb-10 border-b border-main/20 md:flex-row md:items-end md:justify-between">
+          <div>
+            <p className="mb-3 text-xs font-bold uppercase tracking-[0.18em] text-red">
+              Notizie
+            </p>
+            <h2 className="text-[11vw] font-extrabold leading-none tracking-[-0.05em] text-main md:text-[6vw] lg:text-[2.5vw]">
+              Dal blog
+            </h2>
+          </div>
+          <SectionLink href="/blog" title="Vai al blog">
+            Vai al blog
+          </SectionLink>
+        </div>
+
+        {post.length > 0 ? (
+          <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
+            {post.map((article) => (
+              <Posts
+                key={article.id || article.slug}
+                post={article}
+                featuredMedia={article?.featuredImage?.node?.sourceUrl}
+                variant="home"
+              />
+            ))}
+          </div>
+        ) : (
+          <div className="px-6 py-10 border border-main/15 text-second">
+            Gli approfondimenti sono in aggiornamento. Nel frattempo puoi
+            scoprire i progetti nel portfolio.
+          </div>
         )}
-      </div>
+      </section>
 
-      <div className="w-full flex-col justify-start items-start mt-[50px] flex">
-        <div className="flex flex-col items-start justify-between w-full gap-16 2xl:flex-row">
-          {jsxPosts}
-        </div>
-
-        <div className="flex items-center justify-end w-full mt-10 4xl:mt-20">
-          <Link
-            href="/blog"
-            title="leggi i miei articoli"
-            className="text-main text-2xl fxl:text-3xl 3xl:text-4xl 4xl:text-[5rem] font-extrabold underline capitalize leading-normal"
+      <section className="py-12 mt-24 text-white bg-red md:mt-32 md:py-16">
+        <div className="mx-auto flex w-[90%] flex-col gap-8 md:flex-row md:items-center md:justify-between">
+          <h2 className="flex  items-center gap-4 text-[10vw] font-extrabold leading-none tracking-[-0.055em] text-white md:text-[8vw] lg:text-[2.5vw]">
+            <span
+              className="flex self-stretch items-center text-[1.15em] leading-none text-white"
+              aria-hidden="true"
+            >
+              &#123;
+            </span>
+            <span className="leading-[0.82]">Hai un progetto in mente?</span>
+          </h2>
+          <ButtonLink
+            href="/contatti"
+            variant="inverse"
+            size="lg"
+            className="w-full justify-between sm:w-auto sm:min-w-[260px]"
           >
-            {translation?.cta}
-          </Link>
+            Contattami
+          </ButtonLink>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 

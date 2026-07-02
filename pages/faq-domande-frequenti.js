@@ -52,7 +52,7 @@ function faqDomandeFrequenti() {
         <Link
           href="/contatti"
           title="contattami per una consulenza e parliamo insieme del tuo progetto"
-          className="capitalize font-bold py-2.5 px-6 text-[22px]  border rounded shadow  text-white hover:transition-all border-red  bg-red"
+          className="site-button"
         >
           Scrivimi
         </Link>

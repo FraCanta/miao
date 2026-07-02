@@ -1,8 +1,17 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import PhotoSwipeLightbox from "photoswipe/lightbox";
 import "photoswipe/style.css";
 import Image from "next/image";
-const Gallery = ({ imageArray, galleryID, galleryTitle }) => {
+import { Icon } from "@iconify/react";
+const Gallery = ({
+  imageArray,
+  galleryID,
+  galleryTitle,
+  previewLimit,
+  ctaLabel,
+}) => {
+  const galleryRef = useRef(null);
+
   useEffect(() => {
     const backEasing = {
       in: "cubic-bezier(0.6, -0.28, 0.7, 1)",
@@ -12,13 +21,13 @@ const Gallery = ({ imageArray, galleryID, galleryTitle }) => {
     let lightbox = new PhotoSwipeLightbox({
       gallery: "#" + galleryID,
       children: "a",
-      showHideAnimationType: "fade",
       imageClickAction: "next",
       tapAction: "next",
       pswpModule: () => import("photoswipe"),
       escKey: true,
       arrowKeys: true,
       loop: true,
+      indexIndicatorSep: " / ",
       padding: { top: 100, bottom: 20, left: 10, right: 10 },
       mainClass: "pswp--custom-bg",
       showHideAnimationType: "zoom",
@@ -42,31 +51,60 @@ const Gallery = ({ imageArray, galleryID, galleryTitle }) => {
       lightbox.destroy();
       lightbox = null;
     };
-  }, []);
+  }, [galleryID]);
+
+  const openGallery = () => {
+    galleryRef.current?.querySelector("a")?.click();
+  };
+
   return (
-    <div
-      className="gallery  pswp-gallery grid grid-cols-2 lg:grid-cols-3  2xl:grid-cols-5"
-      id={galleryID}
-    >
-      {imageArray?.map((el, i) => (
-        <a
-          href={el?.src}
-          data-pswp-width={el?.width}
-          data-pswp-height={el?.height}
-          key={galleryID + "-" + i}
-          target="_blank"
-          rel="noreferrer"
-        >
-          <Image
-            src={el?.src}
-            width={800}
-            height={800}
-            alt=""
-            key={i}
-            className="w-full h-auto"
-          />
-        </a>
-      ))}
+    <div>
+      <div
+        ref={galleryRef}
+        className="gallery pswp-gallery grid grid-cols-2 gap-3 md:grid-cols-3 xl:grid-cols-7"
+        id={galleryID}
+      >
+        {imageArray?.map((el, i) => (
+          <a
+            href={el?.src}
+            data-pswp-width={el?.width}
+            data-pswp-height={el?.height}
+            key={galleryID + "-" + i}
+            target="_blank"
+            rel="noreferrer"
+            className={
+              previewLimit && i >= previewLimit
+                ? "hidden"
+                : "group overflow-hidden bg-main/5"
+            }
+          >
+            <Image
+              src={el?.src}
+              width={800}
+              height={800}
+              alt={`${galleryTitle}, immagine ${i + 1}`}
+              className="aspect-square h-auto w-full object-cover transition-transform duration-500 group-hover:scale-[1.025]"
+              sizes="(max-width: 767px) 44vw, (max-width: 1279px) 29vw, 15vw"
+            />
+          </a>
+        ))}
+      </div>
+      {ctaLabel && imageArray?.length > 0 && (
+        <div className="mt-8 flex justify-center">
+          <button
+            type="button"
+            onClick={openGallery}
+            className="site-button-outline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-red"
+          >
+            <Icon
+              icon="ri:gallery-view-2"
+              aria-hidden="true"
+              className="h-5 w-5 shrink-0"
+            />
+            {ctaLabel}
+          </button>
+        </div>
+      )}
     </div>
   );
 };

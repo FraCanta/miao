@@ -3,6 +3,7 @@ const headlessSite = "https://miaographics.it";
 import { getPostsByLanguageAndBlogOwner } from "../utils/wordpress";
 
 import LayoutTranslation from "../public/locales/layout.json";
+import PageTranslation from "../public/locales/it/it.json";
 
 function generateSiteMap(posts) {
   return `<?xml version="1.0" encoding="UTF-8"?>
@@ -56,7 +57,7 @@ function generateSiteMap(posts) {
 
   
 
-    ${LayoutTranslation?.menu?.it?.singleWorks
+    ${PageTranslation?.portfolio?.worksItem
       .map((el, i) => {
         return `
          <url>

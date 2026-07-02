@@ -1,0 +1,4053 @@
+{
+  "generatedAt": "2026-07-02T14:42:07.708Z",
+  "settings": {
+    "maxWidth": 2560,
+    "maxConcurrency": 4
+  },
+  "summary": {
+    "convertedImages": 400,
+    "newConvertedImages": 2,
+    "updatedFiles": 1,
+    "sourceBytes": 594903557,
+    "targetBytes": 83094986,
+    "savedBytes": 511808571,
+    "savedPercent": 86.03,
+    "missingReferences": 8
+  },
+  "missingReferences": [
+    {
+      "file": "styles/wordpress.css",
+      "reference": "/assets/noise.webp"
+    },
+    {
+      "file": "styles/wordpress.css",
+      "reference": "/assets/noise.webp"
+    },
+    {
+      "file": "styles/wordpress.css",
+      "reference": "/assets/noise.webp"
+    },
+    {
+      "file": "styles/wordpress.css",
+      "reference": "/assets/noise.webp"
+    },
+    {
+      "file": "styles/wordpress.css",
+      "reference": "/assets/noise.webp"
+    },
+    {
+      "file": "styles/wordpress.css",
+      "reference": "/assets/noise.webp"
+    },
+    {
+      "file": "styles/wordpress.css",
+      "reference": "/assets/noise.webp"
+    },
+    {
+      "file": "styles/wordpress.css",
+      "reference": "/assets/noise.webp"
+    }
+  ],
+  "images": [
+    {
+      "source": "public/assets/cover_web.png",
+      "target": "public/assets/cover_web.optimized.webp",
+      "sourceBytes": 566617,
+      "targetBytes": 148384,
+      "sourceWidth": 2500,
+      "sourceHeight": 1313,
+      "targetWidth": 2500,
+      "targetHeight": 1313
+    },
+    {
+      "source": "public/assets/Behance-logo2.png",
+      "target": "public/assets/Behance-logo2.optimized.webp",
+      "sourceBytes": 5080,
+      "targetBytes": 2318,
+      "sourceWidth": 500,
+      "sourceHeight": 94,
+      "targetWidth": 500,
+      "targetHeight": 94
+    },
+    {
+      "source": "public/assets/pageImg/disegno.png",
+      "target": "public/assets/pageImg/disegno.optimized.webp",
+      "sourceBytes": 36851,
+      "targetBytes": 4300,
+      "sourceWidth": 2208,
+      "sourceHeight": 2700,
+      "targetWidth": 2208,
+      "targetHeight": 2700
+    },
+    {
+      "source": "public/assets/pageImg/rettangolo_mobile.png",
+      "target": "public/assets/pageImg/rettangolo_mobile.optimized.webp",
+      "sourceBytes": 6675,
+      "targetBytes": 1588,
+      "sourceWidth": 1464,
+      "sourceHeight": 364,
+      "targetWidth": 1464,
+      "targetHeight": 364
+    },
+    {
+      "source": "public/assets/logo.png",
+      "target": "public/assets/logo.optimized.webp",
+      "sourceBytes": 77705,
+      "targetBytes": 68106,
+      "sourceWidth": 3508,
+      "sourceHeight": 1346,
+      "targetWidth": 2560,
+      "targetHeight": 982
+    },
+    {
+      "source": "public/assets/logos/logo1.png",
+      "target": "public/assets/logos/logo1.optimized.webp",
+      "sourceBytes": 49944,
+      "targetBytes": 21292,
+      "sourceWidth": 500,
+      "sourceHeight": 500,
+      "targetWidth": 500,
+      "targetHeight": 500
+    },
+    {
+      "source": "public/assets/logos/logo2.png",
+      "target": "public/assets/logos/logo2.optimized.webp",
+      "sourceBytes": 31670,
+      "targetBytes": 12534,
+      "sourceWidth": 500,
+      "sourceHeight": 500,
+      "targetWidth": 500,
+      "targetHeight": 500
+    },
+    {
+      "source": "public/assets/logos/logo3.png",
+      "target": "public/assets/logos/logo3.optimized.webp",
+      "sourceBytes": 30557,
+      "targetBytes": 11912,
+      "sourceWidth": 500,
+      "sourceHeight": 500,
+      "targetWidth": 500,
+      "targetHeight": 500
+    },
+    {
+      "source": "public/assets/logos/logo4.png",
+      "target": "public/assets/logos/logo4.optimized.webp",
+      "sourceBytes": 38728,
+      "targetBytes": 15168,
+      "sourceWidth": 500,
+      "sourceHeight": 500,
+      "targetWidth": 500,
+      "targetHeight": 500
+    },
+    {
+      "source": "public/assets/logos/logo5.png",
+      "target": "public/assets/logos/logo5.optimized.webp",
+      "sourceBytes": 33325,
+      "targetBytes": 13380,
+      "sourceWidth": 500,
+      "sourceHeight": 500,
+      "targetWidth": 500,
+      "targetHeight": 500
+    },
+    {
+      "source": "public/assets/logos/logo6.png",
+      "target": "public/assets/logos/logo6.optimized.webp",
+      "sourceBytes": 44783,
+      "targetBytes": 18214,
+      "sourceWidth": 500,
+      "sourceHeight": 500,
+      "targetWidth": 500,
+      "targetHeight": 500
+    },
+    {
+      "source": "public/assets/logos/logo7.png",
+      "target": "public/assets/logos/logo7.optimized.webp",
+      "sourceBytes": 53927,
+      "targetBytes": 20684,
+      "sourceWidth": 500,
+      "sourceHeight": 500,
+      "targetWidth": 500,
+      "targetHeight": 500
+    },
+    {
+      "source": "public/assets/logos/logo8.png",
+      "target": "public/assets/logos/logo8.optimized.webp",
+      "sourceBytes": 50791,
+      "targetBytes": 22248,
+      "sourceWidth": 500,
+      "sourceHeight": 500,
+      "targetWidth": 500,
+      "targetHeight": 500
+    },
+    {
+      "source": "public/assets/logos/logo9.png",
+      "target": "public/assets/logos/logo9.optimized.webp",
+      "sourceBytes": 30051,
+      "targetBytes": 11450,
+      "sourceWidth": 500,
+      "sourceHeight": 500,
+      "targetWidth": 500,
+      "targetHeight": 500
+    },
+    {
+      "source": "public/assets/logos/logo10.png",
+      "target": "public/assets/logos/logo10.optimized.webp",
+      "sourceBytes": 33496,
+      "targetBytes": 12666,
+      "sourceWidth": 500,
+      "sourceHeight": 500,
+      "targetWidth": 500,
+      "targetHeight": 500
+    },
+    {
+      "source": "public/assets/logos/logo11.png",
+      "target": "public/assets/logos/logo11.optimized.webp",
+      "sourceBytes": 28780,
+      "targetBytes": 11212,
+      "sourceWidth": 500,
+      "sourceHeight": 500,
+      "targetWidth": 500,
+      "targetHeight": 500
+    },
+    {
+      "source": "public/assets/logos/logo12.png",
+      "target": "public/assets/logos/logo12.optimized.webp",
+      "sourceBytes": 14258,
+      "targetBytes": 5430,
+      "sourceWidth": 500,
+      "sourceHeight": 500,
+      "targetWidth": 500,
+      "targetHeight": 500
+    },
+    {
+      "source": "public/assets/logos/logo13.png",
+      "target": "public/assets/logos/logo13.optimized.webp",
+      "sourceBytes": 23093,
+      "targetBytes": 8928,
+      "sourceWidth": 500,
+      "sourceHeight": 500,
+      "targetWidth": 500,
+      "targetHeight": 500
+    },
+    {
+      "source": "public/assets/logos/logo14.png",
+      "target": "public/assets/logos/logo14.optimized.webp",
+      "sourceBytes": 25103,
+      "targetBytes": 10470,
+      "sourceWidth": 500,
+      "sourceHeight": 500,
+      "targetWidth": 500,
+      "targetHeight": 500
+    },
+    {
+      "source": "public/assets/logos/logo15.png",
+      "target": "public/assets/logos/logo15.optimized.webp",
+      "sourceBytes": 73306,
+      "targetBytes": 30828,
+      "sourceWidth": 500,
+      "sourceHeight": 500,
+      "targetWidth": 500,
+      "targetHeight": 500
+    },
+    {
+      "source": "public/assets/logos/logo16.png",
+      "target": "public/assets/logos/logo16.optimized.webp",
+      "sourceBytes": 23805,
+      "targetBytes": 9172,
+      "sourceWidth": 500,
+      "sourceHeight": 500,
+      "targetWidth": 500,
+      "targetHeight": 500
+    },
+    {
+      "source": "public/assets/logos/logo17.png",
+      "target": "public/assets/logos/logo17.optimized.webp",
+      "sourceBytes": 57010,
+      "targetBytes": 22114,
+      "sourceWidth": 500,
+      "sourceHeight": 500,
+      "targetWidth": 500,
+      "targetHeight": 500
+    },
+    {
+      "source": "public/assets/logos/logo18.png",
+      "target": "public/assets/logos/logo18.optimized.webp",
+      "sourceBytes": 19880,
+      "targetBytes": 7770,
+      "sourceWidth": 500,
+      "sourceHeight": 500,
+      "targetWidth": 500,
+      "targetHeight": 500
+    },
+    {
+      "source": "public/assets/logos/logo19.png",
+      "target": "public/assets/logos/logo19.optimized.webp",
+      "sourceBytes": 29672,
+      "targetBytes": 11438,
+      "sourceWidth": 500,
+      "sourceHeight": 500,
+      "targetWidth": 500,
+      "targetHeight": 500
+    },
+    {
+      "source": "public/assets/logos/logo20.png",
+      "target": "public/assets/logos/logo20.optimized.webp",
+      "sourceBytes": 39112,
+      "targetBytes": 15184,
+      "sourceWidth": 500,
+      "sourceHeight": 500,
+      "targetWidth": 500,
+      "targetHeight": 500
+    },
+    {
+      "source": "public/assets/logos/logo21.png",
+      "target": "public/assets/logos/logo21.optimized.webp",
+      "sourceBytes": 26973,
+      "targetBytes": 10448,
+      "sourceWidth": 500,
+      "sourceHeight": 500,
+      "targetWidth": 500,
+      "targetHeight": 500
+    },
+    {
+      "source": "public/assets/portfolioImg/graffa_grigia.png",
+      "target": "public/assets/portfolioImg/graffa_grigia.optimized.webp",
+      "sourceBytes": 22355,
+      "targetBytes": 11256,
+      "sourceWidth": 347,
+      "sourceHeight": 1105,
+      "targetWidth": 347,
+      "targetHeight": 1105
+    },
+    {
+      "source": "public/assets/pageImg/blogTitle.png",
+      "target": "public/assets/pageImg/blogTitle.optimized.webp",
+      "sourceBytes": 27664,
+      "targetBytes": 9292,
+      "sourceWidth": 1928,
+      "sourceHeight": 680,
+      "targetWidth": 1928,
+      "targetHeight": 680
+    },
+    {
+      "source": "public/assets/sectionsTitle/welcome_title.png",
+      "target": "public/assets/sectionsTitle/welcome_title.optimized.webp",
+      "sourceBytes": 37279,
+      "targetBytes": 14232,
+      "sourceWidth": 1340,
+      "sourceHeight": 772,
+      "targetWidth": 1340,
+      "targetHeight": 772
+    },
+    {
+      "source": "public/assets/sectionsTitle/sezioneDue.png",
+      "target": "public/assets/sectionsTitle/sezioneDue.optimized.webp",
+      "sourceBytes": 36411,
+      "targetBytes": 12340,
+      "sourceWidth": 2040,
+      "sourceHeight": 628,
+      "targetWidth": 2040,
+      "targetHeight": 628
+    },
+    {
+      "source": "public/assets/sectionsTitle/sezioneDue_img.png",
+      "target": "public/assets/sectionsTitle/sezioneDue_img.optimized.webp",
+      "sourceBytes": 2867263,
+      "targetBytes": 508012,
+      "sourceWidth": 2000,
+      "sourceHeight": 2000,
+      "targetWidth": 2000,
+      "targetHeight": 2000
+    },
+    {
+      "source": "public/assets/sectionsTitle/sezioneTre.png",
+      "target": "public/assets/sectionsTitle/sezioneTre.optimized.webp",
+      "sourceBytes": 37568,
+      "targetBytes": 13898,
+      "sourceWidth": 1332,
+      "sourceHeight": 688,
+      "targetWidth": 1332,
+      "targetHeight": 688
+    },
+    {
+      "source": "public/assets/sectionsTitle/logosmix.jpg",
+      "target": "public/assets/sectionsTitle/logosmix.optimized.webp",
+      "sourceBytes": 2274009,
+      "targetBytes": 360858,
+      "sourceWidth": 3417,
+      "sourceHeight": 1250,
+      "targetWidth": 2560,
+      "targetHeight": 936
+    },
+    {
+      "source": "public/assets/sectionsTitle/sezioneQuattro.png",
+      "target": "public/assets/sectionsTitle/sezioneQuattro.optimized.webp",
+      "sourceBytes": 27664,
+      "targetBytes": 9292,
+      "sourceWidth": 1928,
+      "sourceHeight": 680,
+      "targetWidth": 1928,
+      "targetHeight": 680
+    },
+    {
+      "source": "public/assets/pageImg/meTitle.png",
+      "target": "public/assets/pageImg/meTitle.optimized.webp",
+      "sourceBytes": 37985,
+      "targetBytes": 13004,
+      "sourceWidth": 1928,
+      "sourceHeight": 644,
+      "targetWidth": 1928,
+      "targetHeight": 644
+    },
+    {
+      "source": "public/assets/sectionsTitle/eli.png",
+      "target": "public/assets/sectionsTitle/eli.optimized.webp",
+      "sourceBytes": 132123,
+      "targetBytes": 80322,
+      "sourceWidth": 450,
+      "sourceHeight": 450,
+      "targetWidth": 450,
+      "targetHeight": 450
+    },
+    {
+      "source": "public/assets/sectionsTitle/clienti.png",
+      "target": "public/assets/sectionsTitle/clienti.optimized.webp",
+      "sourceBytes": 17543,
+      "targetBytes": 6994,
+      "sourceWidth": 1504,
+      "sourceHeight": 221,
+      "targetWidth": 1504,
+      "targetHeight": 221
+    },
+    {
+      "source": "public/assets/sectionsTitle/testimonials.png",
+      "target": "public/assets/sectionsTitle/testimonials.optimized.webp",
+      "sourceBytes": 20351,
+      "targetBytes": 7762,
+      "sourceWidth": 1816,
+      "sourceHeight": 160,
+      "targetWidth": 1816,
+      "targetHeight": 160
+    },
+    {
+      "source": "public/assets/sectionsTitle/mitha_title.png",
+      "target": "public/assets/sectionsTitle/mitha_title.optimized.webp",
+      "sourceBytes": 18728,
+      "targetBytes": 7082,
+      "sourceWidth": 1476,
+      "sourceHeight": 187,
+      "targetWidth": 1476,
+      "targetHeight": 187
+    },
+    {
+      "source": "public/assets/mitha_cover.png",
+      "target": "public/assets/mitha_cover.optimized.webp",
+      "sourceBytes": 3335330,
+      "targetBytes": 397794,
+      "sourceWidth": 1959,
+      "sourceHeight": 1925,
+      "targetWidth": 1959,
+      "targetHeight": 1925
+    },
+    {
+      "source": "public/assets/pageImg/serviceTitle.png",
+      "target": "public/assets/pageImg/serviceTitle.optimized.webp",
+      "sourceBytes": 34960,
+      "targetBytes": 12284,
+      "sourceWidth": 1928,
+      "sourceHeight": 628,
+      "targetWidth": 1928,
+      "targetHeight": 628
+    },
+    {
+      "source": "public/assets/serviziImg/logodesign.png",
+      "target": "public/assets/serviziImg/logodesign.optimized.webp",
+      "sourceBytes": 725353,
+      "targetBytes": 80368,
+      "sourceWidth": 1204,
+      "sourceHeight": 1204,
+      "targetWidth": 1204,
+      "targetHeight": 1204
+    },
+    {
+      "source": "public/assets/serviziImg/branding.png",
+      "target": "public/assets/serviziImg/branding.optimized.webp",
+      "sourceBytes": 559703,
+      "targetBytes": 135876,
+      "sourceWidth": 1204,
+      "sourceHeight": 1204,
+      "targetWidth": 1204,
+      "targetHeight": 1204
+    },
+    {
+      "source": "public/assets/serviziImg/label.png",
+      "target": "public/assets/serviziImg/label.optimized.webp",
+      "sourceBytes": 978852,
+      "targetBytes": 170182,
+      "sourceWidth": 1204,
+      "sourceHeight": 1204,
+      "targetWidth": 1204,
+      "targetHeight": 1204
+    },
+    {
+      "source": "public/assets/serviziImg/social.png",
+      "target": "public/assets/serviziImg/social.optimized.webp",
+      "sourceBytes": 898638,
+      "targetBytes": 283602,
+      "sourceWidth": 1205,
+      "sourceHeight": 1204,
+      "targetWidth": 1205,
+      "targetHeight": 1204
+    },
+    {
+      "source": "public/assets/serviziImg/campagne.png",
+      "target": "public/assets/serviziImg/campagne.optimized.webp",
+      "sourceBytes": 618261,
+      "targetBytes": 119486,
+      "sourceWidth": 1204,
+      "sourceHeight": 1204,
+      "targetWidth": 1204,
+      "targetHeight": 1204
+    },
+    {
+      "source": "public/assets/serviziImg/allestimenti.png",
+      "target": "public/assets/serviziImg/allestimenti.optimized.webp",
+      "sourceBytes": 584015,
+      "targetBytes": 112544,
+      "sourceWidth": 1204,
+      "sourceHeight": 1204,
+      "targetWidth": 1204,
+      "targetHeight": 1204
+    },
+    {
+      "source": "public/assets/serviziImg/illustrazione.png",
+      "target": "public/assets/serviziImg/illustrazione.optimized.webp",
+      "sourceBytes": 251426,
+      "targetBytes": 142286,
+      "sourceWidth": 1205,
+      "sourceHeight": 1204,
+      "targetWidth": 1205,
+      "targetHeight": 1204
+    },
+    {
+      "source": "public/assets/serviziImg/contentCreator.png",
+      "target": "public/assets/serviziImg/contentCreator.optimized.webp",
+      "sourceBytes": 586604,
+      "targetBytes": 124258,
+      "sourceWidth": 1204,
+      "sourceHeight": 1204,
+      "targetWidth": 1204,
+      "targetHeight": 1204
+    },
+    {
+      "source": "public/assets/pageImg/logo_Title.png",
+      "target": "public/assets/pageImg/logo_Title.optimized.webp",
+      "sourceBytes": 49934,
+      "targetBytes": 17492,
+      "sourceWidth": 2164,
+      "sourceHeight": 720,
+      "targetWidth": 2164,
+      "targetHeight": 720
+    },
+    {
+      "source": "public/assets/serviziImg/logoDesign/logoDesign.jpg",
+      "target": "public/assets/serviziImg/logoDesign/logoDesign.optimized.webp",
+      "sourceBytes": 430509,
+      "targetBytes": 63080,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/logoDesign/logoDesign15.jpg",
+      "target": "public/assets/serviziImg/logoDesign/logoDesign15.optimized.webp",
+      "sourceBytes": 286284,
+      "targetBytes": 27412,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/pageImg/branding_Title.png",
+      "target": "public/assets/pageImg/branding_Title.optimized.webp",
+      "sourceBytes": 61129,
+      "targetBytes": 21552,
+      "sourceWidth": 2476,
+      "sourceHeight": 720,
+      "targetWidth": 2476,
+      "targetHeight": 720
+    },
+    {
+      "source": "public/assets/serviziImg/label_Title.png",
+      "target": "public/assets/serviziImg/label_Title.optimized.webp",
+      "sourceBytes": 58284,
+      "targetBytes": 21592,
+      "sourceWidth": 2204,
+      "sourceHeight": 720,
+      "targetWidth": 2204,
+      "targetHeight": 720
+    },
+    {
+      "source": "public/assets/serviziImg/social_Title.png",
+      "target": "public/assets/serviziImg/social_Title.optimized.webp",
+      "sourceBytes": 67455,
+      "targetBytes": 83028,
+      "sourceWidth": 2600,
+      "sourceHeight": 720,
+      "targetWidth": 2560,
+      "targetHeight": 709
+    },
+    {
+      "source": "public/assets/pageImg/campagne_Title.png",
+      "target": "public/assets/pageImg/campagne_Title.optimized.webp",
+      "sourceBytes": 57180,
+      "targetBytes": 67594,
+      "sourceWidth": 2592,
+      "sourceHeight": 721,
+      "targetWidth": 2560,
+      "targetHeight": 712
+    },
+    {
+      "source": "public/assets/serviziImg/campagne/campagne3.jpg",
+      "target": "public/assets/serviziImg/campagne/campagne3.optimized.webp",
+      "sourceBytes": 592723,
+      "targetBytes": 135354,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/campagne/campagne5.jpg",
+      "target": "public/assets/serviziImg/campagne/campagne5.optimized.webp",
+      "sourceBytes": 593771,
+      "targetBytes": 120906,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/campagne/campagne4.jpg",
+      "target": "public/assets/serviziImg/campagne/campagne4.optimized.webp",
+      "sourceBytes": 564963,
+      "targetBytes": 124976,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/campagne/campagne2.jpg",
+      "target": "public/assets/serviziImg/campagne/campagne2.optimized.webp",
+      "sourceBytes": 455039,
+      "targetBytes": 100740,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/campagne/campagne6.jpg",
+      "target": "public/assets/serviziImg/campagne/campagne6.optimized.webp",
+      "sourceBytes": 420577,
+      "targetBytes": 70610,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/campagne/campagne8.jpg",
+      "target": "public/assets/serviziImg/campagne/campagne8.optimized.webp",
+      "sourceBytes": 570684,
+      "targetBytes": 90214,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/campagne/campagne7.jpg",
+      "target": "public/assets/serviziImg/campagne/campagne7.optimized.webp",
+      "sourceBytes": 395273,
+      "targetBytes": 54786,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/pageImg/allestimenti_Title.png",
+      "target": "public/assets/pageImg/allestimenti_Title.optimized.webp",
+      "sourceBytes": 49851,
+      "targetBytes": 16940,
+      "sourceWidth": 2340,
+      "sourceHeight": 688,
+      "targetWidth": 2340,
+      "targetHeight": 688
+    },
+    {
+      "source": "public/assets/pageImg/illustrazione_Title.png",
+      "target": "public/assets/pageImg/illustrazione_Title.optimized.webp",
+      "sourceBytes": 47669,
+      "targetBytes": 16450,
+      "sourceWidth": 2360,
+      "sourceHeight": 720,
+      "targetWidth": 2360,
+      "targetHeight": 720
+    },
+    {
+      "source": "public/assets/pageImg/content_Title.png",
+      "target": "public/assets/pageImg/content_Title.optimized.webp",
+      "sourceBytes": 54464,
+      "targetBytes": 18966,
+      "sourceWidth": 2504,
+      "sourceHeight": 720,
+      "targetWidth": 2504,
+      "targetHeight": 720
+    },
+    {
+      "source": "public/assets/serviziImg/creator/content3.jpg",
+      "target": "public/assets/serviziImg/creator/content3.optimized.webp",
+      "sourceBytes": 839499,
+      "targetBytes": 207510,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/fraService/tailored.png",
+      "target": "public/assets/fraService/tailored.optimized.webp",
+      "sourceBytes": 456601,
+      "targetBytes": 202544,
+      "sourceWidth": 1754,
+      "sourceHeight": 1754,
+      "targetWidth": 1754,
+      "targetHeight": 1754
+    },
+    {
+      "source": "public/assets/fraService/ecommerce.png",
+      "target": "public/assets/fraService/ecommerce.optimized.webp",
+      "sourceBytes": 217137,
+      "targetBytes": 172650,
+      "sourceWidth": 877,
+      "sourceHeight": 877,
+      "targetWidth": 877,
+      "targetHeight": 877
+    },
+    {
+      "source": "public/assets/fraService/figma.png",
+      "target": "public/assets/fraService/figma.optimized.webp",
+      "sourceBytes": 397312,
+      "targetBytes": 253166,
+      "sourceWidth": 1754,
+      "sourceHeight": 1754,
+      "targetWidth": 1754,
+      "targetHeight": 1754
+    },
+    {
+      "source": "public/assets/fraService/restyle.png",
+      "target": "public/assets/fraService/restyle.optimized.webp",
+      "sourceBytes": 408282,
+      "targetBytes": 133636,
+      "sourceWidth": 3508,
+      "sourceHeight": 3508,
+      "targetWidth": 2560,
+      "targetHeight": 2560
+    },
+    {
+      "source": "public/assets/pageImg/portfolioTitle.png",
+      "target": "public/assets/pageImg/portfolioTitle.optimized.webp",
+      "sourceBytes": 38931,
+      "targetBytes": 13708,
+      "sourceWidth": 1928,
+      "sourceHeight": 644,
+      "targetWidth": 1928,
+      "targetHeight": 644
+    },
+    {
+      "source": "public/assets/portfolioImg/anserme/cover2.png",
+      "target": "public/assets/portfolioImg/anserme/cover2.optimized.webp",
+      "sourceBytes": 1006051,
+      "targetBytes": 626704,
+      "sourceWidth": 1500,
+      "sourceHeight": 832,
+      "targetWidth": 1500,
+      "targetHeight": 832
+    },
+    {
+      "source": "public/assets/portfolioImg/bequet/cover2.jpg",
+      "target": "public/assets/portfolioImg/bequet/cover2.optimized.webp",
+      "sourceBytes": 856230,
+      "targetBytes": 139550,
+      "sourceWidth": 1200,
+      "sourceHeight": 882,
+      "targetWidth": 1200,
+      "targetHeight": 882
+    },
+    {
+      "source": "public/assets/portfolioImg/casadei/cover3.jpg",
+      "target": "public/assets/portfolioImg/casadei/cover3.optimized.webp",
+      "sourceBytes": 896632,
+      "targetBytes": 144732,
+      "sourceWidth": 1300,
+      "sourceHeight": 867,
+      "targetWidth": 1300,
+      "targetHeight": 867
+    },
+    {
+      "source": "public/assets/portfolioImg/phillacolor/cover_phillacolor2.jpg",
+      "target": "public/assets/portfolioImg/phillacolor/cover_phillacolor2.optimized.webp",
+      "sourceBytes": 768459,
+      "targetBytes": 68664,
+      "sourceWidth": 1200,
+      "sourceHeight": 770,
+      "targetWidth": 1200,
+      "targetHeight": 770
+    },
+    {
+      "source": "public/assets/portfolioImg/chappoz/cover_chappoz.jpg",
+      "target": "public/assets/portfolioImg/chappoz/cover_chappoz.optimized.webp",
+      "sourceBytes": 1362042,
+      "targetBytes": 242140,
+      "sourceWidth": 1333,
+      "sourceHeight": 1318,
+      "targetWidth": 1333,
+      "targetHeight": 1318
+    },
+    {
+      "source": "public/assets/portfolioImg/daemy/cover2.jpg",
+      "target": "public/assets/portfolioImg/daemy/cover2.optimized.webp",
+      "sourceBytes": 2479017,
+      "targetBytes": 526600,
+      "sourceWidth": 1500,
+      "sourceHeight": 1483,
+      "targetWidth": 1500,
+      "targetHeight": 1483
+    },
+    {
+      "source": "public/assets/portfolioImg/horto/cover_horto2.jpg",
+      "target": "public/assets/portfolioImg/horto/cover_horto2.optimized.webp",
+      "sourceBytes": 745030,
+      "targetBytes": 89212,
+      "sourceWidth": 1200,
+      "sourceHeight": 799,
+      "targetWidth": 1200,
+      "targetHeight": 799
+    },
+    {
+      "source": "public/assets/portfolioImg/isavivai/cover_isavivai.jpg",
+      "target": "public/assets/portfolioImg/isavivai/cover_isavivai.optimized.webp",
+      "sourceBytes": 870584,
+      "targetBytes": 145552,
+      "sourceWidth": 1200,
+      "sourceHeight": 795,
+      "targetWidth": 1200,
+      "targetHeight": 795
+    },
+    {
+      "source": "public/assets/portfolioImg/saint/cover3.jpg",
+      "target": "public/assets/portfolioImg/saint/cover3.optimized.webp",
+      "sourceBytes": 864125,
+      "targetBytes": 145996,
+      "sourceWidth": 1200,
+      "sourceHeight": 892,
+      "targetWidth": 1200,
+      "targetHeight": 892
+    },
+    {
+      "source": "public/assets/portfolioImg/morzenti/cover_morzenti.jpg",
+      "target": "public/assets/portfolioImg/morzenti/cover_morzenti.optimized.webp",
+      "sourceBytes": 1001571,
+      "targetBytes": 243710,
+      "sourceWidth": 1000,
+      "sourceHeight": 698,
+      "targetWidth": 1000,
+      "targetHeight": 698
+    },
+    {
+      "source": "public/assets/portfolioImg/alpimiel/alpimiel_cover.webp",
+      "target": "public/assets/portfolioImg/alpimiel/alpimiel_cover.optimized.webp",
+      "sourceBytes": 673448,
+      "targetBytes": 143920,
+      "sourceWidth": 8333,
+      "sourceHeight": 4167,
+      "targetWidth": 2560,
+      "targetHeight": 1280
+    },
+    {
+      "source": "public/assets/portfolioImg/anserme/intro_anse.jpg",
+      "target": "public/assets/portfolioImg/anserme/intro_anse.optimized.webp",
+      "sourceBytes": 925936,
+      "targetBytes": 218960,
+      "sourceWidth": 1500,
+      "sourceHeight": 731,
+      "targetWidth": 1500,
+      "targetHeight": 731
+    },
+    {
+      "source": "public/assets/portfolioImg/anserme/typo_anse_text.png",
+      "target": "public/assets/portfolioImg/anserme/typo_anse_text.optimized.webp",
+      "sourceBytes": 74294,
+      "targetBytes": 20880,
+      "sourceWidth": 1754,
+      "sourceHeight": 934,
+      "targetWidth": 1754,
+      "targetHeight": 934
+    },
+    {
+      "source": "public/assets/portfolioImg/anserme/typo_anse_font.png",
+      "target": "public/assets/portfolioImg/anserme/typo_anse_font.optimized.webp",
+      "sourceBytes": 33938,
+      "targetBytes": 10220,
+      "sourceWidth": 1754,
+      "sourceHeight": 934,
+      "targetWidth": 1754,
+      "targetHeight": 934
+    },
+    {
+      "source": "public/assets/portfolioImg/anserme/coloribrand_anse.png",
+      "target": "public/assets/portfolioImg/anserme/coloribrand_anse.optimized.webp",
+      "sourceBytes": 33930,
+      "targetBytes": 32344,
+      "sourceWidth": 3165,
+      "sourceHeight": 607,
+      "targetWidth": 2560,
+      "targetHeight": 491
+    },
+    {
+      "source": "public/assets/portfolioImg/anserme/illustrazioni_anse.png",
+      "target": "public/assets/portfolioImg/anserme/illustrazioni_anse.optimized.webp",
+      "sourceBytes": 112485,
+      "targetBytes": 112378,
+      "sourceWidth": 3508,
+      "sourceHeight": 752,
+      "targetWidth": 2560,
+      "targetHeight": 549
+    },
+    {
+      "source": "public/assets/portfolioImg/anserme/etichetta_miele.png",
+      "target": "public/assets/portfolioImg/anserme/etichetta_miele.optimized.webp",
+      "sourceBytes": 1576901,
+      "targetBytes": 357594,
+      "sourceWidth": 1550,
+      "sourceHeight": 1030,
+      "targetWidth": 1550,
+      "targetHeight": 1030
+    },
+    {
+      "source": "public/assets/portfolioImg/anserme/latta_caramelle.jpg",
+      "target": "public/assets/portfolioImg/anserme/latta_caramelle.optimized.webp",
+      "sourceBytes": 876594,
+      "targetBytes": 180304,
+      "sourceWidth": 1200,
+      "sourceHeight": 704,
+      "targetWidth": 1200,
+      "targetHeight": 704
+    },
+    {
+      "source": "public/assets/portfolioImg/anserme/cartellino_caramelle.jpg",
+      "target": "public/assets/portfolioImg/anserme/cartellino_caramelle.optimized.webp",
+      "sourceBytes": 744876,
+      "targetBytes": 132142,
+      "sourceWidth": 1200,
+      "sourceHeight": 766,
+      "targetWidth": 1200,
+      "targetHeight": 766
+    },
+    {
+      "source": "public/assets/portfolioImg/anserme/cartellino_biscotti.jpg",
+      "target": "public/assets/portfolioImg/anserme/cartellino_biscotti.optimized.webp",
+      "sourceBytes": 1016948,
+      "targetBytes": 187828,
+      "sourceWidth": 1500,
+      "sourceHeight": 880,
+      "targetWidth": 1500,
+      "targetHeight": 880
+    },
+    {
+      "source": "public/assets/portfolioImg/anserme/creme.png",
+      "target": "public/assets/portfolioImg/anserme/creme.optimized.webp",
+      "sourceBytes": 914267,
+      "targetBytes": 196436,
+      "sourceWidth": 3508,
+      "sourceHeight": 1908,
+      "targetWidth": 2560,
+      "targetHeight": 1392
+    },
+    {
+      "source": "public/assets/portfolioImg/anserme/creme2.jpg",
+      "target": "public/assets/portfolioImg/anserme/creme2.optimized.webp",
+      "sourceBytes": 846604,
+      "targetBytes": 205296,
+      "sourceWidth": 1200,
+      "sourceHeight": 735,
+      "targetWidth": 1200,
+      "targetHeight": 735
+    },
+    {
+      "source": "public/assets/portfolioImg/anserme/label_shampoo.png",
+      "target": "public/assets/portfolioImg/anserme/label_shampoo.optimized.webp",
+      "sourceBytes": 9113229,
+      "targetBytes": 483054,
+      "sourceWidth": 3508,
+      "sourceHeight": 2059,
+      "targetWidth": 2560,
+      "targetHeight": 1503
+    },
+    {
+      "source": "public/assets/portfolioImg/anserme/social.jpg",
+      "target": "public/assets/portfolioImg/anserme/social.optimized.webp",
+      "sourceBytes": 894164,
+      "targetBytes": 202974,
+      "sourceWidth": 1000,
+      "sourceHeight": 707,
+      "targetWidth": 1000,
+      "targetHeight": 707
+    },
+    {
+      "source": "public/assets/portfolioImg/bequet/cover3.jpg",
+      "target": "public/assets/portfolioImg/bequet/cover3.optimized.webp",
+      "sourceBytes": 792508,
+      "targetBytes": 136754,
+      "sourceWidth": 1200,
+      "sourceHeight": 800,
+      "targetWidth": 1200,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/portfolioImg/bequet/logo_becquet2.jpg",
+      "target": "public/assets/portfolioImg/bequet/logo_becquet2.optimized.webp",
+      "sourceBytes": 442610,
+      "targetBytes": 99552,
+      "sourceWidth": 1500,
+      "sourceHeight": 907,
+      "targetWidth": 1500,
+      "targetHeight": 907
+    },
+    {
+      "source": "public/assets/portfolioImg/bequet/typo_becquet_text.png",
+      "target": "public/assets/portfolioImg/bequet/typo_becquet_text.optimized.webp",
+      "sourceBytes": 78029,
+      "targetBytes": 20482,
+      "sourceWidth": 1754,
+      "sourceHeight": 934,
+      "targetWidth": 1754,
+      "targetHeight": 934
+    },
+    {
+      "source": "public/assets/portfolioImg/bequet/typo_becquet_font.png",
+      "target": "public/assets/portfolioImg/bequet/typo_becquet_font.optimized.webp",
+      "sourceBytes": 45235,
+      "targetBytes": 14242,
+      "sourceWidth": 1754,
+      "sourceHeight": 934,
+      "targetWidth": 1754,
+      "targetHeight": 934
+    },
+    {
+      "source": "public/assets/portfolioImg/bequet/brandcolor_bequet.png",
+      "target": "public/assets/portfolioImg/bequet/brandcolor_bequet.optimized.webp",
+      "sourceBytes": 627455,
+      "targetBytes": 41806,
+      "sourceWidth": 3508,
+      "sourceHeight": 748,
+      "targetWidth": 2560,
+      "targetHeight": 546
+    },
+    {
+      "source": "public/assets/portfolioImg/bequet/illustrazioni.jpg",
+      "target": "public/assets/portfolioImg/bequet/illustrazioni.optimized.webp",
+      "sourceBytes": 157330,
+      "targetBytes": 36764,
+      "sourceWidth": 1200,
+      "sourceHeight": 229,
+      "targetWidth": 1200,
+      "targetHeight": 229
+    },
+    {
+      "source": "public/assets/portfolioImg/bequet/label1_sam.jpg",
+      "target": "public/assets/portfolioImg/bequet/label1_sam.optimized.webp",
+      "sourceBytes": 760867,
+      "targetBytes": 142304,
+      "sourceWidth": 1200,
+      "sourceHeight": 848,
+      "targetWidth": 1200,
+      "targetHeight": 848
+    },
+    {
+      "source": "public/assets/portfolioImg/bequet/label4_sam.jpg",
+      "target": "public/assets/portfolioImg/bequet/label4_sam.optimized.webp",
+      "sourceBytes": 753520,
+      "targetBytes": 169386,
+      "sourceWidth": 1000,
+      "sourceHeight": 707,
+      "targetWidth": 1000,
+      "targetHeight": 707
+    },
+    {
+      "source": "public/assets/portfolioImg/bequet/label2_sam.jpg",
+      "target": "public/assets/portfolioImg/bequet/label2_sam.optimized.webp",
+      "sourceBytes": 901054,
+      "targetBytes": 195654,
+      "sourceWidth": 1200,
+      "sourceHeight": 848,
+      "targetWidth": 1200,
+      "targetHeight": 848
+    },
+    {
+      "source": "public/assets/portfolioImg/bequet/label3_sam.jpg",
+      "target": "public/assets/portfolioImg/bequet/label3_sam.optimized.webp",
+      "sourceBytes": 804038,
+      "targetBytes": 162410,
+      "sourceWidth": 1200,
+      "sourceHeight": 848,
+      "targetWidth": 1200,
+      "targetHeight": 848
+    },
+    {
+      "source": "public/assets/portfolioImg/bequet/cartellino.jpg",
+      "target": "public/assets/portfolioImg/bequet/cartellino.optimized.webp",
+      "sourceBytes": 858518,
+      "targetBytes": 216244,
+      "sourceWidth": 1200,
+      "sourceHeight": 848,
+      "targetWidth": 1200,
+      "targetHeight": 848
+    },
+    {
+      "source": "public/assets/portfolioImg/casadei/brand_casadei.jpg",
+      "target": "public/assets/portfolioImg/casadei/brand_casadei.optimized.webp",
+      "sourceBytes": 431368,
+      "targetBytes": 115866,
+      "sourceWidth": 1500,
+      "sourceHeight": 651,
+      "targetWidth": 1500,
+      "targetHeight": 651
+    },
+    {
+      "source": "public/assets/portfolioImg/casadei/typo_casadei_text.png",
+      "target": "public/assets/portfolioImg/casadei/typo_casadei_text.optimized.webp",
+      "sourceBytes": 85195,
+      "targetBytes": 23096,
+      "sourceWidth": 1754,
+      "sourceHeight": 935,
+      "targetWidth": 1754,
+      "targetHeight": 935
+    },
+    {
+      "source": "public/assets/portfolioImg/casadei/typo_casadei_font.png",
+      "target": "public/assets/portfolioImg/casadei/typo_casadei_font.optimized.webp",
+      "sourceBytes": 65850,
+      "targetBytes": 23690,
+      "sourceWidth": 1754,
+      "sourceHeight": 935,
+      "targetWidth": 1754,
+      "targetHeight": 935
+    },
+    {
+      "source": "public/assets/portfolioImg/casadei/color_brand_casadei.png",
+      "target": "public/assets/portfolioImg/casadei/color_brand_casadei.optimized.webp",
+      "sourceBytes": 52950,
+      "targetBytes": 67228,
+      "sourceWidth": 3014,
+      "sourceHeight": 579,
+      "targetWidth": 2560,
+      "targetHeight": 492
+    },
+    {
+      "source": "public/assets/portfolioImg/casadei/sponsor.jpg",
+      "target": "public/assets/portfolioImg/casadei/sponsor.optimized.webp",
+      "sourceBytes": 969144,
+      "targetBytes": 230026,
+      "sourceWidth": 1200,
+      "sourceHeight": 788,
+      "targetWidth": 1200,
+      "targetHeight": 788
+    },
+    {
+      "source": "public/assets/portfolioImg/casadei/pattern_casadei.jpg",
+      "target": "public/assets/portfolioImg/casadei/pattern_casadei.optimized.webp",
+      "sourceBytes": 837772,
+      "targetBytes": 232400,
+      "sourceWidth": 1000,
+      "sourceHeight": 565,
+      "targetWidth": 1000,
+      "targetHeight": 565
+    },
+    {
+      "source": "public/assets/portfolioImg/casadei/label1.jpg",
+      "target": "public/assets/portfolioImg/casadei/label1.optimized.webp",
+      "sourceBytes": 798005,
+      "targetBytes": 174236,
+      "sourceWidth": 1000,
+      "sourceHeight": 707,
+      "targetWidth": 1000,
+      "targetHeight": 707
+    },
+    {
+      "source": "public/assets/portfolioImg/casadei/label2.jpg",
+      "target": "public/assets/portfolioImg/casadei/label2.optimized.webp",
+      "sourceBytes": 1059302,
+      "targetBytes": 239318,
+      "sourceWidth": 1200,
+      "sourceHeight": 848,
+      "targetWidth": 1200,
+      "targetHeight": 848
+    },
+    {
+      "source": "public/assets/portfolioImg/casadei/label3.jpg",
+      "target": "public/assets/portfolioImg/casadei/label3.optimized.webp",
+      "sourceBytes": 920519,
+      "targetBytes": 206882,
+      "sourceWidth": 1200,
+      "sourceHeight": 848,
+      "targetWidth": 1200,
+      "targetHeight": 848
+    },
+    {
+      "source": "public/assets/portfolioImg/casadei/label4.jpg",
+      "target": "public/assets/portfolioImg/casadei/label4.optimized.webp",
+      "sourceBytes": 605485,
+      "targetBytes": 102864,
+      "sourceWidth": 1000,
+      "sourceHeight": 707,
+      "targetWidth": 1000,
+      "targetHeight": 707
+    },
+    {
+      "source": "public/assets/portfolioImg/phillacolor/logo_phillacolor.png",
+      "target": "public/assets/portfolioImg/phillacolor/logo_phillacolor.optimized.webp",
+      "sourceBytes": 560570,
+      "targetBytes": 115324,
+      "sourceWidth": 3508,
+      "sourceHeight": 1106,
+      "targetWidth": 2560,
+      "targetHeight": 807
+    },
+    {
+      "source": "public/assets/portfolioImg/phillacolor/typo_phillacolor_text.png",
+      "target": "public/assets/portfolioImg/phillacolor/typo_phillacolor_text.optimized.webp",
+      "sourceBytes": 88369,
+      "targetBytes": 26164,
+      "sourceWidth": 1754,
+      "sourceHeight": 927,
+      "targetWidth": 1754,
+      "targetHeight": 927
+    },
+    {
+      "source": "public/assets/portfolioImg/phillacolor/typo_phillacolor_font.png",
+      "target": "public/assets/portfolioImg/phillacolor/typo_phillacolor_font.optimized.webp",
+      "sourceBytes": 43512,
+      "targetBytes": 13700,
+      "sourceWidth": 1754,
+      "sourceHeight": 927,
+      "targetWidth": 1754,
+      "targetHeight": 927
+    },
+    {
+      "source": "public/assets/portfolioImg/phillacolor/colorbrand_philla.jpg",
+      "target": "public/assets/portfolioImg/phillacolor/colorbrand_philla.optimized.webp",
+      "sourceBytes": 43145,
+      "targetBytes": 6778,
+      "sourceWidth": 1200,
+      "sourceHeight": 226,
+      "targetWidth": 1200,
+      "targetHeight": 226
+    },
+    {
+      "source": "public/assets/portfolioImg/phillacolor/colorbrand_philla2.png",
+      "target": "public/assets/portfolioImg/phillacolor/colorbrand_philla2.optimized.webp",
+      "sourceBytes": 857054,
+      "targetBytes": 345294,
+      "sourceWidth": 2483,
+      "sourceHeight": 741,
+      "targetWidth": 2483,
+      "targetHeight": 741
+    },
+    {
+      "source": "public/assets/portfolioImg/phillacolor/label_philla1.jpg",
+      "target": "public/assets/portfolioImg/phillacolor/label_philla1.optimized.webp",
+      "sourceBytes": 624217,
+      "targetBytes": 111824,
+      "sourceWidth": 1200,
+      "sourceHeight": 848,
+      "targetWidth": 1200,
+      "targetHeight": 848
+    },
+    {
+      "source": "public/assets/portfolioImg/phillacolor/label_philla2.jpg",
+      "target": "public/assets/portfolioImg/phillacolor/label_philla2.optimized.webp",
+      "sourceBytes": 557504,
+      "targetBytes": 101598,
+      "sourceWidth": 1200,
+      "sourceHeight": 848,
+      "targetWidth": 1200,
+      "targetHeight": 848
+    },
+    {
+      "source": "public/assets/portfolioImg/chappoz/logos.jpg",
+      "target": "public/assets/portfolioImg/chappoz/logos.optimized.webp",
+      "sourceBytes": 455278,
+      "targetBytes": 100836,
+      "sourceWidth": 1200,
+      "sourceHeight": 500,
+      "targetWidth": 1200,
+      "targetHeight": 500
+    },
+    {
+      "source": "public/assets/portfolioImg/chappoz/typo_chap_text.png",
+      "target": "public/assets/portfolioImg/chappoz/typo_chap_text.optimized.webp",
+      "sourceBytes": 78497,
+      "targetBytes": 20578,
+      "sourceWidth": 1754,
+      "sourceHeight": 934,
+      "targetWidth": 1754,
+      "targetHeight": 934
+    },
+    {
+      "source": "public/assets/portfolioImg/chappoz/typo_chap_font.png",
+      "target": "public/assets/portfolioImg/chappoz/typo_chap_font.optimized.webp",
+      "sourceBytes": 43450,
+      "targetBytes": 14316,
+      "sourceWidth": 1754,
+      "sourceHeight": 934,
+      "targetWidth": 1754,
+      "targetHeight": 934
+    },
+    {
+      "source": "public/assets/portfolioImg/chappoz/color.png",
+      "target": "public/assets/portfolioImg/chappoz/color.optimized.webp",
+      "sourceBytes": 36826,
+      "targetBytes": 36486,
+      "sourceWidth": 3164,
+      "sourceHeight": 607,
+      "targetWidth": 2560,
+      "targetHeight": 491
+    },
+    {
+      "source": "public/assets/portfolioImg/chappoz/illustrazioni.png",
+      "target": "public/assets/portfolioImg/chappoz/illustrazioni.optimized.webp",
+      "sourceBytes": 324982,
+      "targetBytes": 381606,
+      "sourceWidth": 3508,
+      "sourceHeight": 744,
+      "targetWidth": 2560,
+      "targetHeight": 543
+    },
+    {
+      "source": "public/assets/portfolioImg/chappoz/label1.jpg",
+      "target": "public/assets/portfolioImg/chappoz/label1.optimized.webp",
+      "sourceBytes": 967590,
+      "targetBytes": 195848,
+      "sourceWidth": 1200,
+      "sourceHeight": 848,
+      "targetWidth": 1200,
+      "targetHeight": 848
+    },
+    {
+      "source": "public/assets/portfolioImg/chappoz/label_polenta.jpg",
+      "target": "public/assets/portfolioImg/chappoz/label_polenta.optimized.webp",
+      "sourceBytes": 956998,
+      "targetBytes": 253240,
+      "sourceWidth": 1200,
+      "sourceHeight": 848,
+      "targetWidth": 1200,
+      "targetHeight": 848
+    },
+    {
+      "source": "public/assets/portfolioImg/chappoz/social_chappoz2.jpg",
+      "target": "public/assets/portfolioImg/chappoz/social_chappoz2.optimized.webp",
+      "sourceBytes": 1297317,
+      "targetBytes": 325938,
+      "sourceWidth": 1200,
+      "sourceHeight": 849,
+      "targetWidth": 1200,
+      "targetHeight": 849
+    },
+    {
+      "source": "public/assets/portfolioImg/daemy/brand_emy.jpg",
+      "target": "public/assets/portfolioImg/daemy/brand_emy.optimized.webp",
+      "sourceBytes": 487173,
+      "targetBytes": 113002,
+      "sourceWidth": 1500,
+      "sourceHeight": 576,
+      "targetWidth": 1500,
+      "targetHeight": 576
+    },
+    {
+      "source": "public/assets/portfolioImg/daemy/typo_emy_text.png",
+      "target": "public/assets/portfolioImg/daemy/typo_emy_text.optimized.webp",
+      "sourceBytes": 89601,
+      "targetBytes": 26242,
+      "sourceWidth": 1754,
+      "sourceHeight": 934,
+      "targetWidth": 1754,
+      "targetHeight": 934
+    },
+    {
+      "source": "public/assets/portfolioImg/daemy/typo_emy_font.png",
+      "target": "public/assets/portfolioImg/daemy/typo_emy_font.optimized.webp",
+      "sourceBytes": 49686,
+      "targetBytes": 17130,
+      "sourceWidth": 1754,
+      "sourceHeight": 934,
+      "targetWidth": 1754,
+      "targetHeight": 934
+    },
+    {
+      "source": "public/assets/portfolioImg/daemy/colors.png",
+      "target": "public/assets/portfolioImg/daemy/colors.optimized.webp",
+      "sourceBytes": 57866,
+      "targetBytes": 37242,
+      "sourceWidth": 2705,
+      "sourceHeight": 648,
+      "targetWidth": 2560,
+      "targetHeight": 613
+    },
+    {
+      "source": "public/assets/portfolioImg/daemy/colors2.png",
+      "target": "public/assets/portfolioImg/daemy/colors2.optimized.webp",
+      "sourceBytes": 28473,
+      "targetBytes": 27620,
+      "sourceWidth": 2705,
+      "sourceHeight": 648,
+      "targetWidth": 2560,
+      "targetHeight": 613
+    },
+    {
+      "source": "public/assets/portfolioImg/daemy/illustrazioni.jpg",
+      "target": "public/assets/portfolioImg/daemy/illustrazioni.optimized.webp",
+      "sourceBytes": 367524,
+      "targetBytes": 91736,
+      "sourceWidth": 1500,
+      "sourceHeight": 380,
+      "targetWidth": 1500,
+      "targetHeight": 380
+    },
+    {
+      "source": "public/assets/portfolioImg/daemy/label1.jpg",
+      "target": "public/assets/portfolioImg/daemy/label1.optimized.webp",
+      "sourceBytes": 1426771,
+      "targetBytes": 279952,
+      "sourceWidth": 1500,
+      "sourceHeight": 1060,
+      "targetWidth": 1500,
+      "targetHeight": 1060
+    },
+    {
+      "source": "public/assets/portfolioImg/daemy/label2.jpg",
+      "target": "public/assets/portfolioImg/daemy/label2.optimized.webp",
+      "sourceBytes": 636171,
+      "targetBytes": 103424,
+      "sourceWidth": 1200,
+      "sourceHeight": 848,
+      "targetWidth": 1200,
+      "targetHeight": 848
+    },
+    {
+      "source": "public/assets/portfolioImg/daemy/label3.jpg",
+      "target": "public/assets/portfolioImg/daemy/label3.optimized.webp",
+      "sourceBytes": 612863,
+      "targetBytes": 101520,
+      "sourceWidth": 1200,
+      "sourceHeight": 848,
+      "targetWidth": 1200,
+      "targetHeight": 848
+    },
+    {
+      "source": "public/assets/portfolioImg/daemy/label4.jpg",
+      "target": "public/assets/portfolioImg/daemy/label4.optimized.webp",
+      "sourceBytes": 934904,
+      "targetBytes": 194024,
+      "sourceWidth": 1200,
+      "sourceHeight": 848,
+      "targetWidth": 1200,
+      "targetHeight": 848
+    },
+    {
+      "source": "public/assets/portfolioImg/daemy/box.jpg",
+      "target": "public/assets/portfolioImg/daemy/box.optimized.webp",
+      "sourceBytes": 1139151,
+      "targetBytes": 247160,
+      "sourceWidth": 1200,
+      "sourceHeight": 848,
+      "targetWidth": 1200,
+      "targetHeight": 848
+    },
+    {
+      "source": "public/assets/portfolioImg/horto/logo_horto.jpg",
+      "target": "public/assets/portfolioImg/horto/logo_horto.optimized.webp",
+      "sourceBytes": 343969,
+      "targetBytes": 60096,
+      "sourceWidth": 1200,
+      "sourceHeight": 710,
+      "targetWidth": 1200,
+      "targetHeight": 710
+    },
+    {
+      "source": "public/assets/portfolioImg/horto/typo_horto_text.png",
+      "target": "public/assets/portfolioImg/horto/typo_horto_text.optimized.webp",
+      "sourceBytes": 83279,
+      "targetBytes": 23242,
+      "sourceWidth": 1754,
+      "sourceHeight": 934,
+      "targetWidth": 1754,
+      "targetHeight": 934
+    },
+    {
+      "source": "public/assets/portfolioImg/horto/typo_horto_font.png",
+      "target": "public/assets/portfolioImg/horto/typo_horto_font.optimized.webp",
+      "sourceBytes": 53580,
+      "targetBytes": 18120,
+      "sourceWidth": 1754,
+      "sourceHeight": 934,
+      "targetWidth": 1754,
+      "targetHeight": 934
+    },
+    {
+      "source": "public/assets/portfolioImg/horto/colorbrand_horto.png",
+      "target": "public/assets/portfolioImg/horto/colorbrand_horto.optimized.webp",
+      "sourceBytes": 34906,
+      "targetBytes": 27882,
+      "sourceWidth": 3165,
+      "sourceHeight": 607,
+      "targetWidth": 2560,
+      "targetHeight": 491
+    },
+    {
+      "source": "public/assets/portfolioImg/horto/branding.jpg",
+      "target": "public/assets/portfolioImg/horto/branding.optimized.webp",
+      "sourceBytes": 500162,
+      "targetBytes": 106496,
+      "sourceWidth": 1200,
+      "sourceHeight": 852,
+      "targetWidth": 1200,
+      "targetHeight": 852
+    },
+    {
+      "source": "public/assets/portfolioImg/horto/illustrazioni.png",
+      "target": "public/assets/portfolioImg/horto/illustrazioni.optimized.webp",
+      "sourceBytes": 360097,
+      "targetBytes": 213652,
+      "sourceWidth": 3011,
+      "sourceHeight": 680,
+      "targetWidth": 2560,
+      "targetHeight": 578
+    },
+    {
+      "source": "public/assets/portfolioImg/horto/label1.jpg",
+      "target": "public/assets/portfolioImg/horto/label1.optimized.webp",
+      "sourceBytes": 685990,
+      "targetBytes": 133482,
+      "sourceWidth": 1200,
+      "sourceHeight": 848,
+      "targetWidth": 1200,
+      "targetHeight": 848
+    },
+    {
+      "source": "public/assets/portfolioImg/horto/label2.jpg",
+      "target": "public/assets/portfolioImg/horto/label2.optimized.webp",
+      "sourceBytes": 844465,
+      "targetBytes": 121872,
+      "sourceWidth": 1200,
+      "sourceHeight": 848,
+      "targetWidth": 1200,
+      "targetHeight": 848
+    },
+    {
+      "source": "public/assets/portfolioImg/isavivai/logo_isavivai.jpg",
+      "target": "public/assets/portfolioImg/isavivai/logo_isavivai.optimized.webp",
+      "sourceBytes": 480482,
+      "targetBytes": 103326,
+      "sourceWidth": 1200,
+      "sourceHeight": 530,
+      "targetWidth": 1200,
+      "targetHeight": 530
+    },
+    {
+      "source": "public/assets/portfolioImg/isavivai/typo_isavivai_text.png",
+      "target": "public/assets/portfolioImg/isavivai/typo_isavivai_text.optimized.webp",
+      "sourceBytes": 95930,
+      "targetBytes": 26632,
+      "sourceWidth": 1754,
+      "sourceHeight": 934,
+      "targetWidth": 1754,
+      "targetHeight": 934
+    },
+    {
+      "source": "public/assets/portfolioImg/isavivai/typo_isavivai_font.png",
+      "target": "public/assets/portfolioImg/isavivai/typo_isavivai_font.optimized.webp",
+      "sourceBytes": 52708,
+      "targetBytes": 18322,
+      "sourceWidth": 1754,
+      "sourceHeight": 934,
+      "targetWidth": 1754,
+      "targetHeight": 934
+    },
+    {
+      "source": "public/assets/portfolioImg/isavivai/colors.png",
+      "target": "public/assets/portfolioImg/isavivai/colors.optimized.webp",
+      "sourceBytes": 517457,
+      "targetBytes": 26200,
+      "sourceWidth": 3508,
+      "sourceHeight": 561,
+      "targetWidth": 2560,
+      "targetHeight": 409
+    },
+    {
+      "source": "public/assets/portfolioImg/isavivai/colors2.png",
+      "target": "public/assets/portfolioImg/isavivai/colors2.optimized.webp",
+      "sourceBytes": 459641,
+      "targetBytes": 67414,
+      "sourceWidth": 3462,
+      "sourceHeight": 521,
+      "targetWidth": 2560,
+      "targetHeight": 385
+    },
+    {
+      "source": "public/assets/portfolioImg/isavivai/branding.png",
+      "target": "public/assets/portfolioImg/isavivai/branding.optimized.webp",
+      "sourceBytes": 9634607,
+      "targetBytes": 121592,
+      "sourceWidth": 800,
+      "sourceHeight": 534,
+      "targetWidth": 800,
+      "targetHeight": 534
+    },
+    {
+      "source": "public/assets/portfolioImg/isavivai/allestimenti.jpg",
+      "target": "public/assets/portfolioImg/isavivai/allestimenti.optimized.webp",
+      "sourceBytes": 881620,
+      "targetBytes": 226598,
+      "sourceWidth": 1200,
+      "sourceHeight": 829,
+      "targetWidth": 1200,
+      "targetHeight": 829
+    },
+    {
+      "source": "public/assets/portfolioImg/saint/brand_saint.jpg",
+      "target": "public/assets/portfolioImg/saint/brand_saint.optimized.webp",
+      "sourceBytes": 510348,
+      "targetBytes": 109534,
+      "sourceWidth": 1200,
+      "sourceHeight": 591,
+      "targetWidth": 1200,
+      "targetHeight": 591
+    },
+    {
+      "source": "public/assets/portfolioImg/saint/typo_saint_text.png",
+      "target": "public/assets/portfolioImg/saint/typo_saint_text.optimized.webp",
+      "sourceBytes": 80943,
+      "targetBytes": 23268,
+      "sourceWidth": 1754,
+      "sourceHeight": 934,
+      "targetWidth": 1754,
+      "targetHeight": 934
+    },
+    {
+      "source": "public/assets/portfolioImg/saint/typo_saint_font.png",
+      "target": "public/assets/portfolioImg/saint/typo_saint_font.optimized.webp",
+      "sourceBytes": 45174,
+      "targetBytes": 15310,
+      "sourceWidth": 1754,
+      "sourceHeight": 934,
+      "targetWidth": 1754,
+      "targetHeight": 934
+    },
+    {
+      "source": "public/assets/portfolioImg/saint/colors.png",
+      "target": "public/assets/portfolioImg/saint/colors.optimized.webp",
+      "sourceBytes": 32615,
+      "targetBytes": 41430,
+      "sourceWidth": 2705,
+      "sourceHeight": 650,
+      "targetWidth": 2560,
+      "targetHeight": 615
+    },
+    {
+      "source": "public/assets/portfolioImg/saint/illustrazioni_classica.jpg",
+      "target": "public/assets/portfolioImg/saint/illustrazioni_classica.optimized.webp",
+      "sourceBytes": 186719,
+      "targetBytes": 53196,
+      "sourceWidth": 1500,
+      "sourceHeight": 299,
+      "targetWidth": 1500,
+      "targetHeight": 299
+    },
+    {
+      "source": "public/assets/portfolioImg/saint/illustrazioni_green.png",
+      "target": "public/assets/portfolioImg/saint/illustrazioni_green.optimized.webp",
+      "sourceBytes": 122261,
+      "targetBytes": 124862,
+      "sourceWidth": 3508,
+      "sourceHeight": 707,
+      "targetWidth": 2560,
+      "targetHeight": 516
+    },
+    {
+      "source": "public/assets/portfolioImg/saint/jus_dor.jpg",
+      "target": "public/assets/portfolioImg/saint/jus_dor.optimized.webp",
+      "sourceBytes": 539944,
+      "targetBytes": 77414,
+      "sourceWidth": 1200,
+      "sourceHeight": 848,
+      "targetWidth": 1200,
+      "targetHeight": 848
+    },
+    {
+      "source": "public/assets/portfolioImg/saint/scarti.jpg",
+      "target": "public/assets/portfolioImg/saint/scarti.optimized.webp",
+      "sourceBytes": 771734,
+      "targetBytes": 147574,
+      "sourceWidth": 1200,
+      "sourceHeight": 848,
+      "targetWidth": 1200,
+      "targetHeight": 848
+    },
+    {
+      "source": "public/assets/portfolioImg/saint/baginbox.jpg",
+      "target": "public/assets/portfolioImg/saint/baginbox.optimized.webp",
+      "sourceBytes": 856626,
+      "targetBytes": 195260,
+      "sourceWidth": 1000,
+      "sourceHeight": 707,
+      "targetWidth": 1000,
+      "targetHeight": 707
+    },
+    {
+      "source": "public/assets/portfolioImg/saint/reinetta.jpg",
+      "target": "public/assets/portfolioImg/saint/reinetta.optimized.webp",
+      "sourceBytes": 326363,
+      "targetBytes": 63190,
+      "sourceWidth": 1200,
+      "sourceHeight": 654,
+      "targetWidth": 1200,
+      "targetHeight": 654
+    },
+    {
+      "source": "public/assets/portfolioImg/morzenti/brand_morzenti.jpg",
+      "target": "public/assets/portfolioImg/morzenti/brand_morzenti.optimized.webp",
+      "sourceBytes": 344416,
+      "targetBytes": 79032,
+      "sourceWidth": 1200,
+      "sourceHeight": 721,
+      "targetWidth": 1200,
+      "targetHeight": 721
+    },
+    {
+      "source": "public/assets/portfolioImg/morzenti/typo_morzenti_text.png",
+      "target": "public/assets/portfolioImg/morzenti/typo_morzenti_text.optimized.webp",
+      "sourceBytes": 91516,
+      "targetBytes": 25530,
+      "sourceWidth": 1754,
+      "sourceHeight": 934,
+      "targetWidth": 1754,
+      "targetHeight": 934
+    },
+    {
+      "source": "public/assets/portfolioImg/morzenti/typo_morzenti_font.png",
+      "target": "public/assets/portfolioImg/morzenti/typo_morzenti_font.optimized.webp",
+      "sourceBytes": 43710,
+      "targetBytes": 13944,
+      "sourceWidth": 1754,
+      "sourceHeight": 934,
+      "targetWidth": 1754,
+      "targetHeight": 934
+    },
+    {
+      "source": "public/assets/portfolioImg/morzenti/colors.png",
+      "target": "public/assets/portfolioImg/morzenti/colors.optimized.webp",
+      "sourceBytes": 34981,
+      "targetBytes": 27848,
+      "sourceWidth": 3165,
+      "sourceHeight": 607,
+      "targetWidth": 2560,
+      "targetHeight": 491
+    },
+    {
+      "source": "public/assets/portfolioImg/morzenti/social1.jpg",
+      "target": "public/assets/portfolioImg/morzenti/social1.optimized.webp",
+      "sourceBytes": 805850,
+      "targetBytes": 163814,
+      "sourceWidth": 1200,
+      "sourceHeight": 848,
+      "targetWidth": 1200,
+      "targetHeight": 848
+    },
+    {
+      "source": "public/assets/portfolioImg/morzenti/social2.jpg",
+      "target": "public/assets/portfolioImg/morzenti/social2.optimized.webp",
+      "sourceBytes": 857194,
+      "targetBytes": 191794,
+      "sourceWidth": 1200,
+      "sourceHeight": 848,
+      "targetWidth": 1200,
+      "targetHeight": 848
+    },
+    {
+      "source": "public/assets/portfolioImg/morzenti/social3.jpg",
+      "target": "public/assets/portfolioImg/morzenti/social3.optimized.webp",
+      "sourceBytes": 705447,
+      "targetBytes": 130132,
+      "sourceWidth": 1200,
+      "sourceHeight": 848,
+      "targetWidth": 1200,
+      "targetHeight": 848
+    },
+    {
+      "source": "public/assets/portfolioImg/morzenti/social4.jpg",
+      "target": "public/assets/portfolioImg/morzenti/social4.optimized.webp",
+      "sourceBytes": 998508,
+      "targetBytes": 234874,
+      "sourceWidth": 1200,
+      "sourceHeight": 848,
+      "targetWidth": 1200,
+      "targetHeight": 848
+    },
+    {
+      "source": "public/assets/portfolioImg/morzenti/social5.jpg",
+      "target": "public/assets/portfolioImg/morzenti/social5.optimized.webp",
+      "sourceBytes": 956927,
+      "targetBytes": 215618,
+      "sourceWidth": 1200,
+      "sourceHeight": 848,
+      "targetWidth": 1200,
+      "targetHeight": 848
+    },
+    {
+      "source": "public/assets/portfolioImg/gourmandises/colors.png",
+      "target": "public/assets/portfolioImg/gourmandises/colors.optimized.webp",
+      "sourceBytes": 29163,
+      "targetBytes": 53786,
+      "sourceWidth": 3018,
+      "sourceHeight": 579,
+      "targetWidth": 2560,
+      "targetHeight": 491
+    },
+    {
+      "source": "public/assets/portfolioImg/gourmandises/etichetta_fustella.png",
+      "target": "public/assets/portfolioImg/gourmandises/etichetta_fustella.optimized.webp",
+      "sourceBytes": 7335868,
+      "targetBytes": 430828,
+      "sourceWidth": 8333,
+      "sourceHeight": 4167,
+      "targetWidth": 2560,
+      "targetHeight": 1280
+    },
+    {
+      "source": "public/assets/portfolioImg/gourmandises/portfolio_alice7.png",
+      "target": "public/assets/portfolioImg/gourmandises/portfolio_alice7.optimized.webp",
+      "sourceBytes": 9347174,
+      "targetBytes": 442506,
+      "sourceWidth": 3508,
+      "sourceHeight": 2247,
+      "targetWidth": 2560,
+      "targetHeight": 1640
+    },
+    {
+      "source": "public/assets/portfolioImg/gourmandises/portfolio_alice8.png",
+      "target": "public/assets/portfolioImg/gourmandises/portfolio_alice8.optimized.webp",
+      "sourceBytes": 4724776,
+      "targetBytes": 420014,
+      "sourceWidth": 3508,
+      "sourceHeight": 2215,
+      "targetWidth": 2560,
+      "targetHeight": 1616
+    },
+    {
+      "source": "public/assets/portfolioImg/jardin_potager/typo_book_text.png",
+      "target": "public/assets/portfolioImg/jardin_potager/typo_book_text.optimized.webp",
+      "sourceBytes": 66578,
+      "targetBytes": 16362,
+      "sourceWidth": 1754,
+      "sourceHeight": 1214,
+      "targetWidth": 1754,
+      "targetHeight": 1214
+    },
+    {
+      "source": "public/assets/portfolioImg/jardin_potager/mascotte1.png",
+      "target": "public/assets/portfolioImg/jardin_potager/mascotte1.optimized.webp",
+      "sourceBytes": 148222,
+      "targetBytes": 110180,
+      "sourceWidth": 3508,
+      "sourceHeight": 1155,
+      "targetWidth": 2560,
+      "targetHeight": 843
+    },
+    {
+      "source": "public/assets/portfolioImg/jardin_potager/illu2.png",
+      "target": "public/assets/portfolioImg/jardin_potager/illu2.optimized.webp",
+      "sourceBytes": 3582097,
+      "targetBytes": 442314,
+      "sourceWidth": 3508,
+      "sourceHeight": 1073,
+      "targetWidth": 2560,
+      "targetHeight": 783
+    },
+    {
+      "source": "public/assets/portfolioImg/jardin_potager/illu4.png",
+      "target": "public/assets/portfolioImg/jardin_potager/illu4.optimized.webp",
+      "sourceBytes": 15548764,
+      "targetBytes": 1114138,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/jardin_potager/illu5.png",
+      "target": "public/assets/portfolioImg/jardin_potager/illu5.optimized.webp",
+      "sourceBytes": 14806148,
+      "targetBytes": 792982,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/jardin_potager/illu6.png",
+      "target": "public/assets/portfolioImg/jardin_potager/illu6.optimized.webp",
+      "sourceBytes": 14875775,
+      "targetBytes": 819432,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/jardin_potager/illu7.png",
+      "target": "public/assets/portfolioImg/jardin_potager/illu7.optimized.webp",
+      "sourceBytes": 14600097,
+      "targetBytes": 771538,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/alpimiel/typo_alpimiel_font.png",
+      "target": "public/assets/portfolioImg/alpimiel/typo_alpimiel_font.optimized.webp",
+      "sourceBytes": 161845,
+      "targetBytes": 128310,
+      "sourceWidth": 4167,
+      "sourceHeight": 2228,
+      "targetWidth": 2560,
+      "targetHeight": 1369
+    },
+    {
+      "source": "public/assets/portfolioImg/alpimiel/typo_alpimiel_text.png",
+      "target": "public/assets/portfolioImg/alpimiel/typo_alpimiel_text.optimized.webp",
+      "sourceBytes": 163414,
+      "targetBytes": 145200,
+      "sourceWidth": 4130,
+      "sourceHeight": 2228,
+      "targetWidth": 2560,
+      "targetHeight": 1381
+    },
+    {
+      "source": "public/assets/portfolioImg/alpimiel/alpimiel4.png",
+      "target": "public/assets/portfolioImg/alpimiel/alpimiel4.optimized.webp",
+      "sourceBytes": 10020858,
+      "targetBytes": 426266,
+      "sourceWidth": 4167,
+      "sourceHeight": 2083,
+      "targetWidth": 2560,
+      "targetHeight": 1280
+    },
+    {
+      "source": "public/assets/portfolioImg/alpimiel/alpimiel5.png",
+      "target": "public/assets/portfolioImg/alpimiel/alpimiel5.optimized.webp",
+      "sourceBytes": 10841309,
+      "targetBytes": 576052,
+      "sourceWidth": 4167,
+      "sourceHeight": 2083,
+      "targetWidth": 2560,
+      "targetHeight": 1280
+    },
+    {
+      "source": "public/assets/portfolioImg/alpimiel/alpimiel6.png",
+      "target": "public/assets/portfolioImg/alpimiel/alpimiel6.optimized.webp",
+      "sourceBytes": 10964521,
+      "targetBytes": 548856,
+      "sourceWidth": 4167,
+      "sourceHeight": 2083,
+      "targetWidth": 2560,
+      "targetHeight": 1280
+    },
+    {
+      "source": "public/assets/portfolioImg/alpimiel/alpimiel10.png",
+      "target": "public/assets/portfolioImg/alpimiel/alpimiel10.optimized.webp",
+      "sourceBytes": 13933231,
+      "targetBytes": 571062,
+      "sourceWidth": 4167,
+      "sourceHeight": 2083,
+      "targetWidth": 2560,
+      "targetHeight": 1280
+    },
+    {
+      "source": "public/assets/portfolioImg/alpimiel/alpimiel8.png",
+      "target": "public/assets/portfolioImg/alpimiel/alpimiel8.optimized.webp",
+      "sourceBytes": 13424830,
+      "targetBytes": 466384,
+      "sourceWidth": 4167,
+      "sourceHeight": 2083,
+      "targetWidth": 2560,
+      "targetHeight": 1280
+    },
+    {
+      "source": "public/assets/portfolioImg/alpimiel/alpimiel7.png",
+      "target": "public/assets/portfolioImg/alpimiel/alpimiel7.optimized.webp",
+      "sourceBytes": 13790075,
+      "targetBytes": 437706,
+      "sourceWidth": 4167,
+      "sourceHeight": 2083,
+      "targetWidth": 2560,
+      "targetHeight": 1280
+    },
+    {
+      "source": "public/assets/portfolioImg/alpimiel/alpimiel9.png",
+      "target": "public/assets/portfolioImg/alpimiel/alpimiel9.optimized.webp",
+      "sourceBytes": 12517975,
+      "targetBytes": 448068,
+      "sourceWidth": 4167,
+      "sourceHeight": 2083,
+      "targetWidth": 2560,
+      "targetHeight": 1280
+    },
+    {
+      "source": "public/assets/pageImg/contattiTitle.png",
+      "target": "public/assets/pageImg/contattiTitle.optimized.webp",
+      "sourceBytes": 30927,
+      "targetBytes": 10750,
+      "sourceWidth": 1728,
+      "sourceHeight": 628,
+      "targetWidth": 1728,
+      "targetHeight": 628
+    },
+    {
+      "source": "public/assets/hand-behance.png",
+      "target": "public/assets/hand-behance.optimized.webp",
+      "sourceBytes": 16519,
+      "targetBytes": 2244,
+      "sourceWidth": 1271,
+      "sourceHeight": 1583,
+      "targetWidth": 1271,
+      "targetHeight": 1583
+    },
+    {
+      "source": "public/assets/pageImg/tigre.webp",
+      "target": "public/assets/pageImg/tigre.optimized.webp",
+      "sourceBytes": 595400,
+      "targetBytes": 149126,
+      "sourceWidth": 902,
+      "sourceHeight": 1200,
+      "targetWidth": 902,
+      "targetHeight": 1200
+    },
+    {
+      "source": "public/assets/pageImg/gattina2.webp",
+      "target": "public/assets/pageImg/gattina2.optimized.webp",
+      "sourceBytes": 828282,
+      "targetBytes": 288294,
+      "sourceWidth": 1000,
+      "sourceHeight": 1305,
+      "targetWidth": 1000,
+      "targetHeight": 1305
+    },
+    {
+      "source": "public/assets/pageImg/lampadina.webp",
+      "target": "public/assets/pageImg/lampadina.optimized.webp",
+      "sourceBytes": 110798,
+      "targetBytes": 56800,
+      "sourceWidth": 697,
+      "sourceHeight": 690,
+      "targetWidth": 697,
+      "targetHeight": 690
+    },
+    {
+      "source": "public/assets/pageImg/gatto2.webp",
+      "target": "public/assets/pageImg/gatto2.optimized.webp",
+      "sourceBytes": 699936,
+      "targetBytes": 204494,
+      "sourceWidth": 1000,
+      "sourceHeight": 1307,
+      "targetWidth": 1000,
+      "targetHeight": 1307
+    },
+    {
+      "source": "public/assets/serviziImg/logoDesign/logoDesign3.webp",
+      "target": "public/assets/serviziImg/logoDesign/logoDesign3.optimized.webp",
+      "sourceBytes": 621024,
+      "targetBytes": 84632,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/logoDesign/logoDesign6.webp",
+      "target": "public/assets/serviziImg/logoDesign/logoDesign6.optimized.webp",
+      "sourceBytes": 627590,
+      "targetBytes": 105396,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/logoDesign/logoDesign4.webp",
+      "target": "public/assets/serviziImg/logoDesign/logoDesign4.optimized.webp",
+      "sourceBytes": 692516,
+      "targetBytes": 148410,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/logoDesign/logoDesign13.webp",
+      "target": "public/assets/serviziImg/logoDesign/logoDesign13.optimized.webp",
+      "sourceBytes": 597118,
+      "targetBytes": 70624,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/logoDesign/logoDesign5.webp",
+      "target": "public/assets/serviziImg/logoDesign/logoDesign5.optimized.webp",
+      "sourceBytes": 666156,
+      "targetBytes": 75240,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/logoDesign/logoDesign8.webp",
+      "target": "public/assets/serviziImg/logoDesign/logoDesign8.optimized.webp",
+      "sourceBytes": 685480,
+      "targetBytes": 75860,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/logoDesign/logoDesign7.webp",
+      "target": "public/assets/serviziImg/logoDesign/logoDesign7.optimized.webp",
+      "sourceBytes": 730030,
+      "targetBytes": 91252,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/logoDesign/logoDesign10.webp",
+      "target": "public/assets/serviziImg/logoDesign/logoDesign10.optimized.webp",
+      "sourceBytes": 714200,
+      "targetBytes": 108736,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/logoDesign/logoDesign12.webp",
+      "target": "public/assets/serviziImg/logoDesign/logoDesign12.optimized.webp",
+      "sourceBytes": 682714,
+      "targetBytes": 94696,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/logoDesign/logoDesign9.webp",
+      "target": "public/assets/serviziImg/logoDesign/logoDesign9.optimized.webp",
+      "sourceBytes": 748914,
+      "targetBytes": 121192,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/logoDesign/logoDesign11.webp",
+      "target": "public/assets/serviziImg/logoDesign/logoDesign11.optimized.webp",
+      "sourceBytes": 722974,
+      "targetBytes": 155478,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/logoDesign/logoDesign2.webp",
+      "target": "public/assets/serviziImg/logoDesign/logoDesign2.optimized.webp",
+      "sourceBytes": 678330,
+      "targetBytes": 96174,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/logoDesign/logoDesign16.webp",
+      "target": "public/assets/serviziImg/logoDesign/logoDesign16.optimized.webp",
+      "sourceBytes": 813798,
+      "targetBytes": 120856,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/logoDesign/logo_17.webp",
+      "target": "public/assets/serviziImg/logoDesign/logo_17.optimized.webp",
+      "sourceBytes": 351762,
+      "targetBytes": 427888,
+      "sourceWidth": 1890,
+      "sourceHeight": 1890,
+      "targetWidth": 1890,
+      "targetHeight": 1890
+    },
+    {
+      "source": "public/assets/serviziImg/logoDesign/logo_18.webp",
+      "target": "public/assets/serviziImg/logoDesign/logo_18.optimized.webp",
+      "sourceBytes": 125286,
+      "targetBytes": 158632,
+      "sourceWidth": 1890,
+      "sourceHeight": 1890,
+      "targetWidth": 1890,
+      "targetHeight": 1890
+    },
+    {
+      "source": "public/assets/serviziImg/logoDesign/logo_19.webp",
+      "target": "public/assets/serviziImg/logoDesign/logo_19.optimized.webp",
+      "sourceBytes": 125732,
+      "targetBytes": 160358,
+      "sourceWidth": 1890,
+      "sourceHeight": 1890,
+      "targetWidth": 1890,
+      "targetHeight": 1890
+    },
+    {
+      "source": "public/assets/serviziImg/logoDesign/logo_20.webp",
+      "target": "public/assets/serviziImg/logoDesign/logo_20.optimized.webp",
+      "sourceBytes": 232800,
+      "targetBytes": 296634,
+      "sourceWidth": 1890,
+      "sourceHeight": 1890,
+      "targetWidth": 1890,
+      "targetHeight": 1890
+    },
+    {
+      "source": "public/assets/serviziImg/logoDesign/logo_21.webp",
+      "target": "public/assets/serviziImg/logoDesign/logo_21.optimized.webp",
+      "sourceBytes": 176110,
+      "targetBytes": 223556,
+      "sourceWidth": 1890,
+      "sourceHeight": 1890,
+      "targetWidth": 1890,
+      "targetHeight": 1890
+    },
+    {
+      "source": "public/assets/serviziImg/logoDesign/logo_22.webp",
+      "target": "public/assets/serviziImg/logoDesign/logo_22.optimized.webp",
+      "sourceBytes": 168420,
+      "targetBytes": 219924,
+      "sourceWidth": 1890,
+      "sourceHeight": 1890,
+      "targetWidth": 1890,
+      "targetHeight": 1890
+    },
+    {
+      "source": "public/assets/serviziImg/logoDesign/logo_23.webp",
+      "target": "public/assets/serviziImg/logoDesign/logo_23.optimized.webp",
+      "sourceBytes": 233964,
+      "targetBytes": 297086,
+      "sourceWidth": 1890,
+      "sourceHeight": 1890,
+      "targetWidth": 1890,
+      "targetHeight": 1890
+    },
+    {
+      "source": "public/assets/serviziImg/logoDesign/logo_24.webp",
+      "target": "public/assets/serviziImg/logoDesign/logo_24.optimized.webp",
+      "sourceBytes": 760550,
+      "targetBytes": 798150,
+      "sourceWidth": 1890,
+      "sourceHeight": 1890,
+      "targetWidth": 1890,
+      "targetHeight": 1890
+    },
+    {
+      "source": "public/assets/serviziImg/logoDesign/logo_25.webp",
+      "target": "public/assets/serviziImg/logoDesign/logo_25.optimized.webp",
+      "sourceBytes": 156216,
+      "targetBytes": 198788,
+      "sourceWidth": 1890,
+      "sourceHeight": 1890,
+      "targetWidth": 1890,
+      "targetHeight": 1890
+    },
+    {
+      "source": "public/assets/serviziImg/logoDesign/logo_26.webp",
+      "target": "public/assets/serviziImg/logoDesign/logo_26.optimized.webp",
+      "sourceBytes": 50054,
+      "targetBytes": 60344,
+      "sourceWidth": 1890,
+      "sourceHeight": 1890,
+      "targetWidth": 1890,
+      "targetHeight": 1890
+    },
+    {
+      "source": "public/assets/serviziImg/logoDesign/logo_27.webp",
+      "target": "public/assets/serviziImg/logoDesign/logo_27.optimized.webp",
+      "sourceBytes": 125682,
+      "targetBytes": 148692,
+      "sourceWidth": 1772,
+      "sourceHeight": 1772,
+      "targetWidth": 1772,
+      "targetHeight": 1772
+    },
+    {
+      "source": "public/assets/serviziImg/logoDesign/logo_28.webp",
+      "target": "public/assets/serviziImg/logoDesign/logo_28.optimized.webp",
+      "sourceBytes": 105162,
+      "targetBytes": 139538,
+      "sourceWidth": 1772,
+      "sourceHeight": 1772,
+      "targetWidth": 1772,
+      "targetHeight": 1772
+    },
+    {
+      "source": "public/assets/serviziImg/logoDesign/logo_29.webp",
+      "target": "public/assets/serviziImg/logoDesign/logo_29.optimized.webp",
+      "sourceBytes": 107316,
+      "targetBytes": 137730,
+      "sourceWidth": 1772,
+      "sourceHeight": 1772,
+      "targetWidth": 1772,
+      "targetHeight": 1772
+    },
+    {
+      "source": "public/assets/serviziImg/logoDesign/logo_30.webp",
+      "target": "public/assets/serviziImg/logoDesign/logo_30.optimized.webp",
+      "sourceBytes": 200558,
+      "targetBytes": 250988,
+      "sourceWidth": 1772,
+      "sourceHeight": 1772,
+      "targetWidth": 1772,
+      "targetHeight": 1772
+    },
+    {
+      "source": "public/assets/serviziImg/logoDesign/logo_31.webp",
+      "target": "public/assets/serviziImg/logoDesign/logo_31.optimized.webp",
+      "sourceBytes": 47936,
+      "targetBytes": 61308,
+      "sourceWidth": 1772,
+      "sourceHeight": 1772,
+      "targetWidth": 1772,
+      "targetHeight": 1772
+    },
+    {
+      "source": "public/assets/serviziImg/branding/brand.webp",
+      "target": "public/assets/serviziImg/branding/brand.optimized.webp",
+      "sourceBytes": 27904,
+      "targetBytes": 25310,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/branding/brand3.webp",
+      "target": "public/assets/serviziImg/branding/brand3.optimized.webp",
+      "sourceBytes": 1064502,
+      "targetBytes": 272094,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/branding/brandA.webp",
+      "target": "public/assets/serviziImg/branding/brandA.optimized.webp",
+      "sourceBytes": 745812,
+      "targetBytes": 135312,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/branding/brand7.webp",
+      "target": "public/assets/serviziImg/branding/brand7.optimized.webp",
+      "sourceBytes": 988878,
+      "targetBytes": 177342,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/branding/brand6.webp",
+      "target": "public/assets/serviziImg/branding/brand6.optimized.webp",
+      "sourceBytes": 898612,
+      "targetBytes": 126154,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/branding/brand8.webp",
+      "target": "public/assets/serviziImg/branding/brand8.optimized.webp",
+      "sourceBytes": 67206,
+      "targetBytes": 34300,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/branding/brand10.webp",
+      "target": "public/assets/serviziImg/branding/brand10.optimized.webp",
+      "sourceBytes": 839802,
+      "targetBytes": 118116,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/branding/brand14.webp",
+      "target": "public/assets/serviziImg/branding/brand14.optimized.webp",
+      "sourceBytes": 1023756,
+      "targetBytes": 152472,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/branding/brand11.webp",
+      "target": "public/assets/serviziImg/branding/brand11.optimized.webp",
+      "sourceBytes": 849146,
+      "targetBytes": 119568,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/branding/brand13.webp",
+      "target": "public/assets/serviziImg/branding/brand13.optimized.webp",
+      "sourceBytes": 1097564,
+      "targetBytes": 201654,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/branding/brand15.webp",
+      "target": "public/assets/serviziImg/branding/brand15.optimized.webp",
+      "sourceBytes": 28642,
+      "targetBytes": 16480,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/branding/brand21.webp",
+      "target": "public/assets/serviziImg/branding/brand21.optimized.webp",
+      "sourceBytes": 872460,
+      "targetBytes": 81584,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/branding/brand17.webp",
+      "target": "public/assets/serviziImg/branding/brand17.optimized.webp",
+      "sourceBytes": 940064,
+      "targetBytes": 141728,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/branding/brand16.webp",
+      "target": "public/assets/serviziImg/branding/brand16.optimized.webp",
+      "sourceBytes": 411476,
+      "targetBytes": 35098,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/branding/brand20.webp",
+      "target": "public/assets/serviziImg/branding/brand20.optimized.webp",
+      "sourceBytes": 596184,
+      "targetBytes": 87574,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/branding/branding1.webp",
+      "target": "public/assets/serviziImg/branding/branding1.optimized.webp",
+      "sourceBytes": 45084,
+      "targetBytes": 53130,
+      "sourceWidth": 1772,
+      "sourceHeight": 1772,
+      "targetWidth": 1772,
+      "targetHeight": 1772
+    },
+    {
+      "source": "public/assets/serviziImg/branding/branding2.webp",
+      "target": "public/assets/serviziImg/branding/branding2.optimized.webp",
+      "sourceBytes": 242454,
+      "targetBytes": 299872,
+      "sourceWidth": 1772,
+      "sourceHeight": 1772,
+      "targetWidth": 1772,
+      "targetHeight": 1772
+    },
+    {
+      "source": "public/assets/serviziImg/branding/branding3.webp",
+      "target": "public/assets/serviziImg/branding/branding3.optimized.webp",
+      "sourceBytes": 214916,
+      "targetBytes": 268566,
+      "sourceWidth": 1772,
+      "sourceHeight": 1772,
+      "targetWidth": 1772,
+      "targetHeight": 1772
+    },
+    {
+      "source": "public/assets/serviziImg/branding/branding4.webp",
+      "target": "public/assets/serviziImg/branding/branding4.optimized.webp",
+      "sourceBytes": 114398,
+      "targetBytes": 156688,
+      "sourceWidth": 1772,
+      "sourceHeight": 1772,
+      "targetWidth": 1772,
+      "targetHeight": 1772
+    },
+    {
+      "source": "public/assets/serviziImg/branding/branding5.webp",
+      "target": "public/assets/serviziImg/branding/branding5.optimized.webp",
+      "sourceBytes": 280994,
+      "targetBytes": 345020,
+      "sourceWidth": 1772,
+      "sourceHeight": 1772,
+      "targetWidth": 1772,
+      "targetHeight": 1772
+    },
+    {
+      "source": "public/assets/serviziImg/label/pack2.webp",
+      "target": "public/assets/serviziImg/label/pack2.optimized.webp",
+      "sourceBytes": 1178438,
+      "targetBytes": 227906,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/label/pack3_new.webp",
+      "target": "public/assets/serviziImg/label/pack3_new.optimized.webp",
+      "sourceBytes": 1087386,
+      "targetBytes": 182386,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/label/pack4.webp",
+      "target": "public/assets/serviziImg/label/pack4.optimized.webp",
+      "sourceBytes": 790468,
+      "targetBytes": 69486,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/label/pack5.webp",
+      "target": "public/assets/serviziImg/label/pack5.optimized.webp",
+      "sourceBytes": 1074630,
+      "targetBytes": 178130,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/label/pack10.webp",
+      "target": "public/assets/serviziImg/label/pack10.optimized.webp",
+      "sourceBytes": 1038200,
+      "targetBytes": 185584,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/label/pack8.webp",
+      "target": "public/assets/serviziImg/label/pack8.optimized.webp",
+      "sourceBytes": 827132,
+      "targetBytes": 133034,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/label/pack7.webp",
+      "target": "public/assets/serviziImg/label/pack7.optimized.webp",
+      "sourceBytes": 383298,
+      "targetBytes": 481024,
+      "sourceWidth": 2480,
+      "sourceHeight": 2480,
+      "targetWidth": 2480,
+      "targetHeight": 2480
+    },
+    {
+      "source": "public/assets/serviziImg/label/pack9.webp",
+      "target": "public/assets/serviziImg/label/pack9.optimized.webp",
+      "sourceBytes": 820200,
+      "targetBytes": 109352,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/label/pack6a.webp",
+      "target": "public/assets/serviziImg/label/pack6a.optimized.webp",
+      "sourceBytes": 209556,
+      "targetBytes": 258228,
+      "sourceWidth": 1772,
+      "sourceHeight": 1772,
+      "targetWidth": 1772,
+      "targetHeight": 1772
+    },
+    {
+      "source": "public/assets/serviziImg/label/pack.webp",
+      "target": "public/assets/serviziImg/label/pack.optimized.webp",
+      "sourceBytes": 1024530,
+      "targetBytes": 192628,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/label/pack11.webp",
+      "target": "public/assets/serviziImg/label/pack11.optimized.webp",
+      "sourceBytes": 203192,
+      "targetBytes": 257926,
+      "sourceWidth": 2480,
+      "sourceHeight": 2480,
+      "targetWidth": 2480,
+      "targetHeight": 2480
+    },
+    {
+      "source": "public/assets/serviziImg/label/pack12.webp",
+      "target": "public/assets/serviziImg/label/pack12.optimized.webp",
+      "sourceBytes": 516652,
+      "targetBytes": 658598,
+      "sourceWidth": 2480,
+      "sourceHeight": 2480,
+      "targetWidth": 2480,
+      "targetHeight": 2480
+    },
+    {
+      "source": "public/assets/serviziImg/label/pack13.webp",
+      "target": "public/assets/serviziImg/label/pack13.optimized.webp",
+      "sourceBytes": 526820,
+      "targetBytes": 659568,
+      "sourceWidth": 2480,
+      "sourceHeight": 2480,
+      "targetWidth": 2480,
+      "targetHeight": 2480
+    },
+    {
+      "source": "public/assets/serviziImg/label/pack14.webp",
+      "target": "public/assets/serviziImg/label/pack14.optimized.webp",
+      "sourceBytes": 252678,
+      "targetBytes": 317810,
+      "sourceWidth": 2480,
+      "sourceHeight": 2480,
+      "targetWidth": 2480,
+      "targetHeight": 2480
+    },
+    {
+      "source": "public/assets/serviziImg/label/pack15.webp",
+      "target": "public/assets/serviziImg/label/pack15.optimized.webp",
+      "sourceBytes": 186796,
+      "targetBytes": 242056,
+      "sourceWidth": 2480,
+      "sourceHeight": 2480,
+      "targetWidth": 2480,
+      "targetHeight": 2480
+    },
+    {
+      "source": "public/assets/serviziImg/social/socialMedia3.webp",
+      "target": "public/assets/serviziImg/social/socialMedia3.optimized.webp",
+      "sourceBytes": 910420,
+      "targetBytes": 163388,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/social/socialMedia5.webp",
+      "target": "public/assets/serviziImg/social/socialMedia5.optimized.webp",
+      "sourceBytes": 734386,
+      "targetBytes": 150210,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/social/socialMedia11.webp",
+      "target": "public/assets/serviziImg/social/socialMedia11.optimized.webp",
+      "sourceBytes": 422024,
+      "targetBytes": 96040,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/social/socialMedia9.webp",
+      "target": "public/assets/serviziImg/social/socialMedia9.optimized.webp",
+      "sourceBytes": 824902,
+      "targetBytes": 116092,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/social/socialMedia7.webp",
+      "target": "public/assets/serviziImg/social/socialMedia7.optimized.webp",
+      "sourceBytes": 762450,
+      "targetBytes": 170008,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/social/socialMedia2.webp",
+      "target": "public/assets/serviziImg/social/socialMedia2.optimized.webp",
+      "sourceBytes": 532830,
+      "targetBytes": 99522,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/social/socialMedia4.webp",
+      "target": "public/assets/serviziImg/social/socialMedia4.optimized.webp",
+      "sourceBytes": 745094,
+      "targetBytes": 82866,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/social/socialMedia10.webp",
+      "target": "public/assets/serviziImg/social/socialMedia10.optimized.webp",
+      "sourceBytes": 602354,
+      "targetBytes": 105250,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/social/socialMedia8.webp",
+      "target": "public/assets/serviziImg/social/socialMedia8.optimized.webp",
+      "sourceBytes": 411702,
+      "targetBytes": 60886,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/social/socialMedia6.webp",
+      "target": "public/assets/serviziImg/social/socialMedia6.optimized.webp",
+      "sourceBytes": 835062,
+      "targetBytes": 140436,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/social/socialMedia12.webp",
+      "target": "public/assets/serviziImg/social/socialMedia12.optimized.webp",
+      "sourceBytes": 234248,
+      "targetBytes": 299308,
+      "sourceWidth": 2480,
+      "sourceHeight": 2480,
+      "targetWidth": 2480,
+      "targetHeight": 2480
+    },
+    {
+      "source": "public/assets/serviziImg/social/socialMedia13.webp",
+      "target": "public/assets/serviziImg/social/socialMedia13.optimized.webp",
+      "sourceBytes": 265866,
+      "targetBytes": 337912,
+      "sourceWidth": 2480,
+      "sourceHeight": 2480,
+      "targetWidth": 2480,
+      "targetHeight": 2480
+    },
+    {
+      "source": "public/assets/serviziImg/social/socialMedia14.webp",
+      "target": "public/assets/serviziImg/social/socialMedia14.optimized.webp",
+      "sourceBytes": 368328,
+      "targetBytes": 472706,
+      "sourceWidth": 2480,
+      "sourceHeight": 2480,
+      "targetWidth": 2480,
+      "targetHeight": 2480
+    },
+    {
+      "source": "public/assets/serviziImg/social/socialMedia15.webp",
+      "target": "public/assets/serviziImg/social/socialMedia15.optimized.webp",
+      "sourceBytes": 892664,
+      "targetBytes": 1040298,
+      "sourceWidth": 2480,
+      "sourceHeight": 2480,
+      "targetWidth": 2480,
+      "targetHeight": 2480
+    },
+    {
+      "source": "public/assets/serviziImg/social/socialMedia16.webp",
+      "target": "public/assets/serviziImg/social/socialMedia16.optimized.webp",
+      "sourceBytes": 301518,
+      "targetBytes": 408952,
+      "sourceWidth": 2480,
+      "sourceHeight": 2480,
+      "targetWidth": 2480,
+      "targetHeight": 2480
+    },
+    {
+      "source": "public/assets/serviziImg/campagne/campagne.webp",
+      "target": "public/assets/serviziImg/campagne/campagne.optimized.webp",
+      "sourceBytes": 601644,
+      "targetBytes": 120060,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/campagne/campagne9.webp",
+      "target": "public/assets/serviziImg/campagne/campagne9.optimized.webp",
+      "sourceBytes": 606278,
+      "targetBytes": 95328,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/campagne/campagne10.webp",
+      "target": "public/assets/serviziImg/campagne/campagne10.optimized.webp",
+      "sourceBytes": 792554,
+      "targetBytes": 142702,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/campagne/campagne11.webp",
+      "target": "public/assets/serviziImg/campagne/campagne11.optimized.webp",
+      "sourceBytes": 254050,
+      "targetBytes": 309370,
+      "sourceWidth": 2480,
+      "sourceHeight": 2480,
+      "targetWidth": 2480,
+      "targetHeight": 2480
+    },
+    {
+      "source": "public/assets/serviziImg/campagne/campagne12.webp",
+      "target": "public/assets/serviziImg/campagne/campagne12.optimized.webp",
+      "sourceBytes": 695650,
+      "targetBytes": 817396,
+      "sourceWidth": 2480,
+      "sourceHeight": 2480,
+      "targetWidth": 2480,
+      "targetHeight": 2480
+    },
+    {
+      "source": "public/assets/serviziImg/campagne/campagne13.webp",
+      "target": "public/assets/serviziImg/campagne/campagne13.optimized.webp",
+      "sourceBytes": 257520,
+      "targetBytes": 339088,
+      "sourceWidth": 2480,
+      "sourceHeight": 2480,
+      "targetWidth": 2480,
+      "targetHeight": 2480
+    },
+    {
+      "source": "public/assets/serviziImg/campagne/campagne14.webp",
+      "target": "public/assets/serviziImg/campagne/campagne14.optimized.webp",
+      "sourceBytes": 201192,
+      "targetBytes": 237146,
+      "sourceWidth": 2480,
+      "sourceHeight": 2480,
+      "targetWidth": 2480,
+      "targetHeight": 2480
+    },
+    {
+      "source": "public/assets/serviziImg/campagne/campagne15.webp",
+      "target": "public/assets/serviziImg/campagne/campagne15.optimized.webp",
+      "sourceBytes": 275916,
+      "targetBytes": 347498,
+      "sourceWidth": 2480,
+      "sourceHeight": 2480,
+      "targetWidth": 2480,
+      "targetHeight": 2480
+    },
+    {
+      "source": "public/assets/serviziImg/allestimenti/allestimenti.webp",
+      "target": "public/assets/serviziImg/allestimenti/allestimenti.optimized.webp",
+      "sourceBytes": 539714,
+      "targetBytes": 56718,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/allestimenti/allestimenti2.webp",
+      "target": "public/assets/serviziImg/allestimenti/allestimenti2.optimized.webp",
+      "sourceBytes": 808128,
+      "targetBytes": 173568,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/allestimenti/allestimenti3.webp",
+      "target": "public/assets/serviziImg/allestimenti/allestimenti3.optimized.webp",
+      "sourceBytes": 880472,
+      "targetBytes": 188438,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/allestimenti/allestimenti4.webp",
+      "target": "public/assets/serviziImg/allestimenti/allestimenti4.optimized.webp",
+      "sourceBytes": 758862,
+      "targetBytes": 127856,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/allestimenti/allestimenti5.webp",
+      "target": "public/assets/serviziImg/allestimenti/allestimenti5.optimized.webp",
+      "sourceBytes": 544230,
+      "targetBytes": 78082,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/allestimenti/allestimenti6.webp",
+      "target": "public/assets/serviziImg/allestimenti/allestimenti6.optimized.webp",
+      "sourceBytes": 852248,
+      "targetBytes": 116332,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/allestimenti/allestimenti7.webp",
+      "target": "public/assets/serviziImg/allestimenti/allestimenti7.optimized.webp",
+      "sourceBytes": 315526,
+      "targetBytes": 73072,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/allestimenti/allestimenti8.webp",
+      "target": "public/assets/serviziImg/allestimenti/allestimenti8.optimized.webp",
+      "sourceBytes": 893006,
+      "targetBytes": 179768,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/allestimenti/allestimenti9.webp",
+      "target": "public/assets/serviziImg/allestimenti/allestimenti9.optimized.webp",
+      "sourceBytes": 898556,
+      "targetBytes": 190432,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/allestimenti/allestimenti10.webp",
+      "target": "public/assets/serviziImg/allestimenti/allestimenti10.optimized.webp",
+      "sourceBytes": 787006,
+      "targetBytes": 219078,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/illustrazione/illustrazioni2.webp",
+      "target": "public/assets/serviziImg/illustrazione/illustrazioni2.optimized.webp",
+      "sourceBytes": 546258,
+      "targetBytes": 76232,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/illustrazione/illustrazioni3.webp",
+      "target": "public/assets/serviziImg/illustrazione/illustrazioni3.optimized.webp",
+      "sourceBytes": 230074,
+      "targetBytes": 57890,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/illustrazione/illustrazioni4.webp",
+      "target": "public/assets/serviziImg/illustrazione/illustrazioni4.optimized.webp",
+      "sourceBytes": 1015610,
+      "targetBytes": 266456,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/illustrazione/illustrazioni5_new.webp",
+      "target": "public/assets/serviziImg/illustrazione/illustrazioni5_new.optimized.webp",
+      "sourceBytes": 185786,
+      "targetBytes": 84388,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/illustrazione/illustrazioni6.webp",
+      "target": "public/assets/serviziImg/illustrazione/illustrazioni6.optimized.webp",
+      "sourceBytes": 562326,
+      "targetBytes": 143856,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/illustrazione/illustrazioni7.webp",
+      "target": "public/assets/serviziImg/illustrazione/illustrazioni7.optimized.webp",
+      "sourceBytes": 910722,
+      "targetBytes": 209728,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/illustrazione/illustrazioni8.webp",
+      "target": "public/assets/serviziImg/illustrazione/illustrazioni8.optimized.webp",
+      "sourceBytes": 363674,
+      "targetBytes": 110356,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/illustrazione/illustrazioni9.webp",
+      "target": "public/assets/serviziImg/illustrazione/illustrazioni9.optimized.webp",
+      "sourceBytes": 915232,
+      "targetBytes": 146490,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/illustrazione/illustrazioni10.webp",
+      "target": "public/assets/serviziImg/illustrazione/illustrazioni10.optimized.webp",
+      "sourceBytes": 394348,
+      "targetBytes": 45082,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/illustrazione/illustrazioni.webp",
+      "target": "public/assets/serviziImg/illustrazione/illustrazioni.optimized.webp",
+      "sourceBytes": 1094394,
+      "targetBytes": 261246,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/illustrazione/illustrazioni11.webp",
+      "target": "public/assets/serviziImg/illustrazione/illustrazioni11.optimized.webp",
+      "sourceBytes": 564328,
+      "targetBytes": 691634,
+      "sourceWidth": 2480,
+      "sourceHeight": 2480,
+      "targetWidth": 2480,
+      "targetHeight": 2480
+    },
+    {
+      "source": "public/assets/serviziImg/illustrazione/illustrazioni12.webp",
+      "target": "public/assets/serviziImg/illustrazione/illustrazioni12.optimized.webp",
+      "sourceBytes": 297802,
+      "targetBytes": 376408,
+      "sourceWidth": 2480,
+      "sourceHeight": 2480,
+      "targetWidth": 2480,
+      "targetHeight": 2480
+    },
+    {
+      "source": "public/assets/serviziImg/illustrazione/illustrazioni13.webp",
+      "target": "public/assets/serviziImg/illustrazione/illustrazioni13.optimized.webp",
+      "sourceBytes": 388454,
+      "targetBytes": 477796,
+      "sourceWidth": 2480,
+      "sourceHeight": 2480,
+      "targetWidth": 2480,
+      "targetHeight": 2480
+    },
+    {
+      "source": "public/assets/serviziImg/illustrazione/illustrazioni14.webp",
+      "target": "public/assets/serviziImg/illustrazione/illustrazioni14.optimized.webp",
+      "sourceBytes": 309552,
+      "targetBytes": 373398,
+      "sourceWidth": 2480,
+      "sourceHeight": 2480,
+      "targetWidth": 2480,
+      "targetHeight": 2480
+    },
+    {
+      "source": "public/assets/serviziImg/illustrazione/illustrazioni15.webp",
+      "target": "public/assets/serviziImg/illustrazione/illustrazioni15.optimized.webp",
+      "sourceBytes": 313474,
+      "targetBytes": 355110,
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "targetWidth": 1000,
+      "targetHeight": 1000
+    },
+    {
+      "source": "public/assets/serviziImg/illustrazione/illustrazioni16.webp",
+      "target": "public/assets/serviziImg/illustrazione/illustrazioni16.optimized.webp",
+      "sourceBytes": 53158,
+      "targetBytes": 63844,
+      "sourceWidth": 1772,
+      "sourceHeight": 1772,
+      "targetWidth": 1772,
+      "targetHeight": 1772
+    },
+    {
+      "source": "public/assets/serviziImg/illustrazione/illustrazioni17.webp",
+      "target": "public/assets/serviziImg/illustrazione/illustrazioni17.optimized.webp",
+      "sourceBytes": 744220,
+      "targetBytes": 871828,
+      "sourceWidth": 1772,
+      "sourceHeight": 1772,
+      "targetWidth": 1772,
+      "targetHeight": 1772
+    },
+    {
+      "source": "public/assets/serviziImg/illustrazione/illustrazioni18.webp",
+      "target": "public/assets/serviziImg/illustrazione/illustrazioni18.optimized.webp",
+      "sourceBytes": 232116,
+      "targetBytes": 269358,
+      "sourceWidth": 1772,
+      "sourceHeight": 1772,
+      "targetWidth": 1772,
+      "targetHeight": 1772
+    },
+    {
+      "source": "public/assets/serviziImg/illustrazione/illustrazioni19.webp",
+      "target": "public/assets/serviziImg/illustrazione/illustrazioni19.optimized.webp",
+      "sourceBytes": 297142,
+      "targetBytes": 342212,
+      "sourceWidth": 1772,
+      "sourceHeight": 1772,
+      "targetWidth": 1772,
+      "targetHeight": 1772
+    },
+    {
+      "source": "public/assets/serviziImg/illustrazione/illustrazioni20.webp",
+      "target": "public/assets/serviziImg/illustrazione/illustrazioni20.optimized.webp",
+      "sourceBytes": 580756,
+      "targetBytes": 652282,
+      "sourceWidth": 1772,
+      "sourceHeight": 1772,
+      "targetWidth": 1772,
+      "targetHeight": 1772
+    },
+    {
+      "source": "public/assets/serviziImg/creator/content.webp",
+      "target": "public/assets/serviziImg/creator/content.optimized.webp",
+      "sourceBytes": 869904,
+      "targetBytes": 157586,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/creator/content29.webp",
+      "target": "public/assets/serviziImg/creator/content29.optimized.webp",
+      "sourceBytes": 427846,
+      "targetBytes": 525522,
+      "sourceWidth": 2480,
+      "sourceHeight": 2480,
+      "targetWidth": 2480,
+      "targetHeight": 2480
+    },
+    {
+      "source": "public/assets/serviziImg/creator/content_4.webp",
+      "target": "public/assets/serviziImg/creator/content_4.optimized.webp",
+      "sourceBytes": 1425926,
+      "targetBytes": 336240,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/creator/content5.webp",
+      "target": "public/assets/serviziImg/creator/content5.optimized.webp",
+      "sourceBytes": 1206110,
+      "targetBytes": 243156,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/creator/content6.webp",
+      "target": "public/assets/serviziImg/creator/content6.optimized.webp",
+      "sourceBytes": 871568,
+      "targetBytes": 147856,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/creator/content32.webp",
+      "target": "public/assets/serviziImg/creator/content32.optimized.webp",
+      "sourceBytes": 403848,
+      "targetBytes": 515540,
+      "sourceWidth": 2480,
+      "sourceHeight": 2480,
+      "targetWidth": 2480,
+      "targetHeight": 2480
+    },
+    {
+      "source": "public/assets/serviziImg/creator/content8.webp",
+      "target": "public/assets/serviziImg/creator/content8.optimized.webp",
+      "sourceBytes": 971018,
+      "targetBytes": 140538,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/creator/content9.webp",
+      "target": "public/assets/serviziImg/creator/content9.optimized.webp",
+      "sourceBytes": 771354,
+      "targetBytes": 72124,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/creator/content27.webp",
+      "target": "public/assets/serviziImg/creator/content27.optimized.webp",
+      "sourceBytes": 260348,
+      "targetBytes": 326910,
+      "sourceWidth": 2480,
+      "sourceHeight": 2480,
+      "targetWidth": 2480,
+      "targetHeight": 2480
+    },
+    {
+      "source": "public/assets/serviziImg/creator/content11.webp",
+      "target": "public/assets/serviziImg/creator/content11.optimized.webp",
+      "sourceBytes": 578816,
+      "targetBytes": 50016,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/creator/content33.webp",
+      "target": "public/assets/serviziImg/creator/content33.optimized.webp",
+      "sourceBytes": 795002,
+      "targetBytes": 957652,
+      "sourceWidth": 2480,
+      "sourceHeight": 2480,
+      "targetWidth": 2480,
+      "targetHeight": 2480
+    },
+    {
+      "source": "public/assets/serviziImg/creator/content13.webp",
+      "target": "public/assets/serviziImg/creator/content13.optimized.webp",
+      "sourceBytes": 597016,
+      "targetBytes": 60414,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/creator/content14.webp",
+      "target": "public/assets/serviziImg/creator/content14.optimized.webp",
+      "sourceBytes": 576126,
+      "targetBytes": 96834,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/creator/content15.webp",
+      "target": "public/assets/serviziImg/creator/content15.optimized.webp",
+      "sourceBytes": 868934,
+      "targetBytes": 118832,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/creator/content16.webp",
+      "target": "public/assets/serviziImg/creator/content16.optimized.webp",
+      "sourceBytes": 1066984,
+      "targetBytes": 181504,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/creator/content17.webp",
+      "target": "public/assets/serviziImg/creator/content17.optimized.webp",
+      "sourceBytes": 933328,
+      "targetBytes": 146160,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/creator/content18.webp",
+      "target": "public/assets/serviziImg/creator/content18.optimized.webp",
+      "sourceBytes": 851792,
+      "targetBytes": 111012,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/creator/content34.webp",
+      "target": "public/assets/serviziImg/creator/content34.optimized.webp",
+      "sourceBytes": 386574,
+      "targetBytes": 463376,
+      "sourceWidth": 2480,
+      "sourceHeight": 2480,
+      "targetWidth": 2480,
+      "targetHeight": 2480
+    },
+    {
+      "source": "public/assets/serviziImg/creator/content30.webp",
+      "target": "public/assets/serviziImg/creator/content30.optimized.webp",
+      "sourceBytes": 403026,
+      "targetBytes": 528840,
+      "sourceWidth": 2480,
+      "sourceHeight": 2480,
+      "targetWidth": 2480,
+      "targetHeight": 2480
+    },
+    {
+      "source": "public/assets/serviziImg/creator/content35.webp",
+      "target": "public/assets/serviziImg/creator/content35.optimized.webp",
+      "sourceBytes": 305206,
+      "targetBytes": 390868,
+      "sourceWidth": 2480,
+      "sourceHeight": 2480,
+      "targetWidth": 2480,
+      "targetHeight": 2480
+    },
+    {
+      "source": "public/assets/serviziImg/creator/content22.webp",
+      "target": "public/assets/serviziImg/creator/content22.optimized.webp",
+      "sourceBytes": 902364,
+      "targetBytes": 127074,
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "targetWidth": 800,
+      "targetHeight": 800
+    },
+    {
+      "source": "public/assets/serviziImg/creator/content31.webp",
+      "target": "public/assets/serviziImg/creator/content31.optimized.webp",
+      "sourceBytes": 388820,
+      "targetBytes": 493516,
+      "sourceWidth": 2480,
+      "sourceHeight": 2480,
+      "targetWidth": 2480,
+      "targetHeight": 2480
+    },
+    {
+      "source": "public/assets/serviziImg/creator/content26.webp",
+      "target": "public/assets/serviziImg/creator/content26.optimized.webp",
+      "sourceBytes": 227326,
+      "targetBytes": 302182,
+      "sourceWidth": 2480,
+      "sourceHeight": 2480,
+      "targetWidth": 2480,
+      "targetHeight": 2480
+    },
+    {
+      "source": "public/assets/serviziImg/creator/content28.webp",
+      "target": "public/assets/serviziImg/creator/content28.optimized.webp",
+      "sourceBytes": 157588,
+      "targetBytes": 217660,
+      "sourceWidth": 2480,
+      "sourceHeight": 2480,
+      "targetWidth": 2480,
+      "targetHeight": 2480
+    },
+    {
+      "source": "public/assets/serviziImg/creator/content36.webp",
+      "target": "public/assets/serviziImg/creator/content36.optimized.webp",
+      "sourceBytes": 135404,
+      "targetBytes": 171710,
+      "sourceWidth": 1772,
+      "sourceHeight": 1772,
+      "targetWidth": 1772,
+      "targetHeight": 1772
+    },
+    {
+      "source": "public/assets/serviziImg/creator/content37.webp",
+      "target": "public/assets/serviziImg/creator/content37.optimized.webp",
+      "sourceBytes": 205456,
+      "targetBytes": 254298,
+      "sourceWidth": 1772,
+      "sourceHeight": 1772,
+      "targetWidth": 1772,
+      "targetHeight": 1772
+    },
+    {
+      "source": "public/assets/serviziImg/creator/content38.webp",
+      "target": "public/assets/serviziImg/creator/content38.optimized.webp",
+      "sourceBytes": 281846,
+      "targetBytes": 348214,
+      "sourceWidth": 1772,
+      "sourceHeight": 1772,
+      "targetWidth": 1772,
+      "targetHeight": 1772
+    },
+    {
+      "source": "public/assets/serviziImg/creator/content39.webp",
+      "target": "public/assets/serviziImg/creator/content39.optimized.webp",
+      "sourceBytes": 210616,
+      "targetBytes": 271230,
+      "sourceWidth": 1772,
+      "sourceHeight": 1772,
+      "targetWidth": 1772,
+      "targetHeight": 1772
+    },
+    {
+      "source": "public/assets/serviziImg/creator/content40.webp",
+      "target": "public/assets/serviziImg/creator/content40.optimized.webp",
+      "sourceBytes": 191436,
+      "targetBytes": 246444,
+      "sourceWidth": 1772,
+      "sourceHeight": 1772,
+      "targetWidth": 1772,
+      "targetHeight": 1772
+    },
+    {
+      "source": "public/assets/pageImg/gufo2.webp",
+      "target": "public/assets/pageImg/gufo2.optimized.webp",
+      "sourceBytes": 728348,
+      "targetBytes": 241776,
+      "sourceWidth": 1000,
+      "sourceHeight": 1276,
+      "targetWidth": 1000,
+      "targetHeight": 1276
+    },
+    {
+      "source": "public/assets/portfolioImg/gourmandises/cover_gourmandises.webp",
+      "target": "public/assets/portfolioImg/gourmandises/cover_gourmandises.optimized.webp",
+      "sourceBytes": 647604,
+      "targetBytes": 782770,
+      "sourceWidth": 2500,
+      "sourceHeight": 2472,
+      "targetWidth": 2500,
+      "targetHeight": 2472
+    },
+    {
+      "source": "public/assets/portfolioImg/jardin_potager/cover_jardinpotager.webp",
+      "target": "public/assets/portfolioImg/jardin_potager/cover_jardinpotager.optimized.webp",
+      "sourceBytes": 684716,
+      "targetBytes": 707410,
+      "sourceWidth": 3081,
+      "sourceHeight": 3047,
+      "targetWidth": 2560,
+      "targetHeight": 2532
+    },
+    {
+      "source": "public/assets/portfolioImg/casadei/label5.webp",
+      "target": "public/assets/portfolioImg/casadei/label5.optimized.webp",
+      "sourceBytes": 229390,
+      "targetBytes": 292314,
+      "sourceWidth": 2500,
+      "sourceHeight": 1250,
+      "targetWidth": 2500,
+      "targetHeight": 1250
+    },
+    {
+      "source": "public/assets/portfolioImg/casadei/label6.webp",
+      "target": "public/assets/portfolioImg/casadei/label6.optimized.webp",
+      "sourceBytes": 177198,
+      "targetBytes": 229526,
+      "sourceWidth": 2500,
+      "sourceHeight": 1250,
+      "targetWidth": 2500,
+      "targetHeight": 1250
+    },
+    {
+      "source": "public/assets/portfolioImg/casadei/label7.webp",
+      "target": "public/assets/portfolioImg/casadei/label7.optimized.webp",
+      "sourceBytes": 276180,
+      "targetBytes": 327250,
+      "sourceWidth": 2500,
+      "sourceHeight": 1250,
+      "targetWidth": 2500,
+      "targetHeight": 1250
+    },
+    {
+      "source": "public/assets/portfolioImg/isavivai/furgone_isavivai.webp",
+      "target": "public/assets/portfolioImg/isavivai/furgone_isavivai.optimized.webp",
+      "sourceBytes": 3900570,
+      "targetBytes": 620800,
+      "sourceWidth": 8333,
+      "sourceHeight": 4167,
+      "targetWidth": 2560,
+      "targetHeight": 1280
+    },
+    {
+      "source": "public/assets/portfolioImg/gourmandises/brand_gourmandises.webp",
+      "target": "public/assets/portfolioImg/gourmandises/brand_gourmandises.optimized.webp",
+      "sourceBytes": 180912,
+      "targetBytes": 180354,
+      "sourceWidth": 3508,
+      "sourceHeight": 1488,
+      "targetWidth": 2560,
+      "targetHeight": 1086
+    },
+    {
+      "source": "public/assets/portfolioImg/gourmandises/typo_gourmandises_text.webp",
+      "target": "public/assets/portfolioImg/gourmandises/typo_gourmandises_text.optimized.webp",
+      "sourceBytes": 75258,
+      "targetBytes": 39974,
+      "sourceWidth": 1754,
+      "sourceHeight": 932,
+      "targetWidth": 1754,
+      "targetHeight": 932
+    },
+    {
+      "source": "public/assets/portfolioImg/gourmandises/typo_gourmandises_font.webp",
+      "target": "public/assets/portfolioImg/gourmandises/typo_gourmandises_font.optimized.webp",
+      "sourceBytes": 129756,
+      "targetBytes": 78790,
+      "sourceWidth": 1754,
+      "sourceHeight": 932,
+      "targetWidth": 1754,
+      "targetHeight": 932
+    },
+    {
+      "source": "public/assets/portfolioImg/gourmandises/promo.webp",
+      "target": "public/assets/portfolioImg/gourmandises/promo.optimized.webp",
+      "sourceBytes": 1266326,
+      "targetBytes": 337790,
+      "sourceWidth": 3508,
+      "sourceHeight": 1639,
+      "targetWidth": 2560,
+      "targetHeight": 1196
+    },
+    {
+      "source": "public/assets/portfolioImg/jardin_potager/typo_book_font.webp",
+      "target": "public/assets/portfolioImg/jardin_potager/typo_book_font.optimized.webp",
+      "sourceBytes": 75548,
+      "targetBytes": 49580,
+      "sourceWidth": 1754,
+      "sourceHeight": 1214,
+      "targetWidth": 1754,
+      "targetHeight": 1214
+    },
+    {
+      "source": "public/assets/portfolioImg/jardin_potager/illu3.webp",
+      "target": "public/assets/portfolioImg/jardin_potager/illu3.optimized.webp",
+      "sourceBytes": 3387360,
+      "targetBytes": 852200,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/alpimiel/brand_alpimiel.webp",
+      "target": "public/assets/portfolioImg/alpimiel/brand_alpimiel.optimized.webp",
+      "sourceBytes": 294536,
+      "targetBytes": 103092,
+      "sourceWidth": 8333,
+      "sourceHeight": 4167,
+      "targetWidth": 2560,
+      "targetHeight": 1280
+    },
+    {
+      "source": "public/assets/portfolioImg/alpimiel/coloribrand_alpimiel.webp",
+      "target": "public/assets/portfolioImg/alpimiel/coloribrand_alpimiel.optimized.webp",
+      "sourceBytes": 204232,
+      "targetBytes": 72008,
+      "sourceWidth": 8333,
+      "sourceHeight": 4167,
+      "targetWidth": 2560,
+      "targetHeight": 1280
+    },
+    {
+      "source": "public/assets/portfolioImg/alpimiel/etichetta_miele6.webp",
+      "target": "public/assets/portfolioImg/alpimiel/etichetta_miele6.optimized.webp",
+      "sourceBytes": 2802084,
+      "targetBytes": 785044,
+      "sourceWidth": 8333,
+      "sourceHeight": 4167,
+      "targetWidth": 2560,
+      "targetHeight": 1280
+    },
+    {
+      "source": "public/assets/portfolioImg/alpimiel/etichetta_miele2.webp",
+      "target": "public/assets/portfolioImg/alpimiel/etichetta_miele2.optimized.webp",
+      "sourceBytes": 1238170,
+      "targetBytes": 203822,
+      "sourceWidth": 8333,
+      "sourceHeight": 4167,
+      "targetWidth": 2560,
+      "targetHeight": 1280
+    },
+    {
+      "source": "public/assets/portfolioImg/alpimiel/etichetta_miele3.webp",
+      "target": "public/assets/portfolioImg/alpimiel/etichetta_miele3.optimized.webp",
+      "sourceBytes": 954380,
+      "targetBytes": 160910,
+      "sourceWidth": 8333,
+      "sourceHeight": 4167,
+      "targetWidth": 2560,
+      "targetHeight": 1280
+    },
+    {
+      "source": "public/assets/portfolioImg/alpimiel/etichetta_miele7.webp",
+      "target": "public/assets/portfolioImg/alpimiel/etichetta_miele7.optimized.webp",
+      "sourceBytes": 3053990,
+      "targetBytes": 838588,
+      "sourceWidth": 8333,
+      "sourceHeight": 4167,
+      "targetWidth": 2560,
+      "targetHeight": 1280
+    },
+    {
+      "source": "public/assets/portfolioImg/alpimiel/etichetta_miele1.webp",
+      "target": "public/assets/portfolioImg/alpimiel/etichetta_miele1.optimized.webp",
+      "sourceBytes": 1132524,
+      "targetBytes": 198764,
+      "sourceWidth": 8333,
+      "sourceHeight": 4167,
+      "targetWidth": 2560,
+      "targetHeight": 1280
+    },
+    {
+      "source": "public/assets/portfolioImg/alpimiel/etichetta_miele5.webp",
+      "target": "public/assets/portfolioImg/alpimiel/etichetta_miele5.optimized.webp",
+      "sourceBytes": 1601454,
+      "targetBytes": 321064,
+      "sourceWidth": 8333,
+      "sourceHeight": 4167,
+      "targetWidth": 2560,
+      "targetHeight": 1280
+    },
+    {
+      "source": "public/assets/portfolioImg/alpimiel/etichetta_miele4.webp",
+      "target": "public/assets/portfolioImg/alpimiel/etichetta_miele4.optimized.webp",
+      "sourceBytes": 1974330,
+      "targetBytes": 327984,
+      "sourceWidth": 8333,
+      "sourceHeight": 4167,
+      "targetWidth": 2560,
+      "targetHeight": 1280
+    },
+    {
+      "source": "public/assets/portfolioImg/alpimiel/alpimiel3.webp",
+      "target": "public/assets/portfolioImg/alpimiel/alpimiel3.optimized.webp",
+      "sourceBytes": 6820652,
+      "targetBytes": 352700,
+      "sourceWidth": 4167,
+      "sourceHeight": 2083,
+      "targetWidth": 2560,
+      "targetHeight": 1280
+    },
+    {
+      "source": "public/assets/pageImg/lupo2.webp",
+      "target": "public/assets/pageImg/lupo2.optimized.webp",
+      "sourceBytes": 722752,
+      "targetBytes": 219564,
+      "sourceWidth": 1000,
+      "sourceHeight": 1302,
+      "targetWidth": 1000,
+      "targetHeight": 1302
+    },
+    {
+      "source": "public/assets/portfolioImg/alpimiel/alpimiel_cover2.jpg",
+      "target": "public/assets/portfolioImg/alpimiel/alpimiel_cover2.optimized.webp",
+      "sourceBytes": 11801419,
+      "targetBytes": 416616,
+      "sourceWidth": 5184,
+      "sourceHeight": 3456,
+      "targetWidth": 2560,
+      "targetHeight": 1707
+    },
+    {
+      "source": "public/assets/serviziImg/logodesign2.png",
+      "target": "public/assets/serviziImg/logodesign2.optimized.webp",
+      "sourceBytes": 3987341,
+      "targetBytes": 338566,
+      "sourceWidth": 3508,
+      "sourceHeight": 3508,
+      "targetWidth": 2560,
+      "targetHeight": 2560
+    },
+    {
+      "source": "public/assets/portfolioImg/daemy/daemy_gallery_01.jpg",
+      "target": "public/assets/portfolioImg/daemy/daemy_gallery_01.optimized.webp",
+      "sourceBytes": 8438784,
+      "targetBytes": 613220,
+      "sourceWidth": 5000,
+      "sourceHeight": 3533,
+      "targetWidth": 2560,
+      "targetHeight": 1809
+    },
+    {
+      "source": "public/assets/portfolioImg/daemy/daemy_gallery_02.jpg",
+      "target": "public/assets/portfolioImg/daemy/daemy_gallery_02.optimized.webp",
+      "sourceBytes": 8011488,
+      "targetBytes": 594220,
+      "sourceWidth": 5000,
+      "sourceHeight": 3533,
+      "targetWidth": 2560,
+      "targetHeight": 1809
+    },
+    {
+      "source": "public/assets/portfolioImg/daemy/daemy_gallery_03.jpg",
+      "target": "public/assets/portfolioImg/daemy/daemy_gallery_03.optimized.webp",
+      "sourceBytes": 8741396,
+      "targetBytes": 740920,
+      "sourceWidth": 5000,
+      "sourceHeight": 3533,
+      "targetWidth": 2560,
+      "targetHeight": 1809
+    },
+    {
+      "source": "public/assets/portfolioImg/daemy/daemy_gallery_04.jpg",
+      "target": "public/assets/portfolioImg/daemy/daemy_gallery_04.optimized.webp",
+      "sourceBytes": 8941204,
+      "targetBytes": 625358,
+      "sourceWidth": 5000,
+      "sourceHeight": 3533,
+      "targetWidth": 2560,
+      "targetHeight": 1809
+    },
+    {
+      "source": "public/assets/portfolioImg/daemy/daemy_gallery_05.jpg",
+      "target": "public/assets/portfolioImg/daemy/daemy_gallery_05.optimized.webp",
+      "sourceBytes": 9909587,
+      "targetBytes": 771180,
+      "sourceWidth": 5000,
+      "sourceHeight": 3533,
+      "targetWidth": 2560,
+      "targetHeight": 1809
+    },
+    {
+      "source": "public/assets/portfolioImg/daemy/daemy_gallery_06.jpg",
+      "target": "public/assets/portfolioImg/daemy/daemy_gallery_06.optimized.webp",
+      "sourceBytes": 9891971,
+      "targetBytes": 718192,
+      "sourceWidth": 5000,
+      "sourceHeight": 3533,
+      "targetWidth": 2560,
+      "targetHeight": 1809
+    },
+    {
+      "source": "public/assets/portfolioImg/daemy/daemy_gallery_07.jpg",
+      "target": "public/assets/portfolioImg/daemy/daemy_gallery_07.optimized.webp",
+      "sourceBytes": 9025288,
+      "targetBytes": 700018,
+      "sourceWidth": 5000,
+      "sourceHeight": 3533,
+      "targetWidth": 2560,
+      "targetHeight": 1809
+    },
+    {
+      "source": "public/assets/portfolioImg/daemy/daemy_gallery_08.jpg",
+      "target": "public/assets/portfolioImg/daemy/daemy_gallery_08.optimized.webp",
+      "sourceBytes": 10266492,
+      "targetBytes": 824762,
+      "sourceWidth": 5000,
+      "sourceHeight": 3533,
+      "targetWidth": 2560,
+      "targetHeight": 1809
+    },
+    {
+      "source": "public/assets/portfolioImg/giain/cover_giain.jpg",
+      "target": "public/assets/portfolioImg/giain/cover_giain.optimized.webp",
+      "sourceBytes": 9710818,
+      "targetBytes": 412948,
+      "sourceWidth": 4894,
+      "sourceHeight": 3263,
+      "targetWidth": 2560,
+      "targetHeight": 1707
+    },
+    {
+      "source": "public/assets/portfolioImg/giain/intro_giain.webp",
+      "target": "public/assets/portfolioImg/giain/intro_giain.optimized.webp",
+      "sourceBytes": 168894,
+      "targetBytes": 187760,
+      "sourceWidth": 3213,
+      "sourceHeight": 1568,
+      "targetWidth": 2560,
+      "targetHeight": 1249
+    },
+    {
+      "source": "public/assets/portfolioImg/giain/typo_giain_text.webp",
+      "target": "public/assets/portfolioImg/giain/typo_giain_text.optimized.webp",
+      "sourceBytes": 23864,
+      "targetBytes": 27372,
+      "sourceWidth": 1754,
+      "sourceHeight": 930,
+      "targetWidth": 1754,
+      "targetHeight": 930
+    },
+    {
+      "source": "public/assets/portfolioImg/giain/typo_giain_font.webp",
+      "target": "public/assets/portfolioImg/giain/typo_giain_font.optimized.webp",
+      "sourceBytes": 46256,
+      "targetBytes": 47516,
+      "sourceWidth": 1754,
+      "sourceHeight": 930,
+      "targetWidth": 1754,
+      "targetHeight": 930
+    },
+    {
+      "source": "public/assets/portfolioImg/giain/color_brand.webp",
+      "target": "public/assets/portfolioImg/giain/color_brand.optimized.webp",
+      "sourceBytes": 24356,
+      "targetBytes": 24784,
+      "sourceWidth": 3013,
+      "sourceHeight": 575,
+      "targetWidth": 2560,
+      "targetHeight": 489
+    },
+    {
+      "source": "public/assets/portfolioImg/giain/illustrazioni.webp",
+      "target": "public/assets/portfolioImg/giain/illustrazioni.optimized.webp",
+      "sourceBytes": 126366,
+      "targetBytes": 139666,
+      "sourceWidth": 3144,
+      "sourceHeight": 1005,
+      "targetWidth": 2560,
+      "targetHeight": 818
+    },
+    {
+      "source": "public/assets/portfolioImg/giain/etichetta_giain1.png",
+      "target": "public/assets/portfolioImg/giain/etichetta_giain1.optimized.webp",
+      "sourceBytes": 8039338,
+      "targetBytes": 447806,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/giain/etichetta_giain2.png",
+      "target": "public/assets/portfolioImg/giain/etichetta_giain2.optimized.webp",
+      "sourceBytes": 9524705,
+      "targetBytes": 468390,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/giain/label_barattolo.png",
+      "target": "public/assets/portfolioImg/giain/label_barattolo.optimized.webp",
+      "sourceBytes": 12423466,
+      "targetBytes": 560224,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/giain/etichetta_giain3.png",
+      "target": "public/assets/portfolioImg/giain/etichetta_giain3.optimized.webp",
+      "sourceBytes": 9876514,
+      "targetBytes": 483548,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/giain/label_barattolo2.png",
+      "target": "public/assets/portfolioImg/giain/label_barattolo2.optimized.webp",
+      "sourceBytes": 11778547,
+      "targetBytes": 402534,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/giain/etichetta_giain4.png",
+      "target": "public/assets/portfolioImg/giain/etichetta_giain4.optimized.webp",
+      "sourceBytes": 8560481,
+      "targetBytes": 337294,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/giain/label_barattolo3.png",
+      "target": "public/assets/portfolioImg/giain/label_barattolo3.optimized.webp",
+      "sourceBytes": 12866408,
+      "targetBytes": 584226,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/giain/label_caramelle.png",
+      "target": "public/assets/portfolioImg/giain/label_caramelle.optimized.webp",
+      "sourceBytes": 10787508,
+      "targetBytes": 559900,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/giain/label_barattolo4.png",
+      "target": "public/assets/portfolioImg/giain/label_barattolo4.optimized.webp",
+      "sourceBytes": 12361124,
+      "targetBytes": 586634,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/giain/label_bottiglie.png",
+      "target": "public/assets/portfolioImg/giain/label_bottiglie.optimized.webp",
+      "sourceBytes": 13673939,
+      "targetBytes": 650738,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/logos/alpimiel_logo.png",
+      "target": "public/assets/logos/alpimiel_logo.optimized.webp",
+      "sourceBytes": 70555,
+      "targetBytes": 22252,
+      "sourceWidth": 1890,
+      "sourceHeight": 1890,
+      "targetWidth": 1890,
+      "targetHeight": 1890
+    },
+    {
+      "source": "public/assets/logos/giain_logo.png",
+      "target": "public/assets/logos/giain_logo.optimized.webp",
+      "sourceBytes": 72368,
+      "targetBytes": 25234,
+      "sourceWidth": 1890,
+      "sourceHeight": 1890,
+      "targetWidth": 1890,
+      "targetHeight": 1890
+    }
+  ]
+}

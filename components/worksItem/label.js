@@ -1,21 +1,26 @@
 import Image from "next/image";
 import React from "react";
 
-const Label = ({ translation }) => {
+const Label = ({ translation, projectName }) => {
   return (
     <div>
       {translation?.titolo && (
-        <h3 className="text-[6vw] md:text-[3.5vw] font-bold mb-4 text-main">
+        <h3 className="text-[6vw] md:text-[2.5vw] font-bold mb-4 text-main">
           <span>{translation?.titolo}</span>
           <span className="ml-0 text-red">.</span>
         </h3>
+      )}
+      {translation?.descrizione && (
+        <p className="mb-4 text-[3.5vw] text-second md:text-[1.5vw] lg:text-[1vw]">
+          {translation.descrizione}
+        </p>
       )}
 
       <div className="relative h-[28vh] lg:h-screen">
         <Image
           src={translation?.labelImg}
           fill
-          className="object-contain w-full h-full"
+          className="object-cover w-full h-full"
           alt=""
         ></Image>
       </div>
@@ -130,6 +135,16 @@ const Label = ({ translation }) => {
       ) : (
         ""
       )}
+      {translation?.gallery?.map((image, index) => (
+        <div key={image} className="relative h-[28vh] md:h-[100vh]">
+          <Image
+            src={image}
+            fill
+            className="object-cover h-full"
+            alt={`${projectName} - immagine di progetto ${index + 1}`}
+          />
+        </div>
+      ))}
     </div>
   );
 };

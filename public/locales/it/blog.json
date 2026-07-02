@@ -1,8 +1,8 @@
 {
   "blog": {
     "hero": {
-      "title": "/assets/pageImg/blogTitle.png",
-      "img": "/assets/pageImg/gattina2.webp"
+      "title": "/assets/pageImg/blogTitle.optimized.webp",
+      "img": "/assets/pageImg/gattina2.optimized.webp"
     }
   }
 }

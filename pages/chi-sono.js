@@ -1,150 +1,162 @@
-import React from "react";
-import SlideAnimation from "@/components/slideAnimation/slideAnimation";
+import Head from "next/head";
+import Script from "next/script";
 import translationIT from "../public/locales/it/it.json";
 
-import HeroPage from "@/components/heros/heroPage";
-import Head from "next/head";
-import Image from "next/image";
+import ButtonLink from "@/components/layout/ButtonLink";
+import HeroPage from "@/components/layout/HeroPage";
+import SectionIndex from "@/components/layout/SectionIndex";
 import SectionMeUno from "@/components/sections/sectionMeUno";
 import SectionMeDue from "@/components/sections/sectionMeDue";
 import SectionMeTre from "@/components/sections/sectionMeTre";
-import SliderCards from "@/components/serviziItem/sliderCards";
-import Link from "next/link";
 
-const Me = ({ translation, servizi }) => {
+const Me = ({ translation }) => {
+  const metaDescription =
+    "Sono Elisa, graphic designer e content creator. Creo identità visive, packaging e comunicazione digitale per brand che vogliono farsi riconoscere.";
+
   return (
-    <main data-scroll-container>
+    <div>
       <Head>
-        <title>Miao - {translation?.meta?.title}</title>
-        <meta
-          name="description"
-          content="Sono una Graphic Designer e Content Creator, e sono qui per essere la tua partner nella definizione dell’identità visiva della tua azienda."
-        />
+        <title>MIAO graphics — {translation?.meta?.title}</title>
+        <meta name="description" content={metaDescription} />
         <meta
           name="keywords"
-          content="Graphic Design, Logo Design, Social Media"
+          content="graphic designer, identità visiva, branding, packaging, comunicazione digitale"
         />
         <meta name="author" content="Elisa Avantey" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0"
-        ></meta>
+        <link rel="canonical" href="https://www.miaographics.it/chi-sono" />
         <meta
           property="og:url"
           content="https://www.miaographics.it/chi-sono"
         />
         <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content={`Miao - ${translation?.meta?.title}`}
-        />
+        <meta property="og:title" content="MIAO graphics — Chi sono" />
+        <meta property="og:description" content={metaDescription} />
         <meta
           property="og:image"
-          content="https://www.miaographics.it/assets/cover_web.png"
-        />
-        <meta
-          property="og:description"
-          content="Sono una Graphic Designer e Content Creator, e sono qui per essere la tua partner nella definizione dell’identità visiva della tua azienda."
+          content="https://www.miaographics.it/assets/pageImg/lampadina.optimized.webp"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="miaographics.it/chi-sono" />
-        <meta
-          property="twitter:url"
-          content="https://www.miaographics.it/chi-sono"
-        />
-        <meta
-          name="twitter:title"
-          content={`Miao - ${translation?.meta?.title}`}
-        />
+        <meta name="twitter:title" content="MIAO graphics — Chi sono" />
+        <meta name="twitter:description" content={metaDescription} />
         <meta
           name="twitter:image"
-          content="https://www.miaographics.it/assets/cover_web.png"
+          content="https://www.miaographics.it/assets/pageImg/lampadina.optimized.webp"
         />
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/apple-touch-icon.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/favicon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="/favicon-16x16.png"
-        />
-        <link rel="manifest" href="/site.webmanifest" />
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-        <meta name="msapplication-TileColor" content="#ffffff" />
-        <meta name="theme-color" content="#ffffff"></meta>
       </Head>
-      <SlideAnimation>
-        <div className="w-full min-h-[calc(100vh_-_80px)] lg:h-[calc(100vh_-_70px)]  2xl:h-[calc(100vh_-_100px)] fxl:h-[calc(100vh_-_150px)]  4xl:h-[calc(100vh_-_250px)] mx-auto flex flex-col lg:flex-row items-center justify-center 2xl:justify-between">
-          <HeroPage
-            title={translation?.hero?.title}
-            img={translation?.hero?.img}
-          />
+
+      <Script
+        src="https://static.elfsight.com/platform/platform.js"
+        strategy="lazyOnload"
+        data-use-service-core
+      />
+
+      <HeroPage
+        image={translation?.hero?.img}
+        imageAlt="Illustrazione creativa di MIAO graphics con una lampadina"
+        mobileImageHeight="compact"
+        imageWrapperClassName="max-w-[760px] xl:max-w-[600px] fxl:max-w-[1200px]"
+      >
+        <SectionIndex>CHI SONO</SectionIndex>
+        <h1 className="text-[2.8rem] xs:text-[clamp(3rem,6.5vw,5.5rem)] font-extrabold leading-[0.92] tracking-[-0.055em] text-main">
+          Ciao, sono<span className="text-red"> Elisa.</span>
+        </h1>
+        <p className="mt-5 text-xl font-bold leading-tight text-main md:text-2xl">
+          Sono una graphic designer specializzata in branding,{" "}
+          <br className="hidden lg:block" />
+          identità visiva e comunicazione visiva.
+        </p>
+        <p className="mt-7 max-w-xl text-base leading-relaxed text-second lg:text-lg">
+          Per me un buon progetto non è solo bello da vedere: è uno strumento
+          che comunica, valorizza il brand e crea fiducia.
+        </p>
+        <div className="mt-9 flex flex-col gap-3 sm:flex-row">
+          <ButtonLink
+            href="/servizi"
+            title="Scopri i progetti di MIAO graphics"
+            size="lg"
+          >
+            Scopri i miei servizi
+          </ButtonLink>
+          <ButtonLink
+            href="/contatti"
+            title="Parliamo del tuo progetto"
+            variant="outline"
+            size="lg"
+          >
+            Parliamo del progetto
+          </ButtonLink>
         </div>
-        <SectionMeUno translation={translation?.sezioneUno} />
-        <SectionMeDue translation={translation?.sezioneDue} />
-        <section className="w-[90%] mx-auto min-h-[40vh] mt-[150px] flex flex-col gap-6 lg:gap-20">
-          <div className="grid grid-cols-1 gap-10 2xl:grid-cols-2">
-            <Image
-              className="object-cover w-[90vw] xl:w-[35vw] 2xl:w-[30vw] fxl:w-[35vw] 3xl:w-[40vw]"
-              src={translation?.sezioneTre?.title}
-              alt="welcome title"
-              width={300}
-              height={300}
-            />
-            <div className="flex items-end lg:justify-end">
-              <Link
-                className="capitalize font-bold py-2.5 px-6 text-[22px] border rounded shadow  text-white hover:transition-all border-red  bg-red"
-                href="https://g.page/r/CVkCvxDyKu9aEBM/review"
-                target="_blank"
-              >
-                {translation?.sezioneTre?.cta}
-              </Link>
+      </HeroPage>
+
+      <SectionMeUno translation={translation?.sezioneUno} />
+      <SectionMeDue />
+      <SectionMeTre translation={translation?.sezioneQuattro} />
+
+      <section className="mx-auto w-[90%] py-20 lg:py-24">
+        <div className="flex flex-col gap-6 border-b border-main/15 pb-8 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <SectionIndex>DICONO DI ME</SectionIndex>
+            <h2 className="text-4xl font-extrabold leading-tight text-main ">
+              Esperienze condivise,
+              <br /> risultati concreti.
+            </h2>
+          </div>
+          <ButtonLink
+            href="https://g.page/r/CVkCvxDyKu9aEBM/review"
+            title="Scrivi una recensione per MIAO graphics"
+            target="_blank"
+            variant="outline"
+          >
+            {translation?.sezioneTre?.cta || "Scrivi una recensione"}
+          </ButtonLink>
+        </div>
+        <div
+          className="elfsight-app-4232eb26-57ce-4f62-af4c-b940b9705c52 mt-10 min-h-[240px]"
+          data-elfsight-app-lazy
+        />
+      </section>
+
+      <section className="bg-red text-white">
+        <div className="mx-auto flex w-[90%] flex-col gap-8 py-12 md:flex-row md:items-center md:justify-between lg:py-16">
+          <div className="flex items-center gap-6">
+            <span
+              className="font-serif text-[7rem] leading-[0.55] text-white"
+              aria-hidden="true"
+            >
+              {"{"}
+            </span>
+            <div>
+              <h2 className="text-3xl font-extrabold leading-tight md:text-4xl lg:text-5xl">
+                Hai un progetto in mente?
+              </h2>
+              <p className="mt-2 text-white/80">
+                Raccontami la tua idea, creiamo qualcosa di unico.
+              </p>
             </div>
           </div>
-          <div
-            className="elfsight-app-4232eb26-57ce-4f62-af4c-b940b9705c52"
-            data-elfsight-app-lazy
-          ></div>
-        </section>
-        <SectionMeTre translation={translation?.sezioneQuattro} />
-        <div className="w-[90%] mx-auto mt-[100px]">
-          <h3 className="text-main font-bold capitalize text-4xl lg:text-6xl 2xl:!leading-[4.5rem] fxl:text-7xl 3xl:text-8xl">
-            {translation?.serviziMore?.title}
-          </h3>
-          <SliderCards servizi={servizi} />
+          <ButtonLink
+            href="/contatti"
+            title="Parliamo del tuo progetto"
+            variant="inverse"
+            size="lg"
+            className="shrink-0"
+          >
+            Parliamo del progetto
+          </ButtonLink>
         </div>
-      </SlideAnimation>
-    </main>
+      </section>
+    </div>
   );
 };
 
 export default Me;
 
-export async function getStaticProps(locale, context) {
-  let obj;
-  switch (locale.locale) {
-    case "it":
-      obj = translationIT;
-      break;
-
-    default:
-      obj = translationIT;
-      break;
-  }
+export async function getStaticProps({ locale }) {
+  const translations = locale === "it" ? translationIT : translationIT;
 
   return {
     props: {
-      translation: obj?.me,
-      servizi: obj?.servizi?.serviziItem,
+      translation: translations?.me,
     },
     revalidate: 60,
   };

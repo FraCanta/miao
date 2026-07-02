@@ -4,17 +4,19 @@ import "@/styles/wordpress.css";
 import "@/styles/portfolio.css";
 
 import Layout from "@/components/layout/layout";
-import { useRouter } from "next/router";
+import PageTransition from "@/components/layout/PageTransition";
+import SmoothScroll from "@/components/layout/SmoothScroll";
+import "lenis/dist/lenis.css";
 import Script from "next/script";
-import Image from "next/image";
 
 export default function App({ Component, pageProps }) {
-  const router = useRouter();
   return (
-    <main>
+    <>
+      <SmoothScroll />
       <Layout>
-        <Component {...pageProps} key={router.asPath} />
+        <Component {...pageProps} />
       </Layout>
+      <PageTransition />
       <Script
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-57G0ZKF60T"
@@ -32,13 +34,9 @@ export default function App({ Component, pageProps }) {
       </Script>
 
       <Script
-        src="https://static.elfsight.com/platform/platform.js"
-        data-use-service-core
-        defer
-      ></Script>
-      <Script
         type="text/javascript"
         src="//embeds.iubenda.com/widgets/84eee3af-e426-44dd-9f41-2b18f1c37d19.js"
+        strategy="afterInteractive"
       ></Script>
       {/* <Script
         type="text/javascript"
@@ -46,6 +44,6 @@ export default function App({ Component, pageProps }) {
         src="//cdn.cookie-script.com/s/6206605853f8d2265c8c18f1fec772d8.js"
         strategy="afterInteractive"
       ></Script> */}
-    </main>
+    </>
   );
 }

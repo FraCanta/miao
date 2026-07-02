@@ -47,6 +47,175 @@ export const GET_ALL_POSTS = gql`
   }
 `;
 
+// Query leggera per la Home: recupera solo i campi realmente visualizzati.
+export const GET_HOME_POSTS = gql`
+  query GetHomePosts {
+    posts(
+      first: 3
+      where: {
+        tag: "miaographics"
+        orderby: { field: DATE, order: DESC }
+      }
+    ) {
+      edges {
+        node {
+          id
+          databaseId
+          title
+          slug
+          excerpt
+          date
+          content
+          featuredImage {
+            node {
+              sourceUrl
+              altText
+            }
+          }
+          categories {
+            nodes {
+              name
+              slug
+            }
+          }
+          author {
+            node {
+              id
+              name
+              nickname
+            }
+          }
+        }
+      }
+    }
+  }
+`;
+
+// Indice del blog: una sola richiesta e nessun contenuto HTML completo.
+// La pagina filtra e pagina questo payload leggero lato server.
+export const GET_BLOG_INDEX = gql`
+  query GetBlogIndex {
+    posts(
+      first: 100
+      where: {
+        tag: "miaographics"
+        orderby: { field: DATE, order: DESC }
+      }
+    ) {
+      edges {
+        node {
+          id
+          databaseId
+          title
+          slug
+          excerpt
+          date
+          featuredImage {
+            node {
+              sourceUrl
+              altText
+            }
+          }
+          categories {
+            nodes {
+              name
+              slug
+              databaseId
+            }
+          }
+        }
+      }
+    }
+    categories(first: 100) {
+      nodes {
+        id
+        name
+        slug
+        databaseId
+      }
+    }
+  }
+`;
+
+export const GET_POST_SLUGS = gql`
+  query GetPostSlugs {
+    posts(first: 100, where: { tag: "miaographics" }) {
+      edges {
+        node {
+          slug
+        }
+      }
+    }
+  }
+`;
+
+export const GET_POST_PAGE = gql`
+  query GetPostPage($slug: ID!) {
+    post(id: $slug, idType: SLUG) {
+      id
+      databaseId
+      title
+      slug
+      excerpt
+      content
+      date
+      modified
+      featuredImage {
+        node {
+          sourceUrl
+          altText
+        }
+      }
+      categories {
+        nodes {
+          name
+          slug
+          databaseId
+        }
+      }
+      tags {
+        nodes {
+          name
+          slug
+        }
+      }
+      author {
+        node {
+          name
+          nickname
+        }
+      }
+    }
+    recentPosts: posts(
+      first: 5
+      where: {
+        tag: "miaographics"
+        orderby: { field: DATE, order: DESC }
+      }
+    ) {
+      edges {
+        node {
+          id
+          title
+          slug
+          date
+          featuredImage {
+            node {
+              sourceUrl
+              altText
+            }
+          }
+          categories {
+            nodes {
+              name
+            }
+          }
+        }
+      }
+    }
+  }
+`;
+
 // 🔹 Recupera tutte le categorie
 export const GET_ALL_CATEGORIES = gql`
   query GetAllCategories {

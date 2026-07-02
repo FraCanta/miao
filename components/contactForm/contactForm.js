@@ -1,5 +1,6 @@
 import { useState } from "react";
 import toast from "react-hot-toast";
+import Button from "@/components/layout/Button";
 export default function ContactForm({ translation }) {
   const [inputs, setInputs] = useState({
     // state per le inputs normali
@@ -481,25 +482,18 @@ export default function ContactForm({ translation }) {
               </div>
             </div>
             <div className="contact-form__footer no-select">
-              <button
-                className="contact-form__btn button text-m button_primary_dark"
+              <Button
                 type="submit"
+                size="lg"
+                className="w-full sm:w-auto"
+                disabled={form.state === "loading"}
               >
-                <span className="button__content">
-                  <span className="px-12 py-2 text-lg font-bold text-white button__text 2xl:text-xl 3xl:text-3xl">
-                    {translation?.btn}
-                  </span>
-                </span>
-                {form.state === "loading" ? (
-                  <span className="button__loader text-main">Sending...</span>
-                ) : form.state === "error" ? (
-                  <span className="button__error">Try again...</span>
-                ) : (
-                  form.state === "success" && (
-                    <span className="button__success">Done!</span>
-                  )
-                )}
-              </button>
+                {form.state === "loading"
+                  ? "Invio…"
+                  : form.state === "error"
+                    ? "Riprova"
+                    : translation?.btn}
+              </Button>
             </div>
           </form>
         </div>

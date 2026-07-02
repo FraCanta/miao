@@ -1,5 +1,4 @@
 import { Html, Head, Main, NextScript } from "next/document";
-import Script from "next/script";
 
 export default function Document() {
   return (
@@ -50,10 +49,6 @@ export default function Document() {
           title="Sitemap"
           href="../sitemap.xml"
         />{" "}
-        <Script
-          src="https://widgets.tree-nation.com/js/widgets/v1/widgets.min.js?v=1.0"
-          strategy="beforeInteractive"
-        />
       </Head>
       <body>
         <Main />

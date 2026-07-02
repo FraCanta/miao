@@ -20,6 +20,7 @@ const Layout = (props) => {
           navbar.classList.add("nav-scroll");
         } else {
           navbar.classList.remove("nav-scroll");
+          navbar.classList.remove("nav-scroll-out");
         }
       };
 

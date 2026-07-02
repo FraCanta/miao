@@ -7,12 +7,48 @@
   --paragraph: #606060;
   --red: #de4928;
   --white: #ffffff;
+  --heading-tracking: -0.02em;
+  --paragraph-tracking: 0.05em;
 }
 
 @layer utilities {
   .hand-pointer {
-    cursor: url("../public/assets/hand-behance.png"), auto;
+    cursor: url("../public/assets/hand-behance.optimized.webp"), auto;
   }
+}
+
+@layer components {
+  .site-button,
+  .site-button-outline {
+    @apply inline-flex items-center justify-center gap-3 border px-6 py-3 text-sm font-bold uppercase tracking-[0.12em] transition-colors duration-300;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .site-button {
+    @apply text-white border-red bg-red hover:border-main hover:bg-main;
+  }
+
+  .site-button-outline {
+    @apply border-main/40 text-main hover:border-red hover:bg-red hover:text-white;
+    background-color: transparent;
+  }
+
+  .site-list-link {
+    @apply flex w-full items-center justify-between border border-main/20 bg-white px-5 py-4 font-bold uppercase tracking-[0.08em] text-main transition-colors duration-300 hover:border-red hover:text-red;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+
+.work-hero-overlay {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.92) 0%,
+    rgba(0, 0, 0, 0.62) 35%,
+    rgba(0, 0, 0, 0.18) 72%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 
 h1,
@@ -25,8 +61,31 @@ a {
   font-family: "Roboto", sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: var(--heading-tracking) !important;
+}
+
 p {
   font-family: "Lato", sans-serif;
+}
+
+p:not([class*="uppercase"]) {
+  letter-spacing: var(--paragraph-tracking) !important;
+}
+
+html {
+  scroll-behavior: auto;
+  scrollbar-width: none;
+}
+
+html.page-transition-active,
+html.page-transition-active body {
+  overflow: hidden !important;
 }
 
 ::selection {
@@ -37,19 +96,111 @@ p {
 }
 
 .nav-scroll {
-  background: var(--white);
-  border-color: transparent;
-  padding: 0;
   position: fixed !important;
-  top: -80px !important;
-  -webkit-transition: -webkit-transform 0.5s;
-  transition: -webkit-transform 0.5s;
-  -o-transition: transform 0.5s;
-  transition: transform 0.5s;
-  transition: transform 0.5s, -webkit-transform 0.5s;
-  -webkit-transform: translateY(80px);
-  -ms-transform: translateY(80px);
-  transform: translateY(80px);
+  top: 0 !important;
+  z-index: 999999 !important;
+  isolation: isolate;
+  padding: 0;
+  border-color: transparent;
+  background: var(--white);
+  box-shadow: 0 10px 35px rgba(57, 55, 60, 0.08);
+  transform: none !important;
+  animation: none;
+}
+
+#header.menu-open {
+  position: fixed !important;
+  inset: 0 0 auto 0;
+  z-index: 1000000;
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important;
+  background: transparent;
+  box-shadow: none;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  animation: none !important;
+}
+
+.layout-menu-enter {
+  animation: layout-menu-enter 0.6s ease-in-out;
+}
+
+@keyframes layout-menu-enter {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.menu-line-attention-one,
+.menu-line-attention-two,
+.menu-line-attention-three {
+  animation: menu-line-shift 9s cubic-bezier(0.22, 1, 0.36, 1) infinite;
+  transform-origin: center;
+}
+
+.menu-line-attention-two {
+  animation-delay: 0.18s;
+}
+
+.menu-line-attention-three {
+  animation-delay: 0.36s;
+}
+
+.group:hover .menu-line-attention-one,
+.group:hover .menu-line-attention-two,
+.group:hover .menu-line-attention-three {
+  animation-play-state: paused;
+}
+
+@keyframes menu-line-shift {
+  0%,
+  74%,
+  92%,
+  100% {
+    transform: translateX(0) scaleX(1);
+  }
+  79% {
+    transform: translateX(5px) scaleX(0.76);
+  }
+  85% {
+    transform: translateX(-2px) scaleX(1.06);
+  }
+}
+
+.nav-scroll-out {
+  position: fixed !important;
+  top: 0 !important;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 10px 35px rgba(57, 55, 60, 0.08);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  animation: menu-exit 0.4s cubic-bezier(0.4, 0, 1, 1) both;
+}
+
+@keyframes menu-enter {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes menu-exit {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
 }
 
 .swiper-button-next,
@@ -95,9 +246,71 @@ p {
 section {
   overflow-x: hidden;
 }
+
+.home-hero-art::before {
+  content: "";
+  position: absolute;
+  inset: 9% 8% 5% 18%;
+  border-radius: 50% 50% 8% 8%;
+  background: rgba(57, 55, 60, 0.045);
+}
+
+.home-hero-dots {
+  position: absolute;
+  top: 8%;
+  left: 5%;
+  width: 24%;
+  aspect-ratio: 1;
+  background-image: radial-gradient(
+    rgba(57, 55, 60, 0.4) 1.2px,
+    transparent 1.2px
+  );
+  background-size: 13px 13px;
+}
+
+.home-hero-brace {
+  position: absolute;
+  z-index: 20;
+  top: 34%;
+  left: 2%;
+  color: var(--red);
+  font-family: Georgia, serif;
+  font-size: clamp(7rem, 13vw, 15rem);
+  font-weight: 400;
+  line-height: 0.7;
+}
+
+.home-hero-accent {
+  position: absolute;
+  z-index: 5;
+  top: 26%;
+  right: 5%;
+  width: 54%;
+  height: 9%;
+  background: var(--red);
+  transform: rotate(-7deg);
+}
+
+@media (max-width: 1023px) {
+  .home-hero-brace {
+    left: 0;
+    font-size: clamp(6rem, 24vw, 11rem);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
 /* Marquee styles */
 .marquee {
-  --gap: 6rem;
+  --gap: 4rem;
   position: relative;
   display: flex;
   overflow: hidden;
@@ -132,7 +345,7 @@ section {
 }
 /* Enable animation */
 .enable-animation .marquee__content {
-  animation: scroll 8s linear infinite;
+  animation: scroll 50s linear infinite;
 }
 
 /* Attempt to size parent based on content. Keep in mind that the parent width is equal to both content containers that stretch to fill the parent. */
@@ -186,9 +399,59 @@ section {
 .Main__Container-sc-1w4nyzp-0 .kzANES .es-main-container a {
   display: none !important;
 }
+
+/* PhotoSwipe deve coprire anche l'header e il pannello del menu. */
+.pswp {
+  z-index: 2000000 !important;
+}
+
+.pswp--custom-bg .pswp__bg {
+  background: #18171a;
+}
+
+.pswp__counter {
+  min-width: 72px;
+  margin-block-start: 16px;
+  margin-inline-start: 16px;
+  padding-inline: 12px;
+  background: rgba(24, 23, 26, 0.72);
+  color: var(--white);
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-align: center;
+  text-shadow: none;
+}
+
+/* Google Reviews: richiamo editoriale delle card nella pagina Chi sono. */
+.elfsight-app-4232eb26-57ce-4f62-af4c-b940b9705c52
+  .es-review-background-container {
+  position: relative !important;
+}
+
+.elfsight-app-4232eb26-57ce-4f62-af4c-b940b9705c52
+  .es-review-background-container::before {
+  content: "“";
+  position: absolute;
+  z-index: 2;
+  top: 12px;
+  left: 18px;
+  color: var(--red);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1;
+  pointer-events: none;
+}
+
+.elfsight-app-4232eb26-57ce-4f62-af4c-b940b9705c52 .es-review-align-container {
+  padding-top: 58px !important;
+}
+
 @media screen and (max-width: 768px) {
   .marquee__content .logo {
-    width: 80px;
+    width: 130px;
   }
 
   .marquee {
@@ -198,11 +461,11 @@ section {
 
 @media screen and (min-width: 1900px) {
   .marquee__content .logo {
-    width: 180px;
+    width: 140px;
   }
 
   .marquee {
-    --gap: 8rem;
+    --gap: 4rem;
   }
 
   .eMlkQV {

@@ -5,6 +5,7 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import Logo from "../public/assets/logo.svg";
 import { useRouter } from "next/router";
+import Script from "next/script";
 import { getPosts, getTagId } from "../utils/wordpress";
 import LastPostMenu from "@/components/post/LastPostMenu";
 import welcomeIT from "../public/locales/it/welcome.json";
@@ -51,6 +52,11 @@ function Welcome({ translation }) {
         />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
+      <Script
+        src="https://static.elfsight.com/platform/platform.js"
+        strategy="lazyOnload"
+        data-use-service-core
+      />
       <nav className="w-full h-[90px]">
         <div className="flex items-center justify-between w-11/12 mx-auto">
           <div className="hidden lg:block"></div>
@@ -113,14 +119,14 @@ function Welcome({ translation }) {
             <Link
               href="/"
               title="contattami per una consulenza e parliamo insieme del tuo progetto"
-              className="capitalize text-center w-full lg:max-w-max font-bold py-2 px-10 text-[20px]  border rounded shadow  text-white hover:transition-all border-red  bg-red"
+              className="site-button w-full lg:max-w-max"
             >
               visita il sito web
             </Link>
             <Link
               href="https://calendly.com/arvine82/parlami-del-tuo-progetto"
               title="contattami per una consulenza e parliamo insieme del tuo progetto"
-              className="capitalize text-center w-full lg:max-w-max font-bold py-2 px-10 text-[20px]  border rounded shadow  text-red hover:transition-all border-red  bg-transparent hover:bg-red hover:border-red hover:text-white"
+              className="site-button-outline w-full lg:max-w-max"
             >
               prenota una call
             </Link>
@@ -148,7 +154,7 @@ function Welcome({ translation }) {
                   return (
                     <li
                       key={i}
-                      className="w-full flex border-solid border-2 rounded-[5px] uppercase bg-white border-red text-red font-bold p-[3vw] xl:px-6 xl:py-3 cursor-pointer hover:bg-red hover:border-red hover:text-white text-lg"
+                      className="site-list-link cursor-pointer"
                     >
                       <Link
                         href={el.link}
@@ -178,7 +184,7 @@ function Welcome({ translation }) {
                   return (
                     <li
                       key={i}
-                      className="w-full flex border-solid border-2 rounded-[5px] uppercase bg-white border-red text-red font-bold p-[3vw] xl:px-6 xl:py-3 cursor-pointer hover:bg-red hover:border-red hover:text-white text-lg"
+                      className="site-list-link cursor-pointer"
                     >
                       <Link
                         href={el.link}
@@ -206,7 +212,7 @@ function Welcome({ translation }) {
               <Link
                 href="/pdf/calendario2025.pdf"
                 title="free gift"
-                className=" items-center justify-between w-full space-x-2 flex border-solid border-2 rounded-[5px] uppercase bg-white border-red text-red font-bold p-[3vw] xl:px-6 xl:py-3 cursor-pointer hover:bg-red hover:border-red hover:text-white text-lg"
+                className="site-list-link cursor-pointer"
               >
                 <span>Free gift</span>
                 <span>

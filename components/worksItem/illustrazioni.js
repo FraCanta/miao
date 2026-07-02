@@ -4,12 +4,12 @@ import React from "react";
 const Illustrazioni = ({ translation }) => {
   return (
     <div>
-      <h3 className="text-[6vw] md:text-[3.5vw] font-bold mb-2 text-main">
+      <h3 className="text-[6vw] md:text-[2.5vw] font-bold mb-2 text-main">
         <span>{translation?.titolo}</span>
         <span className="text-red">.</span>
       </h3>
       {translation?.descrizione ? (
-        <p className="text-[4.5vw] md:text-[3vw] lg:text-[1.3vw] text-second">
+        <p className="text-[3.5vw] md:text-[1.5vw] lg:text-[1vw] text-second">
           {translation?.descrizione}
         </p>
       ) : (
@@ -24,7 +24,7 @@ const Illustrazioni = ({ translation }) => {
           alt=""
         ></Image>
       </div>
-      <p className="text-[4.5vw] md:text-[3vw] lg:text-[1.3vw] text-second">
+      <p className="text-[3.5vw] md:text-[1.5vw] lg:text-[1vw] text-second">
         {translation?.descrizione2}
       </p>
       {translation?.illImg2 ? (

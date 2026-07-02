@@ -1,12 +1,27 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import ServiceCard from "./ServiceCard";
 
-const ServiziItem = ({ img, name, descrizione, link }) => {
+const ServiziItem = ({ img, name, descrizione, link, index, editorial = false }) => {
+  if (editorial) {
+    return (
+      <ServiceCard
+        service={{ img, name, descrizione, link }}
+        index={index}
+      />
+    );
+  }
+
   return (
     <>
       <div className="w-full justify-start items-start gap-2.5 flex ">
-        <Link href={link} title={name} target="_blank">
+        <Link
+          href={link}
+          title={name}
+          target={link?.startsWith("http") ? "_blank" : undefined}
+          rel={link?.startsWith("http") ? "noopener noreferrer" : undefined}
+        >
           <div className="w-full 2xl:p-4 ">
             <Image
               className="object-cover w-auto h-auto"

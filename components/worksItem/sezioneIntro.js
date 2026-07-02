@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Graffa from "../../public/assets/portfolioImg/graffa_grigia.png";
+import Graffa from "../../public/assets/portfolioImg/graffa_grigia.optimized.webp";
 const SezioneIntro = ({ translation }) => {
   return (
     <>

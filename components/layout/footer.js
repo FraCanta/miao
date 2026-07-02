@@ -1,140 +1,177 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Link from "next/link";
 import { Icon } from "@iconify/react";
 import socials from "../../utils/socials.json";
-import Logo from "../../public/assets/logo.png";
+import Logo from "../../public/assets/logo.optimized.webp";
 import Image from "next/image";
+import Script from "next/script";
 
 const Footer = ({ translation }) => {
-  useEffect(() => {
-    // Controlla se il widget è già stato inizializzato
-    if (!document.getElementById("tree-nation-widget")) {
-      const widgetContainer = document.getElementById(
-        "tree-nation-offset-website"
-      );
-      if (window.TreeNationOffsetWebsite && widgetContainer) {
-        window
-          .TreeNationOffsetWebsite({
-            code: "6b435e1164c51cd3",
-            lang: "it",
-            theme: "light",
-          })
-          .render("#tree-nation-offset-website");
+  const currentYear = new Date().getFullYear();
 
-        // Aggiungi un identificatore per evitare di reinizializzarlo
-        widgetContainer.setAttribute("id", "tree-nation-widget");
-      }
+  const renderTreeNation = () => {
+    const widgetContainer = document.getElementById(
+      "tree-nation-offset-website",
+    );
+
+    if (
+      !widgetContainer ||
+      widgetContainer.dataset.rendered ||
+      !window.TreeNationOffsetWebsite
+    ) {
+      return;
     }
-  }, []);
+
+    window
+      .TreeNationOffsetWebsite({
+        code: "6b435e1164c51cd3",
+        lang: "it",
+        theme: "light",
+      })
+      .render("#tree-nation-offset-website");
+    widgetContainer.dataset.rendered = "true";
+  };
   return (
-    <div className="min-h-[20vh] h-full w-full flex flex-col justify-center items-center mt-20 py-6 lg:py-2 3xl:mt-40">
-      <div className="w-[90%] flex-col lg:flex-row justify-between lg:items-end gap-[25px] inline-flex">
-        <div className="flex-col justify-start items-start gap-2.5 inline-flex">
-          <div className="text-right text-main text-base lg:text-[0.9rem] xl:text-base fxl:text-xl 3xl:text-2xl font-light capitalize">
-            {translation?.it?.col1?.row1?.title}
+    <>
+      <Script
+        src="https://widgets.tree-nation.com/js/widgets/v1/widgets.min.js?v=1.0"
+        strategy="lazyOnload"
+        onReady={renderTreeNation}
+      />
+      <footer className="w-full text-white bg-main ">
+        <div className="mx-auto w-[90%] py-14 md:py-16 2xl:py-20">
+          <div className="grid grid-cols-1 border-y border-white/20 md:grid-cols-2">
+            <div className="flex flex-col gap-3 py-8 md:border-r md:border-white/20 md:pr-10 2xl:py-12">
+              <div className="text-sm font-light capitalize text-white/60 2xl:text-base">
+                {translation?.it?.col1?.row1?.title}
+              </div>
+              <Link
+                href="https://calendly.com/arvine82/parlami-del-tuo-progetto"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Prenota una call 1-to-1 e parliamo del tuo progetto"
+                className="group flex items-center justify-between gap-5 text-[9vw] font-extrabold capitalize leading-none transition-colors duration-300 hover:text-red md:text-[4.5vw] xl:text-[3.2vw] 3xl:text-[3vw]"
+              >
+                <span>{translation?.it?.col1?.row1?.cta}</span>
+                <Icon
+                  icon="prime:arrow-up-right"
+                  className="transition-transform duration-300 shrink-0 text-red group-hover:-translate-y-1 group-hover:translate-x-1"
+                />
+              </Link>
+            </div>
+
+            <div className="flex flex-col gap-3 py-8 border-t border-white/20 md:border-t-0 md:pl-10 2xl:py-12">
+              <div className="text-sm font-light capitalize text-white/60 2xl:text-base">
+                {translation?.it?.col2?.row1?.title}
+              </div>
+              <Link
+                href="/contatti"
+                title="Contattami per una consulenza e parlami del tuo progetto"
+                className="group flex items-center justify-between gap-5 text-[9vw] font-extrabold capitalize leading-none transition-colors duration-300 hover:text-red md:text-[4.5vw] xl:text-[3.2vw] 3xl:text-[3vw]"
+              >
+                <span>{translation?.it?.col2?.row1?.cta}</span>
+                <Icon
+                  icon="prime:arrow-up-right"
+                  className="transition-transform duration-300 shrink-0 text-red group-hover:-translate-y-1 group-hover:translate-x-1"
+                />
+              </Link>
+            </div>
           </div>
-          <div className="text-red text-[32px] lg:text-[18px] xl:text-[32px] fxl:text-4xl 3xl:text-5xl font-extrabold capitalize h-[39px] lg:h-[29px] xl:h-[39px]">
-            <Link
-              href="https://calendly.com/arvine82/parlami-del-tuo-progetto"
-              target="_blank"
-              title="Prenota una call 1-to-1 e parliamo del tuo progetto"
-            >
-              {translation?.it?.col1?.row1?.cta}
-            </Link>
+
+          <div className="grid grid-cols-1 gap-10 mt-12 md:grid-cols-2 xl:grid-cols-4 xl:gap-12">
+            <div className="flex flex-col gap-3 text-sm leading-relaxed text-white/70 2xl:text-base">
+              <span className="text-xs font-bold uppercase tracking-[0.16em] text-red">
+                Dove
+              </span>
+              <div>Via Avondo, 15 - 11100 Aosta (AO)</div>
+              <div>Via Jacopo della Quercia, 2 - 20096 Pioltello (MI)</div>
+            </div>
+
+            <div className="flex flex-col gap-3 text-sm leading-relaxed text-white/70 2xl:text-base">
+              <span className="text-xs font-bold uppercase tracking-[0.16em] text-red">
+                Contatti
+              </span>
+              <Link href="tel:+393408539159" className="hover:text-white">
+                +39 340 853 9159
+              </Link>
+              <Link
+                href="mailto:miaographics@gmail.com"
+                className="lowercase hover:text-white"
+              >
+                miaographics@gmail.com
+              </Link>
+            </div>
+
+            <div className="flex flex-col items-start gap-4">
+              <Image
+                src={Logo}
+                alt="logo"
+                width={110}
+                className="brightness-0 invert"
+              />
+              <div className="text-xs font-light lowercase text-white/60 2xl:text-sm">
+                P.iva: 01115240077
+              </div>
+            </div>
+
+            <div className="flex flex-col items-start gap-5 xl:items-end">
+              <div id="tree-nation-offset-website"></div>
+              <div className="flex items-center gap-5">
+                {socials?.Elisa?.map((el, i) => (
+                  <Link
+                    href={el?.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="transition-colors duration-300 text-white/70 hover:text-red"
+                    aria-label={el?.name}
+                    key={i}
+                    title={`seguimi anche ${el?.name}`}
+                  >
+                    <Icon icon={el?.icon} className="w-6 h-6 cursor-pointer" />
+                  </Link>
+                ))}
+              </div>
+            </div>
           </div>
-        </div>
-        <div className="flex-col justify-start items-start gap-2.5 inline-flex">
-          <div className="text-right text-main text-base lg:text-[0.9rem] xl:text-base fxl:text-xl 3xl:text-2xl font-light capitalize">
-            {translation?.it?.col2?.row1?.title}
-          </div>
-          <div className="text-red text-[32px] lg:text-[18px] xl:text-[32px] fxl:text-4xl 3xl:text-5xl font-extrabold capitalize h-[39px] lg:h-[29px] xl:h-[39px]">
-            <Link
-              href="/contatti"
-              target="_blank"
-              title="Contattami per una consulenza e parlami del tuo progetto"
-            >
-              {" "}
-              {translation?.it?.col2?.row1?.cta}
-            </Link>
-          </div>
-        </div>
-        <div className="flex-col justify-start gap-2.5 inline-flex">
-          <div className="text-xs font-light capitalize text-main fxl:text-xl 3xl:text-2xl">
-            Via Avondo, 15 - 11100 Aosta (AO)
-          </div>
-          <div className="text-xs font-light capitalize text-main fxl:text-xl 3xl:text-2xl">
-            Via Jacopo della Quercia, 2 - 20096 Pioltello (MI)
-          </div>
-          <div className="text-xs font-extrabold lowercase text-main fxl:text-xl 3xl:text-2xl">
-            +39 340 853 9159 - miaographics@gmail.com
-          </div>
-        </div>
-        <div className="flex-col justify-start lg:items-end gap-2.5 inline-flex ">
-          <Image src={Logo} alt="logo" width={100} />
-          <div className="lg:text-right text-main text-base fxl:text-xl 3xl:text-2xl font-[300] capitalize"></div>
-          <div className="text-xs font-light lowercase text-main fxl:text-xl 3xl:text-2xl">
-            P.iva: 01115240077
-          </div>
-        </div>
-        <div className="flex-col  gap-2.5 flex ">
-          <div id="tree-nation-offset-website"></div>
-        </div>
-      </div>
-      <div className="flex-col justify-center md:items-center gap-[10px] flex mt-20 w-[90%]">
-        <div className="w-[full] items-center gap-5 inline-flex">
-          <div className="">
-            <div className="flex ">
-              {socials?.Elisa?.map((el, i) => (
-                <Link
-                  href={el?.url}
-                  target="_blank"
-                  className="mr-4 text-main"
-                  aria-label={el?.name}
-                  key={i}
-                  title={`seguimi anche ${el?.name}`}
-                >
-                  <Icon
-                    icon={el?.icon}
-                    className="w-[25px] h-[25px] fxl:w-[30px] fxl:h-[30px] 3xl:w-[35px] 3xl:h-[35px] cursor-pointer "
-                  />
-                </Link>
-              ))}
+
+          <div className="flex flex-col gap-3 pt-6 mt-12 text-xs font-normal border-t border-white/20 text-white/50 md:flex-row md:items-center md:justify-between 2xl:text-sm">
+            <div>
+              Made with ❤️ by{" "}
+              <Link
+                href="https://www.thallion-dev.it/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-bold text-white/80 hover:text-red"
+                title="thallion dev website"
+              >
+                Thallion dev
+              </Link>{" "}
+              {currentYear}, all rights reserved.
+            </div>
+            <div className="flex gap-4">
+              <Link
+                href="https://www.iubenda.com/privacy-policy/12170837"
+                className="iubenda-white iubenda-noiframe iubenda-embed hover:text-white"
+                title="Privacy Policy"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Privacy Policy
+              </Link>
+              <Link
+                href="https://www.iubenda.com/privacy-policy/12170837/cookie-policy"
+                className="iubenda-white iubenda-noiframe iubenda-embed hover:text-white"
+                title="Cookie Policy"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Cookie Policy
+              </Link>
             </div>
           </div>
         </div>
-        <div className="my-2 text-sm font-normal capitalize text-main 3xl:text-xl">
-          Made with ❤️ by{" "}
-          <Link
-            href="https://www.thallion-dev.it/"
-            target="_blank"
-            className="font-bold"
-            title="thallion dev website"
-          >
-            Thallion dev
-          </Link>{" "}
-          2025, all rights reserved.{" "}
-          <Link
-            href="https://www.iubenda.com/privacy-policy/12170837"
-            className="iubenda-white iubenda-noiframe iubenda-embed"
-            title="Privacy Policy"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Privacy Policy
-          </Link>{" "}
-          -{" "}
-          <Link
-            href="https://www.iubenda.com/privacy-policy/12170837/cookie-policy"
-            className="iubenda-white iubenda-noiframe iubenda-embed"
-            title="Cookie Policy"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Cookie Policy
-          </Link>
-        </div>
-      </div>
-    </div>
+      </footer>
+    </>
   );
 };
 

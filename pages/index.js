@@ -6,10 +6,31 @@ import SectionUno from "@/components/sections/sectionUno";
 import SectionDue from "@/components/sections/sectionDue";
 import SectionTre from "@/components/sections/sectionTre";
 import SectionsQuattro from "@/components/sections/sectionsQuattro";
-import { client } from "@/utils/graphql";
-import { GET_ALL_POSTS } from "@/utils/queries";
+import { requestWordPress } from "@/utils/graphql";
+import { GET_HOME_POSTS } from "@/utils/queries";
 
-export default function Home({ translation, post, users }) {
+const getRandomItems = (items = [], count = 4) => {
+  const shuffledItems = [...items];
+
+  for (let index = shuffledItems.length - 1; index > 0; index -= 1) {
+    const randomIndex = Math.floor(Math.random() * (index + 1));
+
+    [shuffledItems[index], shuffledItems[randomIndex]] = [
+      shuffledItems[randomIndex],
+      shuffledItems[index],
+    ];
+  }
+
+  return shuffledItems.slice(0, count);
+};
+
+export default function Home({
+  translation,
+  post,
+  users,
+  selectedWorks,
+  featuredServices,
+}) {
   return (
     <>
       <Head>
@@ -32,7 +53,7 @@ export default function Home({ translation, post, users }) {
         />
         <meta
           property="og:image"
-          content="https://www.miaographics.it/assets/cover_web.png"
+          content="https://www.miaographics.it/assets/cover_web.optimized.webp"
         />
         <meta
           property="og:description"
@@ -47,7 +68,7 @@ export default function Home({ translation, post, users }) {
         />
         <meta
           name="twitter:image"
-          content="https://www.miaographics.it/assets/cover_web.png"
+          content="https://www.miaographics.it/assets/cover_web.optimized.webp"
         />
         <link
           rel="icon"
@@ -66,13 +87,19 @@ export default function Home({ translation, post, users }) {
       </Head>
 
       <SlideAnimation>
-        <section className="w-full min-h-[calc(40vh_-_60px)] lg:h-[calc(100vh_-_70px)] 2xl:h-[calc(100vh_-_80px)] fxl:h-[calc(100vh_-_150px)] 4xl:h-[calc(100vh_-_250px)] mx-auto flex flex-col lg:flex-row lg:items-center justify-between relative">
+        <div>
           <HeroHome translation={translation?.hero} />
-        </section>
+        </div>
 
         <SectionUno translation={translation?.sezioneUno} />
-        <SectionDue translation={translation?.sezioneDue} />
-        <SectionTre translation={translation?.sezioneTre} />
+        <SectionDue
+          translation={translation?.sezioneDue}
+          services={featuredServices}
+        />
+        <SectionTre
+          translation={translation?.sezioneTre}
+          works={selectedWorks}
+        />
         <SectionsQuattro
           translation={translation?.sezioneQuattro}
           post={post}
@@ -86,18 +113,21 @@ export default function Home({ translation, post, users }) {
 // 🔹 Usa getStaticProps con GraphQL
 export async function getStaticProps({ locale }) {
   // Recupera tutti i post e categorie
-  const { posts } = await client.request(GET_ALL_POSTS);
+  const { posts } = await requestWordPress(
+    GET_HOME_POSTS,
+    {},
+    { posts: { edges: [] } }
+  );
 
   // Normalizza i dati
-  const allPosts = posts?.edges?.map(({ node }) => ({
-    ...node,
-    categories: node.categories?.nodes || [],
-    tags: node.tags?.nodes || [],
-  }));
+  const allPosts =
+    posts?.edges?.map(({ node }) => ({
+      ...node,
+      categories: node.categories?.nodes || [],
+    })) || [];
 
   // Filtra solo i post con tag "miaographics"
   const miaographicsPosts = allPosts
-    .filter((post) => post.tags?.some((tag) => tag.slug === "miaographics"))
     .sort((a, b) => new Date(b.date) - new Date(a.date))
     .slice(0, 3); // solo i 3 più recenti
 
@@ -115,12 +145,25 @@ export async function getStaticProps({ locale }) {
       break;
   }
 
+  const portfolioWorks = (obj?.portfolio?.worksItem || []).map((work) => {
+    const projectResource = obj?.portfolio?.singleWorks?.[work.title];
+
+    return {
+      ...work,
+      tags: projectResource?.button || work.button || [],
+    };
+  });
+
+  const selectedWorks = getRandomItems(portfolioWorks, 4);
+
   return {
     props: {
       translation: obj?.home,
       post: miaographicsPosts,
       users: users,
+      selectedWorks,
+      featuredServices: obj?.servizi?.serviziItem?.slice(0, 4) || [],
     },
-    revalidate: 60, // ISR
+    revalidate: 900,
   };
 }

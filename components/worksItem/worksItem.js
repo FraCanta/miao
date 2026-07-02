@@ -1,59 +1,60 @@
-import { Icon } from "@iconify/react";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import LinkArrow from "../layout/LinkArrow";
 
-const WorksItem = ({ img, name, link, descrizione, button, location }) => {
+const WorksItem = ({
+  img,
+  name,
+  link,
+  descrizione,
+  button = [],
+  tags = [],
+}) => {
+  const projectTags = tags.length > 0 ? tags : button;
+
   return (
-    <>
-      <div className="h-[100vw] xl:h-[40vw]   w-full relative before:content-{} before: inline  before:absolute before:left-0 before:right-0 before:top-0 before:z-10 before:h-full before:w-full before:bg-main/90 before:opacity-20">
-        <Link href={link} title={name}>
+    <article className="group min-w-0">
+      <Link href={link} title={`Guarda il progetto ${name}`}>
+        <div className="relative overflow-hidden bg-main/5">
           <Image
             src={img}
-            alt={name}
-            fill
-            className="min-h-full h-full object-cover w-full object-center"
+            alt={`${name} — ${descrizione}`}
+            width={720}
+            height={720}
+            sizes="(max-width: 639px) 90vw, (max-width: 1023px) 44vw, (max-width: 1499px) 29vw, 22vw"
+            className="aspect-square w-full object-cover saturate-[1.03] transition duration-700 ease-out group-hover:scale-[1.025] group-hover:saturate-[1.08]"
           />
-          <div className="absolute bottom-0 left-0 p-6 flex w-full z-10 text-white">
-            <div className="grid grid-col-1 md:grid-cols-2 w-full h-full">
-              <div className="flex flex-col h-full justify-between gap-6">
-                <div>
-                  <h1 className=" text-white text-[10vw] md:text-[5vw] lg:text-[2.5vw] leading-none">
-                    {name}
-                  </h1>
-                  <p className="text-white mt-[0.15rem] text-[12px] tracking-[0.15rem] ">
-                    {descrizione}
-                  </p>
-                </div>
+          <span
+            aria-hidden="true"
+            className="pointer-events-none absolute inset-0 bg-gradient-to-t from-main/45 via-main/5 to-red/10 opacity-70 transition-all duration-700 group-hover:from-main/25 group-hover:to-transparent group-hover:opacity-50"
+          />
+        </div>
 
-                <div className="flex items-center gap-1">
-                  <Icon
-                    icon="majesticons:map-marker"
-                    color="white"
-                    className="text-[12px]"
-                  />
-                  <p className="text-[8px] md:text-[10px] uppercase font-bold tracking-[0.15rem]">
-                    {location}
-                  </p>
-                </div>
-              </div>
-              <div className="text-white hidden  md:flex  gap-1 w-full justify-end items-end uppercase text-[0.8vw] md:text-[1.5vw] lg:text-[0.8vw]">
-                {button.map((el, i) => {
-                  return (
-                    <p
-                      key={i}
-                      className="py-1 px-2  border border-1 border-white rounded-[2px] text-center backdrop-blur w-[33%]"
-                    >
-                      {el}
-                    </p>
-                  );
-                })}
-              </div>
-            </div>
+        <div className="mt-4 flex items-end justify-between gap-4 border-t border-main/20 pt-3">
+          <div className="min-w-0">
+            <h3 className="text-xl font-extrabold leading-tight text-main transition-colors group-hover:text-red 2xl:text-[1.3vw]">
+              {name}
+            </h3>
+            {projectTags.length > 0 && (
+              <ul
+                className="mt-2 flex flex-wrap gap-1.5"
+                aria-label={`Ambiti del progetto ${name}`}
+              >
+                {projectTags.map((tag) => (
+                  <li
+                    key={tag}
+                    className="border border-main/20 px-2 py-1 text-[10px] font-bold uppercase tracking-[0.08em] text-second transition-colors group-hover:border-red/40 group-hover:text-red"
+                  >
+                    {tag}
+                  </li>
+                ))}
+              </ul>
+            )}
           </div>
-        </Link>
-      </div>
-    </>
+          <LinkArrow size="md" />
+        </div>
+      </Link>
+    </article>
   );
 };
 

@@ -1,11 +1,36 @@
 /** @type {import('next').NextConfig} */
-const withPlugins = require("next-compose-plugins");
-
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
-  eslint: {
-    ignoreDuringBuilds: false,
+  async redirects() {
+    return [
+      { source: "/portfolio/ansermè", destination: "/portfolio/anserme", permanent: true },
+      { source: "/portfolio/becquet", destination: "/portfolio/samuel-becquet", permanent: true },
+      { source: "/portfolio/reve", destination: "/portfolio/le-reve-en-vert", permanent: true },
+      { source: "/portfolio/daemy", destination: "/portfolio/da-emy", permanent: true },
+      { source: "/portfolio/horto", destination: "/portfolio/horto-sapiens", permanent: true },
+      { source: "/portfolio/saintgrat", destination: "/portfolio/saint-grat", permanent: true },
+      { source: "/portfolio/morzenti", destination: "/portfolio/morzenti-daniele", permanent: true },
+      { source: "/portfolio/gourmandises", destination: "/portfolio/les-gourmandises", permanent: true },
+      { source: "/portfolio/jardinpotager", destination: "/portfolio/jardin-potager", permanent: true },
+      { source: "/works/anserme", destination: "/portfolio/anserme", permanent: true },
+      { source: "/works/bequet", destination: "/portfolio/samuel-becquet", permanent: true },
+      { source: "/works/reve", destination: "/portfolio/le-reve-en-vert", permanent: true },
+      { source: "/works/phillacolor", destination: "/portfolio/phillacolor", permanent: true },
+      { source: "/works/chappoz", destination: "/portfolio/chappoz", permanent: true },
+      { source: "/works/daemy", destination: "/portfolio/da-emy", permanent: true },
+      { source: "/works/horto", destination: "/portfolio/horto-sapiens", permanent: true },
+      { source: "/works/isavivai", destination: "/portfolio/isavivai", permanent: true },
+      { source: "/works/saintgrat", destination: "/portfolio/saint-grat", permanent: true },
+      { source: "/works/morzenti", destination: "/portfolio/morzenti-daniele", permanent: true },
+      { source: "/servizi/logo", destination: "/servizi/logo-design", permanent: true },
+      { source: "/servizi/branding", destination: "/servizi/branding-strategy", permanent: true },
+      { source: "/servizi/label", destination: "/servizi/label-packaging", permanent: true },
+      { source: "/servizi/social", destination: "/servizi/social-media-strategy", permanent: true },
+      { source: "/servizi/campagne", destination: "/servizi/offline-campaigns", permanent: true },
+      { source: "/servizi/allestimenti", destination: "/servizi/stage-design", permanent: true },
+      { source: "/servizi/illustrazione", destination: "/servizi/illustrations", permanent: true },
+      { source: "/servizi/content", destination: "/servizi/content-creator", permanent: true },
+    ];
   },
   // async redirects() {
   //   return [
@@ -133,42 +158,40 @@ const securityHeaders = [
 //   openAnalyzer: true,
 // });
 
-module.exports = withPlugins([
-  nextConfig,
-
-  {
-    i18n: {
-      locales: ["it"],
-      defaultLocale: "it",
-      localeDetection: true,
-    },
+module.exports = {
+  ...nextConfig,
+  i18n: {
+    locales: ["it"],
+    defaultLocale: "it",
   },
-
-  {
-    async headers() {
-      return [
-        {
-          // Apply these headers to all routes in your application.
-          source: "/:path*",
-          headers: securityHeaders,
-        },
-      ];
-    },
+  turbopack: {
+    root: __dirname,
   },
-  {
-    images: {
-      formats: ["image/avif", "image/webp"],
-      domains: [
-        "mithablog.mithacreative.it/wp-content/uploads/",
-        "https://www.miaographics.it/",
-      ],
-
-      deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
-      imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-      minimumCacheTTL: 60,
-      unoptimized: true,
-    },
+  async headers() {
+    return [
+      {
+        source: "/:path*",
+        headers: securityHeaders,
+      },
+    ];
   },
-
-  // withBundleAnalyzer,
-]);
+  images: {
+    formats: ["image/avif", "image/webp"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "mithablog.mithacreative.it",
+        pathname: "/wp-content/uploads/**",
+      },
+      {
+        protocol: "https",
+        hostname: "www.miaographics.it",
+        pathname: "/**",
+      },
+    ],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    minimumCacheTTL: 60,
+    unoptimized: true,
+  },
+};

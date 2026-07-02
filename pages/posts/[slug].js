@@ -1,264 +1,355 @@
+import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
 import { Icon } from "@iconify/react";
 import { FacebookShareButton, LinkedinShareButton } from "next-share";
-import React, { useEffect, useState } from "react";
-import Head from "next/head";
-import translationIT from "../../public/locales/it/it.json";
-import { parse } from "dom-parser-react";
-import { client } from "@/utils/graphql";
-import { GET_ALL_POSTS, GET_ALL_CATEGORIES } from "@/utils/queries";
-import { getDate } from "../../utils/utils";
 
-export default function SinglePost({
-  post,
-  recent,
-  postCategories,
-  tags,
-  modifiedContent,
-  translation,
-}) {
-  const [minutiLettura, setMinutiLettura] = useState(0);
+import ButtonLink from "@/components/layout/ButtonLink";
+import SectionIndex from "@/components/layout/SectionIndex";
+import { requestWordPress } from "@/utils/graphql";
+import { GET_POST_PAGE, GET_POST_SLUGS } from "@/utils/queries";
+import { getDate } from "@/utils/utils";
 
-  function calcolaMinutiLettura(testo, velocitaLetturaMedia) {
-    const parole = testo.split(" ");
-    const paroleLette = parole.filter((parola) => parola.trim() !== "").length;
-    return Math.ceil(paroleLette / velocitaLetturaMedia);
-  }
+const SITE_URL = "https://www.miaographics.it";
 
-  useEffect(() => {
-    const testoSenzaTag = modifiedContent.replace(/(<([^>]+)>)/gi, "");
-    setMinutiLettura(calcolaMinutiLettura(testoSenzaTag, 250));
-  }, [modifiedContent]);
+const stripHtml = (value = "") =>
+  value
+    .replace(/<[^>]*>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 
-  const contents = parse(post.title, {
-    createElement: React.createElement,
-    Fragment: React.Fragment,
-  });
+const getReadingTime = (content = "") => {
+  const words = stripHtml(content).split(" ").filter(Boolean).length;
+  return Math.max(1, Math.ceil(words / 250));
+};
+
+export default function SinglePost({ post, recent }) {
+  const categories = post?.categories?.nodes || [];
+  const tags = post?.tags?.nodes || [];
+  const category = categories[0]?.name || "Design";
+  const featuredImage = post?.featuredImage?.node;
+  const plainTitle = stripHtml(post?.title);
+  const plainExcerpt = stripHtml(post?.excerpt);
+  const readingTime = getReadingTime(post?.content);
+  const articleUrl = `${SITE_URL}/posts/${post.slug}`;
 
   return (
-    <>
+    <div className="bg-white">
       <Head>
-        <title>{contents}</title>
+        <title>{`${plainTitle} — MIAO graphics`}</title>
         <meta
-          property="og:image"
-          content={post.featuredImage?.node?.sourceUrl}
+          name="description"
+          content={
+            plainExcerpt ||
+            `${plainTitle}: approfondimento di branding e cultura visiva a cura di MIAO graphics.`
+          }
         />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta property="og:title" content={post.title} />
-        <meta property="og:description" content={post.excerpt} />
+        <link rel="canonical" href={articleUrl} />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content={articleUrl} />
+        <meta property="og:title" content={plainTitle} />
+        <meta property="og:description" content={plainExcerpt} />
+        {featuredImage?.sourceUrl && (
+          <meta property="og:image" content={featuredImage.sourceUrl} />
+        )}
+        <meta property="article:published_time" content={post.date} />
+        <meta property="article:modified_time" content={post.modified} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="miaographics.it" />
-        <meta
-          property="twitter:url"
-          content={`https://miaographics.it/posts/${post.slug}`}
-        />
-        <meta name="twitter:title" content={post.title} />
-        <meta name="twitter:description" content={post.excerpt} />
-        <meta
-          name="twitter:image"
-          content={post.featuredImage?.node?.sourceUrl}
-        />
+        <meta name="twitter:title" content={plainTitle} />
+        <meta name="twitter:description" content={plainExcerpt} />
+        {featuredImage?.sourceUrl && (
+          <meta name="twitter:image" content={featuredImage.sourceUrl} />
+        )}
       </Head>
 
-      <div className="singlePost">
-        <div className="w-[90%] mx-auto py-12 ">
-          <div className="flex items-center text-sm breadcrumbs text-pink">
-            <ul className="flex items-center">
-              <li className="flex items-center">
-                <Link
-                  href="/"
-                  className="flex items-center"
-                  title="back to home"
-                >
-                  <Icon icon="majesticons:home" className="w-4 h-4 mr-2" />
-                  <p className="fxl:text-xl 3xl:text-3xl">Home</p>
-                </Link>
-              </li>
-              <li className="flex items-center">
-                <Link
-                  href="/blog"
-                  className="flex items-center"
-                  title="back to blog"
-                >
-                  <Icon icon="ic:round-signpost" className="w-4 h-4 mr-2" />
-                  <p className="fxl:text-xl 3xl:text-3xl">Blog</p>
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          <h3 className="text-xl font-medium uppercase md:text-center text-red md:text-2xl fxl:text-3xl 3xl:text-5xl">
-            {postCategories[0]?.name}
-          </h3>
-          <h1
-            className="md:text-center py-8 text-4xl 2xl:text-5xl fxl:text-6xl 3xl:text-7xl text-main !leading-[1.25]"
-            dangerouslySetInnerHTML={{ __html: post.title }}
-          ></h1>
-
-          <div className="flex flex-col md:flex-row md:justify-center items-start md:items-center font-[400]">
-            <div className="flex md:items-center">
-              <Icon
-                icon="fa6-solid:user-pen"
-                color="#de4928"
-                className="mr-2 fxl:w-8 fxl:h-8"
-              />
-              <p className="flex text-main md:text-lg fxl:text-2xl">
-                {post.author?.node?.nickname || "Elisa Avantey"}
-              </p>
-            </div>
-            <div className="flex items-center mt-4 md:mt-0 md:ml-8">
-              <p className="flex items-center text-main md:text-lg fxl:text-2xl">
-                <Icon
-                  icon="clarity:date-line"
-                  color="#de4928"
-                  className="mr-2 fxl:w-8 fxl:h-8"
-                />
-                {getDate(post.date)}
-              </p>
-              <div className="flex items-center ml-6 text-main md:text-lg">
-                <Icon
-                  icon="tabler:clock-hour-3"
-                  color="#de4928"
-                  className="mr-2 fxl:w-8 fxl:h-8"
-                />
-                <p className="fxl:text-2xl">{minutiLettura} min read</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="w-[90%] mx-auto pb-20 flex flex-col lg:flex-row gap-6">
-          <div className="flex xl:w-[70%] mx-auto flex-col">
-            <div
-              className="text-main text-[20px] md:text-[25px] lg:text-[24px] xl:text-[20px] fxl:text-[30px] 3xl:text-[38px] 3xl:leading-[3.5rem] l-article paragrafo xl:w-[90%] py-12 3xl:w-full mx-auto"
-              dangerouslySetInnerHTML={{ __html: post.content }}
-            ></div>
-
-            <div className="w-[90%] mx-auto flex flex-wrap items-center justify-end text-sm md:text-xl breadcrumbs">
-              <div className="flex items-center h-full gap-6">
-                <p className="text-lg xl:text-xl text-main">Condividi su</p>
-                <FacebookShareButton
-                  url={`https://miaographics.it/posts/${post.slug}`}
-                  hashtag={"#miaographics"}
-                >
-                  <Icon
-                    icon="entypo-social:facebook"
-                    width={28}
-                    color="#39373c"
-                  />
-                </FacebookShareButton>
-                <LinkedinShareButton
-                  url={`https://miaographics.it/posts/${post.slug}`}
-                  separator="- "
-                >
-                  <Icon
-                    icon="entypo-social:linkedin"
-                    color="#39373c"
-                    width="28"
-                  />
-                </LinkedinShareButton>
-              </div>
-            </div>
-
-            <div className="mt-8 fxl:mt-20 flex flex-wrap w-full xl:w-[90%] xl:mx-auto">
-              {tags?.map((el, i) => (
-                <span key={i}>
-                  <span
-                    style={{ color: "#de4928" }}
-                    className="fxl:text-2xl 3xl:text-3xl"
+      <article>
+        <header className="border-b border-main/10 py-12 md:py-16 lg:py-20">
+          <div className="mx-auto w-[90%] max-w-[1500px]">
+            <nav aria-label="Breadcrumb" className="mb-10 md:mb-14">
+              <ol className="flex flex-wrap items-center gap-2 text-xs font-bold uppercase tracking-[0.12em] text-second">
+                <li>
+                  <Link
+                    href="/"
+                    className="transition-colors hover:text-red focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-red"
                   >
-                    #
+                    Home
+                  </Link>
+                </li>
+                <li aria-hidden="true" className="text-red">
+                  /
+                </li>
+                <li>
+                  <Link
+                    href="/blog"
+                    className="transition-colors hover:text-red focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-red"
+                  >
+                    Blog
+                  </Link>
+                </li>
+                <li aria-hidden="true" className="text-red">
+                  /
+                </li>
+                <li
+                  aria-current="page"
+                  className="max-w-[220px] truncate text-main"
+                >
+                  {plainTitle}
+                </li>
+              </ol>
+            </nav>
+
+            <div className="grid gap-10 lg:grid-cols-[1.3fr_0.7fr] lg:items-end lg:gap-16">
+              <div>
+                <SectionIndex>{category}</SectionIndex>
+                <h1
+                  className="mt-6 max-w-6xl text-5xl font-extrabold leading-[1.2] tracking-[-0.045em] text-main md:text-7xl lg:text-[clamp(4.5rem,6vw,4.5rem)]"
+                  dangerouslySetInnerHTML={{ __html: post.title }}
+                />
+              </div>
+
+              <div className="lg:border-l lg:border-main/15 lg:pl-10">
+                {post.excerpt && (
+                  <div
+                    className="text-lg leading-relaxed text-second md:text-xl"
+                    dangerouslySetInnerHTML={{ __html: post.excerpt }}
+                  />
+                )}
+                <div className="mt-7 flex flex-wrap gap-x-6 gap-y-3 text-xs font-bold uppercase tracking-[0.1em] text-main">
+                  <span className="inline-flex items-center gap-2">
+                    <Icon
+                      icon="lucide:user-round"
+                      aria-hidden="true"
+                      className="text-red"
+                    />
+                    {post?.author?.node?.nickname ||
+                      post?.author?.node?.name ||
+                      "Elisa Avantey"}
                   </span>
-                  <span className="mr-2 text-pink fxl:text-2xl 3xl:text-3xl">
-                    {el}
+                  <time
+                    dateTime={post.date}
+                    className="inline-flex items-center gap-2"
+                  >
+                    <Icon
+                      icon="lucide:calendar-days"
+                      aria-hidden="true"
+                      className="text-red"
+                    />
+                    {getDate(post.date)}
+                  </time>
+                  <span className="inline-flex items-center gap-2">
+                    <Icon
+                      icon="lucide:clock-3"
+                      aria-hidden="true"
+                      className="text-red"
+                    />
+                    {readingTime} min di lettura
                   </span>
-                </span>
-              ))}
+                </div>
+              </div>
             </div>
           </div>
+        </header>
 
-          <div className="w-full xl:w-[30%] h-full flex justify-between flex-col lg:sticky top-24 mt-8 xl:mt-0 3xl:top-[190px]">
-            <div className="w-full h-full">
-              <h3 className="text-[8vw] xl:text-[2vw] font-bold uppercase text-second underline">
-                I più recenti
-              </h3>
-              <div className="flex flex-col w-full h-full gap-6 py-4">
-                {recent?.map((p, i) => (
-                  <div key={i}>
-                    <small className="py-2 text-red fxl:text-base">
-                      {getDate(p.date)}
-                    </small>
-                    <Link href={`/posts/${p.slug}`} title={p.title}>
-                      <h5
-                        className="font-bold text-main hover:text-red capitalize text-[1.4rem] lg:text-3xl leading-[1.8rem] xl:text-xl fxl:text-3xl 3xl:text-4xl py-2"
-                        dangerouslySetInnerHTML={{ __html: p.title }}
-                      ></h5>
-                    </Link>
-                  </div>
+        {featuredImage?.sourceUrl && (
+          <figure className="mx-auto mt-8 w-[90%] max-w-[1700px] md:mt-12">
+            <Image
+              src={featuredImage.sourceUrl}
+              alt={featuredImage.altText || plainTitle}
+              width={1800}
+              height={1000}
+              priority
+              className="max-h-[820px] w-full object-cover"
+              sizes="90vw"
+            />
+          </figure>
+        )}
+
+        <div className="mx-auto grid w-[90%] max-w-[1500px] gap-12 py-16 lg:grid-cols-[150px_minmax(0,820px)_minmax(240px,1fr)] lg:items-start lg:gap-10 lg:py-24 xl:gap-16">
+          <aside
+            aria-label="Condividi l’articolo"
+            className="lg:sticky lg:top-40"
+          >
+            <p className="text-xs font-extrabold uppercase tracking-[0.14em] text-main">
+              Condividi
+            </p>
+            <span aria-hidden="true" className="mt-3 block h-px w-12 bg-red" />
+            <div className="mt-5 flex gap-3 lg:flex-col">
+              <FacebookShareButton
+                url={articleUrl}
+                hashtag="#miaographics"
+                aria-label="Condividi su Facebook"
+                className="flex h-11 w-11 items-center justify-center border border-main/20 text-main transition-colors hover:border-red hover:bg-red hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-red"
+              >
+                <Icon
+                  icon="ri:facebook-fill"
+                  aria-hidden="true"
+                  className="h-5 w-5"
+                />
+              </FacebookShareButton>
+              <LinkedinShareButton
+                url={articleUrl}
+                aria-label="Condividi su LinkedIn"
+                className="flex h-11 w-11 items-center justify-center border border-main/20 text-main transition-colors hover:border-red hover:bg-red hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-red"
+              >
+                <Icon
+                  icon="ri:linkedin-fill"
+                  aria-hidden="true"
+                  className="h-5 w-5"
+                />
+              </LinkedinShareButton>
+            </div>
+          </aside>
+
+          <div>
+            <div
+              className="magazine-article text-main"
+              dangerouslySetInnerHTML={{ __html: post.content }}
+            />
+
+            {tags.length > 0 && (
+              <div className="mt-14 border-t border-main/15 pt-7">
+                <p className="mb-4 text-xs font-extrabold uppercase tracking-[0.14em] text-main">
+                  Argomenti
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {tags.map((tag) => (
+                    <span
+                      key={tag.slug}
+                      className="border border-main/15 px-4 py-2 text-xs font-bold uppercase tracking-[0.08em] text-second"
+                    >
+                      <span className="mr-1 text-red">#</span>
+                      {tag.name}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+
+          {recent.length > 0 && (
+            <aside
+              aria-labelledby="recent-posts-title"
+              className="lg:sticky lg:top-40"
+            >
+              <SectionIndex>Continua a leggere</SectionIndex>
+              <h2
+                id="recent-posts-title"
+                className="mt-3 text-3xl font-extrabold text-main"
+              >
+                Articoli recenti
+              </h2>
+              <div className="mt-7 divide-y divide-main/15 border-y border-main/15">
+                {recent.map((recentPost, index) => (
+                  <article
+                    key={recentPost.id || recentPost.slug}
+                    className="py-6"
+                  >
+                    <div className="flex items-start gap-4">
+                      <span className="text-xs font-extrabold text-red">
+                        {String(index + 1).padStart(2, "0")}
+                      </span>
+                      <div>
+                        <small className="text-[10px] font-bold uppercase tracking-[0.12em] text-second">
+                          {recentPost?.categories?.nodes?.[0]?.name || "Design"}
+                        </small>
+                        <Link
+                          href={`/posts/${recentPost.slug}`}
+                          title={stripHtml(recentPost.title)}
+                          className="group mt-2 block focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-red"
+                        >
+                          <h3
+                            className="text-lg font-extrabold leading-tight text-main transition-colors group-hover:text-red"
+                            dangerouslySetInnerHTML={{
+                              __html: recentPost.title,
+                            }}
+                          />
+                          <span className="mt-3 inline-flex items-center gap-2 text-xs font-bold text-red">
+                            Leggi
+                            <Icon
+                              icon="prime:arrow-up-right"
+                              aria-hidden="true"
+                            />
+                          </span>
+                        </Link>
+                      </div>
+                    </div>
+                  </article>
                 ))}
               </div>
+            </aside>
+          )}
+        </div>
+      </article>
+
+      <section className="bg-red text-white">
+        <div className="mx-auto flex w-[90%] max-w-[1500px] flex-col items-start justify-between gap-8 py-10 md:flex-row md:items-center md:py-12">
+          <div className="flex items-center gap-6">
+            <span
+              aria-hidden="true"
+              className="font-serif text-8xl font-light leading-none"
+            >
+              {"{"}
+            </span>
+            <div>
+              <h2 className="text-3xl font-extrabold leading-tight md:text-4xl lg:text-5xl">
+                Hai una storia da raccontare?
+              </h2>
+              <p className="mt-2 text-white/80">
+                Trasformiamola in una comunicazione chiara e riconoscibile.
+              </p>
             </div>
           </div>
+          <ButtonLink
+            href="/contatti"
+            title="Parliamo del tuo progetto"
+            variant="inverse"
+            size="lg"
+            className="shrink-0"
+          >
+            Parliamone
+          </ButtonLink>
         </div>
-      </div>
-    </>
+      </section>
+    </div>
   );
 }
 
-// Next.js getStaticPaths
 export async function getStaticPaths() {
-  const { posts } = await client.request(GET_ALL_POSTS);
-  const paths = posts.edges.map(({ node }) => ({
-    params: { slug: node.slug },
-  }));
+  const data = await requestWordPress(
+    GET_POST_SLUGS,
+    {},
+    { posts: { edges: [] } },
+  );
 
   return {
-    paths,
+    paths: (data?.posts?.edges || []).map(({ node }) => ({
+      params: { slug: node.slug },
+    })),
     fallback: "blocking",
   };
 }
 
-// Next.js getStaticProps
-export async function getStaticProps({ params, locale }) {
-  const { posts } = await client.request(GET_ALL_POSTS);
-  const { categories } = await client.request(GET_ALL_CATEGORIES);
-
-  const allPosts = posts.edges.map(({ node }) => ({
-    ...node,
-    categories: node.categories?.nodes || [],
-    tags: node.tags?.nodes || [],
-    author: node.author?.node,
-  }));
-
-  const post = allPosts.find((p) => p.slug === params.slug);
-
-  const postCategories = categories.nodes.filter((cat) =>
-    post.categories.some((c) => c.databaseId === cat.databaseId)
+export async function getStaticProps({ params }) {
+  const data = await requestWordPress(
+    GET_POST_PAGE,
+    { slug: params.slug },
+    { post: null, recentPosts: { edges: [] } },
   );
 
-  const recent = allPosts
-    .filter(
-      (p) =>
-        p.slug !== post.slug && p.tags.some((t) => t.slug === "miaographics")
-    )
-    .sort((a, b) => new Date(b.date) - new Date(a.date))
-    .slice(0, 3);
+  if (!data?.post) {
+    return { notFound: true, revalidate: 60 };
+  }
 
-  const tags = post.tags.map((t) => t.name);
-  const modifiedContent = post.content;
-
-  let obj = locale === "it" ? translationIT : translationIT;
+  const recent = (data?.recentPosts?.edges || [])
+    .map(({ node }) => node)
+    .filter((recentPost) => recentPost.slug !== data.post.slug)
+    .slice(0, 4);
 
   return {
     props: {
-      post,
-      modifiedContent,
-      tags,
-      postCategories,
+      post: data.post,
       recent,
-      translation: obj?.home,
     },
-    revalidate: 10,
+    revalidate: 900,
   };
 }
