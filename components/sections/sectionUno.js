@@ -2,7 +2,7 @@ import React from "react";
 import SectionLink from "../layout/SectionLink";
 const SectionUno = () => {
   return (
-    <section className="border-y border-main/15 bg-red py-16 md:py-20">
+    <section className="py-16 border-y border-main/15 bg-red md:py-20">
       <div className="mx-auto grid w-[90%] grid-cols-1 items-start gap-10 lg:grid-cols-12 lg:gap-x-8 xl:gap-x-12">
         <div className="lg:col-span-5">
           <p className="mb-5 text-xs font-bold uppercase tracking-[0.18em] text-white">

@@ -7,7 +7,6 @@
   --paragraph: #606060;
   --red: #de4928;
   --white: #ffffff;
-  --heading-tracking: -0.02em;
   --paragraph-tracking: 0.05em;
 }
 
@@ -59,15 +58,6 @@ h5,
 h6,
 a {
   font-family: "Roboto", sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  letter-spacing: var(--heading-tracking) !important;
 }
 
 p {

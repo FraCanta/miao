@@ -1,506 +1,296 @@
 import { useState } from "react";
+import Link from "next/link";
 import toast from "react-hot-toast";
 import Button from "@/components/layout/Button";
+
+const sourceOptions = [
+  { value: "passaparola", label: "Passaparola" },
+  { value: "facebook", label: "Facebook" },
+  { value: "instagram", label: "Instagram" },
+  { value: "google", label: "Google Search" },
+  { value: "linkedin", label: "LinkedIn" },
+];
+
+const serviceOptions = [
+  { value: "logo", label: "Logo Design" },
+  { value: "label", label: "Label Design" },
+  { value: "branding", label: "Branding" },
+  { value: "social", label: "Social Media" },
+  { value: "altro", label: "Altro" },
+];
+
+const budgetOptions = [
+  "€ 350 - 500",
+  "€ 500 - 1.500",
+  "€ 1.500 - 2.500",
+  "€ 2.500+",
+];
+
+const initialInputs = {
+  name: "",
+  work: "",
+  email: "",
+  message: "",
+};
+
+const initialServices = {
+  logo: false,
+  label: false,
+  branding: false,
+  social: false,
+  altro: false,
+};
+
+const fieldClass =
+  "mt-2 min-h-12 w-full border border-main/20 bg-[#f7f6f4] px-4 py-3 text-base text-main outline-none transition-colors placeholder:text-second/60 hover:border-main/40 focus:border-red focus:ring-2 focus:ring-red/15";
+
+const optionClass = (selected) =>
+  `inline-flex min-h-11 cursor-pointer items-center border px-4 py-2 text-sm font-bold transition-colors focus-within:outline focus-within:outline-2 focus-within:outline-offset-2 focus-within:outline-red ${
+    selected
+      ? "border-red bg-red text-white"
+      : "border-main/20 bg-white text-main hover:border-red hover:text-red"
+  }`;
+
 export default function ContactForm({ translation }) {
-  const [inputs, setInputs] = useState({
-    // state per le inputs normali
-    name: "",
-    work: "",
-    email: "",
-    message: "",
-  });
+  const [inputs, setInputs] = useState(initialInputs);
+  const [services, setServices] = useState(initialServices);
+  const [source, setSource] = useState("");
+  const [budget, setBudget] = useState("");
+  const [privacyAccepted, setPrivacyAccepted] = useState(false);
+  const [status, setStatus] = useState({ state: "idle", message: "" });
 
-  const [checkboxesState, setCheckboxesState] = useState({
-    // state per le chackboxes
-    logo: false,
-    label: false,
-    branding: false,
-    social: false,
-    altro: false,
-  });
-
-  const [form, setForm] = useState("");
-  const [selectedRadio, setSelectedRadio] = useState(null);
-  const [clickedRadio, setClickedRadio] = useState(null);
-
-  function onChangeValue(e) {
-    const checkboxValue = e.target.value;
-    // console.log(checkboxValue);
-    setCheckboxesState((prevState) => ({
-      ...prevState,
-      [checkboxValue]: !prevState[checkboxValue],
-    }));
-  }
-
-  function handleRadioChange(radioValue) {
-    setSelectedRadio(radioValue);
-  }
-
-  function handleClickedRadioChange(radioValue) {
-    setClickedRadio(radioValue);
-  }
-
-  const handleChange = (e) => {
-    setInputs((prev) => ({
-      ...prev,
-      [e.target.id]: e.target.value,
-    }));
+  const handleInputChange = (event) => {
+    const { name, value } = event.target;
+    setInputs((current) => ({ ...current, [name]: value }));
   };
 
-  const onSubmitForm = async (e) => {
-    e.preventDefault();
+  const toggleService = (service) => {
+    setServices((current) => ({ ...current, [service]: !current[service] }));
+  };
 
-    if (inputs.name && inputs.work && inputs.email && inputs.message) {
-      setForm({ state: "loading" });
-      try {
-        const formData = {
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    setStatus({ state: "loading", message: "" });
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
           ...inputs,
-          source: selectedRadio, // Valore della radio selezionata
-          price: clickedRadio,
-          services: Object.keys(checkboxesState).filter(
-            (key) => checkboxesState[key]
-          ), // Array dei servizi selezionati
-        };
+          source,
+          price: budget,
+          privacyAccepted,
+          services: Object.keys(services).filter((key) => services[key]),
+        }),
+      });
+      const data = await response.json().catch(() => ({}));
 
-        const res = await fetch(`api/contact`, {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(formData),
-        });
-
-        // const { error } = await res.json();
-
-        // if (error) {
-        //   setForm({
-        //     state: "error",
-        //     message: error,
-        //   });
-        //   return;
-        // }
-
-        // setForm({
-        //   state: "Fatto",
-        //   message:
-        //     "Il tuo messaggio è stato inviato. Grazie per averci contattato!",
-        // });
-        if (res.status === 200) {
-          setInputs({
-            name: "",
-            work: "",
-            email: "",
-            message: "",
-          });
-          setSelectedRadio(null); // Resetta la radio selezionata
-          setClickedRadio(null);
-          setCheckboxesState({
-            logo: false,
-            label: false,
-            branding: false,
-            social: false,
-            altro: false,
-          }); // Resetta le checkbox selezionate
-          toast.success(
-            `Hey ${inputs.name} your message was sent successfully`
-          );
-        }
-      } catch (error) {
-        setForm({
-          state: "Errore",
-          message: "Qualcosa è andato storto",
-        });
+      if (!response.ok) {
+        throw new Error(
+          data.error || "Non è stato possibile inviare il messaggio.",
+        );
       }
+
+      setInputs(initialInputs);
+      setServices(initialServices);
+      setSource("");
+      setBudget("");
+      setPrivacyAccepted(false);
+      setStatus({ state: "success", message: "Messaggio inviato." });
+      toast.success("Grazie, il messaggio è stato inviato.");
+    } catch (error) {
+      const message = error.message || "Qualcosa è andato storto.";
+      setStatus({ state: "error", message });
+      toast.error(message);
     }
   };
 
   return (
-    <section className="w-full h-full ">
-      <div className="container w-full mx-auto">
-        <div className="contact-form__form">
-          <form onSubmit={(e) => onSubmitForm(e)}>
-            <div className="contact-form__row">
-              <span className="text-black contact-form__text heading-l">
-                {translation?.row1}
-              </span>
-              <input
-                id="name"
-                className="contact-form__input text-l text-m_sm contact-form__input_pinched"
-                placeholder="Type your name*"
-                type="text"
-                required
-                value={inputs.name}
-                onChange={handleChange}
-                data-invalid="false"
-                name="name"
-              />
-
-              <span className="text-black contact-form__text heading-l">
-                {translation?.row1Right}
-              </span>
-              <input
-                id="work"
-                className="contact-form__input text-l text-m_sm contact-form__input_right"
-                placeholder="Type a company name*"
-                type="text"
-                required
-                value={inputs.work}
-                onChange={handleChange}
-                data-invalid="false"
-                data-filled="false"
-                name="work"
-              />
-            </div>
-            <div className="contact-form__row">
-              <span className="text-black contact-form__text heading-l">
-                {translation?.row2}
-              </span>
-              <div className="contact-form__items">
-                <label
-                  className={`radio ${
-                    selectedRadio === "passaparola" ? "checked" : ""
-                  }`}
-                  data-checked={selectedRadio === "passaparola"}
-                  data-invalid="false"
-                >
-                  <input
-                    id="passaparola"
-                    className="radio__input"
-                    type="radio"
-                    name="source"
-                    value="passaparola"
-                    onChange={() => handleRadioChange("passaparola")}
-                    checked={selectedRadio === "passaparola" ? "checked" : ""}
-                  />
-                  <span className="radio__label no-select text-m">
-                    {translation?.passaparola}
-                  </span>
-                </label>
-                <label
-                  className={`radio ${
-                    selectedRadio === "face" ? "checked" : ""
-                  }`}
-                  data-checked={selectedRadio === "face"}
-                  data-invalid="false"
-                >
-                  <input
-                    id="facebook"
-                    className="radio__input"
-                    type="radio"
-                    name="source"
-                    value="facebook"
-                    onChange={() => handleRadioChange("face")}
-                    checked={selectedRadio === "face"}
-                  />
-                  <span className="radio__label no-select text-m">
-                    Facebook
-                  </span>
-                </label>
-                <label
-                  className={`radio ${
-                    selectedRadio === "insta" ? "checked" : ""
-                  }`}
-                  data-checked={selectedRadio === "insta"}
-                  data-invalid="false"
-                >
-                  <input
-                    id="instagram"
-                    className="radio__input"
-                    type="radio"
-                    name="source"
-                    value="instagram"
-                    onChange={() => handleRadioChange("insta")}
-                    checked={selectedRadio === "insta"}
-                  />
-                  <span className="radio__label no-select text-m">
-                    Instagram
-                  </span>
-                </label>
-                <label
-                  className={`radio ${
-                    selectedRadio === "google" ? "checked" : ""
-                  }`}
-                  data-checked={selectedRadio === "google"}
-                  data-invalid="false"
-                >
-                  <input
-                    id="google"
-                    className="radio__input"
-                    type="radio"
-                    name="source"
-                    value="google"
-                    onChange={() => handleRadioChange("google")}
-                    checked={selectedRadio === "google"}
-                  />
-                  <span className="radio__label no-select text-m">
-                    Google Search
-                  </span>
-                </label>
-
-                <label
-                  className={`radio ${
-                    selectedRadio === "linkedin" ? "checked" : ""
-                  }`}
-                  data-checked={selectedRadio === "linkedin"}
-                  data-invalid="false"
-                >
-                  <input
-                    id="linkedin"
-                    className="radio__input"
-                    type="radio"
-                    name="source"
-                    value="linkedin"
-                    onChange={() => handleRadioChange("linkedin")}
-                    checked={selectedRadio === "linkedin"}
-                  />
-                  <span className="radio__label no-select text-m">
-                    Linkedin
-                  </span>
-                </label>
-              </div>
-            </div>
-            <div className="contact-form__row">
-              <span className="contact-form__text text-main heading-l">
-                {translation?.row3}
-              </span>
-              <div className="contact-form__items">
-                <label
-                  className={`pill-checkbox ${
-                    checkboxesState.logo ? "checked" : ""
-                  }`}
-                  data-checked={checkboxesState.logo}
-                  data-invalid="false"
-                >
-                  <input
-                    className="pill-checkbox__input"
-                    type="checkbox"
-                    name="service"
-                    value="logo"
-                    onClick={onChangeValue}
-                  />
-                  <span className="pill-checkbox__label no-select text-m">
-                    Logo Design
-                  </span>
-                </label>
-                <label
-                  className={`pill-checkbox ${
-                    checkboxesState.label ? "checked" : ""
-                  }`}
-                  data-checked={checkboxesState.label}
-                  data-invalid="false"
-                >
-                  <input
-                    className="pill-checkbox__input"
-                    type="checkbox"
-                    name="service"
-                    value="label"
-                    onClick={onChangeValue}
-                  />
-                  <span className="pill-checkbox__label no-select text-m">
-                    Label Design
-                  </span>
-                </label>
-                <label
-                  className={`pill-checkbox ${
-                    checkboxesState.branding ? "checked" : ""
-                  }`}
-                  data-checked={checkboxesState.branding}
-                  data-invalid="false"
-                >
-                  <input
-                    className="pill-checkbox__input"
-                    type="checkbox"
-                    name="service"
-                    value="branding"
-                    onClick={onChangeValue}
-                  />
-                  <span className="pill-checkbox__label no-select text-m">
-                    Branding
-                  </span>
-                </label>
-                <label
-                  className={`pill-checkbox ${
-                    checkboxesState.social ? "checked" : ""
-                  }`}
-                  data-checked={checkboxesState.social}
-                  data-invalid="false"
-                >
-                  <input
-                    className="pill-checkbox__input"
-                    type="checkbox"
-                    name="service"
-                    value="social"
-                    onClick={onChangeValue}
-                  />
-                  <span className="pill-checkbox__label no-select text-m">
-                    Social Media
-                  </span>
-                </label>
-                <label
-                  className={`pill-checkbox ${
-                    checkboxesState.altro ? "checked" : ""
-                  }`}
-                  data-checked={checkboxesState.altro}
-                  data-invalid="false"
-                >
-                  <input
-                    className="pill-checkbox__input"
-                    type="checkbox"
-                    name="service"
-                    value="altro"
-                    onClick={onChangeValue}
-                  />
-                  <span className="pill-checkbox__label no-select text-m">
-                    {translation?.altro}
-                  </span>
-                </label>
-              </div>
-            </div>
-            <div className="contact-form__row">
-              <span className="text-black contact-form__text heading-l">
-                {translation?.row4}
-              </span>
-              <div className="contact-form__items">
-                <label
-                  className={`radio ${
-                    clickedRadio === "€ 350 - 500" ? "checked" : ""
-                  }`}
-                  data-checked={clickedRadio === "€ 350 - 500"}
-                  data-invalid="false"
-                >
-                  <input
-                    id="€ 350 - 500"
-                    className="radio__input"
-                    type="radio"
-                    name="source"
-                    value=" € 350 - 500"
-                    onChange={() => handleClickedRadioChange("€ 350 - 500")}
-                    checked={clickedRadio === "€ 350 - 500"}
-                  />
-                  <span className="radio__label no-select text-m">
-                    € 350 - 500
-                  </span>
-                </label>
-                <label
-                  className={`radio ${
-                    clickedRadio === "€ 500 - 1,500" ? "checked" : ""
-                  }`}
-                  data-checked={clickedRadio === "€ 500 - 1,500"}
-                  data-invalid="false"
-                >
-                  <input
-                    id="medio"
-                    className="radio__input"
-                    type="radio"
-                    name="source"
-                    value="€ 500 - 1,500"
-                    onChange={() => handleClickedRadioChange("€ 500 - 1,500")}
-                    checked={clickedRadio === "€ 500 - 1,500"}
-                  />
-                  <span className="radio__label no-select text-m">
-                    € 500 - 1,500
-                  </span>
-                </label>
-                <label
-                  className={`radio ${
-                    clickedRadio === "€ 1,500 - 2,500" ? "checked" : ""
-                  }`}
-                  data-checked={clickedRadio === "€ 1,500 - 2,500"}
-                  data-invalid="false"
-                >
-                  <input
-                    id="€ 1,500 - 2,500"
-                    className="radio__input"
-                    type="radio"
-                    name="source"
-                    value=" € 1,500 - 2,500"
-                    onChange={() => handleClickedRadioChange("€ 1,500 - 2,500")}
-                    checked={clickedRadio === "€ 1,500 - 2,500"}
-                  />
-                  <span className="radio__label no-select text-m">
-                    € 1,500 - 2,500
-                  </span>
-                </label>
-                <label
-                  className={`radio ${
-                    clickedRadio === "2,500+" ? "checked" : ""
-                  }`}
-                  data-checked={clickedRadio === "2,500+"}
-                  data-invalid="false"
-                >
-                  <input
-                    id="2,500+"
-                    className="radio__input"
-                    type="radio"
-                    name="source"
-                    value="2,500+"
-                    onChange={() => handleClickedRadioChange("2,500+")}
-                    checked={clickedRadio === "2,500+"}
-                  />
-                  <span className="radio__label no-select text-m">
-                    € 2,500 +
-                  </span>
-                </label>
-              </div>
-            </div>
-            <div className="contact-form__row">
-              <span className="text-black contact-form__text heading-l">
-                {translation?.row5}
-              </span>
-              <input
-                id="email"
-                data-invalid="false"
-                data-filled="false"
-                className="contact-form__input text-l text-m_sm contact-form__input_pinched contact-form__input_pinched_t"
-                name="email"
-                placeholder="Type your esempio@email.com*"
-                type="email"
-                value={inputs.email}
-                onChange={handleChange}
-                required
-              />
-              <span className="text-black contact-form__text heading-l">
-                {translation?.row5Right}
-              </span>
-            </div>
-            <div className="contact-form__textarea-wrapper">
-              <div>
-                <span className="text-black contact-form__text heading-l">
-                  {translation?.row6}
-                </span>
-              </div>
-              <div>
-                <textarea
-                  id="message"
-                  className="contact-form__textarea text-l text-m_sm contact-form__input_wide"
-                  placeholder="Type project details*"
-                  rows="1"
-                  onChange={handleChange}
-                  value={inputs.message}
-                  required
-                ></textarea>
-              </div>
-            </div>
-            <div className="contact-form__footer no-select">
-              <Button
-                type="submit"
-                size="lg"
-                className="w-full sm:w-auto"
-                disabled={form.state === "loading"}
-              >
-                {form.state === "loading"
-                  ? "Invio…"
-                  : form.state === "error"
-                    ? "Riprova"
-                    : translation?.btn}
-              </Button>
-            </div>
-          </form>
+    <section className="pt-10 lg:pt-12" aria-labelledby="contact-form-title">
+      <form
+        onSubmit={handleSubmit}
+        className="p-5 bg-white border border-main/15 sm:p-7 lg:p-8 xl:p-10"
+      >
+        <div className="grid gap-6 pt-7 sm:grid-cols-2">
+          <label className="text-sm font-bold text-main">
+            Nome e cognome <span className="text-red">*</span>
+            <input
+              className={fieldClass}
+              type="text"
+              name="name"
+              autoComplete="name"
+              value={inputs.name}
+              onChange={handleInputChange}
+              placeholder="Come ti chiami?"
+              required
+            />
+          </label>
+          <label className="text-sm font-bold text-main">
+            Azienda o progetto <span className="text-red">*</span>
+            <input
+              className={fieldClass}
+              type="text"
+              name="work"
+              autoComplete="organization"
+              value={inputs.work}
+              onChange={handleInputChange}
+              placeholder="Nome del brand"
+              required
+            />
+          </label>
         </div>
-      </div>
-      <div className="text-lg font-bold text-red">
-        <p>{translation?.indice}</p>
-      </div>
+
+        <label className="block mt-6 text-sm font-bold text-main">
+          Email <span className="text-red">*</span>
+          <input
+            className={fieldClass}
+            type="email"
+            name="email"
+            autoComplete="email"
+            value={inputs.email}
+            onChange={handleInputChange}
+            placeholder="nome@email.com"
+            required
+          />
+        </label>
+
+        <fieldset className="mt-8 border-t border-main/15 pt-7">
+          <legend className="text-sm font-extrabold text-main">
+            Di cosa hai bisogno?
+          </legend>
+          <div className="flex flex-wrap gap-2 mt-4">
+            {serviceOptions.map((option) => (
+              <label
+                key={option.value}
+                className={optionClass(services[option.value])}
+              >
+                <input
+                  type="checkbox"
+                  className="sr-only"
+                  checked={services[option.value]}
+                  onChange={() => toggleService(option.value)}
+                />
+                {option.value === "altro"
+                  ? translation?.altro || option.label
+                  : option.label}
+              </label>
+            ))}
+          </div>
+        </fieldset>
+
+        <fieldset className="mt-8 border-t border-main/15 pt-7">
+          <legend className="text-sm font-extrabold text-main">
+            Budget indicativo
+          </legend>
+          <div className="flex flex-wrap gap-2 mt-4">
+            {budgetOptions.map((option) => (
+              <label key={option} className={optionClass(budget === option)}>
+                <input
+                  type="radio"
+                  name="budget"
+                  value={option}
+                  className="sr-only"
+                  checked={budget === option}
+                  onChange={(event) => setBudget(event.target.value)}
+                />
+                {option}
+              </label>
+            ))}
+          </div>
+        </fieldset>
+
+        <fieldset className="mt-8 border-t border-main/15 pt-7">
+          <legend className="text-sm font-extrabold text-main">
+            Come mi hai conosciuta?
+          </legend>
+          <div className="flex flex-wrap gap-2 mt-4">
+            {sourceOptions.map((option) => (
+              <label
+                key={option.value}
+                className={optionClass(source === option.value)}
+              >
+                <input
+                  type="radio"
+                  name="source"
+                  value={option.value}
+                  className="sr-only"
+                  checked={source === option.value}
+                  onChange={(event) => setSource(event.target.value)}
+                />
+                {option.value === "passaparola"
+                  ? translation?.passaparola || option.label
+                  : option.label}
+              </label>
+            ))}
+          </div>
+        </fieldset>
+
+        <label className="block mt-8 text-sm font-bold border-t border-main/15 pt-7 text-main">
+          Parlami del progetto <span className="text-red">*</span>
+          <textarea
+            className={`${fieldClass} min-h-40 resize-y`}
+            name="message"
+            value={inputs.message}
+            onChange={handleInputChange}
+            placeholder="Obiettivi, necessità, tempistiche o qualsiasi dettaglio utile."
+            required
+          />
+        </label>
+
+        <div className="mt-7 border-t border-main/15 pt-7">
+          <label className="flex cursor-pointer items-start gap-3 text-sm leading-relaxed text-second">
+            <input
+              type="checkbox"
+              name="privacyAccepted"
+              checked={privacyAccepted}
+              onChange={(event) => setPrivacyAccepted(event.target.checked)}
+              className="mt-1 h-5 w-5 shrink-0 cursor-pointer accent-red focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red"
+              required
+            />
+            <span>
+              Dichiaro di aver letto l&apos;
+              <Link
+                href="/privacy"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-bold text-main underline decoration-red underline-offset-4 transition-colors hover:text-red focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red"
+              >
+                Informativa privacy
+              </Link>{" "}
+              ai sensi dell&apos;art. 13 del Regolamento (UE) 2016/679 e di
+              essere informato/a che i dati saranno trattati esclusivamente per
+              gestire la mia richiesta, ai sensi dell&apos;art. 6, par. 1, lett.
+              b) del medesimo Regolamento. <span className="text-red">*</span>
+            </span>
+          </label>
+        </div>
+
+        <div className="flex flex-col gap-4 mt-8 border-t border-main/15 pt-7 sm:flex-row sm:items-center sm:justify-between">
+          <p
+            className={`text-sm ${status.state === "error" ? "text-red" : "text-second"}`}
+            role="status"
+            aria-live="polite"
+          >
+            {status.message ||
+              (privacyAccepted
+                ? "I campi con * sono obbligatori."
+                : "Accetta l’informativa privacy per abilitare l’invio.")}
+          </p>
+          <Button
+            type="submit"
+            size="lg"
+            className="w-full sm:w-auto"
+            disabled={status.state === "loading" || !privacyAccepted}
+          >
+            {status.state === "loading"
+              ? "Invio…"
+              : status.state === "error"
+                ? "Riprova"
+                : translation?.btn || "Invia"}
+          </Button>
+        </div>
+      </form>
     </section>
   );
 }

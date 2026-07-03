@@ -3,33 +3,141 @@ const nextConfig = {
   reactStrictMode: true,
   async redirects() {
     return [
-      { source: "/portfolio/ansermè", destination: "/portfolio/anserme", permanent: true },
-      { source: "/portfolio/becquet", destination: "/portfolio/samuel-becquet", permanent: true },
-      { source: "/portfolio/reve", destination: "/portfolio/le-reve-en-vert", permanent: true },
-      { source: "/portfolio/daemy", destination: "/portfolio/da-emy", permanent: true },
-      { source: "/portfolio/horto", destination: "/portfolio/horto-sapiens", permanent: true },
-      { source: "/portfolio/saintgrat", destination: "/portfolio/saint-grat", permanent: true },
-      { source: "/portfolio/morzenti", destination: "/portfolio/morzenti-daniele", permanent: true },
-      { source: "/portfolio/gourmandises", destination: "/portfolio/les-gourmandises", permanent: true },
-      { source: "/portfolio/jardinpotager", destination: "/portfolio/jardin-potager", permanent: true },
-      { source: "/works/anserme", destination: "/portfolio/anserme", permanent: true },
-      { source: "/works/bequet", destination: "/portfolio/samuel-becquet", permanent: true },
-      { source: "/works/reve", destination: "/portfolio/le-reve-en-vert", permanent: true },
-      { source: "/works/phillacolor", destination: "/portfolio/phillacolor", permanent: true },
-      { source: "/works/chappoz", destination: "/portfolio/chappoz", permanent: true },
-      { source: "/works/daemy", destination: "/portfolio/da-emy", permanent: true },
-      { source: "/works/horto", destination: "/portfolio/horto-sapiens", permanent: true },
-      { source: "/works/isavivai", destination: "/portfolio/isavivai", permanent: true },
-      { source: "/works/saintgrat", destination: "/portfolio/saint-grat", permanent: true },
-      { source: "/works/morzenti", destination: "/portfolio/morzenti-daniele", permanent: true },
-      { source: "/servizi/logo", destination: "/servizi/logo-design", permanent: true },
-      { source: "/servizi/branding", destination: "/servizi/branding-strategy", permanent: true },
-      { source: "/servizi/label", destination: "/servizi/label-packaging", permanent: true },
-      { source: "/servizi/social", destination: "/servizi/social-media-strategy", permanent: true },
-      { source: "/servizi/campagne", destination: "/servizi/offline-campaigns", permanent: true },
-      { source: "/servizi/allestimenti", destination: "/servizi/stage-design", permanent: true },
-      { source: "/servizi/illustrazione", destination: "/servizi/illustrations", permanent: true },
-      { source: "/servizi/content", destination: "/servizi/content-creator", permanent: true },
+      {
+        source: "/portfolio/ansermè",
+        destination: "/portfolio/anserme",
+        permanent: true,
+      },
+      {
+        source: "/portfolio/becquet",
+        destination: "/portfolio/samuel-becquet",
+        permanent: true,
+      },
+      {
+        source: "/portfolio/reve",
+        destination: "/portfolio/le-reve-en-vert",
+        permanent: true,
+      },
+      {
+        source: "/portfolio/daemy",
+        destination: "/portfolio/da-emy",
+        permanent: true,
+      },
+      {
+        source: "/portfolio/horto",
+        destination: "/portfolio/horto-sapiens",
+        permanent: true,
+      },
+      {
+        source: "/portfolio/saintgrat",
+        destination: "/portfolio/saint-grat",
+        permanent: true,
+      },
+      {
+        source: "/portfolio/morzenti",
+        destination: "/portfolio/morzenti-daniele",
+        permanent: true,
+      },
+      {
+        source: "/portfolio/gourmandises",
+        destination: "/portfolio/les-gourmandises",
+        permanent: true,
+      },
+      {
+        source: "/portfolio/jardinpotager",
+        destination: "/portfolio/jardin-potager",
+        permanent: true,
+      },
+      {
+        source: "/works/anserme",
+        destination: "/portfolio/anserme",
+        permanent: true,
+      },
+      {
+        source: "/works/bequet",
+        destination: "/portfolio/samuel-becquet",
+        permanent: true,
+      },
+      {
+        source: "/works/reve",
+        destination: "/portfolio/le-reve-en-vert",
+        permanent: true,
+      },
+      {
+        source: "/works/phillacolor",
+        destination: "/portfolio/phillacolor",
+        permanent: true,
+      },
+      {
+        source: "/works/chappoz",
+        destination: "/portfolio/chappoz",
+        permanent: true,
+      },
+      {
+        source: "/works/daemy",
+        destination: "/portfolio/da-emy",
+        permanent: true,
+      },
+      {
+        source: "/works/horto",
+        destination: "/portfolio/horto-sapiens",
+        permanent: true,
+      },
+      {
+        source: "/works/isavivai",
+        destination: "/portfolio/isavivai",
+        permanent: true,
+      },
+      {
+        source: "/works/saintgrat",
+        destination: "/portfolio/saint-grat",
+        permanent: true,
+      },
+      {
+        source: "/works/morzenti",
+        destination: "/portfolio/morzenti-daniele",
+        permanent: true,
+      },
+      {
+        source: "/servizi/logo",
+        destination: "/servizi/logo-design",
+        permanent: true,
+      },
+      {
+        source: "/servizi/branding",
+        destination: "/servizi/branding-strategy",
+        permanent: true,
+      },
+      {
+        source: "/servizi/label",
+        destination: "/servizi/label-packaging",
+        permanent: true,
+      },
+      {
+        source: "/servizi/social",
+        destination: "/servizi/social-media-strategy",
+        permanent: true,
+      },
+      {
+        source: "/servizi/campagne",
+        destination: "/servizi/offline-campaigns",
+        permanent: true,
+      },
+      {
+        source: "/servizi/allestimenti",
+        destination: "/servizi/stage-design",
+        permanent: true,
+      },
+      {
+        source: "/servizi/illustrazione",
+        destination: "/servizi/illustrations",
+        permanent: true,
+      },
+      {
+        source: "/servizi/content",
+        destination: "/servizi/content-creator",
+        permanent: true,
+      },
     ];
   },
   // async redirects() {
@@ -124,7 +232,7 @@ const nextConfig = {
   // },
 };
 const ContentSecurityPolicy = `
-  default-src 'self' https://www.miaographics.it/ https://cpl.iubenda.com/ https://idb.iubenda.com/ https://mithablog.mithacreative.it/ https://widget-data.service.elfsight.com/ https://static.elfsight.com/ https://service-reviews-ultimate.elfsight.com/ https://core.service.elfsight.com/ https://consent.cookie-script.com/ https://metrics.hotjar.io/ https://ask.hotjar.io/ https://content.hotjar.io/ https://in.hotjar.com/  https://vc.hotjar.io/ wss://ws.hotjar.com/api/v2/client/ws https://in.hotjar.com/ https://yourwordpresssite.com/wp-json/wp/v2/comments https://sideblog.sideffect.it/ https://api.iconify.design/ https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css https://region1.google-analytics.com;
+  default-src 'self' https://universe-static.elfsightcdn.com/ https://www.miaographics.it/ https://cpl.iubenda.com/ https://idb.iubenda.com/ https://mithablog.mithacreative.it/ https://widget-data.service.elfsight.com/ https://static.elfsight.com/ https://service-reviews-ultimate.elfsight.com/ https://core.service.elfsight.com/ https://consent.cookie-script.com/ https://metrics.hotjar.io/ https://ask.hotjar.io/ https://content.hotjar.io/ https://in.hotjar.com/  https://vc.hotjar.io/ wss://ws.hotjar.com/api/v2/client/ws https://in.hotjar.com/ https://yourwordpresssite.com/wp-json/wp/v2/comments https://sideblog.sideffect.it/ https://api.iconify.design/ https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css https://region1.google-analytics.com;
   script-src 'self' https://core.service.elfsight.com/ https://cdn.iubenda.com/ http://embeds.iubenda.com/ https://widgets.tree-nation.com/ https://universe-static.elfsightcdn.com/ https://static.elfsight.com/ https://static.elfsight.com/platform/platform.js https://assets.calendly.com/assets/external/widget.js https://content.hotjar.io/ https://script.hotjar.com/ https://static.hotjar.com/ https://connect.facebook.net/ https://connect.facebook.net/en_US/fbevents.js https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js https://cdnjs.buymeacoffee.com/ https://storage.googleapis.com  https://cdnjs.cloudflare.com/ http://cdn.cookie-script.com http://report.cookie-script.com  https://www.googletagmanager.com  https://www.google-analytics.com 'unsafe-inline' 'unsafe-eval';
   child-src 'self' https://www.iubenda.com/ https://widgets.tree-nation.com/ https://form.jotform.com/  https://giphy.com/  https://calendly.com/  https://www.google.com/ https://www.youtube.com/ https://www.buymeacoffee.com/;
   style-src 'self' 'unsafe-inline'  https://fonts.googleapis.com https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css  data:;

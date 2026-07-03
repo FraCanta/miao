@@ -136,11 +136,11 @@ const Label = ({ translation, projectName }) => {
         ""
       )}
       {translation?.gallery?.map((image, index) => (
-        <div key={image} className="relative h-[28vh] md:h-[100vh]">
+        <div key={image} className="relative h-[28vh] md:h-[100vh] ">
           <Image
             src={image}
             fill
-            className="object-cover h-full"
+            className="object-contain h-full"
             alt={`${projectName} - immagine di progetto ${index + 1}`}
           />
         </div>

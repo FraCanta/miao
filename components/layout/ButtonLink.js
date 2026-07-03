@@ -49,7 +49,9 @@ const ButtonLink = ({
     const reduceMotion = window.matchMedia(
       "(prefers-reduced-motion: reduce)",
     ).matches;
-    const offset = -(parseFloat(getComputedStyle(destination).scrollMarginTop) || 0);
+    const offset = -(
+      parseFloat(getComputedStyle(destination).scrollMarginTop) || 0
+    );
 
     if (!reduceMotion && window.__miaoLenis) {
       window.__miaoLenis.scrollTo(destination, {
@@ -73,7 +75,7 @@ const ButtonLink = ({
       tabIndex={tabIndex}
       rel={target === "_blank" ? "noopener noreferrer" : undefined}
       onClick={handleClick}
-      className={`group inline-flex items-center justify-center gap-4 border font-bold uppercase tracking-[0.1em] transition-colors duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-red ${variants[variant]} ${sizes[size]} ${className}`}
+      className={`group inline-flex items-center justify-center gap-4 border font-bold uppercase  transition-colors duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-red ${variants[variant]} ${sizes[size]} ${className}`}
     >
       <span>{children}</span>
       {arrow && (

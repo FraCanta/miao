@@ -57,7 +57,7 @@ const Me = ({ translation }) => {
         imageWrapperClassName="max-w-[760px] xl:max-w-[600px] fxl:max-w-[1200px]"
       >
         <SectionIndex>CHI SONO</SectionIndex>
-        <h1 className="text-[2.8rem] xs:text-[clamp(3rem,6.5vw,5.5rem)] font-extrabold leading-[0.92] tracking-[-0.055em] text-main">
+        <h1 className="text-[2.8rem] xs:text-[clamp(3rem,6.5vw,5.5rem)] font-extrabold leading-[0.92]  text-main">
           Ciao, sono<span className="text-red"> Elisa.</span>
         </h1>
         <p className="mt-5 text-xl font-bold leading-tight text-main md:text-2xl">
@@ -65,11 +65,11 @@ const Me = ({ translation }) => {
           <br className="hidden lg:block" />
           identità visiva e comunicazione visiva.
         </p>
-        <p className="mt-7 max-w-xl text-base leading-relaxed text-second lg:text-lg">
+        <p className="max-w-xl text-base leading-relaxed mt-7 text-second lg:text-lg">
           Per me un buon progetto non è solo bello da vedere: è uno strumento
           che comunica, valorizza il brand e crea fiducia.
         </p>
-        <div className="mt-9 flex flex-col gap-3 sm:flex-row">
+        <div className="flex flex-col gap-3 mt-9 sm:flex-row">
           <ButtonLink
             href="/servizi"
             title="Scopri i progetti di MIAO graphics"
@@ -93,7 +93,7 @@ const Me = ({ translation }) => {
       <SectionMeTre translation={translation?.sezioneQuattro} />
 
       <section className="mx-auto w-[90%] py-20 lg:py-24">
-        <div className="flex flex-col gap-6 border-b border-main/15 pb-8 sm:flex-row sm:items-end sm:justify-between">
+        <div className="flex flex-col gap-6 pb-8 border-b border-main/15 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <SectionIndex>DICONO DI ME</SectionIndex>
             <h2 className="text-4xl font-extrabold leading-tight text-main ">
@@ -116,7 +116,7 @@ const Me = ({ translation }) => {
         />
       </section>
 
-      <section className="bg-red text-white">
+      <section className="text-white bg-red">
         <div className="mx-auto flex w-[90%] flex-col gap-8 py-12 md:flex-row md:items-center md:justify-between lg:py-16">
           <div className="flex items-center gap-6">
             <span

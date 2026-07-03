@@ -39,7 +39,7 @@ const MetaItem = ({ icon, label, children }) => (
     />
     <div>
       <h3 className="text-sm font-extrabold text-red">{label}</h3>
-      <div className="mt-1 text-sm leading-relaxed text-second md:text-base">
+      <div className="mt-1 text-sm leading-relaxed text-second md:text-md">
         {children}
       </div>
     </div>
@@ -65,7 +65,7 @@ const ProjectLink = ({ project, direction }) => {
           alt=""
           width={300}
           height={300}
-          className="aspect-square h-full w-full object-cover"
+          className="object-cover w-full h-full aspect-square"
           sizes="(max-width: 767px) 112px, 145px"
         />
       )}
@@ -81,7 +81,7 @@ const ProjectLink = ({ project, direction }) => {
         <p className="mt-1 text-xs text-second">
           {project.services.join(" · ")}
         </p>
-        <span className="mt-3 inline-flex items-center gap-2 text-xs font-bold text-red">
+        <span className="inline-flex items-center gap-2 mt-3 text-xs font-bold text-red">
           Vedi progetto
           <Icon icon="prime:arrow-up-right" aria-hidden="true" />
         </span>
@@ -92,7 +92,7 @@ const ProjectLink = ({ project, direction }) => {
           alt=""
           width={300}
           height={300}
-          className="col-start-2 row-start-1 aspect-square h-full w-full object-cover"
+          className="object-cover w-full h-full col-start-2 row-start-1 aspect-square"
           sizes="(max-width: 767px) 112px, 145px"
         />
       )}
@@ -180,7 +180,7 @@ const Works = ({ works, slug, previousWork, nextWork }) => {
             {previousWork && nextWork && (
               <span
                 aria-hidden="true"
-                className="hidden h-6 w-px bg-white/40 sm:block"
+                className="hidden w-px h-6 bg-white/40 sm:block"
               />
             )}
             {nextWork && (
@@ -198,11 +198,11 @@ const Works = ({ works, slug, previousWork, nextWork }) => {
         </div>
       </section>
 
-      <section className="border-b border-main/10 py-16 md:py-24">
+      <section className="py-16 border-b border-main/10 md:py-24">
         <div className="mx-auto grid w-[90%] max-w-[1920px] gap-12 lg:grid-cols-[0.78fr_1.22fr] lg:gap-20">
           <div>
             <SectionHeading>{works.introTitolo || "Progetto"}</SectionHeading>
-            <div className="mt-7 max-w-xl space-y-5 text-base leading-relaxed text-second md:text-lg">
+            <div className="max-w-xl space-y-5 text-base leading-relaxed mt-7 text-second md:text-lg">
               {projectCopy.map((paragraph, index) => (
                 <p key={index}>{paragraph}</p>
               ))}
@@ -336,10 +336,7 @@ const Works = ({ works, slug, previousWork, nextWork }) => {
       {(previousWork || nextWork) && (
         <section className="py-16 md:py-20">
           <div className="mx-auto w-[90%] max-w-[1920px]">
-            <h2 className="text-2xl font-extrabold text-main md:text-2xl">
-              Continua a esplorare
-            </h2>
-            <div className="mt-7 grid gap-5 lg:grid-cols-2">
+            <div className="grid gap-5 mt-7 lg:grid-cols-2">
               <ProjectLink project={previousWork} direction="previous" />
               <ProjectLink project={nextWork} direction="next" />
             </div>
@@ -347,12 +344,12 @@ const Works = ({ works, slug, previousWork, nextWork }) => {
         </section>
       )}
 
-      <section className="bg-red text-white">
+      <section className="text-white bg-red">
         <div className="mx-auto flex w-[90%] max-w-[1920px] flex-col items-start justify-between gap-8 py-10 md:flex-row md:items-center md:py-12">
           <div className="flex items-center gap-6">
             <span
               aria-hidden="true"
-              className="font-serif text-8xl font-light leading-none"
+              className="font-serif font-light leading-none text-8xl"
             >
               {"{"}
             </span>

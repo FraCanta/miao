@@ -67,22 +67,22 @@ const Contacts = ({ translation }) => (
       compactGap
     >
       <SectionIndex>Contatti</SectionIndex>
-      <h1 className="mt-6 text-4xl font-extrabold  text-main sm:text-6xl md:text-7xl ">
+      <h1 className="mt-6 text-4xl font-extrabold text-main sm:text-6xl md:text-7xl ">
         Parliamo del tuo prossimo <span className="text-red">progetto.</span>
       </h1>
-      <p className="mt-7 max-w-xl text-lg leading-relaxed text-second md:text-lg">
+      <p className="max-w-xl text-lg leading-relaxed mt-7 text-second md:text-lg">
         Raccontami la tua idea, il punto in cui ti trovi e dove vuoi arrivare.
         Ti aiuterò a trasformarla in una direzione visiva chiara e
         riconoscibile.
       </p>
-      <div className="mt-9 flex flex-col gap-3 sm:flex-row">
+      <div className="flex flex-col gap-3 mt-9 sm:flex-row">
         <ButtonLink
           href="#form-contatti"
           title="Raccontami il tuo progetto"
           size="lg"
           arrowIcon="prime:arrow-down"
         >
-          Raccontami il progetto
+          Spiegami la tua idea
         </ButtonLink>
         <ButtonLink
           href="https://calendly.com/arvine82/parlami-del-tuo-progetto"
@@ -96,12 +96,12 @@ const Contacts = ({ translation }) => (
       </div>
     </HeroPage>
 
-    <section className="border-b border-main/10 py-12 md:py-16">
+    <section className="py-12 border-b border-main/10 md:py-16">
       <div className="mx-auto grid w-[90%] max-w-[1920px] gap-8 md:grid-cols-[auto_1fr] md:items-center md:gap-12">
         <div className="flex items-center gap-5">
           <span
             aria-hidden="true"
-            className="font-serif text-8xl font-light leading-none text-red"
+            className="font-serif font-light leading-none text-8xl text-red"
           >
             {"{"}
           </span>
@@ -129,7 +129,7 @@ const Contacts = ({ translation }) => (
         <div className="grid gap-7 border-b border-main/15 pb-8 lg:grid-cols-[1fr_0.7fr] lg:items-end">
           <div>
             <SectionIndex>Il tuo progetto</SectionIndex>
-            <h2 className="mt-3 text-4xl font-extrabold leading-tight text-main md:text-5xl lg:text-6xl">
+            <h2 className="mt-3 text-4xl font-extrabold leading-tight text-main md:text-5xl">
               Iniziamo da qui<span className="text-red">.</span>
             </h2>
           </div>
@@ -139,42 +139,42 @@ const Contacts = ({ translation }) => (
           </p>
         </div>
 
-        <ContactForm translation={translation?.contactForm} />
-      </div>
-    </section>
+        <div className="grid gap-12 lg:grid-cols-[minmax(0,2fr)_minmax(19rem,1fr)] lg:items-start lg:gap-12 xl:gap-20">
+          <ContactForm translation={translation?.contactForm} />
 
-    <section className="border-t border-main/10 py-14 md:py-20">
-      <div className="mx-auto w-[90%] max-w-[1920px]">
-        <SectionIndex>Contatti diretti</SectionIndex>
-        <div className="mt-7 grid border-l border-t border-main/15 md:grid-cols-3">
-          {contactDetails.map((detail) => (
-            <Link
-              key={detail.label}
-              href={detail.href}
-              target={detail.external ? "_blank" : undefined}
-              rel={detail.external ? "noopener noreferrer" : undefined}
-              className="group relative flex min-h-[180px] items-start gap-5 border-b border-r border-main/15 p-7 transition-colors hover:border-red hover:bg-red hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-red md:p-9"
-            >
-              <Icon
-                icon={detail.icon}
-                aria-hidden="true"
-                className="mt-1 h-6 w-6 shrink-0 text-red transition-colors group-hover:text-white"
-              />
-              <div>
-                <p className="text-xs font-extrabold uppercase tracking-[0.14em] text-second transition-colors group-hover:text-white/70">
-                  {detail.label}
-                </p>
-                <p className="mt-4 text-xl font-extrabold text-main transition-colors group-hover:text-white md:text-2xl">
-                  {detail.value}
-                </p>
-                <Icon
-                  icon="prime:arrow-up-right"
-                  aria-hidden="true"
-                  className="absolute bottom-7 right-7 h-5 w-5 text-red transition-colors group-hover:text-white md:bottom-9 md:right-9"
-                />
-              </div>
-            </Link>
-          ))}
+          <aside className="pt-8 border-t border-main/15 lg:sticky lg:top-28 lg:mt-12 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0 xl:pl-10">
+            <SectionIndex>Contatti diretti</SectionIndex>
+            <div className="grid mt-6 border-t border-l border-main/15">
+              {contactDetails.map((detail) => (
+                <Link
+                  key={detail.label}
+                  href={detail.href}
+                  target={detail.external ? "_blank" : undefined}
+                  rel={detail.external ? "noopener noreferrer" : undefined}
+                  className="group relative flex min-h-[138px] items-start gap-4 border-b border-r border-main/15 p-6 transition-colors hover:border-red hover:bg-red hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-red"
+                >
+                  <Icon
+                    icon={detail.icon}
+                    aria-hidden="true"
+                    className="w-5 h-5 mt-1 transition-colors shrink-0 text-red group-hover:text-white"
+                  />
+                  <div className="min-w-0 pr-7">
+                    <p className="text-xs font-extrabold uppercase tracking-[0.14em] text-second transition-colors group-hover:text-white/70">
+                      {detail.label}
+                    </p>
+                    <p className="mt-3 text-lg font-extrabold leading-tight break-words transition-colors text-main group-hover:text-white xl:text-xl">
+                      {detail.value}
+                    </p>
+                    <Icon
+                      icon="prime:arrow-up-right"
+                      aria-hidden="true"
+                      className="absolute w-5 h-5 transition-colors bottom-6 right-6 text-red group-hover:text-white"
+                    />
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </aside>
         </div>
       </div>
     </section>

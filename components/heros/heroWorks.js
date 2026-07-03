@@ -9,16 +9,16 @@ const HeroWorks = ({ img, name, descrizione, location, button }) => {
         src={img}
         alt={name}
         fill
-        className="min-h-full h-full object-cover w-full "
+        className="object-cover w-full h-full min-h-full "
       />
       <div className="absolute bottom-4 md:bottom-10 md:left-1/2  flex w-[90%] md:-translate-x-1/2  z-10 text-white">
-        <div className="grid grid-col-1 md:grid-cols-2 w-full h-full">
-          <div className="flex flex-col h-full justify-between md:gap-6">
-            <div className="gap-1 flex flex-col">
+        <div className="grid w-full h-full grid-col-1 md:grid-cols-2">
+          <div className="flex flex-col justify-between h-full md:gap-6">
+            <div className="flex flex-col gap-1">
               <h1 className=" text-white text-[10vw] xl:text-[5vw] leading-none">
                 {name}
               </h1>
-              <p className="text-white md:mt-[0.15rem] text-[11px] xl:text-[1.5vw] tracking-[0.15rem] ">
+              <p className="text-white md:mt-[0.15rem] text-[11px] xl:text-[1.5vw] ">
                 {descrizione}
               </p>
             </div>
@@ -29,7 +29,7 @@ const HeroWorks = ({ img, name, descrizione, location, button }) => {
                 color="white"
                 className="text-[12px]"
               />
-              <p className="text-[8px] py-4 md:text-[10px] uppercase font-bold tracking-[0.15rem]">
+              <p className="text-[8px] py-4 md:text-[10px] uppercase font-bold t">
                 {location}
               </p>
             </div>

@@ -2249,18 +2249,13 @@
         "label": {
           "titolo": "Label & Pack Design",
           "labelImg": "/assets/portfolioImg/alpimiel/etichetta_miele6.optimized.webp",
-          "cartellinoImg": "/assets/portfolioImg/alpimiel/etichetta_miele2.optimized.webp",
-          "caramelleImg": "/assets/portfolioImg/alpimiel/etichetta_miele3.optimized.webp",
+          "cartellinoImg": "/assets/portfolioImg/alpimiel/alpimiel4.optimized.webp",
+          "caramelleImg": "/assets/portfolioImg/alpimiel/alpimiel3.optimized.webp",
           "biscottiImg": "/assets/portfolioImg/alpimiel/etichetta_miele7.optimized.webp",
-          "scatoleImg": "/assets/portfolioImg/alpimiel/etichetta_miele1.optimized.webp",
-          "cremaImg": "/assets/portfolioImg/alpimiel/etichetta_miele5.optimized.webp",
-          "etichettasImg": "/assets/portfolioImg/alpimiel/etichetta_miele4.optimized.webp",
+          "scatoleImg": "/assets/portfolioImg/alpimiel/alpimiel5.optimized.webp",
+          "cremaImg": "/assets/portfolioImg/alpimiel/alpimiel6.optimized.webp",
+          "etichettasImg": "/assets/portfolioImg/alpimiel/alpimiel10.optimized.webp",
           "gallery": [
-            "/assets/portfolioImg/alpimiel/alpimiel3.optimized.webp",
-            "/assets/portfolioImg/alpimiel/alpimiel4.optimized.webp",
-            "/assets/portfolioImg/alpimiel/alpimiel5.optimized.webp",
-            "/assets/portfolioImg/alpimiel/alpimiel6.optimized.webp",
-            "/assets/portfolioImg/alpimiel/alpimiel10.optimized.webp",
             "/assets/portfolioImg/alpimiel/alpimiel8.optimized.webp",
             "/assets/portfolioImg/alpimiel/alpimiel7.optimized.webp",
             "/assets/portfolioImg/alpimiel/alpimiel9.optimized.webp"
@@ -2295,7 +2290,8 @@
         },
         "desc": [
           "Per Giain – Delizie della Valle ho progettato logo e immagine coordinata creando Giain, un personaggio che racchiude l’anima autentica della Valle d’Aosta.",
-          "Con i suoi baffi, il cappello tradizionale e la forma di montagna che ospita una castagna e una mela, Giain rappresenta un viaggiatore curioso tra i produttori artigianali della valle. Un simbolo semplice, narrativo e immediatamente riconoscibile della valdostanità."
+          "Con i suoi baffi, il cappello tradizionale e la forma di montagna che ospita una castagna e una mela, Giain rappresenta un viaggiatore curioso tra i produttori artigianali della valle. ",
+          "Un simbolo semplice, narrativo e immediatamente riconoscibile della valdostanità."
         ],
         "logoImg": "/assets/portfolioImg/giain/intro_giain.optimized.webp",
         "typo": {

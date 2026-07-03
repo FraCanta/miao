@@ -186,7 +186,7 @@ const Menu = ({ nr, translation }) => {
             <span className="text-xs font-bold uppercase tracking-[0.16em] block">
               {open ? "Chiudi" : "Menu"}
             </span>
-            <span aria-hidden="true" className="relative block h-7 w-10">
+            <span aria-hidden="true" className="relative block w-10 h-7">
               <span
                 className={`absolute left-0.5 top-1 h-[2px] w-9 origin-center transition-transform duration-[450ms] ease-[cubic-bezier(0.65,0,0.35,1)] ${
                   open
@@ -284,24 +284,24 @@ const Menu = ({ nr, translation }) => {
                   title={link.title}
                   onClick={handleNavigationClick}
                   tabIndex={open ? undefined : -1}
-                  className={`group flex items-center justify-between py-3 uppercase tracking-[0.04em] transition-[color,padding] duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-red md:py-4 lg:px-2 lg:py-3 lg:hover:px-5 xl:py-4 ${
+                  className={`group flex items-center justify-between py-3 uppercase  transition-[color,padding] duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-red md:py-4 lg:px-2 lg:py-3 lg:hover:px-5 xl:py-4 ${
                     isActive(link.href)
                       ? "text-red"
                       : "text-white hover:text-red"
                   }`}
                   aria-current={isActive(link.href) ? "page" : undefined}
                 >
-                  <span className="text-[clamp(2rem,9vw,4.5rem)] font-bold leading-[0.92] tracking-[-0.04em] lg:text-[clamp(2.5rem,4.5vw,2.8rem)] fxl:text-[clamp(2.5rem,4.5vw,5rem)]">
+                  <span className="text-[clamp(2rem,9vw,4.5rem)] font-bold leading-[0.92]  lg:text-[clamp(2.5rem,4.5vw,2.8rem)] fxl:text-[clamp(2.5rem,4.5vw,5rem)]">
                     {link.label}
                   </span>
                   <span className="flex items-center gap-3 md:gap-5">
-                    <span className="text-[10px] font-bold tracking-[0.2em] text-red lg:text-xs">
+                    <span className="text-[10px] font-bold tracking-wider text-red lg:text-xs">
                       0{index + 1}
                     </span>
                     <Icon
                       icon="prime:arrow-up-right"
                       aria-hidden="true"
-                      className="h-5 w-5 shrink-0 text-red transition-transform duration-300 group-hover:-translate-y-1 group-hover:translate-x-1 md:h-7 md:w-7 lg:h-8 lg:w-8"
+                      className="w-5 h-5 transition-transform duration-300 shrink-0 text-red group-hover:-translate-y-1 group-hover:translate-x-1 md:h-7 md:w-7 lg:h-8 lg:w-8"
                     />
                   </span>
                 </Link>
@@ -316,9 +316,9 @@ const Menu = ({ nr, translation }) => {
                 : "translate-y-8 opacity-0 delay-0"
             }`}
           >
-            <div className="mt-6 grid grid-cols-1 gap-6 border-t border-white/20 pt-5 md:grid-cols-2 lg:mt-8 lg:pt-6">
+            <div className="grid grid-cols-1 gap-6 pt-5 mt-6 border-t border-white/20 md:grid-cols-2 lg:mt-8 lg:pt-6">
               <div className="flex flex-col gap-4 md:flex-row md:flex-wrap md:items-center md:gap-x-5">
-                <div className="border-b border-white/20 pb-4 md:border-0 md:pb-0">
+                <div className="pb-4 border-b border-white/20 md:border-0 md:pb-0">
                   <SiteSearch
                     menuOpen={open}
                     onNavigate={handleNavigationClick}
@@ -326,13 +326,13 @@ const Menu = ({ nr, translation }) => {
                 </div>
                 <span
                   aria-hidden="true"
-                  className="hidden h-5 w-px bg-white/20 md:block"
+                  className="hidden w-px h-5 bg-white/20 md:block"
                 />
                 <div className="flex items-center gap-4 md:gap-5">
                   <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-red md:text-xs">
                     Seguimi
                   </span>
-                  <span aria-hidden="true" className="h-px w-8 bg-white/30" />
+                  <span aria-hidden="true" className="w-8 h-px bg-white/30" />
                   {socials?.Elisa?.map((social) => (
                     <Link
                       href={social?.url}
@@ -346,7 +346,7 @@ const Menu = ({ nr, translation }) => {
                     >
                       <Icon
                         icon={social?.icon}
-                        className="h-6 w-6 md:h-7 md:w-7"
+                        className="w-6 h-6 md:h-7 md:w-7"
                       />
                     </Link>
                   ))}
@@ -359,7 +359,7 @@ const Menu = ({ nr, translation }) => {
                   href="https://calendly.com/arvine82/parlami-del-tuo-progetto"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-bold capitalize text-white hover:text-red focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-red"
+                  className="font-bold text-white capitalize hover:text-red focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-red"
                   tabIndex={open ? undefined : -1}
                 >
                   {translation?.it?.col1?.row1?.cta}

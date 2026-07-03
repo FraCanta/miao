@@ -19,7 +19,7 @@ const HeroHome = () => {
             <span className="text-red"> brand</span>.
           </h1>
 
-          <p className="mt-7 max-w-[700px] text-base tracking-wider  text-second md:text-lg  2xl:text-[1.20rem]">
+          <p className="mt-7 max-w-[700px] text-base   text-second md:text-lg  2xl:text-[1.20rem]">
             Aiuto aziende, professionisti e startup a costruire un&apos;identità
             visiva forte attraverso branding, graphic design e strategie di
             comunicazione efficaci.

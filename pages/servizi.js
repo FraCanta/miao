@@ -68,16 +68,16 @@ const Services = ({ translation }) => {
         mobileImageHeight="compact"
       >
         <SectionIndex>SERVIZI</SectionIndex>
-        <h1 className="lg:max-w-2xl text-[2.8rem] xs:text-[clamp(3rem,6.5vw,5rem)] font-extrabold leading-[0.94]  text-main">
+        <h1 className="lg:max-w-2xl text-[2.5rem] lg:text-[5rem] font-extrabold leading-[0.94]  text-main">
           Soluzioni creative<span className="text-red"> su misura.</span>
         </h1>
-        <p className="mt-7 max-w-2xl text-base leading-relaxed text-second lg:text-lg">
+        <p className="max-w-2xl text-base leading-relaxed mt-7 text-second lg:text-lg">
           Offro servizi di graphic design, branding, brand identity, logo
           design, packaging design, illustrazione e comunicazione visiva per
           aziende, professionisti e startup. <br />
         </p>
 
-        <div className="mt-9 flex flex-col gap-3 sm:flex-row">
+        <div className="flex flex-col gap-3 mt-9 sm:flex-row">
           <ButtonLink
             href="/contatti"
             title="Parliamo del tuo progetto"
@@ -107,7 +107,7 @@ const Services = ({ translation }) => {
           <h2 className="text-4xl font-extrabold leading-tight text-main md:text-5xl">
             Come posso aiutarti
           </h2>
-          <p className="border-main/15 text-base leading-relaxed text-second md:border-l md:pl-10 lg:text-lg">
+          <p className="text-base leading-relaxed border-main/15 text-second md:border-l md:pl-10 lg:text-lg">
             Ogni progetto è un percorso: dall&apos;idea alla sua realizzazione,
             costruisco identità visive e strumenti di comunicazione che
             valorizzano il tuo brand, ne raccontano l&apos;essenza e lo rendono
@@ -118,7 +118,7 @@ const Services = ({ translation }) => {
 
       <section className="mx-auto w-[90%] py-16 lg:py-24">
         <h2 className="sr-only">Tutti i servizi di MIAO graphics</h2>
-        <div className="grid grid-cols-1 border-l border-t border-main/15 sm:grid-cols-2 xl:grid-cols-4">
+        <div className="grid grid-cols-1 border-t border-l border-main/15 sm:grid-cols-2 xl:grid-cols-4">
           {translation?.serviziItem?.map((service, index) => (
             <ServiziItem
               key={service.link}
@@ -141,11 +141,11 @@ const Services = ({ translation }) => {
               Diamo forma alle idee, passo dopo passo.
             </h2>
           </div>
-          <ol className="grid border-l border-t border-main/15 sm:grid-cols-3 lg:border-l-0 lg:border-t-0">
+          <ol className="grid border-t border-l border-main/15 sm:grid-cols-3 lg:border-l-0 lg:border-t-0">
             {approachSteps.map((step) => (
               <li
                 key={step.title}
-                className="border-b border-r border-main/15 p-6 lg:border-b-0 lg:p-8"
+                className="p-6 border-b border-r border-main/15 lg:border-b-0 lg:p-8"
               >
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-bold tracking-[0.16em] text-red">
@@ -167,7 +167,7 @@ const Services = ({ translation }) => {
         </div>
       </section>
 
-      <section className="bg-red text-white">
+      <section className="text-white bg-red">
         <div className="mx-auto flex w-[90%] flex-col gap-8 py-12 md:flex-row md:items-center md:justify-between lg:py-16">
           <div className="flex items-center gap-6">
             <span
