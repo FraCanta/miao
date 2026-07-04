@@ -42,7 +42,7 @@ const Footer = ({ translation }) => {
         <div className="mx-auto w-[90%] py-14 md:py-16 2xl:py-20">
           <div className="grid grid-cols-1 border-y border-white/20 md:grid-cols-2">
             <div className="flex flex-col gap-3 py-8 md:border-r md:border-white/20 md:pr-10 2xl:py-12">
-              <div className="text-sm font-light capitalize text-white/60 2xl:text-base">
+              <div className="text-sm font-light capitalize text-white/60 2xl:text-base 4xl:text-2xl">
                 {translation?.it?.col1?.row1?.title}
               </div>
               <Link
@@ -61,7 +61,7 @@ const Footer = ({ translation }) => {
             </div>
 
             <div className="flex flex-col gap-3 py-8 border-t border-white/20 md:border-t-0 md:pl-10 2xl:py-12">
-              <div className="text-sm font-light capitalize text-white/60 2xl:text-base">
+              <div className="text-sm font-light capitalize text-white/60 2xl:text-base 4xl:text-2xl">
                 {translation?.it?.col2?.row1?.title}
               </div>
               <Link
@@ -79,7 +79,7 @@ const Footer = ({ translation }) => {
           </div>
 
           <div className="grid grid-cols-1 gap-10 mt-12 md:grid-cols-2 xl:grid-cols-4 xl:gap-12">
-            <div className="flex flex-col gap-3 text-sm leading-relaxed text-white/70 2xl:text-base">
+            <div className="flex flex-col gap-3 text-sm leading-relaxed text-white/70 2xl:text-base 4xl:text-2xl">
               <span className="text-xs font-bold uppercase tracking-[0.16em] text-red">
                 Dove
               </span>
@@ -87,7 +87,7 @@ const Footer = ({ translation }) => {
               <div>Via Jacopo della Quercia, 2 - 20096 Pioltello (MI)</div>
             </div>
 
-            <div className="flex flex-col gap-3 text-sm leading-relaxed text-white/70 2xl:text-base">
+            <div className="flex flex-col gap-3 text-sm leading-relaxed text-white/70 2xl:text-base 4xl:text-2xl">
               <span className="text-xs font-bold uppercase tracking-[0.16em] text-red">
                 Contatti
               </span>
@@ -105,9 +105,9 @@ const Footer = ({ translation }) => {
             <div className="flex flex-col items-start gap-4">
               <Image
                 src={Logo}
-                alt="logo"
+                alt="MIAO graphics"
                 width={110}
-                className="brightness-0 invert"
+                className="w-[110px] brightness-0 invert 4xl:w-[180px]"
               />
               <div className="text-xs font-light lowercase text-white/60 2xl:text-sm">
                 P.iva: 01115240077
@@ -127,14 +127,17 @@ const Footer = ({ translation }) => {
                     key={i}
                     title={`seguimi anche ${el?.name}`}
                   >
-                    <Icon icon={el?.icon} className="w-6 h-6 cursor-pointer" />
+                  <Icon
+                    icon={el?.icon}
+                    className="h-6 w-6 cursor-pointer 4xl:h-10 4xl:w-10"
+                  />
                   </Link>
                 ))}
               </div>
             </div>
           </div>
 
-          <div className="flex flex-col gap-3 pt-6 mt-12 text-xs font-normal border-t border-white/20 text-white/50 md:flex-row md:items-center md:justify-between 2xl:text-sm">
+          <div className="mt-12 flex flex-col gap-3 border-t border-white/20 pt-6 text-xs font-normal text-white/50 md:flex-row md:items-center md:justify-between 2xl:text-sm 4xl:text-lg">
             <div>
               Made with ❤️ by{" "}
               <Link

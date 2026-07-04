@@ -9,10 +9,10 @@ const SectionsQuattro = ({ post = [] }) => {
       <section className="mx-auto mt-24 w-[90%] md:mt-32">
         <div className="flex flex-col gap-5 pb-5 mb-10 border-b border-main/20 md:flex-row md:items-end md:justify-between">
           <div>
-            <p className="mb-3 text-xs font-bold uppercase tracking-[0.18em] text-red">
+            <p className="mb-3 text-xs font-bold uppercase tracking-[0.18em] text-red 4xl:text-xl">
               Notizie
             </p>
-            <h2 className="text-[11vw] font-extrabold leading-none tracking-[-0.05em] text-main md:text-[6vw] lg:text-[2.5vw]">
+            <h2 className="text-[11vw] font-extrabold leading-none text-main md:text-[6vw] lg:text-[2.5vw]">
               Dal blog
             </h2>
           </div>
@@ -42,7 +42,7 @@ const SectionsQuattro = ({ post = [] }) => {
 
       <section className="py-12 mt-24 text-white bg-red md:mt-32 md:py-16">
         <div className="mx-auto flex w-[90%] flex-col gap-8 md:flex-row md:items-center md:justify-between">
-          <h2 className="flex  items-center gap-4 text-[10vw] font-extrabold leading-none tracking-[-0.055em] text-white md:text-[8vw] lg:text-[2.5vw]">
+          <h2 className="flex items-center gap-4 text-[10vw] font-extrabold leading-none tracking-[-0.055em] text-white md:text-[8vw] lg:text-[2.5vw]">
             <span
               className="flex self-stretch items-center text-[1.15em] leading-none text-white"
               aria-hidden="true"

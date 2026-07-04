@@ -69,16 +69,16 @@ const ServicePage = ({
               >
                 {"{"}
               </span>
-              <h1 className="text-[2.6rem] xs:text-[3rem] xl:text-[4rem] font-extrabold leading-none  text-main">
+              <h1 className="text-[2.6rem] font-extrabold leading-none text-main xs:text-[3rem] xl:text-[4rem] 4xl:text-[7rem]">
                 {titleStart}
                 {titleStart && " "}
                 <span className="text-red">{accentWord}</span>
               </h1>
             </div>
-            <p className=" max-w-3xl text-2xl font-bold leading-tight text-main md:text-2xl">
+            <p className="max-w-3xl text-2xl font-bold leading-tight text-main md:text-2xl 4xl:max-w-5xl 4xl:text-4xl">
               {servizio?.heroTagline}
             </p>
-            <p className="mt-6 max-w-3xl text-base leading-relaxed text-second lg:text-lg">
+            <p className="mt-6 max-w-3xl text-base leading-relaxed text-second lg:text-lg 4xl:mt-10 4xl:max-w-5xl 4xl:text-3xl">
               {servizio?.descrizione}
             </p>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
@@ -118,7 +118,7 @@ const ServicePage = ({
             {servizio?.intro?.map((paragraph, index) => (
               <p
                 key={index}
-                className="text-base leading-relaxed text-second lg:text-lg"
+                className="text-base leading-relaxed text-second lg:text-lg 4xl:text-3xl"
                 dangerouslySetInnerHTML={{ __html: paragraph }}
               />
             ))}
@@ -138,7 +138,7 @@ const ServicePage = ({
             {servizio.descPro.map((paragraph, index) => (
               <p
                 key={index}
-                className="text-base leading-relaxed text-second lg:text-lg"
+                className="text-base leading-relaxed text-second lg:text-lg 4xl:text-3xl"
                 dangerouslySetInnerHTML={{ __html: paragraph }}
               />
             ))}
@@ -167,7 +167,7 @@ const ServicePage = ({
                 <h3 className="mt-10 text-2xl font-extrabold text-main">
                   {item.title}
                 </h3>
-                <p className="mt-3 text-sm leading-relaxed text-second md:text-base">
+                <p className="mt-3 text-sm leading-relaxed text-second md:text-base 4xl:mt-5 4xl:text-2xl">
                   {item.description}
                 </p>
               </li>
@@ -183,7 +183,7 @@ const ServicePage = ({
             Cosa comprende il servizio {servizio?.name}
           </h2>
           {servizio?.sottoList && (
-            <p className="mb-8 max-w-3xl text-base leading-relaxed text-second lg:text-lg">
+            <p className="mb-8 max-w-3xl text-base leading-relaxed text-second lg:text-lg 4xl:max-w-5xl 4xl:text-3xl">
               {servizio.sottoList}
             </p>
           )}
@@ -204,7 +204,7 @@ const ServicePage = ({
                     {String(index + 1).padStart(2, "0")}
                   </span>
                 </div>
-                <p className="mt-8 text-base font-bold leading-relaxed text-main">
+                <p className="mt-8 text-base font-bold leading-relaxed text-main 4xl:text-2xl">
                   {item}
                 </p>
               </li>
@@ -281,7 +281,7 @@ const ServicePage = ({
                   </h2>
                 </div>
                 {servizio?.descOpzioni && (
-                  <p className="text-base leading-relaxed text-second lg:border-l lg:border-main/15 lg:pl-12 lg:text-lg">
+                  <p className="text-base leading-relaxed text-second lg:border-l lg:border-main/15 lg:pl-12 lg:text-lg 4xl:pl-16 4xl:text-3xl">
                     {servizio.descOpzioni}
                   </p>
                 )}

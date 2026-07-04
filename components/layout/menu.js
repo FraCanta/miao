@@ -143,9 +143,9 @@ const Menu = ({ nr, translation }) => {
   }, [open, nr]);
 
   return (
-    <header className="layout-menu-enter h-[80px] bg-white md:h-[108px]  2xl:h-[138px]">
+    <header className="layout-menu-enter h-[var(--site-header-height)] bg-white">
       <nav
-        className={`relative z-[999999] flex h-[80px] w-full items-center bg-transparent md:h-[108px] lg:h-[116px] xl:h-[128px] 2xl:h-[138px] ${
+        className={`relative z-[999999] flex h-[var(--site-header-height)] w-full items-center bg-transparent ${
           open ? "menu-open" : ""
         }`}
         id="header"
@@ -167,7 +167,7 @@ const Menu = ({ nr, translation }) => {
               src={Logo}
               alt="MIAO graphics"
               priority
-              className={`w-[108px] transition-[filter] duration-500 md:w-[136px] lg:w-[148px] xl:w-[166px] 2xl:w-[180px] ${
+              className={`w-[108px] transition-[filter] duration-500 md:w-[136px] lg:w-[148px] xl:w-[166px] 2xl:w-[180px] 4xl:w-[360px] ${
                 open ? "brightness-0 invert" : ""
               }`}
             />
@@ -176,14 +176,14 @@ const Menu = ({ nr, translation }) => {
           <IconButton
             ref={triggerRef}
             label={open ? "Chiudi menu" : "Apri menu"}
-            className={`group col-start-2 row-start-1 justify-self-end gap-3 ${
+            className={`group col-start-2 row-start-1 justify-self-end gap-3 4xl:origin-right 4xl:scale-150 ${
               open ? "text-white hover:text-red" : "text-main hover:text-red"
             }`}
             onClick={() => setOpen((current) => !current)}
             aria-expanded={open}
             aria-controls="main-navigation"
           >
-            <span className="text-xs font-bold uppercase tracking-[0.16em] block">
+            <span className="block text-xs font-bold uppercase tracking-[0.16em] 4xl:text-xl">
               {open ? "Chiudi" : "Menu"}
             </span>
             <span aria-hidden="true" className="relative block w-10 h-7">
@@ -268,8 +268,8 @@ const Menu = ({ nr, translation }) => {
           } lg:bottom-[10%] lg:left-[8%] lg:h-20 lg:w-96`}
         />
 
-        <div className="relative mx-auto flex min-h-full w-[90%] flex-col pb-8 pt-[104px] md:pb-10 md:pt-[140px] lg:justify-center lg:pb-[58px] lg:pt-[174px] xl:pt-[192px] 2xl:pt-[206px]">
-          <ul className="relative z-10 flex w-full max-w-[1200px] flex-1 flex-col justify-center self-center">
+        <div className="relative mx-auto flex min-h-full w-[90%] flex-col pb-8 pt-[calc(var(--site-header-height)+1.5rem)] md:pb-10 lg:justify-center lg:pb-[3rem]">
+          <ul className="relative z-10 flex w-full max-w-[1200px] flex-1 flex-col justify-center self-center 4xl:max-w-[2600px]">
             {links.map((link, index) => (
               <li
                 key={link.href}
@@ -284,24 +284,24 @@ const Menu = ({ nr, translation }) => {
                   title={link.title}
                   onClick={handleNavigationClick}
                   tabIndex={open ? undefined : -1}
-                  className={`group flex items-center justify-between py-3 uppercase  transition-[color,padding] duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-red md:py-4 lg:px-2 lg:py-3 lg:hover:px-5 xl:py-4 ${
+                  className={`group flex items-center justify-between py-3 uppercase transition-[color,padding] duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-red md:py-4 lg:px-2 lg:py-3 lg:hover:px-5 xl:py-4 4xl:py-6 ${
                     isActive(link.href)
                       ? "text-red"
                       : "text-white hover:text-red"
                   }`}
                   aria-current={isActive(link.href) ? "page" : undefined}
                 >
-                  <span className="text-[clamp(2rem,9vw,4.5rem)] font-bold leading-[0.92]  lg:text-[clamp(2.5rem,4.5vw,2.8rem)] fxl:text-[clamp(2.5rem,4.5vw,5rem)]">
+                  <span className="text-[clamp(2rem,9vw,4.5rem)] font-bold leading-[0.92] lg:text-[clamp(2.5rem,4.5vw,2.8rem)] fxl:text-[clamp(2.5rem,4.5vw,5rem)] 4xl:text-[8rem]">
                     {link.label}
                   </span>
                   <span className="flex items-center gap-3 md:gap-5">
-                    <span className="text-[10px] font-bold tracking-wider text-red lg:text-xs">
+                    <span className="text-[10px] font-bold tracking-wider text-red lg:text-xs 4xl:text-2xl">
                       0{index + 1}
                     </span>
                     <Icon
                       icon="prime:arrow-up-right"
                       aria-hidden="true"
-                      className="w-5 h-5 transition-transform duration-300 shrink-0 text-red group-hover:-translate-y-1 group-hover:translate-x-1 md:h-7 md:w-7 lg:h-8 lg:w-8"
+                      className="h-5 w-5 shrink-0 text-red transition-transform duration-300 group-hover:-translate-y-1 group-hover:translate-x-1 md:h-7 md:w-7 lg:h-8 lg:w-8 4xl:h-14 4xl:w-14"
                     />
                   </span>
                 </Link>
@@ -316,8 +316,8 @@ const Menu = ({ nr, translation }) => {
                 : "translate-y-8 opacity-0 delay-0"
             }`}
           >
-            <div className="grid grid-cols-1 gap-6 pt-5 mt-6 border-t border-white/20 md:grid-cols-2 lg:mt-8 lg:pt-6">
-              <div className="flex flex-col gap-4 md:flex-row md:flex-wrap md:items-center md:gap-x-5">
+            <div className="mt-6 grid grid-cols-1 gap-6 border-t border-white/20 pt-5 md:grid-cols-2 lg:mt-8 lg:pt-6 4xl:mt-12 4xl:gap-12 4xl:pt-10">
+              <div className="flex flex-col gap-4 md:flex-row md:flex-wrap md:items-center md:gap-x-5 4xl:gap-x-10">
                 <div className="pb-4 border-b border-white/20 md:border-0 md:pb-0">
                   <SiteSearch
                     menuOpen={open}
@@ -326,13 +326,13 @@ const Menu = ({ nr, translation }) => {
                 </div>
                 <span
                   aria-hidden="true"
-                  className="hidden w-px h-5 bg-white/20 md:block"
+                  className="hidden h-5 w-px bg-white/20 md:block 4xl:h-10"
                 />
-                <div className="flex items-center gap-4 md:gap-5">
-                  <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-red md:text-xs">
+                <div className="flex items-center gap-4 md:gap-5 4xl:gap-8">
+                  <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-red md:text-xs 4xl:text-2xl">
                     Seguimi
                   </span>
-                  <span aria-hidden="true" className="w-8 h-px bg-white/30" />
+                  <span aria-hidden="true" className="h-px w-8 bg-white/30 4xl:w-16" />
                   {socials?.Elisa?.map((social) => (
                     <Link
                       href={social?.url}
@@ -346,14 +346,14 @@ const Menu = ({ nr, translation }) => {
                     >
                       <Icon
                         icon={social?.icon}
-                        className="w-6 h-6 md:h-7 md:w-7"
+                        className="h-6 w-6 md:h-7 md:w-7 4xl:h-10 4xl:w-10"
                       />
                     </Link>
                   ))}
                 </div>
               </div>
 
-              <div className="flex flex-col gap-1 text-sm text-white/60 md:items-end md:text-base">
+              <div className="flex flex-col gap-1 text-sm text-white/60 md:items-end md:text-base 4xl:gap-2 4xl:text-2xl">
                 <span>{translation?.it?.col1?.row1?.title}</span>
                 <Link
                   href="https://calendly.com/arvine82/parlami-del-tuo-progetto"

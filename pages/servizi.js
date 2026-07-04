@@ -68,10 +68,10 @@ const Services = ({ translation }) => {
         mobileImageHeight="compact"
       >
         <SectionIndex>SERVIZI</SectionIndex>
-        <h1 className="lg:max-w-2xl text-[2.5rem] lg:text-[5rem] font-extrabold leading-[0.94]  text-main">
+        <h1 className="text-[2.5rem] font-extrabold leading-[0.94] text-main lg:max-w-2xl lg:text-[5rem] 4xl:max-w-5xl 4xl:text-[8rem]">
           Soluzioni creative<span className="text-red"> su misura.</span>
         </h1>
-        <p className="max-w-2xl text-base leading-relaxed mt-7 text-second lg:text-lg">
+        <p className="mt-7 max-w-2xl text-base leading-relaxed text-second lg:text-lg 4xl:mt-10 4xl:max-w-4xl 4xl:text-3xl">
           Offro servizi di graphic design, branding, brand identity, logo
           design, packaging design, illustrazione e comunicazione visiva per
           aziende, professionisti e startup. <br />
@@ -97,17 +97,17 @@ const Services = ({ translation }) => {
       </HeroPage>
 
       <section className="border-b border-main/10 bg-main/[0.025]">
-        <div className="mx-auto grid w-[90%] gap-8 py-14 md:grid-cols-[auto_1fr_1.2fr] md:items-center md:gap-12 lg:py-20">
+        <div className="mx-auto grid w-[90%] gap-8 py-14 md:grid-cols-[auto_1fr_1.2fr] md:items-center md:gap-12 lg:py-20 4xl:gap-20 4xl:py-32">
           <span
             className="font-serif text-[7rem] leading-[0.6] text-red md:text-[9rem]"
             aria-hidden="true"
           >
             {"{"}
           </span>
-          <h2 className="text-4xl font-extrabold leading-tight text-main md:text-5xl">
+          <h2 className="text-4xl font-extrabold leading-tight text-main md:text-5xl 4xl:text-7xl">
             Come posso aiutarti
           </h2>
-          <p className="text-base leading-relaxed border-main/15 text-second md:border-l md:pl-10 lg:text-lg">
+          <p className="border-main/15 text-base leading-relaxed text-second md:border-l md:pl-10 lg:text-lg 4xl:pl-16 4xl:text-3xl">
             Ogni progetto è un percorso: dall&apos;idea alla sua realizzazione,
             costruisco identità visive e strumenti di comunicazione che
             valorizzano il tuo brand, ne raccontano l&apos;essenza e lo rendono
@@ -116,7 +116,7 @@ const Services = ({ translation }) => {
         </div>
       </section>
 
-      <section className="mx-auto w-[90%] py-16 lg:py-24">
+      <section className="mx-auto w-[90%] py-16 lg:py-24 4xl:py-40">
         <h2 className="sr-only">Tutti i servizi di MIAO graphics</h2>
         <div className="grid grid-cols-1 border-t border-l border-main/15 sm:grid-cols-2 xl:grid-cols-4">
           {translation?.serviziItem?.map((service, index) => (
@@ -134,10 +134,10 @@ const Services = ({ translation }) => {
       </section>
 
       <section className="border-y border-main/10 bg-main/[0.025]">
-        <div className="mx-auto grid w-[90%] py-14 lg:grid-cols-[0.65fr_2.35fr] lg:py-16">
+        <div className="mx-auto grid w-[90%] py-14 lg:grid-cols-[0.65fr_2.35fr] lg:py-16 4xl:py-28">
           <div className="pb-8 lg:border-r lg:border-main/15 lg:pr-10">
             <SectionIndex>IL MIO APPROCCIO</SectionIndex>
-            <h2 className="text-3xl font-extrabold leading-tight text-main">
+            <h2 className="text-3xl font-extrabold leading-tight text-main 4xl:text-6xl">
               Diamo forma alle idee, passo dopo passo.
             </h2>
           </div>
@@ -145,20 +145,20 @@ const Services = ({ translation }) => {
             {approachSteps.map((step) => (
               <li
                 key={step.title}
-                className="p-6 border-b border-r border-main/15 lg:border-b-0 lg:p-8"
+                className="border-b border-r border-main/15 p-6 lg:border-b-0 lg:p-8 4xl:p-12"
               >
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-bold tracking-[0.16em] text-red">
+                  <span className="text-xs font-bold tracking-[0.16em] text-red 4xl:text-xl">
                     {step.number}
                   </span>
                   <span className="text-3xl text-main" aria-hidden="true">
                     {step.symbol}
                   </span>
                 </div>
-                <h3 className="mt-8 text-2xl font-extrabold text-main">
+                <h3 className="mt-8 text-2xl font-extrabold text-main 4xl:mt-12 4xl:text-4xl">
                   {step.title}
                 </h3>
-                <p className="mt-3 text-sm leading-relaxed text-second md:text-base">
+                <p className="mt-3 text-sm leading-relaxed text-second md:text-base 4xl:mt-5 4xl:text-2xl">
                   {step.description}
                 </p>
               </li>
@@ -168,7 +168,7 @@ const Services = ({ translation }) => {
       </section>
 
       <section className="text-white bg-red">
-        <div className="mx-auto flex w-[90%] flex-col gap-8 py-12 md:flex-row md:items-center md:justify-between lg:py-16">
+        <div className="mx-auto flex w-[90%] flex-col gap-8 py-12 md:flex-row md:items-center md:justify-between lg:py-16 4xl:py-24">
           <div className="flex items-center gap-6">
             <span
               className="font-serif text-[7rem] leading-[0.55] text-white"
@@ -177,10 +177,10 @@ const Services = ({ translation }) => {
               {"{"}
             </span>
             <div>
-              <h2 className="text-3xl font-extrabold leading-tight md:text-4xl lg:text-5xl">
+              <h2 className="text-3xl font-extrabold leading-tight md:text-4xl lg:text-5xl 4xl:text-7xl">
                 Hai un progetto in mente?
               </h2>
-              <p className="mt-2 text-white/80">
+              <p className="mt-2 text-white/80 4xl:mt-4 4xl:text-2xl">
                 Raccontami la tua idea, creiamo qualcosa di unico.
               </p>
             </div>

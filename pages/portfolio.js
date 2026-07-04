@@ -91,11 +91,11 @@ const Portfolio = ({ translation }) => {
       >
         <SectionIndex>PROGETTI SELEZIONATI</SectionIndex>
         <div className="flex items-center gap-3 md:gap-5">
-          <h1 className="text-[clamp(3.2rem,7vw,5rem)] font-extrabold  text-main">
+          <h1 className="text-[clamp(3.2rem,7vw,5rem)] font-extrabold text-main 4xl:text-[8rem]">
             Portfolio
           </h1>
         </div>
-        <p className="max-w-xl text-xl leading-relaxed mt-7 text-second md:text-xl">
+        <p className="mt-7 max-w-xl text-xl leading-relaxed text-second md:text-xl 4xl:mt-10 4xl:max-w-4xl 4xl:text-3xl">
           Una selezione di progetti di branding, graphic design, identità
           visiva, packaging design e comunicazione visiva, pensati per costruire
           brand riconoscibili e coerenti.
@@ -112,7 +112,7 @@ const Portfolio = ({ translation }) => {
       </HeroPage>
 
       <section className="border-b border-main/10 bg-main/[0.025]">
-        <div className="mx-auto grid w-[90%] grid-cols-[auto_minmax(0,1fr)] items-start gap-x-2 gap-y-8 py-14 md:grid-cols-[auto_1fr_1.15fr] md:items-center md:gap-5 lg:py-20">
+        <div className="mx-auto grid w-[90%] grid-cols-[auto_minmax(0,1fr)] items-start gap-x-2 gap-y-8 py-14 md:grid-cols-[auto_1fr_1.15fr] md:items-center md:gap-5 lg:py-20 4xl:gap-16 4xl:py-32">
           <span
             className="flex items-center self-stretch font-serif text-red"
             aria-hidden="true"
@@ -121,10 +121,10 @@ const Portfolio = ({ translation }) => {
               {"{"}
             </span>
           </span>
-          <h2 className="text-3xl font-extrabold leading-tight text-main ">
+          <h2 className="text-3xl font-extrabold leading-tight text-main 4xl:text-6xl">
             Ogni progetto ha una storia differente da raccontare.
           </h2>
-          <p className="col-span-2 text-base leading-relaxed text-second md:col-span-1 md:border-l md:border-main/15 md:pl-10 ">
+          <p className="col-span-2 text-base leading-relaxed text-second md:col-span-1 md:border-l md:border-main/15 md:pl-10 4xl:pl-16 4xl:text-3xl">
             Ascolto, ricerca e strategia guidano ogni scelta creativa.
             Dall’identità visiva al packaging, dai contenuti ai materiali
             stampatistampati, progetto soluzioni su misura per dare forma e
@@ -135,10 +135,10 @@ const Portfolio = ({ translation }) => {
 
       <section
         id="progetti"
-        className="mx-auto w-[90%] scroll-mt-28 py-16 lg:py-24"
+        className="mx-auto w-[90%] scroll-mt-28 py-16 lg:py-24 4xl:py-40"
       >
         <div className="pb-6 border-b border-main/15">
-          <span className="mb-4 block text-xs font-bold uppercase tracking-[0.18em] text-second">
+          <span className="mb-4 block text-xs font-bold uppercase tracking-[0.18em] text-second 4xl:text-xl">
             Filtra per
           </span>
           <div
@@ -155,7 +155,7 @@ const Portfolio = ({ translation }) => {
                   type="button"
                   onClick={() => selectFilter(filter)}
                   aria-pressed={isActive}
-                  className={`shrink-0 border-b-2 pb-2 text-sm font-bold transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-red md:text-base ${
+                  className={`shrink-0 border-b-2 pb-2 text-sm font-bold transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-red md:text-base 4xl:text-2xl ${
                     isActive
                       ? "border-red text-red"
                       : "border-transparent text-main hover:border-main/30 hover:text-red"
@@ -218,7 +218,7 @@ const Portfolio = ({ translation }) => {
       </section>
 
       <section className="text-white bg-red">
-        <div className="mx-auto flex w-[90%] flex-col gap-8 py-12 md:flex-row md:items-center md:justify-between lg:py-16">
+        <div className="mx-auto flex w-[90%] flex-col gap-8 py-12 md:flex-row md:items-center md:justify-between lg:py-16 4xl:py-24">
           <div className="flex items-center gap-6">
             <span
               className="font-serif text-[7rem] leading-[0.55] text-white"
@@ -227,10 +227,10 @@ const Portfolio = ({ translation }) => {
               {"{"}
             </span>
             <div>
-              <h2 className="text-3xl font-extrabold md:text-4xl lg:text-5xl">
+              <h2 className="text-3xl font-extrabold md:text-4xl lg:text-5xl 4xl:text-7xl">
                 Hai un&apos;idea da sviluppare?
               </h2>
-              <p className="mt-2 text-white/80">
+              <p className="mt-2 text-white/80 4xl:mt-4 4xl:text-2xl">
                 Costruiamo insieme un’identità visiva chiara e riconoscibile.
               </p>
             </div>

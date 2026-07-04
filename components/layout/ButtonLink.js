@@ -10,9 +10,9 @@ const variants = {
 };
 
 const sizes = {
-  sm: "min-h-11 px-5 py-2.5 text-xs",
-  md: "min-h-12 px-6 py-3 text-sm",
-  lg: "min-h-14 px-7 py-4 text-sm",
+  sm: "min-h-11 px-5 py-2.5 text-xs 4xl:min-h-16 4xl:px-8 4xl:text-lg",
+  md: "min-h-12 px-6 py-3 text-sm 4xl:min-h-20 4xl:px-10 4xl:text-xl",
+  lg: "min-h-14 px-7 py-4 text-sm 4xl:min-h-20 4xl:px-10 4xl:text-xl",
 };
 
 const ButtonLink = ({

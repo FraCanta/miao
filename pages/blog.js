@@ -71,10 +71,10 @@ const Blog = ({
         compactGap
       >
         <SectionIndex>Dal blog</SectionIndex>
-        <h1 className="mt-6 text-5xl font-extrabold  lg:max-w-lg text-main xl:text-7xl">
+        <h1 className="mt-6 text-5xl font-extrabold text-main lg:max-w-lg xl:text-7xl 4xl:max-w-max 4xl:text-[9rem]">
           Idee, visioni e cultura del <span className="text-red">design.</span>
         </h1>
-        <p className="mt-7 max-w-xl text-lg  text-second md:text-lg">
+        <p className="mt-7 max-w-xl text-lg text-second md:text-lg 4xl:mt-10 4xl:max-w-6xl 4xl:text-3xl">
           Una raccolta di articoli dedicati al mondo dell’arte, del graphic
           design e della comunicazione visiva.
         </p>
@@ -89,8 +89,8 @@ const Blog = ({
         </ButtonLink>
       </HeroPage>
 
-      <section className="border-b border-main/10 py-12 md:py-16">
-        <div className="mx-auto grid w-[90%] max-w-[1920px] gap-8 md:grid-cols-[auto_1fr] md:items-center md:gap-12">
+      <section className="border-b border-main/10 py-12 md:py-16 4xl:py-28">
+        <div className="mx-auto grid w-[90%] max-w-[1920px] gap-8 md:grid-cols-[auto_1fr] md:items-center md:gap-12 4xl:max-w-[5200px]">
           <div className="flex items-center gap-5">
             <span
               aria-hidden="true"
@@ -98,19 +98,19 @@ const Blog = ({
             >
               {"{"}
             </span>
-            <h2 className="text-3xl font-extrabold leading-tight text-main md:text-4xl">
+            <h2 className="text-3xl font-extrabold leading-tight text-main md:text-4xl 4xl:text-6xl">
               Articoli su arte, graphic design e creatività contemporanea.
             </h2>
           </div>
-          <p className="max-w-2xl text-base leading-relaxed text-second md:border-l md:border-main/15 md:pl-12 md:text-lg">
+          <p className="max-w-2xl text-base leading-relaxed text-second md:border-l md:border-main/15 md:pl-12 md:text-lg 4xl:max-w-4xl 4xl:pl-16 4xl:text-3xl">
             Storie, curiosità e approfondimenti su artisti, fotografi, graphic
             designer e tecniche di stampa.
           </p>
         </div>
       </section>
 
-      <section id="articoli" className="scroll-mt-32 py-16 md:py-24">
-        <div className="mx-auto w-[90%] max-w-[1920px]">
+      <section id="articoli" className="scroll-mt-32 py-16 md:py-24 4xl:py-40">
+        <div className="mx-auto w-[90%] max-w-[1920px] 4xl:max-w-[5200px]">
           <form
             action="/blog#articoli"
             method="get"
@@ -118,13 +118,13 @@ const Blog = ({
           >
             <label
               htmlFor="blog-category"
-              className="flex shrink-0 items-center gap-3 text-xs font-extrabold uppercase tracking-[0.14em] text-main"
+              className="flex shrink-0 items-center gap-3 text-xs font-extrabold uppercase tracking-[0.14em] text-main 4xl:text-base"
             >
               <span
                 aria-hidden="true"
-                className="relative h-5 w-5 border-2 border-main"
+                className="relative h-5 w-5 border-2 border-main 4xl:w-8 4xl:h-8"
               >
-                <span className="absolute -bottom-1 -right-1 h-2.5 w-2.5 bg-red" />
+                <span className="absolute -bottom-1 -right-1 h-2.5 w-2.5 bg-red 4xl:w-4 4xl:h-4" />
               </span>
               Filtra per
             </label>
@@ -253,7 +253,7 @@ const Blog = ({
       </section>
 
       <section className="bg-red text-white">
-        <div className="mx-auto flex w-[90%] max-w-[1500px] flex-col items-start justify-between gap-8 py-10 md:flex-row md:items-center md:py-12">
+        <div className="mx-auto flex w-[90%] max-w-[1500px] flex-col items-start justify-between gap-8 py-10 md:flex-row md:items-center md:py-12 4xl:max-w-[3000px]">
           <div className="flex items-center gap-6">
             <span
               aria-hidden="true"

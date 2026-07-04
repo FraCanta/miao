@@ -31,7 +31,7 @@ const methodSteps = [
 const SectionMeDue = () => {
   return (
     <>
-      <section className="border-y border-main/10 py-20 lg:py-24">
+      <section className="border-y border-main/10 py-20 lg:py-24 4xl:py-40">
         <div className="mx-auto w-[90%]">
           <SectionIndex>IL MIO METODO</SectionIndex>
           <h2 className="sr-only">Il mio metodo di lavoro</h2>
@@ -39,7 +39,7 @@ const SectionMeDue = () => {
             {methodSteps.map((step, index) => (
               <li
                 key={step.title}
-                className="min-h-[260px] border-b border-r border-main/15 p-6 lg:p-8"
+                className="min-h-[260px] border-b border-r border-main/15 p-6 lg:p-8 4xl:min-h-[460px] 4xl:p-12"
               >
                 <div className="flex items-center justify-between text-xs font-bold tracking-[0.16em] text-second">
                   <span>{String(index + 1).padStart(2, "0")}</span>
@@ -47,10 +47,10 @@ const SectionMeDue = () => {
                     {step.symbol}
                   </span>
                 </div>
-                <h3 className="mt-10 text-xl font-extrabold text-main lg:text-2xl">
+                <h3 className="mt-10 text-xl font-extrabold text-main lg:text-2xl 4xl:mt-16 4xl:text-4xl">
                   {step.title}
                 </h3>
-                <p className="mt-4 text-sm leading-relaxed text-second lg:text-base">
+                <p className="mt-4 text-sm leading-relaxed text-second lg:text-base 4xl:mt-6 4xl:text-2xl">
                   {step.description}
                 </p>
               </li>
@@ -59,11 +59,11 @@ const SectionMeDue = () => {
         </div>
       </section>
 
-      <section className="border-b border-main/10 py-16 lg:py-20">
+      <section className="border-b border-main/10 py-16 lg:py-20 4xl:py-32">
         <div className="mx-auto grid w-[90%] gap-8 lg:grid-cols-[0.8fr_2.2fr] lg:items-center lg:gap-16">
           <div>
             <SectionIndex>COLLABORAZIONI</SectionIndex>
-            <h2 className="text-2xl font-extrabold leading-tight text-main lg:text-3xl">
+            <h2 className="text-2xl font-extrabold leading-tight text-main lg:text-3xl 4xl:text-5xl">
               Ho collaborato con realtà artigianali, culturali e imprenditoriali
               che condividono valori autentici.
             </h2>

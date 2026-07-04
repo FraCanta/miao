@@ -7,9 +7,9 @@ const SectionMeUno = ({ translation }) => {
   return (
     <>
       <section className="border-y border-main/10 bg-main/[0.025]">
-        <div className="mx-auto grid w-[90%] grid-cols-[auto_minmax(0,1fr)] items-start gap-x-5 gap-y-8 py-12 md:grid-cols-[auto_1.1fr_1fr] md:items-center md:gap-10 lg:py-16">
+        <div className="mx-auto grid w-[90%] grid-cols-[auto_minmax(0,1fr)] items-start gap-x-5 gap-y-8 py-12 md:grid-cols-[auto_1.1fr_1fr] md:items-center md:gap-10 lg:py-16 4xl:gap-20 4xl:py-28">
           <span
-            className="flex self-stretch items-center font-serif text-red"
+            className="flex items-center self-stretch font-serif text-red"
             aria-hidden="true"
           >
             <span className="block origin-center scale-y-[1.15] text-[9rem] leading-[0.65] md:scale-y-100 md:text-[9rem]">
@@ -17,15 +17,15 @@ const SectionMeUno = ({ translation }) => {
             </span>
           </span>
           <div>
-            <h2 className="text-3xl font-extrabold leading-tight text-main lg:text-4xl">
-              Il mio manifesto
+            <h2 className="text-3xl font-extrabold leading-tight text-main lg:text-4xl 4xl:text-6xl">
+              Il mio motto
             </h2>
-            <p className="mt-4 max-w-md text-xl leading-snug text-main md:text-2xl">
+            <p className="mt-4 max-w-md text-xl leading-snug text-main md:text-2xl 4xl:max-w-3xl 4xl:text-4xl">
               Ogni brand ha una storia. Il mio lavoro è darle una forma visiva
               chiara, coerente e riconoscibile.
             </p>
           </div>
-          <p className="col-span-2 border-main/15 text-base leading-relaxed text-second md:col-span-1 md:border-l md:pl-10 lg:text-lg">
+          <p className="col-span-2 border-main/15 text-base leading-relaxed text-second md:col-span-1 md:border-l md:pl-10 lg:text-lg 4xl:pl-16 4xl:text-3xl">
             Per me il design è molto più di un fatto estetico: è il linguaggio
             con cui un brand esprime la propria identità, trova il suo spazio
             nel mercato e crea relazioni autentiche con le persone.
@@ -33,24 +33,24 @@ const SectionMeUno = ({ translation }) => {
         </div>
       </section>
 
-      <section className="mx-auto grid w-[90%] gap-12 py-20 lg:grid-cols-2 lg:items-center lg:gap-20 lg:py-28">
-        <div className="max-w-2xl">
+      <section className="mx-auto grid w-[90%] gap-12 py-20 lg:grid-cols-2 lg:items-center lg:gap-20 lg:py-28 4xl:gap-32 4xl:py-44">
+        <div className="max-w-2xl 4xl:max-w-5xl">
           <SectionIndex>LA MIA STORIA</SectionIndex>
-          <h2 className="max-w-xl text-4xl font-extrabold leading-[1.05] text-main ">
+          <h2 className="max-w-xl text-4xl font-extrabold leading-[1.05] text-main 4xl:max-w-4xl 4xl:text-7xl">
             Un percorso di curiosità e visione.
           </h2>
           <div className="mt-8 space-y-5">
             {storyParagraphs.map((paragraph, index) => (
               <p
                 key={index}
-                className="text-base leading-relaxed text-second lg:text-lg"
+                className="text-base leading-relaxed text-second lg:text-lg 4xl:text-3xl"
                 dangerouslySetInnerHTML={{ __html: paragraph }}
               />
             ))}
           </div>
         </div>
 
-        <div className="relative mx-auto w-full max-w-[620px]">
+        <div className="relative mx-auto w-full max-w-[620px] 4xl:max-w-[1600px]">
           <span
             className="absolute -bottom-4 left-1/2 z-0 -translate-x-1/2 font-serif text-[14rem] leading-none text-main md:text-[21rem]"
             aria-hidden="true"
@@ -62,7 +62,7 @@ const SectionMeUno = ({ translation }) => {
             aria-hidden="true"
           />
           <Image
-            className="relative z-10 h-auto w-full object-contain"
+            className="relative z-10 object-contain w-full h-auto"
             src={translation?.img}
             alt="Elisa, graphic designer di MIAO graphics"
             width={620}

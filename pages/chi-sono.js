@@ -54,18 +54,18 @@ const Me = ({ translation }) => {
         image={translation?.hero?.img}
         imageAlt="Illustrazione creativa di MIAO graphics con una lampadina"
         mobileImageHeight="compact"
-        imageWrapperClassName="max-w-[760px] xl:max-w-[600px] fxl:max-w-[1200px]"
+        imageWrapperClassName="max-w-[760px] xl:max-w-[600px] fxl:max-w-[1200px] 4xl:max-w-[2000px]"
       >
         <SectionIndex>CHI SONO</SectionIndex>
-        <h1 className="text-[2.8rem] xs:text-[clamp(3rem,6.5vw,5.5rem)] font-extrabold leading-[0.92]  text-main">
+        <h1 className="text-[2.8rem] font-extrabold leading-[0.92] text-main xs:text-[clamp(3rem,6.5vw,5.5rem)] 4xl:text-[8rem]">
           Ciao, sono<span className="text-red"> Elisa.</span>
         </h1>
-        <p className="mt-5 text-xl font-bold leading-tight text-main md:text-2xl">
+        <p className="mt-5 text-xl font-bold leading-tight text-main md:text-2xl 4xl:mt-10 4xl:max-w-[1400px] 4xl:text-4xl">
           Sono una graphic designer specializzata in branding,{" "}
           <br className="hidden lg:block" />
           identità visiva e comunicazione visiva.
         </p>
-        <p className="max-w-xl text-base leading-relaxed mt-7 text-second lg:text-lg">
+        <p className="mt-7 max-w-xl text-base leading-relaxed text-second lg:text-lg 4xl:mt-10 4xl:max-w-4xl 4xl:text-3xl">
           Per me un buon progetto non è solo bello da vedere: è uno strumento
           che comunica, valorizza il brand e crea fiducia.
         </p>
@@ -92,11 +92,11 @@ const Me = ({ translation }) => {
       <SectionMeDue />
       <SectionMeTre translation={translation?.sezioneQuattro} />
 
-      <section className="mx-auto w-[90%] py-20 lg:py-24">
+      <section className="mx-auto w-[90%] py-20 lg:py-24 4xl:py-40">
         <div className="flex flex-col gap-6 pb-8 border-b border-main/15 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <SectionIndex>DICONO DI ME</SectionIndex>
-            <h2 className="text-4xl font-extrabold leading-tight text-main ">
+            <h2 className="text-4xl font-extrabold leading-tight text-main 4xl:text-7xl">
               Esperienze condivise,
               <br /> risultati concreti.
             </h2>
@@ -111,13 +111,13 @@ const Me = ({ translation }) => {
           </ButtonLink>
         </div>
         <div
-          className="elfsight-app-4232eb26-57ce-4f62-af4c-b940b9705c52 mt-10 min-h-[240px]"
+          className="elfsight-app-4232eb26-57ce-4f62-af4c-b940b9705c52 mt-10 min-h-[240px] 4xl:mt-16 4xl:min-h-[480px]"
           data-elfsight-app-lazy
         />
       </section>
 
       <section className="text-white bg-red">
-        <div className="mx-auto flex w-[90%] flex-col gap-8 py-12 md:flex-row md:items-center md:justify-between lg:py-16">
+        <div className="mx-auto flex w-[90%] flex-col gap-8 py-12 md:flex-row md:items-center md:justify-between lg:py-16 4xl:py-24">
           <div className="flex items-center gap-6">
             <span
               className="font-serif text-[7rem] leading-[0.55] text-white"
@@ -126,10 +126,10 @@ const Me = ({ translation }) => {
               {"{"}
             </span>
             <div>
-              <h2 className="text-3xl font-extrabold leading-tight md:text-4xl lg:text-5xl">
+              <h2 className="text-3xl font-extrabold leading-tight md:text-4xl lg:text-5xl 4xl:text-7xl">
                 Hai un progetto in mente?
               </h2>
-              <p className="mt-2 text-white/80">
+              <p className="mt-2 text-white/80 4xl:mt-4 4xl:text-2xl">
                 Raccontami la tua idea, creiamo qualcosa di unico.
               </p>
             </div>

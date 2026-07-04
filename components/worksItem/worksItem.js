@@ -43,7 +43,7 @@ const WorksItem = ({
                 {projectTags.map((tag) => (
                   <li
                     key={tag}
-                    className="border border-main/20 px-2 py-1 text-[10px] font-bold uppercase tracking-[0.08em] text-second transition-colors group-hover:border-red/40 group-hover:text-red"
+                    className="border border-main/20 px-2 py-1 text-[10px] font-bold uppercase tracking-[0.08em] text-second transition-colors group-hover:border-red/40 group-hover:text-red 4xl:px-4 4xl:py-2 4xl:text-lg"
                   >
                     {tag}
                   </li>

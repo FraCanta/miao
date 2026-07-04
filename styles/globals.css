@@ -8,6 +8,37 @@
   --red: #de4928;
   --white: #ffffff;
   --paragraph-tracking: 0.05em;
+  --site-header-height: 80px;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --site-header-height: 108px;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --site-header-height: 116px;
+  }
+}
+
+@media (min-width: 1280px) {
+  :root {
+    --site-header-height: 128px;
+  }
+}
+
+@media (min-width: 1500px) {
+  :root {
+    --site-header-height: 138px;
+  }
+}
+
+@media (min-width: 3840px) {
+  :root {
+    --site-header-height: 300px;
+  }
 }
 
 @layer utilities {
@@ -71,6 +102,14 @@ p:not([class*="uppercase"]) {
 html {
   scroll-behavior: auto;
   scrollbar-width: none;
+}
+
+/* Mantiene leggibili e proporzionati gli elementi basati su rem sugli schermi
+   ultrawide, senza alterare le misure fluide espresse in vw. */
+@media (min-width: 2560px) {
+  html {
+    font-size: clamp(16px, 0.625vw, 32px);
+  }
 }
 
 html.page-transition-active,
@@ -437,6 +476,21 @@ section {
 
 .elfsight-app-4232eb26-57ce-4f62-af4c-b940b9705c52 .es-review-align-container {
   padding-top: 58px !important;
+}
+
+@media (min-width: 3840px) {
+  .elfsight-app-4232eb26-57ce-4f62-af4c-b940b9705c52 {
+    width: 66.6667%;
+    margin-inline: auto;
+    margin-bottom: 8rem;
+    transform: scale(1.5);
+    transform-origin: top center;
+  }
+
+  .elfsight-app-4232eb26-57ce-4f62-af4c-b940b9705c52
+    .es-review-align-container {
+    padding-top: 88px !important;
+  }
 }
 
 @media screen and (max-width: 768px) {

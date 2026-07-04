@@ -33,7 +33,7 @@ const SectionLink = ({
     <Link
       href={href}
       title={title}
-      className={`group inline-flex max-w-max gap-4 whitespace-nowrap text-sm font-bold uppercase tracking-[0.1em] transition-colors duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 ${selectedColor.link} ${variants[variant]} ${variant === "underline" ? selectedColor.underline : ""} ${className}`}
+      className={`group inline-flex max-w-max gap-4 whitespace-nowrap text-sm font-bold uppercase tracking-[0.1em] transition-colors duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 4xl:text-xl ${selectedColor.link} ${variants[variant]} ${variant === "underline" ? selectedColor.underline : ""} ${className}`}
     >
       <span>{children}</span>
       <LinkArrow color={selectedColor.arrow} />

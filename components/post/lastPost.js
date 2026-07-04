@@ -35,7 +35,7 @@ const LastPost = ({ lastPost }) => {
       </Link>
 
       <div className="flex flex-col justify-center p-7 md:p-12 lg:p-14">
-        <div className="flex flex-wrap items-center gap-3 text-[11px] font-bold uppercase ">
+        <div className="flex flex-wrap items-center gap-3 text-[11px] font-bold uppercase 4xl:text-lg">
           <span className="text-red">In evidenza</span>
           <span aria-hidden="true" className="w-8 h-px bg-main/30" />
           <span className="text-second">{category}</span>
@@ -43,21 +43,21 @@ const LastPost = ({ lastPost }) => {
 
         <Link href={`/posts/${lastPost.slug}`} title={lastPost.title}>
           <h2
-            className="mt-6 text-3xl font-extrabold leading-[1.05]  text-main transition-colors duration-300 group-hover:text-red md:text-5xl xl:text-6xl"
+            className="mt-6 text-3xl font-extrabold leading-[1.05]  text-main transition-colors duration-300 group-hover:text-red md:text-5xl xl:text-6xl 4xl:text-8xl"
             dangerouslySetInnerHTML={{ __html: lastPost.title }}
           />
         </Link>
 
         {lastPost.excerpt && (
           <div
-            className="mt-6 text-base leading-relaxed line-clamp-3 text-second md:text-lg"
+            className="mt-6 text-base leading-relaxed line-clamp-3 text-second md:text-lg 4xl:text-2xl"
             dangerouslySetInnerHTML={{ __html: lastPost.excerpt }}
           />
         )}
 
         <time
           dateTime={lastPost.date}
-          className="mt-7 text-xs font-bold uppercase tracking-[0.12em] text-second"
+          className="mt-7 text-xs font-bold uppercase tracking-[0.12em] text-second 4xl:text-base"
         >
           {getDate(lastPost.date)}
         </time>

@@ -36,7 +36,7 @@ const Posts = ({ post, featuredMedia, variant = "default" }) => {
 
         <div className="flex min-w-0 flex-col justify-between p-6">
           <div>
-            <small className="mb-4 block text-[11px] font-bold uppercase tracking-[0.18em] text-red">
+            <small className="mb-4 block text-[11px] font-bold uppercase tracking-[0.18em] text-red 4xl:text-4xl">
               {category}
             </small>
 
@@ -48,7 +48,9 @@ const Posts = ({ post, featuredMedia, variant = "default" }) => {
           </div>
 
           <div className="mt-8">
-            <p className="mb-4 text-xs leading-none text-second">{date}</p>
+            <p className="mb-4 text-xs leading-none text-second 4xl:text-lg">
+              {date}
+            </p>
             <SectionLink
               href={`/posts/${post?.slug}`}
               title={`Leggi l'articolo: ${title}`}

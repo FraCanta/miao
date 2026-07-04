@@ -129,7 +129,7 @@ const Works = ({ works, slug, previousWork, nextWork }) => {
         <meta name="twitter:image" content={socialImage} />
       </Head>
 
-      <section className="relative min-h-[560px] overflow-hidden bg-main text-white md:min-h-[620px] lg:min-h-[max(520px,calc(100svh-108px))] 2xl:min-h-[max(520px,calc(100svh-138px))]">
+      <section className="relative min-h-[560px] overflow-hidden bg-main text-white md:min-h-[620px] lg:min-h-[max(520px,calc(100svh-var(--site-header-height)))]">
         <Image
           src={works.img}
           alt={`Progetto ${works.name}: ${works.descrizione}`}
@@ -139,7 +139,7 @@ const Works = ({ works, slug, previousWork, nextWork }) => {
           sizes="100vw"
         />
         <div className="work-hero-overlay absolute inset-0 z-[1]" />
-        <div className="relative z-10 mx-auto flex min-h-[560px] w-[90%] max-w-[1920px] flex-col justify-end pb-12 pt-16 md:min-h-[620px] md:pb-10 lg:min-h-[max(520px,calc(100svh-108px))] lg:pb-9 2xl:min-h-[max(520px,calc(100svh-138px))]">
+        <div className="relative z-10 mx-auto flex min-h-[560px] w-[90%] max-w-[1920px] flex-col justify-end pb-12 pt-16 md:min-h-[620px] md:pb-10 lg:min-h-[max(520px,calc(100svh-var(--site-header-height)))] lg:pb-9 4xl:max-w-[3840px]">
           <div className="max-w-4xl">
             <div className="flex items-center gap-5 md:gap-6">
               <span
@@ -149,7 +149,7 @@ const Works = ({ works, slug, previousWork, nextWork }) => {
                 {"{"}
               </span>
               <div>
-                <h1 className="text-[1.9rem] font-extrabold leading-none md:text-7xl lg:text-6xl tracking-wider">
+                <h1 className="text-[1.9rem] font-extrabold leading-none tracking-wider md:text-7xl lg:text-6xl 4xl:text-[7rem]">
                   {works.name}
                 </h1>
                 <p className="mt-3 text-base font-semibold md:text-2xl">
@@ -157,7 +157,7 @@ const Works = ({ works, slug, previousWork, nextWork }) => {
                 </p>
               </div>
             </div>
-            <p className="ml-auto mt-5 max-w-3xl  text-xs font-bold uppercase tracking-[0.08em] md:ml-[5rem] md:text-sm">
+            <p className="ml-auto mt-5 max-w-3xl text-xs font-bold uppercase tracking-[0.08em] md:ml-[5rem] md:text-sm 4xl:max-w-5xl 4xl:text-xl">
               {services.join(" · ")}
             </p>
           </div>
@@ -199,10 +199,10 @@ const Works = ({ works, slug, previousWork, nextWork }) => {
       </section>
 
       <section className="py-16 border-b border-main/10 md:py-24">
-        <div className="mx-auto grid w-[90%] max-w-[1920px] gap-12 lg:grid-cols-[0.78fr_1.22fr] lg:gap-20">
+        <div className="mx-auto grid w-[90%] max-w-[1920px] gap-12 lg:grid-cols-[0.78fr_1.22fr] lg:gap-20 4xl:max-w-[3840px]">
           <div>
             <SectionHeading>{works.introTitolo || "Progetto"}</SectionHeading>
-            <div className="max-w-xl space-y-5 text-base leading-relaxed mt-7 text-second md:text-lg">
+            <div className="mt-7 max-w-xl space-y-5 text-base leading-relaxed text-second md:text-lg 4xl:max-w-4xl 4xl:space-y-8 4xl:text-3xl">
               {projectCopy.map((paragraph, index) => (
                 <p key={index}>{paragraph}</p>
               ))}
@@ -273,7 +273,7 @@ const Works = ({ works, slug, previousWork, nextWork }) => {
 
       {works?.applyColor && (
         <section className="mx-auto flex w-[90%] flex-col gap-6 pt-6">
-          <h3 className="text-[6vw] font-bold leading-none text-main md:text-[2.5vw]">
+          <h3 className="text-[6vw] font-bold leading-none text-main md:text-[2.5vw] 4xl:text-[5rem]">
             {works.applyColor.descrizione}
           </h3>
           <div className="relative h-[20vh] w-full lg:h-screen">
@@ -335,7 +335,7 @@ const Works = ({ works, slug, previousWork, nextWork }) => {
 
       {(previousWork || nextWork) && (
         <section className="py-16 md:py-20">
-          <div className="mx-auto w-[90%] max-w-[1920px]">
+          <div className="mx-auto w-[90%] max-w-[1920px] 4xl:max-w-[3840px]">
             <div className="grid gap-5 mt-7 lg:grid-cols-2">
               <ProjectLink project={previousWork} direction="previous" />
               <ProjectLink project={nextWork} direction="next" />
@@ -345,7 +345,7 @@ const Works = ({ works, slug, previousWork, nextWork }) => {
       )}
 
       <section className="text-white bg-red">
-        <div className="mx-auto flex w-[90%] max-w-[1920px] flex-col items-start justify-between gap-8 py-10 md:flex-row md:items-center md:py-12">
+        <div className="mx-auto flex w-[90%] max-w-[1920px] flex-col items-start justify-between gap-8 py-10 md:flex-row md:items-center md:py-12 4xl:max-w-[3840px]">
           <div className="flex items-center gap-6">
             <span
               aria-hidden="true"

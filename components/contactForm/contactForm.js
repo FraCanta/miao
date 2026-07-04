@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import toast from "react-hot-toast";
 import Button from "@/components/layout/Button";
@@ -59,6 +59,16 @@ export default function ContactForm({ translation }) {
   const [privacyAccepted, setPrivacyAccepted] = useState(false);
   const [status, setStatus] = useState({ state: "idle", message: "" });
 
+  useEffect(() => {
+    if (status.state !== "success") return undefined;
+
+    const resetTimer = window.setTimeout(() => {
+      setStatus({ state: "idle", message: "" });
+    }, 6000);
+
+    return () => window.clearTimeout(resetTimer);
+  }, [status.state]);
+
   const handleInputChange = (event) => {
     const { name, value } = event.target;
     setInputs((current) => ({ ...current, [name]: value }));
@@ -107,7 +117,43 @@ export default function ContactForm({ translation }) {
   };
 
   return (
-    <section className="pt-10 lg:pt-12" aria-labelledby="contact-form-title">
+    <section className="pt-10 lg:pt-12" aria-label="Modulo di contatto">
+      {status.state === "success" ? (
+        <div
+          className="flex min-h-[620px] flex-col items-center justify-center border border-main/15 bg-white px-6 py-16 text-center sm:px-10 lg:min-h-[720px] 4xl:min-h-[1000px]"
+          role="status"
+          aria-live="polite"
+        >
+          <span
+            aria-hidden="true"
+            className="font-serif text-[8rem] leading-[0.55] text-red md:text-[10rem]"
+          >
+            {"{"}
+          </span>
+          <p className="mt-8 text-xs font-extrabold uppercase tracking-[0.2em] text-red 4xl:text-xl">
+            Messaggio inviato
+          </p>
+          <h2 className="mt-4 max-w-2xl text-4xl font-extrabold leading-tight text-main md:text-5xl 4xl:max-w-4xl 4xl:text-7xl">
+            Grazie per avermi contattata.
+          </h2>
+          <p className="mt-6 max-w-xl text-base leading-relaxed text-second md:text-lg 4xl:max-w-3xl 4xl:text-3xl">
+            Ho ricevuto la tua richiesta. Controlla la casella email: ti ho
+            inviato una conferma con il riepilogo. Ti risponderò normalmente
+            entro 1–2 giorni lavorativi.
+          </p>
+          <Button
+            type="button"
+            size="lg"
+            className="mt-10"
+            onClick={() => setStatus({ state: "idle", message: "" })}
+          >
+            Invia un altro messaggio
+          </Button>
+          <p className="mt-5 text-xs text-second 4xl:text-lg">
+            Il form riapparirà automaticamente tra pochi secondi.
+          </p>
+        </div>
+      ) : (
       <form
         onSubmit={handleSubmit}
         className="p-5 bg-white border border-main/15 sm:p-7 lg:p-8 xl:p-10"
@@ -291,6 +337,7 @@ export default function ContactForm({ translation }) {
           </Button>
         </div>
       </form>
+      )}
     </section>
   );
 }

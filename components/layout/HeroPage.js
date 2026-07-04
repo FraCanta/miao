@@ -30,20 +30,20 @@ const HeroPage = ({
 }) => (
   <section className="overflow-hidden border-b border-main/10">
     <div
-      className={`mx-auto grid w-[90%] gap-10 py-12 lg:min-h-[calc(100svh-108px)] lg:items-center lg:py-0 2xl:min-h-[calc(100svh-138px)] ${
+      className={`mx-auto grid w-[90%] gap-10 py-12 lg:min-h-[calc(100svh-var(--site-header-height))] lg:items-center lg:py-0 ${
         mobileMinHeight === "fixed"
           ? "min-h-[650px]"
           : mobileMinHeight === "header"
-            ? "min-h-[calc(100svh-108px)]"
-            : "min-h-[calc(100svh-88px)]"
+            ? "min-h-[calc(100svh-var(--site-header-height))]"
+            : "min-h-[calc(100svh-var(--site-header-height))]"
       } ${columns[columnsVariant]} ${
         compactGap ? "lg:gap-10" : "lg:gap-16"
-      } ${maxWidth ? "max-w-[1600px]" : ""}`}
+      } ${maxWidth ? "max-w-[1600px] 4xl:max-w-[5200px]" : ""}`}
     >
       <div className={`relative z-20 ${contentClassName}`}>{children}</div>
 
       <div
-        className={`relative mx-auto flex w-full items-end justify-center lg:h-[calc(100svh-108px)] lg:min-h-0 2xl:h-[calc(100svh-138px)] ${mobileHeights[mobileImageHeight]} ${imageWrapperClassName}`}
+        className={`relative mx-auto flex w-full items-end justify-center lg:h-[calc(100svh-var(--site-header-height))] lg:min-h-0 4xl:max-w-[2000px] ${mobileHeights[mobileImageHeight]} ${imageWrapperClassName}`}
       >
         <Image
           src={image}

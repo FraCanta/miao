@@ -64,7 +64,7 @@ export default function SinglePost({ post, recent }) {
 
       <article>
         <header className="border-b border-main/10 py-12 md:py-16 lg:py-20">
-          <div className="mx-auto w-[90%] max-w-[1500px]">
+          <div className="mx-auto w-[90%] max-w-[1500px] 4xl:max-w-[3000px]">
             <nav aria-label="Breadcrumb" className="mb-10 md:mb-14">
               <ol className="flex flex-wrap items-center gap-2 text-xs font-bold uppercase tracking-[0.12em] text-second">
                 <li>
@@ -151,7 +151,7 @@ export default function SinglePost({ post, recent }) {
         </header>
 
         {featuredImage?.sourceUrl && (
-          <figure className="mx-auto mt-8 w-[90%] max-w-[1700px] md:mt-12">
+          <figure className="mx-auto mt-8 w-[90%] max-w-[1700px] md:mt-12 4xl:max-w-[3400px]">
             <Image
               src={featuredImage.sourceUrl}
               alt={featuredImage.altText || plainTitle}
@@ -164,7 +164,7 @@ export default function SinglePost({ post, recent }) {
           </figure>
         )}
 
-        <div className="mx-auto grid w-[90%] max-w-[1500px] gap-12 py-16 lg:grid-cols-[150px_minmax(0,820px)_minmax(240px,1fr)] lg:items-start lg:gap-10 lg:py-24 xl:gap-16">
+        <div className="mx-auto grid w-[90%] max-w-[1500px] gap-12 py-16 lg:grid-cols-[150px_minmax(0,820px)_minmax(240px,1fr)] lg:items-start lg:gap-10 lg:py-24 xl:gap-16 4xl:max-w-[3000px] 4xl:grid-cols-[300px_minmax(0,1640px)_minmax(480px,1fr)]">
           <aside
             aria-label="Condividi l’articolo"
             className="lg:sticky lg:top-40"
@@ -282,7 +282,7 @@ export default function SinglePost({ post, recent }) {
       </article>
 
       <section className="bg-red text-white">
-        <div className="mx-auto flex w-[90%] max-w-[1500px] flex-col items-start justify-between gap-8 py-10 md:flex-row md:items-center md:py-12">
+        <div className="mx-auto flex w-[90%] max-w-[1500px] flex-col items-start justify-between gap-8 py-10 md:flex-row md:items-center md:py-12 4xl:max-w-[3000px]">
           <div className="flex items-center gap-6">
             <span
               aria-hidden="true"

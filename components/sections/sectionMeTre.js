@@ -5,7 +5,7 @@ import SectionLink from "../layout/SectionLink";
 
 const SectionMeTre = ({ translation }) => {
   return (
-    <section className="mx-auto grid w-[90%] gap-12 border-b border-main/10 py-20 lg:grid-cols-2 lg:items-center lg:gap-20 lg:py-10">
+    <section className="mx-auto grid w-[90%] gap-12 border-b border-main/10 py-20 lg:grid-cols-2 lg:items-center lg:gap-20 lg:py-10 4xl:gap-32 4xl:py-24">
       <div className="relative">
         <Image
           className="h-auto w-full object-cover aspect-[4.3/3]"
@@ -21,12 +21,12 @@ const SectionMeTre = ({ translation }) => {
         />
       </div>
 
-      <div className="max-w-2xl">
+      <div className="max-w-2xl 4xl:max-w-5xl">
         <SectionIndex>MITHA PROJECT</SectionIndex>
-        <h2 className="text-4xl font-extrabold leading-[1.05] text-main md:text-5xl 2xl:text-4xl">
+        <h2 className="text-4xl font-extrabold leading-[1.05] text-main md:text-5xl 2xl:text-4xl 4xl:text-7xl">
           Un gioco creativo che diventa realtà.
         </h2>
-        <p className="mt-7 text-base leading-relaxed text-second lg:text-lg">
+        <p className="mt-7 text-base leading-relaxed text-second lg:text-lg 4xl:mt-10 4xl:text-3xl">
           Mitha è la collaborazione tra MIAO graphics e Thallion Dev: uniamo
           identità visiva e web design per trasformare idee, obiettivi e
           contenuti in progetti digitali coerenti e riconoscibili.

@@ -9,9 +9,9 @@ const variants = {
 };
 
 const sizes = {
-  sm: "min-h-11 px-5 py-2.5 text-xs",
-  md: "min-h-12 px-6 py-3 text-sm",
-  lg: "min-h-14 px-7 py-4 text-sm",
+  sm: "min-h-11 px-5 py-2.5 text-xs 4xl:min-h-16 4xl:px-8 4xl:text-lg",
+  md: "min-h-12 px-6 py-3 text-sm 4xl:min-h-20 4xl:px-10 4xl:text-xl",
+  lg: "min-h-14 px-7 py-4 text-sm 4xl:min-h-20 4xl:px-10 4xl:text-xl",
 };
 
 const Button = ({
@@ -28,7 +28,7 @@ const Button = ({
   <button
     type={type}
     disabled={disabled}
-    className={`group inline-flex items-center justify-center gap-4 border font-bold uppercase tracking-[0.1em] transition-colors duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-red disabled:cursor-wait disabled:opacity-70 ${variants[variant]} ${sizes[size]} ${className}`}
+    className={`group inline-flex items-center justify-center gap-4 border font-bold uppercase  transition-colors duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-red disabled:cursor-wait disabled:opacity-70 ${variants[variant]} ${sizes[size]} ${className}`}
     {...props}
   >
     <span>{children}</span>

@@ -67,10 +67,10 @@ const Contacts = ({ translation }) => (
       compactGap
     >
       <SectionIndex>Contatti</SectionIndex>
-      <h1 className="mt-6 text-4xl font-extrabold text-main sm:text-6xl md:text-7xl ">
+      <h1 className="mt-6 text-4xl font-extrabold text-main sm:text-6xl md:text-7xl 4xl:text-[8rem]">
         Parliamo del tuo prossimo <span className="text-red">progetto.</span>
       </h1>
-      <p className="max-w-xl text-lg leading-relaxed mt-7 text-second md:text-lg">
+      <p className="mt-7 max-w-xl text-lg leading-relaxed text-second md:text-lg 4xl:mt-10 4xl:max-w-4xl 4xl:text-3xl">
         Raccontami la tua idea, il punto in cui ti trovi e dove vuoi arrivare.
         Ti aiuterò a trasformarla in una direzione visiva chiara e
         riconoscibile.
@@ -96,8 +96,8 @@ const Contacts = ({ translation }) => (
       </div>
     </HeroPage>
 
-    <section className="py-12 border-b border-main/10 md:py-16">
-      <div className="mx-auto grid w-[90%] max-w-[1920px] gap-8 md:grid-cols-[auto_1fr] md:items-center md:gap-12">
+    <section className="border-b border-main/10 py-12 md:py-16 4xl:py-28">
+      <div className="mx-auto grid w-[90%] max-w-[1920px] gap-8 md:grid-cols-[auto_1fr] md:items-center md:gap-12 4xl:max-w-[3840px]">
         <div className="flex items-center gap-5">
           <span
             aria-hidden="true"
@@ -105,11 +105,11 @@ const Contacts = ({ translation }) => (
           >
             {"{"}
           </span>
-          <h2 className="text-3xl font-extrabold leading-tight text-main md:text-4xl">
+          <h2 className="text-3xl font-extrabold leading-tight text-main md:text-4xl 4xl:text-6xl">
             Il primo passo è raccontarmi cosa hai in mente.
           </h2>
         </div>
-        <div className="grid gap-4 text-base leading-relaxed text-second md:border-l md:border-main/15 md:pl-12 md:text-lg">
+        <div className="grid gap-4 text-base leading-relaxed text-second md:border-l md:border-main/15 md:pl-12 md:text-lg 4xl:gap-6 4xl:pl-16 4xl:text-3xl">
           <p>
             Non serve avere già tutto chiaro: partiamo da obiettivi, necessità e
             contesto per capire insieme la direzione migliore.
@@ -123,17 +123,17 @@ const Contacts = ({ translation }) => (
 
     <section
       id="form-contatti"
-      className="scroll-mt-32 bg-[#f7f6f4] py-16 md:py-24"
+      className="scroll-mt-32 bg-[#f7f6f4] py-16 md:py-24 4xl:py-40"
     >
-      <div className="mx-auto w-[90%] max-w-[1920px]">
+      <div className="mx-auto w-[90%] max-w-[1920px] 4xl:max-w-[3840px]">
         <div className="grid gap-7 border-b border-main/15 pb-8 lg:grid-cols-[1fr_0.7fr] lg:items-end">
           <div>
             <SectionIndex>Il tuo progetto</SectionIndex>
-            <h2 className="mt-3 text-4xl font-extrabold leading-tight text-main md:text-5xl">
+            <h2 className="mt-3 text-4xl font-extrabold leading-tight text-main md:text-5xl 4xl:text-7xl">
               Iniziamo da qui<span className="text-red">.</span>
             </h2>
           </div>
-          <p className="max-w-xl text-base leading-relaxed text-second md:text-lg lg:justify-self-end">
+          <p className="max-w-xl text-base leading-relaxed text-second md:text-lg lg:justify-self-end 4xl:max-w-4xl 4xl:text-3xl">
             Compila il form con le informazioni che hai già. Più dettagli mi
             dai, più il primo confronto sarà concreto e utile.
           </p>
@@ -151,7 +151,7 @@ const Contacts = ({ translation }) => (
                   href={detail.href}
                   target={detail.external ? "_blank" : undefined}
                   rel={detail.external ? "noopener noreferrer" : undefined}
-                  className="group relative flex min-h-[138px] items-start gap-4 border-b border-r border-main/15 p-6 transition-colors hover:border-red hover:bg-red hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-red"
+                  className="group relative flex min-h-[138px] items-start gap-4 border-b border-r border-main/15 p-6 transition-colors hover:border-red hover:bg-red hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-red 4xl:min-h-[240px] 4xl:gap-7 4xl:p-10"
                 >
                   <Icon
                     icon={detail.icon}
@@ -159,10 +159,10 @@ const Contacts = ({ translation }) => (
                     className="w-5 h-5 mt-1 transition-colors shrink-0 text-red group-hover:text-white"
                   />
                   <div className="min-w-0 pr-7">
-                    <p className="text-xs font-extrabold uppercase tracking-[0.14em] text-second transition-colors group-hover:text-white/70">
+                    <p className="text-xs font-extrabold uppercase tracking-[0.14em] text-second transition-colors group-hover:text-white/70 4xl:text-xl">
                       {detail.label}
                     </p>
-                    <p className="mt-3 text-lg font-extrabold leading-tight break-words transition-colors text-main group-hover:text-white xl:text-xl">
+                    <p className="mt-3 break-words text-lg font-extrabold leading-tight text-main transition-colors group-hover:text-white xl:text-xl 4xl:mt-6 4xl:text-3xl">
                       {detail.value}
                     </p>
                     <Icon

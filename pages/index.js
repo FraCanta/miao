@@ -9,6 +9,13 @@ import SectionsQuattro from "@/components/sections/sectionsQuattro";
 import { requestWordPress } from "@/utils/graphql";
 import { GET_HOME_POSTS } from "@/utils/queries";
 
+const HOME_SERVICE_LINKS = [
+  "/servizi/logo-design",
+  "/servizi/branding-strategy",
+  "/servizi/label-packaging",
+  "/servizi/content-creator",
+];
+
 const getRandomItems = (items = [], count = 4) => {
   const shuffledItems = [...items];
 
@@ -156,13 +163,18 @@ export async function getStaticProps({ locale }) {
 
   const selectedWorks = getRandomItems(portfolioWorks, 4);
 
+  const services = obj?.servizi?.serviziItem || [];
+  const featuredServices = HOME_SERVICE_LINKS.map((link) =>
+    services.find((service) => service.link === link),
+  ).filter(Boolean);
+
   return {
     props: {
       translation: obj?.home,
       post: miaographicsPosts,
       users: users,
       selectedWorks,
-      featuredServices: obj?.servizi?.serviziItem?.slice(0, 4) || [],
+      featuredServices,
     },
     revalidate: 900,
   };

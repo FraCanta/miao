@@ -121,10 +121,10 @@ const SiteSearch = ({ menuOpen, onNavigate }) => {
         type="button"
         onClick={openSearch}
         tabIndex={menuOpen ? undefined : -1}
-        className="group flex items-center gap-3 text-xs font-bold uppercase tracking-[0.16em] text-white transition-colors hover:text-red focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-red"
+        className="group flex items-center gap-3 text-xs font-bold uppercase tracking-[0.16em] text-white transition-colors hover:text-red focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-red 4xl:gap-5 4xl:text-2xl"
         aria-haspopup="dialog"
       >
-        <Icon icon="ri:search-line" className="h-6 w-6 text-red" />
+        <Icon icon="ri:search-line" className="h-6 w-6 text-red 4xl:h-11 4xl:w-11" />
         Cerca nel sito
       </button>
 
