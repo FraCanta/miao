@@ -1875,16 +1875,15 @@
           "biscottiImg": "/assets/portfolioImg/daemy/label4.optimized.webp",
           "scatoleImg": "/assets/portfolioImg/daemy/box.optimized.webp",
           "gallery": [
-            "/assets/portfolioImg/daemy/daemy_gallery_01.optimized.webp",
-
             "/assets/portfolioImg/daemy/daemy_gallery_03.optimized.webp",
             "/assets/portfolioImg/daemy/daemy_gallery_02.optimized.webp",
-            "/assets/portfolioImg/daemy/daemy_gallery_04.optimized.webp",
-
-            "/assets/portfolioImg/daemy/daemy_gallery_06.optimized.webp",
             "/assets/portfolioImg/daemy/daemy_gallery_05.optimized.webp",
-            "/assets/portfolioImg/daemy/daemy_gallery_07.optimized.webp",
-            "/assets/portfolioImg/daemy/daemy_gallery_08.optimized.webp"
+            "/assets/portfolioImg/daemy/daemy_gallery_06.optimized.webp",
+
+            "/assets/portfolioImg/daemy/daemy_gallery_08.optimized.webp",
+            "/assets/portfolioImg/daemy/daemy_gallery_01.optimized.webp",
+            "/assets/portfolioImg/daemy/daemy_gallery_04.optimized.webp",
+            "/assets/portfolioImg/daemy/daemy_gallery_07.optimized.webp"
           ]
         }
       },
