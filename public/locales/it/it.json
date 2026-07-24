@@ -1500,13 +1500,22 @@
         "button": ["Branding", "Label Design"]
       },
       {
-        "img": "/assets/portfolioImg/giain/cover_giain.optimized.webp",
+        "img": "/assets/portfolioImg/giain/giain_cover4.optimized.webp",
         "name": "Giain",
         "title": "giain",
         "descrizione": "di Delizie della Valle",
         "location": "Aosta - Valle d’Aosta",
         "link": "/portfolio/giain",
         "button": ["Branding", "Label Design"]
+      },
+      {
+        "img": "/assets/portfolioImg/avise/cover_avise.optimized.webp",
+        "name": "Avise",
+        "title": "avise",
+        "descrizione": "di Delizie della Valle",
+        "location": "Aosta - Valle d’Aosta",
+        "link": "/portfolio/avise",
+        "button": ["Branding", "Cartellonistica"]
       }
     ],
     "singleWorks": {
@@ -1792,8 +1801,10 @@
         },
         "label": {
           "titolo": "Label & Pack Design",
-          "labelImg": "/assets/portfolioImg/chappoz/label1.optimized.webp",
-          "biscottiImg": "/assets/portfolioImg/chappoz/label_polenta.optimized.webp"
+          "labelImg": "/assets/portfolioImg/chappoz/chappoz.optimized.webp",
+          "biscottiImg": "/assets/portfolioImg/chappoz/chappoz2.optimized.webp",
+          "scatoleImg": "/assets/portfolioImg/chappoz/chappoz3.optimized.webp",
+          "gallery": ["/assets/portfolioImg/chappoz/chappoz4.optimized.webp"]
         },
         "social": {
           "titolo": "Social",
@@ -1801,7 +1812,9 @@
             "Creazione di contenuti fotografici e testuali ad hoc, per la promozione dell’azienda sui canali social di Meta."
           ],
           "socialImg": [
-            "/assets/portfolioImg/chappoz/social_chappoz2.optimized.webp"
+            "/assets/portfolioImg/chappoz/social_chappoz2.optimized.webp",
+            "/assets/portfolioImg/chappoz/chappoz_social.optimized.webp  ",
+            "/assets/portfolioImg/chappoz/chappoz_social2.optimized.webp  "
           ]
         }
       },
@@ -2252,18 +2265,23 @@
           "cartellinoImg": "/assets/portfolioImg/alpimiel/alpimiel4.optimized.webp",
           "caramelleImg": "/assets/portfolioImg/alpimiel/alpimiel3.optimized.webp",
           "biscottiImg": "/assets/portfolioImg/alpimiel/etichetta_miele7.optimized.webp",
-          "scatoleImg": "/assets/portfolioImg/alpimiel/alpimiel5.optimized.webp",
-          "cremaImg": "/assets/portfolioImg/alpimiel/alpimiel6.optimized.webp",
-          "etichettasImg": "/assets/portfolioImg/alpimiel/alpimiel10.optimized.webp",
+          "scatoleImg": "/assets/portfolioImg/alpimiel/alpimiel.optimized.webp",
+          "cremaImg": "/assets/portfolioImg/alpimiel/alpimiel2.optimized.webp",
+          "etichettasImg": "/assets/portfolioImg/alpimiel/alpimiel3.optimized.webp",
           "gallery": [
-            "/assets/portfolioImg/alpimiel/alpimiel8.optimized.webp",
+            "/assets/portfolioImg/alpimiel/alpimiel5.optimized.webp",
+            "/assets/portfolioImg/alpimiel/alpimiel6.optimized.webp",
             "/assets/portfolioImg/alpimiel/alpimiel7.optimized.webp",
-            "/assets/portfolioImg/alpimiel/alpimiel9.optimized.webp"
+            "/assets/portfolioImg/alpimiel/alpimiel8.optimized.webp",
+            "/assets/portfolioImg/alpimiel/alpimiel9.optimized.webp",
+            "/assets/portfolioImg/alpimiel/alpimiel10.optimized.webp",
+            "/assets/portfolioImg/alpimiel/alpimiel11.optimized.webp",
+            "/assets/portfolioImg/alpimiel/alpimiel12.optimized.webp"
           ]
         }
       },
       "giain": {
-        "img": "/assets/portfolioImg/giain/cover_giain.optimized.webp",
+        "img": "/assets/portfolioImg/giain/giain_cover4.optimized.webp",
         "name": "Giain",
         "title": "giain",
         "descrizione": "di Delizie della Valle",
@@ -2325,6 +2343,69 @@
             "/assets/portfolioImg/giain/label_caramelle.optimized.webp",
             "/assets/portfolioImg/giain/label_barattolo4.optimized.webp",
             "/assets/portfolioImg/giain/label_bottiglie.optimized.webp"
+          ]
+        }
+      },
+      "avise": {
+        "img": "/assets/portfolioImg/avise/cover_avise.optimized.webp",
+        "name": "Avise",
+        "title": "avise",
+        "location": "Aosta - Valle d’Aosta",
+        "link": "/portfolio/avise",
+        "button": ["Branding", "Cartellonistica"],
+        "introTitolo": "Progetto",
+        "cliente": {
+          "titolo": "cliente",
+          "nome": "Avise"
+        },
+        "keywords": {
+          "titolo": "keywords",
+          "nome": "Tranquillità • Natura • Montagna • Tempo libero"
+        },
+        "anno": {
+          "titolo": "anno",
+          "nome": "2025 - 26"
+        },
+
+        "servizi": {
+          "titolo": "servizi",
+          "nome": ["branding - cartellonistica"]
+        },
+        "desc": [
+          "Il logo turistico di Avise nasce dall’idea di racchiudere, in un unico segno grafico, l’identità del borgo e gli elementi che ne raccontano il territorio, la storia e le tradizioni.",
+          "Il punto di partenza è il nome AVISE, protagonista del logo grazie a un carattere tipografico extra bold dalle linee morbide, successivamente personalizzato attraverso dettagli grafici che trasformano ogni lettera in un simbolo del paese."
+        ],
+        "logoImg": "/assets/portfolioImg/avise/intro_avise.optimized.webp",
+        "typo": {
+          "titolo": "Typography",
+          "typoImg": "/assets/portfolioImg/avise/typo_avise_text.optimized.webp",
+          "typoImg2": "/assets/portfolioImg/avise/typo_avise_font.optimized.webp"
+        },
+        "color": {
+          "titolo": "Color Brand",
+          "descrizione": [
+            "La palette cromatica è stata sviluppata prendendo ispirazione dai colori dello stemma del Comune di Avise, con l’obiettivo di mantenere un forte legame con l’identità storica e istituzionale del territorio.",
+            "I colori scelti sono un blu caldo e profondo, simbolo di affidabilità, storia e paesaggio alpino, e un giallo limone, luminoso e vivace, che richiama l’energia, l’accoglienza e la vitalità del borgo.",
+            "L’abbinamento di queste due tonalità conferisce al sistema visivo un’identità contemporanea, riconoscibile e coerente, valorizzando al tempo stesso le radici storiche del Comune."
+          ],
+          "colorImg": "/assets/portfolioImg/avise/color_brand.optimized.webp"
+        },
+        "illustrazioni": {
+          "titolo": "Illustrazioni vettoriali",
+          "illImg": "/assets/portfolioImg/avise/portfolio_Avise7.optimized.webp"
+        },
+
+        "label": {
+          "labelImg": "/assets/portfolioImg/avise/portfolio_Avise6.optimized.webp",
+          "gallery": [
+            "/assets/portfolioImg/avise/portfolio_Avise12.optimized.webp",
+            "/assets/portfolioImg/avise/portfolio_Avise5.optimized.webp",
+
+            "/assets/portfolioImg/avise/portfolio_Avise8.optimized.webp",
+            "/assets/portfolioImg/avise/portfolio_Avise9.optimized.webp",
+            "/assets/portfolioImg/avise/portfolio_Avise10.optimized.webp",
+            "/assets/portfolioImg/avise/portfolio_Avise11.optimized.webp",
+            "/assets/portfolioImg/avise/portfolio_Avise4.optimized.webp"
           ]
         }
       }

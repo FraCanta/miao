@@ -29,7 +29,7 @@ const Label = ({ translation, projectName }) => {
           <Image
             src={translation?.biscottiImg}
             fill
-            className="object-contain h-full"
+            className="object-cover h-full"
             alt=""
           ></Image>
         </div>
@@ -42,7 +42,7 @@ const Label = ({ translation, projectName }) => {
           <Image
             src={translation?.caramelleImg}
             fill
-            className="object-contain h-full"
+            className="object-cover h-full"
             alt=""
           ></Image>
         </div>
@@ -54,7 +54,7 @@ const Label = ({ translation, projectName }) => {
           <Image
             src={translation?.cartellinoImg}
             fill
-            className="object-contain w-full h-full"
+            className="object-cover w-full h-full"
             alt=""
           ></Image>
         </div>
@@ -67,7 +67,7 @@ const Label = ({ translation, projectName }) => {
           <Image
             src={translation?.scatoleImg}
             fill
-            className="object-contain h-full"
+            className="object-cover h-full"
             alt=""
           ></Image>
         </div>
@@ -80,7 +80,7 @@ const Label = ({ translation, projectName }) => {
           <Image
             src={translation?.cremaImg}
             fill
-            className="object-contain h-full"
+            className="object-cover h-full"
             alt=""
           ></Image>
         </div>
@@ -92,7 +92,7 @@ const Label = ({ translation, projectName }) => {
           <Image
             src={translation?.etichettasImg}
             fill
-            className="object-contain h-full"
+            className="object-cover h-full"
             alt=""
           ></Image>
         </div>
@@ -104,7 +104,7 @@ const Label = ({ translation, projectName }) => {
           <Image
             src={translation?.label}
             fill
-            className="object-contain h-full"
+            className="object-cover h-full"
             alt=""
           ></Image>
         </div>
@@ -116,7 +116,7 @@ const Label = ({ translation, projectName }) => {
           <Image
             src={translation?.label2}
             fill
-            className="object-contain h-full"
+            className="object-cover h-full"
             alt=""
           ></Image>
         </div>
@@ -128,7 +128,7 @@ const Label = ({ translation, projectName }) => {
           <Image
             src={translation?.label3}
             fill
-            className="object-contain h-full"
+            className="object-cover h-full"
             alt=""
           ></Image>
         </div>
@@ -136,11 +136,11 @@ const Label = ({ translation, projectName }) => {
         ""
       )}
       {translation?.gallery?.map((image, index) => (
-        <div key={image} className="relative h-[28vh] md:h-[100vh] ">
+        <div key={image} className="relative h-[28vh] md:h-[100vh] w-full">
           <Image
             src={image}
             fill
-            className="object-contain h-full"
+            className="object-cover h-full"
             alt={`${projectName} - immagine di progetto ${index + 1}`}
           />
         </div>

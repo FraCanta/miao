@@ -1,20 +1,24 @@
 {
-  "generatedAt": "2026-07-02T14:42:07.708Z",
+  "generatedAt": "2026-07-24T13:56:02.955Z",
   "settings": {
     "maxWidth": 2560,
     "maxConcurrency": 4
   },
   "summary": {
-    "convertedImages": 400,
-    "newConvertedImages": 2,
+    "convertedImages": 425,
+    "newConvertedImages": 32,
     "updatedFiles": 1,
-    "sourceBytes": 594903557,
-    "targetBytes": 83094986,
-    "savedBytes": 511808571,
-    "savedPercent": 86.03,
-    "missingReferences": 8
+    "sourceBytes": 877165752,
+    "targetBytes": 102238022,
+    "savedBytes": 774927730,
+    "savedPercent": 88.34,
+    "missingReferences": 9
   },
   "missingReferences": [
+    {
+      "file": "styles/wordpress.css",
+      "reference": "/assets/noise.webp"
+    },
     {
       "file": "styles/wordpress.css",
       "reference": "/assets/noise.webp"
@@ -1962,62 +1966,62 @@
     {
       "source": "public/assets/portfolioImg/alpimiel/alpimiel5.png",
       "target": "public/assets/portfolioImg/alpimiel/alpimiel5.optimized.webp",
-      "sourceBytes": 10841309,
-      "targetBytes": 576052,
-      "sourceWidth": 4167,
-      "sourceHeight": 2083,
+      "sourceBytes": 10387899,
+      "targetBytes": 692070,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
       "targetWidth": 2560,
-      "targetHeight": 1280
+      "targetHeight": 1810
     },
     {
       "source": "public/assets/portfolioImg/alpimiel/alpimiel6.png",
       "target": "public/assets/portfolioImg/alpimiel/alpimiel6.optimized.webp",
-      "sourceBytes": 10964521,
-      "targetBytes": 548856,
-      "sourceWidth": 4167,
-      "sourceHeight": 2083,
+      "sourceBytes": 14209899,
+      "targetBytes": 893294,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
       "targetWidth": 2560,
-      "targetHeight": 1280
+      "targetHeight": 1810
     },
     {
       "source": "public/assets/portfolioImg/alpimiel/alpimiel10.png",
       "target": "public/assets/portfolioImg/alpimiel/alpimiel10.optimized.webp",
-      "sourceBytes": 13933231,
-      "targetBytes": 571062,
-      "sourceWidth": 4167,
-      "sourceHeight": 2083,
+      "sourceBytes": 14108344,
+      "targetBytes": 751982,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
       "targetWidth": 2560,
-      "targetHeight": 1280
+      "targetHeight": 1810
     },
     {
       "source": "public/assets/portfolioImg/alpimiel/alpimiel8.png",
       "target": "public/assets/portfolioImg/alpimiel/alpimiel8.optimized.webp",
-      "sourceBytes": 13424830,
-      "targetBytes": 466384,
-      "sourceWidth": 4167,
-      "sourceHeight": 2083,
+      "sourceBytes": 13597320,
+      "targetBytes": 645714,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
       "targetWidth": 2560,
-      "targetHeight": 1280
+      "targetHeight": 1810
     },
     {
       "source": "public/assets/portfolioImg/alpimiel/alpimiel7.png",
       "target": "public/assets/portfolioImg/alpimiel/alpimiel7.optimized.webp",
-      "sourceBytes": 13790075,
-      "targetBytes": 437706,
-      "sourceWidth": 4167,
-      "sourceHeight": 2083,
+      "sourceBytes": 13507735,
+      "targetBytes": 555620,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
       "targetWidth": 2560,
-      "targetHeight": 1280
+      "targetHeight": 1810
     },
     {
       "source": "public/assets/portfolioImg/alpimiel/alpimiel9.png",
       "target": "public/assets/portfolioImg/alpimiel/alpimiel9.optimized.webp",
-      "sourceBytes": 12517975,
-      "targetBytes": 448068,
-      "sourceWidth": 4167,
-      "sourceHeight": 2083,
+      "sourceBytes": 12261653,
+      "targetBytes": 583192,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
       "targetWidth": 2560,
-      "targetHeight": 1280
+      "targetHeight": 1810
     },
     {
       "source": "public/assets/pageImg/contattiTitle.png",
@@ -3750,14 +3754,14 @@
       "targetHeight": 1280
     },
     {
-      "source": "public/assets/portfolioImg/alpimiel/alpimiel3.webp",
+      "source": "public/assets/portfolioImg/alpimiel/alpimiel3.png",
       "target": "public/assets/portfolioImg/alpimiel/alpimiel3.optimized.webp",
-      "sourceBytes": 6820652,
-      "targetBytes": 352700,
-      "sourceWidth": 4167,
-      "sourceHeight": 2083,
+      "sourceBytes": 11616463,
+      "targetBytes": 659650,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
       "targetWidth": 2560,
-      "targetHeight": 1280
+      "targetHeight": 1810
     },
     {
       "source": "public/assets/pageImg/lupo2.webp",
@@ -4048,6 +4052,256 @@
       "sourceHeight": 1890,
       "targetWidth": 1890,
       "targetHeight": 1890
+    },
+    {
+      "source": "public/assets/portfolioImg/giain/giain_cover4.jpg",
+      "target": "public/assets/portfolioImg/giain/giain_cover4.optimized.webp",
+      "sourceBytes": 12655054,
+      "targetBytes": 654720,
+      "sourceWidth": 5184,
+      "sourceHeight": 3456,
+      "targetWidth": 2560,
+      "targetHeight": 1707
+    },
+    {
+      "source": "public/assets/portfolioImg/avise/cover_avise.jpg",
+      "target": "public/assets/portfolioImg/avise/cover_avise.optimized.webp",
+      "sourceBytes": 14638130,
+      "targetBytes": 1293328,
+      "sourceWidth": 5184,
+      "sourceHeight": 3456,
+      "targetWidth": 2560,
+      "targetHeight": 1707
+    },
+    {
+      "source": "public/assets/portfolioImg/chappoz/chappoz.png",
+      "target": "public/assets/portfolioImg/chappoz/chappoz.optimized.webp",
+      "sourceBytes": 16017493,
+      "targetBytes": 699958,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/chappoz/chappoz2.png",
+      "target": "public/assets/portfolioImg/chappoz/chappoz2.optimized.webp",
+      "sourceBytes": 13694193,
+      "targetBytes": 612004,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/chappoz/chappoz3.png",
+      "target": "public/assets/portfolioImg/chappoz/chappoz3.optimized.webp",
+      "sourceBytes": 14100265,
+      "targetBytes": 777322,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/chappoz/chappoz4.png",
+      "target": "public/assets/portfolioImg/chappoz/chappoz4.optimized.webp",
+      "sourceBytes": 13229339,
+      "targetBytes": 854770,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/chappoz/chappoz_social.png",
+      "target": "public/assets/portfolioImg/chappoz/chappoz_social.optimized.webp",
+      "sourceBytes": 13469562,
+      "targetBytes": 846322,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/chappoz/chappoz_social2.png",
+      "target": "public/assets/portfolioImg/chappoz/chappoz_social2.optimized.webp",
+      "sourceBytes": 14299033,
+      "targetBytes": 885076,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/alpimiel/alpimiel.png",
+      "target": "public/assets/portfolioImg/alpimiel/alpimiel.optimized.webp",
+      "sourceBytes": 10989500,
+      "targetBytes": 566876,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/alpimiel/alpimiel2.png",
+      "target": "public/assets/portfolioImg/alpimiel/alpimiel2.optimized.webp",
+      "sourceBytes": 11702261,
+      "targetBytes": 699788,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/alpimiel/alpimiel11.png",
+      "target": "public/assets/portfolioImg/alpimiel/alpimiel11.optimized.webp",
+      "sourceBytes": 12053659,
+      "targetBytes": 567558,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/alpimiel/alpimiel12.png",
+      "target": "public/assets/portfolioImg/alpimiel/alpimiel12.optimized.webp",
+      "sourceBytes": 11584046,
+      "targetBytes": 572950,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/avise/intro_avise.png",
+      "target": "public/assets/portfolioImg/avise/intro_avise.optimized.webp",
+      "sourceBytes": 2893774,
+      "targetBytes": 338210,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/avise/typo_avise_text.png",
+      "target": "public/assets/portfolioImg/avise/typo_avise_text.optimized.webp",
+      "sourceBytes": 68171,
+      "targetBytes": 20240,
+      "sourceWidth": 1754,
+      "sourceHeight": 929,
+      "targetWidth": 1754,
+      "targetHeight": 929
+    },
+    {
+      "source": "public/assets/portfolioImg/avise/typo_avise_font.png",
+      "target": "public/assets/portfolioImg/avise/typo_avise_font.optimized.webp",
+      "sourceBytes": 52571,
+      "targetBytes": 19590,
+      "sourceWidth": 1754,
+      "sourceHeight": 932,
+      "targetWidth": 1754,
+      "targetHeight": 932
+    },
+    {
+      "source": "public/assets/portfolioImg/avise/color_brand.png",
+      "target": "public/assets/portfolioImg/avise/color_brand.optimized.webp",
+      "sourceBytes": 423579,
+      "targetBytes": 97900,
+      "sourceWidth": 3508,
+      "sourceHeight": 1191,
+      "targetWidth": 2560,
+      "targetHeight": 869
+    },
+    {
+      "source": "public/assets/portfolioImg/avise/portfolio_Avise7.png",
+      "target": "public/assets/portfolioImg/avise/portfolio_Avise7.optimized.webp",
+      "sourceBytes": 3492207,
+      "targetBytes": 476554,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/avise/portfolio_Avise6.png",
+      "target": "public/assets/portfolioImg/avise/portfolio_Avise6.optimized.webp",
+      "sourceBytes": 13403488,
+      "targetBytes": 900236,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/avise/portfolio_Avise12.png",
+      "target": "public/assets/portfolioImg/avise/portfolio_Avise12.optimized.webp",
+      "sourceBytes": 10376725,
+      "targetBytes": 1039994,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/avise/portfolio_Avise5.png",
+      "target": "public/assets/portfolioImg/avise/portfolio_Avise5.optimized.webp",
+      "sourceBytes": 16096532,
+      "targetBytes": 786646,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/avise/portfolio_Avise8.png",
+      "target": "public/assets/portfolioImg/avise/portfolio_Avise8.optimized.webp",
+      "sourceBytes": 15776013,
+      "targetBytes": 1054914,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/avise/portfolio_Avise9.png",
+      "target": "public/assets/portfolioImg/avise/portfolio_Avise9.optimized.webp",
+      "sourceBytes": 16246757,
+      "targetBytes": 1289686,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/avise/portfolio_Avise10.png",
+      "target": "public/assets/portfolioImg/avise/portfolio_Avise10.optimized.webp",
+      "sourceBytes": 12909975,
+      "targetBytes": 1125838,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/avise/portfolio_Avise11.png",
+      "target": "public/assets/portfolioImg/avise/portfolio_Avise11.optimized.webp",
+      "sourceBytes": 12622180,
+      "targetBytes": 979526,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
+    },
+    {
+      "source": "public/assets/portfolioImg/avise/portfolio_Avise4.png",
+      "target": "public/assets/portfolioImg/avise/portfolio_Avise4.optimized.webp",
+      "sourceBytes": 12070968,
+      "targetBytes": 602336,
+      "sourceWidth": 3508,
+      "sourceHeight": 2480,
+      "targetWidth": 2560,
+      "targetHeight": 1810
     }
   ]
 }
